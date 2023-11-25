@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am 董宇光 (Yeu-Guang Tung), a medical student at school of medicine, National Taiwan University. I had been learning physics in high school, and am learning medicine and algorithm currently. I am intesrested in the application of computational physics in drug discovery.
+I am 董宇光 (Yeu-Guang Tung), a medical student studying at school of medicine, National Taiwan University. I had been learning physics in high school, and am learning medicine and algorithm currently. I am intesrested in application of computational physics in drug discovery.
 
-* 東京大学一般選抜：理科一類 +32 点合格ライン超え（理三落ちAランク）
+* 東京大学一般選抜：理科一類 +32 点合格点超え（理三落ちAランク）
 * 台湾大学医学部医学科：進学
 * 国際物理オリンピック：銀メダル
 
