@@ -14,7 +14,7 @@ I am 董宇光 (Yeu-Guang Tung), a medical student at school of medicine, Nation
 * 台湾大学医学部医学科：進学
 * 国際物理オリンピック：銀メダル
 
-脳の細胞は増えないが、パラメーターは多分変えらます。
+脳の細胞は増えないが、パラメーターは多分変えられます。
 
 ## Paper
 
