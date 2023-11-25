@@ -10,8 +10,7 @@ tags:
 
 ## 千年を超えて
 
-<iframe src="https://eggs.mu/player/embed/eJwNyjsKgDAMANC7ZLZQNWkad8HFQ5h-oIgdqk7i3XV9vAfOFmACipSZWUx26g2iy0ZQ1GjwpJJxsMlCB3U70lz_v5R9a2W9zxJ-jhdMPVvr2Y0sRPh-OtwYNA?layout=vlong&base=f2f2f2&text=000000&button=000000&size=w360" width="100%" height="100%" scrolling="no" framebordercrolling="no" frameborder="0" class="eggsplayer eggs-w360" style="height: 461px; width: 100px; min-width:100%"></iframe>
-
+<iframe src="https://eggs.mu/player/embed/eJwNyj0OwjAMQOG7eG6kxLUTmx2JhUPkx5Eq1A4tTIi74_W97wvX2eEGPHiWUjTM3CQQ5RmUtIXWhZtOwmgRFjjqbvfD_WN71XN7fq6tex5vuKUSowhlxDXhAns7naW-jlZXMfaLdTK1MoezUVLsypHYUtLIhbMJCvsbioTVgZnB7w_WFCtS?layout=vlong&base=f2f2f2&text=000000&button=000000&size=w360" width="100%" height="461" scrolling="no" framebordercrolling="no" frameborder="0" class="eggsplayer eggs-w360" style="height: 461px; width: 100px; min-width:100%"></iframe>
 
 ## About
 
