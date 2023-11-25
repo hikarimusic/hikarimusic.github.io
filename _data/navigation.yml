@@ -1,0 +1,14 @@
+# main links links
+main:
+
+  - title: "Paper"
+    url: /paper/
+
+  - title: "Music"
+    url: /music/
+
+  - title: "Note"
+    url: /note/
+
+  - title: "Other"
+    url: /other/
