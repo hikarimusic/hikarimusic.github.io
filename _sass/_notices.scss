@@ -12,7 +12,7 @@
 
 @mixin notice($notice-color) {
   margin: 2em 0 !important;  /* override*/
-  padding: 1em;
+  padding: 1em 2em;
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
@@ -57,13 +57,7 @@
 
   ul {
     &:last-child {
-      margin-bottom: 0;
-    }
-
-    list-style-position: inside; // Ensure list bullets stay inside the notice box
-
-    li {
-      margin-bottom: 0.5em; // Adjust the spacing between list items
+      margin-bottom: 0; /* override*/
     }
   }
 }
