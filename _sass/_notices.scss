@@ -57,7 +57,13 @@
 
   ul {
     &:last-child {
-      margin-bottom: 0; /* override*/
+      margin-bottom: 0;
+    }
+
+    list-style-position: inside; // Ensure list bullets stay inside the notice box
+
+    li {
+      margin-bottom: 0.5em; // Adjust the spacing between list items
     }
   }
 }
