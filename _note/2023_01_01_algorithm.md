@@ -43,6 +43,23 @@ bool dfs("<position>") {
     return false;
 }
 ```
+```cpp
+void search() {
+    for (int S=0; S<(1<<N); ++S) {
+        "< S&(1<<i), ...>";
+    }
+}
+```
+```cpp
+vector<int> arr;
+
+void search() {
+    do {
+        "< arr[i], ...>";
+    } while (next_permutation(arr.begin(), arr.end()));
+}
+```
+
 
 ### Binary Search / 二分探索
 ```cpp
