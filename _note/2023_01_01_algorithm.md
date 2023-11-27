@@ -66,12 +66,35 @@ void search() {
 vector<vector<int>> dp;
 
 void solve() {
-    "<initialize>";
+    "<base case>";
     for (int i=1; i<=N; ++i) {
         for (int j=1; j<=M; ++j) {
             dp[i][j] = "<function of dp[i-1][j-1], dp[i-1][j], ...>";
         }
     }
+}
+```
+```cpp
+vector<vector<int>> dp;
+
+int rec(int S, int v) {
+    if ("<memorized>")
+        return dp[S][v];
+    if ("<base case>")
+        return dp[S][v] = "<value>";
+    dp[S][v] = "<function of rec(S^(1<<_), v'), ...>":
+    return dp[S][v];
+}
+```
+```cpp
+vector<vector<int>> dp;
+
+int rec(int l, int r) {
+    if ("<memorized>")
+        return dp[l][r];
+    if ("<base case>")
+        return dp[l][r] = "<value>";
+    dp[l][r] = "<function of rec(l, i), rec(i+1, r), ...>";
 }
 ```
 
