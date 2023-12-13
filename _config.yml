@@ -181,6 +181,9 @@ collections:
   music:
     output: true
     permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /:collection/:path/
   note:
     output: true
     permalink: /:collection/:path/
@@ -211,6 +214,16 @@ defaults:
   - scope:
       path: ""
       type: music
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+      related: true
+  # _software
+  - scope:
+      path: ""
+      type: software
     values:
       layout: single
       author_profile: true

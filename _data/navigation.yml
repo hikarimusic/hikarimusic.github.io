@@ -6,3 +6,6 @@ main:
 
   - title: "Music"
     url: /music/
+  
+  - title: "Software"
+    url: /software/

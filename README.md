@@ -1,3 +1,7 @@
 # HikariMusic
 
-Personal Note
+Personal Site
+
+```sh
+bundle exec jekyll serve
+```
