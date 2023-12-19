@@ -1,12 +1,12 @@
 ---
-title: 'Algorithm'
-date: 2023-01-01
-permalink: /note/2023_01_01_algorithm
+title: 'Algorithm (工事中)'
+date: 2023-01-02
+permalink: /note/2023_01_02_algorithm
 tags:
   - note
 ---
 
-Templates for competitive programming.
+Templates of competitive programming.
 
 ## Search / 探索
 

@@ -9,3 +9,6 @@ main:
   
   - title: "Software"
     url: /software/
+
+  - title: "Note"
+    url: /note/
