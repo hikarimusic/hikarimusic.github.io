@@ -199,14 +199,14 @@ int query(int v, int tl, int tr, int l, int r) {
 ### Euclidean Algorithm / ユークリッドの互除法
 ```cpp
 int gcd(int a, int b) {
-    if (b == 0) 
+    if (b==0) 
         return a;
     return gcd(b, a%b);
 }
 ```
 ```cpp
 int gcd(int a, int b, int& x, int& y) {
-    if (b == 0) {
+    if (b==0) {
         x = 1;
         y = 0;
         return a;
@@ -216,6 +216,74 @@ int gcd(int a, int b, int& x, int& y) {
     x = y1;
     y = x1 - y1*(a/b);
     return g;
+}
+```
+
+### Primality Test / 素数判定
+```cpp
+bool isPrime(int n) {
+    for (int d=2; d*d<=n; ++d) {
+        if (n%d==0)
+            return false;
+    }
+    return true;
+}
+```
+```cpp
+void sieve(int n) {
+    isPrime.assign(n+1, 1);
+    for (int i=2; i*i<=n; ++i) {
+        if (!isPrime[i])
+            continue;
+        for (int j=i*i; j<=n; j+=i)
+            isPrime[j] = 0;
+    }
+}
+```
+
+### Binary Exponentiation / べき乗
+```cpp
+int binpow(int x, int n) {
+    int r = 1;
+    while (n>0) {
+        if (n&1)
+            r *= x;
+        x *= x;
+        n >>= 1;
+    }
+    return r;
+}
+```
+
+### Modular Inverse / 逆元
+```cpp
+int modinv(int x, int m) {
+    int a=x, b=m, u=1, v=0;
+    while (b>0) {
+        int t = a/b;
+        a -= t*b; swap(a, b);
+        u -= t*v; swap(u, v);
+    }
+    int r = (u%m + m) % m;
+    return r;
+}
+```
+```cpp
+vector<int> fac, inv, finv;
+
+void build(int n, int m) {
+    fac.assign(n+1, 1);
+    inv.assign(n+1, 1);
+    finv.assign(n+1, 1);
+    for (int i=2; i<=n; ++i) {
+        fac[i] = fac[i-1] * i % m;
+        inv[i] = m - inv[m%i] * (m/i) % m;
+        finv[i] = finv[i-1] * inv[i] % m;
+    }
+}
+
+int binom(int n, int k, int m) {
+    return fac[n] * (finv[n-k] * finv[k] % m) % m; 
 }
 ```
 
