@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "HikariMusic Site"
 title_separator          : "-"
-name                     : &name "Hikari"
+name                     : &name "HikariMusic"
 description              : &description "personal description"
 url                      : https://hikarimusic.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

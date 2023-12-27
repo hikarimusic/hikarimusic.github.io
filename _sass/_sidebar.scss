@@ -50,19 +50,19 @@
 }
 
 .sidebar__right {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 
-  @include breakpoint($large) {
-    position: relative;
-    float: right;
-    width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
-    z-index: 10;
-  }
+  // @include breakpoint($large) {
+  //   position: relative;
+  //   float: right;
+  //   width: $right-sidebar-width-narrow;
+  //   margin-left: span(0.5 of 12);
+  //   z-index: 10;
+  // }
 
-  @include breakpoint($x-large) {
-    width: $right-sidebar-width;
-  }
+  // @include breakpoint($x-large) {
+  //   width: $right-sidebar-width;
+  // }
 }
 
 /*

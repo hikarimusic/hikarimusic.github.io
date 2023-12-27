@@ -4,9 +4,12 @@ date: 2023-01-02
 permalink: /note/2023_01_02_algorithm
 tags:
   - note
+toc: true
 ---
 
 Templates of competitive programming.
+
+{% include toc %}
 
 ## Search / 探索
 
@@ -230,10 +233,9 @@ bool isPrime(int n) {
 }
 ```
 ```cpp
-vector<bool> isPrime;
+vector<bool> isPrime(N, 1);
 
 void sieve(int n) {
-    isPrime.assign(n+1, 1);
     for (int i=2; i*i<=n; ++i) {
         if (!isPrime[i])
             continue;
@@ -271,12 +273,9 @@ int modinv(int x, int m) {
 }
 ```
 ```cpp
-vector<int> fac, inv, finv;
+vector<int> fac(N, 1), inv(N, 1), finv(N, 1);
 
 void build(int n, int m) {
-    fac.assign(n+1, 1);
-    inv.assign(n+1, 1);
-    finv.assign(n+1, 1);
     for (int i=2; i<=n; ++i) {
         fac[i] = fac[i-1] * i % m;
         inv[i] = m - inv[m%i] * (m/i) % m;
@@ -291,29 +290,137 @@ int binom(int n, int k, int m) {
 
 ## Graph / グラフ
 
-### Dijkstra Algorithm / ダイクストラ法
+### Graph Traversal / グラフ探索
 ```cpp
-vector<int> d;
-vector<bool> u;
+vector<vector<int>> adj(N);
+vector<bool> vis(N);
 
-void dijkstra() {
-    d.assign(n, INF);
-    u.assign(n, 0);
-    d[0] = 0;
-    for (int i=0; i<N; ++i) {
-        int v = -1;
-        for (int j=0; j<N; ++j) {
-            if (u[j])
-                continue;
-            if (v==-1 || d[j]<d[v])
-                v = j;
-        }
-        if (d[v]==INF)
-            break;
-        u[v] = 1;
-        for (int j=0; j<N; ++j) {
-            d[j] = min(d[j], d[v]+g[v][j]);
+void dfs(int v) {
+    vis[v] = true;
+    "<visit v>";
+    for (int u : adj[v]) {
+        if (!vis[u])
+            dfs(u);
+    }
+}
+```
+```cpp
+vector<vector<int>> adj(N);
+vector<bool> vis(N);
+
+void bfs(int v) {
+    queue<int> q;
+    q.push(v);
+    vis[v] = true;
+    while (!q.empty()) {
+        v = q.front();
+        q.pop();
+        "<visit v>";
+        for (int u : adj[v]) {
+            if (!vis[u]) {
+                q.push(u);
+                vis[u] = true;
+            }
         }
     }
+}
+```
+
+### Shortest Path / 最短経路
+```cpp
+vector<vector<int>> adj(N, vector<int>(N, INF));
+vector<int> u(N), d(N, INF), p(N, -1);
+
+void dijkstra(int s) {
+    int n = adj.size();
+    d[s] = 0;
+    for (int i=0; i<n; ++i) {
+        int k = -1;
+        for (int j=0; j<n; ++j) {
+            if (!u[j] && (k==-1 || d[j]<d[k]))
+                k = j;
+        }
+        if (d[k]==INF)
+            return;
+        u[k] = 1;
+        for (int j=0; j<n; ++j) {
+            if (d[k]+adj[k][j]<d[j]) {
+                d[j] = d[k] + adj[k][j];
+                p[j] = k;
+            }
+        }
+    }
+}
+```
+```cpp
+vector<vector<pii>> adj(N);
+vector<int> d(N, INF), p(N, -1);
+
+void dijkstra(int s) {
+    priority_queue<pii, vector<pii>, greater<pii>> q;
+    q.push({0, s});
+    d[s] = 0;
+    while (!q.empty()) {
+        int v = q.top().second;
+        int d_v = q.top().first;
+        q.pop();
+        if (d_v!=d[v])
+            continue;
+        for (pii e : adj[v]) {
+            int to = e.first;
+            int len = e.second;
+            if (d[v]+len<d[to]) {
+                d[to] = d[v] + len;
+                p[to] = v;
+                q.push({d[to], to});
+            }
+        }
+    }
+}
+```
+```cpp
+struct edge{
+    int a, b, w;
+};
+
+vector<edge> edges;
+vector<int> d(N, INF), p(N, -1);
+
+void bellman_ford(int s, int n) {
+    d[s] = 0;
+    int cnt = 0;
+    for (int i=0; i<n; ++i) {
+        bool any = 0;
+        for (edge e : edges) {
+            if (d[e.a]!=INF && d[e.a]+e.w<d[e.b]) {
+                d[e.b] = d[e.a] + e.w;
+                p[e.b] = e.a;
+                any = 1;
+            }
+        }
+        if (!any)
+            break;
+        cnt += 1;
+    }
+    "<negative cycle: cnt==n>";
+}
+```
+```cpp
+vector<vector<int>> d(N, vector<int>(N, INF)), p(N, vector<int>(N, -1));
+
+void floyd_warshall(int n) {
+    "<each edge: d[v][u]=w, p[v][u]=v >";
+    "<each vert: d[v][v]=0, p[v][v]=v >";
+    for (int k=0; k<n; ++k) {
+        for (int i=0; i<n; ++i) {
+            for (int j=0; j<n; ++j) {
+                if (d[i][k]<INF && d[k][j]<INF && d[i][k]+d[k][j]<d[i][j]) {
+                    d[i][j] = d[i][k] + d[k][j];
+                    p[i][j] = p[k][j];
+                }
+            }
+        }
+    }
+    "<negative cycle: d[i][i]<0 >";
 }
 ```
