@@ -331,8 +331,7 @@ void bfs(int v) {
 vector<vector<int>> adj(N, vector<int>(N, INF));
 vector<int> u(N), d(N, INF), p(N, -1);
 
-void dijkstra(int s) {
-    int n = adj.size();
+void dijkstra(int s, int n) {
     d[s] = 0;
     for (int i=0; i<n; ++i) {
         int k = -1;
@@ -422,5 +421,34 @@ void floyd_warshall(int n) {
         }
     }
     "<negative cycle: d[i][i]<0 >";
+}
+```
+
+### Minimum Spanning Tree / 最小全域木
+```cpp
+vector<vector<int>> adj(N, vector<int>(N, INF));
+vector<int> u(N), d(N, INF), p(N, -1);
+
+int prim(int s, int n) {
+    int wt = 0;
+    d[s] = 0;
+    for (int i=0; i<n; ++i) {
+        int k = -1;
+        for (int j=0; j<n; ++j) {
+            if (!u[j] && (k==-1 || d[j]<d[k]))
+                k = j;
+        }
+        if (d[k]==INF)
+            return INF;
+        u[k] = 1;
+        wt += d[k];
+        for (int j=0; j<n; ++j) {
+            if (!u[j] && adj[k][j]<d[j]) {
+                d[j] = adj[k][j];
+                p[j] = k;
+            }
+        }
+    }
+    return wt;
 }
 ```

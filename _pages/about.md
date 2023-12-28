@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am 董宇光 (Yeu-Guang Tung), a medical student studying at school of medicine, National Taiwan University. I had been learning physics in high school, and am learning medicine and algorithm currently. I am intesrested in application of computational physics in drug discovery.
+I am 董宇光 (Yeu-Guang Tung), a medical student studying at the School of Medicine, National Taiwan University. I had been learning physics in high school and am currently studying medicine and algorithms. I am interested in the application of computational physics in drug discovery.
 
 * 台湾大学医学部医学科：進学
 * 国際物理オリンピック：銀メダル
 * 東京大学一般選抜：理科一類 +32 点合格点超え（理三落ちAランク）
 
-脳の細胞は増えないが、パラメーターは多分変えられます。
+The brain's cells do not increase, but perhaps the parameters can be changed. 
+<!-- 脳の細胞は増えないが、パラメーターは多分変えられます。 -->
 
 ## Paper
 
