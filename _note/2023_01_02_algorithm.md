@@ -452,3 +452,77 @@ int prim(int s, int n) {
     return wt;
 }
 ```
+```cpp
+vector<vector<pii>> adj(N);
+vector<int> u(N), d(N, INF), p(N, -1);
+
+int prim(int s) {
+    int wt = 0;
+    priority_queue<pii, vector<pii>, greater<pii>> q;
+    d[s] = 0;
+    q.push({0, s});
+    while (!q.empty()) {
+        int v = q.top().second;
+        q.pop();
+        if (u[v])
+            continue;
+        u[v] = 1;
+        wt += d[v];
+        for (pii e : adj[v]) {
+            if (!u[e.first] && e.second<d[e.first]) {
+                d[e.first] = e.second;
+                p[e.first] = v;
+                q.push({d[e.first], e.first});
+            }
+        }
+    }
+    return wt;
+}
+```
+```cpp
+vector<int> p(N), s(N);
+
+void make_set(int v) {
+    p[v] = v;
+    s[v] = 1;
+}
+
+int find_set(int v) {
+    if (p[v]==v)
+        return v;
+    return p[v] = find_set(p[v]);
+}
+
+void union_set(int a, int b) {
+    a = find_set(a);
+    b = find_set(b);
+    if (a==b)
+        return;
+    if (a<b)
+        swap(a, b);
+    p[b] = a;
+    s[a] += s[b];
+}
+
+struct edge{
+    int a, b, w;
+    bool operator<(edge const& other) {
+        return w < other.w;
+    }
+};
+
+vector<edge> edges, mst;
+
+int kruskal() {
+    int wt = 0;
+    sort(edges.begin(), edges.end());
+    for (edge e : edges) {
+        if (find_set(e.a)!=find_set(e.b)) {
+            wt += e.w;
+            mst.push_back(e);
+            union_set(e.a, e.b);
+        }
+    }
+    return wt;
+}
+```
