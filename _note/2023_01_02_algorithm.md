@@ -326,6 +326,121 @@ void bfs(int v) {
 }
 ```
 
+### Connected Component / 連結成分
+```cpp
+vector<vector<int>> adj(N);
+vector<int> vis(N), cmp(N);
+
+void dfs(int v, int c) {
+    vis[v] = 1;
+    cmp[v] = c;
+    for (int u : adj[v]) {
+        if (!vis[u])
+            dfs(u, c);
+    }
+}
+
+int cc(int n) {
+    int cnt = 0;
+    for (int i=0; i<n; ++i) {
+        if (!vis[i]) {
+            dfs(i, i);
+            cnt += 1;
+        }
+    }
+    return cnt;
+}
+```
+```cpp
+vector<vector<int>> adj(N), adj_r(N);
+vector<int> q, vis(N), cmp(N);
+
+void dfs1(int v) {
+    vis[v] = 1;
+    for (int u : adj[v]) {
+        if (!vis[u])
+            dfs1(u);
+    }
+    q.push_back(v);
+}
+
+void dfs2(int v, int c) {
+    vis[v] = 1;
+    cmp[v] = c;
+    for (int u : adj_r[v]) {
+        if (!vis[u])
+            dfs2(u, c);
+    }
+}
+
+int scc(int n) {
+    int cnt = 0;
+    for (int i=0; i<n; ++i) {
+        if (!vis[i])
+            dfs1(i);
+    }
+    reverse(q.begin(), q.end());
+    vis.assign(n, 0);
+    for (int i : q) {
+        if (!vis[i]) {
+            dfs2(i, i);
+            cnt += 1;
+        }
+    }
+    return cnt;
+}
+```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> vis(N), tin(N), low(N);
+int timer = 0;
+
+void dfs(int v, int p) {
+    vis[v] = 1;
+    tin[v] = low[v] = timer++;
+    for (int u : adj[v]) {
+        if (u==p)
+            continue;
+        if (vis[u])
+            low[v] = min(low[v], tin[u]);
+        else {
+            dfs(u, v);
+            low[v] = min(low[v], low[u]);
+            if (low[u]>tin[v]) {
+                "<bridge: v-u >";
+            }
+        }
+    }
+}
+```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> vis(N), tin(N), low(N);
+int timer = 0;
+
+void dfs(int v, int p) {
+    vis[v] = 1;
+    tin[v] = low[v] = timer++;
+    int cld = 0;
+    for (int u : adj[v]) {
+        if (u==p)
+            continue;
+        if (vis[u])
+            low[v] = min(low[v], tin[u]);
+        else {
+            dfs(u, v);
+            low[v] = min(low[v], low[u]);
+            if (p!=-1 && low[u]>=tin[v]) {
+                "<articulation point: v >";
+            }
+            cld += 1;
+        }
+    }
+    if (p==-1 && cld>1) {
+        "<articulation point: v >";
+    }
+}
+```
 ### Shortest Path / 最短経路
 ```cpp
 vector<vector<int>> adj(N, vector<int>(N, INF));
