@@ -208,30 +208,80 @@ int gcd(int a, int b) {
 }
 ```
 ```cpp
-int gcd(int a, int b, int& x, int& y) {
+int extgcd(int a, int b, int& x, int& y) {
     if (b==0) {
         x = 1;
         y = 0;
         return a;
     }
     int g, x1, y1;
-    g = gcd(b, a%b, x1, y1);
+    g = extgcd(b, a%b, x1, y1);
     x = y1;
     y = x1 - y1*(a/b);
     return g;
 }
 ```
 
-### Primality Test / 素数判定
+### Prime and Divisor / 素数と約数
 ```cpp
 bool isPrime(int n) {
-    for (int d=2; d*d<=n; ++d) {
-        if (n%d==0)
+    for (int i=2; i*i<=n; ++i) {
+        if (n%i==0)
             return false;
     }
     return true;
 }
 ```
+```cpp
+vector<int> divisor(int n) {
+    vector<int> res;
+    for (int i=1; i*i<=n; ++i) {
+        if (n%i==0) {
+            res.push_back(i);
+            if (n/i!=i)
+                res.push_back(n/i);
+        }
+    }
+    sort(res.begin(), res.end());
+    return res;
+}
+```
+```cpp
+vector<pii> factor(int n) {
+    vector<pii> res;
+    for (int i=2; i*i<=n; ++i) {
+        if (n%i!=0)
+            continue;
+        int p = 0;
+        while (n%i==0) {
+            n /= i;
+            p += 1;
+        }
+        res.push_back({i, p});
+    }
+    if (n!=1)
+        res.push_back({n, 1});
+    return res;
+}
+```
+```cpp
+int euler_phi(int n) {
+    int res = n;
+    for (int i=2; i*i<=n; ++i) {
+        if (n%i==0) {
+            res = res * (i-1) / i;
+            while (n%i==0)
+                n /= i;
+        }
+    }
+    if (n!=1)
+        res = res * (n-1) / n;
+    return res;
+}
+```
+
+### Sieve of Eratosthenes / エラトステネスの篩
+
 ```cpp
 vector<bool> isPrime(N, 1);
 
@@ -244,22 +294,36 @@ void sieve(int n) {
     }
 }
 ```
-
-### Binary Exponentiation / べき乗
 ```cpp
-int binpow(int x, int n) {
-    int r = 1;
-    while (n>0) {
-        if (n&1)
-            r *= x;
-        x *= x;
-        n >>= 1;
+vector<bool> isPrime_1(N1, 1), isPrime_2(N2, 1);
+
+void segment_sieve(int l, int r) {
+    for (int i=2; i*i<=r; ++i) {
+        if (isPrime_1[i]) {
+            for (int j=i*i; j*j<=r; j+=i)
+                isPrime_1[j] = 0;
+            for (int j=max(i*i, (l+i-1)/i*i); j<=r; j+=i)
+                isPrime_2[j-l] = 0;
+        }
     }
-    return r;
 }
 ```
 
-### Modular Inverse / 逆元
+### Binary Exponentiation / べき乗
+```cpp
+int binpow(int x, int n, int mod) {
+    int res = 1;
+    while (n>0) {
+        if (n&1)
+            res = res * x % mod;
+        x = x * x % mod;
+        n >>= 1;
+    }
+    return res;
+}
+```
+
+### Modular Arithmetic / 余りの計算
 ```cpp
 int modinv(int x, int m) {
     int a=x, b=m, u=1, v=0;
@@ -441,26 +505,27 @@ void dfs(int v, int p) {
     }
 }
 ```
+
 ### Shortest Path / 最短経路
 ```cpp
 vector<vector<int>> adj(N, vector<int>(N, INF));
-vector<int> u(N), d(N, INF), p(N, -1);
+vector<int> vis(N), dis(N, INF), par(N, -1);
 
 void dijkstra(int s, int n) {
-    d[s] = 0;
+    dis[s] = 0;
     for (int i=0; i<n; ++i) {
         int k = -1;
         for (int j=0; j<n; ++j) {
-            if (!u[j] && (k==-1 || d[j]<d[k]))
+            if (!vis[j] && (k==-1 || dis[j]<dis[k]))
                 k = j;
         }
-        if (d[k]==INF)
+        if (dis[k]==INF)
             return;
-        u[k] = 1;
+        vis[k] = 1;
         for (int j=0; j<n; ++j) {
-            if (d[k]+adj[k][j]<d[j]) {
-                d[j] = d[k] + adj[k][j];
-                p[j] = k;
+            if (dis[k]+adj[k][j]<dis[j]) {
+                dis[j] = dis[k] + adj[k][j];
+                par[j] = k;
             }
         }
     }
@@ -468,29 +533,30 @@ void dijkstra(int s, int n) {
 ```
 ```cpp
 vector<vector<pii>> adj(N);
-vector<int> d(N, INF), p(N, -1);
+vector<int> dis(N, INF), par(N, -1);
 
 void dijkstra(int s) {
     priority_queue<pii, vector<pii>, greater<pii>> q;
     q.push({0, s});
-    d[s] = 0;
+    dis[s] = 0;
     while (!q.empty()) {
         int v = q.top().second;
         int d_v = q.top().first;
         q.pop();
-        if (d_v!=d[v])
+        if (d_v!=dis[v])
             continue;
         for (pii e : adj[v]) {
             int to = e.first;
             int len = e.second;
-            if (d[v]+len<d[to]) {
-                d[to] = d[v] + len;
-                p[to] = v;
-                q.push({d[to], to});
+            if (dis[v]+len<dis[to]) {
+                dis[to] = dis[v] + len;
+                par[to] = v;
+                q.push({dis[to], to});
             }
         }
     }
 }
+
 ```
 ```cpp
 struct edge{
@@ -498,17 +564,17 @@ struct edge{
 };
 
 vector<edge> edges;
-vector<int> d(N, INF), p(N, -1);
+vector<int> dis(N, INF), par(N, -1);
 
 void bellman_ford(int s, int n) {
-    d[s] = 0;
+    dis[s] = 0;
     int cnt = 0;
     for (int i=0; i<n; ++i) {
         bool any = 0;
         for (edge e : edges) {
-            if (d[e.a]!=INF && d[e.a]+e.w<d[e.b]) {
-                d[e.b] = d[e.a] + e.w;
-                p[e.b] = e.a;
+            if (dis[e.a]!=INF && dis[e.a]+e.w<dis[e.b]) {
+                dis[e.b] = dis[e.a] + e.w;
+                par[e.b] = e.a;
                 any = 1;
             }
         }
@@ -520,47 +586,47 @@ void bellman_ford(int s, int n) {
 }
 ```
 ```cpp
-vector<vector<int>> d(N, vector<int>(N, INF)), p(N, vector<int>(N, -1));
+vector<vector<int>> dis(N, vector<int>(N, INF)), par(N, vector<int>(N, -1));
 
 void floyd_warshall(int n) {
-    "<each edge: d[v][u]=w, p[v][u]=v >";
-    "<each vert: d[v][v]=0, p[v][v]=v >";
+    "<each edge: dis[v][u]=w, par[v][u]=v >";
+    "<each vert: dis[v][v]=0, par[v][v]=v >";
     for (int k=0; k<n; ++k) {
         for (int i=0; i<n; ++i) {
             for (int j=0; j<n; ++j) {
-                if (d[i][k]<INF && d[k][j]<INF && d[i][k]+d[k][j]<d[i][j]) {
-                    d[i][j] = d[i][k] + d[k][j];
-                    p[i][j] = p[k][j];
+                if (dis[i][k]<INF && dis[k][j]<INF && dis[i][k]+dis[k][j]<dis[i][j]) {
+                    dis[i][j] = dis[i][k] + dis[k][j];
+                    par[i][j] = par[k][j];
                 }
             }
         }
     }
-    "<negative cycle: d[i][i]<0 >";
+    "<negative cycle: dis[i][i]<0 >";
 }
 ```
 
 ### Minimum Spanning Tree / 最小全域木
 ```cpp
 vector<vector<int>> adj(N, vector<int>(N, INF));
-vector<int> u(N), d(N, INF), p(N, -1);
+vector<int> vis(N), dis(N, INF), par(N, -1);
 
 int prim(int s, int n) {
     int wt = 0;
-    d[s] = 0;
+    dis[s] = 0;
     for (int i=0; i<n; ++i) {
         int k = -1;
         for (int j=0; j<n; ++j) {
-            if (!u[j] && (k==-1 || d[j]<d[k]))
+            if (!vis[j] && (k==-1 || dis[j]<dis[k]))
                 k = j;
         }
-        if (d[k]==INF)
+        if (dis[k]==INF)
             return INF;
-        u[k] = 1;
-        wt += d[k];
+        vis[k] = 1;
+        wt += dis[k];
         for (int j=0; j<n; ++j) {
-            if (!u[j] && adj[k][j]<d[j]) {
-                d[j] = adj[k][j];
-                p[j] = k;
+            if (!vis[j] && adj[k][j]<dis[j]) {
+                dis[j] = adj[k][j];
+                par[j] = k;
             }
         }
     }
@@ -569,25 +635,25 @@ int prim(int s, int n) {
 ```
 ```cpp
 vector<vector<pii>> adj(N);
-vector<int> u(N), d(N, INF), p(N, -1);
+vector<int> vis(N), dis(N, INF), par(N, -1);
 
 int prim(int s) {
     int wt = 0;
     priority_queue<pii, vector<pii>, greater<pii>> q;
-    d[s] = 0;
+    dis[s] = 0;
     q.push({0, s});
     while (!q.empty()) {
         int v = q.top().second;
         q.pop();
-        if (u[v])
+        if (vis[v])
             continue;
-        u[v] = 1;
-        wt += d[v];
+        vis[v] = 1;
+        wt += dis[v];
         for (pii e : adj[v]) {
-            if (!u[e.first] && e.second<d[e.first]) {
-                d[e.first] = e.second;
-                p[e.first] = v;
-                q.push({d[e.first], e.first});
+            if (!vis[e.first] && e.second<dis[e.first]) {
+                dis[e.first] = e.second;
+                par[e.first] = v;
+                q.push({dis[e.first], e.first});
             }
         }
     }
@@ -595,31 +661,31 @@ int prim(int s) {
 }
 ```
 ```cpp
-vector<int> p(N), s(N);
+vector<int> par(N), siz(N);
 
 void make_set(int v) {
-    p[v] = v;
-    s[v] = 1;
+    par[v] = v;
+    siz[v] = 1;
 }
 
 int find_set(int v) {
-    if (p[v]==v)
+    if (par[v] == v)
         return v;
-    return p[v] = find_set(p[v]);
+    return par[v] = find_set(par[v]);
 }
 
 void union_set(int a, int b) {
     a = find_set(a);
     b = find_set(b);
-    if (a==b)
+    if (a == b)
         return;
-    if (a<b)
+    if (a < b)
         swap(a, b);
-    p[b] = a;
-    s[a] += s[b];
+    par[b] = a;
+    siz[a] += siz[b];
 }
 
-struct edge{
+struct edge {
     int a, b, w;
     bool operator<(edge const& other) {
         return w < other.w;
@@ -632,12 +698,137 @@ int kruskal() {
     int wt = 0;
     sort(edges.begin(), edges.end());
     for (edge e : edges) {
-        if (find_set(e.a)!=find_set(e.b)) {
+        if (find_set(e.a) != find_set(e.b)) {
             wt += e.w;
             mst.push_back(e);
             union_set(e.a, e.b);
         }
     }
     return wt;
+}
+```
+
+### Network Flow / ネットワークフロー
+```cpp
+int bfs(int s, int t) {
+    fill(vis.begin(), vis.end(), 0);
+    fill(par.begin(), par.end(), -1);
+    queue<pii> q;
+    q.push({s, INF});
+    vis[s] = 1;
+    while (!q.empty()) {
+        int v = q.front().first;
+        int f_v = q.front().second;
+        q.pop();
+        for (int u : adj[v]) {
+            if (!vis[u] && cap[v][u]>0) {
+                int f_u = min(f_v, cap[v][u]);
+                q.push({u, f_u});
+                vis[u] = 1;
+                par[u] = v;
+                if (u==t)
+                    return f_u;
+            }
+        }
+    }
+    return 0;
+}
+
+int max_flow(int s, int t) {
+    // "<each edge: adj[v].pb(u) adj[u].pb(v) >";
+    // "<each edge: cap[v][u]=c cap[u][v]=0 >";
+    int flow=0, f=0;
+    while (f=bfs(s, t)) {
+        flow += f;
+        int cur = t;
+        while (cur!=s) {
+            int pre = par[cur];
+            cap[pre][cur] -= f;
+            cap[cur][pre] += f;
+            cur = pre;
+        }
+    }
+    return flow;
+}
+```
+```cpp
+struct edge {
+    int a, b, w;
+};
+
+vector<edge> edges;
+vector<vector<int>> cap(N, vector<int>(N));
+vector<int> dis(N), par(N);
+
+int bellman_ford(int s, int t) {
+    fill(dis.begin(), dis.end(), INF);
+    fill(par.begin(), par.end(), -1);
+    dis[s] = 0;
+    bool any = 1;
+    while (any) {
+        any = 0;
+        for (edge e : edges) {
+            if (dis[e.a]!=INF && dis[e.a]+e.w<dis[e.b] && cap[e.a][e.b]>0) {
+                dis[e.b] = dis[e.a] + e.w;
+                par[e.b] = e.a;
+                any = 1;
+            }
+        }
+    }
+    return dis[t];
+}
+
+int min_cost_flow(int s, int t, int k) {
+    "<each edge: edges.pb({v,u,w}) edges.pb({u.v.-w}) >";
+    "<each edge: cap[v][u]=c cap[u][v]=0 >";
+    int cost=0, flow=0;
+    while (flow<k) {
+        int m_c = bellman_ford(s, t);
+        int m_f = k - flow;
+        if (m_c==INF)
+            return -1;
+        int cur=t, pre=-1;
+        while (cur!=s) {
+            pre = par[cur];
+            m_f = min(m_f, cap[pre][cur]);
+            cur = pre;
+        }
+        cost += m_c * m_f;
+        flow += m_f;
+        cur = t;
+        while (cur!=s) {
+            pre = par[cur];
+            cap[pre][cur] -= m_f;
+            cap[cur][pre] += m_f;
+            cur = pre;
+        }
+    }
+    return cost;
+}
+```
+```cpp
+vector<vector<int>> adj(N1);
+vector<int> vis(N1), mat(N2, -1);
+
+bool dfs(int v) {
+    vis[v] = 1;
+    for (int u : adj[v]) {
+        int w = mat[u];
+        if (w==-1 || (!vis[w] && dfs(w))) {
+            mat[u] = v;
+            return true;
+        }
+    }
+    return false;
+}
+
+int bipartite(int n) {
+    int res = 0;
+    for (int i=0; i<n; ++i) {
+        fill(vis.begin(), vis.end(), 0);
+        if (dfs(i))
+            res += 1;
+    }
+    return res;
 }
 ```
