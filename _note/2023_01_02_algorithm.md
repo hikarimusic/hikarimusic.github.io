@@ -832,3 +832,50 @@ int bipartite(int n) {
     return res;
 }
 ```
+
+### Lowest Common Ancestor / 最近共通祖先
+```cpp
+vector<vector<int>> adj(N), par(LOG_N, vector<int>(N, -1));
+vector<int> dep(N);
+
+void dfs(int v, int p, int d) {
+    par[0][v] = p;
+    dep[v] = d;
+    for (int u : adj[v]) {
+        if (u!=p)
+            dfs(u, v, d+1);
+    }
+}
+
+void build(int n) {
+    dfs(0, -1, 0);
+    int l_n = int(log2(double(n)))+1;
+    for (int k=1; k<l_n; ++k) {
+        for (int i=0; i<n; ++i) {
+            if (par[k-1][i]==-1)
+                par[k][i] = -1;
+            else
+                par[k][i] = par[k-1][par[k-1][i]];
+        }
+    }
+}
+
+int lca(int a, int b, int n) {
+    if (dep[a]<dep[b])
+        swap(a, b);
+    int l_n = int(log2(double(n)))+1;
+    for (int k=0; k<l_n; ++k) {
+        if (((dep[a]-dep[b])>>k) & 1)
+            a = par[k][a];
+    }
+    if (a==b)
+        return a;
+    for (int k=l_n-1; k>=0; --k) {
+        if (par[k][a]!=par[k][b]) {
+            a = par[k][a];
+            b = par[k][b];
+        }
+    }
+    return par[0][a];
+}
+```
