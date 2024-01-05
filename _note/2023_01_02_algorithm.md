@@ -352,6 +352,57 @@ int binom(int n, int k, int m) {
 }
 ```
 
+### Linear Algebra / 線型代数
+```cpp
+vector<vector<double>> A(N, vector<double>(M));
+vector<double> B(N), sol(M);
+
+int gauss(int n, int m) {
+    vector<vector<double>> mat(n, vector<double>(m+1, 0));
+    for (int i=0; i<n; ++i) {
+        for (int j=0; j<m; ++j)
+            mat[i][j] = A[i][j];
+        mat[i][m] = B[i];
+    }
+    vector<int> piv(m, -1);
+    for (int c=0, r=0; c<m && r<n; ++c) {
+        int p = r;
+        for (int i=r; i<n; ++i) {
+            if (abs(mat[i][c])>abs(mat[p][c]))
+                p = i;
+        }
+        if (abs(mat[p][c])<EPS)
+            continue;
+        swap(mat[r], mat[p]);
+        piv[c] = r;
+        for (int i=0; i<n; ++i) {
+            if (i==r)
+                continue;
+            double cf = mat[i][c] / mat[r][c];
+            for (int j=c; j<=m; ++j)
+                mat[i][j] -= mat[r][j] * cf;
+        }
+        r += 1;
+    }
+    for (int j=0; j<m; ++j) {
+        if (piv[j]!=-1)
+            sol[j] = mat[piv[j]][m] / mat[piv[j]][j];
+    }
+    for (int i=0; i<n; ++i) {
+        double sum = 0;
+        for (int j=0; j<m; ++j)
+            sum += mat[i][j] * sol[j];
+        if (abs(sum-mat[i][m])>EPS)
+            return 0;
+    }
+    for (int j=0; j<m; ++j) {
+        if (piv[j]==-1)
+            return INF;
+    }
+    return 1;
+}
+```
+
 ## Graph / グラフ
 
 ### Graph Traversal / グラフ探索
@@ -847,7 +898,7 @@ void dfs(int v, int p, int d) {
     }
 }
 
-void build(int n) {
+void init(int n) {
     dfs(0, -1, 0);
     int l_n = int(log2(double(n)))+1;
     for (int k=1; k<l_n; ++k) {
@@ -877,5 +928,59 @@ int lca(int a, int b, int n) {
         }
     }
     return par[0][a];
+}
+```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> arr, dep(N), occ(N, -1), seg(8*N);
+
+void dfs(int v, int p, int h) {
+    dep[v] = h;
+    occ[v] = arr.size();
+    arr.push_back(v);
+    for (int u : adj[v]) {
+        if (u!=p)
+            dfs(u, v, h+1);
+            arr.push_back(v);
+    }
+}
+
+void build(int v, int tl, int tr) {
+    if (tl==tr) {
+        seg[v] = arr[tl];
+        return;
+    }
+    int tm = (tl+tr)/2;
+    build(v*2+1, tl, tm);
+    build(v*2+2, tm+1, tr);
+    int t1=seg[v*2+1], t2=seg[v*2+2];
+    seg[v] = (dep[t1]<dep[t2])?t1:t2;
+}
+
+int query(int v, int tl, int tr, int l, int r) {
+    if (l>tr || r<tl)
+        return -1;
+    if (l==tl && r==tr)
+        return seg[v];
+    int tm = (tl+tr)/2;
+    int q1 = query(v*2+1, tl, tm, l, min(r, tm));
+    int q2 = query(v*2+2, tm+1, tr, max(l, tm+1), r);
+    if (q1==-1)
+        return q2;
+    if (q2==-1)
+        return q1;
+    return (dep[q1]<dep[q2])?q1:q2;
+}
+
+void init(int s) {
+    dfs(s, -1, 0);
+    build(0, 0, arr.size()-1);
+}
+
+int lca(int a, int b) {
+    int l=occ[a], r=occ[b];
+    if (l>r)
+        swap(l, r);
+    return query(0, 0, arr.size()-1, l, r);
 }
 ```
