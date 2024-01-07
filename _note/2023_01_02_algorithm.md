@@ -325,21 +325,63 @@ int binpow(int x, int n, int mod) {
 
 ### Modular Arithmetic / 余りの計算
 ```cpp
-int modinv(int x, int m) {
-    int a=x, b=m, u=1, v=0;
-    while (b>0) {
-        int t = a/b;
-        a -= t*b; swap(a, b);
-        u -= t*v; swap(u, v);
+int mod_inv(int a, int m) {
+    int x, y;
+    extgcd(a, m, x, y);
+    return ((x % m) + m) % m;
+}
+```
+```cpp
+vector<int> A(N), B(N), M(N);
+
+pair<int, int> linear_congruence(int n) {
+    int x=0, m=1;
+    for (int i=0; i<n; ++i) {
+        int a=A[i]*m, b=B[i]-A[i]*x, d=gcd(a, M[i]);
+        if (b%d!=0)
+            return {0, -1};
+        int y = (b/d) * mod_inv(a/d, M[i]/d) % (M[i]/d);
+        x += m*y;
+        m *= M[i]/d;
     }
-    int r = (u%m + m) % m;
-    return r;
+    return {(x%m+m)%m, m};
+}
+```
+```cpp
+vector<int> fac(M, 1);
+
+void init(int m) {
+    for (int i=1; i<m; ++i)
+        fac[i] = fac[i-1] * i % m;
+}
+
+int mod_fac(int n, int m, int& e) {
+    e = 0;
+    if (n==0)
+        return 1;
+    int r = mod_fac(n/m, m, e);
+    e += n/m;
+    if (n/m%2==1)
+        return (m-fac[n%m]) * r % m;
+    else
+        return fac[n%m] * r % m;
+}
+```
+```cpp
+int mod_binom(int n, int k, int m) {
+    if (n<0 || k<0 || n<k)
+        return 0;
+    int e1, e2, e3;
+    int a1=mod_fac(n, m, e1), a2=mod_fac(n-k, m, e2), a3=mod_fac(k, m, e3);
+    if (e1>e2+e3)
+        return 0;
+    return a1 * mod_inv(a2*a3%m, m) % m;
 }
 ```
 ```cpp
 vector<int> fac(N, 1), inv(N, 1), finv(N, 1);
 
-void build(int n, int m) {
+void init(int n, int m) {
     for (int i=2; i<=n; ++i) {
         fac[i] = fac[i-1] * i % m;
         inv[i] = m - inv[m%i] * (m/i) % m;
@@ -347,7 +389,7 @@ void build(int n, int m) {
     }
 }
 
-int binom(int n, int k, int m) {
+int mod_binom(int n, int k, int m) {
     return fac[n] * (finv[n-k] * finv[k] % m) % m; 
 }
 ```

@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "HikariMusic"
   avatar           : "icon.jpeg"
-  bio              : "ただの暇つぶし"
+  bio              : "Appears to be a MD student"
   location         : "Taipei, Taiwan"
-  employer         :
+  employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "hikarimusic.tm@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Yeu-Guang-Tung"
   uri              :
   bitbucket        :
   codepen          :
