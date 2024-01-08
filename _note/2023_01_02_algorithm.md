@@ -132,68 +132,120 @@ void solve() {
 
 ### Disjoint Set Union / Union-Find 木
 ```cpp
-vector<int> p, s;
+vector<int> par(N), siz(N);
 
 void make_set(int v) {
-    p[v] = v;
-    s[v] = 1;
+    par[v] = v;
+    siz[v] = 1;
 }
 
 int find_set(int v) {
-    if (p[v]==v)
+    if (par[v] == v)
         return v;
-    return p[v] = find_set(p[v]);
+    return par[v] = find_set(par[v]);
 }
 
 void union_set(int a, int b) {
     a = find_set(a);
     b = find_set(b);
-    if (a==b)
-        return;
-    if (a < b)
-        swap(a, b);
-    p[b] = a;
-    s[a] += s[b];
+    if (a != b) {
+        if (a < b)
+            swap(a, b);
+        par[b] = a;
+        siz[a] += siz[b];
+    }
 }
 ```
 
 ### Segment Tree / セグメント木
 ```cpp
-vector<int> a, t;
+vector<int> arr(N), tree(4*N);
 
 void build(int v, int tl, int tr) {
     if (tl==tr) {
-        t[v] = a[tl];
+        tree[v] = arr[tl];
         return;
     }
     int tm = (tl+tr)/2;
     build(v*2+1, tl, tm);
     build(v*2+2, tm+1, tr);
-    t[v] = "<merge t[v*2+1] and t[v*2+2]>";
-}
-
-void update(int v, int tl, int tr, int id, int nv) {
-    if (tl==tr) {
-        t[v] = nv;
-        return;
-    }
-    int tm = (tl+tr)/2;
-    if (id<=tm)
-        update(v*2+1, tl, tm, id, nv);
-    else
-        update(v*2+2, tm+1, tr, id, nv);
-    t[v] = "<merge t[v*2+1] and t[v*2+2]>";
+    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
 }
 
 int query(int v, int tl, int tr, int l, int r) {
     if (l>r)
         return "<identity>";
     if (tl==l && tr==r)
-        return t[v];
+        return tree[v];
     int tm = (tl+tr)/2;
     int q1 = query(v*2+1, tl, tm, l, min(r, tm));
     int q2 = query(v*2+2, tm+1, tr, max(l, tm+1), r);
     return "<merge q1 and q2>";
+}
+
+void update(int v, int tl, int tr, int pos, int x) {
+    if (tl==tr) {
+        tree[v] = x;
+        return;
+    }
+    int tm = (tl+tr)/2;
+    if (pos<=tm)
+        update(v*2+1, tl, tm, pos, x);
+    else
+        update(v*2+2, tm+1, tr, pos, x);
+    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
+}
+```
+```cpp
+vector<int> arr(N), tree(4*N), lazy(4*N);
+
+void build(int v, int tl, int tr) {
+    if (tl==tr) {
+        tree[v] = arr[tl];
+        lazy[v] = "<identity>";
+        return;
+    }
+    int tm = (tl+tr)/2;
+    build(v*2+1, tl, tm);
+    build(v*2+2, tm+1, tr);
+    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
+    lazy[v] = "<identity>";
+}
+
+void push(int v, int tl, int tr) {
+    int tm = (tl+tr)/2;
+    tree[v*2+1] = "<update with lazy[v]>";
+    tree[v*2+2] = "<update with lazy[v]>";
+    lazy[v*2+1] = "<propogate lazy[v]>";
+    lazy[v*2+2] = "<propogate lazy[v]>";
+    lazy[v] = "<identity>";
+}
+
+int query(int v, int tl, int tr, int l, int r) {
+    if (l>r)
+        return "<identity>";
+    if (tl==l && tr==r)
+        return tree[v];
+    push(v, tl, tr);
+    int tm = (tl+tr)/2;
+    int q1 = query(v*2+1, tl, tm, l, min(r, tm));
+    int q2 = query(v*2+2, tm+1, tr, max(l, tm+1), r);
+    return "<merge q1 and q2>";
+}
+
+void update(int v, int tl, int tr, int l, int r, int x) {
+    if (l>r)
+        return;
+    if (tl==l && tr==r) {
+        tree[v] = "<update with x>";
+        lazy[v] = "<update with x>";
+        return;
+    }
+    push(v, tl, tr);
+    int tm = (tl+tr)/2;
+    update(v*2+1, tl, tm, l, min(r, tm), x);
+    update(v*2+2, tm+1, tr, max(l, tm+1), r, x);
+    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
 }
 ```
 
@@ -770,12 +822,12 @@ int find_set(int v) {
 void union_set(int a, int b) {
     a = find_set(a);
     b = find_set(b);
-    if (a == b)
-        return;
-    if (a < b)
-        swap(a, b);
-    par[b] = a;
-    siz[a] += siz[b];
+    if (a != b) {
+        if (a < b)
+            swap(a, b);
+        par[b] = a;
+        siz[a] += siz[b];
+    }
 }
 
 struct edge {
