@@ -249,6 +249,66 @@ void update(int v, int tl, int tr, int l, int r, int x) {
 }
 ```
 
+### Binary Indexed Tree　/ フェニック木
+```cpp
+vector<int> arr(N), tree(N);
+
+void build(int n) {
+    for (int i=0; i<n; ++i) {
+        tree[i] = "<merge tree[i] and arr[i]>";
+        int r = i|(i+1);
+        if (r<n)
+            tree[r] = "<merge tree[r] and tree[i]>";
+    }
+}
+
+int query(int r) {
+    int s = 0;
+    while (r>=0) {
+        s = "<merge s and tree[r]>";
+        r = (r&(r+1))-1;
+    }
+    return s;
+}
+
+void update(int p, int x, int n) {
+    while (p<n) {
+        tree[p] = "<merge tree[p] and x>";
+        p = p|(p+1);
+    }
+}
+```
+
+### Sqrt Decomposition / 平方分割
+```cpp
+vector<int> arr(N), buc(N);
+
+void build(int n) {
+    int s = (int)ceil(sqrt(n));
+    for (int i=0; i<s; ++i) {
+        for (int j=i*s; j<(i+1)*s && j<n; ++j)
+            buc[i] = "<merge buc[i] and arr[j]>";
+    }
+}
+
+int query(int l, int r, int n) {
+    int s = (int)ceil(sqrt(n));
+    int q=0, bl=l/s, br=r/s;
+    if (bl==br) {
+        for (int i=l; i<=r; ++i)
+            q = "<merge q and arr[i]>";
+        return q;
+    }
+    for (int i=l; i<(bl+1)*s; ++i)
+        q = "<merge q and arr[i]>";
+    for (int i=bl+1; i<br; ++i)
+        q = "<merge q and buc[i]>";
+    for (int i=br*s; i<=r; ++i)
+        q = "<merge q and arr[i]>";
+    return q;
+}
+```
+
 ## Mathematics / 数学
 
 ### Euclidean Algorithm / ユークリッドの互除法
