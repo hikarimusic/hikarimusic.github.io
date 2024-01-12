@@ -1,7 +1,7 @@
 ---
 title: 'Predicting Electron Distributions in Drug Molecules Using Density Functional Theory in Real Space'
 date: 2023-11-21
-permalink: /paper/2023_11_21_predicting
+permalink: /paper/predicting
 tags:
   - paper
 ---

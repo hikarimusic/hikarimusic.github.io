@@ -1,7 +1,7 @@
 ---
 title: 'BIOSTATS: An Intuitive GUI for Biostatistical Analysis'
 date: 2022-08-16
-permalink: /software/2022_08_16_biostats
+permalink: /software/biostats
 tags:
   - software
 ---

@@ -1,7 +1,7 @@
 ---
 title: '千年を超えて'
 date: 2022-09-10
-permalink: /music/2022_09_10_sennenwokoete
+permalink: /music/sennenwokoete
 tags:
   - music
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Algorithm (工事中)'
 date: 2023-01-02
-permalink: /note/2023_01_02_algorithm
+permalink: /note/algorithm
 tags:
   - note
 toc: true
@@ -15,67 +15,95 @@ Templates of competitive programming.
 
 ### Exhaustive Search / 全探索
 ```cpp
-vector<int> arr;
+vector<int> arr(N);
 
-void dfs("<position>") {
-    if ("<complete>") {
-        "<check>";
-        return;
-    }
-    for ("<next step>") {
-        "<construct state>";
-        dfs("<next position>");
-        "<recover state>";
+void search(int n) {
+    for (int i=0; i<(1<<n); ++i) {
+        for (int j=0; j<n; ++j) {
+            if (i&(1<<j))
+                "<arr[j]...>";
+        }
     }
 }
 ```
 ```cpp
-vector<int> sol;
+vector<int> arr(N);
 
-bool dfs("<position>") {
-    if ("<complete>")
-        return true;
-    for ("<next step>") {
-        if ("<pruning condition>")
-            continue;
-        "<construct solution>";
-        if (dfs("<next position>"))
+void search(int n) {
+    do {
+        for (int i=0; i<n; ++i)
+            "<arr[i]...>";
+    } while (next_permutation(arr.begin(), arr.begin()+n));
+}
+```
+```cpp
+vector<int> arr(N);
+
+void search(int p, int n) {
+    if (p==n) {
+        for (int i=0; i<n; ++i)
+            "<arr[i]...>";
+        return;
+    }
+    for ("<next value i>") {
+        arr[p] = i;
+        search(p+1, n);
+        arr[p] = 0;
+    }
+}
+```
+```cpp
+vector<int> arr(N);
+
+bool search(int p, int n) {
+    if (p==n) {
+        if ("<satisfied>")
             return true;
-        "<recover solution>";
+        return false;
+    }
+    for ("<next value i>") {
+        if ("<pruning>")
+            continue;
+        arr[p] = i;
+        if (search(p+1, n))
+            return true;
+        arr[p] = 0;
     }
     return false;
 }
 ```
-```cpp
-void search() {
-    for (int S=0; S<(1<<N); ++S) {
-        "< S&(1<<i), ...>";
-    }
-}
-```
-```cpp
-vector<int> arr;
-
-void search() {
-    do {
-        "< arr[i], ...>";
-    } while (next_permutation(arr.begin(), arr.end()));
-}
-```
-
 
 ### Binary Search / 二分探索
 ```cpp
-void search() {
-    int l=-1, r=N;
+vector<int> arr(N);
+
+int search(int n, int t) {
+    int l=-1, r=n;
     while (r-l>1) {
         int m = (l+r)/2;
-        int a = "<value at m>";
-        if (t < a)
+        if (t<arr[m])
             r = m;
         else
             l = m;
     }
+    return l;
+}
+```
+```cpp
+bool check(int x) {
+    "<return true or false>";
+}
+
+int search(int n) {
+    int l=-1, r=n;
+    while (r-l>1) {
+        int m = (l+r)/2;
+        if (check(m))
+            r = m;
+        else
+            l = m;
+    }
+    return l;
 }
 ```
 
@@ -83,47 +111,48 @@ void search() {
 
 ### Dynamic Programming / 動的計画法
 ```cpp
-vector<vector<int>> dp;
+vector<vector<int>> dp(N, vector<int>(M));
 
-void solve() {
+void solve(int n, int m) {
     "<base case>";
-    for (int i=1; i<=N; ++i) {
-        for (int j=1; j<=M; ++j) {
-            dp[i][j] = "<function of dp[i-1][j-1], dp[i-1][j], ...>";
+    for (int i=1; i<=n; ++i) {
+        for (int j=1; j<=m; ++j) {
+            dp[i][j] = "<combination of dp[<=i][<=j] >";
         }
     }
 }
 ```
 ```cpp
-vector<vector<int>> dp;
-
-int rec(int S, int v) {
-    if ("<memorized>")
-        return dp[S][v];
-    if ("<base case>")
-        return dp[S][v] = "<value>";
-    dp[S][v] = "<function of rec(S^(1<<_), v'), ...>":
-    return dp[S][v];
-}
-```
-```cpp
-vector<vector<int>> dp;
+vector<vector<int>> dp(N, vector<int>(N, -1));
 
 int rec(int l, int r) {
-    if ("<memorized>")
+    if (dp[l][r]!=-1)
         return dp[l][r];
     if ("<base case>")
         return dp[l][r] = "<value>";
-    dp[l][r] = "<function of rec(l, i), rec(i+1, r), ...>";
+    int a = "<combination of rec(l+1, r-1), rec(l, i), rec(i+1, r), ...)>";
+    return dp[l][r] = a;
+}
+```
+```cpp
+vector<vector<int>> dp((1<<N), vector<int>(N, -1));
+
+int rec(int S, int v, int n) {
+    if (dp[S][v]!=-1)
+        return dp[S][v];
+    if ("<base case>")
+        return dp[S][v] = "<value>";
+    int a = "<combination of rec(S^(1<<v), i, n), ...>";
+    return dp[S][v] = a;
 }
 ```
 
 ### Greedy Algorithm / 貪欲法
 ```cpp
 void solve() {
-    "<sort>";
+    "<preprocess>";
     for (int i=0; i<N; ++i) {
-        "<construct solution>";
+        "<greedy>";
     }
 }
 ```
@@ -432,6 +461,34 @@ int binpow(int x, int n, int mod) {
         n >>= 1;
     }
     return res;
+}
+```
+```cpp
+typedef vector<int> vec;
+typedef vector<vec> mat;
+
+mat matmul(mat &A, mat &B, int m) {
+    mat C(A.size(), vec(B[0].size()));
+    for (int i=0; i<A.size(); ++i) {
+        for (int j=0; j<B[0].size(); ++j) {
+            for (int k=0; k<A[0].size(); ++k)
+                C[i][j] = (C[i][j] + A[i][k] * B[k][j]) % m;
+        }
+    }
+    return C;
+}
+
+mat matpow(mat A, int n, int m) {
+    mat B(A.size(), vec(A.size()));
+    for (int i=0; i<B.size(); ++i)
+        B[i][i] = 1;
+    while (n>0) {
+        if (n&1)
+            B = matmul(B, A, m);
+        A = matmul(A, A, m);
+        n >>= 1;
+    }
+    return B;
 }
 ```
 

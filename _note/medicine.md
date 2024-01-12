@@ -1,7 +1,7 @@
 ---
 title: 'Medicine (工事中)'
 date: 2023-01-03
-permalink: /note/2023_01_03_medicine
+permalink: /note/medicine
 tags:
   - note
 toc: true
