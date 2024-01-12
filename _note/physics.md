@@ -1,7 +1,7 @@
 ---
 title: 'Physics (工事中)'
 date: 2023-01-01
-permalink: /note/algorithm
+permalink: /note/physics
 tags:
   - note
 toc: true
