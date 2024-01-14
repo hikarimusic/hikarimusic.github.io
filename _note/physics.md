@@ -1,5 +1,5 @@
 ---
-title: 'Physics (工事中)'
+title: 'Physics 🍊⭐'
 date: 2023-01-01
 permalink: /note/physics
 tags:

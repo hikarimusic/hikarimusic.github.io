@@ -1,5 +1,5 @@
 ---
-title: 'Algorithm (工事中)'
+title: 'Algorithm 🍊⭐'
 date: 2023-01-02
 permalink: /note/algorithm
 tags:
