@@ -75,7 +75,165 @@ Essences of various diseases.
 
 # Renal and Urological / 腎・泌尿器
 
-## Glomerular disorders / 糸球体疾患
+## Glomerular Disorders / 糸球体疾患
+
+### Acute Glomerulonephritis / 急性糸球体腎炎
+
+* **Concept**
+  * Type III allergy to Group A Streptococcus (immunocomplex deposition in the glomeruli)
+  * Occurs approximately 2 weeks after preceding infections such as pharyngitis and tonsillitis
+  * Common in children (3-10 years old)
+  * Many cases resolve with conservative treatment
+* **Symptoms**
+  * Hematuria: microscopic or gross
+  * Proteinuria: Nephrotic syndrome is rare
+  * Hypertension: during the oliguric phase
+  * Edema: periorbital
+* **Tests**
+  * Blood: CH50↓, C3↓, ASO↑, ASK↑
+  * Urine sediment: Red blood cell casts, granular casts
+  * Light microscopy: White blood cell infiltration into capillaries, swelling of endothelial cells in capillaries
+  * Fluorescence: C3 deposition in the glomerular basement membrane
+  * Electron microscopy: Humps on the basement membrane
+* **Treatment**
+  * Dietary therapy: Restriction of salt intake, low-protein diet
+  * Medication therapy: Diuretics, antihypertensive drugs
+{: .notice--info}
+
+### Rapid Progressive Glomerulonephritis / 急性進行性糸球体腎炎
+
+* **Concept**
+  * Arises from necrotizing damage to the glomerular capillary walls
+  * Formation of two or more cell layers in Bowman's capsule (crescents)
+  * Rapid decline in kidney function
+  * Classification:
+    * ANCA type (Microscopic polyangiitis, Granulomatosis with polyangiitis)
+    * Immune complex type
+    * Anti-glomerular basement membrane antibody type (Goodpasture syndrome)
+* **Symptoms**
+  * Initial: Fever, general fatigue
+  * Renal symptoms: Proteinuria, hematuria, edema
+  * Extrarenal symptoms: Hypertension, interstitial pneumonia, pulmonary hemorrhage
+* **Tests**
+  * Light microscopy: Crescent formation
+  * Fluorescence: Corresponding to the classification: 
+    * Minimal glomerular deposition
+    * Granular deposition in glomerular capillary walls
+    * Linear deposition in glomerular capillary walls
+  * Electron microscopy: Basement membrane rupture
+* **Treatment**
+  * Combination therapy: corticosteroids (pulse therapy) and immunosuppressive drugs (cyclophosphamide)
+{: .notice--info}
+
+### IgA Nephropathy / IgA腎症
+
+* **Concept**
+  * Mesangial proliferation and deposition of IgA in the mesangial area.
+* **Symptoms**
+  * Hematuria: Persistent microscopic or gross during colds
+  * Proteinuria: Persistent or intermittent
+* **Tests**
+  * Blood: IgA↑
+  * Urine sediment: Red blood cell casts
+  * Light microscopy: Mesangial proliferation
+  * Fluorescence: IgA deposition in the mesangial area
+  * Electron microscopy: Electron dense deposits in the mesangial area
+* **Treatment**
+  * Dietary therapy: Restriction of salt and protein intake
+  * Medication therapy:
+    * RAAS inhibitors (ACE inhibitors, ARBs)
+    * Corticosteroids
+    * Tonsillectomy + Steroid pulse therapy
+    * Immunosuppressive drugs
+    * Antiplatelet agents
+    * Omega-3 fatty acids (fish oil)
+{: .notice--info}
+
+### Chronic Glomerulonephritis / 慢性糸球体腎炎
+
+* **Concept**
+  * Prolonged presence of proteinuria and hematuria, leading to a gradual decline in kidney function
+{: .notice--info}
+
+### Minimal Change Nephrotic Syndrome / 微小変化型ネフローゼ症候群
+
+* **Concept**
+  * Nephrotic syndrome common in children (3-6 years old) and young adults
+  * Light microscopy shows almost normal glomeruli, and electron microscopy shows loss of podocyte foot processes
+* **Symptoms**
+  * Edema: Sudden generalized swelling
+  * Proteinuria: High levels of albuminuria, with high selectivity for urinary protein
+* **Tests**
+  * Blood: Albumin↓, LDL cholesterol↑
+  * Light microscopy: Nearly normal
+  * Fluorescence: No deposition observed
+  * Electron microscopy: Disappearance of foot processes of the glomerular epithelial cells
+* **Treatment**
+  * Corticosteroids
+  * Diuretics: Loop diuretics, potassium-sparing diuretics
+  * Protein infusion products: Used in cases of circulatory insufficiency due to hypoalbuminemia
+{: .notice--info}
+
+### Membranous Nephropathy / 膜性腎症
+
+* **Concept**
+  * Nephrotic syndrome common in adults (40 years and older)
+  * Characterized by thickening of the glomerular basement membrane and deposition of immune complexes on the basement membrane
+  * Causes: 80% primary (idiopathic), 20% secondary to conditions such as: 
+    * Malignancies (gastric cancer, colorectal cancer, lung cancer, breast cancer, lymphoma)
+    * Infections (Hepatitis B, syphilis)
+    * Autoimmune diseases (SLE, RA)
+    * Medications (gold salts, D-penicillamine)
+* **Symptoms**
+  * Edema: Chronic
+  * Proteinuria: Chronic
+* **Tests**
+  * Blood: Albumin↓, LDL cholesterol↑
+  * Light microscopy: Basement membrane thickening, spike formation on the basement membrane
+  * Fluorescence: Granular deposition of IgG and C3 along the glomerular basement membrane
+  * Electron microscopy: Electron dense deposits on the epithelial side of the basement membrane
+* **Treatment**
+  * Supportive therapy: Diuretics, antiplatelet agents
+  * Drug therapy: Steroids, immunosuppressive drugs
+  * Secondary cases: Treatment of the underlying condition
+{: .notice--info}
+
+### Focal Segmental Glomerulosclerosis / 巣状分節性糸球体硬化症
+
+* **Concept**
+  * Nephrotic syndrome (often demonstrating steroid resistance)
+  * Characterized by localized focal segmental sclerosis lesions in some glomeruli
+* **Symptoms**
+  * Edema: Rapid onset
+  * Proteinuria: High levels of proteinuria with low selectivity for urine protein
+* **Tests**
+  * Blood: Albumin↓, LDL cholesterol↑
+  * Light microscopy: Focal segmental sclerosis lesions in some glomeruli
+  * Fluorescence: Granular deposition of IgG and C3 in the sclerotic areas
+  * Electron microscopy: Loss of podocyte foot processes
+* **Treatment**
+  * Steroids
+  * Cyclosporine: Used in combination with steroids for cases resistant to steroids
+{: .notice--info}
+
+### Membranoproliferative Glomerulonephritis / 膜性増殖性糸球体腎炎
+
+* **Concept**
+  * Nephrotic syndrome characterized by glomerular proliferation and low complement levels
+  * Causes: Primary or secondary (Hepatitis C, cryoglobulinemia, SLE).
+* **Symptoms**
+  * Proteinuria: High levels
+  * Hematuria: Microscopic or gross
+  * Edema
+* **Tests**
+  * Blood: CH50↓, C3↓, C4↓
+  * Light microscopy: Glomerular lobulation, mesangial cell proliferation, thickening of the capillary walls, duplication of the basement membrane
+  * Fluorescence: Deposition of C3, IgG, IgM in capillary walls and mesangium
+  * Electron microscopy: Electron dense deposits and mesangial interposition
+* **Treatment**
+  * Steroids: Used in combination with immunosuppressive drugs, anticoagulants, and antiplatelet agents.
+  * Secondary cases: Treatment of the underlying condition.
+{: .notice--info}
 
 ## Tubulointerstitial disorders / 尿細管・間質性疾患
 
@@ -83,7 +241,17 @@ Essences of various diseases.
 
 ## Renal vascular disorders / 腎循環障害
 
-## Urological disorders / 泌尿器科的疾患
+## Congenital abnormalities / 先天異常
+
+## Infections / 感染症
+
+## Tumors / 腫瘍
+
+## Stones / 結石
+
+## Functional disorders / 機能障害
+
+## Injuries / 損傷
 
 # Immune and Connective Tissue Diseases / 免疫・膠原病
 
@@ -111,7 +279,7 @@ Essences of various diseases.
 
 ## Parasitic infections / 寄生虫感染症
 
-# Respiratory system / 呼吸器
+# Respiratory / 呼吸器
 
 ## Infectious diseases / 感染性疾患
 
@@ -160,3 +328,155 @@ Essences of various diseases.
 ## Head injuries / 頭部外傷
 
 ## Malformations / 奇形
+
+# Pediatrics / 小児科
+
+## Neonates / 新生児
+
+## Congenital abnormalities / 先天異常
+
+## Gastrointestinal disorders / 消化器疾患
+
+## Cardiovascular disorders / 循環器疾患
+
+## Metabolic and endocrine disorders / 代謝・内分泌疾患
+
+## Renal and urological disorders / 腎・泌尿器疾患
+
+## Immune and allergic disorders / 免疫・アレルギー疾患
+
+## Hematological and hematopoietic disorders / 血液・造血器疾患
+
+## Infectious diseases / 感染症
+
+## Respiratory disorders / 呼吸器疾患
+
+## Neurological disorders / 神経疾患
+
+## Tumors / 腫瘍
+
+# Gynecology / 婦人科
+
+## Menstrual abnormalities / 月経の異常
+
+## Abnormalities in sexual differentiation and genital morphology / 性分化と性器形態の異常
+
+## Genital inflammation and sexually transmitted infections / 性器の炎症・性感染症
+
+## Infertility / 不妊
+
+## Age-related changes / 加齢に伴う変化
+
+## Benign tumors, pre-cancerous lesions, and neoplasms / 類腫瘍病変・前癌病変・腫瘍
+
+## Breast disorders / 乳腺疾患
+
+# Obstetrics / 産科
+
+## Abnormalities in pregnancy / 妊娠の異常
+
+## Complicated pregnancies and mother-child infections / 合併症妊娠・母子感染
+
+## Abnormalities in childbirth / 分娩の異常
+
+## Postpartum period / 産褥
+
+# Ophthalmology / 眼科
+
+## Refractive and accommodative abnormalities / 屈折・調節異常
+
+## Eyelid and lacrimal system disorders / 眼瞼・涙器疾患
+
+## Conjunctival, corneal, and scleral disorders / 結膜・角膜・強膜疾患
+
+## Uveal disorders / ぶどう膜疾患
+
+## Retinal and vitreous disorders / 網膜・硝子体疾患
+
+## Optic nerve disorders / 視神経疾患
+
+## Lens disorders / 水晶体疾患
+
+## Glaucoma / 緑内障
+
+## Ocular trauma / 眼外傷
+
+# Otorhinolaryngology / 耳鼻咽喉科
+
+## Inner ear disorders / 内耳疾患
+
+## Middle ear disorders / 中耳疾患
+
+## Outer ear disorders / 外耳疾患
+
+## Neurological disorders / 神経疾患
+
+## Nasal and sinus disorders / 鼻腔・副鼻腔疾患
+
+## Oral, tonsil, and salivary gland disorders / 口腔・扁桃・唾液腺疾患
+
+## Pharyngeal and laryngeal disorders / 咽頭・喉頭疾患
+
+# Orthopedics / 整形外科
+
+## Fractures / 骨折
+
+## Dislocations / 脱臼
+
+## Spinal cord and spinal disorders / 脊椎・脊髄疾患
+
+## Upper limb disorders / 上肢の疾患
+
+## Lower limb disorders / 下肢の疾患
+
+## Infectious diseases / 感染性疾患
+
+## Peripheral nerve injuries / 末梢神経損傷
+
+## Metabolic bone disorders / 代謝性骨疾患
+
+## Tumors / 腫瘍
+
+# Psychiatry / 精神科
+
+## Neurotic disorders / 神経症性障害
+
+## Mood disorders and schizophrenia / 気分障害・統合失調症
+
+## Substance-related disorders / 物質関連障害
+
+## Physiological disorders / 生理的障害
+
+## Neurodevelopmental disorders / 神経発達症群
+
+# Dermatology / 皮膚科
+
+## Eczema and dermatitis group / 湿疹・皮膚炎群
+
+## Urticaria and itching group / 蕁麻疹・掻痒群
+
+## Erythema / 紅斑症
+
+## Bullous diseases / 水疱症
+
+## Pustular diseases / 膿疱症
+
+## Pigmentation disorders / 色素異常症
+
+## Nevus / 母斑症
+
+## Keratosis disorders / 角化異常
+
+## Benign tumors / 良性腫瘍
+
+## Malignant tumors / 悪性腫瘍
+
+## Metabolic disorders / 代謝異常
+
+# Urology / 泌尿器科
+
+## Congenital abnormalities / 先天異常
+
+## Tumors / 腫瘍
+
+## Male genital disorders / 男性器疾患

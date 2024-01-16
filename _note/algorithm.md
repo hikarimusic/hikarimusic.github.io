@@ -107,7 +107,7 @@ int search(int n) {
 }
 ```
 
-## Optimization / 最適化
+## Basic / 基本
 
 ### Dynamic Programming / 動的計画法
 ```cpp
