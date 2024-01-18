@@ -338,282 +338,6 @@ int query(int l, int r, int n) {
 }
 ```
 
-## Mathematics / 数学
-
-### Euclidean Algorithm / ユークリッドの互除法
-```cpp
-int gcd(int a, int b) {
-    if (b==0) 
-        return a;
-    return gcd(b, a%b);
-}
-```
-```cpp
-int extgcd(int a, int b, int& x, int& y) {
-    if (b==0) {
-        x = 1;
-        y = 0;
-        return a;
-    }
-    int g, x1, y1;
-    g = extgcd(b, a%b, x1, y1);
-    x = y1;
-    y = x1 - y1*(a/b);
-    return g;
-}
-```
-
-### Prime and Divisor / 素数と約数
-```cpp
-bool isPrime(int n) {
-    for (int i=2; i*i<=n; ++i) {
-        if (n%i==0)
-            return false;
-    }
-    return true;
-}
-```
-```cpp
-vector<int> divisor(int n) {
-    vector<int> res;
-    for (int i=1; i*i<=n; ++i) {
-        if (n%i==0) {
-            res.push_back(i);
-            if (n/i!=i)
-                res.push_back(n/i);
-        }
-    }
-    sort(res.begin(), res.end());
-    return res;
-}
-```
-```cpp
-vector<pii> factor(int n) {
-    vector<pii> res;
-    for (int i=2; i*i<=n; ++i) {
-        if (n%i!=0)
-            continue;
-        int p = 0;
-        while (n%i==0) {
-            n /= i;
-            p += 1;
-        }
-        res.push_back({i, p});
-    }
-    if (n!=1)
-        res.push_back({n, 1});
-    return res;
-}
-```
-```cpp
-int euler_phi(int n) {
-    int res = n;
-    for (int i=2; i*i<=n; ++i) {
-        if (n%i==0) {
-            res = res * (i-1) / i;
-            while (n%i==0)
-                n /= i;
-        }
-    }
-    if (n!=1)
-        res = res * (n-1) / n;
-    return res;
-}
-```
-
-### Sieve of Eratosthenes / エラトステネスの篩
-
-```cpp
-vector<bool> isPrime(N, 1);
-
-void sieve(int n) {
-    for (int i=2; i*i<=n; ++i) {
-        if (!isPrime[i])
-            continue;
-        for (int j=i*i; j<=n; j+=i)
-            isPrime[j] = 0;
-    }
-}
-```
-```cpp
-vector<bool> isPrime_1(N1, 1), isPrime_2(N2, 1);
-
-void segment_sieve(int l, int r) {
-    for (int i=2; i*i<=r; ++i) {
-        if (isPrime_1[i]) {
-            for (int j=i*i; j*j<=r; j+=i)
-                isPrime_1[j] = 0;
-            for (int j=max(i*i, (l+i-1)/i*i); j<=r; j+=i)
-                isPrime_2[j-l] = 0;
-        }
-    }
-}
-```
-
-### Binary Exponentiation / べき乗
-```cpp
-int binpow(int x, int n, int mod) {
-    int res = 1;
-    while (n>0) {
-        if (n&1)
-            res = res * x % mod;
-        x = x * x % mod;
-        n >>= 1;
-    }
-    return res;
-}
-```
-```cpp
-typedef vector<int> vec;
-typedef vector<vec> mat;
-
-mat matmul(mat &A, mat &B, int m) {
-    mat C(A.size(), vec(B[0].size()));
-    for (int i=0; i<A.size(); ++i) {
-        for (int j=0; j<B[0].size(); ++j) {
-            for (int k=0; k<A[0].size(); ++k)
-                C[i][j] = (C[i][j] + A[i][k] * B[k][j]) % m;
-        }
-    }
-    return C;
-}
-
-mat matpow(mat A, int n, int m) {
-    mat B(A.size(), vec(A.size()));
-    for (int i=0; i<B.size(); ++i)
-        B[i][i] = 1;
-    while (n>0) {
-        if (n&1)
-            B = matmul(B, A, m);
-        A = matmul(A, A, m);
-        n >>= 1;
-    }
-    return B;
-}
-```
-
-### Modular Arithmetic / 余りの計算
-```cpp
-int mod_inv(int a, int m) {
-    int x, y;
-    extgcd(a, m, x, y);
-    return ((x % m) + m) % m;
-}
-```
-```cpp
-vector<int> A(N), B(N), M(N);
-
-pair<int, int> linear_congruence(int n) {
-    int x=0, m=1;
-    for (int i=0; i<n; ++i) {
-        int a=A[i]*m, b=B[i]-A[i]*x, d=gcd(a, M[i]);
-        if (b%d!=0)
-            return {0, -1};
-        int y = (b/d) * mod_inv(a/d, M[i]/d) % (M[i]/d);
-        x += m*y;
-        m *= M[i]/d;
-    }
-    return {(x%m+m)%m, m};
-}
-```
-```cpp
-vector<int> fac(M, 1);
-
-void init(int m) {
-    for (int i=1; i<m; ++i)
-        fac[i] = fac[i-1] * i % m;
-}
-
-int mod_fac(int n, int m, int& e) {
-    e = 0;
-    if (n==0)
-        return 1;
-    int r = mod_fac(n/m, m, e);
-    e += n/m;
-    if (n/m%2==1)
-        return (m-fac[n%m]) * r % m;
-    else
-        return fac[n%m] * r % m;
-}
-```
-```cpp
-int mod_binom(int n, int k, int m) {
-    if (n<0 || k<0 || n<k)
-        return 0;
-    int e1, e2, e3;
-    int a1=mod_fac(n, m, e1), a2=mod_fac(n-k, m, e2), a3=mod_fac(k, m, e3);
-    if (e1>e2+e3)
-        return 0;
-    return a1 * mod_inv(a2*a3%m, m) % m;
-}
-```
-```cpp
-vector<int> fac(N, 1), inv(N, 1), finv(N, 1);
-
-void init(int n, int m) {
-    for (int i=2; i<=n; ++i) {
-        fac[i] = fac[i-1] * i % m;
-        inv[i] = m - inv[m%i] * (m/i) % m;
-        finv[i] = finv[i-1] * inv[i] % m;
-    }
-}
-
-int mod_binom(int n, int k, int m) {
-    return fac[n] * (finv[n-k] * finv[k] % m) % m; 
-}
-```
-
-### Linear Algebra / 線型代数
-```cpp
-vector<vector<double>> A(N, vector<double>(M));
-vector<double> B(N), sol(M);
-
-int gauss(int n, int m) {
-    vector<vector<double>> mat(n, vector<double>(m+1, 0));
-    for (int i=0; i<n; ++i) {
-        for (int j=0; j<m; ++j)
-            mat[i][j] = A[i][j];
-        mat[i][m] = B[i];
-    }
-    vector<int> piv(m, -1);
-    for (int c=0, r=0; c<m && r<n; ++c) {
-        int p = r;
-        for (int i=r; i<n; ++i) {
-            if (abs(mat[i][c])>abs(mat[p][c]))
-                p = i;
-        }
-        if (abs(mat[p][c])<EPS)
-            continue;
-        swap(mat[r], mat[p]);
-        piv[c] = r;
-        for (int i=0; i<n; ++i) {
-            if (i==r)
-                continue;
-            double cf = mat[i][c] / mat[r][c];
-            for (int j=c; j<=m; ++j)
-                mat[i][j] -= mat[r][j] * cf;
-        }
-        r += 1;
-    }
-    for (int j=0; j<m; ++j) {
-        if (piv[j]!=-1)
-            sol[j] = mat[piv[j]][m] / mat[piv[j]][j];
-    }
-    for (int i=0; i<n; ++i) {
-        double sum = 0;
-        for (int j=0; j<m; ++j)
-            sum += mat[i][j] * sol[j];
-        if (abs(sum-mat[i][m])>EPS)
-            return 0;
-    }
-    for (int j=0; j<m; ++j) {
-        if (piv[j]==-1)
-            return INF;
-    }
-    return 1;
-}
-```
-
 ## Graph / グラフ
 
 ### Graph Traversal / グラフ探索
@@ -1193,5 +917,299 @@ int lca(int a, int b) {
     if (l>r)
         swap(l, r);
     return query(0, 0, arr.size()-1, l, r);
+}
+```
+
+## Mathematics / 数学
+
+### Euclidean Algorithm / ユークリッドの互除法
+```cpp
+int gcd(int a, int b) {
+    if (b==0) 
+        return a;
+    return gcd(b, a%b);
+}
+```
+```cpp
+int extgcd(int a, int b, int& x, int& y) {
+    if (b==0) {
+        x = 1;
+        y = 0;
+        return a;
+    }
+    int g, x1, y1;
+    g = extgcd(b, a%b, x1, y1);
+    x = y1;
+    y = x1 - y1*(a/b);
+    return g;
+}
+```
+
+### Prime and Divisor / 素数と約数
+```cpp
+bool isPrime(int n) {
+    for (int i=2; i*i<=n; ++i) {
+        if (n%i==0)
+            return false;
+    }
+    return true;
+}
+```
+```cpp
+vector<int> divisor(int n) {
+    vector<int> res;
+    for (int i=1; i*i<=n; ++i) {
+        if (n%i==0) {
+            res.push_back(i);
+            if (n/i!=i)
+                res.push_back(n/i);
+        }
+    }
+    sort(res.begin(), res.end());
+    return res;
+}
+```
+```cpp
+vector<pii> factor(int n) {
+    vector<pii> res;
+    for (int i=2; i*i<=n; ++i) {
+        if (n%i!=0)
+            continue;
+        int p = 0;
+        while (n%i==0) {
+            n /= i;
+            p += 1;
+        }
+        res.push_back({i, p});
+    }
+    if (n!=1)
+        res.push_back({n, 1});
+    return res;
+}
+```
+```cpp
+int euler_phi(int n) {
+    int res = n;
+    for (int i=2; i*i<=n; ++i) {
+        if (n%i==0) {
+            res = res * (i-1) / i;
+            while (n%i==0)
+                n /= i;
+        }
+    }
+    if (n!=1)
+        res = res * (n-1) / n;
+    return res;
+}
+```
+
+### Sieve of Eratosthenes / エラトステネスの篩
+
+```cpp
+vector<bool> isPrime(N, 1);
+
+void sieve(int n) {
+    for (int i=2; i*i<=n; ++i) {
+        if (!isPrime[i])
+            continue;
+        for (int j=i*i; j<=n; j+=i)
+            isPrime[j] = 0;
+    }
+}
+```
+```cpp
+vector<bool> isPrime_1(N1, 1), isPrime_2(N2, 1);
+
+void segment_sieve(int l, int r) {
+    for (int i=2; i*i<=r; ++i) {
+        if (isPrime_1[i]) {
+            for (int j=i*i; j*j<=r; j+=i)
+                isPrime_1[j] = 0;
+            for (int j=max(i*i, (l+i-1)/i*i); j<=r; j+=i)
+                isPrime_2[j-l] = 0;
+        }
+    }
+}
+```
+
+### Binary Exponentiation / べき乗
+```cpp
+int binpow(int x, int n, int mod) {
+    int res = 1;
+    while (n>0) {
+        if (n&1)
+            res = res * x % mod;
+        x = x * x % mod;
+        n >>= 1;
+    }
+    return res;
+}
+```
+```cpp
+typedef vector<int> vec;
+typedef vector<vec> mat;
+
+mat matmul(mat &A, mat &B, int m) {
+    mat C(A.size(), vec(B[0].size()));
+    for (int i=0; i<A.size(); ++i) {
+        for (int j=0; j<B[0].size(); ++j) {
+            for (int k=0; k<A[0].size(); ++k)
+                C[i][j] = (C[i][j] + A[i][k] * B[k][j]) % m;
+        }
+    }
+    return C;
+}
+
+mat matpow(mat A, int n, int m) {
+    mat B(A.size(), vec(A.size()));
+    for (int i=0; i<B.size(); ++i)
+        B[i][i] = 1;
+    while (n>0) {
+        if (n&1)
+            B = matmul(B, A, m);
+        A = matmul(A, A, m);
+        n >>= 1;
+    }
+    return B;
+}
+```
+
+### Modular Arithmetic / 余りの計算
+```cpp
+int mod_inv(int a, int m) {
+    int x, y;
+    extgcd(a, m, x, y);
+    return ((x % m) + m) % m;
+}
+```
+```cpp
+vector<int> A(N), B(N), M(N);
+
+pair<int, int> linear_congruence(int n) {
+    int x=0, m=1;
+    for (int i=0; i<n; ++i) {
+        int a=A[i]*m, b=B[i]-A[i]*x, d=gcd(a, M[i]);
+        if (b%d!=0)
+            return {0, -1};
+        int y = (b/d) * mod_inv(a/d, M[i]/d) % (M[i]/d);
+        x += m*y;
+        m *= M[i]/d;
+    }
+    return {(x%m+m)%m, m};
+}
+```
+```cpp
+vector<int> fac(M, 1);
+
+void init(int m) {
+    for (int i=1; i<m; ++i)
+        fac[i] = fac[i-1] * i % m;
+}
+
+int mod_fac(int n, int m, int& e) {
+    e = 0;
+    if (n==0)
+        return 1;
+    int r = mod_fac(n/m, m, e);
+    e += n/m;
+    if (n/m%2==1)
+        return (m-fac[n%m]) * r % m;
+    else
+        return fac[n%m] * r % m;
+}
+```
+```cpp
+int mod_binom(int n, int k, int m) {
+    if (n<0 || k<0 || n<k)
+        return 0;
+    int e1, e2, e3;
+    int a1=mod_fac(n, m, e1), a2=mod_fac(n-k, m, e2), a3=mod_fac(k, m, e3);
+    if (e1>e2+e3)
+        return 0;
+    return a1 * mod_inv(a2*a3%m, m) % m;
+}
+```
+```cpp
+vector<int> fac(N, 1), inv(N, 1), finv(N, 1);
+
+void init(int n, int m) {
+    for (int i=2; i<=n; ++i) {
+        fac[i] = fac[i-1] * i % m;
+        inv[i] = m - inv[m%i] * (m/i) % m;
+        finv[i] = finv[i-1] * inv[i] % m;
+    }
+}
+
+int mod_binom(int n, int k, int m) {
+    return fac[n] * (finv[n-k] * finv[k] % m) % m; 
+}
+```
+
+### Linear Algebra / 線型代数
+```cpp
+vector<vector<double>> A(N, vector<double>(M));
+vector<double> B(N), sol(M);
+
+int gauss(int n, int m) {
+    vector<vector<double>> mat(n, vector<double>(m+1, 0));
+    for (int i=0; i<n; ++i) {
+        for (int j=0; j<m; ++j)
+            mat[i][j] = A[i][j];
+        mat[i][m] = B[i];
+    }
+    vector<int> piv(m, -1);
+    for (int c=0, r=0; c<m && r<n; ++c) {
+        int p = r;
+        for (int i=r; i<n; ++i) {
+            if (abs(mat[i][c])>abs(mat[p][c]))
+                p = i;
+        }
+        if (abs(mat[p][c])<EPS)
+            continue;
+        swap(mat[r], mat[p]);
+        piv[c] = r;
+        for (int i=0; i<n; ++i) {
+            if (i==r)
+                continue;
+            double cf = mat[i][c] / mat[r][c];
+            for (int j=c; j<=m; ++j)
+                mat[i][j] -= mat[r][j] * cf;
+        }
+        r += 1;
+    }
+    for (int j=0; j<m; ++j) {
+        if (piv[j]!=-1)
+            sol[j] = mat[piv[j]][m] / mat[piv[j]][j];
+    }
+    for (int i=0; i<n; ++i) {
+        double sum = 0;
+        for (int j=0; j<m; ++j)
+            sum += mat[i][j] * sol[j];
+        if (abs(sum-mat[i][m])>EPS)
+            return 0;
+    }
+    for (int j=0; j<m; ++j) {
+        if (piv[j]==-1)
+            return INF;
+    }
+    return 1;
+}
+```
+
+## Technique / テクニック
+
+### Two Pointers / しゃくとり法
+```cpp
+vector<int> arr(N);
+
+void solve(int n) {
+    int i="<>", j="<>";
+    while ("<>") {
+        if ("<>")
+            "<modify i>";
+        else
+            "<modify j>";
+        "<update>":
+    }
 }
 ```

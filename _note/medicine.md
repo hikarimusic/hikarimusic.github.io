@@ -235,6 +235,34 @@ Essences of various diseases.
   * Secondary cases: Treatment of the underlying condition.
 {: .notice--info}
 
+### Alport Syndrome / Alport症候群
+
+* **Concept**
+  * Hereditary progressive nephritis accompanied by sensorineural hearing loss and eye abnormalities
+  * Most cases (80%) are X-linked with abnormalities in the formation of type IV collagen
+* **Symptoms**
+  * Nephritis: Onset with asymptomatic hematuria and proteinuria, progresses to end-stage renal failure
+  * Sensorineural hearing loss: Bilateral
+  * Eye abnormalities: lenticonus, cataracts
+* **Tests**
+  * Light microscopy: Nonspecific findings
+  * Fluorescence: Abnormalities in the detection of type IV collagen alpha-5 chain
+  * Electron microscopy: Changes in the glomerular basement membrane, layering of the lamina densa
+* **Treatment**
+  * Disease progression control: ACE inhibitors, ARBs
+  * End-stage renal failure: Dialysis, transplantation
+{: .notice--info}
+
+### Thin Basement Membrane Syndrome / 良性家族性血尿症候群
+
+* **Concept**
+  * Familial disease characterized by asymptomatic hematuria with a favorable prognosis
+* **Symptoms**
+  * Hematuria: Microscopic, occasionally gross
+* **Tests**
+  * Electron microscopy: Thinner than normal glomerular basement membrane
+{: .notice--info}
+
 ## Tubulointerstitial disorders / 尿細管・間質性疾患
 
 ## Systemic disorders and renal disorders / 全身障害と腎障害
