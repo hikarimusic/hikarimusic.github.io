@@ -21,7 +21,137 @@ Essences of various diseases.
 
 ## Diaphragm, peritoneum, and abdominal wall disorders / 横隔膜・腹膜・腹壁疾患
 
-## Liver disorders / 肝疾患
+## Liver Disorders / 肝疾患
+
+### Acute Viral Hepatitis / 急性ウイルス性肝炎
+
+* **Concept**
+  * Acute inflammatory liver disease caused by an immune response to hepatitis viruses replicating within liver cells
+* **Symptoms**
+  * Influenza-like symptoms: General fatigue, gastrointestinal discomfort, fever, muscle pain
+  * Liver symptoms: Jaundice, itching of the skin, hepatomegaly
+* **Tests**
+  * Blood:
+    * AST↑, ALT↑, Prolonged PT
+    * Bilirubin↑, ICG retention rate↑
+    * ALP and γ-GT mildly elevated
+  * Viral markers:
+    * Type A: IgM-HA antibody
+    * Type B: HBs antigen, IgM-HBc antibody
+    * Type C: HCV-RNA
+  * Abdominal ultrasound: Enlarged and reddish liver
+* **Treatment**
+  * Supportive therapy: Bed rest, calorie supplementation
+{: .notice--info}
+
+### Chronic Viral Hepatitis / 慢性ウイルス性肝炎
+
+* **Concept**
+  * Persistent inflammation of the liver due to hepatitis viruses lasting for more than 6 months
+* **Symptoms**
+  * Asymptomatic
+* **Tests**
+  * Blood:
+    * AST↑, ALT↑
+    * Gamma-globulin↑, TTT/ZTT↑, hyaluronic acid↑, platelets↓, ICG retention rate↑
+  * Viral markers:
+    * Type B: HBs antigen, IgG-HBc antibody, HBV-DNA
+    * Type C: HCV antibody, HCV-RNA
+  * Abdominal ultrasound: Irregular liver surface and striations
+  * Pathology: Bridging fibrosis, piecemeal necrosis
+* **Treatment**
+  * Chronic hepatitis B:
+    * Interferon: Peg-IFNα
+    * Nucleoside analogs: Entecavir, Tenofovir
+  * Chronic hepatitis C:
+    * Direct-acting antivirals: Glecaprevir/Pibrentasvir
+{: .notice--info}
+
+### Drug-induced liver injury / 薬物性肝障害
+
+* **Concept**
+  * Liver damage caused by drugs
+  * Classification:
+    * Hepatocellular type: Acetaminophen, Halothane, Carbon tetrachloride, Isoniazid, Methyldopa, Tetracycline, Rifampicin, Methotrexate, Azathioprine
+    * Cholestatic type: Cyclosporine, Chlorpromazine, Erythromycin, Anabolic steroids, Oral contraceptives, Antithyroid drugs
+* **Symptoms**
+  * Asymptomatic
+* **Tests**
+  * Blood:
+    * Eosinophils↑
+    * AST↑, ALT↑
+    * ALP↑・γ-GT↑
+  * Drug sensitivity testing: Identification of the causative drug
+* **Treatment**
+  * Discontinuation of the causative drug
+  * Medications: Glycyrrhizin, steroids, Ursodeoxycholic acid
+{: .notice--info}
+
+### Fatty Liver / 脂肪肝
+
+* **Concept**
+  * Accumulation of fat droplets consisting of neutral fat in over one-third of hepatocytes in liver lobules
+  * Causes: Alcohol, obesity, diabetes
+* **Symptoms**
+  * Asymptomatic
+  * Heaviness or dull pain in the right upper abdomen
+* **Tests**
+  * Blood:
+    * AST and ALT normal to elevated
+    * Serum triglycerides normal to elevated, Cholinesterase elevated
+  * CT: Hypodense areas
+  * Ultrasound: Bright liver, increased liver-kidney contrast, decreased deep echoes
+  * Pathology: Fat deposition
+  * Abdominal laparoscopy: Yellowish spots
+* **Treatment**
+  * Addressing the underlying cause
+{: .notice--info}
+
+### Alcoholic Liver Disease / アルコール性肝障害
+
+* **Concept**
+  * Liver damage caused by long-term excessive alcohol consumption.
+  * Pathology: Fatty liver, liver fibrosis, hepatitis, cirrhosis
+* **Tests**
+  * Blood:
+    * AST & ALT↑ (AST>ALT), γ-GT↑↑, IgA↑
+    * Advanced liver damage: platelets↓, albumin↓, WBC↑, bilirubin↑, prolonged prothrombin time
+  * Pathology:
+    * Fatty liver: Fatty degeneration
+    * Liver fibrosis: Pericellular fibrosis
+    * Hepatitis: Ballooning degeneration of hepatocytes, Mallory-Denk bodies, neutrophil infiltration
+    * Cirrhosis: Nodular transformation of liver lobules
+  * Abdominal laparoscopy, CT, MRI: Hepatomegaly
+* **Treatment**
+  * Abstinence from alcohol
+  * Nutritional therapy: Vitamins, intravenous fluids
+  * Hepatoprotective drugs: Ursodeoxycholic acid, Glycyrrhizin
+{: .notice--info}
+
+### Non-Alcoholic Fatty Liver Disease / 非アルコール性脂肪性肝疾患
+
+* **Concept**
+  * Fatty liver disorder that does not involve a history of excessive alcohol consumption
+  * Classification
+    * Non-alcoholic fatty liver: Characterized by fat deposition in liver cells
+    * Non-alcoholic steatohepatitis: Characterized by liver cell fat degeneration and ballooning
+  * Causes: Obesity, diabetes, lipid abnormalities, hypertension, metabolic syndrome
+* **Symptoms**
+  * Asymptomatic
+  * Discomfort in the right upper abdomen
+* **Tests**
+  * Blood:
+    * AST・ALT↑, ferritin↑, HOMA-IR↑ (insulin resistance)
+    * Progression: Platelets↓, liver fibrosis markers↑	
+  * Ultrasound, CT, MRI: Bright liver, increased liver-kidney contrast, reduced deep echoes
+  * Pathology: Large fat droplets, inflammation, ballooning of hepatocytes, Mallory-Denk bodies, fibrosis
+* **Treatment**
+  * Lifestyle guidance: Correction of dietary habits, addressing physical inactivity
+  * Pharmacotherapy:
+    * For diabetes: Thiazolidinediones, SGLT2 inhibitors, GLP-1 agonists
+    * For hypertension: ARBs, ACE inhibitors
+    * For lipid abnormalities: HMG-CoA reductase inhibitors
+{: .notice--info}
 
 ## Biliary system disorders / 胆道系疾患
 

@@ -835,7 +835,7 @@ void dfs(int v, int p, int d) {
 
 void init(int n) {
     dfs(0, -1, 0);
-    int l_n = int(log2(double(n)))+1;
+    int l_n = int(log2(n))+1;
     for (int k=1; k<l_n; ++k) {
         for (int i=0; i<n; ++i) {
             if (par[k-1][i]==-1)
@@ -1198,6 +1198,20 @@ int gauss(int n, int m) {
 
 ## Technique / テクニック
 
+### Prefix Sum / 累積和
+```cpp
+vector<int> arr(N), sum(N);
+
+void build(int n) {
+    for (int i=0; i<n; ++i)
+        sum[i+1] = sum[i] + arr[i];
+}
+
+int query(int l, int r) {
+    return sum[r+1] - sum[l];
+}
+```
+
 ### Two Pointers / しゃくとり法
 ```cpp
 vector<int> arr(N);
@@ -1211,5 +1225,62 @@ void solve(int n) {
             "<modify j>";
         "<update>":
     }
+}
+```
+
+### Meet in the Middle / 半分全列挙
+```cpp
+void solve(int n) {
+    vector<int> s;
+    for ("<1st half>")
+        s.push_back("<>");
+    sort(s.begin(), s.end());
+    for ("<2nd half>")
+        "<binary search>";
+}
+```
+
+### Coordinate Compression / 座標圧縮
+```cpp
+int compress(int n, vector<int> &x1, vector<int> &x2, int w) {
+    vector<int> xs;
+    for (int i=0; i<n; ++i) {
+        for (int d=-1; d<=1; ++d) {
+            int t1=x1[i]+d, t2=x2[i]+d;
+            if (0<=t1 && t1<w)
+                xs.push_back(t1);
+            if (0<=t2 && t2<w)
+                xs.push_back(t2);
+        }
+    }
+    sort(xs.begin(), xs.end());
+    xs.erase(unique(xs.begin(), xs.end()), xs.end());
+    for (int i=0; i<n; ++i) {
+        x1[i] = find(xs.begin(), xs.end(), x1[i]) - xs.begin();
+        x2[i] = find(xs.begin(), xs.end(), x2[i]) - xs.begin();
+    }
+    return xs.size();
+}
+```
+
+### Binary Lifting / ダブリング
+```cpp
+vector<vector<int>> nex(LOG_K, vector<int>(N));
+
+void build(int n, int k) {
+    for (int i=0; i<n; ++i)
+        nex[0][i] = "<next position>";
+    for (int i=1; i<int(log2(k))+1; ++i) {
+        for (int j=0; j<n; ++j)
+            nex[i][j] = nex[i-1][nex[i-1][j]];
+    }
+}
+
+int query(int p, int d) {
+    for (int i=0; d>0; ++i, d>>=1) {
+        if (d&1)
+            p = nex[i][p];
+    }
+    return p;
 }
 ```
