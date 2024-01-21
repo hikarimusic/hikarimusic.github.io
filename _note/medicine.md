@@ -7,7 +7,7 @@ tags:
 toc: true
 ---
 
-Essences of various diseases.
+Essences of clinical medicine.
 
 {% include toc %}
 
@@ -58,7 +58,7 @@ Essences of various diseases.
     * Type B: HBs antigen, IgG-HBc antibody, HBV-DNA
     * Type C: HCV antibody, HCV-RNA
   * Abdominal ultrasound: Irregular liver surface and striations
-  * Pathology: Bridging fibrosis, piecemeal necrosis
+  * Pathology: Bridging fibrosis, piecemeal necrosis (interface hepatitis)
 * **Treatment**
   * Chronic hepatitis B:
     * Interferon: Peg-IFNα
@@ -87,6 +87,38 @@ Essences of various diseases.
   * Medications: Glycyrrhizin, steroids, Ursodeoxycholic acid
 {: .notice--info}
 
+### Fulminant Hepatitis / 劇症肝炎
+
+* **Concept**
+  * Acute severe liver injury in an otherwise normal liver, with PT less than 40% within 8 weeks from the onset of initial symptoms
+  * Classification: Non-comatose type, comatose type
+  * Causes: Viral hepatitis, drug-induced liver injury, autoimmune hepatitis
+* **Symptoms**
+  * General symptoms: Fever, extreme fatigue, severe jaundice, hepatic fetor, gastrointestinal complaints, bleeding tendencies, tachycardia, ascites, edema, renal failure, oliguria
+  * Abdominal symptoms: Abdominal pain, hepatic atrophy, decreased liver dullness
+  * Neurological symptoms: Altered consciousness, asterixis (flapping tremor)
+  * Complications: DIC, renal failure, infections, cerebral edema, gastrointestinal bleeding
+* **Tests**
+  * Ultrasound, CT: Liver atrophy, inhomogeneous liver texture, ascites accumulation, gallbladder wall thickening
+  * Liver function:
+    * AST and ALT↑ (AST > ALT), LD↑
+    * Prolonged PT (<40%), INR>1.5, Hepaplastin test↓, albumin↓, cholinesterase↓, cholesterol↓, fibrinogen↓, hypoglycemia
+    * Bilirubin↑, ammonia↑, aromatic amino acids↑, bile acids↑
+    * Pathology: Extensive hepatocyte necrosis, inflammatory cell infiltration
+* **Treatment**
+  * Comprehensive management:
+    * Fluid management: Glucose-based fluids without amino acids
+    * Hepatic encephalopathy management: Synthetic disaccharides, orally administered non-absorbable antibiotics
+    * Cerebral edema management: Mannitol, concentrated glycerin
+    * Other measures: Infection control, respiratory management, management of gastrointestinal bleeding
+  * Artificial liver support therapy: Hemodiafiltration with plasma exchange
+  * Suppression of hepatitis progression:
+    * Hepatitis B virus: Nucleoside analogs + interferon
+    * Autoimmune hepatitis: Adrenal corticosteroids
+  * Inhibition of hepatocyte necrosis: Anticoagulation therapy, high-dose corticosteroid pulse therapy
+  * Liver transplantation
+{: .notice--info}
+
 ### Fatty Liver / 脂肪肝
 
 * **Concept**
@@ -112,6 +144,8 @@ Essences of various diseases.
 * **Concept**
   * Liver damage caused by long-term excessive alcohol consumption.
   * Pathology: Fatty liver, liver fibrosis, hepatitis, cirrhosis
+* **Symptoms**
+  * Asymptomatic
 * **Tests**
   * Blood:
     * AST & ALT↑ (AST>ALT), γ-GT↑↑, IgA↑
@@ -153,6 +187,52 @@ Essences of various diseases.
     * For lipid abnormalities: HMG-CoA reductase inhibitors
 {: .notice--info}
 
+### Autoimmune Hepatitis / 自己免疫性肝炎
+
+* **Concept**
+  * A chronic progressive liver inflammation believed to involve autoimmune mechanisms
+  * More common in middle-aged women, and often associated with HLA-DR4 positivity
+* **Symptoms**
+  * Asymptomatic
+  * Chronic hepatitis: General fatigue, jaundice, loss of appetite, ascites, fever, joint pain, skin rash
+  * Complications: Chronic thyroiditis, Sjogren's syndrome, rheumatoid arthritis, SLE
+* **Tests**
+  * Blood: AST↑, ALT↑, γ-globulin↑, IgG↑, TTT/ZTT↑, ESR↑, CRP↑
+  * Immunological: Anti-nuclear antibodies (+), anti-smooth muscle antibodies (+)
+  * Pathology: Liver parenchymal necrosis, liver cell rosette formation, emperipolesis, piecemeal necrosis (interface hepatitis), lymphocytic infiltration
+  * Abdominal laparoscopy: Irregular liver surface, red streaks
+* **Treatment**
+  * Steroids: First-line treatment
+  * Azathioprine: For steroid-resistant cases
+  * Ursodeoxycholic acid: To improve liver function
+  * Liver transplantation: For cases progressing to liver failure
+{: .notice--info}
+
+### Primary Biliary Cholangitis / 原発性胆汁性胆管炎
+
+* **Concept**
+  * A chronic liver condition involving autoimmune mechanisms and characterized by chronic intrahepatic cholestasis
+  * Notable for chronic non-suppurative destructive cholangitis (CNSDC) in intrahepatic bile ducts
+  * More common in middle-aged women, with HLA-DR8 association
+* **Symptoms**
+  * Asymptomatic
+  * Symptomatic: Itching of the skin, jaundice, signs of portal hypertension
+  * Complications:
+    * Cholestasis: Osteomalacia, osteoporosis, lipid abnormalities, xanthomas
+    * Cirrhosis: Esophageal varices, hepatocellular carcinoma
+    * Immunological abnormalities: Sjogren's syndrome, rheumatoid arthritis, chronic thyroiditis
+* **Tests**
+  * Blood: Bilirubin↑, ALP↑・γ-GT↑, total cholesterol↑, serum copper↑, serum ceruloplasmin↑, eosinophils↑, ESR↑
+  * Immunological markers: Anti-mitochondrial antibodies (+), anti-PDH antibodies (+), IgM↑
+  * Pathology: Chronic non-suppurative destructive cholangitis (CNSDC), granulomas, bile duct loss
+* **Treatment**
+  * Ursodeoxycholic acid: Promotes bile excretion
+  * Fenofibrate: For inadequate response to ursodeoxycholic acid
+  * Cholestyramine: Alleviates itching
+  * Vitamin D: Osteoporosis treatment (steroids contraindicated)
+  * Liver transplantation: For advanced cases
+{: .notice--info}
+
 ## Biliary system disorders / 胆道系疾患
 
 ## Pancreatic disorders / 膵疾患
@@ -177,31 +257,27 @@ Essences of various diseases.
 
 ## Cardiac tumors / 心臓腫瘍
 
-# Metabolism and Endocrine / 代謝・内分泌
+# Respiratory / 呼吸器
 
-## Hypothalamus and pituitary disorders / 視床下部・下垂体疾患
+## Infectious diseases / 感染性疾患
 
-## Thyroid disorders / 甲状腺疾患
+## Obstructive lung diseases / 閉塞性肺疾患
 
-## Parathyroid disorders / 副甲状腺疾患
+## Interstitial lung diseases / 間質性肺疾患
 
-## Adrenal gland disorders / 副腎疾患
+## Abnormalities of the lungs and bronchi / 肺・気管支の形態異常
 
-## Other endocrine disorders / その他の内分泌疾患
+## Lung tumors / 肺腫瘍
 
-## Carbohydrate metabolism disorders / 糖質代謝異常
+## Immune and allergic diseases / 免疫・アレルギー性疾患
 
-## Lipid metabolism disorders / 脂質代謝異常
+## Pulmonary vascular disorders / 肺循環障害
 
-## Amino acid metabolism disorders / アミノ酸代謝異常
+## Functional respiratory disorders / 機能的呼吸障害
 
-## Other metabolic disorders / その他の代謝異常
+## Mediastinal disorders / 縦隔疾患
 
-## Water and electrolyte metabolism disorders / 水・電解質代謝異常
-
-## Bone and connective tissue metabolic disorders / 骨・結合織の代謝性疾患
-
-## Nutritional abnormalities / 栄養の異常
+## Pleural and chest wall disorders / 胸膜・胸壁疾患
 
 # Renal and Urological / 腎・泌尿器
 
@@ -411,13 +487,270 @@ Essences of various diseases.
 
 ## Injuries / 損傷
 
-# Immune and Connective Tissue Diseases / 免疫・膠原病
+# Metabolism and Endocrine / 代謝・内分泌
 
-## Immunodeficiency / 免疫不全
+## Hypothalamus and pituitary disorders / 視床下部・下垂体疾患
 
-## Allergy / アレルギー
+## Thyroid Disorders / 甲状腺疾患
 
-## Connective tissue disease / 膠原病
+### Grave's Disease / バセドウ病
+
+* **Concept**
+  * The thyroid gland is continuously stimulated by autoantibodies against the TSH receptor, leading to excessive production of thyroid hormones and thyroid toxicity
+  * Common in: Women aged 20 to 40
+* **Symptoms**
+  * Triad: Thyroid enlargement, protruding eyeballs, tachycardia
+  * General symptoms: Hyperactivity, increased sweating, weight loss
+  * Neuromuscular symptoms: Tremors, periodic partial muscle paralysis
+  * Graves' ophthalmopathy: Upper eyelid retraction, lid lag
+  * Digestive symptoms: Frequent defecation, increased appetite
+* **Tests**
+  * T4↑, T3↑
+  * TSH↓
+  * TSH receptor antibodies (+)
+  * Thyroid scintigraphy: Increased uptake
+* **Treatment**
+  * Anti-thyroid medications: Methimazole, Propylthiouracil
+  * Surgery: Total thyroidectomy
+  * Radioactive iodine therapy: $\mathrm{I}^{131}$ internal therapy
+  * β-blockers: for tachycardia
+{: .notice--info}
+
+### Thyroid Storm / 甲状腺クリーゼ
+
+* **Concept**
+  * A life-threatening complication requiring urgent treatment, where multiple organs malfunction due to excessive thyroid activity
+  * Causes: Infection, trauma, surgery, stress, childbirth
+* **Symptoms**
+  * Fever (>38°C)
+  * Nervous system symptoms: Restlessness, confusion, mental abnormalities
+  * Cardiovascular symptoms: Tachycardia (>130), signs of heart failure
+  * Digestive symptoms: Vomiting, diarrhea, jaundice
+* **Tests**
+  * T4↑, T3↑
+* **Treatment**
+  * Anti-thyroid drugs: Methimazole, Propylthiouracil
+  * Inorganic iodine: Suppression of T4 and T3 secretion
+  * β-blockers: For tachycardia
+  * Corticosteroids: For adrenal insufficiency
+  * Other: Fluid replacement, oxygen therapy, cooling
+{: .notice--info}
+
+### Plummer's Disease / Plummer病
+
+* **Concept**
+  * Nodular thyroid lesions produce thyroid hormones in a TSH-independent manner
+  * Mostly benign
+* **Symptoms**
+  * Hyperthyroidism: Hyperactivity, weight loss, tremors
+* **Tests**
+  * T4↑, T3↑
+  * TSH↓
+  * TSH receptor antibodies (-)
+  * Thyroid scintigraphy: Accumulation matching the nodules
+* **Treatment**
+  * Surgery: Excision of nodules
+  * Radioactive iodine therapy: $\mathrm{I}^{131}$ internal therapy
+{: .notice--info}
+
+### Thyroid Hormone Resistance / 甲状腺ホルモン不応症
+
+* **Concept**
+  * Abnormalities in thyroid hormone receptor genes result in elevated thyroid hormone levels with no suppression of TSH
+* **Symptoms**
+  * Mild goiter and tachycardia
+* **Tests**
+  * T4↑, TSH→
+* **Treatment**
+  * Not required
+{: .notice--info}
+
+### Acute Suppurative Thyroiditis / 急性化膿性甲状腺炎
+
+* **Concept**
+  * Acute purulent inflammation of the thyroid gland due to bacterial infection, often caused by a persistent fistula from the piriform sinus
+* **Symptoms**
+  * Pain, redness
+* **Tests**
+  * Puncture of the inflamed area for bacterial identification
+* **Treatment**
+  * Antibiotics
+  * Fistula removal surgery
+{: .notice--info}
+
+### Subacute Thyroiditis / 亜急性甲状腺炎
+
+* **Concept**
+  * Destructive thyroiditis believed to be caused by a virus, presenting as transient thyroid toxicity
+  * Common in: Women aged 40 to 50
+* **Symptoms**
+  * Upper respiratory tract infection-like symptoms
+  * Thyroid: pain, tenderness, firmness
+  * Thyroid toxicity: High fever, generalized fatigue, excessive sweating, weight loss
+* **Tests**
+  * Blood: T4↑, TSH↓, CRP↑, ESR↑
+  * Ultrasound: Corresponding hypoechoic area in the painful region
+  * Scintigraphy: Reduced uptake
+* **Treatment**
+  * NSAIDs: Mild cases
+  * Corticosteroids: Strong inflammation
+  * β-blockers
+{: .notice--info}
+
+### Hashimoto's thyroiditis / 慢性甲状腺炎（橋本病）
+
+* **Concept**
+  * Chronic thyroid inflammation due to autoimmunity resulting in thyroid hypofunction
+  * Common in: Women aged 20 to 50
+* **Symptoms**
+  * Thyroid enlargement
+  * General symptoms: Fatigue, feeling cold, decreased sweating, weight gain
+  * Neurological symptoms: Drowsiness, decreased memory, muscle weakness
+  * Digestive symptoms: Constipation, decreased appetite
+  * Menstrual cycle: Irregular, excessive bleeding
+* **Tests**
+  * T4↓, T3↓
+  * TSH↑
+  * Anti-Tg antibodies (+), anti-TPO antibodies (+)
+  * Pathology: Lymphocytic infiltration, formation of lymphoid follicles
+* **Treatment**
+  * T4 replacement therapy
+{: .notice--info}
+
+### Painless Thyroiditis / 無痛性甲状腺炎
+
+* **Concept**
+  * Follicular collapse during the course of Hashimoto's disease leading to transient thyroid toxicity
+* **Symptoms**
+  * Thyroid: No pain or tenderness
+  * Thyroid toxicity: Tachycardia, excessive sweating, tremors, fatigue, weight loss
+* **Tests**
+  * Blood: T4↑，TSH↓, TSH receptor antibodies (-)
+  * Scintigraphy: Reduced uptake
+* **Treatment**
+  * Observation
+  * β-blockers
+{: .notice--info}
+
+### Thyroid Follicular Adenoma / 甲状腺濾胞腺腫
+
+* **Concept**
+  * A benign tumor originating from follicular epithelial cells
+* **Symptoms**
+  * Asymptomatic
+* **Tests**
+  * Fine-needle aspiration cytology: Follicular-like cell cluster
+  * Pathology: No evidence of invasion
+{: .notice--info}
+
+### Thyroid Adenomatous Nodule / 甲状腺腺腫様結節
+
+* **Concept**
+  * Thyroid overgrowth lesion with multiple nodules
+  * The most common nodular lesion of the thyroid gland
+* **Symptoms**
+  * Typically asymptomatic
+* **Tests**
+  * Ultrasound: Various nodular shadows
+{: .notice--info}
+
+### Thyroid Papillary Carcinoma / 甲状腺乳頭癌
+
+* **Concept**
+  * Malignant tumor of thyroid follicular epithelium origin (most common)
+  * Common in: Women aged 30 to 50
+* **Symptoms**
+  * Asymptomatic thyroid nodule
+* **Tests**
+  * Ultrasound: Microcalcifications
+  * Fine-needle aspiration cytology: Nuclear cytoplasmic inclusions
+  * Pathology: Papillary structures, nuclear cytoplasmic inclusions
+* **Treatment**
+  * Surgical removal
+  * Favorable prognosis
+{: .notice--info}
+
+### Thyroid Follicular Carcinoma / 甲状腺濾胞癌
+
+* **Concept**
+  * Malignant tumor of thyroid follicular epithelium origin
+  * Common in: Women aged 30 to 50
+* **Symptoms**
+  * Asymptomatic thyroid nodule
+* **Tests**
+  * Fine-needle aspiration cytology: Follicular-like cell cluster
+  * Pathology: Follicular structures, vascular invasion
+* **Treatment**
+  * Surgical removal
+  * Favorable prognosis
+{: .notice--info}
+
+### Thyroid Anaplastic Carcinoma / 甲状腺未分化癌
+
+* **Concept**
+  * Malignant tumor of thyroid follicular epithelium origin (undifferentiated transformation of highly differentiated carcinoma)
+  * Common in: Elderly individuals
+* **Symptoms**
+  * Nodule: Rapidly enlarging
+  * Invasion: Hoarseness, difficulty breathing, swallowing difficulties
+  * Inflammation: Pain, redness
+* **Tests**
+  * Fine-needle aspiration cytology: High-grade atypia, large tumor cells
+  * Scintigraphy: $\mathrm{Ga}^{67}$ accumulation
+  * Pathology: High-grade atypia, large tumor cells with giant or multiple nuclei
+* **Treatment**
+  * Radiation therapy, chemotherapy
+{: .notice--info}
+
+### Thyroid Medullary Carcinoma / 甲状腺髄様癌
+
+* **Concept**
+  * Malignant tumor of parafollicular C cells origin in the thyroid
+  * Manifestation of MEN2, RET gene mutation
+* **Symptoms**
+  * Asymptomatic thyroid nodule
+* **Tests**
+  * Fine-needle aspiration cytology: Amyloid deposition
+  * Pathology: Medullary proliferation, amyloid deposition
+  * Blood: Elevated CEA and calcitonin levels
+* **Treatment**
+  * Surgery: Total thyroidectomy, lymph node dissection
+  * Pheochromocytoma: Surgery for pheochromocytoma first
+{: .notice--info}
+
+### Thyroid Malignant Lymphoma / 甲状腺悪性リンパ腫
+
+* **Concept**
+  * B-cell lymphoma of the thyroid (DLBCL, MALT)
+  * Frequent association with Hashimoto's disease
+* **Symptoms**
+  * Enlarging nodules
+* **Tests**
+  * Fine-needle aspiration cytology: Atypical lymphocytes
+  * Pathology: Diffuse proliferation of atypical lymphocytes
+* **Treatment**
+  * Chemotherapy (R-CHOP), radiation therapy
+{: .notice--info}
+
+## Parathyroid disorders / 副甲状腺疾患
+
+## Adrenal gland disorders / 副腎疾患
+
+## Other endocrine disorders / その他の内分泌疾患
+
+## Carbohydrate metabolism disorders / 糖質代謝異常
+
+## Lipid metabolism disorders / 脂質代謝異常
+
+## Amino acid metabolism disorders / アミノ酸代謝異常
+
+## Other metabolic disorders / その他の代謝異常
+
+## Water and electrolyte metabolism disorders / 水・電解質代謝異常
+
+## Bone and connective tissue metabolic disorders / 骨・結合織の代謝性疾患
+
+## Nutritional abnormalities / 栄養の異常
 
 # Hematology / 血液
 
@@ -426,6 +759,14 @@ Essences of various diseases.
 ## Abnormalities in the white blood cell system / 白血球系の異常
 
 ## Abnormalities in the hemostasis and coagulation system / 止血・凝固系の異常
+
+# Immune and Connective Tissue Diseases / 免疫・膠原病
+
+## Immunodeficiency / 免疫不全
+
+## Allergy / アレルギー
+
+## Connective tissue disease / 膠原病
 
 # Infectious Diseases / 感染症
 
@@ -436,30 +777,6 @@ Essences of various diseases.
 ## Viral infections / ウイルス感染症
 
 ## Parasitic infections / 寄生虫感染症
-
-# Respiratory / 呼吸器
-
-## Infectious diseases / 感染性疾患
-
-## Obstructive lung diseases / 閉塞性肺疾患
-
-## Interstitial lung diseases / 間質性肺疾患
-
-## Abnormalities of the lungs and bronchi / 肺・気管支の形態異常
-
-## Lung tumors / 肺腫瘍
-
-## Immune and allergic diseases / 免疫・アレルギー性疾患
-
-## Pulmonary vascular disorders / 肺循環障害
-
-## Functional respiratory disorders / 機能的呼吸障害
-
-## Mediastinal disorders / 縦隔疾患
-
-## Pleural and chest wall disorders / 胸膜・胸壁疾患
-
-## Breast disorders / 乳腺疾患
 
 # Neurology / 神経
 
@@ -497,17 +814,30 @@ Essences of various diseases.
 
 ## Cardiovascular disorders / 循環器疾患
 
-## Metabolic and endocrine disorders / 代謝・内分泌疾患
+## Respiratory disorders / 呼吸器疾患
 
 ## Renal and urological disorders / 腎・泌尿器疾患
 
-## Immune and allergic disorders / 免疫・アレルギー疾患
+## Metabolic and endocrine disorders / 代謝・内分泌疾患
+
+### Congenital Hypothyroidism / 先天性甲状腺機能低下症
+
+* **Concept**
+  * A congenital deficiency in thyroid hormone secretion
+* **Symptoms**
+  * Newborns: Lethargy, weak suckling, low body temperature
+  * Older children: Short stature, intellectual disabilities
+* **Tests**
+  * Newborn screening: T4↓, TSH↑
+* **Treatment**
+  * L-T4 supplementation
+{: .notice--info}
 
 ## Hematological and hematopoietic disorders / 血液・造血器疾患
 
-## Infectious diseases / 感染症
+## Immune and allergic disorders / 免疫・アレルギー疾患
 
-## Respiratory disorders / 呼吸器疾患
+## Infectious diseases / 感染症
 
 ## Neurological disorders / 神経疾患
 
@@ -538,6 +868,14 @@ Essences of various diseases.
 ## Abnormalities in childbirth / 分娩の異常
 
 ## Postpartum period / 産褥
+
+# Urology / 泌尿器科
+
+## Congenital abnormalities / 先天異常
+
+## Tumors / 腫瘍
+
+## Male genital disorders / 男性器疾患
 
 # Ophthalmology / 眼科
 
@@ -575,6 +913,30 @@ Essences of various diseases.
 
 ## Pharyngeal and laryngeal disorders / 咽頭・喉頭疾患
 
+# Dermatology / 皮膚科
+
+## Eczema and dermatitis group / 湿疹・皮膚炎群
+
+## Urticaria and itching group / 蕁麻疹・掻痒群
+
+## Erythema / 紅斑症
+
+## Bullous diseases / 水疱症
+
+## Pustular diseases / 膿疱症
+
+## Pigmentation disorders / 色素異常症
+
+## Nevus / 母斑症
+
+## Keratosis disorders / 角化異常
+
+## Benign tumors / 良性腫瘍
+
+## Malignant tumors / 悪性腫瘍
+
+## Metabolic disorders / 代謝異常
+
 # Orthopedics / 整形外科
 
 ## Fractures / 骨折
@@ -607,34 +969,3 @@ Essences of various diseases.
 
 ## Neurodevelopmental disorders / 神経発達症群
 
-# Dermatology / 皮膚科
-
-## Eczema and dermatitis group / 湿疹・皮膚炎群
-
-## Urticaria and itching group / 蕁麻疹・掻痒群
-
-## Erythema / 紅斑症
-
-## Bullous diseases / 水疱症
-
-## Pustular diseases / 膿疱症
-
-## Pigmentation disorders / 色素異常症
-
-## Nevus / 母斑症
-
-## Keratosis disorders / 角化異常
-
-## Benign tumors / 良性腫瘍
-
-## Malignant tumors / 悪性腫瘍
-
-## Metabolic disorders / 代謝異常
-
-# Urology / 泌尿器科
-
-## Congenital abnormalities / 先天異常
-
-## Tumors / 腫瘍
-
-## Male genital disorders / 男性器疾患
