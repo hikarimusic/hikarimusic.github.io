@@ -23,219 +23,146 @@ Essences of clinical medicine.
 
 ## Liver Disorders / 肝疾患
 
-### Acute Viral Hepatitis / 急性ウイルス性肝炎
+## Biliary System Disorders / 胆道系疾患
+
+### Cholelithiasis / 胆石症
 
 * **Concept**
-  * Acute inflammatory liver disease caused by an immune response to hepatitis viruses replicating within liver cells
-* **Symptoms**
-  * Influenza-like symptoms: General fatigue, gastrointestinal discomfort, fever, muscle pain
-  * Liver symptoms: Jaundice, itching of the skin, hepatomegaly
-* **Tests**
-  * Blood:
-    * AST↑, ALT↑, Prolonged PT
-    * Bilirubin↑, ICG retention rate↑
-    * ALP and γ-GT mildly elevated
-  * Viral markers:
-    * Type A: IgM-HA antibody
-    * Type B: HBs antigen, IgM-HBc antibody
-    * Type C: HCV-RNA
-  * Abdominal ultrasound: Enlarged and reddish liver
-* **Treatment**
-  * Supportive therapy: Bed rest, calorie supplementation
-{: .notice--info}
-
-### Chronic Viral Hepatitis / 慢性ウイルス性肝炎
-
-* **Concept**
-  * Persistent inflammation of the liver due to hepatitis viruses lasting for more than 6 months
-* **Symptoms**
-  * Asymptomatic
-* **Tests**
-  * Blood:
-    * AST↑, ALT↑
-    * Gamma-globulin↑, TTT/ZTT↑, hyaluronic acid↑, platelets↓, ICG retention rate↑
-  * Viral markers:
-    * Type B: HBs antigen, IgG-HBc antibody, HBV-DNA
-    * Type C: HCV antibody, HCV-RNA
-  * Abdominal ultrasound: Irregular liver surface and striations
-  * Pathology: Bridging fibrosis, piecemeal necrosis (interface hepatitis)
-* **Treatment**
-  * Chronic hepatitis B:
-    * Interferon: Peg-IFNα
-    * Nucleoside analogs: Entecavir, Tenofovir
-  * Chronic hepatitis C:
-    * Direct-acting antivirals: Glecaprevir/Pibrentasvir
-{: .notice--info}
-
-### Drug-induced liver injury / 薬物性肝障害
-
-* **Concept**
-  * Liver damage caused by drugs
+  * Stones formed in the biliary system
+  * Common in: Overweight, over 40 years old, multiparous women
   * Classification:
-    * Hepatocellular type: Acetaminophen, Halothane, Carbon tetrachloride, Isoniazid, Methyldopa, Tetracycline, Rifampicin, Methotrexate, Azathioprine
-    * Cholestatic type: Cyclosporine, Chlorpromazine, Erythromycin, Anabolic steroids, Oral contraceptives, Antithyroid drugs
+    * By composition: Cholesterol stones, pigment (bilirubin) stones
+    * By location: Gallbladder stones, common bile duct stones, intrahepatic stones
 * **Symptoms**
   * Asymptomatic
-* **Tests**
-  * Blood:
-    * Eosinophils↑
-    * AST↑, ALT↑
-    * ALP↑・γ-GT↑
-  * Drug sensitivity testing: Identification of the causative drug
-* **Treatment**
-  * Discontinuation of the causative drug
-  * Medications: Glycyrrhizin, steroids, Ursodeoxycholic acid
-{: .notice--info}
-
-### Fulminant Hepatitis / 劇症肝炎
-
-* **Concept**
-  * Acute severe liver injury in an otherwise normal liver, with PT less than 40% within 8 weeks from the onset of initial symptoms
-  * Classification: Non-comatose type, comatose type
-  * Causes: Viral hepatitis, drug-induced liver injury, autoimmune hepatitis
-* **Symptoms**
-  * General symptoms: Fever, extreme fatigue, severe jaundice, hepatic fetor, gastrointestinal complaints, bleeding tendencies, tachycardia, ascites, edema, renal failure, oliguria
-  * Abdominal symptoms: Abdominal pain, hepatic atrophy, decreased liver dullness
-  * Neurological symptoms: Altered consciousness, asterixis (flapping tremor)
-  * Complications: DIC, renal failure, infections, cerebral edema, gastrointestinal bleeding
-* **Tests**
-  * Ultrasound, CT: Liver atrophy, inhomogeneous liver texture, ascites accumulation, gallbladder wall thickening
-  * Liver function:
-    * AST and ALT↑ (AST > ALT), LD↑
-    * Prolonged PT (<40%), INR>1.5, Hepaplastin test↓, albumin↓, cholinesterase↓, cholesterol↓, fibrinogen↓, hypoglycemia
-    * Bilirubin↑, ammonia↑, aromatic amino acids↑, bile acids↑
-    * Pathology: Extensive hepatocyte necrosis, inflammatory cell infiltration
-* **Treatment**
-  * Comprehensive management:
-    * Fluid management: Glucose-based fluids without amino acids
-    * Hepatic encephalopathy management: Synthetic disaccharides, orally administered non-absorbable antibiotics
-    * Cerebral edema management: Mannitol, concentrated glycerin
-    * Other measures: Infection control, respiratory management, management of gastrointestinal bleeding
-  * Artificial liver support therapy: Hemodiafiltration with plasma exchange
-  * Suppression of hepatitis progression:
-    * Hepatitis B virus: Nucleoside analogs + interferon
-    * Autoimmune hepatitis: Adrenal corticosteroids
-  * Inhibition of hepatocyte necrosis: Anticoagulation therapy, high-dose corticosteroid pulse therapy
-  * Liver transplantation
-{: .notice--info}
-
-### Fatty Liver / 脂肪肝
-
-* **Concept**
-  * Accumulation of fat droplets consisting of neutral fat in over one-third of hepatocytes in liver lobules
-  * Causes: Alcohol, obesity, diabetes
-* **Symptoms**
-  * Asymptomatic
-  * Heaviness or dull pain in the right upper abdomen
-* **Tests**
-  * Blood:
-    * AST and ALT normal to elevated
-    * Serum triglycerides normal to elevated, Cholinesterase elevated
-  * CT: Hypodense areas
-  * Ultrasound: Bright liver, increased liver-kidney contrast, decreased deep echoes
-  * Pathology: Fat deposition
-  * Abdominal laparoscopy: Yellowish spots
-* **Treatment**
-  * Addressing the underlying cause
-{: .notice--info}
-
-### Alcoholic Liver Disease / アルコール性肝障害
-
-* **Concept**
-  * Liver damage caused by long-term excessive alcohol consumption.
-  * Pathology: Fatty liver, liver fibrosis, hepatitis, cirrhosis
-* **Symptoms**
-  * Asymptomatic
-* **Tests**
-  * Blood:
-    * AST & ALT↑ (AST>ALT), γ-GT↑↑, IgA↑
-    * Advanced liver damage: platelets↓, albumin↓, WBC↑, bilirubin↑, prolonged prothrombin time
-  * Pathology:
-    * Fatty liver: Fatty degeneration
-    * Liver fibrosis: Pericellular fibrosis
-    * Hepatitis: Ballooning degeneration of hepatocytes, Mallory-Denk bodies, neutrophil infiltration
-    * Cirrhosis: Nodular transformation of liver lobules
-  * Abdominal laparoscopy, CT, MRI: Hepatomegaly
-* **Treatment**
-  * Abstinence from alcohol
-  * Nutritional therapy: Vitamins, intravenous fluids
-  * Hepatoprotective drugs: Ursodeoxycholic acid, Glycyrrhizin
-{: .notice--info}
-
-### Non-Alcoholic Fatty Liver Disease / 非アルコール性脂肪性肝疾患
-
-* **Concept**
-  * Fatty liver disorder that does not involve a history of excessive alcohol consumption
-  * Classification
-    * Non-alcoholic fatty liver: Characterized by fat deposition in liver cells
-    * Non-alcoholic steatohepatitis: Characterized by liver cell fat degeneration and ballooning
-  * Causes: Obesity, diabetes, lipid abnormalities, hypertension, metabolic syndrome
-* **Symptoms**
-  * Asymptomatic
-  * Discomfort in the right upper abdomen
-* **Tests**
-  * Blood:
-    * AST・ALT↑, ferritin↑, HOMA-IR↑ (insulin resistance)
-    * Progression: Platelets↓, liver fibrosis markers↑	
-  * Ultrasound, CT, MRI: Bright liver, increased liver-kidney contrast, reduced deep echoes
-  * Pathology: Large fat droplets, inflammation, ballooning of hepatocytes, Mallory-Denk bodies, fibrosis
-* **Treatment**
-  * Lifestyle guidance: Correction of dietary habits, addressing physical inactivity
-  * Pharmacotherapy:
-    * For diabetes: Thiazolidinediones, SGLT2 inhibitors, GLP-1 agonists
-    * For hypertension: ARBs, ACE inhibitors
-    * For lipid abnormalities: HMG-CoA reductase inhibitors
-{: .notice--info}
-
-### Autoimmune Hepatitis / 自己免疫性肝炎
-
-* **Concept**
-  * A chronic progressive liver inflammation believed to involve autoimmune mechanisms
-  * More common in middle-aged women, and often associated with HLA-DR4 positivity
-* **Symptoms**
-  * Asymptomatic
-  * Chronic hepatitis: General fatigue, jaundice, loss of appetite, ascites, fever, joint pain, skin rash
-  * Complications: Chronic thyroiditis, Sjogren's syndrome, rheumatoid arthritis, SLE
-* **Tests**
-  * Blood: AST↑, ALT↑, γ-globulin↑, IgG↑, TTT/ZTT↑, ESR↑, CRP↑
-  * Immunological: Anti-nuclear antibodies (+), anti-smooth muscle antibodies (+)
-  * Pathology: Liver parenchymal necrosis, liver cell rosette formation, emperipolesis, piecemeal necrosis (interface hepatitis), lymphocytic infiltration
-  * Abdominal laparoscopy: Irregular liver surface, red streaks
-* **Treatment**
-  * Steroids: First-line treatment
-  * Azathioprine: For steroid-resistant cases
-  * Ursodeoxycholic acid: To improve liver function
-  * Liver transplantation: For cases progressing to liver failure
-{: .notice--info}
-
-### Primary Biliary Cholangitis / 原発性胆汁性胆管炎
-
-* **Concept**
-  * A chronic liver condition involving autoimmune mechanisms and characterized by chronic intrahepatic cholestasis
-  * Notable for chronic non-suppurative destructive cholangitis (CNSDC) in intrahepatic bile ducts
-  * More common in middle-aged women, with HLA-DR8 association
-* **Symptoms**
-  * Asymptomatic
-  * Symptomatic: Itching of the skin, jaundice, signs of portal hypertension
+  * Pain: RUQ colicky pain after a meal, nausea and vomiting, referred pain to the right back and right shoulder
   * Complications:
-    * Cholestasis: Osteomalacia, osteoporosis, lipid abnormalities, xanthomas
-    * Cirrhosis: Esophageal varices, hepatocellular carcinoma
-    * Immunological abnormalities: Sjogren's syndrome, rheumatoid arthritis, chronic thyroiditis
+    * Biliary tract infections
+    * Obstructive jaundice, acute pancreatitis
+    * Gallbladder-duodenal fistula, gallstone ileus
+    * Gallbladder perforation, biliary peritonitis
 * **Tests**
-  * Blood: Bilirubin↑, ALP↑・γ-GT↑, total cholesterol↑, serum copper↑, serum ceruloplasmin↑, eosinophils↑, ESR↑
-  * Immunological markers: Anti-mitochondrial antibodies (+), anti-PDH antibodies (+), IgM↑
-  * Pathology: Chronic non-suppurative destructive cholangitis (CNSDC), granulomas, bile duct loss
+  * Blood: (In case of biliary stasis) ALP↑, γ-GT↑, bilirubin↑ (direct)
+  * Ultrasound: Hyperechoic image, acoustic shadow
+  * CT, X-ray: Often negative
+  * MRCP, ERCP: Translucent images of stones
 * **Treatment**
-  * Ursodeoxycholic acid: Promotes bile excretion
-  * Fenofibrate: For inadequate response to ursodeoxycholic acid
-  * Cholestyramine: Alleviates itching
-  * Vitamin D: Osteoporosis treatment (steroids contraindicated)
-  * Liver transplantation: For advanced cases
+  * Gallbladder stones
+    * Asymptomatic: Observation
+    * Symptomatic: Laparoscopic cholecystectomy, open cholecystectomy
+    * Acute phase: NSAIDs, anticholinergic drugs
+    * Pure cholesterol stones: Gallstone dissolution therapy (ursodeoxycholic acid), extracorporeal shock wave lithotripsy
+  * Common bile duct stones:
+    * Endoscopic sphincterotomy + endoscopic lithotripsy
+    * Endoscopic papillary balloon dilation + endoscopic lithotripsy
+  * Intrahepatic stones
+    * Asymptomatic cases: Observation
+    * Symptomatic cases: Hepatectomy, endoscopic stone removal
 {: .notice--info}
 
-## Biliary system disorders / 胆道系疾患
+### Acute Cholecystitis / 急性胆囊炎
 
-## Pancreatic disorders / 膵疾患
+* **Concept**
+  * An acute inflammation of the gallbladder with gallbladder stasis and bacterial infection due to gallstones
+* **Symptoms**
+  * Pain: RUQl pain, nausea, vomiting, fever
+  * Examination: Murphy's sign
+* **Tests**
+  * Blood: WBC↑, CRP↑, ALP↑, γ-GT↑, bilirubin↑
+  * Ultrasound, CT: Enlarged gallbladder, gallbladder wall thickening, gallbladder sludge, gallbladder stones, sonographic Murphy's sign
+* **Treatment**
+  * Initial treatment: Fasting, intravenous fluids, antibiotics, analgesics
+  * Cholecystectomy: Laparoscopic cholecystectomy
+  * Gallbladder drainage: Percutaneous transhepatic gallbladder drainage, percutaneous transhepatic gallbladder aspiration
+{: .notice--info}
+
+### Acute Cholangitis / 急性胆管炎
+
+* **Concept**
+  * An acute inflammation of the bile ducts with bile duct obstruction and bacterial infection due to bile duct stones or malignant tumors
+* **Symptoms**
+  * Charcot's triad: Fever, RUQ abdominal pain, jaundice
+  * Reynold's pentad: (Charcot's triad), shock, altered mental status
+  * Severe cases: Sepsis → DIC → MODS
+* **Tests**
+  * Blood: WBC↑, CRP↑, ALP↑, γ-GT↑, Bilirubin↑ (direct), AST↑, ALT↑
+  * Ultrasound, CT: Bile duct dilation, bile duct stones
+  * MRCP: Bile duct stones, malignant tumors
+* **Treatment**
+  * Initial treatment: Fasting, intravenous fluids, antibiotics, analgesics
+  * Biliary drainage: Endoscopic biliary drainage
+{: .notice--info}
+
+### Primary Sclerosing Cholangitis / 原発性硬化性胆管炎
+
+* **Concept**
+  * A chronic inflammation of the bile ducts believed to be autoimmune in nature, leading to fibrotic strictures of the bile ducts and eventually progressing to liver cirrhosis
+  * Common in: Bimodal distribution in the 20s and 60s, more common in males
+* **Symptoms**
+  * Asymptomatic
+  * Symptomatic: RUQ pain, jaundice, pruritus
+  * Complications: Ulcerative colitis
+* **Tests**
+  * Blood: ALP↑, γ-GT↑, Bilirubin↑, AST↑, ALT↑, P-ANCA (+)
+  * ERCP, MRCP: Bile duct strictures, beaded appearance
+  * Pathology: Onion skin lesion
+* **Treatment**
+  * Medical therapy: Ursodeoxycholic acid
+  * Biliary drainage: For cholangitis and jaundice
+  * Liver transplantation: In advanced cases
+{: .notice--info}
+
+### Gallbladder Adenomyomatosis / 胆囊腺筋腫症
+
+* **Concept**
+  * A proliferative disorder of the gallbladder characterized by overgrowth of the gallbladder wall and proliferation of Rokitansky-Aschoff sinuses
+* **Symptoms**
+  * Asymptomatic
+* **Tests**
+  * Ultrasound: Thickening of the gallbladder wall, comet-like echo, proliferated RAS
+  * MRCP: Pearl necklace sign
+* **Treatment**
+  * Cholecystectomy: If symptomatic or if cancer is suspected
+{: .notice--info}
+
+## Pancreatic Disorders / 膵疾患
+
+### Acute Pancreatitis / 急性膵炎
+
+* **Concept**
+  * A pathological condition where pancreatic enzymes are activated and cause autodigestion of pancreatic tissue
+  * Causes: Alcohol, gallstones, idiopathic, metabolic disorders
+* **Symptoms**
+  * Abdominal pain: Upper abdominal pain, back pain, nausea, vomiting, fever
+  * Severe cases: Peritoneal irritation, subcutaneous hemorrhage (Cullen's sign, Grey-Turner's sign), shock, metabolic acidosis, decreased PaO2, oliguria, tetany
+  * Complications: SIRS, DIC, MODS
+* **Tests**
+  * Blood: Amylase↑, lipase↑, WBC↑, CRP↑, platelets↓, Ca↓, BUN↑, Cr↑, LDH↑, hyperglycemia
+  * Ultrasound, CT, MRI: Enlarged pancreas, indistinct contours, fluid collection
+* **Treatment**
+  * Basic treatment: Fluid replacement, fasting, respiratory and circulatory monitoring, analgesics
+  * Severe cases: Antibiotics, protease inhibitor, enteral nutrition, hemofiltration
+  * Gallstone-induced pancreatitis: Endoscopic retrograde cholangiopancreatography, endoscopic sphincterotomy
+{: .notice--info}
+
+### Chronic Pancreatitis / 慢性膵炎
+
+* **Concept**
+  * A recurrent chronic inflammation of the pancreas, often accompanied by decreased exocrine and endocrine function of the pancreas
+  * Common in: Middle-aged to elderly men, heavy alcohol consumption
+* **Symptoms**
+  * Compensated stage: Upper abdominal pain, back pain (exacerbated by alcohol and high-fat intake)
+  * Decompensated stage: Malabsorption (steatorrhea, diarrhea), diabetes, weight loss
+* **Tests**
+  * Blood: Pancreatic enzymes↑ (compensated stage), pancreatic enzymes↓ (decompensated stage)
+  * Exocrine and endocrine function tests: PABA excretion rate↓, fecal fat↑, impaired glucose tolerance
+  * Ultrasound, CT: Pancreatic stones
+  * MRCP, ERCP: Irregular pancreatic duct dilatation
+* **Treatment**
+  * Compensated stage: Lifestyle modifications (abstinence from alcohol and smoking, low-fat diet), pain management (NSAIDs, anticholinergic drugs)
+  * Decompensated stage: Pancreatic enzyme replacement therapy, insulin therapy
+  * Pancreatic duct obstruction: Endoscopy, extracorporeal shock wave lithotripsy, surgery
+{: .notice--info}
 
 # Cardiovascular / 循環器
 

@@ -6,7 +6,8 @@ tags:
   - paper
 ---
 
-Simulating the evolution of a system of particles based on physical laws can be computational costly. We propose a simple way to perform GPU acceleration using PyTorch. Taking advantage of the efficient matrix operations and gradient calculations in PyTorch, we can readily accelerate the simulation using GPU. We showed that this method produces correct simulation results and runs significantly faster then when using CPU.
+**Author:** Tung, Yeu-Guang\\
+**Abstract:** Simulating the evolution of a system of particles based on physical laws can be computational costly. We propose a simple way to perform GPU acceleration using PyTorch. Taking advantage of the efficient matrix operations and gradient calculations in PyTorch, we can readily accelerate the simulation using GPU. We showed that this method produces correct simulation results and runs significantly faster then when using CPU.
 
 **Tung, Yeu-Guang (2023). Simulating Evolution of Multi-Particle System with GPU Acceleration in PyTorch. figshare. Preprint. [https://doi.org/10.6084/m9.figshare.24002613.v2](https://doi.org/10.6084/m9.figshare.24002613.v2)**
 

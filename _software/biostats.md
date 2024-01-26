@@ -6,7 +6,8 @@ tags:
   - software
 ---
 
-BIOSTATS is an intuitive app for statistical analysis, designed to assist biomedical researchers in easily and efficiently analyzing their data. With its simple graphical interface, researchers can perform statistical tests and create statistical plots with just a few clicks. This enables researchers to investigate the relationships between different variables and validate their hypotheses easily. The [API reference](https://hikarimusic.github.io/BIOSTATS/) for BIOSTATS can also serve as a review material on biostatistics. The project is open-source and can be found at [Github](https://github.com/hikarimusic/BIOSTATS).
+**Developer:** HikariMusic\\
+**Overview:** BIOSTATS is an intuitive app for statistical analysis, designed to assist biomedical researchers in easily and efficiently analyzing their data. With its simple graphical interface, researchers can perform statistical tests and create statistical plots with just a few clicks. This enables researchers to investigate the relationships between different variables and validate their hypotheses easily. The [API reference](https://hikarimusic.github.io/BIOSTATS/) for BIOSTATS can also serve as a review material on biostatistics. The project is open-source and can be found at [Github](https://github.com/hikarimusic/BIOSTATS).
 
 
 <img src="https://github.com/hikarimusic/BIOSTATS/raw/main/docs/_static/home/banner2.png"><br>
@@ -14,7 +15,9 @@ BIOSTATS is an intuitive app for statistical analysis, designed to assist biomed
 
 [![PyPI Version](https://img.shields.io/pypi/v/biostatistics)](https://pypi.org/project/biostatistics/)
 [![License](https://img.shields.io/pypi/l/biostatistics)](https://github.com/hikarimusic/BIOSTATS/blob/main/LICENSE)
+[![Tests](https://github.com/hikarimusic/BIOSTATS/workflows/CI/badge.svg)](https://github.com/hikarimusic/BIOSTATS/actions)
 [![Downloads](https://img.shields.io/github/downloads/hikarimusic/BIOSTATS/total.svg)](https://github.com/hikarimusic/BIOSTATS/releases)
+[![DOI](https://zenodo.org/badge/474227681.svg)](https://zenodo.org/doi/10.5281/zenodo.10550105)
 
 # __What is BIOSTATS__
 
@@ -161,7 +164,7 @@ If you have any suggestion or find any bug, please contach me. We need your help
 
 If you use BIOSTATS in your research, it's a good idea to cite the paper of BIOSTATS.
 
-* Citation: _working_
+* Citation: Tung, Yeu-Guang (2022). BIOSTATS: An Intuitive GUI for Biostatistical Analysis. Zenodo. https://doi.org/10.5281/zenodo.10550106
 
 #### __References__:
 

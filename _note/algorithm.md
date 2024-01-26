@@ -109,6 +109,16 @@ int search(int n) {
 
 ## Basic / 基本
 
+### Greedy Algorithm / 貪欲法
+```cpp
+void solve() {
+    "<preprocess>";
+    for (int i=0; i<N; ++i) {
+        "<greedy>";
+    }
+}
+```
+
 ### Dynamic Programming / 動的計画法
 ```cpp
 vector<vector<int>> dp(N, vector<int>(M));
@@ -144,16 +154,6 @@ int rec(int S, int v, int n) {
         return dp[S][v] = "<value>";
     int a = "<combination of rec(S^(1<<v), i, n), ...>";
     return dp[S][v] = a;
-}
-```
-
-### Greedy Algorithm / 貪欲法
-```cpp
-void solve() {
-    "<preprocess>";
-    for (int i=0; i<N; ++i) {
-        "<greedy>";
-    }
 }
 ```
 
@@ -1193,6 +1193,305 @@ int gauss(int n, int m) {
             return INF;
     }
     return 1;
+}
+```
+
+## Geometry / 幾何
+
+```cpp
+using Point = complex<double>;
+
+double dot(const Point &a, const Point &b) {
+    return a.real()*b.real() + a.imag()*b.imag();
+}
+
+double det(const Point &a, const Point &b) {
+    return a.real()*b.imag() - a.imag()*b.real();
+}
+
+bool compare(const Point &a, const Point &b) {
+    return a.real()!=b.real() ? a.real()<b.real() : a.imag()<b.imag();
+}
+
+struct Line {
+    Point a, b;
+    Line() = default;
+    Line(Point a, Point b) : a(a), b(b) {}
+};
+
+struct Segment : Line {
+    Segment() = default;
+    Segment(Point a, Point b) : Line(a, b) {}
+};
+
+struct Circle {
+    Point p;
+    double r;
+    Circle() = default;
+    Circle(Point p, double r) : p(p), r(r) {}
+};
+```
+
+### Line / 線
+```cpp
+int ccw(Point a, Point b, Point c) {
+    b -= a, c -= a;
+    if (det(b, c)>EPS)
+        return +1;
+    if (det(b, c)<-EPS)
+        return -1;
+    if (dot(b, c)<-EPS)
+        return +2;
+    if (norm(b)<norm(c)-EPS)
+        return -2;
+    return 0;
+}
+
+bool intersect(Segment s, Point p) {
+    return ccw(s.a, s.b, p) == 0;
+}
+
+bool intersect(Segment s, Segment t) {
+    return ccw(s.a, s.b, t.a)*ccw(s.a, s.b, t.b)<=0 && ccw(t.a, t.b, s.a)*ccw(t.a, t.b, s.b)<=0;
+}
+
+bool intersect(Line l, Point p) {
+    return abs(ccw(l.a, l.b, p))!=1;
+}
+
+bool intersect(Line l, Segment s) {
+    return det(l.b-l.a, s.a-l.a)*det(l.b-l.a, s.b-l.a)<EPS;
+}
+
+int intersect(Line l, Line m) {
+    if (intersect(l, m.a) && intersect(l, m.b))
+        return 2;
+    if (abs(det(l.b-l.a, m.b-m.a))>EPS)
+        return 1;
+    return 0;
+}
+
+Point projection(Line l, Point p) {
+    double t = dot(p-l.a, l.b-l.a)/norm(l.b-l.a);
+    return l.a + (l.b-l.a)*t;
+}
+
+Point reflection(Line l, Point p) {
+    return p + (projection(l, p)-p)*2.0;
+}
+
+Point crosspoint(Line l, Line m) {
+    double A = det(l.b-l.a, m.b-m.a);
+    double B = det(l.b-l.a, l.b-m.a);
+    if (A==0)
+        return Point(1/EPS, 1/EPS);
+    return m.a + (m.b-m.a)*B/A;
+}
+
+double distance(Point a, Point b) {
+    return abs(b-a);
+}
+
+double distance(Segment s, Point p) {
+    Line l(s.a, s.b);
+    Point h = projection(l, p);
+    if (intersect(s, h))
+        return abs(p-h);
+    return min(abs(s.a-p), abs(s.b-p));
+}
+
+double distance(Segment s, Segment t) {
+    if (intersect(s, t))
+        return 0;
+    return min({distance(s, t.a), distance(s, t.b), distance(t, s.a), distance(t, s.b)});
+}
+
+double distance(Line l, Point p) {
+    return abs(det(p-l.a, l.b-l.a))/abs(l.b-l.a);
+}
+
+double distance(Line l, Segment s) {
+    if (intersect(l, s))
+        return 0;
+    return min(distance(l, s.a), distance(l, s.b));
+}
+
+double distance(Line l, Line m) {
+    if (intersect(l, m))
+        return 0;
+    return distance(l, m.a);
+}
+```
+
+### Circle / 円
+```cpp
+int intersect(Circle c, Line l) {
+    Point h = l.a + (l.b-l.a) * dot(c.p-l.a, l.b-l.a)/norm(l.b-l.a);
+    double d = abs(c.p-h);
+    if (c.r<d-EPS)
+        return 0;
+    if (abs(c.r-d)<EPS)
+        return 1;
+    return 2;
+}
+
+int intersect(Circle c1, Circle c2) {
+    double d = abs(c1.p-c2.p);
+    if (c1.r+c2.r<d-EPS)
+        return 4;
+    if (abs(c1.r+c2.r-d)<EPS)
+        return 3;
+    if (abs(abs(c1.r-c2.r)-d)<EPS)
+        return 1;
+    if (abs(c1.r-c2.r)>d+EPS)
+        return 0;
+    return 2;
+}
+
+vector<Point> crosspoint(Circle c, Line l) {
+    vector<Point> res;
+    Point h = l.a + (l.b-l.a) * dot(c.p-l.a, l.b-l.a)/norm(l.b-l.a);
+    int mode = intersect(c, l);
+    if (mode==1) {
+        res.push_back(h);
+    }
+    if (mode==2) {
+        double b = sqrt(c.r*c.r-norm(h-c.p));
+        Point e = (l.b-l.a)/abs(l.b-l.a);
+        res.push_back(h-e*b);
+        res.push_back(h+e*b);
+    }
+    return res;
+}
+
+vector<Point> crosspoint(Circle c1, Circle c2) {
+    vector<Point> res;
+    double d = abs(c2.p-c1.p);
+    int mode = intersect(c1, c2);
+    if (mode==3) {
+        res.push_back(c1.p + (c2.p-c1.p)*c1.r/(c1.r+c2.r));
+    }
+    if (mode==1) {
+        if (c2.r<c1.r-EPS)
+            res.push_back(c1.p + (c2.p-c1.p)*c1.r/d);
+        else 
+            res.push_back(c2.p + (c1.p-c2.p)*c2.r/d);
+    }
+    if (mode==2) {
+        double a = (c1.r*c1.r+d*d-c2.r*c2.r) / (2*d);
+        double b = sqrt(c1.r*c1.r-a*a);
+        Point e = (c2.p-c1.p)/abs(c2.p-c1.p);
+        res.push_back(c1.p + e*a - e*Point(0, 1)*b);
+        res.push_back(c1.p + e*a + e*Point(0, 1)*b);
+    }
+    return res;
+}
+
+vector<Line> tangent(Circle c, Point p) {
+    vector<Line> res;
+    double d = abs(p-c.p);
+    if (abs(d-c.r)<EPS) {
+        res.push_back(Line(p, p+(p-c.p)*Point(0, 1)));
+    }
+    if (d>c.r+EPS) {
+        vector<Point> cp = crosspoint(c, Circle(p, sqrt(d*d-c.r*c.r)));
+        res.push_back(Line(cp[0], p));
+        res.push_back(Line(cp[1], p));
+    }
+    return res;
+}
+
+vector<Line> tangent(Circle c1, Circle c2) {
+    vector<Line> res;
+    double d = abs(c2.p-c1.p);
+    Point u = (c2.p-c1.p)/abs(c2.p-c1.p);
+    Point v = u*Point(0, 1);
+    for (int s : {-1, 1}) {
+        if (abs(d)<EPS)
+            break;
+        double cs = (c1.r+c2.r*s)/d;
+        if (abs(cs*cs-1)<EPS) {
+            Point U = (cs>0 ? u : -u);
+            res.push_back(Line(c1.p+U*c1.r, c1.p+U*c1.r+v));
+        }
+        else if (1-cs*cs>EPS) {
+            Point U = u*cs, V=v*sqrt(1-cs*cs);
+            res.push_back(Line(c1.p+(U+V)*c1.r, c2.p-(U+V)*(c2.r*s)));
+            res.push_back(Line(c1.p+(U-V)*c1.r, c2.p-(U-V)*(c2.r*s)));
+        }
+    }
+    return res;
+}
+```
+
+### Polygon / 多角形
+```cpp
+int contain(vector<Point> g, Point p) {
+    bool in = false;
+    int n = g.size();
+    for (int i=0; i<n; ++i) {
+        Point a=g[i]-p, b=g[(i+1)%n]-p;
+        if (a.imag()>b.imag())
+            swap(a, b);
+        if (a.imag()<EPS && b.imag()>EPS && det(a, b)>EPS)
+            in = !in;
+        if (abs(det(a, b))<EPS && dot(a, b)<EPS)
+            return 1;
+    }
+    return (in ? 2 : 0);
+}
+
+double area(vector<Point> g) {
+    double a = 0;
+    int n = g.size();
+    for (int i=0; i<n; ++i)
+        a += det(g[i], g[(i+1)%n]);
+    return a*0.5;
+}
+```
+
+### Convex Hull / 凸包
+```cpp
+vector<Point> convex_hull(vector<Point> ps) {
+    sort(ps.begin(), ps.end(), compare);
+    int n=ps.size(), k=0;
+    vector<Point> qs(2*n);
+    for (int i=0; i<n; ++i) {
+        while (k>1 && det(qs[k-1]-qs[k-2], ps[i]-qs[k-1])<EPS)
+            k--;
+        qs[k++] = ps[i];
+    }
+    for (int i=n-2, t=k; i>=0; --i) {
+        while (k>t && det(qs[k-1]-qs[k-2], ps[i]-qs[k-1])<EPS)
+            k--;
+        qs[k++] = ps[i];
+    }
+    qs.resize(k-1);
+    return qs;
+}
+```
+```cpp
+double max_distance(vector<Point> ps) {
+    vector<Point> qs = convex_hull(ps);
+    if (qs.size()==2)
+        return abs(qs[1]-qs[0]);
+    int i=0, j=0, n=qs.size();
+    for (int k=0; k<n; ++k) {
+        if (compare(qs[k], qs[i]))
+            i = k;
+        if (!compare(qs[k], qs[j]))
+            j = k;
+    }
+    double res = 0;
+    int si=i, sj=j;
+    while (i!=sj || j!=si) {
+        res = max(res, abs(qs[j]-qs[i]));
+        if (det(qs[(i+1)%n]-qs[i], qs[(j+1)%n]-qs[j])<-EPS)
+            i = (i+1)%n;
+        else
+            j = (j+1)%n;
+    }
+    return res;
 }
 ```
 
