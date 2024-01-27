@@ -159,6 +159,50 @@ int rec(int S, int v, int n) {
 
 ## Data Structure / データ構造
 
+### Basic / 基本
+```cpp
+void binary_heap() {
+    priority_queue<int> q;
+    q.push("<value>");
+    q.pop();
+    int "<value>" = q.top();
+}
+```
+```cpp
+void binary_search_tree() {
+    set<int> s;
+    s.insert("<value>");
+    s.erase("<value>");
+    set<int>::iterator "<iterator>" = s.find("<value>");
+}
+
+void binary_search_tree2() {
+    map<int, int> m;
+    m.insert({"<key>", "<value>"});
+    m.erase("<key>");
+    map<int, int>::iterator "<iterator>" = m.find("<key>");
+    m["<key>"] = "<value>";
+    int "<value>" = map["<key>"];
+}
+```
+```cpp
+void hash_table() {
+    unordered_set<int> s;
+    s.insert("<value>");
+    s.erase("<value>");
+    unordered_set<int>::iterator "<iterator>" = s.find("<value>");
+}
+
+void hash_table2() {
+    unordered_map<int, int> m;
+    m.insert({"<key>", "<value>"});
+    m.erase("<key>");
+    unordered_map<int, int>::iterator "<iterator>" = m.find("<key>");
+    m["<key>"] = "<value>";
+    int "<value>" = m["<key"];
+}
+```
+
 ### Disjoint Set Union / Union-Find 木
 ```cpp
 vector<int> par(N), siz(N);
@@ -1492,6 +1536,29 @@ double max_distance(vector<Point> ps) {
             j = (j+1)%n;
     }
     return res;
+}
+```
+
+### Sweep Line / 平面走査
+```cpp
+void solve(int n) {
+    vector<pair<double, int>> v;
+    for (int i=0; i<n; ++i) {
+        v.push_back({"<x_left[i]>", i});
+        v.push_back({"<x_right[i]>", i+n});
+    }
+    sort(v.begin(), v.end());
+    set<pair<double, int>> s;
+    for (auto p : v) {
+        int i = p.second%n;
+        if (p.second<n) {
+            set<pair<double, int>>::iterator it = "<binary search y[i]>";
+            "<construct solution>":
+            s.insert({"<y[i]>", i});
+        }
+        else
+            s.erase({"<y[i]>", i});
+    }
 }
 ```
 
