@@ -25,145 +25,6 @@ Essences of clinical medicine.
 
 ## Biliary System Disorders / 胆道系疾患
 
-### Cholelithiasis / 胆石症
-
-* **Concept**
-  * Stones formed in the biliary system
-  * Common in: Overweight, over 40 years old, multiparous women
-  * Classification:
-    * By composition: Cholesterol stones, pigment (bilirubin) stones
-    * By location: Gallbladder stones, common bile duct stones, intrahepatic stones
-* **Symptoms**
-  * Asymptomatic
-  * Pain: RUQ colicky pain after a meal, nausea and vomiting, referred pain to the right back and right shoulder
-  * Complications:
-    * Biliary tract infections
-    * Obstructive jaundice, acute pancreatitis
-    * Gallbladder-duodenal fistula, gallstone ileus
-    * Gallbladder perforation, biliary peritonitis
-* **Tests**
-  * Blood: (In case of biliary stasis) ALP↑, γ-GT↑, bilirubin↑ (direct)
-  * Ultrasound: Hyperechoic image, acoustic shadow
-  * CT, X-ray: Often negative
-  * MRCP, ERCP: Translucent images of stones
-* **Treatment**
-  * Gallbladder stones
-    * Asymptomatic: Observation
-    * Symptomatic: Laparoscopic cholecystectomy, open cholecystectomy
-    * Acute phase: NSAIDs, anticholinergic drugs
-    * Pure cholesterol stones: Gallstone dissolution therapy (ursodeoxycholic acid), extracorporeal shock wave lithotripsy
-  * Common bile duct stones:
-    * Endoscopic sphincterotomy + endoscopic lithotripsy
-    * Endoscopic papillary balloon dilation + endoscopic lithotripsy
-  * Intrahepatic stones
-    * Asymptomatic cases: Observation
-    * Symptomatic cases: Hepatectomy, endoscopic stone removal
-{: .notice--info}
-
-### Acute Cholecystitis / 急性胆囊炎
-
-* **Concept**
-  * An acute inflammation of the gallbladder with gallbladder stasis and bacterial infection due to gallstones
-* **Symptoms**
-  * Pain: RUQl pain, nausea, vomiting, fever
-  * Examination: Murphy's sign
-* **Tests**
-  * Blood: WBC↑, CRP↑, ALP↑, γ-GT↑, bilirubin↑
-  * Ultrasound, CT: Enlarged gallbladder, gallbladder wall thickening, gallbladder sludge, gallbladder stones, sonographic Murphy's sign
-* **Treatment**
-  * Initial treatment: Fasting, intravenous fluids, antibiotics, analgesics
-  * Cholecystectomy: Laparoscopic cholecystectomy
-  * Gallbladder drainage: Percutaneous transhepatic gallbladder drainage, percutaneous transhepatic gallbladder aspiration
-{: .notice--info}
-
-### Acute Cholangitis / 急性胆管炎
-
-* **Concept**
-  * An acute inflammation of the bile ducts with bile duct obstruction and bacterial infection due to bile duct stones or malignant tumors
-* **Symptoms**
-  * Charcot's triad: Fever, RUQ abdominal pain, jaundice
-  * Reynold's pentad: (Charcot's triad), shock, altered mental status
-  * Severe cases: Sepsis → DIC → MODS
-* **Tests**
-  * Blood: WBC↑, CRP↑, ALP↑, γ-GT↑, Bilirubin↑ (direct), AST↑, ALT↑
-  * Ultrasound, CT: Bile duct dilation, bile duct stones
-  * MRCP: Bile duct stones, malignant tumors
-* **Treatment**
-  * Initial treatment: Fasting, intravenous fluids, antibiotics, analgesics
-  * Biliary drainage: Endoscopic biliary drainage
-{: .notice--info}
-
-### Primary Sclerosing Cholangitis / 原発性硬化性胆管炎
-
-* **Concept**
-  * A chronic inflammation of the bile ducts believed to be autoimmune in nature, leading to fibrotic strictures of the bile ducts and eventually progressing to liver cirrhosis
-  * Common in: Bimodal distribution in the 20s and 60s, more common in males
-* **Symptoms**
-  * Asymptomatic
-  * Symptomatic: RUQ pain, jaundice, pruritus
-  * Complications: Ulcerative colitis
-* **Tests**
-  * Blood: ALP↑, γ-GT↑, Bilirubin↑, AST↑, ALT↑, P-ANCA (+)
-  * ERCP, MRCP: Bile duct strictures, beaded appearance
-  * Pathology: Onion skin lesion
-* **Treatment**
-  * Medical therapy: Ursodeoxycholic acid
-  * Biliary drainage: For cholangitis and jaundice
-  * Liver transplantation: In advanced cases
-{: .notice--info}
-
-### Gallbladder Adenomyomatosis / 胆囊腺筋腫症
-
-* **Concept**
-  * A proliferative disorder of the gallbladder characterized by overgrowth of the gallbladder wall and proliferation of Rokitansky-Aschoff sinuses
-* **Symptoms**
-  * Asymptomatic
-* **Tests**
-  * Ultrasound: Thickening of the gallbladder wall, comet-like echo, proliferated RAS
-  * MRCP: Pearl necklace sign
-* **Treatment**
-  * Cholecystectomy: If symptomatic or if cancer is suspected
-{: .notice--info}
-
-## Pancreatic Disorders / 膵疾患
-
-### Acute Pancreatitis / 急性膵炎
-
-* **Concept**
-  * A pathological condition where pancreatic enzymes are activated and cause autodigestion of pancreatic tissue
-  * Causes: Alcohol, gallstones, idiopathic, metabolic disorders
-* **Symptoms**
-  * Abdominal pain: Upper abdominal pain, back pain, nausea, vomiting, fever
-  * Severe cases: Peritoneal irritation, subcutaneous hemorrhage (Cullen's sign, Grey-Turner's sign), shock, metabolic acidosis, decreased PaO2, oliguria, tetany
-  * Complications: SIRS, DIC, MODS
-* **Tests**
-  * Blood: Amylase↑, lipase↑, WBC↑, CRP↑, platelets↓, Ca↓, BUN↑, Cr↑, LDH↑, hyperglycemia
-  * Ultrasound, CT, MRI: Enlarged pancreas, indistinct contours, fluid collection
-* **Treatment**
-  * Basic treatment: Fluid replacement, fasting, respiratory and circulatory monitoring, analgesics
-  * Severe cases: Antibiotics, protease inhibitor, enteral nutrition, hemofiltration
-  * Gallstone-induced pancreatitis: Endoscopic retrograde cholangiopancreatography, endoscopic sphincterotomy
-{: .notice--info}
-
-### Chronic Pancreatitis / 慢性膵炎
-
-* **Concept**
-  * A recurrent chronic inflammation of the pancreas, often accompanied by decreased exocrine and endocrine function of the pancreas
-  * Common in: Middle-aged to elderly men, heavy alcohol consumption
-* **Symptoms**
-  * Compensated stage: Upper abdominal pain, back pain (exacerbated by alcohol and high-fat intake)
-  * Decompensated stage: Malabsorption (steatorrhea, diarrhea), diabetes, weight loss
-* **Tests**
-  * Blood: Pancreatic enzymes↑ (compensated stage), pancreatic enzymes↓ (decompensated stage)
-  * Exocrine and endocrine function tests: PABA excretion rate↓, fecal fat↑, impaired glucose tolerance
-  * Ultrasound, CT: Pancreatic stones
-  * MRCP, ERCP: Irregular pancreatic duct dilatation
-* **Treatment**
-  * Compensated stage: Lifestyle modifications (abstinence from alcohol and smoking, low-fat diet), pain management (NSAIDs, anticholinergic drugs)
-  * Decompensated stage: Pancreatic enzyme replacement therapy, insulin therapy
-  * Pancreatic duct obstruction: Endoscopy, extracorporeal shock wave lithotripsy, surgery
-{: .notice--info}
-
 # Cardiovascular / 循環器
 
 ## Arrhythmia / 不整脈
@@ -210,192 +71,6 @@ Essences of clinical medicine.
 
 ## Glomerular Disorders / 糸球体疾患
 
-### Acute Glomerulonephritis / 急性糸球体腎炎
-
-* **Concept**
-  * Type III allergy to Group A Streptococcus (immunocomplex deposition in the glomeruli)
-  * Occurs approximately 2 weeks after preceding infections such as pharyngitis and tonsillitis
-  * Common in children (3-10 years old)
-  * Many cases resolve with conservative treatment
-* **Symptoms**
-  * Hematuria: microscopic or gross
-  * Proteinuria: Nephrotic syndrome is rare
-  * Hypertension: during the oliguric phase
-  * Edema: periorbital
-* **Tests**
-  * Blood: CH50↓, C3↓, ASO↑, ASK↑
-  * Urine sediment: Red blood cell casts, granular casts
-  * Light microscopy: White blood cell infiltration into capillaries, swelling of endothelial cells in capillaries
-  * Fluorescence: C3 deposition in the glomerular basement membrane
-  * Electron microscopy: Humps on the basement membrane
-* **Treatment**
-  * Dietary therapy: Restriction of salt intake, low-protein diet
-  * Medication therapy: Diuretics, antihypertensive drugs
-{: .notice--info}
-
-### Rapid Progressive Glomerulonephritis / 急性進行性糸球体腎炎
-
-* **Concept**
-  * Arises from necrotizing damage to the glomerular capillary walls
-  * Formation of two or more cell layers in Bowman's capsule (crescents)
-  * Rapid decline in kidney function
-  * Classification:
-    * ANCA type (Microscopic polyangiitis, Granulomatosis with polyangiitis)
-    * Immune complex type
-    * Anti-glomerular basement membrane antibody type (Goodpasture syndrome)
-* **Symptoms**
-  * Initial: Fever, general fatigue
-  * Renal symptoms: Proteinuria, hematuria, edema
-  * Extrarenal symptoms: Hypertension, interstitial pneumonia, pulmonary hemorrhage
-* **Tests**
-  * Light microscopy: Crescent formation
-  * Fluorescence: Corresponding to the classification: 
-    * Minimal glomerular deposition
-    * Granular deposition in glomerular capillary walls
-    * Linear deposition in glomerular capillary walls
-  * Electron microscopy: Basement membrane rupture
-* **Treatment**
-  * Combination therapy: corticosteroids (pulse therapy) and immunosuppressive drugs (cyclophosphamide)
-{: .notice--info}
-
-### IgA Nephropathy / IgA腎症
-
-* **Concept**
-  * Mesangial proliferation and deposition of IgA in the mesangial area.
-* **Symptoms**
-  * Hematuria: Persistent microscopic or gross during colds
-  * Proteinuria: Persistent or intermittent
-* **Tests**
-  * Blood: IgA↑
-  * Urine sediment: Red blood cell casts
-  * Light microscopy: Mesangial proliferation
-  * Fluorescence: IgA deposition in the mesangial area
-  * Electron microscopy: Electron dense deposits in the mesangial area
-* **Treatment**
-  * Dietary therapy: Restriction of salt and protein intake
-  * Medication therapy:
-    * RAAS inhibitors (ACE inhibitors, ARBs)
-    * Corticosteroids
-    * Tonsillectomy + Steroid pulse therapy
-    * Immunosuppressive drugs
-    * Antiplatelet agents
-    * Omega-3 fatty acids (fish oil)
-{: .notice--info}
-
-### Chronic Glomerulonephritis / 慢性糸球体腎炎
-
-* **Concept**
-  * Prolonged presence of proteinuria and hematuria, leading to a gradual decline in kidney function
-{: .notice--info}
-
-### Minimal Change Nephrotic Syndrome / 微小変化型ネフローゼ症候群
-
-* **Concept**
-  * Nephrotic syndrome common in children (3-6 years old) and young adults
-  * Light microscopy shows almost normal glomeruli, and electron microscopy shows loss of podocyte foot processes
-* **Symptoms**
-  * Edema: Sudden generalized swelling
-  * Proteinuria: High levels of albuminuria, with high selectivity for urinary protein
-* **Tests**
-  * Blood: Albumin↓, LDL cholesterol↑
-  * Light microscopy: Nearly normal
-  * Fluorescence: No deposition observed
-  * Electron microscopy: Disappearance of foot processes of the glomerular epithelial cells
-* **Treatment**
-  * Corticosteroids
-  * Diuretics: Loop diuretics, potassium-sparing diuretics
-  * Protein infusion products: Used in cases of circulatory insufficiency due to hypoalbuminemia
-{: .notice--info}
-
-### Membranous Nephropathy / 膜性腎症
-
-* **Concept**
-  * Nephrotic syndrome common in adults (40 years and older)
-  * Characterized by thickening of the glomerular basement membrane and deposition of immune complexes on the basement membrane
-  * Causes: 80% primary (idiopathic), 20% secondary to conditions such as: 
-    * Malignancies (gastric cancer, colorectal cancer, lung cancer, breast cancer, lymphoma)
-    * Infections (Hepatitis B, syphilis)
-    * Autoimmune diseases (SLE, RA)
-    * Medications (gold salts, D-penicillamine)
-* **Symptoms**
-  * Edema: Chronic
-  * Proteinuria: Chronic
-* **Tests**
-  * Blood: Albumin↓, LDL cholesterol↑
-  * Light microscopy: Basement membrane thickening, spike formation on the basement membrane
-  * Fluorescence: Granular deposition of IgG and C3 along the glomerular basement membrane
-  * Electron microscopy: Electron dense deposits on the epithelial side of the basement membrane
-* **Treatment**
-  * Supportive therapy: Diuretics, antiplatelet agents
-  * Drug therapy: Steroids, immunosuppressive drugs
-  * Secondary cases: Treatment of the underlying condition
-{: .notice--info}
-
-### Focal Segmental Glomerulosclerosis / 巣状分節性糸球体硬化症
-
-* **Concept**
-  * Nephrotic syndrome (often demonstrating steroid resistance)
-  * Characterized by localized focal segmental sclerosis lesions in some glomeruli
-* **Symptoms**
-  * Edema: Rapid onset
-  * Proteinuria: High levels of proteinuria with low selectivity for urine protein
-* **Tests**
-  * Blood: Albumin↓, LDL cholesterol↑
-  * Light microscopy: Focal segmental sclerosis lesions in some glomeruli
-  * Fluorescence: Granular deposition of IgG and C3 in the sclerotic areas
-  * Electron microscopy: Loss of podocyte foot processes
-* **Treatment**
-  * Steroids
-  * Cyclosporine: Used in combination with steroids for cases resistant to steroids
-{: .notice--info}
-
-### Membranoproliferative Glomerulonephritis / 膜性増殖性糸球体腎炎
-
-* **Concept**
-  * Nephrotic syndrome characterized by glomerular proliferation and low complement levels
-  * Causes: Primary or secondary (Hepatitis C, cryoglobulinemia, SLE).
-* **Symptoms**
-  * Proteinuria: High levels
-  * Hematuria: Microscopic or gross
-  * Edema
-* **Tests**
-  * Blood: CH50↓, C3↓, C4↓
-  * Light microscopy: Glomerular lobulation, mesangial cell proliferation, thickening of the capillary walls, duplication of the basement membrane
-  * Fluorescence: Deposition of C3, IgG, IgM in capillary walls and mesangium
-  * Electron microscopy: Electron dense deposits and mesangial interposition
-* **Treatment**
-  * Steroids: Used in combination with immunosuppressive drugs, anticoagulants, and antiplatelet agents.
-  * Secondary cases: Treatment of the underlying condition.
-{: .notice--info}
-
-### Alport Syndrome / Alport症候群
-
-* **Concept**
-  * Hereditary progressive nephritis accompanied by sensorineural hearing loss and eye abnormalities
-  * Most cases (80%) are X-linked with abnormalities in the formation of type IV collagen
-* **Symptoms**
-  * Nephritis: Onset with asymptomatic hematuria and proteinuria, progresses to end-stage renal failure
-  * Sensorineural hearing loss: Bilateral
-  * Eye abnormalities: lenticonus, cataracts
-* **Tests**
-  * Light microscopy: Nonspecific findings
-  * Fluorescence: Abnormalities in the detection of type IV collagen alpha-5 chain
-  * Electron microscopy: Changes in the glomerular basement membrane, layering of the lamina densa
-* **Treatment**
-  * Disease progression control: ACE inhibitors, ARBs
-  * End-stage renal failure: Dialysis, transplantation
-{: .notice--info}
-
-### Thin Basement Membrane Syndrome / 良性家族性血尿症候群
-
-* **Concept**
-  * Familial disease characterized by asymptomatic hematuria with a favorable prognosis
-* **Symptoms**
-  * Hematuria: Microscopic, occasionally gross
-* **Tests**
-  * Electron microscopy: Thinner than normal glomerular basement membrane
-{: .notice--info}
-
 ## Tubulointerstitial disorders / 尿細管・間質性疾患
 
 ## Systemic disorders and renal disorders / 全身障害と腎障害
@@ -416,254 +91,953 @@ Essences of clinical medicine.
 
 # Metabolism and Endocrine / 代謝・内分泌
 
-## Hypothalamus and pituitary disorders / 視床下部・下垂体疾患
+## Hypothalamus and Pituitary Disorders / 視床下部・下垂体疾患
+
+### Acromegaly and Pituitary Gigantism / 先端巨大症・下垂体性巨人症
+
+* **Concept**
+  * Excessive growth hormone (GH) secretion from the pituitary gland leading to increased growth of bones and tissues. In adults, this condition is known as acromegaly, and in children, it leads to gigantism.
+  * Common in: Adults (acromegaly), Children before puberty (gigantism)
+* **Symptoms**
+  * Enlargement of hands, feet, and facial features
+  * Joint pain, increased sweating
+  * Enlarged organs (e.g., heart, liver)
+  * Sleep apnea, diabetes mellitus
+* **Tests**
+  * GH levels remain high even after glucose load
+  * IGF-1 levels elevated
+  * MRI of pituitary gland to detect adenoma
+* **Treatment**
+  * Surgical removal of GH-secreting pituitary adenoma
+  * Medications: Somatostatin analogs (e.g., octreotide), GH receptor antagonists (e.g., pegvisomant)
+  * Radiation therapy for non-resectable tumors
+{: .notice--info}
+
+### Hyperprolactinemia / 高プロラクチン血症
+
+* **Concept**
+  * Elevated levels of prolactin in the blood, which can impair reproductive functions. Causes include pituitary tumors (prolactinomas), medications, and hypothyroidism.
+  * Common in: Women of reproductive age
+* **Symptoms**
+  * Women: Irregular menstrual periods, galactorrhea, infertility
+  * Men: Decreased libido, erectile dysfunction, gynecomastia
+* **Tests**
+  * Elevated serum prolactin levels
+  * MRI of the pituitary to identify prolactinoma
+* **Treatment**
+  * Dopamine agonists (e.g., cabergoline, bromocriptine) to reduce prolactin levels
+  * Surgery for large prolactinomas not responsive to medication
+{: .notice--info}
+
+### Growth Hormone Deficiency / 成長ホルモン分泌不全性低身長症
+
+* **Concept**
+  * A condition where the pituitary gland does not produce enough growth hormone, leading to short stature and delayed growth and puberty.
+  * Common in: Children
+* **Symptoms**
+  * Short stature compared to peers
+  * Delayed growth and puberty
+  * Increased fat mass, decreased muscle and bone mass
+* **Tests**
+  * GH stimulation test shows inadequate GH production
+  * Low levels of IGF-1
+* **Treatment**
+  * Recombinant human growth hormone (rhGH) injections
+{: .notice--info}
+
+### Isolated ACTH Deficiency / ACTH単独欠損症
+
+* **Concept**
+  * A rare condition where the pituitary gland fails to produce adequate amounts of ACTH, leading to cortisol deficiency without affecting other pituitary hormones.
+* **Symptoms**
+  * Fatigue, weakness
+  * Hypoglycemia
+  * Weight loss, nausea, abdominal pain
+* **Tests**
+  * Low cortisol levels not responsive to ACTH stimulation
+  * Normal levels of other pituitary hormones
+* **Treatment**
+  * Lifelong glucocorticoid replacement therapy
+{: .notice--info}
+
+### Isolated Gonadotropin Deficiency / ゴナドトロピン単独欠損症
+
+* **Concept**
+  * A condition characterized by low or absent secretion of the gonadotropins LH and FSH, leading to delayed or absent puberty and infertility.
+  * Common in: Both males and females
+* **Symptoms**
+  * Delayed puberty
+  * Infertility
+  * In males: Small testes, low testosterone
+  * In females: Amenorrhea, low estrogen
+* **Tests**
+  * Low serum LH and FSH levels
+  * Low sex hormone levels (testosterone or estrogen)
+* **Treatment**
+  * Hormone replacement therapy: Testosterone for males, estrogen/progesterone for females
+  * Fertility treatment: Gonadotropins for ovulation or spermatogenesis
+{: .notice--info}
+
+### Kallmann Syndrome / Kallmann症候群
+
+* **Concept**
+  * A form of hypogonadotropic hypogonadism with anosmia or hyposmia due to abnormal migration of olfactory and gonadotropin-releasing hormone (GnRH) neurons during development.
+  * Common in: Males and females
+* **Symptoms**
+  * Absent or delayed puberty
+  * Anosmia (inability to smell) or hyposmia (reduced ability to smell)
+* **Tests**
+  * Low serum levels of LH, FSH, and sex steroids
+  * MRI may show absent olfactory bulbs
+* **Treatment**
+  * Hormone replacement therapy to induce puberty, maintain secondary sex characteristics, and support fertility
+{: .notice--info}
+
+### Laurence-Moon-Biedl Syndrome / Laurence-Moon-Biedl症候群
+
+* **Concept**
+  * A genetic disorder characterized by retinal dystrophy, obesity, polydactyly, cognitive impairment, and hypogonadism.
+* **Symptoms**
+  * Retinal dystrophy leading to vision loss
+  * Obesity
+  * Polydactyly (extra fingers or toes)
+  * Intellectual disability
+  * Hypogonadism leading to infertility
+* **Tests**
+  * Genetic testing to confirm diagnosis
+  * Assessment of visual function, endocrine evaluation
+* **Treatment**
+  * Supportive care, management of obesity, visual aids for vision loss
+  * Hormone replacement therapy for hypogonadism
+{: .notice--info}
+
+### Prader-Willi Syndrome / Prader-Willi症候群
+
+* **Concept**
+  * A genetic disorder caused by the loss of function of genes on chromosome 15. It is characterized by hypotonia, obesity, developmental delays, and hyperphagia.
+  * Common in: Children, but affects individuals throughout their life
+* **Symptoms**
+  * Neonatal hypotonia (poor muscle tone)
+  * Obesity and an insatiable appetite (hyperphagia)
+  * Short stature, small hands and feet
+  * Developmental delays, intellectual disability
+* **Tests**
+  * Genetic testing for abnormality on chromosome 15
+  * Hormonal tests to assess growth hormone deficiency
+* **Treatment**
+  * Management of obesity and hyperphagia
+  * Growth hormone therapy
+  * Supportive therapies for developmental delays
+{: .notice--info}
+
+### Panhypopituitarism / 汎下垂体機能低下症
+
+* **Concept**
+  * A condition where the pituitary gland fails to produce one or more of its hormones or not enough of them, affecting various bodily functions.
+* **Symptoms**
+  * Fatigue, weakness
+  * Hypoglycemia
+  * Sexual dysfunction, infertility
+  * Growth failure in children
+* **Tests**
+  * Low levels of pituitary hormones (GH, ACTH, TSH, LH, FSH, PRL)
+  * MRI of the pituitary gland to identify underlying causes
+* **Treatment**
+  * Hormone replacement therapy for deficient hormones
+  * Management of underlying cause
+{: .notice--info}
+
+### Autoimmune Hypophysitis / 自己免疫性下垂体炎
+
+* **Concept**
+  * Inflammation of the pituitary gland caused by autoimmune reaction, leading to hypopituitarism.
+* **Symptoms**
+  * Headaches
+  * Visual disturbances
+  * Symptoms of pituitary hormone deficiencies (e.g., fatigue, sexual dysfunction)
+* **Tests**
+  * MRI of the pituitary gland showing enlargement or other abnormalities
+  * Hormonal tests showing deficiencies
+* **Treatment**
+  * Corticosteroids to reduce inflammation
+  * Hormone replacement therapy for any deficiencies
+{: .notice--info}
+
+### Syndrome of Inappropriate Antidiuretic Hormone (SIADH) / バソプレシン不適合分泌症候群
+
+* **Concept**
+  * Excessive release of antidiuretic hormone (ADH) leading to water retention, hyponatremia, and dilutional symptoms.
+* **Symptoms**
+  * Hyponatremia: Nausea, headache, confusion, seizures in severe cases
+* **Tests**
+  * Low serum sodium, low plasma osmolality
+  * Inappropriately concentrated urine with high sodium
+* **Treatment**
+  * Fluid restriction
+  * Salt tablets or hypertonic saline in severe cases
+  * Medications to block the effect of ADH (e.g., demeclocycline, tolvaptan)
+{: .notice--info}
+
+### Central Diabetes Insipidus / 中枢性尿崩症
+
+* **Concept**
+  * A deficiency of antidiuretic hormone (ADH, also known as vasopressin) production or release from the posterior pituitary gland, leading to an inability to concentrate urine, causing polyuria and polydipsia
+  * Causes include head trauma, surgery, tumors, or genetic disorders
+* **Symptoms**
+  * Excessive urination (polyuria) and excessive thirst (polydipsia)
+  * Dehydration signs if fluid intake is inadequate
+  * Nocturia (night-time urination)
+* **Tests**
+  * Water deprivation test: Inability to concentrate urine
+  * ADH levels: Low or undetectable
+  * MRI of the brain: To identify any hypothalamic or pituitary abnormalities
+* **Treatment**
+  * Desmopressin (DDAVP): Synthetic ADH replacement
+  * Manage underlying cause if identifiable
+  * Adequate hydration
+{: .notice--info}
+
+### Nephrogenic Diabetes Insipidus / 腎性尿崩症
+
+* **Concept**
+  * Impaired renal response to ADH, leading to an inability to concentrate urine, resulting in polyuria and polydipsia
+  * Causes include inherited genetic mutations, chronic kidney disease, or lithium use
+* **Symptoms**
+  * Similar to central diabetes insipidus: Excessive urination, excessive thirst
+  * Dehydration risks, especially in children
+* **Tests**
+  * Water deprivation test: Continued inability to concentrate urine despite normal or elevated ADH levels
+  * ADH challenge test: No response in urine osmolality
+  * Genetic testing: For inherited forms
+* **Treatment**
+  * Low-salt, low-protein diet: To reduce urine output
+  * Thiazide diuretics: Reduce polyuria paradoxically
+  * NSAIDs: May enhance the effect of ADH on the kidney
+  * Address underlying cause, if possible (e.g., changing medications)
+{: .notice--info}
 
 ## Thyroid Disorders / 甲状腺疾患
 
-### Grave's Disease / バセドウ病
+### Graves' Disease / Basedow病
 
 * **Concept**
-  * The thyroid gland is continuously stimulated by autoantibodies against the TSH receptor, leading to excessive production of thyroid hormones and thyroid toxicity
-  * Common in: Women aged 20 to 40
+  * An autoimmune disorder leading to overactivity of the thyroid gland (hyperthyroidism). The body produces antibodies that stimulate the thyroid, causing it to produce too much thyroid hormone.
+  * Common in: Adults, especially women
 * **Symptoms**
-  * Triad: Thyroid enlargement, protruding eyeballs, tachycardia
-  * General symptoms: Hyperactivity, increased sweating, weight loss
-  * Neuromuscular symptoms: Tremors, periodic partial muscle paralysis
-  * Graves' ophthalmopathy: Upper eyelid retraction, lid lag
-  * Digestive symptoms: Frequent defecation, increased appetite
+  * Hyperactivity, irritability
+  * Heat intolerance, sweating
+  * Weight loss despite increased appetite
+  * Enlarged thyroid (goiter), exophthalmos (bulging eyes)
 * **Tests**
-  * T4↑, T3↑
-  * TSH↓
-  * TSH receptor antibodies (+)
-  * Thyroid scintigraphy: Increased uptake
+  * Elevated levels of thyroid hormones (T3 and T4)
+  * Suppressed thyroid-stimulating hormone (TSH) level
+  * Presence of thyroid-stimulating immunoglobulins (TSI)
+  * Thyroid ultrasound and radioactive iodine uptake test
 * **Treatment**
-  * Anti-thyroid medications: Methimazole, Propylthiouracil
-  * Surgery: Total thyroidectomy
-  * Radioactive iodine therapy: $\mathrm{I}^{131}$ internal therapy
-  * β-blockers: for tachycardia
+  * Anti-thyroid medications (e.g., methimazole, propylthiouracil)
+  * Radioactive iodine therapy
+  * Beta-blockers to control symptoms
+  * Surgery (thyroidectomy) in severe cases
 {: .notice--info}
 
 ### Thyroid Storm / 甲状腺クリーゼ
 
 * **Concept**
-  * A life-threatening complication requiring urgent treatment, where multiple organs malfunction due to excessive thyroid activity
-  * Causes: Infection, trauma, surgery, stress, childbirth
+  * A life-threatening exacerbation of hyperthyroidism, often triggered by stress, infection, or surgery in patients with untreated or poorly managed hyperthyroidism.
+  * Common in: Hyperthyroid patients under stress
 * **Symptoms**
-  * Fever (>38°C)
-  * Nervous system symptoms: Restlessness, confusion, mental abnormalities
-  * Cardiovascular symptoms: Tachycardia (>130), signs of heart failure
-  * Digestive symptoms: Vomiting, diarrhea, jaundice
+  * High fever, extreme tachycardia
+  * Agitation, delirium, psychosis
+  * Nausea, vomiting, diarrhea
+  * Heart failure, coma
 * **Tests**
-  * T4↑, T3↑
+  * Elevated thyroid hormone levels
+  * Elevated heart rate, blood pressure
+  * Blood tests showing liver enzyme abnormalities
 * **Treatment**
-  * Anti-thyroid drugs: Methimazole, Propylthiouracil
-  * Inorganic iodine: Suppression of T4 and T3 secretion
-  * β-blockers: For tachycardia
-  * Corticosteroids: For adrenal insufficiency
-  * Other: Fluid replacement, oxygen therapy, cooling
+  * Immediate emergency medical intervention
+  * Beta-blockers to control heart rate
+  * Anti-thyroid medications
+  * Supportive care (fluids, cooling, glucose)
 {: .notice--info}
 
-### Plummer's Disease / Plummer病
+### Toxic Nodular Goiter (Plummer's Disease) / Plummer病
 
 * **Concept**
-  * Nodular thyroid lesions produce thyroid hormones in a TSH-independent manner
-  * Mostly benign
+  * The presence of autonomously functioning thyroid nodules producing excess thyroid hormones, leading to hyperthyroidism without the presence of TSH-receptor antibodies.
+  * Common in: Older adults
 * **Symptoms**
-  * Hyperthyroidism: Hyperactivity, weight loss, tremors
+  * Similar to Graves' disease but often without eye involvement
+  * Palpitations, weight loss, heat intolerance
+  * Enlarged thyroid with nodules
 * **Tests**
-  * T4↑, T3↑
-  * TSH↓
-  * TSH receptor antibodies (-)
-  * Thyroid scintigraphy: Accumulation matching the nodules
+  * Elevated T3 and T4 levels
+  * Suppressed TSH level
+  * Thyroid scan showing hot nodules
 * **Treatment**
-  * Surgery: Excision of nodules
-  * Radioactive iodine therapy: $\mathrm{I}^{131}$ internal therapy
+  * Radioactive iodine therapy
+  * Anti-thyroid medications
+  * Surgery in some cases
 {: .notice--info}
 
 ### Thyroid Hormone Resistance / 甲状腺ホルモン不応症
 
 * **Concept**
-  * Abnormalities in thyroid hormone receptor genes result in elevated thyroid hormone levels with no suppression of TSH
+  * A rare genetic disorder where the body's cells are resistant to the effects of thyroid hormones, leading to elevated levels of circulating thyroid hormones with non-suppressed TSH.
+  * Common in: Genetic predisposition
 * **Symptoms**
-  * Mild goiter and tachycardia
+  * Variable, may mimic hypothyroidism or hyperthyroidism
+  * Growth delay, ADHD-like symptoms in children
 * **Tests**
-  * T4↑, TSH→
+  * Elevated free T3 and T4 levels with non-suppressed or slightly elevated TSH
+  * Genetic testing for mutations
 * **Treatment**
-  * Not required
+  * Tailored to symptoms; may involve controlled use of thyroid hormone replacement
 {: .notice--info}
 
 ### Acute Suppurative Thyroiditis / 急性化膿性甲状腺炎
 
 * **Concept**
-  * Acute purulent inflammation of the thyroid gland due to bacterial infection, often caused by a persistent fistula from the piriform sinus
+  * A bacterial infection of the thyroid gland, leading to abscess formation. Rare, but can be life-threatening.
+  * Common in: Immunocompromised patients, following thyroid surgery
 * **Symptoms**
-  * Pain, redness
+  * Severe neck pain, swelling
+  * Fever, chills
+  * Dysphagia, dysphonia
 * **Tests**
-  * Puncture of the inflamed area for bacterial identification
+  * Elevated white blood cell count, C-reactive protein (CRP)
+  * Ultrasound or CT scan showing abscess
+  * Fine-needle aspiration for microbiology
 * **Treatment**
   * Antibiotics
-  * Fistula removal surgery
+  * Drainage of abscess
+  * Surgery in severe cases
 {: .notice--info}
 
-### Subacute Thyroiditis / 亜急性甲状腺炎
+### Subacute Thyroiditis (De Quervain's Thyroiditis) / 亜急性甲状腺炎
 
 * **Concept**
-  * Destructive thyroiditis believed to be caused by a virus, presenting as transient thyroid toxicity
-  * Common in: Women aged 40 to 50
+  * Inflammatory disorder of the thyroid gland, likely viral in origin, leading to pain and transient changes in thyroid hormone levels. Typically, patients experience a phase of hyperthyroidism followed by hypothyroidism before returning to normal function.
+  * Common in: Adults, particularly women
 * **Symptoms**
-  * Upper respiratory tract infection-like symptoms
-  * Thyroid: pain, tenderness, firmness
-  * Thyroid toxicity: High fever, generalized fatigue, excessive sweating, weight loss
+  * Painful swelling of the thyroid gland
+  * Fever and upper respiratory symptoms preceding thyroid pain
+  * Transient hyperthyroidism followed by hypothyroidism
 * **Tests**
-  * Blood: T4↑, TSH↓, CRP↑, ESR↑
-  * Ultrasound: Corresponding hypoechoic area in the painful region
-  * Scintigraphy: Reduced uptake
+  * Elevated erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP)
+  * Low thyroid-stimulating hormone (TSH) during hyperthyroid phase, followed by elevated TSH in hypothyroid phase
+  * Thyroid ultrasound may show inflammation
 * **Treatment**
-  * NSAIDs: Mild cases
-  * Corticosteroids: Strong inflammation
-  * β-blockers
+  * Nonsteroidal anti-inflammatory drugs (NSAIDs) or corticosteroids for pain and inflammation
+  * Beta-blockers for hyperthyroid symptoms
+  * Thyroid hormone replacement if hypothyroid phase is prolonged
 {: .notice--info}
 
-### Hashimoto's thyroiditis / 慢性甲状腺炎（橋本病）
+### Chronic Thyroiditis (Hashimoto's Thyroiditis) / 慢性甲状腺炎
 
 * **Concept**
-  * Chronic thyroid inflammation due to autoimmunity resulting in thyroid hypofunction
-  * Common in: Women aged 20 to 50
+  * An autoimmune disease where the immune system attacks the thyroid gland, leading to chronic inflammation and hypothyroidism over time.
+  * Common in: Adults, especially women
 * **Symptoms**
-  * Thyroid enlargement
-  * General symptoms: Fatigue, feeling cold, decreased sweating, weight gain
-  * Neurological symptoms: Drowsiness, decreased memory, muscle weakness
-  * Digestive symptoms: Constipation, decreased appetite
-  * Menstrual cycle: Irregular, excessive bleeding
+  * Fatigue, weight gain
+  * Cold intolerance, dry skin
+  * Goiter (enlarged thyroid)
 * **Tests**
-  * T4↓, T3↓
-  * TSH↑
-  * Anti-Tg antibodies (+), anti-TPO antibodies (+)
-  * Pathology: Lymphocytic infiltration, formation of lymphoid follicles
+  * Elevated thyroid peroxidase (TPO) and antithyroglobulin antibodies
+  * Elevated TSH, low free T4
+  * Thyroid ultrasound showing a heterogeneous echotexture
 * **Treatment**
-  * T4 replacement therapy
+  * Thyroid hormone replacement therapy (levothyroxine)
+  * Regular monitoring of thyroid function tests
 {: .notice--info}
 
 ### Painless Thyroiditis / 無痛性甲状腺炎
 
 * **Concept**
-  * Follicular collapse during the course of Hashimoto's disease leading to transient thyroid toxicity
+  * A form of thyroiditis characterized by transient hyperthyroidism followed by hypothyroidism, without the painful thyroid gland involvement seen in subacute thyroiditis. Often occurs postpartum.
+  * Common in: Women, particularly postpartum
 * **Symptoms**
-  * Thyroid: No pain or tenderness
-  * Thyroid toxicity: Tachycardia, excessive sweating, tremors, fatigue, weight loss
+  * Transient hyperthyroidism symptoms (e.g., anxiety, palpitations, weight loss)
+  * Followed by hypothyroid symptoms (e.g., fatigue, weight gain, depression)
 * **Tests**
-  * Blood: T4↑，TSH↓, TSH receptor antibodies (-)
-  * Scintigraphy: Reduced uptake
+  * Elevated TSH in hypothyroid phase, low TSH in hyperthyroid phase
+  * Low or normal antithyroid antibodies
+  * Ultrasound may show a normal or slightly enlarged thyroid without nodules
 * **Treatment**
-  * Observation
-  * β-blockers
+  * Often self-limited; treatment is symptomatic
+  * Beta-blockers for hyperthyroid symptoms
+  * Thyroid hormone replacement if hypothyroid phase is prolonged
 {: .notice--info}
 
-### Thyroid Follicular Adenoma / 甲状腺濾胞腺腫
+### Follicular Adenoma / 濾胞腺腫
 
 * **Concept**
-  * A benign tumor originating from follicular epithelial cells
+  * A benign tumor of the thyroid gland made up of follicular cells. It does not invade surrounding tissues and does not spread to distant sites.
+  * Common in: Adults, more frequent in women
 * **Symptoms**
-  * Asymptomatic
+  * Usually asymptomatic, may present as a palpable nodule in the thyroid gland
 * **Tests**
-  * Fine-needle aspiration cytology: Follicular-like cell cluster
-  * Pathology: No evidence of invasion
-{: .notice--info}
-
-### Thyroid Adenomatous Nodule / 甲状腺腺腫様結節
-
-* **Concept**
-  * Thyroid overgrowth lesion with multiple nodules
-  * The most common nodular lesion of the thyroid gland
-* **Symptoms**
-  * Typically asymptomatic
-* **Tests**
-  * Ultrasound: Various nodular shadows
-{: .notice--info}
-
-### Thyroid Papillary Carcinoma / 甲状腺乳頭癌
-
-* **Concept**
-  * Malignant tumor of thyroid follicular epithelium origin (most common)
-  * Common in: Women aged 30 to 50
-* **Symptoms**
-  * Asymptomatic thyroid nodule
-* **Tests**
-  * Ultrasound: Microcalcifications
-  * Fine-needle aspiration cytology: Nuclear cytoplasmic inclusions
-  * Pathology: Papillary structures, nuclear cytoplasmic inclusions
+  * Fine-needle aspiration biopsy for diagnosis
+  * Ultrasound of the thyroid to characterize the nodule
+  * Thyroid function tests are usually normal
 * **Treatment**
-  * Surgical removal
-  * Favorable prognosis
+  * Observation for small, asymptomatic adenomas
+  * Surgical removal if the adenoma is large, symptomatic, or if malignancy cannot be ruled out
 {: .notice--info}
 
-### Thyroid Follicular Carcinoma / 甲状腺濾胞癌
+### Nodular Goiter / 腺腫様結節
 
 * **Concept**
-  * Malignant tumor of thyroid follicular epithelium origin
-  * Common in: Women aged 30 to 50
+  * Enlargement of the thyroid gland due to the presence of nodules, which can be benign or malignant. It may produce normal, increased, or decreased amounts of thyroid hormone.
+  * Common in: Adults, particularly in regions with iodine deficiency
 * **Symptoms**
-  * Asymptomatic thyroid nodule
+  * Swelling in the neck
+  * Symptoms of hyperthyroidism or hypothyroidism, depending on the functional status of the nodules
+  * Difficulty swallowing or breathing if large enough
 * **Tests**
-  * Fine-needle aspiration cytology: Follicular-like cell cluster
-  * Pathology: Follicular structures, vascular invasion
+  * Thyroid function tests to assess hormone production
+  * Ultrasound of the thyroid to evaluate nodules
+  * Fine-needle aspiration biopsy for suspicious nodules
 * **Treatment**
-  * Surgical removal
-  * Favorable prognosis
+  * Observation for benign nodules
+  * Thyroid hormone suppression therapy
+  * Surgery or radioactive iodine for large goiters or if cancer is suspected
 {: .notice--info}
 
-### Thyroid Anaplastic Carcinoma / 甲状腺未分化癌
+### Papillary Thyroid Cancer / 乳頭癌
 
 * **Concept**
-  * Malignant tumor of thyroid follicular epithelium origin (undifferentiated transformation of highly differentiated carcinoma)
-  * Common in: Elderly individuals
+  * The most common type of thyroid cancer, characterized by slow growth and excellent prognosis with proper treatment. It often spreads to lymph nodes in the neck but is highly treatable.
+  * Common in: Adults, particularly women
 * **Symptoms**
-  * Nodule: Rapidly enlarging
-  * Invasion: Hoarseness, difficulty breathing, swallowing difficulties
-  * Inflammation: Pain, redness
+  * Asymptomatic in early stages, may present as a palpable nodule in the thyroid
+  * Swollen lymph nodes in the neck
+  * Hoarseness or difficulty swallowing if large
 * **Tests**
-  * Fine-needle aspiration cytology: High-grade atypia, large tumor cells
-  * Scintigraphy: $\mathrm{Ga}^{67}$ accumulation
-  * Pathology: High-grade atypia, large tumor cells with giant or multiple nuclei
+  * Fine-needle aspiration biopsy for diagnosis
+  * Ultrasound of the thyroid and neck to assess the extent
+  * Blood tests for thyroid function, may be normal
 * **Treatment**
-  * Radiation therapy, chemotherapy
+  * Surgical removal of the thyroid gland (total or partial thyroidectomy)
+  * Radioactive iodine treatment post-surgery for some cases
+  * Thyroid hormone therapy to suppress TSH
 {: .notice--info}
 
-### Thyroid Medullary Carcinoma / 甲状腺髄様癌
+### Follicular Thyroid Cancer / 濾胞癌
 
 * **Concept**
-  * Malignant tumor of parafollicular C cells origin in the thyroid
-  * Manifestation of MEN2, RET gene mutation
+  * A type of thyroid cancer that arises from the follicular cells of the thyroid gland. It tends to spread via the bloodstream, particularly to the lungs and bones.
+  * Common in: Older adults
 * **Symptoms**
-  * Asymptomatic thyroid nodule
+  * Often asymptomatic, may be discovered as a thyroid nodule
+  * Symptoms of metastasis (e.g., bone pain, cough) if advanced
 * **Tests**
-  * Fine-needle aspiration cytology: Amyloid deposition
-  * Pathology: Medullary proliferation, amyloid deposition
-  * Blood: Elevated CEA and calcitonin levels
+  * Fine-needle aspiration biopsy, though often requires a surgical biopsy for definitive diagnosis
+  * Ultrasound and possibly CT or MRI for staging
+  * Thyroid function tests, which are usually normal
 * **Treatment**
-  * Surgery: Total thyroidectomy, lymph node dissection
-  * Pheochromocytoma: Surgery for pheochromocytoma first
+  * Surgical removal of the thyroid (total thyroidectomy)
+  * Radioactive iodine treatment for metastasis or residual disease
+  * Thyroid hormone therapy to suppress TSH
 {: .notice--info}
 
-### Thyroid Malignant Lymphoma / 甲状腺悪性リンパ腫
+### Medullary Thyroid Cancer / 髄様癌
 
 * **Concept**
-  * B-cell lymphoma of the thyroid (DLBCL, MALT)
-  * Frequent association with Hashimoto's disease
+  * A rare form of thyroid cancer that originates from the parafollicular C cells, which produce calcitonin. It can be sporadic or part of a genetic syndrome (e.g., MEN 2).
+  * Common in: Adults, with a genetic predisposition in some cases
 * **Symptoms**
-  * Enlarging nodules
+  * A palpable thyroid nodule
+  * Diarrhea and flushing if producing calcitonin or other hormones
+  * Symptoms related to metastasis
 * **Tests**
-  * Fine-needle aspiration cytology: Atypical lymphocytes
-  * Pathology: Diffuse proliferation of atypical lymphocytes
+  * Elevated calcitonin levels
+  * Genetic testing for RET mutations in familial cases
+  * Fine-needle aspiration biopsy and ultrasound of the thyroid
 * **Treatment**
-  * Chemotherapy (R-CHOP), radiation therapy
+  * Total thyroidectomy with lymph node dissection
+  * Monitoring and treatment for metastasis
+  * Genetic counseling and testing for familial cases
 {: .notice--info}
 
-## Parathyroid disorders / 副甲状腺疾患
+### Anaplastic Thyroid Cancer / 未分化癌
 
-## Adrenal gland disorders / 副腎疾患
+* **Concept**
+  * A highly aggressive and rare form of thyroid cancer characterized by rapid growth and poor prognosis. It is resistant to most treatments.
+  * Common in: Older adults
+* **Symptoms**
+  * Rapidly enlarging neck mass
+  * Symptoms of compression (e.g., difficulty breathing, swallowing)
+  * Hoarseness, voice changes
+* **Tests**
+  * Biopsy showing undifferentiated tumor cells
+  * Imaging studies (CT, MRI) to assess extent and metastasis
+  * Thyroid function tests may be normal or show signs of thyroiditis
+* **Treatment**
+  * Combination of surgery, radiation therapy, and chemotherapy, though often palliative
+  * Targeted therapy trials and immunotherapy may be options
+{: .notice--info}
 
-## Other endocrine disorders / その他の内分泌疾患
+### Thyroid Lymphoma / 悪性リンパ腫
+
+* **Concept**
+  * A rare form of thyroid cancer that originates from the lymphocytes in the thyroid gland. It is usually non-Hodgkin lymphoma and can rapidly enlarge.
+  * Common in: Older adults, particularly those with a history of autoimmune thyroiditis (Hashimoto's thyroiditis)
+* **Symptoms**
+  * Rapidly enlarging mass in the neck
+  * Symptoms of compression (e.g., difficulty breathing, swallowing)
+  * Possible symptoms of systemic lymphoma (e.g., weight loss, fever)
+* **Tests**
+  * Biopsy confirming lymphoma
+  * Imaging studies (CT, MRI) for staging
+  * Blood tests for markers of lymphoma
+* **Treatment**
+  * Chemotherapy and/or radiation therapy, depending on the type and stage
+  * Management of underlying thyroid conditions
+{: .notice--info}
+
+## Parathyroid Disorders / 副甲状腺疾患
+
+### Primary Hyperparathyroidism / 原発性副甲状腺機能亢進症
+
+* **Concept**
+  * Excessive secretion of parathyroid hormone (PTH) by one or more of the parathyroid glands, often due to a benign tumor (adenoma)
+  * Leads to increased calcium levels in the blood, bone resorption, and kidney stones
+* **Symptoms**
+  * Bone pain, fragility fractures
+  * Kidney stones, polyuria
+  * Neuropsychiatric symptoms: Depression, lethargy, confusion
+  * Gastrointestinal symptoms: Nausea, vomiting, constipation
+* **Tests**
+  * Serum calcium↑, PTH↑
+  * Phosphorus↓, Vitamin D normal or ↓
+  * Bone density scan: Osteopenia or osteoporosis
+  * Ultrasound or Sestamibi scan: Parathyroid adenoma identification
+* **Treatment**
+  * Surgery: Parathyroidectomy for symptomatic patients or those with significant hypercalcemia
+  * Medication: Bisphosphonates for bone protection, Calcimimetics to lower calcium levels
+{: .notice--info}
+
+### Secondary Hyperparathyroidism / 続発性副甲状腺機能亢進症
+
+* **Concept**
+  * An adaptive response to chronic hypocalcemia, often due to chronic kidney disease, leading to excessive production of PTH
+  * Results in increased bone resorption and altered mineral metabolism
+* **Symptoms**
+  * Similar to primary hyperparathyroidism but often more associated with the underlying cause, such as symptoms of renal failure
+* **Tests**
+  * Serum calcium↓ or normal, PTH↑
+  * Phosphorus↑, Vitamin D↓
+  * Bone density scan: Osteopenia or osteoporosis
+* **Treatment**
+  * Address underlying cause: Management of chronic kidney disease
+  * Phosphate binders to reduce serum phosphate
+  * Vitamin D analogs to manage hypocalcemia
+  * Parathyroidectomy in refractory cases
+{: .notice--info}
+
+### Hypercalcemia of Malignancy / 悪性腫瘍に伴う高Ca血症
+
+* **Concept**
+  * High blood calcium levels associated with cancer, either due to bone metastasis or paraneoplastic syndromes producing PTH-related protein (PTHrP)
+  * Common in breast cancer, lung cancer, and multiple myeloma
+* **Symptoms**
+  * Severe hypercalcemia symptoms: Polyuria, polydipsia, nausea, vomiting, constipation
+  * Confusion, stupor, coma in severe cases
+* **Tests**
+  * Serum calcium↑, PTH↓ or normal
+  * PTHrP↑ in cases of paraneoplastic syndrome
+  * Imaging: Bone scans, X-rays for metastasis detection
+* **Treatment**
+  * Hydration with saline to manage hypercalcemia
+  * Bisphosphonates or Denosumab to reduce calcium levels
+  * Treat underlying malignancy with chemotherapy, radiation, or surgery
+{: .notice--info}
+
+### Primary Hypoparathyroidism / 特発性副甲状腺機能低下症
+
+* **Concept**
+  * A rare condition where the parathyroid glands produce insufficient amounts of PTH, leading to hypocalcemia
+  * Causes include autoimmune disease, surgical removal, or genetic conditions
+* **Symptoms**
+  * Tetany: Muscle spasms, cramps
+  * Numbness and tingling in the lips, fingers, and feet
+  * Cardiac arrhythmias, seizures
+* **Tests**
+  * Serum calcium↓, PTH↓
+  * Phosphorus↑, Magnesium levels may be abnormal
+  * Chvostek's and Trousseau's signs may be positive
+* **Treatment**
+  * Calcium supplements and Vitamin D analogs to manage hypocalcemia
+  * Monitor for hypercalciuria and renal function
+{: .notice--info}
+
+### Pseudohypoparathyroidism / 偽性副甲状腺機能低下症
+
+* **Concept**
+  * A condition where the body's tissues are unresponsive to parathyroid hormone (PTH), leading to hypocalcemia and hyperphosphatemia despite normal or elevated PTH levels
+  * Often associated with features of Albright's hereditary osteodystrophy, including short stature, round face, and shortening of the metacarpals
+* **Symptoms**
+  * Tetany: Muscle cramps and spasms due to low calcium
+  * Numbness and tingling in the extremities and around the mouth
+  * Developmental delays, cognitive impairments in some cases
+  * Physical features of Albright's hereditary osteodystrophy in some types
+* **Tests**
+  * Serum calcium: Low
+  * Serum phosphorus: High
+  * PTH: Normal or elevated, indicating resistance
+  * Genetic testing: Can confirm diagnosis
+* **Treatment**
+  * Calcium supplements and active forms of vitamin D (e.g., calcitriol) to manage hypocalcemia
+  * Regular monitoring of calcium and phosphate levels
+  * Management of symptoms related to Albright's hereditary osteodystrophy
+{: .notice--info}
+
+## Adrenal Gland disorders / 副腎疾患
+
+### Cushing's Syndrome / Cushing症候群
+
+* **Concept**
+  * A condition characterized by excessive levels of cortisol in the blood, either due to endogenous overproduction by the adrenal glands or exogenous glucocorticoid therapy
+  * Causes include pituitary adenomas (Cushing's disease), ectopic ACTH production, and adrenal tumors
+* **Symptoms**
+  * Central obesity, moon face, buffalo hump
+  * Skin changes: Thinning, bruising, purple striae
+  * Hypertension, glucose intolerance
+  * Osteoporosis, muscle weakness
+  * Neuropsychiatric symptoms: Mood swings, depression
+* **Tests**
+  * Elevated 24-hour urinary free cortisol
+  * Dexamethasone suppression test failure
+  * ACTH levels: Elevated in ACTH-dependent cases, low in adrenal tumors
+  * Imaging: MRI for pituitary adenomas, CT scan for adrenal tumors
+* **Treatment**
+  * Surgery: Removal of the tumor causing the syndrome
+  * Medication: Mitotane, ketoconazole, or metyrapone for cortisol reduction
+  * Radiation therapy for pituitary adenomas if not amenable to surgery
+{: .notice--info}
+
+### Primary Aldosteronism / 原発性アルドステロン症
+
+* **Concept**
+  * Excessive aldosterone production by the adrenal glands leading to hypertension and hypokalemia
+  * Causes include aldosterone-producing adenoma (Conn's syndrome) and bilateral adrenal hyperplasia
+* **Symptoms**
+  * Hypertension resistant to treatment
+  * Muscle weakness, cramps (due to hypokalemia)
+  * Increased thirst and urination
+* **Tests**
+  * Elevated aldosterone-to-renin ratio
+  * Aldosterone levels: Elevated in both plasma and urine
+  * CT scan of the adrenal glands: May show adenoma or hyperplasia
+* **Treatment**
+  * Surgery: Adrenalectomy for patients with aldosterone-producing adenoma
+  * Medications: Spironolactone or eplerenone for bilateral hyperplasia or patients not suitable for surgery
+{: .notice--info}
+
+### Secondary Aldosteronism / 続発性アルドステロン症
+
+* **Concept**
+  * Increased aldosterone production secondary to a stimulus outside the adrenal gland, often due to renal artery stenosis, congestive heart failure, or cirrhosis
+  * Results in retention of sodium and water, leading to hypertension and edema
+* **Symptoms**
+  * Similar to primary aldosteronism but often with underlying disease symptoms
+* **Tests**
+  * Elevated aldosterone-to-renin ratio, with high renin levels
+  * Imaging studies to identify underlying cause
+* **Treatment**
+  * Address the underlying cause
+  * Medication: ACE inhibitors, angiotensin II receptor blockers, or aldosterone antagonists
+{: .notice--info}
+
+### Pseudohyperaldosteronism / 偽性アルドステロン症
+
+* **Concept**
+  * Mimics the symptoms of hyperaldosteronism (hypertension and hypokalemia) but without elevated aldosterone levels
+  * Causes include Liddle syndrome, apparent mineralocorticoid excess, and licorice consumption
+* **Symptoms**
+  * Hypertension, hypokalemia
+* **Tests**
+  * Normal or low aldosterone levels
+  * Genetic testing for specific syndromes like Liddle syndrome
+* **Treatment**
+  * Potassium-sparing diuretics (e.g., amiloride) for Liddle syndrome
+  * Avoidance of licorice in diet-induced cases
+{: .notice--info}
+
+### Addison's Disease / Addison病
+
+* **Concept**
+  * Primary adrenal insufficiency due to destruction of the adrenal cortex, leading to deficient production of cortisol and aldosterone
+  * Causes include autoimmune destruction, infections, and hemorrhage
+* **Symptoms**
+  * Fatigue, muscle weakness
+  * Hyperpigmentation
+  * Low blood pressure, salt craving
+  * Gastrointestinal symptoms: Nausea, vomiting, diarrhea
+* **Tests**
+  * Low cortisol levels
+  * High ACTH levels
+  * ACTH stimulation test: Poor or no increase in cortisol
+* **Treatment**
+  * Hormone replacement therapy: Hydrocortisone for cortisol and fludrocortisone for aldosterone
+{: .notice--info}
+
+### Secondary Adrenal Insufficiency / 二次性副腎皮質機能低下症
+
+* **Concept**
+  * Insufficient ACTH production by the pituitary gland leads to reduced cortisol production by the adrenal glands, without affecting aldosterone production
+  * Causes include pituitary tumors, head injuries, or pituitary surgery
+* **Symptoms**
+  * Fatigue, muscle weakness
+  * Weight loss, decreased appetite
+  * Low blood pressure may occur but less commonly than in primary adrenal insufficiency
+  * No hyperpigmentation (as ACTH levels are low or normal)
+* **Tests**
+  * Low cortisol levels
+  * Low or normal ACTH levels
+  * ACTH stimulation test: Poor or no increase in cortisol
+* **Treatment**
+  * Hormone replacement therapy: Hydrocortisone or other glucocorticoids
+  * Treatment of the underlying cause if identified (e.g., pituitary tumor)
+{: .notice--info}
+
+### Acute Adrenal Crisis / 急性副腎不全
+
+* **Concept**
+  * A life-threatening condition that occurs when there is insufficient cortisol in a stressful situation, on the background of chronic adrenal insufficiency or abrupt withdrawal of glucocorticoid therapy
+  * Symptoms result from the rapid drop in cortisol and, if primary, aldosterone
+* **Symptoms**
+  * Severe weakness, fatigue
+  * Abdominal pain, vomiting, diarrhea
+  * Confusion, coma
+  * Hypotension, shock
+* **Tests**
+  * Low cortisol level during crisis
+  * High ACTH level in primary adrenal insufficiency
+  * Electrolyte imbalances: Hyponatremia, hyperkalemia (mainly in primary)
+* **Treatment**
+  * Immediate intravenous hydrocortisone
+  * Intravenous fluids with saline and dextrose
+  * Treatment of underlying triggers (e.g., infection)
+{: .notice--info}
+
+### Congenital Adrenal Hyperplasia / 先天性副腎皮質過形成
+
+* **Concept**
+  * A group of genetic disorders characterized by enzyme defects in adrenal steroidogenesis, leading to cortisol deficiency, androgen excess, and sometimes aldosterone deficiency
+  * The most common form is due to 21-hydroxylase deficiency
+* **Symptoms**
+  * Virilization of female infants
+  * Precocious puberty in males
+  * Salt-wasting crisis in severe forms
+  * Failure to thrive, electrolyte imbalances
+* **Tests**
+  * Elevated 17-hydroxyprogesterone levels
+  * ACTH stimulation test: Exaggerated increase in 17-hydroxyprogesterone
+  * Genetic testing for specific enzyme deficiencies
+* **Treatment**
+  * Glucocorticoid replacement to suppress androgen production and correct cortisol deficiency
+  * Mineralocorticoid replacement in aldosterone deficiency
+  * Salt supplementation in infants with salt-wasting forms
+{: .notice--info}
+
+### Pheochromocytoma and Paraganglioma / 褐色細胞腫・パラガングリオーマ
+
+* **Concept**
+  * Pheochromocytomas are tumors of the adrenal medulla that produce excess catecholamines (epinephrine and norepinephrine)
+  * Paragangliomas are related tumors that arise from the sympathetic or parasympathetic paraganglia outside the adrenal gland
+* **Symptoms**
+  * Hypertension, palpitations, headache
+  * Sweating, tremors
+  * Anxiety or panic attacks
+  * Episodes can be triggered by certain actions such as bending or lifting
+* **Tests**
+  * Elevated urinary and plasma catecholamines and their metabolites (metanephrines and normetanephrines)
+  * Imaging studies (CT, MRI) to localize the tumor
+  * Genetic testing for hereditary forms
+* **Treatment**
+  * Surgical removal of the tumor is the treatment of choice
+  * Preoperative management with alpha-blockers (and sometimes beta-blockers) to control hypertension
+  * Lifelong follow-up for recurrence or development of additional tumors
+{: .notice--info}
+
+## Other Endocrine Disorders / その他の内分泌疾患
+
+### Multiple Endocrine Neoplasia (MEN) / 多発性内分泌腫瘍症
+
+* **Concept**
+  * A group of disorders characterized by the development of tumors or hyperplasia in multiple endocrine glands
+  * Types include MEN1 (affects parathyroid, pancreas, pituitary), MEN2A (affects medullary thyroid carcinoma, pheochromocytoma, parathyroid hyperplasia), and MEN2B (medullary thyroid carcinoma, pheochromocytoma, mucosal neuromas)
+* **Symptoms**
+  * Varied, depending on the affected glands
+  * Can include hypercalcemia, peptic ulcers, hypertension, and hormonal imbalances
+* **Tests**
+  * Genetic testing for mutations in the MEN1, RET genes
+  * Hormonal assays to detect overproduction of hormones
+  * Imaging studies to identify tumors or organ enlargement
+* **Treatment**
+  * Surgical removal of tumors
+  * Management of hormonal imbalances
+  * Regular screening for early detection of new tumors
+{: .notice--info}
+
+### Insulinoma / インスリノーマ
+
+* **Concept**
+  * A rare pancreatic tumor that secretes insulin independently of blood glucose levels, leading to hypoglycemia
+* **Symptoms**
+  * Hypoglycemia: Weakness, confusion, sweating, palpitations
+  * Symptoms improve with eating
+* **Tests**
+  * Fasting test: Low blood glucose with inappropriately high insulin levels
+  * Imaging (CT, MRI) to localize the tumor
+* **Treatment**
+  * Surgical removal of the tumor
+  * Medical management of hypoglycemia until surgery can be performed
+{: .notice--info}
+
+### Glucagonoma / グルカゴノーマ
+
+* **Concept**
+  * A rare pancreatic tumor that overproduces glucagon, leading to hyperglycemia and a distinctive rash (necrolytic migratory erythema)
+* **Symptoms**
+  * Diabetes or hyperglycemia
+  * Necrolytic migratory erythema: Erythematous rash that spreads and heals with blistering and crusting
+  * Weight loss, anemia
+* **Tests**
+  * Elevated plasma glucagon levels
+  * Imaging (CT, MRI) for tumor localization
+* **Treatment**
+  * Surgical removal of the tumor if possible
+  * Somatostatin analogs to control symptoms
+{: .notice--info}
+
+### Gastrinoma / ガストリノーマ
+
+* **Concept**
+  * A tumor that secretes gastrin, leading to excessive gastric acid production, peptic ulcers, and diarrhea (Zollinger-Ellison syndrome)
+* **Symptoms**
+  * Peptic ulcers, often multiple or atypical locations
+  * Diarrhea, abdominal pain
+* **Tests**
+  * Elevated serum gastrin levels
+  * Secretin stimulation test
+  * Imaging (CT, MRI, endoscopic ultrasound) for tumor localization
+* **Treatment**
+  * Proton pump inhibitors for acid suppression
+  * Surgical removal of the tumor if localized
+  * Treatment for metastatic disease may include chemotherapy
+{: .notice--info}
+
+### Precocious Puberty / 思春期早発症
+
+* **Concept**
+  * The onset of puberty with the development of secondary sexual characteristics before age 8 in girls and 9 in boys
+  * Can be central (activation of the hypothalamic-pituitary-gonadal axis) or peripheral (independent of the central axis)
+* **Symptoms**
+  * Early development of breasts, testicular enlargement, pubic hair
+  * Rapid growth, advanced bone age
+* **Tests**
+  * Bone age assessment
+  * LH and FSH levels, GnRH stimulation test for central precocious puberty
+  * Imaging to rule out CNS abnormalities
+* **Treatment**
+  * GnRH analogs to delay further pubertal development in central precocious puberty
+  * Treat underlying cause in peripheral precocious puberty
+{: .notice--info}
+
+### McCune-Albright Syndrome / McCune-Albright症候群
+
+* **Concept**
+  * A genetic disorder characterized by polyostotic fibrous dysplasia, café-au-lait skin spots, and endocrine problems, including precocious puberty
+  * Caused by mutations in the GNAS gene, affecting G-protein signaling
+* **Symptoms**
+  * Fibrous dysplasia of bones, leading to pain, deformity, and fractures
+  * Café-au-lait spots with jagged borders ("coast of Maine")
+  * Precocious puberty, hyperthyroidism, Cushing's syndrome, acromegaly
+* **Tests**
+  * Radiographs and MRI for fibrous dysplasia
+  * Endocrine evaluations for hormonal imbalances
+  * Genetic testing not routinely performed due to mosaicism
+* **Treatment**
+  * Symptomatic treatment for bone lesions (surgery, pain management)
+  * Endocrine disorders treated as per specific condition (e.g., antithyroid drugs for hyperthyroidism)
+{: .notice--info}
+
+### Hypogonadism / 性腺機能低下症
+
+* **Concept**
+  * A condition in which the gonads produce insufficient sex hormones
+  * Can be primary (testicular or ovarian failure) or secondary (hypothalamic or pituitary disorders)
+* **Symptoms**
+  * In males: Reduced beard and body hair, muscle mass loss, erectile dysfunction
+  * In females: Amenorrhea, hot flashes, vaginal dryness
+  * Osteoporosis, mood changes, fatigue
+* **Tests**
+  * Serum testosterone in males, estrogen in females
+  * LH and FSH levels to distinguish between primary and secondary causes
+  * Bone density scans for osteoporosis
+* **Treatment**
+  * Hormone replacement therapy: Testosterone for males, estrogen/progesterone for females
+  * Fertility treatments if conception is desired
+{: .notice--info}
+
+### Androgen Insensitivity Syndrome / アンドロゲン不応症
+
+* **Concept**
+  * A condition caused by mutations in the androgen receptor gene, resulting in a partial or complete inability of the body to respond to androgens
+  * Individuals have a male (XY) karyotype but may have female genitalia or ambiguous genitalia
+* **Symptoms**
+  * Partial form: Varies, may include ambiguous genitalia, infertility
+  * Complete form: Female external genitalia, undescended testes, no menstruation
+* **Tests**
+  * Genetic testing for mutations in the androgen receptor gene
+  * Hormone levels: Normal to high testosterone, LH, and FSH
+  * Imaging to evaluate internal reproductive structures
+* **Treatment**
+  * Hormone replacement therapy as needed (estrogen)
+  * Surgical management for undescended testes and any necessary genital reconstructive surgery
+{: .notice--info}
+
+### Klinefelter Syndrome / Klinefelter症候群
+
+* **Concept**
+  * A chromosomal disorder in males characterized by an extra X chromosome (47,XXY)
+  * Associated with hypogonadism, infertility, and often gynecomastia
+* **Symptoms**
+  * Taller than average height, long legs, short torso
+  * Small, firm testicles, infertility
+  * Gynecomastia, reduced facial and body hair
+  * Learning disabilities and delayed speech and language development
+* **Tests**
+  * Karyotype analysis confirming 47,XXY or variants
+  * Hormonal assays showing low testosterone levels
+* **Treatment**
+  * Testosterone replacement therapy to develop secondary sexual characteristics and improve strength
+  * Educational support for learning disabilities
+  * Fertility treatment options for those seeking to have children
+{: .notice--info}
+
+### Turner Syndrome / Turner症候群
+
+* **Concept**
+  * A chromosomal disorder affecting females, characterized by the absence of all or part of a second sex chromosome (45,XO)
+  * Associated with short stature, ovarian dysfunction, and various physical malformations
+* **Symptoms**
+  * Short stature, delayed puberty
+  * Shield-shaped chest, widely spaced nipples
+  * Ovarian insufficiency, infertility
+  * Congenital heart defects, hearing loss
+* **Tests**
+  * Karyotype analysis to detect 45,XO or mosaic patterns
+  * Hormonal assays to evaluate ovarian function
+  * Ultrasound for reproductive organs, echocardiogram for heart defects
+* **Treatment**
+  * Growth hormone therapy to increase height
+  * Hormone replacement therapy for estrogen and progesterone to induce secondary sexual characteristics
+  * Regular monitoring and treatment for associated conditions (e.g., heart defects)
+{: .notice--info}
 
 ## Carbohydrate metabolism disorders / 糖質代謝異常
 
@@ -748,17 +1122,6 @@ Essences of clinical medicine.
 ## Metabolic and endocrine disorders / 代謝・内分泌疾患
 
 ### Congenital Hypothyroidism / 先天性甲状腺機能低下症
-
-* **Concept**
-  * A congenital deficiency in thyroid hormone secretion
-* **Symptoms**
-  * Newborns: Lethargy, weak suckling, low body temperature
-  * Older children: Short stature, intellectual disabilities
-* **Tests**
-  * Newborn screening: T4↓, TSH↑
-* **Treatment**
-  * L-T4 supplementation
-{: .notice--info}
 
 ## Hematological and hematopoietic disorders / 血液・造血器疾患
 

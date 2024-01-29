@@ -29,11 +29,11 @@ The brain's cells do not increase, but perhaps the parameters can be changed.
   {% include archive-single.html %}
 {% endfor %}
 
-## Music
+## Software
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-{% for post in site.music reversed %}
+{% for post in site.software reversed %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
     {% capture written_year %}{{ year }}{% endcapture %}
@@ -41,11 +41,11 @@ The brain's cells do not increase, but perhaps the parameters can be changed.
   {% include archive-single.html %}
 {% endfor %}
 
-## Software
+## Music
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-{% for post in site.software reversed %}
+{% for post in site.music reversed %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
     {% capture written_year %}{{ year }}{% endcapture %}

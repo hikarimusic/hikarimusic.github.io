@@ -3,12 +3,12 @@ main:
 
   - title: "Paper"
     url: /paper/
-
-  - title: "Music"
-    url: /music/
   
   - title: "Software"
     url: /software/
 
+  - title: "Music"
+    url: /music/
+    
   - title: "Note"
     url: /note/

@@ -1,0 +1,246 @@
+原発性副甲状腺機能亢進症
+続発性副甲状腺機能亢進症
+悪性腫瘍に伴う高Ca血症
+特発性副甲状腺機能低下症
+偽性副甲状腺機能低下症
+
+以下のノートをテンプレートに、上記の疾患のノートを作成しなさい
+
+### Grave's Disease / バセドウ病
+
+* **Concept**
+  * The thyroid gland is continuously stimulated by autoantibodies against the TSH receptor, leading to excessive production of thyroid hormones and thyroid toxicity
+  * Common in: Women aged 20 to 40
+* **Symptoms**
+  * Triad: Thyroid enlargement, protruding eyeballs, tachycardia
+  * General symptoms: Hyperactivity, increased sweating, weight loss
+  * Neuromuscular symptoms: Tremors, periodic partial muscle paralysis
+  * Graves' ophthalmopathy: Upper eyelid retraction, lid lag
+  * Digestive symptoms: Frequent defecation, increased appetite
+* **Tests**
+  * T4↑, T3↑
+  * TSH↓
+  * TSH receptor antibodies (+)
+  * Thyroid scintigraphy: Increased uptake
+* **Treatment**
+  * Anti-thyroid medications: Methimazole, Propylthiouracil
+  * Surgery: Total thyroidectomy
+  * Radioactive iodine therapy: $\mathrm{I}^{131}$ internal therapy
+  * β-blockers: for tachycardia
+{: .notice--info}
+
+### Thyroid Storm / 甲状腺クリーゼ
+
+* **Concept**
+  * A life-threatening complication requiring urgent treatment, where multiple organs malfunction due to excessive thyroid activity
+  * Causes: Infection, trauma, surgery, stress, childbirth
+* **Symptoms**
+  * Fever (>38°C)
+  * Nervous system symptoms: Restlessness, confusion, mental abnormalities
+  * Cardiovascular symptoms: Tachycardia (>130), signs of heart failure
+  * Digestive symptoms: Vomiting, diarrhea, jaundice
+* **Tests**
+  * T4↑, T3↑
+* **Treatment**
+  * Anti-thyroid drugs: Methimazole, Propylthiouracil
+  * Inorganic iodine: Suppression of T4 and T3 secretion
+  * β-blockers: For tachycardia
+  * Corticosteroids: For adrenal insufficiency
+  * Other: Fluid replacement, oxygen therapy, cooling
+{: .notice--info}
+
+### Plummer's Disease / Plummer病
+
+* **Concept**
+  * Nodular thyroid lesions produce thyroid hormones in a TSH-independent manner
+  * Mostly benign
+* **Symptoms**
+  * Hyperthyroidism: Hyperactivity, weight loss, tremors
+* **Tests**
+  * T4↑, T3↑
+  * TSH↓
+  * TSH receptor antibodies (-)
+  * Thyroid scintigraphy: Accumulation matching the nodules
+* **Treatment**
+  * Surgery: Excision of nodules
+  * Radioactive iodine therapy: $\mathrm{I}^{131}$ internal therapy
+{: .notice--info}
+
+### Thyroid Hormone Resistance / 甲状腺ホルモン不応症
+
+* **Concept**
+  * Abnormalities in thyroid hormone receptor genes result in elevated thyroid hormone levels with no suppression of TSH
+* **Symptoms**
+  * Mild goiter and tachycardia
+* **Tests**
+  * T4↑, TSH→
+* **Treatment**
+  * Not required
+{: .notice--info}
+
+### Acute Suppurative Thyroiditis / 急性化膿性甲状腺炎
+
+* **Concept**
+  * Acute purulent inflammation of the thyroid gland due to bacterial infection, often caused by a persistent fistula from the piriform sinus
+* **Symptoms**
+  * Pain, redness
+* **Tests**
+  * Puncture of the inflamed area for bacterial identification
+* **Treatment**
+  * Antibiotics
+  * Fistula removal surgery
+{: .notice--info}
+
+### Subacute Thyroiditis / 亜急性甲状腺炎
+
+* **Concept**
+  * Destructive thyroiditis believed to be caused by a virus, presenting as transient thyroid toxicity
+  * Common in: Women aged 40 to 50
+* **Symptoms**
+  * Upper respiratory tract infection-like symptoms
+  * Thyroid: pain, tenderness, firmness
+  * Thyroid toxicity: High fever, generalized fatigue, excessive sweating, weight loss
+* **Tests**
+  * Blood: T4↑, TSH↓, CRP↑, ESR↑
+  * Ultrasound: Corresponding hypoechoic area in the painful region
+  * Scintigraphy: Reduced uptake
+* **Treatment**
+  * NSAIDs: Mild cases
+  * Corticosteroids: Strong inflammation
+  * β-blockers
+{: .notice--info}
+
+### Hashimoto's thyroiditis / 慢性甲状腺炎（橋本病）
+
+* **Concept**
+  * Chronic thyroid inflammation due to autoimmunity resulting in thyroid hypofunction
+  * Common in: Women aged 20 to 50
+* **Symptoms**
+  * Thyroid enlargement
+  * General symptoms: Fatigue, feeling cold, decreased sweating, weight gain
+  * Neurological symptoms: Drowsiness, decreased memory, muscle weakness
+  * Digestive symptoms: Constipation, decreased appetite
+  * Menstrual cycle: Irregular, excessive bleeding
+* **Tests**
+  * T4↓, T3↓
+  * TSH↑
+  * Anti-Tg antibodies (+), anti-TPO antibodies (+)
+  * Pathology: Lymphocytic infiltration, formation of lymphoid follicles
+* **Treatment**
+  * T4 replacement therapy
+{: .notice--info}
+
+### Painless Thyroiditis / 無痛性甲状腺炎
+
+* **Concept**
+  * Follicular collapse during the course of Hashimoto's disease leading to transient thyroid toxicity
+* **Symptoms**
+  * Thyroid: No pain or tenderness
+  * Thyroid toxicity: Tachycardia, excessive sweating, tremors, fatigue, weight loss
+* **Tests**
+  * Blood: T4↑，TSH↓, TSH receptor antibodies (-)
+  * Scintigraphy: Reduced uptake
+* **Treatment**
+  * Observation
+  * β-blockers
+{: .notice--info}
+
+### Thyroid Follicular Adenoma / 甲状腺濾胞腺腫
+
+* **Concept**
+  * A benign tumor originating from follicular epithelial cells
+* **Symptoms**
+  * Asymptomatic
+* **Tests**
+  * Fine-needle aspiration cytology: Follicular-like cell cluster
+  * Pathology: No evidence of invasion
+{: .notice--info}
+
+### Thyroid Adenomatous Nodule / 甲状腺腺腫様結節
+
+* **Concept**
+  * Thyroid overgrowth lesion with multiple nodules
+  * The most common nodular lesion of the thyroid gland
+* **Symptoms**
+  * Typically asymptomatic
+* **Tests**
+  * Ultrasound: Various nodular shadows
+{: .notice--info}
+
+### Thyroid Papillary Carcinoma / 甲状腺乳頭癌
+
+* **Concept**
+  * Malignant tumor of thyroid follicular epithelium origin (most common)
+  * Common in: Women aged 30 to 50
+* **Symptoms**
+  * Asymptomatic thyroid nodule
+* **Tests**
+  * Ultrasound: Microcalcifications
+  * Fine-needle aspiration cytology: Nuclear cytoplasmic inclusions
+  * Pathology: Papillary structures, nuclear cytoplasmic inclusions
+* **Treatment**
+  * Surgical removal
+  * Favorable prognosis
+{: .notice--info}
+
+### Thyroid Follicular Carcinoma / 甲状腺濾胞癌
+
+* **Concept**
+  * Malignant tumor of thyroid follicular epithelium origin
+  * Common in: Women aged 30 to 50
+* **Symptoms**
+  * Asymptomatic thyroid nodule
+* **Tests**
+  * Fine-needle aspiration cytology: Follicular-like cell cluster
+  * Pathology: Follicular structures, vascular invasion
+* **Treatment**
+  * Surgical removal
+  * Favorable prognosis
+{: .notice--info}
+
+### Thyroid Anaplastic Carcinoma / 甲状腺未分化癌
+
+* **Concept**
+  * Malignant tumor of thyroid follicular epithelium origin (undifferentiated transformation of highly differentiated carcinoma)
+  * Common in: Elderly individuals
+* **Symptoms**
+  * Nodule: Rapidly enlarging
+  * Invasion: Hoarseness, difficulty breathing, swallowing difficulties
+  * Inflammation: Pain, redness
+* **Tests**
+  * Fine-needle aspiration cytology: High-grade atypia, large tumor cells
+  * Scintigraphy: $\mathrm{Ga}^{67}$ accumulation
+  * Pathology: High-grade atypia, large tumor cells with giant or multiple nuclei
+* **Treatment**
+  * Radiation therapy, chemotherapy
+{: .notice--info}
+
+### Thyroid Medullary Carcinoma / 甲状腺髄様癌
+
+* **Concept**
+  * Malignant tumor of parafollicular C cells origin in the thyroid
+  * Manifestation of MEN2, RET gene mutation
+* **Symptoms**
+  * Asymptomatic thyroid nodule
+* **Tests**
+  * Fine-needle aspiration cytology: Amyloid deposition
+  * Pathology: Medullary proliferation, amyloid deposition
+  * Blood: Elevated CEA and calcitonin levels
+* **Treatment**
+  * Surgery: Total thyroidectomy, lymph node dissection
+  * Pheochromocytoma: Surgery for pheochromocytoma first
+{: .notice--info}
+
+### Thyroid Malignant Lymphoma / 甲状腺悪性リンパ腫
+
+* **Concept**
+  * B-cell lymphoma of the thyroid (DLBCL, MALT)
+  * Frequent association with Hashimoto's disease
+* **Symptoms**
+  * Enlarging nodules
+* **Tests**
+  * Fine-needle aspiration cytology: Atypical lymphocytes
+  * Pathology: Diffuse proliferation of atypical lymphocytes
+* **Treatment**
+  * Chemotherapy (R-CHOP), radiation therapy
+{: .notice--info}
