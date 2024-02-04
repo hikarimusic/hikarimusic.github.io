@@ -1562,6 +1562,57 @@ void solve(int n) {
 }
 ```
 
+## String / 文字列
+
+### Suffix Array / 接尾辞配列
+```cpp
+vector<int> suffix_array(string s) {
+    s += '$';
+    int n=s.size(), cls=256;
+    vector<int> p(n), c(n), cnt(max(256, n)), pn(n), cn(n);
+    for (int i=0; i<n; ++i) {
+        p[i] = i;
+        c[i] = s[i];
+    }
+    for (int h=1; h<=n; h*=2) {
+        for (int i=0; i<n; ++i)
+            p[i] = (p[i]+n-h/2)%n;
+        fill(cnt.begin(), cnt.begin()+cls, 0);
+        for (int i=0; i<n; ++i)
+            cnt[c[p[i]]] += 1;
+        for (int i=1; i<cls; ++i)
+            cnt[i] += cnt[i-1];
+        for (int i=n-1; i>=0; --i)
+            pn[--cnt[c[p[i]]]] = p[i];
+        cn[pn[0]] = 0;
+        cls = 1;
+        for (int i=1; i<n; ++i) {
+            pair<int,int> cur = {c[pn[i]], c[(pn[i]+h/2)%n]};
+            pair<int,int> pre = {c[pn[i-1]], c[(pn[i-1]+h/2)%n]};
+            if (cur!=pre)
+                cls += 1;
+            cn[pn[i]] = cls-1;
+        }
+        p.swap(pn);
+        c.swap(cn);
+    }
+    return p;
+}
+```
+```cpp
+int search(string s, string t, vector<int> sa) {
+    int l=-1, r=sa.size();
+    while (r-l>1) {
+        int m = (l+r)/2;
+        if (s.compare(sa[m], t.size(), t)>0)
+            r = m;
+        else
+            l = m;
+    }
+    return s.compare(sa[l], t.size(), t)==0 ? sa[l] : -1;
+}
+```
+
 ## Technique / テクニック
 
 ### Prefix Sum / 累積和
@@ -1585,10 +1636,11 @@ vector<int> arr(N);
 void solve(int n) {
     int i="<>", j="<>";
     while ("<>") {
-        if ("<>")
+        while ("<>") {
             "<modify i>";
-        else
-            "<modify j>";
+            "<update>":
+        }
+        "<modify j>";
         "<update>":
     }
 }

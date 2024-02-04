@@ -867,7 +867,7 @@ Essences of clinical medicine.
 ### Multiple Endocrine Neoplasia (MEN) / 多発性内分泌腫瘍症
 
 * **Concept**
-  * A group of disorders characterized by the development of tumors or hyperplasia in multiple endocrine glands
+  * A familial tumor syndrome characterized by the development of tumors in multiple endocrine glands, with autosomal dominant inheritance.
   * Types include MEN1 (affects parathyroid, pancreas, pituitary), MEN2A (affects medullary thyroid carcinoma, pheochromocytoma, parathyroid hyperplasia), and MEN2B (medullary thyroid carcinoma, pheochromocytoma, mucosal neuromas)
 * **Symptoms**
   * Varied, depending on the affected glands
@@ -897,22 +897,6 @@ Essences of clinical medicine.
   * Medical management of hypoglycemia until surgery can be performed
 {: .notice--info}
 
-### Glucagonoma / グルカゴノーマ
-
-* **Concept**
-  * A rare pancreatic tumor that overproduces glucagon, leading to hyperglycemia and a distinctive rash (necrolytic migratory erythema)
-* **Symptoms**
-  * Diabetes or hyperglycemia
-  * Necrolytic migratory erythema: Erythematous rash that spreads and heals with blistering and crusting
-  * Weight loss, anemia
-* **Tests**
-  * Elevated plasma glucagon levels
-  * Imaging (CT, MRI) for tumor localization
-* **Treatment**
-  * Surgical removal of the tumor if possible
-  * Somatostatin analogs to control symptoms
-{: .notice--info}
-
 ### Gastrinoma / ガストリノーマ
 
 * **Concept**
@@ -928,6 +912,22 @@ Essences of clinical medicine.
   * Proton pump inhibitors for acid suppression
   * Surgical removal of the tumor if localized
   * Treatment for metastatic disease may include chemotherapy
+{: .notice--info}
+
+### Glucagonoma / グルカゴノーマ
+
+* **Concept**
+  * A rare pancreatic tumor that overproduces glucagon, leading to hyperglycemia and a distinctive rash (necrolytic migratory erythema)
+* **Symptoms**
+  * Diabetes or hyperglycemia
+  * Necrolytic migratory erythema: Erythematous rash that spreads and heals with blistering and crusting
+  * Weight loss, anemia
+* **Tests**
+  * Elevated plasma glucagon levels
+  * Imaging (CT, MRI) for tumor localization
+* **Treatment**
+  * Surgical removal of the tumor if possible
+  * Somatostatin analogs to control symptoms
 {: .notice--info}
 
 ### Precocious Puberty / 思春期早発症
@@ -971,8 +971,8 @@ Essences of clinical medicine.
   * A condition in which the gonads produce insufficient sex hormones
   * Can be primary (testicular or ovarian failure) or secondary (hypothalamic or pituitary disorders)
 * **Symptoms**
-  * In males: Reduced beard and body hair, muscle mass loss, erectile dysfunction
-  * In females: Amenorrhea, hot flashes, vaginal dryness
+  * In males: Reduced beard and body hair, muscle mass loss, erectile dysfunction, azoospermia
+  * In females: Amenorrhea, hot flashes, vaginal dryness, infertility
   * Osteoporosis, mood changes, fatigue
 * **Tests**
   * Serum testosterone in males, estrogen in females
@@ -992,7 +992,7 @@ Essences of clinical medicine.
   * Partial form: Varies, may include ambiguous genitalia, infertility
   * Complete form: Female external genitalia, undescended testes, no menstruation
 * **Tests**
-  * Genetic testing for mutations in the androgen receptor gene
+  * Karyotype analysis, genetic testing for mutations in the androgen receptor gene
   * Hormone levels: Normal to high testosterone, LH, and FSH
   * Imaging to evaluate internal reproductive structures
 * **Treatment**
@@ -1027,7 +1027,7 @@ Essences of clinical medicine.
 * **Symptoms**
   * Short stature, delayed puberty
   * Shield-shaped chest, widely spaced nipples
-  * Ovarian insufficiency, infertility
+  * Ovarian insufficiency, amenorrhea, infertility
   * Congenital heart defects, hearing loss
 * **Tests**
   * Karyotype analysis to detect 45,XO or mosaic patterns
