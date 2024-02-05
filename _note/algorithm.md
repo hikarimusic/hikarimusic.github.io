@@ -1239,6 +1239,57 @@ int gauss(int n, int m) {
     return 1;
 }
 ```
+```cpp
+using cd = complex<double>;
+const double PI = acos(-1);
+
+void fft(vector<cd>& a, bool inv=0) {
+    int n = a.size();
+    for (int i=1, j=0; i<n; ++i) {
+        int b = n>>1;
+        for (; j&b; b>>=1)
+            j ^= b;
+        j ^= b;
+        if (i<j)
+            swap(a[i], a[j]);
+    }
+    for (int l=2; l<=n; l*=2) {
+        double ag = 2*PI / l * (inv?-1:1);
+        cd wl(cos(ag), sin(ag));
+        for (int i=0; i<n; i+=l) {
+            cd w(1);
+            for (int j=0; j<l/2; ++j) {
+                cd u=a[i+j], v=a[i+j+l/2]*w;
+                a[i+j] = u+v;
+                a[i+j+l/2] = u-v;
+                w *= wl;
+            }
+        }
+    }
+    if (inv) {
+        for (int i=0; i<n; ++i)
+            a[i] /= n;
+    }
+}
+
+vector<int> multiply(vector<int> a, vector<int> b) {
+    vector<cd> fa(a.begin(), a.end()), fb(b.begin(), b.end());
+    int n = 1;
+    while (n<a.size()+b.size())
+        n *= 2;
+    fa.resize(n);
+    fb.resize(n);
+    fft(fa);
+    fft(fb);
+    for (int i=0; i<n; ++i) 
+        fa[i] *= fb[i];
+    fft(fa, 1);
+    vector<int> res(n);
+    for (int i=0; i<n; ++i)
+        res[i] = round(fa[i].real());
+    return res;
+}
+```
 
 ## Geometry / 幾何
 
@@ -1563,6 +1614,35 @@ void solve(int n) {
 ```
 
 ## String / 文字列
+
+### Hash / ハッシュ
+```cpp
+ll hashing(string s) {
+    ll p = 257, m = 1e9+9;
+    ll h = 0;
+    for (char c : s)
+        h = (h*p + c) % m;
+    return h;
+}
+```
+```cpp
+int search(string s, string t) {
+    int sl=s.size(), tl=t.size();
+    ll p = 257, m = 1e9+9, pp=1, sh=0, th=0;
+    for (int i=0; i<tl; ++i) {
+        pp = (pp*p) % m;
+        sh = (sh*p + s[i]) % m;
+        th = (th*p + t[i]) % m;
+    }
+    for (int i=0; i+tl<=sl; ++i) {
+        if (sh==th)
+            return i;
+        if (i+tl<sl)
+            sh = (sh*p + s[i+tl] - s[i]*pp + m) % m;
+    }
+    return -1;
+}
+```
 
 ### Suffix Array / 接尾辞配列
 ```cpp
