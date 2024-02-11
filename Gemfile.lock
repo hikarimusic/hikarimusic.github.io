@@ -269,6 +269,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   hawkins
+  jekyll
   jekyll-feed
   jekyll-sitemap
 
