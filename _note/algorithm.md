@@ -156,6 +156,93 @@ int rec(int S, int v, int n) {
     return dp[S][v] = a;
 }
 ```
+```cpp
+vector<vector<int>> adj(N);
+vector<vector<int>> dp(N, vector<int>(S));
+
+void dfs(int v, int p) {
+    for (int u : adj[v]) {
+        if (u==p)
+            continue;
+        dfs(u, v);
+        dp[v][i] = "<combination of dp[u][j], ...>";
+    }
+}
+```
+### Divide and Conquer / 分割統治法
+```cpp
+vector<int> arr(N);
+
+void rec(int l, int r) {
+    int m = (l+r)/2;
+    if (l==r)
+        "<base case>";
+    rec(l, m);
+    rec(m+1, r);
+    "<combine>";
+}
+```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> siz(N), cen(N);
+
+void calsize(int v, int p) {
+    siz[v] = 1;
+    for (int u : adj[v]) {
+        if (u==p || cen[u])
+            continue;
+        calsize(u, v);
+        siz[v] += siz[u];
+    }
+}
+
+int centroid(int v, int p, int t) {
+    for (int u : adj[v]) {
+        if (u==p || cen[u])
+            continue;
+        if (siz[u]>t/2)
+            return centroid(u, v, t);
+    }
+    return v;
+}
+
+void rec(int v) {
+    calsize(v, -1);
+    int c = centroid(v, -1, siz[v]);
+    cen[c] = 1;
+    for (int u : adj[c]) {
+        if (cen[u])
+            continue;
+        rec(u);
+        "<combine>";
+    }
+}
+```
+```cpp
+using Point = complex<double>;
+
+bool compare_x(const Point &a, const Point &b) {
+    return a.real()<b.real();
+}
+
+bool compare_y(const Point &a, const Point &b) {
+    return a.imag()<b.imag();
+}
+
+vector<Point> ps;
+
+void rec(int l, int r) {
+    if (l==r)
+        "<base case>";
+    int m = (l+r)/2;
+    rec(l, m);
+    rec(m+1, r);
+    inplace_merge(ps.begin()+l, ps.begin()+m+1, ps.begin()+r+1, compare_y);
+    "<combine>";
+}
+
+sort(ps.begin(), ps.end(), compare_x);
+```
 
 ## Data Structure / データ構造
 
