@@ -14,9 +14,6 @@ I am 董宇光 (Yeu-Guang Tung), a medical student studying at the School of Med
 * International Physics Olympiad Silver Medal
 * 東京大学一般選抜：理科一類 +32 点合格点超え
 
-<!-- The brain's cells do not increase, but perhaps the parameters can be changed.  -->
-脳の細胞は増えないが、パラメーターは多分変えられます。
-
 ## Paper
 
 {% include base_path %}

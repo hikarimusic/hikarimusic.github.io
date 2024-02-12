@@ -1780,6 +1780,38 @@ int search(string s, string t, vector<int> sa) {
 }
 ```
 
+## Game / ゲーム
+
+### Nim / Nim
+```cpp
+vector<int> arr(N);
+
+bool nim(int n) {
+    int x = 0;
+    for (int i=0; i<n; ++i)
+        x ^= arr[i];
+    return x > 0;
+}
+```
+
+### Grundy Number / Grundy数
+```cpp
+vector<int> gru(X);
+
+void build(int x) {
+    for (int i=1; i<=x; ++i) {
+        set<int> s;
+        for ("<next state>") {
+            s.insert(gru["<next state>"]);
+        }
+        int g = 0;
+        while (s.count(g)>0)
+            g += 1;
+        gru[i] = g;
+    }
+}
+```
+
 ## Technique / テクニック
 
 ### Prefix Sum / 累積和
