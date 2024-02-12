@@ -827,6 +827,9 @@ int kruskal() {
 
 ### Network Flow / ネットワークフロー
 ```cpp
+vector<vector<int>> adj(N), cap(N, vector<int>(N));
+vector<int> vis(N, 0), par(N, -1);
+
 int bfs(int s, int t) {
     fill(vis.begin(), vis.end(), 0);
     fill(par.begin(), par.end(), -1);
@@ -852,8 +855,8 @@ int bfs(int s, int t) {
 }
 
 int max_flow(int s, int t) {
-    // "<each edge: adj[v].pb(u) adj[u].pb(v) >";
-    // "<each edge: cap[v][u]=c cap[u][v]=0 >";
+    "<each edge: adj[v].pb(u) adj[u].pb(v) >";
+    "<each edge: cap[v][u]=c cap[u][v]=0 >";
     int flow=0, f=0;
     while (f=bfs(s, t)) {
         flow += f;
