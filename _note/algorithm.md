@@ -872,38 +872,73 @@ int max_flow(int s, int t) {
 }
 ```
 ```cpp
-struct edge {
-    int a, b, w;
-};
-
-vector<edge> edges;
+vector<vector<pii>> adj(N);
+vector<int> dis(N), par(N), pot(N);
 vector<vector<int>> cap(N, vector<int>(N));
-vector<int> dis(N), par(N);
 
-int bellman_ford(int s, int t) {
+int dijkstra(int s, int t, int n) {
     fill(dis.begin(), dis.end(), INF);
     fill(par.begin(), par.end(), -1);
+    priority_queue<pii, vector<pii>, greater<pii>> q;
+    q.push({0, s});
     dis[s] = 0;
-    bool any = 1;
-    while (any) {
-        any = 0;
-        for (edge e : edges) {
-            if (dis[e.a]!=INF && dis[e.a]+e.w<dis[e.b] && cap[e.a][e.b]>0) {
-                dis[e.b] = dis[e.a] + e.w;
-                par[e.b] = e.a;
-                any = 1;
+    while (!q.empty()) {
+        int v = q.top().second;
+        int d_v = q.top().first;
+        q.pop();
+        if (d_v!=dis[v])
+            continue;
+        for (pii e : adj[v]) {
+            int to = e.first;
+            int len = e.second;
+            if (dis[v]+len+pot[v]-pot[to]<dis[to] && cap[v][to]>0) {
+                dis[to] = dis[v]+len+pot[v]-pot[to];
+                par[to] = v;
+                q.push({dis[to], to});
             }
         }
     }
-    return dis[t];
+    for (int i=0; i<n; ++i)
+        pot[i] += dis[i];
+    return pot[t];
 }
 
-int min_cost_flow(int s, int t, int k) {
-    "<each edge: edges.pb({v,u,w}) edges.pb({u.v.-w}) >";
+// vector<vector<int>> adj(N, vector<int>(N, INF));
+// vector<int> vis(N), dis(N), par(N), pot(N);
+// vector<vector<int>> cap(N, vector<int>(N));
+
+// int dijkstra(int s, int t, int n) {
+//     fill(vis.begin(), vis.end(), 0);
+//     fill(dis.begin(), dis.end(), INF);
+//     fill(par.begin(), par.end(), -1);
+//     dis[s] = 0;
+//     for (int i=0; i<n; ++i) {
+//         int k = -1;
+//         for (int j=0; j<n; ++j) {
+//             if (!vis[j] && (k==-1 || dis[j]<dis[k]))
+//                 k = j;
+//         }
+//         if (dis[k]==INF)
+//             return INF;
+//         vis[k] = 1;
+//         for (int j=0; j<n; ++j) {
+//             if (dis[k]+adj[k][j]+pot[k]-pot[j]<dis[j] && cap[k][j]>0) {
+//                 dis[j] = dis[k]+adj[k][j]+pot[k]-pot[j];
+//                 par[j] = k;
+//             }
+//         }
+//     }
+//     for (int i=0; i<n; ++i)
+//         pot[i] += dis[i];
+//     return pot[t];
+// }
+
+int min_cost_flow(int s, int t, int k, int n) {
+    "<each edge: adj[v].pb(u,w) adj[u].pb(v,w) >";
     "<each edge: cap[v][u]=c cap[u][v]=0 >";
     int cost=0, flow=0;
     while (flow<k) {
-        int m_c = bellman_ford(s, t);
+        int m_c = dijkstra(s, t, n);
         int m_f = k - flow;
         if (m_c==INF)
             return -1;
