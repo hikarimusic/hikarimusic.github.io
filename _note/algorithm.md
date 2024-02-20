@@ -934,7 +934,7 @@ int dijkstra(int s, int t, int n) {
 // }
 
 int min_cost_flow(int s, int t, int k, int n) {
-    "<each edge: adj[v].pb(u,w) adj[u].pb(v,w) >";
+    "<each edge: adj[v].pb(u,w) adj[u].pb(v,-w) >";
     "<each edge: cap[v][u]=c cap[u][v]=0 >";
     int cost=0, flow=0;
     while (flow<k) {
