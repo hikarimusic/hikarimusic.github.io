@@ -1,5 +1,5 @@
 ---
-title: 'BIOSTATS: An Intuitive GUI for Biostatistical Analysis'
+title: 'BIOSTATS: An Intuitive App for Biostatistical Analysis'
 date: 2022-08-16
 permalink: /software/biostats
 tags:
@@ -164,7 +164,7 @@ If you have any suggestion or find any bug, please contach me. We need your help
 
 If you use BIOSTATS in your research, it's a good idea to cite the paper of BIOSTATS.
 
-* Citation: Tung, Yeu-Guang (2022). BIOSTATS: An Intuitive GUI for Biostatistical Analysis. Zenodo. https://doi.org/10.5281/zenodo.10550106
+* Citation: Tung, Yeu-Guang (2022). BIOSTATS: An Intuitive App for Biostatistical Analysis. Zenodo. https://doi.org/10.5281/zenodo.10550106
 
 #### __References__:
 
