@@ -28,7 +28,7 @@ $$
 \begin{align*}
 & \mathbf{F} = \frac{d\mathbf{P}}{dt} && \mathbf{P} = M\mathbf{V} && \mathbf{F} = \sum_{i}\mathbf{F^{(e)}_i} \\
 & \mathbf{N} = \frac{d\mathbf{L}}{dt} && \mathbf{L} = M\mathbf{R}\times\mathbf{V} + \sum_{i}m_i\mathbf{r'_i}\times\mathbf{v'_i} && \mathbf{N} = \sum_{i}\mathbf{r_i}\times\mathbf{F^{(e)}_i} \\
-& A = \frac{dE}{dt} && E = \frac{1}{2}M|\mathbf{V}|^2 + \sum_{i}\frac{1}{2}m_i|\mathbf{v_i}|^2 + U && A = \sum_{i}\mathbf{F^{(nc)}_i}\cdot\mathbf{v_i}
+& A = \frac{dE}{dt} && E = \frac{1}{2}M|\mathbf{V}|^2 + \sum_{i}\frac{1}{2}m_i|\mathbf{v'_i}|^2 + U && A = \sum_{i}\mathbf{F^{(nc)}_i}\cdot\mathbf{v_i}
 \end{align*}
 $$
 {: .notice--info}

@@ -19,6 +19,200 @@ Essences of clinical medicine.
 
 ## Pathology / 病理
 
+### Gastritis / 胃炎
+* **Acute gastritis / Gastropathy**
+  * Concept: Inflammation of gastric mucosa (gastritis), epithelial damage (gastropathy)
+  * Pathogenesis: Disruption of mucosal protection (NSAIDs, alcohol, bile reflux, stress)
+  * Morphology: Intact epithelium, erosions, petechiae, hemorrhages
+  * Clinical: Epigastric pain, nausea, vomiting, bleeding
+* **Stree-related mucosal disease**
+  * Concept: Gastropathy due to physical stress in critically ill patients
+  * Pathogenesis: Mucosal injury from local ischemia (trauma, burns, intracranial disease)
+  * Morphology: Erosion, perforation (often multiple)
+  * Clinical: Asymptomatic, bleeding
+* **Helicobacter pylori gastritis**
+  * Concept: Chronic gastritis caused by Helicobacter pylori infection
+  * Pathogenesis: H. pylori colonize mucosa, cause inflammation and atrophy
+  * Morphology: H. pylori present, inflammatory infiltrate
+  * Clinical: Asymptomatic, abdominal pain, peptic ulcer disease, gastric cancer
+* **Autoimmune atrophic gastritis**
+  * Concept: Chronic gastritis and atrophy caused by autoimmune
+  * Pathogenesis: Antibody to parietal cells (defective acid production, hypergastrinema), antibody to intrinsic factor (vitamin B12 deficiency, pernicious anemia)
+  * Morphology: Mucosal atrophy, loss of parietal cells, inflammatory infiltrate
+  * Clinical: Anemia, neurological disturbances
+* **Uncommon forms of gastritis**
+  * Concept: Eosinophilic gastritis, lymphocytic gastritis, granulomatous gastritis
+* **Peptic ulcer disease**
+  * Concept: Chronic ulcer in stomach or duodenum
+  * Pathogenesis: Imbalances between protective and damaging forces (H. pylori infection, NSAIDs)
+  * Morphology: Punched-out defect, inflammation
+  * Clinical: Epigastric pain, hemorrhage, perforation
+{: .notice--info}
+
+### Gastric Tumors / 胃腫瘍
+* **Menetrier disease**
+  * Concept: Giant hypertrophy of gastric rugae, protein loss from stomach
+  * Pathogenesis: Excessive TGF-α production
+  * Morphology: Gastric rugae enlargement, mucous cells hyperplasia, glandular atrophy
+  * Clinical: Hypoproteinemia
+* **Zollinger-Ellison syndrome**
+  * Concept: Gastrin-secreting tumors cause excessive gastric acid secretion
+  * Morphology: Gastric mucosal hypertrophy, peptic ulcers
+  * Clinical: Severe peptic ulcers, diarrhea, possibly part of MEN1 
+* **Inflammatory and hyperplastic polyps**
+  * Concept: Common benign gastric polyps
+  * Pathogenesis: Response to chronic gastritis (often H. pylori infection)
+  * Morphology: Enlongated glands, inflammation
+* **Fundic gland polyps**
+  * Concept: Benign gastric polyps in fundus and body
+  * Pathogenesis: PPI use, germline APC mutation (familial adenomatous polyposis)
+  * Morphology: Cystically dilated fundic glands
+* **Gastric adenoma**
+  * Concept: Precancerous lesions that can progress to adenocarcinoma
+  * Pathogenesis: Chronic gastritis with atrophy and intestinal metaplasia
+  * Morphology: Polypoid lesions with low-grade or high-grade dysplasia
+* **Gastric adenocarcinoma**
+  * Concept: Malignant tumor from gastric epithelial cells
+  * Pathogenesis: Associaged with H. pylori infection, dietary factors
+    * Intestinal-type: Increased Wnt signaling (APC mutation)
+    * Diffuse-type: E-cadherin loss (CDH1 mutation)
+  * Morphology:
+    * Intestinal-type: Glandular structures, bulky tumors
+    * Diffuse-type: Discohesive signet-ring cells, linitis plastica
+  * Clinical: Asymptomatic, epigastric pain, weight loss, hemorrhage
+* **Lymphoma**
+  * Concept: Lymphatic cancer in GI tract
+  * Pathogenesis: Chronic inflammation (often H. pylori infection) induce MALT and cause gene translocation
+  * Morphology: Stomach wall stickening, neoplastic lymphocytes infiltrates
+  * Clinical: Epigastric pain, weight loss, hemorrhage
+* **Neuroendocrine neoplasms**
+  * Concept: Tumor from neuroendocrine cells in GI tract, vary from benign to malignant
+  * Morphology: Uniform cells with salt and papper nucleus, well to poorly differentiated
+  * Clinical: Asymptomatic, hormone production (Zollinger-Ellison syndrome, Carcinoid syndrome)
+* **Gastrointestinal stromal tumor**
+  * Concept: Tumor from interstitial cells of Cajal in GI tract
+  * Pathogenesis: KIT mutation, PDGFRA mutation
+  * Morphology: Well-circumscribed mass, spindle or epithelioid cells, CD117 positive
+  * Clinical: Asymptomatic, mass effects, bleeding
+{: .notice--info}
+
+### Enterocolitis / 腸炎
+
+Cholera
+Campylobacter enterocolitis
+Shigellosis
+Salmonella
+Typhoid fever
+Yersinia
+Escherichia coli
+Pseudomembranous colitis
+Whipple disease
+Viral gastroenteritis
+Parasitic enterocolitis
+Irritable bowel syndrome
+Crohn disease
+Ulcerative colitis
+Indeterminate colitis
+Diversion colitis
+Microscopic colitis
+Graft-versus-host disease
+Acute appendicitis
+Peritoneal infection
+Sclerosing retroperitonitis
+
+{: .notice--info}
+
+### Intestinal Tumor / 腸腫瘍
+
+Hyperplastic polyps
+Inflammatory polyps
+Juvenile polyps
+Peutz-Jeghers syndrome
+Neoplastic polyps
+Familial adenomatous polyposis
+Hereditary non-polyposis colorectal cancer
+Adenocarcinoma
+Anal tumors
+Appendix tumors
+Peritoneal tumors
+
+{: .notice--info}
+
+### Other Intestinal Disorders / その他の腸疾患
+
+Hernias
+Adhesions
+Volvulus
+Intussusception
+Ischemic bowel disease
+Angiodysplasia
+Diverticular disease
+Hemorrhoids
+Cystic fibrosis
+Celiac disease
+Environmental enteric dysfunction
+Autoimmune enteropathy
+Lactase deficiency
+Microvillus inclusion disease
+Abetalipoproteinemia
+
+{: .notice--info}
+
+### Hepatitis / 肝炎
+* **Viral hepatitis**
+  * Concept: Liver damages caused by hepatotropic viruses
+    * Hepatitis A: Acute hepatitis, acute liver failure
+    * Hepatitis B: Acute hepatitis, acute liver failure, chronic hepatitis
+    * Hepatitis C: Chronic hepatitis
+    * Hepatitis D: Acute liver failure (dependent on HBV)
+    * Hepatitis E: Acute hepatitis
+  * Pathogenesis: 
+    * Hepatitis A: Fecal-oral transmission
+    * Hepatitis B: Blood transmission, sexual transmission, mother-to-child transmission
+    * Hepatitis C: Blood transmission
+    * Hepatitis D: Co-infection with HBV
+    * Hepatitis E: Fecal-oral transmission
+  * Morphology: 
+    * Acute hepatitis: Portal inflammation, hepatocellular injury
+    * Chronic hepatitis: Portal inflammation and fibrosis   
+  * Clinical:
+    * Acute hepatitis: Fever, fatigue, jaundice
+    * Chronic hepatitis: Asymptomatic, biochemical and serologic evidence
+* **Autoimmune hepatitis**
+  * Concept: Chronic progressive hepatitis associated with autoimmune
+  * Pathogenesis: Viruses or drugs trigger immune reaction, associated with specific HLA alleles
+  * Morphology: Inflammation, hepatocellular injury
+  * Clinical: Progress to cirrhosis 
+* **Drug-induced liver injury**
+  * Concept: Liver damage caused by drugs (eg. acetaminophen)
+  * Pathogenesis: Injury mediated by drug metabolites through cytochrome P-450
+  * Morphology: Inflammation, hepatocellular injury
+  * Clinical: Abnormal live function test
+* **Alcoholic liver disease**
+  * Concept: Liver damage caused by long-term alcohol comsumption
+  * Pathogenesis: Increased NADH (steatosis), acetaldehyde and ROS (hepatocyte injury)
+  * Morphology:  Steatosis, lobular inflammation, ballooned hepatocytes, fibrosis
+  * Clinical: Asymtomatic (steatosis), malaise and abnormal lab findings (hepatitis), hepatic dysfunction (cirrhosis)
+* **Nonalcoholic fatty liver disease**
+  * Concept: Fatty liver independent of alcohol, associated with metabolic syndrome
+  * Pathogenesis: Unknown, insulin resistance related
+  * Morphology: Steatosis, lobular inflammation, ballooned hepatocytes, fibrosis
+  * Clinical: Asymptomatic
+* **Acute liver failure**
+  * Concept: Acute dysfunction of normal liver
+  * Pathogenesis: Viral hepatitis, drug-induced liver injury
+  * Morphology: Massive hepatic necrosis
+  * Clinical: Cholestasis, hepatic encephalopathy, coagulopathy
+* **Chronic liver failure / Cirrhosis**
+  * Concept: Advanced fibrosis in chronic liver diseases
+  * Pathogenesis: Viral hepatitis, autoimmune hepatitis, alcoholic liver disease, nonalcoholic fatty liver disease
+  * Morphology: Nodules surrounded by fibrosis
+  * Clinical:
+    * Impaired synthesis: Edema (albumin), coagulopathy (clotting factors)
+    * Impaired metabolism: Jaundice (bilirubin), palmar erythema & spider angiomas & gynecomastia (estrogen), hepatic encepalopahty (ammonia)
+    * Portal hypertension: Ascites, caput medusa, esophageal varices, splenomegaly
+{: .notice--info}
+
 ### Hepatic Tumors / 肝腫瘍
 * **Focal nodular hyperplasia**
   * Concept: Benign non-neoplastic lesion
@@ -43,13 +237,71 @@ Essences of clinical medicine.
   * Pathogenesis: Chronic injury, inflammation, and regeneration lead to acquisition of driver mutations 
   * Morphology: Sheets or trabeculae of tumor cells resembling normal hepatocytes
   * Clinical: Abdominal pain and fatigue (nonspecific), jaundice and ascitis (progressed)
-* **Malignant biliary tumors**
-  * Concept: Malignant tumor from intrahepatic biliary tree (intrahepatic cholangiocarcinoma) or extrahepatic bile ducts (biliary adenocarcinoma)
-  * Pathogenesis: Chronic inflammation of bile ducts (primary sclerosing cholangitis, liver flukes infection)
-  * Morphology: Cholangiocytes in tubular structures
-  * Clinical: Asymptomatic (intrahepatic), obstructive jaundice (extrahepatic)
 * **Metastatic liver tumor**
   * Concept: Metastasis from colon, pancreas, lung, breast, etc.
+{: .notice--info}
+
+### Other Liver Disorders / その他の肝臓疾患
+* **Hemochromatosis**
+  * Concept: Excessive iron deposition in liver, pancreas, heart
+  * Pathogenesis:
+    * Hereditary: HFE mutation
+    * Secondary: Red cell transfusion
+  * Morphology: Hemosiderin deposition
+  * Clinical: Hepatomegaly and cirrhosis, diabetes mellitus, cardiac dysfunction, skin pigmentation
+* **Wilson disease**
+  * Concept: Copper deposition in liver, basal ganglia, cornea
+  * Pathogenesis: ATP7B mutation impair copper excretion into bile amd incorporation into ceruloplasmin
+  * Morphology: Varied liver damage
+  * Clinical: Liver dysfunction, extrapyramidal symptoms, Kayser-Fleischer ring
+* **α1-Antitrypsin deficiency**
+  * Concept: Protein folding disorder with low circulating α1-Antitrypsin
+  * Pathogenesis: Uninhibited elastase (pulmonary emphysema), misfolded protein accumulation (liver disease)
+  * Morphology: Cytoplasmic globular inclusions
+  * Clinical: Cirrhosis, pulmonary emphysema
+* **Hereditary hyperbilirubinemia**
+* **Primary hepatolithiasis**
+* **Hepatic vein thrombosis**
+* **Sinusoidal obstruction syndrome**
+* **Preeclampsia / Eclampsia**
+* **Acute fatty liver of pregnancy**
+{: .notice--info}
+
+### Biliary Disorders / 胆道疾患
+* **Extrahepatic biliary atresia**
+* **Choledochal cyst**
+* **Fibropolycystic disease**
+* **Cholelithiasis**
+  * Concept: Stones formed in biliary tract
+  * Pathogenesis:
+    * Cholesterol stones: Cholesterol monohydrate, caused by cholesterol supersaturation in bile
+    * Pigment stones: Bilirubin calcium, caused by hemolytic anemia or bacterial infections
+  * Morphology:
+    * Cholesterol stones: Pale yellow, radiating palisade
+    * Pigment stones: Brown to black, laminated
+  * Clinical: Asymptomatic, colicky pain after meals
+* **Acute cholecystitis**
+  * Concept: Acute inflammation of gallbladder
+  * Pathogenesis: Gallstones obstruction, superimposed bacterial infections
+  * Morphology: Thickened walls, cloudy bile
+  * Clinical: Fever, RUQ pain, jaundice
+* **Chronic cholecystitis**
+  * Concept: Chronic inflammation of gallbladder
+  * Pathogenesis: Gallstones (obstruction not required)
+  * Morphology: Inflammation, Rokitansky-Aschoff sinuses
+  * Clinical: Recurrent colicky pain
+* **Primary biliary cholangitis**
+* **Primary sclerosing cholangitis**
+* **Gallbladder carcinoma**
+  * Concept: Malignant tumor from gallbladder
+  * Pathogenesis: Gallstones
+  * Morphology: Adenocarcinoma, glandular structures
+  * Clinical: Pain, jaundice
+* **Malignant biliary tumors**
+  * Concept: Malignant tumor from intrahepatic biliary tree (intrahepatic cholangiocarcinoma) or extrahepatic bile duct (biliary adenocarcinoma)
+  * Pathogenesis: Chronic inflammation of bile ducts (hepatolithiasis, primary sclerosing cholangitis, liver fluke infection)
+  * Morphology: Adenocarcinoma, glandular structures
+  * Clinical: Asymptomatic (intrahepatic), obstructive jaundice (extrahepatic)
 {: .notice--info}
 
 ## Pharmacology / 薬理
@@ -270,6 +522,10 @@ Essences of clinical medicine.
   * Pathogenesis: Antibodieas against collagen IV α3 chain destruct basement membrane in renal glomeruli and pulmonary alveoli
   * Morphology: Hemorrhage, hemosiderin-laden macrophages
   * Clinical: Hemoptysis, glomerulonephritis
+* **Pulmonary edema**
+  * Concept: Excessive fluid in alveoli, lead to hypoxemia
+    * Hemodynamic disturbances: Increased hydrostatic pressure (left-sided heart failure)
+    * Microvascular injury: Inflammatory exudate (acute respiratory distress syndrome)
 {: .notice--info}
 
 ### Lung Tumors / 肺腫瘍
@@ -299,22 +555,7 @@ Essences of clinical medicine.
   * Morphology: Multiple discrete nodules
 {: .notice--info}
 
-### Acute Lung Injury / 急性肺障害
-* **Pulmonary edema**
-  * Concept: Excessive fluid in alveoli, lead to hypoxemia
-    * Hemodynamic disturbances: Increased hydrostatic pressure (left-sided heart failure)
-    * Microvascular injury: Inflammatory exudate (acute respiratory distress syndrome)
-* **Acute respiratory distress syndrome**
-  * Concept: Abrupt onset of pulmonary edema and hypoxemia, due to increased capillary permeability
-  * Pathogenesis: Endothelial activation, neutrophil extravasation, fluid accumulation, hyaline membrane formation. Caused by pneumonia, sepsis, oxegen therapy
-  * Morphology: Diffuse alveolar damage, hyaline membranes
-  * Clinical: Dyspnea, hypoxemia, bilateral infiltration
-* **Lung transplantation**
-  * Concept: Transplanted lung is subject to infection and rejection
-  * Morphology: Inflammatory infiltrates (acute rejection), bronchiolitis obliterans (chronic rejection)
-{: .notice--info}
-
-### Structural Abnormalities / 形態異常
+### Other Lung Disorders / その他の肺臓疾患
 * **Atelectasis**
   * Concept: Incomplete expansion of lungs. From resorption (obstruction), compression, contraction (fibrosis)
 * **Pulmonary hypoplasia**
@@ -323,6 +564,14 @@ Essences of clinical medicine.
   * Concept: Abnormal cysts from foregut
 * **Pulmonary sequestration**
   * Concept: Discrete area of lung tissue that (1) is not connected to airways (2) has abnormal blood supply from aorta
+* **Acute respiratory distress syndrome**
+  * Concept: Abrupt onset of pulmonary edema and hypoxemia, due to increased capillary permeability
+  * Pathogenesis: Endothelial activation, neutrophil extravasation, fluid accumulation, hyaline membrane formation. Caused by pneumonia, sepsis, oxegen therapy
+  * Morphology: Diffuse alveolar damage, hyaline membranes
+  * Clinical: Dyspnea, hypoxemia, bilateral infiltration
+* **Lung transplantation**
+  * Concept: Transplanted lung is subject to infection and rejection
+  * Morphology: Inflammatory infiltrates (acute rejection), bronchiolitis obliterans (chronic rejection)
 {: .notice--info}
 
 ### Pleural Disorders / 胸膜疾患
