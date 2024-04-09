@@ -1,7 +1,7 @@
 ---
-title: 'Medicine 🍊⭐'
+title: 'Temp 🍊⭐'
 date: 2023-01-03
-permalink: /note/medicine
+permalink: /note/temp
 tags:
   - note
 toc: true
@@ -550,103 +550,93 @@ Pancreatoblastoma
 
 ## Pathology / 病理
 
-### Heart Failure / 心不全
-Left-sided heart failure \\
+### 心不全
+Left-sided heart failure
 Right-sided heart failure
 
 ### Ischemic Heart Disease / 虚血性心疾患
-Angina pectoris \\
-Myocardial infarction \\
-Chronic ischemic heart disease \\
+Angina pectoris
+Myocardial infarction
+Chronic ischemic heart disease
 Sudden cardiac death
 
 ### Valvular Heart Disease / 弁膜症
-Calcific aortic stenosis \\
-Calcific stenosis of congenitally bicuspid aortic valve \\
-Mitral annular calcification \\
-Mitral valve prolapse \\
-Rheumatic heart disease \\
-Infective endocarditis \\
-Nonbacterial thrombotic endocarditis \\
-Endocarditis of systemic lupus erythematosus \\
-Carcinoid heart disease \\
+Calcific aortic stenosis
+Calcific stenosis of congenitally bicuspid aortic valve
+Mitral annular calcification
+Mitral valve prolapse
+Rheumatic heart disease
+Infective endocarditis
+Nonbacterial thrombotic endocarditis
+Endocarditis of systemic lupus erythematosus
+Carcinoid heart disease
 Complications of prosthetic valves
 
 ### Cardiomyopathy / 心筋症
-Dilated cardiomyopathy \\
-Hypertrophic cardiomyopathy \\
-Restrictive cardiomyopathy \\
-Arrhythmogenic cardiomyopathy \\
+Dilated cardiomyopathy
+Arrhythmogenic cardiomyopathy
+Hypertrophic cardiomyopathy
+Restrictive cardiomyopathy
 Myocarditis
 
 ### Pericardial Disease / 心膜疾患
-Pericardial effusion \\
-Acute pericarditis \\
+Pericardial effusion
+Acute pericarditis
 Chronic pericarditis
 
 ### Cardiac Tumor / 心臓腫瘍
-Myxoma \\
-Papillary fibroelastomav \\
-Rhabdomyoma \\
+Myxoma
+Papillary fibroelastoma
+Rhabdomyoma
 Metastatic tumor
 
 ### Congenital Heart Disease / 先天性心疾患
-Atrial septal defect \\
-Patent foramen ovale \\
-Ventricular septal defect \\
-Patent ductus arteriosus \\
-Tetralogy of fallot \\
-Transposition of the great arteries \\
-Truncus arteriosus \\
-Tricuspid atresia \\
-Coarctation of the aorta \\
-Pulmonary stenosis and atresia \\
+Atrial septal defect
+Patent foramen ovale
+Ventricular septal defect
+Patent ductus arteriosus
+Tetralogy of fallot
+Transposition of the great arteries
+Tricuspid atresia
+Coarctation of the aorta
+Pulmonary stenosis and atresia
 Aortic stenosis and atresia
 
 ### Hypertension / 高血圧
-Hypertension \\
-Systemic hypertensive heart disease \\
+Hypertension
+Systemic hypertensive heart disease
 Pulmonary hypertensive heart disease
 
 ### Arteriosclerosis / 動脈硬化症
-Atherosclerosis \\
-Arteriolosclerosis \\
-Mönckeberg medial sclerosis \\
+Arteriolosclerosis
+Mönckeberg medial sclerosis
 Fibromuscular intimal hyperplasia
+Atherosclerosis
 
-### Aneurysm and Dissection / 動脈瘤・解離
-Abdominal aortic aneurysm \\
-Thoracic aortic aneurysm \\
-Aortic dissection
 
-### Vascular Tumor / 血管腫瘍
-Vascular ectasias \\
-Hemangioma \\
-Lymphangioma \\
-Glomus tumor \\
-Bacillary angiomatosis \\
-Kaposi sarcoma \\
-Hemangioendothelioma \\
+Vascular anomaly
+
+### Vascular Tumors / 血管腫瘍
+Vascular ectasias
+Hemangioma
+Lymphangioma
+Glomus tumor
+Bacillary angiomatosis
+Kaposi sarcoma
+Hemangioendothelioma
 Angiosarcoma
 
-### Vasculitis / 血管炎
-Giant cell arteritis \\
-Takayasu arteritis \\
-Polyarteritis nodosa \\
-Kawasaki disease \\
-Buerger disease \\
-Granulomatosis with polyangiitis \\
-Eosinophilic granulomatosis with polyangiitis \\
-Microscopic polyangiitis \\
-IgA vasculitis \\
+### Arteritis / 動脈炎
+Giant cell arteritis
+Takayasu arteritis
+Polyarteritis nodosa
+Kawasaki disease
+Buerger disease
+Granulomatosis with polyangiitis
+Eosinophilic granulomatosis with polyangiitis
+Microscopic polyangiitis
+IgA vasculitis
 Infectious vasculitis
-
-### Venous Disorder / 静脈疾患
-Varicose vein \\
-Deep vein thrombosis \\
-Superior and inferior vena cava syndrome \\
-Lymphangitis \\
-Lymphedema
 
 ## Pharmacology / 薬理
 
@@ -941,39 +931,6 @@ Lymphedema
 
 ## Pathology / 病理
 
-### Nephritic Syndrome / 腎炎症候群
-Acute proliferative glomerulonephritis \\
-Crescentic glomerulonephritis \\
-IgA nephropathy \\
-Alport syndrome \\
-Thin basement membrane nephropathy
-
-### Nephrotic Syndrome / ネフローゼ症候群
-Membranous nephropathy \\
-Minimal change disease \\
-Focal segmental glomerulosclerosis \\
-Membranoproliferative glomerulonephritis \\
-Dense deposit disease \\
-Fibrillary Glomerulonephritis
-
-### Glomerular Lesion Associated With Systemic Disease / 全身疾患に伴う糸球体疾患
-Lupus Nephritis \\
-Henoch-Schönlein Purpura \\
-Diabetic Nephropathy \\
-Cryoglobulinemic Nephropathy \\
-Amyloidosis
-
-### Tubulointerstitial Disease / 尿細管・間質性疾患
-Acute tubular injury \\
-Acute pyelonephritis \\
-Chronic pyelonephritis \\
-Acute drug-induced interstitial nephritis \\
-Urate nephropathy \\
-Nephrocalcinosis \\
-Light-chain cast nephropathy \\
-Autosomal dominant tubulointerstitial kidney disease \\
-Bile cast nephropathy \\
-
 ## Pharmacology / 薬理
 
 ## Symptoms / 症候
@@ -1005,65 +962,6 @@ Bile cast nephropathy \\
 ## Physiology / 生理
 
 ## Pathology / 病理
-
-### Pituitary Disorder / 下垂体疾患
-Pituitary adenoma \\
-Lactotroph adenoma \\
-Somatotroph adenoma \\
-Corticotroph adenoma \\
-Other pituitary adenoma \\
-Hypopituitarism \\
-Diabetes insipidus \\
-Syndrome of inappropriate ADH secretion \\
-Craniopharyngioma
-
-### Thyroid Disorder / 甲状腺疾患
-Hyperthyroidism \\
-Hypothyroidism \\
-Hashimoto thyroiditis \\
-Subacute lymphocytic thyroiditis \\
-Granulomatous thyroiditis \\
-Graves disease \\
-Diffuse nontoxic goiter \\
-Multinodular goiter \\
-Thyroid adenoma \\
-Thyroid carcinoma \\
-Papillary carcinoma \\
-Follicular carcinoma \\
-Anaplastic carcinoma \\
-Medullary carcinoma \\
-Thyroglossal duct cyst
-
-### Parathyroid Disorder / 副甲状腺疾患
-Primary hyperparathyroidism \\
-Secondary hyperparathyroidism \\
-Hypoparathyroidism \\
-Pseudohypoparathyroidism
-
-### Endocrine Pancreatic Disorder / 内分泌膵臓疾患
-Diabetes mellitus \\
-Type 1 diabetes mellitus \\
-Type 2 diabetes mellitus \\
-Chronic complications of diabetes \\
-Pancreatic neuroendocrine tumor \\
-Insulinoma \\
-Gastrinoma \\
-Other pancreatic endocrine neoplasm
-
-### Adrenal Gland Disorder / 副腎疾患
-Hypercortisolism \\
-Hyperaldosteronism \\
-Congenital adrenal hyperplasia \\
-Primary acute adrenocortical insufficiency \\
-Primary chronic adrenocortical insufficiency \\
-Secondary adrenocortical insufficiency \\
-Adrenocortical neoplasm \\
-Pheochromocytoma
-
-### Other Endocrine Disorder / その他の内分泌疾患
-Multiple endocrine neoplasia type 1 \\
-Multiple endocrine neoplasia type 2 \\
-Pinealoma
 
 ## Pharmacology / 薬理
 
@@ -1141,28 +1039,97 @@ Pinealoma
   * Toxicities:
 {: .notice--info}
 
-### Thyroid Hormone / 甲状腺ホルモン
-Thyroid hormone: Levothyroxine, liothyronine \\
-Thioamide: Methimazole, propylthiouracil \\
-Iodide: Lugol's solution, potassium iodide \\
-Radioactive iodine I-131: Sodium iodide I-131
-
-### Corticosteroid / 副腎皮質ホルモン
-Glucocorticoid: Hydrocortisone \\
-Mineralocorticoid: Fludrocortisone \\
-Adrenocortical antagonist: Mitotane
+### Thyroid Hormones / 甲状腺ホルモン
+* **Thyroid hormone**
+  * Drugs: Levothyroxine, liothyronine
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Thioamide**
+  * Drugs: Propylthiouracil, methimazole
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Iodide**
+  * Drugs: Potassium iodide
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Radioactive iodine**
+  * Drugs: Sodium iodide I-131
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+{: .notice--info}
 
 ### Glucose Homeostasis / グルコース恒常性
-Insulin: Insulin lispro, insulin aspart, insulin glulisine / regular insulin / insulin NPH / insulin detemir, insulin glargine, insulin degludec \\
-Sulfonylurea: Chlorpropamide, tolbutamide, tolazamide / glipizide, gliclazide, glimepiride, glyburide \\
-Meglitinide: Repaglinide, nateglinide, mitiglinide \\
-GLP-1 agonist: Exenatide, liraglutide, lixisenatide, albiglutide, dulaglutide \\
-DPP-4 inhibitor: Sitagliptin, saxagliptin, linagliptin, alogliptin, vildagliptin \\
-Biguanide: Metformin \\
-Thiazolidinedione: Pioglitazone, rosiglitazone \\
-α-Glucosidase inhibitor: Acarbose, voglibose, miglitol \\
-SGLT2 inhibitor: Canagliflozin, dapagliflozin, empagliflozin \\
-Amylin analog: Pramlintide
+* **Insulin**
+  * Drugs:
+    * Rapid-acting: Insulin lispro, insulin aspart, insulin glulisine
+    * Short-acting: Regular insulin
+    * Intermediate-acting: Insulin NPH
+    * Long-acting: Insulin glargine, insulin detemir, insulin degludec
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Sulfonylurea**
+  * Drugs:
+    * First-generation: Tolbutamide, chlorpropamide, tolazamide
+    * Second-generation: Glyburide, glipizide, glimepiride
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Meglitinide**
+  * Drugs: Repaglinide, nateglinide
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Biguanide**
+  * Drugs: Metformin  
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Thiazolidinedione**
+  * Drugs: Pioglitazone, rosiglitazone
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Glucagon-like peptide 1 agonist**
+  * Drugs: Exenatide, liraglutide, lixisenatide, albiglutide, dulaglutide
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Dipeptidyl peptidase 4 inhibitor**
+  * Drugs: Sitagliptin, sazagliptin, linagliptin
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **α-glucosidase inhibitor**
+  * Drugs: Acarbose, miglitol
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Sodium-glucose cotransporter 2 inhibitor**
+  * Drugs: Canaglifozin, empaglifozin, dapaglifozin
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Amylin analog**
+  * Drugs: Pramlintide
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Glucagon**
+  * Drugs: Glucagon
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Diazoxide**
+  * Drugs: Diazoxide
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+{: .notice--info}
 
 ## Symptoms / 症候
 
@@ -1198,63 +1165,6 @@ Amylin analog: Pramlintide
 
 ## Pathology / 病理
 
-### Anemia of Diminished Erythropoiesis / 産生減少性貧血
-Iron deficiency anemia \\
-Anemia of chronic disease \\
-Sideroblastic anemia \\
-Vitamin B12 deficiency anemia \\
-Folate deficiency anemia \\
-Aplastic anemia \\
-Pure red cell aplasia \\
-Myelophthisic anemia \\
-Secondary anemia
-
-### Hemolytic Anemia / 溶血性貧血
-Hereditary spherocytosis \\
-Sickle cell disease \\
-α-Thalassemia \\
-β-Thalassemia \\
-Glucose-6-Phosphate Dehydrogenase Deficiency \\
-Paroxysmal nocturnal hemoglobinuria \\
-Immunohemolytic anemia
-
-### Lymphoid Neoplasm / リンパ系腫瘍
-Acute lymphoblastic leukemia \\
-Chronic lymphocytic leukemia \\
-Hairy cell leukemia \\
-Adult T-cell leukemia \\
-Mycosis fungoides / Sézary syndrome \\
-Multiple myeloma \\
-Monoclonal gammopathy of undetermined significance \\
-Waldenström macroglobulinemia
-
-### Myeloid Neoplasm / 骨髄系腫瘍
-Acute myeloid leukemia \\
-Chronic myeloid Leukemil \\
-Polycythemia vera \\
-Essential thrombocytosis \\
-Primary myelofibrosis \\
-Myelodysplastic syndrome \\
-Langerhans cell histiocytosis
-
-### Lymphoma / リンパ腫
-Diffuse large B-cell lymphoma \\
-Follicular lymphoma \\
-Marginal zone lymphomas \\
-Mantle cell lymphoma \\
-Burkitt lymphoma \\
-Peripheral T-cell lymphoma, unspecified \\
-Hodgkin lymphoma
-
-### Bleeding Disorder / 出血性疾患
-Immune thrombocytopenic purpura \\
-Thrombocytopenic purpura \\
-Hemolytic uremic syndrome \\
-Von Willebrand disease \\
-Hemophilia \\
-Vitamin K deficiency \\
-Disseminated intravascular coagulation
-
 ## Pharmacology / 薬理
 
 ## Symptoms / 症候
@@ -1277,8 +1187,8 @@ Disseminated intravascular coagulation
 
 ## Pharmacology / 薬理
 
-### Glucocorticoid / 糖質コルチコイド
-Glucocorticoid: Hydrocortisone, cortisone, prednisolone, methylprednisolone, triamcinolone, betamethasone, dexamethasone
+### Adrenocorticosteroids / 副腎皮質ホルモン
+{: .notice--info}
 
 ## Symptoms / 症候
 
@@ -1405,11 +1315,32 @@ Glucocorticoid: Hydrocortisone, cortisone, prednisolone, methylprednisolone, tri
 ## Pharmacology / 薬理
 
 ### Gonadal Hormones /  生殖腺ホルモン
-Estrogen: Estradiol, estradiol cypionate, estradiol valerate, ethinyl estradiol \\
-Progestin: Progesterone, medroxyprogesterone acetate, norethindrone, levonorgestrel, megestrol \\
-Selective estrogen receptor modulator: Clomiphene \\
-Pituitary gonadotropin inhibitor: Danazol \\
-Progestational antagonist: Mifepristone
+* **Estrogen**
+  * Drugs: Ethinyl estradiol, mestranol
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Selective estrogen receptor modulator**
+  * Drugs: Clomiphene
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Synthetic androgen**
+  * Drugs: Danazol
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Progestin**
+  * Drugs: Norethidrone, norgestrel, levonorgesterol, megesterol, medroxyprogesterone acetate, hydroxyprogesterone caproate
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **Antiprogestogen**
+  * Drugs: Mifepristone
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+{: .notice--info}
 
 ## Symptoms / 症候
 
@@ -1464,9 +1395,18 @@ Progestational antagonist: Mifepristone
 ## Pathology / 病理
 
 ## Pharmacology / 薬理
-### Gonadal Hormone /  生殖腺ホルモン
-Androgen: Testosterone, testosterone enanthate, testosterone cypionate, methyltestosterone, fluoxymesterone, oxymetholone, nandrolone, oxandrolone \\
-5α-Reductase inhibitor: Finasteride, dutasteride
+### Gonadal Hormones /  生殖腺ホルモン
+* **Androgen**
+  * Drugs: Testosterone propionate, testosterone enanthate, testosterone cypionate, methyltestosterone, fluoxmesterone, oxymetholone, nandrolone, oxandrolone
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+* **5α-reductase inhibitor**
+  * Drugs: Finasteride, dutasteride
+  * Mechanism:
+  * Indications:
+  * Toxicities:
+{: .notice--info}
 
 ## Symptoms / 症候
 
@@ -1493,14 +1433,7 @@ Androgen: Testosterone, testosterone enanthate, testosterone cypionate, methylte
 ## Pharmacology / 薬理
 
 ### Calcium Homeostasis / カルシウム恒常性
-Bisphosphonate: Alendronate, risedronate, ibandronate, pamidronate, zoledronate \\
-RANKL inhibitor: Denosumab \\
-Selective estrogen receptor modulator: Raloxifene \\
-Parathyroid hormone: Teriparatide, abaloparatide \\
-Calcitonin: Calcitonin \\
-Calcimimetic: Cinacalcet \\
-Vitamin D: Cholecalciferol, calcifediol, calcitriol, ergocalciferol, doxercalciferol, paricalcitol, calcipotriene \\
-Calcium supplement: Calcium
+{: .notice--info}
 
 ## Symptoms / 症候
 
