@@ -11,548 +11,13 @@ Essences of clinical medicine.
 
 {% include toc %}
 
-# Gastrointestinal / 消化管
+# Cardiovascular Medicine / 循環器内科
 
 ## Anatomy / 解剖
 
 ## Physiology / 生理
 
 ## Pathology / 病理
-
-Esophageal atresia
-Diaphragmatic hernia
-Omphalocele
-Gastroschisis
-Ectopia
-Meckel diverticulum
-Pyloric stenosis
-Hirschsprung disease
-
-### Esophageal Disorders / 食道疾患
-* **Esophageal obstruction**
-  * Concept: Esophageal dysmotility, esophageal stenosis, esophageal mucosal web or ring
-* **Achalasia**
-  * Concept: Motility disorder of the esophagus characterized by incomplete lower esophageal sphincter relaxation and esophageal peristalsis loss
-  * Pathogenesis: Degeneration of esophageal myenteric plexus (primary or secondary to Chagas disease)
-  * Clinical: Dysphagia, regurgitation, chest pain
-* **Laceration**
-  * Concept: Longitudinal mucosal tears near gastroesophageal junction due to severe vomiting
-    * Mallory-Weiss syndrome: Superficial tearing
-    * Boerhaave syndrome: Transmural tearing
-  * Clinical: Hematemesis following vomiting
-{: .notice--info}
-
-
-Chemical and infectious esophagitis
-Reflux esophagitis
-Eosinophilic esophagitis
-Esophageal varices
-Barrett esophagus
-Adenocarcinoma
-Squamous cell carcinoma
-
-
-### Gastritis / 胃炎
-* **Acute gastritis / Gastropathy**
-  * Concept: Inflammation of gastric mucosa (gastritis), epithelial damage (gastropathy)
-  * Pathogenesis: Disruption of mucosal protection (NSAIDs, alcohol, bile reflux, stress)
-  * Morphology: Intact epithelium, erosions, petechiae, hemorrhages
-  * Clinical: Epigastric pain, nausea, vomiting, bleeding
-* **Stree-related mucosal disease**
-  * Concept: Gastropathy due to physical stress in critically ill patients
-  * Pathogenesis: Mucosal injury from local ischemia (trauma, burns, intracranial disease)
-  * Morphology: Erosion, perforation (often multiple)
-  * Clinical: Asymptomatic, bleeding
-* **Helicobacter pylori gastritis**
-  * Concept: Chronic gastritis caused by Helicobacter pylori infection
-  * Pathogenesis: H. pylori colonize mucosa, cause inflammation and atrophy
-  * Morphology: H. pylori present, inflammatory infiltrate
-  * Clinical: Asymptomatic, abdominal pain, peptic ulcer disease, gastric cancer
-* **Autoimmune atrophic gastritis**
-  * Concept: Chronic gastritis and atrophy caused by autoimmune
-  * Pathogenesis: Antibody to parietal cells (defective acid production, hypergastrinema), antibody to intrinsic factor (vitamin B12 deficiency, pernicious anemia)
-  * Morphology: Mucosal atrophy, loss of parietal cells, inflammatory infiltrate
-  * Clinical: Anemia, neurological disturbances
-* **Uncommon forms of gastritis**
-  * Concept: Eosinophilic gastritis, lymphocytic gastritis, granulomatous gastritis
-* **Peptic ulcer disease**
-  * Concept: Chronic ulcer in stomach or duodenum
-  * Pathogenesis: Imbalances between protective and damaging forces (H. pylori infection, NSAIDs)
-  * Morphology: Punched-out defect, inflammation
-  * Clinical: Epigastric pain, hemorrhage, perforation
-{: .notice--info}
-
-### Gastric Tumors / 胃腫瘍
-* **Menetrier disease**
-  * Concept: Giant hypertrophy of gastric rugae, protein loss from stomach
-  * Pathogenesis: Excessive TGF-α production
-  * Morphology: Gastric rugae enlargement, mucous cells hyperplasia, glandular atrophy
-  * Clinical: Hypoproteinemia
-* **Zollinger-Ellison syndrome**
-  * Concept: Gastrin-secreting tumors cause excessive gastric acid secretion
-  * Morphology: Gastric mucosal hypertrophy, peptic ulcers
-  * Clinical: Severe peptic ulcers, diarrhea, possibly part of MEN1 
-* **Inflammatory and hyperplastic polyps**
-  * Concept: Common benign gastric polyps
-  * Pathogenesis: Response to chronic gastritis (often H. pylori infection)
-  * Morphology: Enlongated glands, inflammation
-* **Fundic gland polyps**
-  * Concept: Benign gastric polyps in fundus and body
-  * Pathogenesis: PPI use, germline APC mutation (familial adenomatous polyposis)
-  * Morphology: Cystically dilated fundic glands
-* **Gastric adenoma**
-  * Concept: Precancerous lesions that can progress to adenocarcinoma
-  * Pathogenesis: Chronic gastritis with atrophy and intestinal metaplasia
-  * Morphology: Polypoid lesions with low-grade or high-grade dysplasia
-* **Gastric adenocarcinoma**
-  * Concept: Malignant tumor from gastric epithelial cells
-  * Pathogenesis: Associaged with H. pylori infection, dietary factors
-    * Intestinal-type: Increased Wnt signaling (APC mutation)
-    * Diffuse-type: E-cadherin loss (CDH1 mutation)
-  * Morphology:
-    * Intestinal-type: Glandular structures, bulky tumors
-    * Diffuse-type: Discohesive signet-ring cells, linitis plastica
-  * Clinical: Asymptomatic, epigastric pain, weight loss, hemorrhage
-* **Lymphoma**
-  * Concept: Lymphatic cancer in GI tract
-  * Pathogenesis: Chronic inflammation (often H. pylori infection) induce MALT and cause gene translocation
-  * Morphology: Stomach wall stickening, neoplastic lymphocytes infiltrates
-  * Clinical: Epigastric pain, weight loss, hemorrhage
-* **Neuroendocrine neoplasms**
-  * Concept: Tumor from neuroendocrine cells in GI tract, vary from benign to malignant
-  * Morphology: Uniform cells with salt and papper nucleus, well to poorly differentiated
-  * Clinical: Asymptomatic, hormone production (Zollinger-Ellison syndrome, Carcinoid syndrome)
-* **Gastrointestinal stromal tumor**
-  * Concept: Tumor from interstitial cells of Cajal in GI tract
-  * Pathogenesis: KIT mutation, PDGFRA mutation
-  * Morphology: Well-circumscribed mass, spindle or epithelioid cells, CD117 positive
-  * Clinical: Asymptomatic, mass effects, bleeding
-{: .notice--info}
-
-### Enterocolitis / 腸炎
-* **Cholera**
-  * Concept: Vibrio cholerae infection leads to watery diarrhea
-  * Pathogenesis: Cholera toxin binds to epithelial cells and causes excessive secretion of water and electrolytes
-  * Morphology: Minimal changes (little inflammation)
-  * Clinical: Watery diarrhea (rice-water stools), dehydration, shock
-* **Campylobacter enterocolitis**
-  * Concept: Campylobacter jejuni infection leads to enteritis
-  * Pathogenesis: Motility, adherence, toxin production, invasion
-  * Morphology: Inflammatory infiltrates, crypt abscesses
-  * Clinical: Diarrhea (sometimes bloody), Guillain-Barre syndrome 
-* **Shigellosis**
-  * Concept: Shigella infection leads to dysentery
-  * Pathogensis: Bacteria invade epithelial cells through M cells and cause inflammation, Shiga toxins inhibit protein synthesis and cause cell death
-  * Morphology: Inflammatory infiltrates, hemorrhagic mucosa
-  * Clinical: Diarrhea (watery and progress to bloody with mucus), abdominal cramps, fever
-* **Salmonellosis**
-  * Concept: Nontyphoid Salmonella infection leads to gastroenteritis
-  * Pathogenesis: Bacteria invade through M cells and cause inflammation
-  * Morphology: Inflammatory infiltrates
-  * Clinical: Diarrhea, abdominal cramps, fever
-* **Typhoid fever**
-  * Concept: Salmonella typhi or paratyphi infection leads to systemic illness
-  * Pathogenesis: Bacteria spread from intestine to bloodstream, leading to widespread inflammation
-  * Morphology: Peyer patches enlargement, spleen enlargement, liver typhoid nodules
-  * Clinical: Sustained fever, headache, constipation or diarrhea, rose spots, splenomegaly
-* **Yersinia**
-  * Concept: Yersinia enterocolitica infection leads to gastrointestinal symptoms
-  * Pathogenesis: Bacterial invasion (in terminal ileum), iron enhances virulence
-  * Morphology: Inflammatory infiltrates, lymph nodes enlargement
-  * Clinical: Abdominal pain (mimicking appendicitis), diarrhea, fever, arthritis, erythema nodosum
-* **Escherichia coli**
-  * Concept: Pathogenic E. coli include enterotoxigenic E. coli, enteropathogenic E. coli, enterohemorrhagic E. coli, enteroinvasive E. coli, enteroaggregative E. coli
-    * ETEC: Lead to traveler's diarrhea
-    * EPEC: Lead to infantile diarrhea
-    * EHEC: Lead to bloody diarrhea and hemolytic uremic syndrome (often O157:H7)
-    * EIEC: Lead to watery to bloody diarrhea
-    * EAEC: Lead to persistent diarrhea
-  * Pathogenesis: 
-    * ETEC: Heat-labile and heat-stable enterotoxins stimulate secretion of weter and electrolytes
-    * EPEC: Adhere to epithelial cells and destruct microvilli (attaching and effacing lesions)
-    * EHEC: Shiga toxins inhibit protein synthesis and cause cell death
-    * EIEC: Bacteria invade epithelial cells through M cells and cause inflammation
-    * EAEC: Adhere to epithelial cells (stacked brick morphology)
-* **Pseudomembranous colitis**
-  * Concept: Clostridioides difficile overgrowth following antibiotic use leads to persistent inflammation
-  * Pathogenesis: Toxins disrupt mucosal cells
-  * Morphology: Pseudomembranes composed of inflammatory cells and debris
-  * Clinical: Watery diarrhea, abdominal pain, fever, toxic megacolon
-* **Whipple disease**
-  * Concept: Tropheryma whipplei infection leads to malabsorption
-  * Pathogenesis: Bacteria-laden macrophages impair lymph drainage
-  * Morphology: Accumulation of foamy macrophages filled with PAS-positive granules in lamina propria
-  * Clinical: Diarrhea, weight loss, arthralgia
-* **Viral gastroenteritis**
-  * Concept:
-    * Norovirus: Leading cause of gastroenteritis
-    * Rotavirus: Leading cause of diarrhea in infants and young children
-    * Adenovirus: Common cause of pediatric diarrhea
-  * Clinical: Watery diarrhea, vomiting, fever
-* **Parasitic enterocolitis**
-  * Concept: Include nematodes (roundworms), trematodes (flukes), cestodes (tapeworms), protozoa
-  * Pathogenesis:
-    * Ascaris lumbricoides: Transmitted through ingestion of eggs, migrate to lung and mature in intestine
-    * Strongyloides stercoralis: Transmitted through larvae penetration of skin, migrate to lung and mature in intestine, autoinfection
-    * Hookworms: Include Necator duodenale and Ancylostoma duodenale, transmitted through larvae penetration of skin, migrate to lung and mature in intestine
-    * Trichuris trichiura: Transmitted through ingestion of eggs, mature in intestine
-    * Enterobius vermicularis: Transmitted through ingestion of eggs, mature in intestine
-    * Schistosomiasis: Transmitted through larvae penetration of skin, mature in mesenteric veins
-    * Intestinal cestodes: Include Diphyllobothrium latum & Taenia solium & Hymenolepis nana, transmitted through ingestion of larvae, mature in intestine
-    * Entamoeba histolytica: Transmitted through ingestion of cysts, invade intestinal lining
-    * Giardia lamblia: Transmitted through ingestion of cysts, colonize intestinal lining
-    * Cryptosporidium: Transmitted through ingestion of oocysts, infect epithelial cells
-  * Clinical:
-    * Ascaris lumbricoides: Intestinal blockage, malnutrition, pneumonitis
-    * Strongyloides stercoralis: Abdominal pain, diarrhea (disseminated infection in immunocompromised indivisuals)
-    * Hookworms: Iron deficiency anemia, superficial erosions
-    * Trichuris trichiura: (Heavy infections) Bloody diarrhea, rectal prolapse
-    * Enterobius vermicularis: Anal itching (especially at night)
-    * Schistosomiasis: Abdominal pain, diarrhea (bloody)
-    * Intestinal cestodes: Asymptomatic, abdominal pain, diarrhea, vitamin B12 deficiency anemia (D. latum)
-    * Entamoeba histolytica: Bloody diarrhea, liver abscess
-    * Giardia lamblia: Diarrhea, fatty stools, abdominal cramps, malnutrition
-    * Cryptosporidium: Watery diarrhea, abdominal pain (severe in immunocompromised individuals)
-* **Irritable bowel syndrome**
-  * Concept: Functional gastrointestinal disorder triggered by stress or food intakes without identidicable causes
-  * Pathogenesis: Related with gut microbiome, GI sensitivity and motility, brain-gut interaction
-  * Morphology: No specific endoscopic and microscopic changes
-  * Clinical: Abdominal pain, bloating, changes in bowel habits (diarrhea or constipation)
-* **Crohn disease**
-  * Concept: Chronic inflammatory bowel disease affecting any part of GI tract, characterized by transmural inflammation
-  * Pathogesis: Combination of immune dysregulation, host-microbe interactions, genetic predisposition
-  * Morphology: Skip lesions, transmural inflammation, granulomas, fissures and fistulas, thickend walls and strictures
-  * Clinical: Intermittent diarrhea (may be bloody) and abdominal pain, extraintestinal manifestations, colitis-associated neoplasia
-* **Ulcerative colitis**
-  * Concept: Chronic inflammatory bowel disease affecting colon and rectum, limited to mucosa and submucosa
-  * Pathogesis: Combination of immune dysregulation, host-microbe interactions, genetic predisposition
-  * Morphology: Continuous inflammation (from rectum), ulcers, pseudopolyps, mucosal atrophy
-  * Clinical: Intermittent diarrhea (bloody) and abdominal pain, colitis-associated neoplasia
-* **Indeterminate colitis**
-  * Concept: Shows features of both Crohn disease and ulcerative colitis
-* **Diversion colitis**
-  * Concept: Inflammation of diverted colon segments following surgery, thought to result from lack of short-chain fatty acids
-* **Microscopic colitis**
-  * Concept: Includes collagenous colitis and lymphocytic colitis, characterized by chronic watery diarrhea with normal endoscopic appearances but distinctive histopathology
-* **Graft-versus-host disease**
-  * Concept: Gastrointestinal tract attacked by donor immune cells following allogeneic stem cell transplants
-{: .notice--info}
-
-### Intestinal Tumor / 腸腫瘍
-* **Hyperplastic polyps**
-  * Concept: Benign epithelial proliferations
-  * Pathogenesis: Abnormal epithelial cell turnover 
-  * Morphology: Serration in upper parts of crypts
-* **Inflammatory polyps**
-  * Concept: Polyps resulting from recurrent inflammation and regeneration
-* **Juvenile polyps**
-  * Concept: Benign hamartomatous polyps typically found in rectum of children 
-  * Pathogenesis: SMAD4 mutation, BMPR1A mutation
-  * Morphology: Pedunculated polyps with smooth surfaces, cystic spaces filled with mucin
-  * Clinical: Rectal bleeding, polyp prolapse, adenocarcinoma (juvenile polyposis syndrome)
-* **Peutz-Jeghers syndrome**
-  * Concept: Autosomal dominant syndrome with multiple hamartomatous
-polyps and mucocutaneous hyperpigmentation
-  * Pathogenesis: STK11 mutation
-  * Morphology: Arborizing network of smooth muscles and glands
-  * Clinical: Multiple gastrointestinal polyps, mucocutaneous hyperpigmentation on lips & oral mucosa & digits
-* **Neoplastic polyps**
-  * Concept: Precursors to colorectal adenocarcinoma
-  * Pathogenesis: Adenoma-carcinoma sequence, microsatellite instability
-  * Morphology:
-    * Colorectal adenoma: Epithelial dysplasia, tubular or tubulovillous or villous
-    * Sessile serrated lesion: Serrated crypts
-  * Clinical: Asymptomatic, blood in stool
-* **Familial adenomatous polyposis**
-  * Concept: Autosomal dominant disorders characterized by hundreds to thousands of polyps and 100% risk of colorectal cancer
-  * Pathogenesis: APC mutation, lead to activation of Wnt signaling and cellular proliferation
-* **Hereditary non-polyposis colorectal cancer**
-  * Concept: Autosomal dominant disorder with high risk of developing colorectal and other cancers (Lynch syndrome)
-  * Pathogenesis: MSH2 or MLH1 (DNA mismatch repair gene) mutation, lead to microsatellite instability and accumulation of mutations
-* **Adenocarcinoma**
-  * Concept: Malignant tumor from colorectal epithelial cells
-  * Pathogenesis:
-    * Adenoma-carcinoma sequence: APC mutation, activation of Wnt signaling and cellular proliferation, KRAS and TP53 mutation
-    * Microsatellite instability: MSH2 or MLH1 (DNA mismatch repair gene) mutation or hypermethylation, microsatellite instability, TGFBR2 or BAX mutation
-  * Morphology: Well to poorly differentiated glands, occasionally with mucin and signet ring cells
-  * Clinical: Blood in stool, abdominal pain, weight loss, fatigue
-* **Anal tumors**
-  * Concept: Most commonly squamous cell carcinoma
-  * Pathogenesis: High-risk HPV infection from anal sex
-* **Appendix tumors**
-  * Concept:
-    * Neuroendocrine tumor: Found in resected appendix
-    * Adenoma / Adenocarcinoma: Can mimic acute appendicitis
-    * Mucinous neoplasm: Can cause pseudomyxoma peritonei
-* **Peritoneal tumors**
-  * Concept:
-    * Primary: Mesothelioma
-    * Secondary: Metastases from gastric, colorectal, ovarian cancers
-{: .notice--info}
-
-### Other Intestinal Disorders / その他の腸疾患
-* **Diverticular disease**
-  * Concept: Present of pouch-like protrusions of intestinal wall (common in sigmoid colon)
-  * Pathogenesis: Result from increased intraluminal pressure and colon wall weaknesses, enhanced by low-fiber diet
-  * Morphology: Herniations of mucosa and submucosa through muscular layer of colon wall
-  * Clinical: Asymptomatic (diverticulosis), acute pain (diverticulitis)
-* **Hernias**
-  * Concept: Organs protrude through peritoneum pouch at weak spot of abdominal wall, include inguinal & femoral & umbilical, may cause obstruction
-* **Adhesions**
-  * Concept: Formation of fibrous bands between abdominal tissues and organs, from surgery or inflammation, may cause obstruction
-* **Volvulus**
-  * Concept: Loop of intestine twist around itself and mesentery, cause obstruction and infarction
-* **Intussusception**
-  * Concept: Segment of intestine fold into immediately distal segment, typically in infants and young children, cause obstruction and infarction
-* **Ischemic bowel disease**
-  * Concept: Insufficient blood flow to intestines lead to inflammation and injury, acute or chronic
-  * Pathogenesis: Thrombosis (from atherosclerosis), emboli (from aortic atheromas or cardiac thrombi), hypoperfusion, venous thrombosis
-  * Morphology: Edema, hemorrhage, mucosal atrophy, fibrosis (chronic)
-  * Clinical: Abdominal pain, bloody diarrhea
-* **Angiodysplasia**
-  * Concept: Malformed and dilated blood vessels in GI tract (often in cecum and colon)
-  * Pathogenesis: From intermittent obstruction of submucosal veins
-  * Morphology: Ectatic nests of tortuous veins and capillaries
-  * Clinical: Asymptomatic, intestinal bleeding
-* **Cystic fibrosis**
-  * Concept: Autosomal recessive disorder characterized thick mucus affecting various organs (lungs, pancreas, liver, GI tract)
-  * Pathogenesis: CFTR mutation (defective chloride transport), thick mucus, pancreatic intraductal concretions, exocrine pancreatic insufficiency, impaired nutrient absorption
-* **Celiac disease**
-  * Concept: Autoimmune disorder triggered by ingestion of gluten in genetically predisposed individuals
-  * Pathogenesis: Gluten exposure leads to inappropriate immune response (via HLA-DQ2 or HLA-DQ8), damaging small intestine's villi and impairing nutrient absorption
-  * Morphology: Villous atrophy, crypt hyperplasia, increased intraepithelial lymphocytes
-  * Clinical: Diarrhea, bloating, weight loss, anemia, extraintestinal manifestations (dermatitis herpetiformis)
-* **Environmental enteric dysfunction**
-  * Concept: Enteric disorder characterized by malabsorption in areas with poor sanitation
-  * Pathogenesis: Defective intestinal barrier and transport functions secondary to chronic exposure to fecal pathogens
-  * Clinical: Malabsorption, malnutrition, stunted growth
-* **Autoimmune enteropathy**
-  * Concept: X-linked disorder characterized by severe persistent diarrhea and autoimmune disease in young children
-  * Pathogenesis: Defective regulatory T cells, autoantibodies to intestinal epithelial cells
-* **Lactase deficiency**
-  * Concept: Inability to digest lactose
-  * Pathogenesis: Low levels of lactase enzyme, congenital or acquired
-  * Clinical: Bloating and diarrhea after ingesting lactose-containing foods
-* **Microvillus inclusion disease**
-  * Concept: Autosomal recessive disorder causing intractable diarrhea in infancy due to abnormal enterocyte microvillus
-  * Morphology: Microvillus inclusions
-* **Abetalipoproteinemia**
-  * Concept: Autosomal recessive disorder characterized by inability to absorb fats and fat-soluble vitamins
-  * Pathogenesis: MTP mutation, impaired assembly and secretion of apolipoprotein B-containing lipoproteins
-  * Morphology: Large lipid droplets in enterocytes
-  * Clinical: Failure to thrive, diarrhea, steatorrhea
-* **Hemorrhoids**
-  * Concept: Swollen vascular structures in anal cacal
-  * Pathogenesis: Elevated pressure in hemorrhoidal plexus (chronic constipation, pregnancy, portal hypertension)
-  * Clinical: Pain, rectal bleeding
-* **Acute appendicitis**
-  * Concept: Acute inflammation of the appendix
-  * Pathogenesis: Luminal obstruction by fecalith or lymphoid hyperplasia, lead to ischemia and inflammation
-  * Morphology: Transmural inflammation, suppuration, gangrene
-  * Clinical: Abdominal pain (periumbilical first, at RLQ McBurney's point later), nausea, vomiting, fever, peritonitis (when perforated)
-* **Peritonitis**
-  * Concept: Inflammation of peritoneum
-  * Pathogenesis: GI tract perforation, cirrhosis and ascites (spontaneous bacterial peritonitis), dialysis
-  * Morphology: Neutrophil infiltration, fibrinopurulent debris
-  * Clinical: Severe abdominal pain, tenderness, distension, fever, nausea, vomiting
-* **Sclerosing retroperitonitis**
-  * Concept: Fibrosis across retroperitoneal space, compressing retroperitoneal structures
-  * Pathogenesis: IgG4-related sclerosing disease
-{: .notice--info}
-
-### Hepatitis / 肝炎
-* **Viral hepatitis**
-  * Concept: Liver damages caused by hepatotropic viruses
-    * Hepatitis A: Acute hepatitis, acute liver failure
-    * Hepatitis B: Acute hepatitis, acute liver failure, chronic hepatitis
-    * Hepatitis C: Chronic hepatitis
-    * Hepatitis D: Acute liver failure (dependent on HBV)
-    * Hepatitis E: Acute hepatitis
-  * Pathogenesis: 
-    * Hepatitis A: Fecal-oral transmission
-    * Hepatitis B: Blood transmission, sexual transmission, mother-to-child transmission
-    * Hepatitis C: Blood transmission
-    * Hepatitis D: Co-infection with HBV
-    * Hepatitis E: Fecal-oral transmission
-  * Morphology: 
-    * Acute hepatitis: Portal inflammation, hepatocellular injury
-    * Chronic hepatitis: Portal inflammation and fibrosis   
-  * Clinical:
-    * Acute hepatitis: Fever, fatigue, jaundice
-    * Chronic hepatitis: Asymptomatic, biochemical and serologic evidence
-* **Autoimmune hepatitis**
-  * Concept: Chronic progressive hepatitis associated with autoimmune
-  * Pathogenesis: Viruses or drugs trigger immune reaction, associated with specific HLA alleles
-  * Morphology: Inflammation, hepatocellular injury
-  * Clinical: Progress to cirrhosis 
-* **Drug-induced liver injury**
-  * Concept: Liver damage caused by drugs (eg. acetaminophen)
-  * Pathogenesis: Injury mediated by drug metabolites through cytochrome P-450
-  * Morphology: Inflammation, hepatocellular injury
-  * Clinical: Abnormal live function test
-* **Alcoholic liver disease**
-  * Concept: Liver damage caused by long-term alcohol comsumption
-  * Pathogenesis: Increased NADH (steatosis), acetaldehyde and ROS (hepatocyte injury)
-  * Morphology:  Steatosis, lobular inflammation, ballooned hepatocytes, fibrosis
-  * Clinical: Asymtomatic (steatosis), malaise and abnormal lab findings (hepatitis), hepatic dysfunction (cirrhosis)
-* **Nonalcoholic fatty liver disease**
-  * Concept: Fatty liver independent of alcohol, associated with metabolic syndrome
-  * Pathogenesis: Unknown, insulin resistance related
-  * Morphology: Steatosis, lobular inflammation, ballooned hepatocytes, fibrosis
-  * Clinical: Asymptomatic
-* **Acute liver failure**
-  * Concept: Acute dysfunction of normal liver
-  * Pathogenesis: Viral hepatitis, drug-induced liver injury
-  * Morphology: Massive hepatic necrosis
-  * Clinical: Cholestasis, hepatic encephalopathy, coagulopathy
-* **Chronic liver failure / Cirrhosis**
-  * Concept: Advanced fibrosis in chronic liver diseases
-  * Pathogenesis: Viral hepatitis, autoimmune hepatitis, alcoholic liver disease, nonalcoholic fatty liver disease
-  * Morphology: Nodules surrounded by fibrosis
-  * Clinical:
-    * Impaired synthesis: Edema (albumin), coagulopathy (clotting factors)
-    * Impaired metabolism: Jaundice (bilirubin), palmar erythema & spider angiomas & gynecomastia (estrogen), hepatic encepalopahty (ammonia)
-    * Portal hypertension: Ascites, caput medusa, esophageal varices, splenomegaly
-{: .notice--info}
-
-### Hepatic Tumors / 肝腫瘍
-* **Focal nodular hyperplasia**
-  * Concept: Benign non-neoplastic lesion
-  * Pathogenesis: Altered blood flow leads to hepatocytes hyperplastic changes
-  * Morphology: Central stellate scar
-  * Clinical: Asymptomatic
-* **Cavernous hemangioma**
-  * Concept: Most common benign liver tumor
-  * Morphology: Dilated vascular channels
-* **Hepatocellular adenoma**
-  * Concept: Benign tumor associated with oral contreceptive and anabolic steriods
-  * Pathogenesis: HNF1α-inactivated, inflammatory, β-catenin-activated
-  * Morphology: Tumor without portal tracts
-  * Clinical: Rupture or malignant transformation
-* **Hepatoblastoma**
-  * Concept: Most common malignant liver tumor of early childhood
-  * Pathogenesis: Activation of Wnt signaling pathway
-  * Morphology: Epithelial type, mixed type
-  * Clinical: Abdominal swelling
-* **Hepatocellular carcinoma**
-  * Concept: Malignant liver tumor from hepatocytes, associated with chronic liver diseases (HBV, HCV, alcoholic)
-  * Pathogenesis: Chronic injury, inflammation, and regeneration lead to acquisition of driver mutations 
-  * Morphology: Sheets or trabeculae of tumor cells resembling normal hepatocytes
-  * Clinical: Abdominal pain and fatigue (nonspecific), jaundice and ascitis (progressed)
-* **Metastatic liver tumor**
-  * Concept: Metastasis from colon, pancreas, lung, breast, etc.
-{: .notice--info}
-
-### Other Liver Disorders / その他の肝臓疾患
-* **Hemochromatosis**
-  * Concept: Excessive iron deposition in liver, pancreas, heart
-  * Pathogenesis:
-    * Hereditary: HFE mutation
-    * Secondary: Red cell transfusion
-  * Morphology: Hemosiderin deposition
-  * Clinical: Hepatomegaly and cirrhosis, diabetes mellitus, cardiac dysfunction, skin pigmentation
-* **Wilson disease**
-  * Concept: Copper deposition in liver, basal ganglia, cornea
-  * Pathogenesis: ATP7B mutation impair copper excretion into bile amd incorporation into ceruloplasmin
-  * Morphology: Varied liver damage
-  * Clinical: Liver dysfunction, extrapyramidal symptoms, Kayser-Fleischer ring
-* **α1-Antitrypsin deficiency**
-  * Concept: Protein folding disorder with low circulating α1-Antitrypsin
-  * Pathogenesis: Uninhibited elastase (pulmonary emphysema), misfolded protein accumulation (liver disease)
-  * Morphology: Cytoplasmic globular inclusions
-  * Clinical: Cirrhosis, pulmonary emphysema
-* **Hereditary hyperbilirubinemia**
-* **Primary hepatolithiasis**
-* **Hepatic vein thrombosis**
-* **Sinusoidal obstruction syndrome**
-* **Preeclampsia / Eclampsia**
-* **Acute fatty liver of pregnancy**
-{: .notice--info}
-
-### Biliary Disorders / 胆道疾患
-* **Extrahepatic biliary atresia**
-* **Choledochal cyst**
-* **Fibropolycystic disease**
-* **Cholelithiasis**
-  * Concept: Stones formed in biliary tract
-  * Pathogenesis:
-    * Cholesterol stones: Cholesterol monohydrate, caused by cholesterol supersaturation in bile
-    * Pigment stones: Bilirubin calcium, caused by hemolytic anemia or bacterial infections
-  * Morphology:
-    * Cholesterol stones: Pale yellow, radiating palisade
-    * Pigment stones: Brown to black, laminated
-  * Clinical: Asymptomatic, colicky pain after meals
-* **Acute cholecystitis**
-  * Concept: Acute inflammation of gallbladder
-  * Pathogenesis: Gallstones obstruction, superimposed bacterial infections
-  * Morphology: Thickened walls, cloudy bile
-  * Clinical: Fever, RUQ pain, jaundice
-* **Chronic cholecystitis**
-  * Concept: Chronic inflammation of gallbladder
-  * Pathogenesis: Gallstones (obstruction not required)
-  * Morphology: Inflammation, Rokitansky-Aschoff sinuses
-  * Clinical: Recurrent colicky pain
-* **Primary biliary cholangitis**
-* **Primary sclerosing cholangitis**
-* **Gallbladder carcinoma**
-  * Concept: Malignant tumor from gallbladder
-  * Pathogenesis: Gallstones
-  * Morphology: Adenocarcinoma, glandular structures
-  * Clinical: Pain, jaundice
-* **Malignant biliary tumors**
-  * Concept: Malignant tumor from intrahepatic biliary tree (intrahepatic cholangiocarcinoma) or extrahepatic bile duct (biliary adenocarcinoma)
-  * Pathogenesis: Chronic inflammation of bile ducts (hepatolithiasis, primary sclerosing cholangitis, liver fluke infection)
-  * Morphology: Adenocarcinoma, glandular structures
-  * Clinical: Asymptomatic (intrahepatic), obstructive jaundice (extrahepatic)
-{: .notice--info}
-
-### Pancreas Disorders / 膵疾患
-{: .notice--info}
-
-Congenital anomaly
-Acute pancreatitis
-Chronic pancreatitis
-Congenital cyst
-Pseudocyst
-Cystic Neoplasm
-Pancreatic carcinoma
-Acinar cell carcinoma
-Pancreatoblastoma
-
-
-## Pharmacology / 薬理
-
-## Symptoms / 症候
-
-## Tests / 検査
-
-## Treatment / 治療
-
-## Esophageal Disorders / 食道疾患
-
-## Gastric and Duodenal Disorders / 胃・十二指腸潰瘍
-
-## Intestine and Anal Disorders / 腸・肛門疾患
-
-## Diaphragm and Abdominal Wall Disorders / 横隔膜・腹壁疾患
-
-## Liver Disorders / 肝疾患
-
-## Biliary System Disorders / 胆道系疾患
-
-## Pancreas Disorders / 膵疾患
-
-# Cardiovascular / 循環器
-
-## Anatomy / 解剖
-
-## Physiology / 生理
-
-## Pathology / 病理
-
-### Heart Failure / 心不全
-Left-sided heart failure \\
-Right-sided heart failure
 
 ### Ischemic Heart Disease / 虚血性心疾患
 Angina pectoris \\
@@ -562,90 +27,56 @@ Sudden cardiac death
 
 ### Valvular Heart Disease / 弁膜症
 Calcific aortic stenosis \\
-Calcific stenosis of congenitally bicuspid aortic valve \\
-Mitral annular calcification \\
 Mitral valve prolapse \\
 Rheumatic heart disease \\
 Infective endocarditis \\
-Nonbacterial thrombotic endocarditis \\
-Endocarditis of systemic lupus erythematosus \\
-Carcinoid heart disease \\
-Complications of prosthetic valves
+Nonbacterial thrombotic endocarditis
 
 ### Cardiomyopathy / 心筋症
 Dilated cardiomyopathy \\
 Hypertrophic cardiomyopathy \\
 Restrictive cardiomyopathy \\
-Arrhythmogenic cardiomyopathy \\
 Myocarditis
 
 ### Pericardial Disease / 心膜疾患
-Pericardial effusion \\
 Acute pericarditis \\
-Chronic pericarditis
+Cardiac tamponade \\
+Constrictive pericarditis
 
 ### Cardiac Tumor / 心臓腫瘍
 Myxoma \\
-Papillary fibroelastomav \\
+Papillary fibroelastoma \\
 Rhabdomyoma \\
 Metastatic tumor
 
 ### Congenital Heart Disease / 先天性心疾患
-Atrial septal defect \\
-Patent foramen ovale \\
 Ventricular septal defect \\
+Atrial septal defect \\
 Patent ductus arteriosus \\
 Tetralogy of fallot \\
 Transposition of the great arteries \\
-Truncus arteriosus \\
 Tricuspid atresia \\
 Coarctation of the aorta \\
-Pulmonary stenosis and atresia \\
-Aortic stenosis and atresia
+Pulmonary stenosis\\
+Aortic stenosis
 
-### Hypertension / 高血圧
-Hypertension \\
-Systemic hypertensive heart disease \\
-Pulmonary hypertensive heart disease
+### Heart Failure / 心不全
+Left-sided heart failure \\
+Right-sided heart failure
 
-### Arteriosclerosis / 動脈硬化症
+### Arterial Disorder / 動脈疾患
 Atherosclerosis \\
 Arteriolosclerosis \\
-Mönckeberg medial sclerosis \\
-Fibromuscular intimal hyperplasia
-
-### Aneurysm and Dissection / 動脈瘤・解離
+Mönckeberg's sclerosis \\
 Abdominal aortic aneurysm \\
 Thoracic aortic aneurysm \\
 Aortic dissection
-
-### Vascular Tumor / 血管腫瘍
-Vascular ectasias \\
-Hemangioma \\
-Lymphangioma \\
-Glomus tumor \\
-Bacillary angiomatosis \\
-Kaposi sarcoma \\
-Hemangioendothelioma \\
-Angiosarcoma
-
-### Vasculitis / 血管炎
-Giant cell arteritis \\
-Takayasu arteritis \\
-Polyarteritis nodosa \\
-Kawasaki disease \\
-Buerger disease \\
-Granulomatosis with polyangiitis \\
-Eosinophilic granulomatosis with polyangiitis \\
-Microscopic polyangiitis \\
-IgA vasculitis \\
-Infectious vasculitis
+Hypertension
 
 ### Venous Disorder / 静脈疾患
 Varicose vein \\
 Deep vein thrombosis \\
-Superior and inferior vena cava syndrome \\
-Lymphangitis \\
+Superior vena cava syndrome \\
 Lymphedema
 
 ## Pharmacology / 薬理
@@ -670,240 +101,13 @@ Lymphedema
 
 ## Blood Pressure Abnormalities / 血圧異常
 
-# Respiratory / 呼吸器
+# Respiratory Medicine / 呼吸器内科
 
 ## Anatomy / 解剖
 
 ## Physiology / 生理
 
 ## Pathology / 病理
-
-### Infectious Diseases / 感染性疾患
-* **Bacterial pneumonia**
-  * Concept: Lung bacterial infection. Can be community-acquired (often after viral infection), health care-associated, hospital-acquired, aspiration
-    * Streptococcus pneumoniae: Commonly cause community-acquired pneumonia
-    * Haemophilus influenzae: Commonly cause community-acquired pneumonia and COPD acute exaceberation
-    * Moraxella catarrhalis: Commonly cause COPD acute exaceberation
-    * Staphylococcus aureus: High incidence of complication
-    * Klebsiella pneumoniae: Commonly infect debilitated patients
-    * Pseudomonas aeruginosa: Commonly cause hospital-acquired pneumonia
-    * Legionella pneumophila: Transmitted in artificial aquatic environments, may be severe
-    * Mycoplasma pneumoniae: Commonly infect children and young adults
-  * Morphology:
-    * Lobar pneumonia: Entire lobe consolidation. Congestion, red hepatization, gray hepatization, resolution
-    * Bronchopneumonia: Patchy consolidation
-  * Clinical: Cough with sputum, fever
-* **Viral pneumonia**
-  * Concept: Lung viral infection
-    * Influenza virus: Influenza A can cause pneumonia or subsequent bacterial pneumonia
-    * Human coronavirus: SARS-CoV-2 can cause severe or fatal pneumonia
-  * Morphology: Interstitial inflammation involving alveolar walls
-  * Clinical: Fever, cough (may be absent)
-* **Lung abscess**
-  * Concept: Suppurative disease of lung
-  * Pathogenesis: Aspiration of pathogens, antecedent lung infection
-  * Morphology: Abscesses, cavitation
-  * Clinical: Cough, fever, foul-smelling sputum
-* **Chronic pneumonia**
-  * Concept: Granulomatous infection of lung
-    * Mycobacterium
-    * Histoplasma
-    * Blastomyces
-    * Coccidioides
-  * Morphology: Granulomas, yeasts 
-  * Clinical: Resolve spontaneuously or progress
-* **Pneumonia in immunocompromised host**
-  * Concept: Opportunistic infections in immonocompromised host
-    * Cytomegalovirus
-    * Pneumocystis jiroveci
-    * Aspergillus
-    * Candida
-{: .notice--info}
-
-### Obstructive Lung Diseases / 閉塞性肺疾患
-* **Overview**
-  * Increase in resistance to airflow
-  * Chronic obstructive pulmonary disease: Persistent respiratory symptoms mostly caused by smoking, include emphysema and chronic bronchitis
-* **Emphysema**
-  * Concept: Enlargement of airspaces and destruction of walls in bronchioles and alveoli
-    * Centriacinar: Involve respiratory bronchioles, associated with smoking
-    * Panacinar: Involve alveolar ducts and alveoli, associated with α1-antitrypsin deficiency
-    * Parasetpal: Involve alveoli near septa and pleura, associated with pneumothorax
-    * Irregular
-  * Pathogenesis: Toxic injury, protease-antiprotease inbalance
-  * Morphology: Abnormally large alveoli
-  * Clinical: Dyspnea
-* **Chronic bronchitis**
-  * Concept: Persistent cough with sputum production
-  * Pathogenesis: Mucus hypersecretion, CFTR dysfunction
-  * Morphology: Reid index (mucous gland thickness / whole layer thickness) increases
-  * Clinical: Persistent cough and sputum
-* **Asthma**
-  * Concept: Chronic airway inflammation, variable airway obstruction
-    * Atopic: Triggered by allergens, IgE-mediated hypersensitivity
-    * None-atopic: Triggered by virus, pollutants, cold exposure
-    * Drug-induced: Triggered by drugs (eg. aspirin)
-    * Occupational: Triggered by fumes or chemicals
-  * Pathogenesis: TH2 responses, genetic susceptibility, environmental factors
-  * Morphology: Increased eosinophils, Charcot-Leyden crystals, Curschmann spirals
-  * Clinical: Acute dyspnea and cough, chronic mild cough
-* **Bronchiectasis**
-  * Concept: Permanent dilation of bronchi and bronchioles
-  * Pathogenesis: Persistent infection (eg. tuberculosis), primary ciliary dyskinesia
-  * Morphology: Dilated airways
-  * Clinical: Severe cough and sputum (sometimes bloody)
-{: .notice--info}
-
-### Interstitial Lung Disease / 間質性肺疾患
-* **Overview**
-  * Inflammation of interstitium, restrictive lung disease
-* **Idiopathic pulmonary fibrosis (Usual interstitial pneumonia)**
-  * Concept: Progressive interstitial fibrosis and respiratory failure
-  * Pathogenesis: Unknown
-  * Morphology: Inhomogeneous in time and space, honeycomb fibrosis
-  * Clinical: Gradually increasing dypsnea and dry cough
-* **Non-specific interstitial pneumonia**
-  * Concept: Often associated with connective tissue disease
-  * Morphology: Homogeneous in time and space, cellular or fibrosing pattern
-* **Cryptogenic organizing pneomia**
-  * Concept: Often associated with infection or injury
-  * Morphology: Polyps in alveoli and bronchioles
-* **Pulmonary involvement of autoimmune disease**
-  * Concept: Involvement of rheumatoid arthritis, systemic sclerosis, or lupus erythematosus
-* **Coal worker's pneumoconiosis**
-  * Concept: Caused by inhalation of coal particles
-  * Morphology: Anthracosis, coal macules and nodules
-  * Clinical: Little decrement in lung function
-* **Silicosis**
-  * Concept: Caused by inhalation of silica
-  * Pathogenesis: Silica phagocytosed by macrophages, activate inflammation
-  * Morphology: Collagenous nodules
-  * Clinical: Varied progression, increase risk of tuberculosis and lung cancer
-* **Asbestosis**
-  * Concept: Caused by inhalation of asbestos
-  * Pathogenesis: Asbestos phagocytosed by macrophages, activate inflammation
-  * Morphology: Fibrosis, asbestos bodies
-  * Clinical: Late progression, increase risk of lung cancer and mesothelioma
-* **Drug-induced lung diseases**
-  * Concept: Caused by bleomycin, amiodarone, etc.
-* **Radiation-incuded lung diseases**
-  * Concept: Caused by radiotherapy
-* **Sarcoidosis**
-  * Concept: Systemic granulomatous disease
-  * Pathogenesis: Unknown
-  * Morphology: Non-necrotizing granulomas
-  * Clinical: diverse involvement of lung, lymph node, skin, or eye
-* **Hypersensitivity pneumonitis**
-  * Concept: Caused by inhalation of antigen
-  * Pathogenesis: Immunologic
-  * Morphology: Non-necrotizing granulomas, inflammatory infiltration
-  * Clinical: Fever, cough, dyspnea
-* **Pulmonary eosinophilia**
-  * Concept: Infiltration of eosinophils
-  * Clinical: Fever, cough, dyspnea
-* **Desquamative interstitial pneumonia**
-  * Concept: Smoking-related
-  * Morphology: Accumulation of dusty macrophages in alveoli
-* **Respiratory bronchiolitis-associated interstitial lung disease**
-  * Concept: Smoking-related
-  * Morphology: Accumulation of dusty macrophages in bronchioles
-* **Pulmonary Langerhans cell histiocytosis**
-  * Concept: Smoking-related
-  * Morphology: Collection of grooved Langerhans cells
-* **Pulmonary alveolar proteinosis**
-  * Concept: Accumulation of surfactant in alveoli
-  * Pathogenesis: Defect in macraphages GM-CSF signaling, mostly autoimmune
-  * Morphology: Accumulation of eosinophilic precipitate in alveoli
-  * Clinical: Cough, sputum, dyspnea
-* **Surfactant dysfunction disorders**
-  * Concept: Mutation in surfactant-related gene
-  * Morphology: Eosinophilic material in alveoli
-{: .notice--info}
-
-### Pulmonary Vascular Disorders / 肺循環障害
-* **Pulmonary embolism and infarction**
-  * Concept: Emboli (usually from deep vein thromboses) occlude pulmonary artery
-  * Pathogenesis: In patients with increased tendency to clot
-  * Morphology: Large emboli in pulmonary artery, hemorrhagic when infarct
-  * Clinical: Dyspnea, chest pain, shock
-* **Pulmonary hypertension**
-  * Concept: Mean pulmonary artery pressure > 25 mmHg
-  * Pathogenesis: Idiopathic (with genetic basis), left heart disease, lung disease or hypoxia, chronic pulmonary emboli
-  * Morphology: Hypertropy of pulmonary circulation arteries and right ventricle
-  * Clinical: Dyspnea, chest pain, cyanosis, right heart failure
-* **Goodpasture syndrome**
-  * Concept: Kidney and lung injuries caused by anti-glomerular basement membrane antibody
-  * Pathogenesis: Antibodieas against collagen IV α3 chain destruct basement membrane in renal glomeruli and pulmonary alveoli
-  * Morphology: Hemorrhage, hemosiderin-laden macrophages
-  * Clinical: Hemoptysis, glomerulonephritis
-* **Pulmonary edema**
-  * Concept: Excessive fluid in alveoli, lead to hypoxemia
-    * Hemodynamic disturbances: Increased hydrostatic pressure (left-sided heart failure)
-    * Microvascular injury: Inflammatory exudate (acute respiratory distress syndrome)
-{: .notice--info}
-
-### Lung Tumors / 肺腫瘍
-* **Lung carcinoma**
-  * Concept: Malignant tumor from respiratory epithelium
-  * Pathogenesis: Exposure to carcinogens leads to accumulation of driver mutations (tobacco smoking, industrial hazards, air pollution)
-  * Morphology:
-    * Adenocarcinoma: Gland formation, mucin production
-    * Squamous cell carcinoma: Keratinization, intercellular bridges
-    * Small cell carcinoma: Clusters of small cells
-    * Large cell carcinoma: Undifferentiated large cells
-  * Clinical:
-    * Symptoms: Asymptomatic, cough, chest pain, dyspnea
-    * Local effects: Hoarseness, diaphragm paralysis, pleural effusion, SVC syndrome, Pancoast syndrome
-    * Paraneoplastic syndromes: SIADH, Cushing syndrome, hypercalcemia, Lambert-Eaton syndrome
-* **Carcinoid tumors**
-  * Concept: Low-grade malignant tumor from neuroendocrine cells
-  * Morphology: Nests of relatively regular cells
-  * Clinical: Cough, carcinoid syndrome (intermittent diarrhea and flushing)
-* **Miscellaneous tumors**
-  * Concept: Benign and malignant mesenchymal tumors
-    * Hamartoma: Most common lung benign tumor
-    * Lymphangioleiomyomatosis: Mostly in women of childbearing age
-    * Inflammatory myofibroblastic tumor: Rare tumor in children
-* **Metastatic lung tumors**
-  * Concept: Lung is the most common site of metastasis
-  * Morphology: Multiple discrete nodules
-{: .notice--info}
-
-### Other Lung Disorders / その他の肺臓疾患
-* **Atelectasis**
-  * Concept: Incomplete expansion of lungs. From resorption (obstruction), compression, contraction (fibrosis)
-* **Pulmonary hypoplasia**
-  * Concept: Defect in lung development
-* **Foregut cysts**
-  * Concept: Abnormal cysts from foregut
-* **Pulmonary sequestration**
-  * Concept: Discrete area of lung tissue that (1) is not connected to airways (2) has abnormal blood supply from aorta
-* **Acute respiratory distress syndrome**
-  * Concept: Abrupt onset of pulmonary edema and hypoxemia, due to increased capillary permeability
-  * Pathogenesis: Endothelial activation, neutrophil extravasation, fluid accumulation, hyaline membrane formation. Caused by pneumonia, sepsis, oxegen therapy
-  * Morphology: Diffuse alveolar damage, hyaline membranes
-  * Clinical: Dyspnea, hypoxemia, bilateral infiltration
-* **Lung transplantation**
-  * Concept: Transplanted lung is subject to infection and rejection
-  * Morphology: Inflammatory infiltrates (acute rejection), bronchiolitis obliterans (chronic rejection)
-{: .notice--info}
-
-### Pleural Disorders / 胸膜疾患
-* **Pleural effusion**
-  * Concept: Accumulation of fliuds in pleural cavities
-    * Inflammatory: From infections, cancers, autoimmune diseases
-    * Noninflammatory: From heart failure, renal failure, cirrhosis
-* **Pneumothorax**
-  * Concept: Gas in pleural cavities. Can be spontaneous, traumatic, therapeutic
-* **Solitary fibrous tumor**
-  * Concept: Tumor in pleura
-  * Morphology: Spindle cells among fibers
-* **Malignant mesothelioma**
-  * Concept: Malignant tumor in pleural cavities
-  * Pathogenesis: Related to asbestos
-  * Morphology: Epithelioid, sarcomatoid, biphasic
-  * Clinical: Chest pain, dyspnea, pleural effusions
-{: .notice--info}
 
 ## Pharmacology / 薬理
 
@@ -933,7 +137,37 @@ Lymphedema
 
 ## Pleural and Chest Wall Disorders / 胸膜・胸壁疾患
 
-# Renal and Urological / 腎・泌尿器
+# Gastroenterology / 消化器内科
+
+## Anatomy / 解剖
+
+## Physiology / 生理
+
+## Pathology / 病理
+
+## Pharmacology / 薬理
+
+## Symptoms / 症候
+
+## Tests / 検査
+
+## Treatment / 治療
+
+## Esophageal Disorders / 食道疾患
+
+## Gastric and Duodenal Disorders / 胃・十二指腸潰瘍
+
+## Intestine and Anal Disorders / 腸・肛門疾患
+
+## Diaphragm and Abdominal Wall Disorders / 横隔膜・腹壁疾患
+
+## Liver Disorders / 肝疾患
+
+## Biliary System Disorders / 胆道系疾患
+
+## Pancreas Disorders / 膵疾患
+
+# Nephrology / 腎臓内科
 
 ## Anatomy / 解剖
 
@@ -998,7 +232,7 @@ Bile cast nephropathy \\
 
 ## Water and Electrolyte Metabolism Disorders / 水・電解質代謝異常
 
-# Metabolism and Endocrine / 代謝・内分泌
+# Endocrinology and Metabolism / 内分泌・代謝内科
 
 ## Anatomy / 解剖
 
@@ -1011,23 +245,18 @@ Pituitary adenoma \\
 Lactotroph adenoma \\
 Somatotroph adenoma \\
 Corticotroph adenoma \\
-Other pituitary adenoma \\
 Hypopituitarism \\
 Diabetes insipidus \\
-Syndrome of inappropriate ADH secretion \\
-Craniopharyngioma
+Syndrome of inappropriate ADH secretion
 
 ### Thyroid Disorder / 甲状腺疾患
-Hyperthyroidism \\
-Hypothyroidism \\
-Hashimoto thyroiditis \\
-Subacute lymphocytic thyroiditis \\
-Granulomatous thyroiditis \\
 Graves disease \\
-Diffuse nontoxic goiter \\
+Hashimoto thyroiditis \\
+Painless thyroiditis \\
+Subacute thyroiditis \\
+Simple goiter \\
 Multinodular goiter \\
 Thyroid adenoma \\
-Thyroid carcinoma \\
 Papillary carcinoma \\
 Follicular carcinoma \\
 Anaplastic carcinoma \\
@@ -1037,109 +266,47 @@ Thyroglossal duct cyst
 ### Parathyroid Disorder / 副甲状腺疾患
 Primary hyperparathyroidism \\
 Secondary hyperparathyroidism \\
-Hypoparathyroidism \\
-Pseudohypoparathyroidism
+Hypoparathyroidism
+
+### Adrenal Gland Disorder / 副腎疾患
+Hyperaldosteronism \\
+Cushing syndrome \\
+Congenital adrenal hyperplasia \\
+Acute adrenocortical insufficiency \\
+Addison disease \\
+Adrenocortical neoplasm \\
+Pheochromocytoma
 
 ### Endocrine Pancreatic Disorder / 内分泌膵臓疾患
-Diabetes mellitus \\
 Type 1 diabetes mellitus \\
 Type 2 diabetes mellitus \\
 Chronic complications of diabetes \\
 Pancreatic neuroendocrine tumor \\
 Insulinoma \\
-Gastrinoma \\
-Other pancreatic endocrine neoplasm
-
-### Adrenal Gland Disorder / 副腎疾患
-Hypercortisolism \\
-Hyperaldosteronism \\
-Congenital adrenal hyperplasia \\
-Primary acute adrenocortical insufficiency \\
-Primary chronic adrenocortical insufficiency \\
-Secondary adrenocortical insufficiency \\
-Adrenocortical neoplasm \\
-Pheochromocytoma
+Gastrinoma
 
 ### Other Endocrine Disorder / その他の内分泌疾患
 Multiple endocrine neoplasia type 1 \\
-Multiple endocrine neoplasia type 2 \\
-Pinealoma
+Multiple endocrine neoplasia type 2
 
 ## Pharmacology / 薬理
 
-### Hypothalamic Hormones / 視床下部ホルモン
-* **Somatostatin analog**
-  * Drugs: Octreotide, lanreotide
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Gonadotropin-releasing hormone agonist**
-  * Drugs: Leuprolide, triptorelin, goserelin, nafarelin, histrelin
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Gonadotropin-releasing hormone antagonist**
-  * Drugs: Cetrorelix, ganirelix, degarelix
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Dopamine agonist**
-  * Drugs: Bromocriptine, cabergoline
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-{: .notice--info}
+### Hypothalamic Hormone / 視床下部ホルモン
+Somatostatin analog: Octreotide, lanreotide \\
+Gonadotropin-releasing hormone agonist: Leuprolide, goserelin, buserelin, histrelin, nafarelin, triptorelin \\
+Gonadotropin-releasing hormone antagonist: Ganirelix, cetrorelix, degarelix \\
+Dopamine agonist: Bromocriptine, cabergoline
 
-### Anterior Pituitary Hormones / 下垂体前葉ホルモン
-* **Growth hormone**
-  * Drugs: Somatotropin
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Growth hormone receptor antagonist**
-  * Drugs: Pegvisomant
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Follicle-stimulating hormone**
-  * Drugs: Urofollitropin, follitropin alfa, menotropins
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Human chorionic gonadotropin**
-  * Drugs: Human chorionic gonadotropin
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Thyroid-stimulating hormone**
-  * Drugs: Thyrotropin alfa
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Adrenocorticotropic hormone**
-  * Drugs: Corticotropin, cosyntropin
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-{: .notice--info}
+### Anterior Pituitary Hormone / 下垂体前葉ホルモン
+Growth hormone analog: Somatropin \\
+Growth hormone receptor antagonist: Pegvisomant \\
+Follicle-stimulating hormone analog: Follitropin alfa, follitropin beta, urofollitropin, menotropin \\
+Luteinizing hormone analog: Human chorionic gonadotropin \\
 
 ### Posterior Pituitary Hormones / 下垂体後葉ホルモン
-* **Antidiuretic hormone**
-  * Drugs: Vasopressin, desmopressin
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Vasopressin receptor antagonist**
-  * Drugs: Tolvaptan, conivaptan
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-* **Oxytocin**
-  * Drugs: Oxytocin
-  * Mechanism:
-  * Indications:
-  * Toxicities:
-{: .notice--info}
+Vasopressin receptor agonist: Desmopressin, vasopressin \\
+Vasopressin receptor antagonist: Conivaptan, tolvaptan \\
+Oxytocin
 
 ### Thyroid Hormone / 甲状腺ホルモン
 Thyroid hormone: Levothyroxine, liothyronine \\
@@ -1150,7 +317,7 @@ Radioactive iodine I-131: Sodium iodide I-131
 ### Corticosteroid / 副腎皮質ホルモン
 Glucocorticoid: Hydrocortisone \\
 Mineralocorticoid: Fludrocortisone \\
-Adrenocortical antagonist: Mitotane
+Adrenocortical antagonist: Mitotane, metyrapone, ketoconazole
 
 ### Glucose Homeostasis / グルコース恒常性
 Insulin: Insulin lispro, insulin aspart, insulin glulisine / regular insulin / insulin NPH / insulin detemir, insulin glargine, insulin degludec \\
@@ -1190,7 +357,7 @@ Amylin analog: Pramlintide
 
 ## Nutritional Abnormalities / 栄養の異常
 
-# Hematology / 血液
+# Hematology and Oncology / 血液・腫瘍内科
 
 ## Anatomy / 解剖
 
@@ -1198,62 +365,313 @@ Amylin analog: Pramlintide
 
 ## Pathology / 病理
 
-### Anemia of Diminished Erythropoiesis / 産生減少性貧血
-Iron deficiency anemia \\
-Anemia of chronic disease \\
-Sideroblastic anemia \\
-Vitamin B12 deficiency anemia \\
-Folate deficiency anemia \\
-Aplastic anemia \\
-Pure red cell aplasia \\
-Myelophthisic anemia \\
-Secondary anemia
+### Nonhemolytic Anemia / 非溶血性貧血
+
+* **Iron deficiency anemia**
+  * Concept: The most common type of anemia globally, caused by inadequate iron to synthesize hemoglobin.
+  * Pathogenesis: Results from inadequate dietary intake, absorption issues, or blood loss leading to depleted iron stores and decreased hemoglobin synthesis.
+  * Morphology: Microcytic, hypochromic red blood cells.
+  * Clinical: Symptoms include fatigue, pallor, weakness, and in severe cases, spoon-shaped nails and pica.
+* **Anemia of chronic disease**
+  * Concept: Anemia associated with chronic infections, inflammatory diseases, or malignancies.
+  * Pathogenesis: Cytokines and inflammatory responses inhibit iron metabolism and erythropoiesis.
+  * Morphology: Normocytic, normochromic or slightly microcytic, hypochromic red blood cells.
+  * Clinical: Typically mild to moderate severity with symptoms overshadowed by the underlying disease.
+* **Sideroblastic anemia**
+  * Concept: Characterized by the presence of ringed sideroblasts in the bone marrow.
+  * Pathogenesis: Caused by defective protoporphyrin synthesis leading to iron-loaded mitochondria around the nucleus of developing red cells.
+  * Morphology: Presence of ring sideroblasts in the bone marrow; red blood cells may appear hypochromic and microcytic.
+  * Clinical: Symptoms include fatigue, splenomegaly, and sometimes signs of iron overload.
+* **Megaloblastic anemia (Vitamin B12 deficiency)**
+  * Concept: Anemia due to insufficient vitamin B12, crucial for DNA synthesis.
+  * Pathogenesis: Commonly due to malabsorption (e.g., pernicious anemia), dietary deficiency is rare except in strict vegetarians.
+  * Morphology: Macrocytic red blood cells with hypersegmented neutrophils.
+  * Clinical: Neurological symptoms such as numbness, tingling, and balance issues, in addition to fatigue and weakness.
+* **Megaloblastic anemia (Folate deficiency)**
+  * Concept: Caused by inadequate folate, essential for DNA and RNA synthesis.
+  * Pathogenesis: Often results from poor diet, malabsorption, or medications that interfere with folate metabolism.
+  * Morphology: Similar to vitamin B12 deficiency with macrocytic red cells.
+  * Clinical: Symptoms include fatigue, weakness, and gastrointestinal distress without the neurological symptoms seen in B12 deficiency.
+* **Aplastic anemia**
+  * Concept: A rare disorder characterized by bone marrow failure.
+  * Pathogenesis: Can be idiopathic, or due to exposure to toxins, radiation, or certain medications; immune-mediated destruction of hematopoietic cells may occur.
+  * Morphology: Pancytopenia with a hypocellular bone marrow.
+  * Clinical: Presents with symptoms of pancytopenia such as fatigue, bleeding, and increased susceptibility to infections.
+* **Pure red cell aplasia**
+  * Concept: Rare condition characterized by a severe reduction in red cell precursors in the bone marrow.
+  * Pathogenesis: Often idiopathic or associated with autoimmune disorders, lymphoproliferative disorders, or thymomas.
+  * Morphology: Normocytic, normochromic red cells, but very few reticulocytes; bone marrow shows a selective absence of red cell precursors.
+  * Clinical: Severe anemia with reticulocytopenia but normal white cell and platelet counts.
+{: .notice--info}
 
 ### Hemolytic Anemia / 溶血性貧血
-Hereditary spherocytosis \\
-Sickle cell disease \\
-α-Thalassemia \\
-β-Thalassemia \\
-Glucose-6-Phosphate Dehydrogenase Deficiency \\
-Paroxysmal nocturnal hemoglobinuria \\
-Immunohemolytic anemia
 
-### Lymphoid Neoplasm / リンパ系腫瘍
-Acute lymphoblastic leukemia \\
-Chronic lymphocytic leukemia \\
-Hairy cell leukemia \\
-Adult T-cell leukemia \\
-Mycosis fungoides / Sézary syndrome \\
-Multiple myeloma \\
-Monoclonal gammopathy of undetermined significance \\
-Waldenström macroglobulinemia
+* **Hereditary spherocytosis**
+  * Concept: A genetic disorder that causes a defect in the red blood cell membrane, leading to spherical, fragile erythrocytes.
+  * Pathogenesis: Mutations affect proteins in the RBC membrane, particularly spectrin, causing cells to lose their biconcave shape and become spherical.
+  * Morphology: Spherocytes with a loss of central pallor in the red cells.
+  * Clinical: Symptoms include anemia, jaundice, splenomegaly, and a high risk of gallstones.
+* **Thalassemia**
+  * Concept: A genetic disorder resulting in reduced or absent synthesis of one of the globin chains in hemoglobin.
+  * Pathogenesis: Mutations in the genes encoding alpha or beta globin chains lead to imbalanced globin synthesis and ineffective erythropoiesis.
+  * Morphology: Microcytic, hypochromic red cells, often with target cells and poikilocytosis.
+  * Clinical: Varies from mild anemia with minor symptoms to severe anemia requiring regular transfusions, splenomegaly, and iron overload.
+* **Sickle cell disease**
+  * Concept: A genetic disease where red blood cells assume a sickle shape under low oxygen conditions.
+  * Pathogenesis: Mutation in the beta-globin gene causes hemoglobin S (HbS), which polymerizes under low oxygen, distorting the red cell shape.
+  * Morphology: Sickled erythrocytes with elongated and pointed shapes.
+  * Clinical: Painful crises, acute chest syndrome, chronic hemolytic anemia, and potential organ damage.
+* **G6PD deficiency**
+  * Concept: A hereditary enzyme deficiency that leads to episodic hemolytic anemia.
+  * Pathogenesis: Deficiency in glucose-6-phosphate dehydrogenase, which helps protect red blood cells from oxidative damage.
+  * Morphology: Normal until exposed to oxidative stress; then bite cells and blister cells appear.
+  * Clinical: Episodes of acute hemolytic anemia triggered by infections, certain drugs, or foods like fava beans.
+* **Paroxysmal nocturnal hemoglobinuria**
+  * Concept: An acquired clonal hematopoietic disorder that leads to the increased destruction of red blood cells.
+  * Pathogenesis: Mutation in the PIGA gene, affecting the cell's ability to anchor proteins that protect against complement-mediated destruction.
+  * Morphology: Varied red cell appearance, generally normal until hemolysis occurs.
+  * Clinical: Episodic dark urine, hemoglobinuria, thrombosis, and bone marrow failure.
+* **Autoimmune hemolytic anemia**
+  * Concept: Anemia caused by autoantibodies targeting and destroying red blood cells.
+  * Pathogenesis: Immune system produces antibodies against red cell antigens, leading to their premature destruction.
+  * Morphology: Spherocytes due to partial phagocytosis by macrophages in the spleen.
+  * Clinical: Symptoms of anemia with possible jaundice; severity can range from mild to life-threatening.
+* **Microangiopathic anemia**
+  * Concept: Anemia resulting from the mechanical destruction of red blood cells as they pass through narrowed or damaged small blood vessels.
+  * Pathogenesis: Occurs in conditions like disseminated intravascular coagulation (DIC), thrombotic thrombocytopenic purpura (TTP), or hemolytic uremic syndrome (HUS).
+  * Morphology: Schistocytes (fragmented red cells) present in blood smear.
+  * Clinical: Anemia accompanied by other signs of the underlying disorder, such as thrombocytopenia, renal failure, or neurological symptoms.
+* **Macroangiopathic anemia**
+  * Concept: Anemia caused by physical trauma to red blood cells due to abnormal blood flow through large blood vessels.
+  * Pathogenesis: Typically occurs in the presence of artificial heart valves or other vascular abnormalities causing high shear stress.
+  * Morphology: Fragmented red cells and signs of hemolysis.
+  * Clinical: Symptoms of anemia and may include signs of hemolysis such as jaundice and elevated lactate dehydrogenase (LDH).
+{: .notice--info}
 
-### Myeloid Neoplasm / 骨髄系腫瘍
-Acute myeloid leukemia \\
-Chronic myeloid Leukemil \\
-Polycythemia vera \\
-Essential thrombocytosis \\
-Primary myelofibrosis \\
-Myelodysplastic syndrome \\
-Langerhans cell histiocytosis
+### Leukemia / 白血病
+
+* **Acute myeloid leukemia**
+  * Concept: A rapid-progressing form of leukemia characterized by the accumulation of immature myeloid cells in the bone marrow.
+  * Pathogenesis: Caused by mutations in the DNA of developing cells in the bone marrow, which interfere with cell maturation and lead to proliferation of immature blasts.
+  * Morphology: Presence of myeloblasts with Auer rods in the bone marrow.
+  * Clinical: Symptoms include fatigue, easy bruising and bleeding, and increased risk of infection.
+* **Acute lymphoblastic leukemia**
+  * Concept: A fast-growing type of leukemia that occurs when the bone marrow makes too many immature lymphocytes.
+  * Pathogenesis: Genetic alterations lead to the transformation of lymphoid progenitor cells into malignant lymphoblasts that proliferate rapidly.
+  * Morphology: Overproduction of lymphoblasts in bone marrow.
+  * Clinical: Presents with fever, bleeding, bone pain, and lymphadenopathy; common in children.
+* **Chronic myeloid leukemia**
+  * Concept: A type of leukemia characterized by excessive development of granulocytes in the bone marrow.
+  * Pathogenesis: Associated with the Philadelphia chromosome, resulting in the BCR-ABL fusion gene, which drives the overproduction of these cells.
+  * Morphology: Increased granulocytes in various stages of maturation; very high white blood cell counts.
+  * Clinical: Often asymptomatic in early stages; later stages include fatigue, weight loss, and splenomegaly.
+* **Chronic lymphocytic leukemia**
+  * Concept: A slow-growing leukemia that predominantly affects older adults, characterized by the accumulation of functionally incompetent lymphocytes.
+  * Pathogenesis: Usually arises from a monoclonal population of B cells that have escaped apoptosis.
+  * Morphology: Predominance of small, mature lymphocytes in peripheral blood, marrow, and lymphoid tissues.
+  * Clinical: Often asymptomatic; can present with lymphadenopathy, anemia, and susceptibility to infections.
+* **Hairy cell leukemia**
+  * Concept: A rare, slow-growing leukemia of B cells characterized by cells with hair-like projections.
+  * Pathogenesis: Malignant B cells have mutations that lead to uncontrolled growth, often involving the BRAF gene.
+  * Morphology: Unique "hairy" appearance of the leukemic cells.
+  * Clinical: Symptoms include splenomegaly, pancytopenia, and recurrent infections.
+* **Adult T-cell leukemia/lymphoma**
+  * Concept: A rare and often aggressive type of leukemia caused by human T-cell lymphotropic virus type 1 (HTLV-1).
+  * Pathogenesis: HTLV-1 integration into T-cell DNA results in clonal expansion and transformation of T-cells.
+  * Morphology: Proliferation of mature CD4+ T-cells, which can appear abnormal.
+  * Clinical: Can present with skin lesions, lymphadenopathy, hypercalcemia, and a poor prognosis depending on the subtype.
+{: .notice--info}
 
 ### Lymphoma / リンパ腫
-Diffuse large B-cell lymphoma \\
-Follicular lymphoma \\
-Marginal zone lymphomas \\
-Mantle cell lymphoma \\
-Burkitt lymphoma \\
-Peripheral T-cell lymphoma, unspecified \\
-Hodgkin lymphoma
+
+* **Hodgkin lymphoma**
+  * Concept: A type of lymphoma characterized by the presence of Reed-Sternberg cells.
+  * Pathogenesis: The exact cause is unclear, but it often involves genetic mutations and Epstein-Barr virus infection.
+  * Morphology: Presence of large, abnormal Reed-Sternberg cells within a reactive cell infiltrate.
+  * Clinical: Symptoms include painless lymphadenopathy, night sweats, fever, and weight loss.
+* **Diffuse large B-cell lymphoma**
+  * Concept: The most common form of non-Hodgkin lymphoma, characterized by rapidly growing tumors made of large B cells.
+  * Pathogenesis: Arises from genetic mutations that lead to uncontrolled B cell proliferation.
+  * Morphology: Large lymphoid cells with a diffuse growth pattern.
+  * Clinical: Rapidly enlarging lymph node or mass, often associated with systemic symptoms.
+* **Follicular lymphoma**
+  * Concept: A usually indolent non-Hodgkin lymphoma that arises from follicle center (germinal center) B cells.
+  * Pathogenesis: Frequently associated with the t(14;18) translocation involving the BCL2 gene.
+  * Morphology: Neoplastic follicles dispersed throughout affected tissues, mimicking normal lymph node architecture.
+  * Clinical: Slowly progressive lymphadenopathy, often asymptomatic for long periods.
+* **MALT lymphoma**
+  * Concept: Mucosa-associated lymphoid tissue lymphoma, often associated with chronic inflammatory diseases, such as H. pylori gastritis.
+  * Pathogenesis: Chronic inflammation leads to lymphoid proliferation and eventual lymphoma development.
+  * Morphology: Lymphoma cells infiltrate mucosal tissues forming lymphoepithelial lesions.
+  * Clinical: Depending on location, symptoms may involve pain or dysfunction of the affected organ (e.g., stomach, salivary glands).
+* **Mantle cell lymphoma**
+  * Concept: A rare, aggressive type of non-Hodgkin lymphoma characterized by small to medium-sized B cells originating from the mantle zone.
+  * Pathogenesis: Hallmarked by the t(11;14) translocation, resulting in overexpression of cyclin D1.
+  * Morphology: Monomorphic lymphocytes with irregular nuclear contours.
+  * Clinical: Presents with extensive lymphadenopathy, splenomegaly, and often bone marrow involvement.
+* **Burkitt lymphoma**
+  * Concept: A highly aggressive B-cell lymphoma associated with Epstein-Barr virus, characterized by a high degree of proliferation of the malignant cells.
+  * Pathogenesis: Characterized by translocation involving the MYC gene, leading to its overexpression.
+  * Morphology: "Starry sky" appearance due to interspersed macrophages among rapidly dividing lymphocytes.
+  * Clinical: Presents with rapidly enlarging mass, often in the abdomen or jaw; more common in children and young adults.
+* **Peripheral T-cell lymphoma, unspecified**
+  * Concept: A diverse group of aggressive lymphomas that arise from mature T cells.
+  * Pathogenesis: Lacks specific genetic abnormalities; involves various mutations leading to unchecked T-cell growth and survival.
+  * Morphology: Pleomorphic T cells with variable patterns of infiltration.
+  * Clinical: General symptoms include lymphadenopathy, skin rashes, and systemic symptoms.
+* **Mycosis fungoides / Sézary syndrome**
+  * Concept: Mycosis fungoides is a type of cutaneous T-cell lymphoma that primarily affects the skin; Sézary syndrome is the leukemic phase of this disease.
+  * Pathogenesis: Clonal expansion of malignant T cells which migrate to the skin.
+  * Morphology: Infiltration of the skin by atypical lymphocytes with cerebriform nuclei.
+  * Clinical: Mycosis fungoides presents as patches, plaques, or tumors on the skin, while Sézary syndrome includes erythroderma, lymphadenopathy, and atypical T cells in the blood.
+{: .notice--info}
+
+### Other Hematopoietic Tumors / 他の造血器腫瘍
+
+* **Myelodysplastic syndrome**
+  * Concept: A group of disorders caused by poorly formed or dysfunctional blood cells due to a disruption in the bone marrow.
+  * Pathogenesis: Typically involves genetic mutations that affect the maturation of blood cells.
+  * Morphology: Dysplasia in one or more types of blood cells; abnormal cell shapes and sizes in bone marrow.
+  * Clinical: Symptoms often include anemia, fatigue, and increased risk of infections; can progress to acute myeloid leukemia.
+* **Polycythemia vera**
+  * Concept: A blood cancer characterized by an abnormal increase in red blood cells due to overactive bone marrow.
+  * Pathogenesis: Most commonly caused by a mutation in the JAK2 gene.
+  * Morphology: Elevated red cell mass with increased hematocrit and hemoglobin levels.
+  * Clinical: Symptoms include headaches, dizziness, and a ruddy complexion; risk of thrombosis is elevated.
+* **Essential thrombocythemia**
+  * Concept: A chronic myeloproliferative disorder characterized by an excessive production of platelets.
+  * Pathogenesis: Frequently associated with mutations in the JAK2, CALR, or MPL genes.
+  * Morphology: Persistent thrombocytosis with large and morphologically abnormal platelets.
+  * Clinical: Increased risk of clotting and bleeding, headache, and visual disturbances.
+* **Primary myelofibrosis**
+  * Concept: A myeloproliferative neoplasm marked by the replacement of the bone marrow with fibrous tissue.
+  * Pathogenesis: Involves mutations in JAK2, CALR, or MPL that lead to abnormal proliferation of marrow fibroblasts.
+  * Morphology: Bone marrow fibrosis with extramedullary hematopoiesis.
+  * Clinical: Anemia, splenomegaly, fatigue, and fullness in the abdomen.
+* **Multiple myeloma**
+  * Concept: A cancer of plasma cells that produce abnormal antibodies.
+  * Pathogenesis: Characterized by clonal proliferation of malignant plasma cells in bone marrow.
+  * Morphology: Plasma cells with atypical morphology in bone marrow; presence of monoclonal protein in serum or urine.
+  * Clinical: Bone pain, renal failure, hypercalcemia, and anemia.
+* **MGUS**
+  * Concept: A precursor condition to multiple myeloma characterized by the presence of abnormal plasma cells and a monoclonal protein in the blood.
+  * Pathogenesis: The cause is not well understood; does not always progress to myeloma.
+  * Morphology: Presence of monoclonal protein in serum without other features of plasma cell neoplasms.
+  * Clinical: Usually asymptomatic; detected incidentally during blood tests.
+* **Waldenström macroglobulinemia**
+  * Concept: A rare type of cancer involving the production of large amounts of macroglobulin antibody by B cells.
+  * Pathogenesis: Lymphoplasmacytic lymphoma producing IgM monoclonal protein.
+  * Morphology: Infiltration of the bone marrow with small lymphocytes and plasma cells.
+  * Clinical: Symptoms include hyperviscosity, leading to neurological symptoms and bleeding.
+* **Langerhans cell histiocytosis**
+  * Concept: A disorder characterized by the proliferation of Langerhans cells, which are specialized dendritic cells.
+  * Pathogenesis: May be a reactive or neoplastic process, often involving mutations in the BRAF gene.
+  * Morphology: Accumulation and infiltration of Langerhans cells with eosinophilic granuloma formation.
+  * Clinical: Can present as bone lesions, skin rash, or pulmonary disease, depending on the extent of the disease.
+* **Hemophagocytic syndrome**
+  * Concept: A severe, often fatal syndrome characterized by excessive activation of macrophages and T cells leading to cytokine overproduction and widespread tissue damage.
+  * Pathogenesis: Can be primary (genetic) or secondary to infections, malignancies, or autoimmune diseases.
+  * Morphology: Evidence of hemophagocytosis in bone marrow or other tissues.
+  * Clinical: High fevers, cytopenias, hepatosplenomegaly, and neurological symptoms.
+{: .notice--info}
+
+### Other Hematopoietic Tumors / 他の造血器腫瘍
+
+* **Myelodysplastic syndrome**
+  * Concept: A group of disorders caused by poorly formed or dysfunctional blood cells due to a disruption in the bone marrow.
+  * Pathogenesis: Typically involves genetic mutations that affect the maturation of blood cells.
+  * Morphology: Dysplasia in one or more types of blood cells; abnormal cell shapes and sizes in bone marrow.
+  * Clinical: Symptoms often include anemia, fatigue, and increased risk of infections; can progress to acute myeloid leukemia.
+* **Polycythemia vera**
+  * Concept: A blood cancer characterized by an abnormal increase in red blood cells due to overactive bone marrow.
+  * Pathogenesis: Most commonly caused by a mutation in the JAK2 gene.
+  * Morphology: Elevated red cell mass with increased hematocrit and hemoglobin levels.
+  * Clinical: Symptoms include headaches, dizziness, and a ruddy complexion; risk of thrombosis is elevated.
+* **Essential thrombocythemia**
+  * Concept: A chronic myeloproliferative disorder characterized by an excessive production of platelets.
+  * Pathogenesis: Frequently associated with mutations in the JAK2, CALR, or MPL genes.
+  * Morphology: Persistent thrombocytosis with large and morphologically abnormal platelets.
+  * Clinical: Increased risk of clotting and bleeding, headache, and visual disturbances.
+* **Primary myelofibrosis**
+  * Concept: A myeloproliferative neoplasm marked by the replacement of the bone marrow with fibrous tissue.
+  * Pathogenesis: Involves mutations in JAK2, CALR, or MPL that lead to abnormal proliferation of marrow fibroblasts.
+  * Morphology: Bone marrow fibrosis with extramedullary hematopoiesis.
+  * Clinical: Anemia, splenomegaly, fatigue, and fullness in the abdomen.
+* **Multiple myeloma**
+  * Concept: A cancer of plasma cells that produce abnormal antibodies.
+  * Pathogenesis: Characterized by clonal proliferation of malignant plasma cells in bone marrow.
+  * Morphology: Plasma cells with atypical morphology in bone marrow; presence of monoclonal protein in serum or urine.
+  * Clinical: Bone pain, renal failure, hypercalcemia, and anemia.
+* **MGUS**
+  * Concept: A precursor condition to multiple myeloma characterized by the presence of abnormal plasma cells and a monoclonal protein in the blood.
+  * Pathogenesis: The cause is not well understood; does not always progress to myeloma.
+  * Morphology: Presence of monoclonal protein in serum without other features of plasma cell neoplasms.
+  * Clinical: Usually asymptomatic; detected incidentally during blood tests.
+* **Waldenström macroglobulinemia**
+  * Concept: A rare type of cancer involving the production of large amounts of macroglobulin antibody by B cells.
+  * Pathogenesis: Lymphoplasmacytic lymphoma producing IgM monoclonal protein.
+  * Morphology: Infiltration of the bone marrow with small lymphocytes and plasma cells.
+  * Clinical: Symptoms include hyperviscosity, leading to neurological symptoms and bleeding.
+* **Langerhans cell histiocytosis**
+  * Concept: A disorder characterized by the proliferation of Langerhans cells, which are specialized dendritic cells.
+  * Pathogenesis: May be a reactive or neoplastic process, often involving mutations in the BRAF gene.
+  * Morphology: Accumulation and infiltration of Langerhans cells with eosinophilic granuloma formation.
+  * Clinical: Can present as bone lesions, skin rash, or pulmonary disease, depending on the extent of the disease.
+* **Hemophagocytic syndrome**
+  * Concept: A severe, often fatal syndrome characterized by excessive activation of macrophages and T cells leading to cytokine overproduction and widespread tissue damage.
+  * Pathogenesis: Can be primary (genetic) or secondary to infections, malignancies, or autoimmune diseases.
+  * Morphology: Evidence of hemophagocytosis in bone marrow or other tissues.
+  * Clinical: High fevers, cytopenias, hepatosplenomegaly, and neurological symptoms.
+{: .notice--info}
 
 ### Bleeding Disorder / 出血性疾患
-Immune thrombocytopenic purpura \\
-Thrombocytopenic purpura \\
-Hemolytic uremic syndrome \\
-Von Willebrand disease \\
-Hemophilia \\
-Vitamin K deficiency \\
-Disseminated intravascular coagulation
+
+* **Immune thrombocytopenic purpura**
+  * Concept: An autoimmune disorder characterized by the destruction of platelets by antibodies, leading to bleeding and easy bruising.
+  * Pathogenesis: Autoantibodies target platelet antigens, leading to their destruction in the spleen.
+  * Morphology: Low platelet count with otherwise normal appearing platelets and bone marrow.
+  * Clinical: Presents with petechiae, bruising, bleeding gums, and in severe cases, internal bleeding.
+* **Thrombotic thrombocytopenic purpura**
+  * Concept: A rare disorder that causes blood clots to form in small blood vessels throughout the body, leading to low platelet counts.
+  * Pathogenesis: Deficiency or inhibition of ADAMTS13 (a von Willebrand factor-cleaving protease), leading to unusually large von Willebrand factor multimers that promote clotting.
+  * Morphology: Thrombocytopenia and schistocytes (fragmented red cells) seen on blood smear.
+  * Clinical: Symptoms include microangiopathic hemolytic anemia, renal failure, fever, and neurological symptoms.
+* **Hemolytic uremic syndrome**
+  * Concept: Typically follows an infection, particularly by E. coli O157:H7, leading to acute renal failure, hemolytic anemia, and thrombocytopenia.
+  * Pathogenesis: Destruction of red blood cells, damage to kidney vessels, and low platelets due to toxins released by bacteria.
+  * Morphology: Presence of schistocytes on blood smear, loss of renal function.
+  * Clinical: Symptoms include bloody diarrhea, reduced urine output, pallor, and fatigue.
+* **Disseminated intravascular coagulation**
+  * Concept: A complex disorder that involves the overactivation of blood clotting in the small blood vessels, leading to widespread clots and bleeding due to consumption of clotting factors.
+  * Pathogenesis: Triggered by severe infections, trauma, cancer, or obstetric complications.
+  * Morphology: Presence of microthrombi in various organs and consumption of platelets and coagulation factors.
+  * Clinical: Simultaneous bleeding and clotting, organ failure, shock.
+* **Vitamin K deficiency**
+  * Concept: Vitamin K is essential for the synthesis of several clotting factors; deficiency leads to impaired clotting and bleeding.
+  * Pathogenesis: Can occur due to inadequate dietary intake, malabsorption, or interference by medications like antibiotics or anticoagulants.
+  * Morphology: Prolongation of prothrombin time and decreased levels of vitamin K-dependent clotting factors.
+  * Clinical: Easy bruising, bleeding gums, nosebleeds, and other bleeding manifestations.
+* **Hemophilia**
+  * Concept: A genetic disorder where blood doesn't clot normally due to deficiency or dysfunction of clotting factors (Factor VIII in Hemophilia A, Factor IX in Hemophilia B).
+  * Pathogenesis: X-linked recessive disorder predominantly affecting males.
+  * Morphology: Prolonged clotting times and reduced levels of specific clotting factors.
+  * Clinical: Recurrent and prolonged bleeding, especially into joints and muscles; severity varies based on factor levels.
+* **Von Willebrand disease**
+  * Concept: The most common hereditary bleeding disorder, caused by a deficiency or dysfunction of von Willebrand factor (vWF), which helps platelets to stick to injured blood vessel walls and binds factor VIII.
+  * Pathogenesis: Hereditary; types vary by vWF levels and function.
+  * Morphology: Reduced vWF antigen and activity; normal or near-normal platelet count.
+  * Clinical: Mucosal bleeding, easy bruising, excessive menstrual bleeding.
+* **Bernard-Soulier syndrome**
+  * Concept: A rare inherited disorder characterized by a deficiency of glycoprotein Ib, the receptor for vWF, leading to large but dysfunctional platelets.
+  * Pathogenesis: Genetic mutations affect platelet adhesion.
+  * Morphology: Large platelets and reduced platelet count.
+  * Clinical: Severe bleeding, typically presenting in infancy or early childhood.
+* **Glanzmann Thrombasthenia**
+  * Concept: A rare genetic platelet disorder where the platelet glycoprotein IIb/IIIa complex, necessary for platelet aggregation, is either absent or dysfunctional.
+  * Pathogenesis: Autosomal recessive inheritance of mutations in the genes encoding the glycoprotein complex.
+  * Morphology: Normal platelet count but impaired function.
+  * Clinical: Symptoms include mucocutaneous bleeding such as from the gums, nose, and gastrointestinal tract.
+{: .notice--info}
 
 ## Pharmacology / 薬理
 
@@ -1269,13 +687,38 @@ Disseminated intravascular coagulation
 
 ## Hemostasis and Coagulation Abnormalities / 止血・凝固系の異常
 
-# Immune and Connective Tissue Diseases / 免疫・膠原病
+# Rheumatology and Immunology / 免疫・膠原病内科
 
 ## Immunology / 免疫学
 
 ## Pathology / 病理
 
+### Vasculitis / 血管炎
+Giant cell arteritis \\
+Takayasu arteritis \\
+Polyarteritis nodosa \\
+Kawasaki disease \\
+Buerger disease \\
+Granulomatosis with polyangiitis \\
+Eosinophilic granulomatosis with polyangiitis \\
+Microscopic polyangiitis \\
+IgA vasculitis \\
+Infectious vasculitis
+
 ## Pharmacology / 薬理
+
+### Immunosuppressant / 免疫抑制剤
+Calcineurin inhibitor: Cyclosporine, tacrolimus \\
+mTOR inhibitor: Sirolimus \\
+Antimetabolite: Azathioprine, leflunomide, mycophenolate mofetil \\
+JAK inhibitor: Tofacitinib \\
+TNFα inhibitor: Infiliximab, adalimumab, certolizumab, golimumab, etanercept \\
+IL-1 receptor antogonist: Anakinra \\
+IL-6 receptor antagonist: Tocilizumab \\
+T-cell constimulation blocker: Abatacept \\
+IL-2 receptor antagonist: Basiliximab \\
+Anti-integrin: Natalizumab \\
+
 
 ### Glucocorticoid / 糖質コルチコイド
 Glucocorticoid: Hydrocortisone, cortisone, prednisolone, methylprednisolone, triamcinolone, betamethasone, dexamethasone
@@ -1292,7 +735,7 @@ Glucocorticoid: Hydrocortisone, cortisone, prednisolone, methylprednisolone, tri
 
 ## Connective Tissue Disease / 膠原病
 
-# Infectious Diseases / 感染症
+# Infectious Diseases / 感染症内科
 
 ## Microbiology / 微生物学
 
@@ -1314,7 +757,7 @@ Glucocorticoid: Hydrocortisone, cortisone, prednisolone, methylprednisolone, tri
 
 ## Parasitic Infections / 寄生虫感染症
 
-# Neurology / 神経
+# Neurology / 神経内科
 
 ## Anatomy / 解剖
 
@@ -1354,11 +797,11 @@ Glucocorticoid: Hydrocortisone, cortisone, prednisolone, methylprednisolone, tri
 
 ## Malformations / 奇形
 
-# Pediatrics / 小児科
+# Ophthalmology / 眼科
 
-## Biochemistry / 生化学
+## Anatomy / 解剖
 
-## Embryology / 発生学
+## Physiology / 生理
 
 ## Pathology / 病理
 
@@ -1370,68 +813,55 @@ Glucocorticoid: Hydrocortisone, cortisone, prednisolone, methylprednisolone, tri
 
 ## Treatment / 治療
 
-## Neonates / 新生児
+## Refractive and accommodative abnormalities / 屈折・調節異常
 
-## Congenital abnormalities / 先天異常
+## Eyelid and lacrimal system disorders / 眼瞼・涙器疾患
 
-## Gastrointestinal disorders / 消化器疾患
+## Conjunctival, corneal, and scleral disorders / 結膜・角膜・強膜疾患
 
-## Cardiovascular disorders / 循環器疾患
+## Uveal disorders / ぶどう膜疾患
 
-## Respiratory disorders / 呼吸器疾患
+## Retinal and vitreous disorders / 網膜・硝子体疾患
 
-## Renal and urological disorders / 腎・泌尿器疾患
+## Optic nerve disorders / 視神経疾患
 
-## Metabolic and endocrine disorders / 代謝・内分泌疾患
+## Lens disorders / 水晶体疾患
 
-## Hematological and hematopoietic disorders / 血液・造血器疾患
+## Glaucoma / 緑内障
 
-## Immune and allergic disorders / 免疫・アレルギー疾患
+## Ocular trauma / 眼外傷
 
-## Infectious diseases / 感染症
+# Otolaryngology / 耳鼻咽喉科
+
+## Anatomy / 解剖
+
+## Physiology / 生理
+
+## Pathology / 病理
+
+## Pharmacology / 薬理
+
+## Symptoms / 症候
+
+## Tests / 検査
+
+## Treatment / 治療
+
+## Inner ear disorders / 内耳疾患
+
+## Middle ear disorders / 中耳疾患
+
+## Outer ear disorders / 外耳疾患
 
 ## Neurological disorders / 神経疾患
 
-## Tumors / 腫瘍
+## Nasal and sinus disorders / 鼻腔・副鼻腔疾患
 
-# Gynecology / 婦人科
+## Oral, tonsil, and salivary gland disorders / 口腔・扁桃・唾液腺疾患
 
-## Anatomy / 解剖
+## Pharyngeal and laryngeal disorders / 咽頭・喉頭疾患
 
-## Physiology / 生理
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-### Gonadal Hormones /  生殖腺ホルモン
-Estrogen: Estradiol, estradiol cypionate, estradiol valerate, ethinyl estradiol \\
-Progestin: Progesterone, medroxyprogesterone acetate, norethindrone, levonorgestrel, megestrol \\
-Selective estrogen receptor modulator: Clomiphene \\
-Pituitary gonadotropin inhibitor: Danazol \\
-Progestational antagonist: Mifepristone
-
-## Symptoms / 症候
-
-## Tests / 検査
-
-## Treatment / 治療
-
-## Menstrual abnormalities / 月経の異常
-
-## Abnormalities in sexual differentiation and genital morphology / 性分化と性器形態の異常
-
-## Genital inflammation and sexually transmitted infections / 性器の炎症・性感染症
-
-## Infertility / 不妊
-
-## Age-related changes / 加齢に伴う変化
-
-## Benign tumors, pre-cancerous lesions, and neoplasms / 類腫瘍病変・前癌病変・腫瘍
-
-## Breast disorders / 乳腺疾患
-
-# Obstetrics / 産科
+# Dermatology / 皮膚科
 
 ## Anatomy / 解剖
 
@@ -1441,32 +871,8 @@ Progestational antagonist: Mifepristone
 
 ## Pharmacology / 薬理
 
-## Symptoms / 症候
-
-## Tests / 検査
-
-## Treatment / 治療
-
-## Abnormalities in pregnancy / 妊娠の異常
-
-## Complicated pregnancies and mother-child infections / 合併症妊娠・母子感染
-
-## Abnormalities in childbirth / 分娩の異常
-
-## Postpartum period / 産褥
-
-# Urology / 泌尿器科
-
-## Anatomy / 解剖
-
-## Physiology / 生理
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-### Gonadal Hormone /  生殖腺ホルモン
-Androgen: Testosterone, testosterone enanthate, testosterone cypionate, methyltestosterone, fluoxymesterone, oxymetholone, nandrolone, oxandrolone \\
-5α-Reductase inhibitor: Finasteride, dutasteride
+### Retinoic Acid Derivative / レチノイド
+Retinoic acid: Tretinoin, isotretinoin, adapaline, acitretin, tazarotene
 
 ## Symptoms / 症候
 
@@ -1474,15 +880,29 @@ Androgen: Testosterone, testosterone enanthate, testosterone cypionate, methylte
 
 ## Treatment / 治療
 
-## Infections / 感染症
+## Eczema and dermatitis group / 湿疹・皮膚炎群
 
-## Tumors / 腫瘍
+## Urticaria and itching group / 蕁麻疹・掻痒群
 
-## Male Genital Disorders / 男性器疾患
+## Erythema / 紅斑症
 
-## Sexual Dysfunction / 性機能障害
+## Bullous diseases / 水疱症
 
-# Orthopedics / 整形外科
+## Pustular diseases / 膿疱症
+
+## Pigmentation disorders / 色素異常症
+
+## Nevus / 母斑症
+
+## Keratosis disorders / 角化異常
+
+## Benign tumors / 良性腫瘍
+
+## Malignant tumors / 悪性腫瘍
+
+## Metabolic disorders / 代謝異常
+
+# Orthopedic Surgery / 整形外科
 
 ## Anatomy / 解剖
 
@@ -1526,11 +946,82 @@ Calcium supplement: Calcium
 
 ## Tumors / 腫瘍
 
-# Ophthalmology / 眼科
+# Urology / 泌尿器科
 
 ## Anatomy / 解剖
 
 ## Physiology / 生理
+
+## Pathology / 病理
+
+## Pharmacology / 薬理
+
+### Gonadal Hormone /  生殖腺ホルモン
+Androgen: Testosterone, testosterone enanthate, testosterone cypionate, methyltestosterone, fluoxymesterone, oxymetholone, nandrolone, oxandrolone \\
+5α-Reductase inhibitor: Finasteride, dutasteride
+
+## Symptoms / 症候
+
+## Tests / 検査
+
+## Treatment / 治療
+
+## Infections / 感染症
+
+## Tumors / 腫瘍
+
+## Male Genital Disorders / 男性器疾患
+
+## Sexual Dysfunction / 性機能障害
+
+# Obstetrics and Gynecology / 産科婦人科
+
+## Anatomy / 解剖
+
+## Physiology / 生理
+
+## Pathology / 病理
+
+## Pharmacology / 薬理
+
+### Gonadal Hormones /  生殖腺ホルモン
+Estrogen: Estradiol, estradiol cypionate, estradiol valerate, ethinyl estradiol \\
+Progestin: Progesterone, medroxyprogesterone acetate, norethindrone, levonorgestrel, megestrol \\
+Selective estrogen receptor modulator: Clomiphene \\
+Pituitary gonadotropin inhibitor: Danazol \\
+Progestational antagonist: Mifepristone
+
+## Symptoms / 症候
+
+## Tests / 検査
+
+## Treatment / 治療
+
+## Menstrual abnormalities / 月経の異常
+
+## Abnormalities in sexual differentiation and genital morphology / 性分化と性器形態の異常
+
+## Genital inflammation and sexually transmitted infections / 性器の炎症・性感染症
+
+## Infertility / 不妊
+
+## Age-related changes / 加齢に伴う変化
+
+## Benign tumors, pre-cancerous lesions, and neoplasms / 類腫瘍病変・前癌病変・腫瘍
+
+## Abnormalities in pregnancy / 妊娠の異常
+
+## Complicated pregnancies and mother-child infections / 合併症妊娠・母子感染
+
+## Abnormalities in childbirth / 分娩の異常
+
+## Postpartum period / 産褥
+
+# Pediatrics / 小児科
+
+## Embryology / 発生学
+
+## Biochemistry / 生化学
 
 ## Pathology / 病理
 
@@ -1542,111 +1033,34 @@ Calcium supplement: Calcium
 
 ## Treatment / 治療
 
-## Refractive and accommodative abnormalities / 屈折・調節異常
+## Neonates / 新生児
 
-## Eyelid and lacrimal system disorders / 眼瞼・涙器疾患
+## Congenital abnormalities / 先天異常
 
-## Conjunctival, corneal, and scleral disorders / 結膜・角膜・強膜疾患
+## Gastrointestinal disorders / 消化器疾患
 
-## Uveal disorders / ぶどう膜疾患
+## Cardiovascular disorders / 循環器疾患
 
-## Retinal and vitreous disorders / 網膜・硝子体疾患
+## Respiratory disorders / 呼吸器疾患
 
-## Optic nerve disorders / 視神経疾患
+## Renal and urological disorders / 腎・泌尿器疾患
 
-## Lens disorders / 水晶体疾患
+## Metabolic and endocrine disorders / 代謝・内分泌疾患
 
-## Glaucoma / 緑内障
+## Hematological and hematopoietic disorders / 血液・造血器疾患
 
-## Ocular trauma / 眼外傷
+## Immune and allergic disorders / 免疫・アレルギー疾患
 
-# Otorhinolaryngology / 耳鼻咽喉科
-
-## Anatomy / 解剖
-
-## Physiology / 生理
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-## Symptoms / 症候
-
-## Tests / 検査
-
-## Treatment / 治療
-
-## Inner ear disorders / 内耳疾患
-
-## Middle ear disorders / 中耳疾患
-
-## Outer ear disorders / 外耳疾患
+## Infectious diseases / 感染症
 
 ## Neurological disorders / 神経疾患
 
-## Nasal and sinus disorders / 鼻腔・副鼻腔疾患
-
-## Oral, tonsil, and salivary gland disorders / 口腔・扁桃・唾液腺疾患
-
-## Pharyngeal and laryngeal disorders / 咽頭・喉頭疾患
-
-# Dermatology / 皮膚科
-
-## Anatomy / 解剖
-
-## Physiology / 生理
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-## Symptoms / 症候
-
-## Tests / 検査
-
-## Treatment / 治療
-
-## Eczema and dermatitis group / 湿疹・皮膚炎群
-
-## Urticaria and itching group / 蕁麻疹・掻痒群
-
-## Erythema / 紅斑症
-
-## Bullous diseases / 水疱症
-
-## Pustular diseases / 膿疱症
-
-## Pigmentation disorders / 色素異常症
-
-## Nevus / 母斑症
-
-## Keratosis disorders / 角化異常
-
-## Benign tumors / 良性腫瘍
-
-## Malignant tumors / 悪性腫瘍
-
-## Metabolic disorders / 代謝異常
+## Tumors / 腫瘍
 
 # Psychiatry / 精神科
 
-## Behavior Science / 行動科学
+# Anesthesiology / 麻酔科
 
-## Pharmacology / 薬理
+# Radiology / 放射線科
 
-## Symptoms / 症候
-
-## Tests / 検査
-
-## Treatment / 治療
-
-## Neurotic disorders / 神経症性障害
-
-## Mood disorders and schizophrenia / 気分障害・統合失調症
-
-## Substance-related disorders / 物質関連障害
-
-## Physiological disorders / 生理的障害
-
-## Neurodevelopmental disorders / 神経発達症群
-
+# Emergency Medicine / 救急科

@@ -506,6 +506,50 @@ void bfs(int v) {
     }
 }
 ```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> vis(N), ans;
+
+void dfs(int v) {
+    vis[v] = 1;
+    for (int u : adj[v]) {
+        if (!vis[u])
+            dfs(u);
+    }
+    ans.push_back(v);
+}
+
+void topological_sort(int n) {
+    for (int i=0; i<n; ++i) {
+        if (!vis[i])
+            dfs(i);
+    }
+    reverse(ans.begin(), ans.end());
+}
+```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> par(N), ans;
+
+pair<int, int> dfs(int v, int p, int d) {
+    par[v] = p;
+    pair<int, int> res{d, v};
+    for (int u : adj[v]) {
+        if (u!=p)
+            res = max(res, dfs(u, v, d+1));
+    }
+    return res;
+}
+
+void tree_diameter(int n) {
+    int s = dfs(0, -1, 0).second;
+    int t = dfs(s, -1, 0).second;
+    while (t!=-1) {
+        ans.push_back(t);
+        t = par[t];
+    }
+}
+```
 
 ### Connected Component / 連結成分
 ```cpp
