@@ -575,55 +575,6 @@ Amylin analog: Pramlintide
   * Clinical: High fevers, cytopenias, hepatosplenomegaly, and neurological symptoms.
 {: .notice--info}
 
-### Other Hematopoietic Tumors / 他の造血器腫瘍
-
-* **Myelodysplastic syndrome**
-  * Concept: A group of disorders caused by poorly formed or dysfunctional blood cells due to a disruption in the bone marrow.
-  * Pathogenesis: Typically involves genetic mutations that affect the maturation of blood cells.
-  * Morphology: Dysplasia in one or more types of blood cells; abnormal cell shapes and sizes in bone marrow.
-  * Clinical: Symptoms often include anemia, fatigue, and increased risk of infections; can progress to acute myeloid leukemia.
-* **Polycythemia vera**
-  * Concept: A blood cancer characterized by an abnormal increase in red blood cells due to overactive bone marrow.
-  * Pathogenesis: Most commonly caused by a mutation in the JAK2 gene.
-  * Morphology: Elevated red cell mass with increased hematocrit and hemoglobin levels.
-  * Clinical: Symptoms include headaches, dizziness, and a ruddy complexion; risk of thrombosis is elevated.
-* **Essential thrombocythemia**
-  * Concept: A chronic myeloproliferative disorder characterized by an excessive production of platelets.
-  * Pathogenesis: Frequently associated with mutations in the JAK2, CALR, or MPL genes.
-  * Morphology: Persistent thrombocytosis with large and morphologically abnormal platelets.
-  * Clinical: Increased risk of clotting and bleeding, headache, and visual disturbances.
-* **Primary myelofibrosis**
-  * Concept: A myeloproliferative neoplasm marked by the replacement of the bone marrow with fibrous tissue.
-  * Pathogenesis: Involves mutations in JAK2, CALR, or MPL that lead to abnormal proliferation of marrow fibroblasts.
-  * Morphology: Bone marrow fibrosis with extramedullary hematopoiesis.
-  * Clinical: Anemia, splenomegaly, fatigue, and fullness in the abdomen.
-* **Multiple myeloma**
-  * Concept: A cancer of plasma cells that produce abnormal antibodies.
-  * Pathogenesis: Characterized by clonal proliferation of malignant plasma cells in bone marrow.
-  * Morphology: Plasma cells with atypical morphology in bone marrow; presence of monoclonal protein in serum or urine.
-  * Clinical: Bone pain, renal failure, hypercalcemia, and anemia.
-* **MGUS**
-  * Concept: A precursor condition to multiple myeloma characterized by the presence of abnormal plasma cells and a monoclonal protein in the blood.
-  * Pathogenesis: The cause is not well understood; does not always progress to myeloma.
-  * Morphology: Presence of monoclonal protein in serum without other features of plasma cell neoplasms.
-  * Clinical: Usually asymptomatic; detected incidentally during blood tests.
-* **Waldenström macroglobulinemia**
-  * Concept: A rare type of cancer involving the production of large amounts of macroglobulin antibody by B cells.
-  * Pathogenesis: Lymphoplasmacytic lymphoma producing IgM monoclonal protein.
-  * Morphology: Infiltration of the bone marrow with small lymphocytes and plasma cells.
-  * Clinical: Symptoms include hyperviscosity, leading to neurological symptoms and bleeding.
-* **Langerhans cell histiocytosis**
-  * Concept: A disorder characterized by the proliferation of Langerhans cells, which are specialized dendritic cells.
-  * Pathogenesis: May be a reactive or neoplastic process, often involving mutations in the BRAF gene.
-  * Morphology: Accumulation and infiltration of Langerhans cells with eosinophilic granuloma formation.
-  * Clinical: Can present as bone lesions, skin rash, or pulmonary disease, depending on the extent of the disease.
-* **Hemophagocytic syndrome**
-  * Concept: A severe, often fatal syndrome characterized by excessive activation of macrophages and T cells leading to cytokine overproduction and widespread tissue damage.
-  * Pathogenesis: Can be primary (genetic) or secondary to infections, malignancies, or autoimmune diseases.
-  * Morphology: Evidence of hemophagocytosis in bone marrow or other tissues.
-  * Clinical: High fevers, cytopenias, hepatosplenomegaly, and neurological symptoms.
-{: .notice--info}
-
 ### Bleeding Disorder / 出血性疾患
 
 * **Immune thrombocytopenic purpura**
@@ -692,6 +643,23 @@ Amylin analog: Pramlintide
 ## Immunology / 免疫学
 
 ## Pathology / 病理
+
+### Immunodeficiency / 免疫不全
+Severe combined immunodeficiency \\
+DiGeorge syndrome \\
+Wiskott-Aldrich syndrome \\
+Ataxia telangiectasia \\
+X-linked agammaglobulinemia \\
+Hyper-IgM syndrome \\
+Chédiak-Higashi syndrome \\
+Chronic granulomatous disease \\
+
+### Allergy / アレルギー
+Food allergy \\
+Drug allergy \\
+Anaphylaxis \\
+Stevens-Johnson syndrome \\
+Serum sickness
 
 ### Vasculitis / 血管炎
 Giant cell arteritis \\

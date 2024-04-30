@@ -474,79 +474,40 @@ int query(int l, int r, int n) {
 ### Graph Traversal / グラフ探索
 ```cpp
 vector<vector<int>> adj(N);
-vector<bool> vis(N);
+vector<int> vis(N), dis(N, INF), par(N, -1);
 
-void dfs(int v) {
-    vis[v] = true;
-    "<visit v>";
+void dfs(int v, int d, int p) {
+    vis[v] = 1;
+    dis[v] = d;
+    par[v] = p;
     for (int u : adj[v]) {
-        if (!vis[u])
-            dfs(u);
-    }
-}
-```
-```cpp
-vector<vector<int>> adj(N);
-vector<bool> vis(N);
-
-void bfs(int v) {
-    queue<int> q;
-    q.push(v);
-    vis[v] = true;
-    while (!q.empty()) {
-        v = q.front();
-        q.pop();
-        "<visit v>";
-        for (int u : adj[v]) {
-            if (!vis[u]) {
-                q.push(u);
-                vis[u] = true;
-            }
+        if (!vis[u]) {
+            dfs(u, d+1, v);
         }
     }
 }
 ```
 ```cpp
 vector<vector<int>> adj(N);
-vector<int> vis(N), ans;
+vector<int> vis(N), dis(N, INF), par(N, -1);
 
-void dfs(int v) {
+void bfs(int v) {
+    queue<int> q;
     vis[v] = 1;
-    for (int u : adj[v]) {
-        if (!vis[u])
-            dfs(u);
-    }
-    ans.push_back(v);
-}
-
-void topological_sort(int n) {
-    for (int i=0; i<n; ++i) {
-        if (!vis[i])
-            dfs(i);
-    }
-    reverse(ans.begin(), ans.end());
-}
-```
-```cpp
-vector<vector<int>> adj(N);
-vector<int> par(N), ans;
-
-pair<int, int> dfs(int v, int p, int d) {
-    par[v] = p;
-    pair<int, int> res{d, v};
-    for (int u : adj[v]) {
-        if (u!=p)
-            res = max(res, dfs(u, v, d+1));
-    }
-    return res;
-}
-
-void tree_diameter(int n) {
-    int s = dfs(0, -1, 0).second;
-    int t = dfs(s, -1, 0).second;
-    while (t!=-1) {
-        ans.push_back(t);
-        t = par[t];
+    dis[v] = 0;
+    par[v] = -1;
+    q.push(v);
+    while (!q.empty()) {
+        int v = q.front();
+        q.pop();
+        for (int u : adj[v]) {
+            if (!vis[u]) {
+                vis[u] = 1;
+                dis[u] = dis[v] + 1;
+                par[u] = v;
+                q.push(u);
+            }
+        }
     }
 }
 ```
@@ -1133,6 +1094,54 @@ int lca(int a, int b) {
 }
 ```
 
+### Miscellaneous / その他
+```cpp
+vector<vector<int>> adj(N);
+vector<int> vis(N), ans;
+
+void dfs(int v) {
+    vis[v] = 1;
+    for (int u : adj[v]) {
+        if (!vis[u])
+            dfs(u);
+    }
+    ans.push_back(v);
+}
+
+void topological_sort(int n) {
+    for (int i=0; i<n; ++i) {
+        if (!vis[i])
+            dfs(i);
+    }
+    reverse(ans.begin(), ans.end());
+}
+```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> par(N);
+
+pair<int, int> dfs(int v, int d, int p) {
+    par[v] = p;
+    pair<int, int> res{d, v};
+    for (int u : adj[v]) {
+        if (u!=p)
+            res = max(res, dfs(u, d+1, v));
+    }
+    return res;
+}
+
+vector<int> tree_diameter() {
+    vector<int> ans;
+    int s = dfs(0, 0, -1).second;
+    int t = dfs(s, 0, -1).second;
+    while (t!=-1) {
+        ans.push_back(t);
+        t = par[t];
+    }
+    return ans;
+}
+```
+
 ## Mathematics / 数学
 
 ### Euclidean Algorithm / ユークリッドの互除法
@@ -1296,22 +1305,6 @@ int mod_inv(int a, int m) {
 }
 ```
 ```cpp
-vector<int> A(N), B(N), M(N);
-
-pair<int, int> linear_congruence(int n) {
-    int x=0, m=1;
-    for (int i=0; i<n; ++i) {
-        int a=A[i]*m, b=B[i]-A[i]*x, d=gcd(a, M[i]);
-        if (b%d!=0)
-            return {0, -1};
-        int y = (b/d) * mod_inv(a/d, M[i]/d) % (M[i]/d);
-        x += m*y;
-        m *= M[i]/d;
-    }
-    return {(x%m+m)%m, m};
-}
-```
-```cpp
 vector<int> fac(M, 1);
 
 void init(int m) {
@@ -1358,7 +1351,23 @@ int mod_binom(int n, int k, int m) {
 }
 ```
 
-### Linear Algebra / 線型代数
+### Miscellaneous / その他
+```cpp
+vector<int> A(N), B(N), M(N);
+
+pair<int, int> linear_congruence(int n) {
+    int x=0, m=1;
+    for (int i=0; i<n; ++i) {
+        int a=A[i]*m, b=B[i]-A[i]*x, d=gcd(a, M[i]);
+        if (b%d!=0)
+            return {0, -1};
+        int y = (b/d) * mod_inv(a/d, M[i]/d) % (M[i]/d);
+        x += m*y;
+        m *= M[i]/d;
+    }
+    return {(x%m+m)%m, m};
+}
+```
 ```cpp
 vector<vector<double>> A(N, vector<double>(M));
 vector<double> B(N), sol(M);
