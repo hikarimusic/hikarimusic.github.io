@@ -27,13 +27,13 @@ Essences of clinical medicine.
 
 ## Pharmacology / 薬理
 
-## Symptoms / 症候
+## Symptom / 症候
 
-## Tests / 検査
+## Test / 検査
 
 ## Treatment / 治療
 
-## Hypothalamus and Pituitary Gland Disorder / 視床下部・下垂体疾患
+## Hypothalamus and Pituitary Gland Disease / 視床下部・下垂体疾患
 
 ### Hyperprolactinemia / 高プロラクチン血症
 ### Acromegaly / 先端肥大症
@@ -41,10 +41,10 @@ Essences of clinical medicine.
 ### Hypopituitarism / 下垂体前葉機能低下症
 ### Growth Hormone Deficiency / 成長ホルモン欠乏症
 ### Gonadotropin Deficiency / ゴナドトロピン欠乏症
-### Diabetes Insipidus / 尿崩症
-### SIADH / SIADH
+### Central Diabetes Insipidus / 中枢性尿崩症
+### SIADH / バゾプレシン不適合分泌症候群
 
-## Thryoid Gland Disorder / 甲状腺疾患
+## Thyroid Gland Disease / 甲状腺疾患
 
 ### Grave's Disease / Basedow病
 ### Plummer Disease / Plummer病
@@ -57,7 +57,7 @@ Essences of clinical medicine.
 ### Multinodular Goiter / 多結節性甲状腺腫
 ### Thyroid Cancer / 甲状腺癌
 
-## Parathyroid Gland Disorder / 副甲状腺疾患
+## Parathyroid Gland Disease / 副甲状腺疾患
 
 ### Primary Hyperparathyroidism / 原発性副甲状腺機能亢進症
 ### Renal Hyperparathyroidism / 腎性副甲状腺機能亢進症
@@ -65,7 +65,7 @@ Essences of clinical medicine.
 ### Hypoparathyroidism / 副甲状腺機能低下症
 ### Pseudohypoparathyroidism / 偽性副甲状腺機能低下症
 
-## Adrenal Gland Disorder / 副腎疾患
+## Adrenal Gland Disease / 副腎疾患
 
 ### Cushing's Syndrome / Cushing症候群
 ### Primary Aldosteronism / 原発性アルドステロン症
@@ -74,7 +74,7 @@ Essences of clinical medicine.
 ### Congenital Adrenocortical Hyperplasia / 先天性副腎皮質過形成
 ### Pheochromocytoma / 褐色細胞腫
 
-## Other Endocrine Disorder / その他の内分泌疾患
+## Other Endocrine Disease / その他の内分泌疾患
 
 ### MEN / 多発性内分泌腺腫症
 ### Insulinoma / インスリノーマ
@@ -157,6 +157,149 @@ Essences of clinical medicine.
 ### Urea Cycle Defect / 尿素サイクル異常症
 
 # Nephrology and Urology / 腎臓内科・泌尿器科
+
+## Anatomy / 解剖
+
+## Physiology / 生理
+
+## Pathology / 病理
+
+## Pharmacology / 薬理
+
+## Symptom / 症候
+
+## Test / 検査
+
+## Treatment / 治療
+
+## Water and Electrolytes Metabolism Disorder / 水・電解質代謝異常
+
+### Hyponatremia / 低ナトリウム血症
+### Hypernatremia / 高ナトリウム血症
+### Hypokalemia / 低カリウム血症
+### Hyperkalemia / 高カリウム血症
+### Hypocalcemia / 低カルシウム血症
+### Hypercalcemia / 高カルシウム血症
+### Hypophosphatemia / 低リン血症
+### Hyperphosphatemia / 高リン血症
+### Hypomagnesemia / 低マグネシウム血症
+### Hypermagnesemia / 高マグネシウム血症
+### Metabolic Acidosis / 代謝性アシドーシス
+### Metabolic Alkalosis / 代謝性アルカローシス
+### Respiratory Acidosis / 呼吸性アシドーシス
+### Respiratory Alkalosis / 呼吸性アルカローシス
+
+## Glomerular Disease / 糸球体疾患
+
+### Acute Glomerulonephritis / 急性糸球体腎炎
+### Rapid Progressive Glomerulonephritis / 急速進行性糸球体腎炎
+### IgA Nephropathy / IgA腎症
+### Minimal Change Nephrotic Syndrome / 微小変化型ネフローゼ症候群
+### Membranous Nephropathy / 膜性腎症
+### Focal Segmental Glomerulosclerosis / 巣状分節性糸球体硬化症
+### Membranoproliferative Glomerulonephritis / 膜性増殖性糸球体腎炎
+### Alport's Syndrome / Alport症候群
+### Benign Familial Hematuria / 良性家族性血尿
+
+## Tubulointerstitial Disease / 尿細管・間質性疾患
+
+### Fanconi Syndrome / Fanconi症候群
+### Bartter's Syndrome / Bartter症候群
+### Pseudo-Bartter's Syndrome / 偽性Bartter症候群
+### Gitelman's Syndrome / Gitelman症候群
+### Liddle's Syndrome / Liddle症候群
+### Nephrogenic Diabetes Insipidus / 腎性尿崩症
+### Renal Tubular Acidosis / 尿細管性アシドーシス
+### Tubulointerstitial Nephritis / 尿細管間質性腎炎
+
+## Renal Injury with Systemic Disease / 全身性疾患に伴う腎障害
+
+### Diabetic Nephropathy / 糖尿病性腎症
+### Gouty Kidney / 痛風腎
+### Myeloma Kidney / 骨髄腫腎
+### Cryoglobulin Nephropathy / クリオグロブリン血症性腎症
+### Amyloid Nephropathy / アミロイド腎症
+### Lupus Nephritis / ループス腎炎
+### Scleroderma Kidney / 強皮症腎
+### Drug-induced Kidney Injury / 薬剤性腎障害
+
+## Renal Vascular Disease / 腎血管性疾患
+
+### Renovascular Hypertension / 腎血管性高血圧
+### Benign Nephrosclerosis / 良性腎硬化症
+### Malignant Nephrosclerosis / 悪性腎硬化症
+### Renal Infarction / 腎梗塞
+### Renal Papillary Necrosis / 腎乳頭壊死
+### Renal Cortical Necrosis / 腎皮質壊死
+### Renal Vein Thrombosis / 腎静脈血栓症
+
+## Renal Failure / 腎不全
+
+### Acute Kidney Injury / 急性腎障害
+### Chronic Kidney Disease / 慢性腎臓病
+### Disequilibrium Syndrome / 不均衡症候群
+### CKD Mineral and Bone Disorder / CKDに伴う骨ミネラル代謝異常
+### Dialysis Amyloidosis / 透析アミロイドーシス
+### Renal Anemia / 腎性貧血
+
+## Urinary Tract Dysfunction / 尿路機能障害
+
+### Hydronephrosis / 水腎症
+### Vesicourethral Reflux / 膀胱尿管逆流
+### Neurogenic Bladder / 神経因性膀胱
+### Overactive Bladder / 過活動膀胱
+### Stress Incontinence / 腹圧性尿失禁
+
+## Congenital Anomaly of Kidney / 腎の先天異常
+
+### Polycystic Kidney Disease / 多発性嚢胞腎
+### Sponge Kidney / 海綿腎
+### Horseshoe Kidney / 馬蹄腎
+### Congenital Hydronephrosis / 先天性水腎症
+### Duplicated Renal Pelvis and Ureter / 重複腎孟尿管
+### Ectopic Ureter / 尿管異所開口
+
+## Urinary Tract Infection / 尿路感染症
+
+### Pyelonephritis / 腎盂腎炎
+### Renal Abscess / 腎膿瘍
+### Cystitis / 膀胱炎
+### Urinary Tuberculosis / 尿路結核
+
+## Urinary Tract Stone and Tumor / 尿路結石・腫瘍
+
+### Urinary Stone / 尿路結石
+### Renal Cell Carcinoma / 腎細胞癌
+### Wilms' Tumor / Wilms腫瘍
+### Renal Pelvic and Ureteral Cancer / 腎盂・尿管癌
+### Bladder Cancer / 膀胱癌
+
+## Genital Infection / 性器感染症
+
+### Orchitis / 精巣炎
+### Epididymitis / 精巣上体炎
+### Prostatitis / 前立腺炎
+### Urethritis / 尿道炎
+### Genital Herpes / 性器ヘルペス
+### Condyloma Acuminatum / 尖圭コンジローマ
+
+## Genital Tumor / 性器腫瘍
+
+### Testicular Tumor / 精巣腫瘍
+### Benign Prostatic Hyperplasia / 前立腺肥大症
+### Prostatic Cancer / 前立腺癌
+### Penile Cancer / 陰茎癌
+
+## Genital Structural and Functional Disorder / 性器の構造・機能異常
+### Cryptorchidism / 停留精巣
+### Hydrocele Testis / 陰嚢水瘤
+### Varicocele / 精索静脈瘤
+### Testicular Torsion / 精巣捻転症
+### Hypospadias / 尿道下裂
+### Phimosis / 包茎
+### Erectile Dysfunction / 勃起障害
+### Priapism / 持続勃起症
+### Male Infertility / 男性不妊症
 
 # Hematology and Oncology / 血液・腫瘍内科
 
