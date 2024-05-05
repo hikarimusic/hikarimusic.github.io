@@ -15,6 +15,26 @@ Essences of clinical medicine.
 
 # Respiratory Medicine and Surgery / 呼吸器内科・外科
 
+<!-- ## Infectious Disease / 感染性疾患
+
+## Immune and Allergic Lung Disease / 免疫・アレルギー性肺疾患
+
+## Interstitial Lung Disease / 間質性肺疾患
+
+## Obstructive Lung Disease / 閉塞性肺疾患
+
+## Lung Tumor / 肺腫瘍
+
+## Circulation Disorder / 循環障害
+
+## Ventilation Disorder / 換気異常
+
+## Other Respiratory Disease / その他の呼吸器疾患
+
+## Pleural Disease / 胸膜疾患
+
+## Mediastinal Disease / 縦隔疾患 -->
+
 # Gastroenterology and Surgery / 消化器内科・外科
 
 ## Anatomy / 解剖
@@ -47,8 +67,8 @@ Essences of clinical medicine.
 ### Acute Gastric Mucosal Lesion / 急性胃粘膜病変
 ### Chronic Gastritis / 慢性胃炎
 ### Functional Dyspepsia / 機能性ディスペプシア
-### Gastro-duodenal Ulcer / 胃十二指腸潰瘍
-### Gastro-duodenal Ulcer Perforation / 胃十二指腸潰瘍穿孔
+### Gastro-Duodenal Ulcer / 胃十二指腸潰瘍
+### Gastro-Duodenal Ulcer Perforation / 胃十二指腸潰瘍穿孔
 ### Gastric Polyp / 胃ポリープ
 ### GIST / 消化管間質腫瘍
 ### Gastric Malignant Lymphoma / 胃悪性リンパ腫
@@ -65,7 +85,7 @@ Essences of clinical medicine.
 ### Pseudomembranous Colitis / 偽膜性大腸炎
 ### Irritable Bowel Syndrome / 過敏性腸症候群
 ### Malabsorption Syndrome / 吸収不良症候群
-### Protein-losing Gastroenteropathy / 蛋白漏出性胃腸症
+### Protein-Losing Gastroenteropathy / 蛋白漏出性胃腸症
 ### Gastrointestinal Neuroendocrine Neoplasm / 消化管神経内分泌腫瘍
 ### Colonic Polyp / 大腸ポリープ
 ### Colorectal Cancer / 大腸癌
@@ -106,7 +126,7 @@ Essences of clinical medicine.
 ### Hepatitis D / D型肝炎
 ### Hepatitis E / E型肝炎
 ### Acute Viral Hepatitis / 急性ウイルス性肝炎
-### Drug-induced Liver Injury / 薬剤性肝障害
+### Drug-Induced Liver Injury / 薬剤性肝障害
 ### Acute Liver Failure / 急性肝不全
 ### Chronic Viral Hepatitis / 慢性ウイルス性肝炎
 ### Alcoholic Liver Disease / アルコール性肝障害
@@ -187,7 +207,7 @@ Essences of clinical medicine.
 
 ### Primary Hyperparathyroidism / 原発性副甲状腺機能亢進症
 ### Renal Hyperparathyroidism / 腎性副甲状腺機能亢進症
-### Malignancy-related Hypercalcemia / 悪性腫瘍関連高カルシウム血症
+### Malignancy-Related Hypercalcemia / 悪性腫瘍関連高カルシウム血症
 ### Hypoparathyroidism / 副甲状腺機能低下症
 ### Pseudohypoparathyroidism / 偽性副甲状腺機能低下症
 
@@ -211,7 +231,7 @@ Essences of clinical medicine.
 
 ### Type 1 Diabetes Mellitus / 1型糖尿病
 ### Type 2 Diabetes Mellitus / 2型糖尿病
-### Maturity-onset Diabetes of the Young / 若年発症成人型糖尿病
+### Maturity-Onset Diabetes of the Young / 若年発症成人型糖尿病
 ### Gestational Diabetes Mellitis / 妊娠糖尿病
 ### Diabetic Ketoacidosis / 糖尿病性ケトアシドーシス
 ### Hyperosmolar Hyperglycemic Syndrome / 高浸透圧高血糖症候群
@@ -317,7 +337,7 @@ Essences of clinical medicine.
 ### Amyloid Nephropathy / アミロイド腎症
 ### Lupus Nephritis / ループス腎炎
 ### Scleroderma Kidney / 強皮症腎
-### Drug-induced Kidney Injury / 薬剤性腎障害
+### Drug-Induced Kidney Injury / 薬剤性腎障害
 
 ## Renal Vascular Disease / 腎血管性疾患
 
@@ -380,6 +400,158 @@ Essences of clinical medicine.
 # Immunology and Rheumatology / 免疫・膠原病内科
 
 # Infectious Diseases / 感染症内科
+
+## Microbiology / 微生物学
+
+## Pathology / 病理
+
+## Pharmacology / 薬理
+
+## Symptom / 症候
+
+## Test / 検査
+
+## Treatment / 治療
+
+## Gram-Positive Bacterial Infection / グラム陽性菌感染症
+
+### Staphylococcal Infection / ブドウ球菌感染症
+### Streptococcal Infection / レンサ球菌感染症
+### Pneumococcal Infection / 肺炎球菌感染症
+### Enterococcal Infection / 腸球菌感染症
+### Diphtheria / ジフテリア
+### Listeria Infection / リステリア症
+### Anthrax / 炭疽
+### Tetanus / 破傷風
+### Botulism / ボツリヌス症
+### Gas Gangrene / ガス壊疽
+
+## Gram-Negative Bacterial Infection / グラム陰性菌感染症
+
+### Gonococcal Infection / 淋菌感染症
+### Meningococcal Infection / 髄膜炎菌感染症
+### Moraxella Infection / モラクセラ感染症
+### Haemophilus Infection / インフルエンザ菌感染症
+### Legionella Infection / レジオネラ症
+### Pertussis / 百日咳
+### Pseudomonas Infection / 緑膿菌感染症
+### Acinetobacter Infection / アシネトバクター感染症
+### Escherichia Infection / 大腸菌感染症
+### Klebsiella Infection / クレブシエラ感染症
+### Serratia Infection / セラチア感染症
+### Typhoid Fever / 腸チフス
+### Salmonellosis / サルモネラ症
+### Shigellosis / 細菌性赤痢
+### Cholera / コレラ
+### Vibrio Infection / ビブリオ感染症
+### Campylobacter Infection / カンピロバクター感染症
+### Helicobacter Infection / ピロリ菌感染症
+### Brucellosis / ブルセラ症
+### Tularemia / 野兎病
+### Plague / ペスト
+### Yersinia Infection / エルシニア感染症
+### Cat-Scratch Disease / ねこひっかき病
+
+## Other Bacterial Infection / その他の細菌感染症
+
+### Actinomycosis / 放線菌症
+### Nocardiosis / ノカルジア症
+### Whipple’s Disease / Whipple病
+### Anaerobic Infection / 嫌気性菌感染症
+### Tuberculosis / 結核
+### Nontuberculous Mycobacteriosis / 非結核性抗酸菌症
+### Leprosy / Hansen病
+### Syphilis / 梅毒
+### Leptospirosis / レプトスピラ症
+### Relapsing Fever / 回帰熱
+### Lyme Disease / ライム病
+### Rickettsia Infection / リケッチア感染症
+### Mycoplasma Infection / マイコプラズマ感染症
+### Chlamydia Infection / クラミジア感染症
+
+## DNA Viral Infection / DNAウイルス感染症
+
+### Herpes Simplex Virus Infection / 単純ヘルペスウイルス感染症
+### Varicella-Zoster Virus Infection / 水痘帯状疱疹ウイルス感染症
+### Epstein-Barr Virus Infection / EBウイルス感染症
+### Cytomegalovirus Infection / サイトメガロウイルス感染症
+### Human Herpesvirus 6 & 7 Infection / ヒトヘルペスウイルス感染症
+### Poxvirus Infection / ポックスウイルス感染症
+### Human Papillomavirus Infection / ヒトパピローマウイルス感染症
+### Parvovirus Infection / パルボウイルス感染症
+### Adenovirus Infection / アデノウイルス感染症
+
+## RNA Viral Infection / RNAウイルス感染症
+
+### Common Cold Syndrome / かぜ症候群
+### Influenza / インフルエンザ
+### COVID-19 / 新型コロナウイルス感染症
+### Norwalk Virus Infection / ノロウイルス感染症
+### Rotavirus Infection / ロタウイルス感染症
+### Measles / 麻疹
+### Rubella / 風疹
+### Mumps / 流行性耳下腺炎
+### Enterovirus Infection / エンテロウイルス感染症
+### Poliovirus Infection / ポリオウイルス感染症
+### Japanese Encephalitis / 日本脳炎
+### Dengue Fever / デング熱
+### Chikungunya Fever / チクングニア熱
+### Zika Fever / ジカ熱
+### West Nile Fever / ウエストナイル熱
+### Ebola Hemorrhagic Fever / エボラ出血熱
+### Rabies / 狂犬病
+### JC Virus Infection / JCウイルス感染症
+### Human Immunodeficiency Virus Infection / HIV感染症
+### Human T-Cell Lymphotropic Virus 1 Infection / HTLV-1感染症
+
+## Fungal Infection / 真菌感染症
+
+### Histoplasmosis / ヒストプラスマ症
+### Coccidioidomycosis / コクシジオイデス症
+### Blastomycosis / ブラストミセス症
+### Cryptococcosis / クリプトコックス症
+### Candidiasis / カンジダ症
+### Aspergillosis / アスペルギルス症
+### Mucormycosis / ムーコル症
+### Pneumocystis Infection / ニューモシスチス感染症
+
+## Protozoal Infection / 原虫感染症
+
+### Amebiasis / 赤痢アメーバ症
+### Malaria / マラリア
+### Babesiosis / バベシア症
+### Leishmaniasis / リーシュマニア症
+### Chagas Disease / シャーガス病
+### African Trypanosomiasis / アフリカ・トリパノソーマ症
+### Toxoplasmosis / トキソプラズマ症
+### Giardiasis / ジアルジア症
+### Cryptosporidiosis / クリプトスポリジウム症
+### Trichomoniasis / トリコモナス症
+
+## Helminthic Infection / 蠕虫感染症
+
+### Ascariasis / 回虫症
+### Trichuriasis / 鞭虫症
+### Enterobiasis / 蟯虫症
+### Hookworm Infection / 鉤虫症
+### Strongyloidiasis / 糞線虫症
+### Anisakiasis / アニサキス
+### Gnathostomiasis / 顎口虫症
+### Angiostrongyliasis / 住血線虫症
+### Trichinellosis / 旋毛虫症
+### Filariasis / フィラリア症
+### Onchocerciasis / オンコセルカ症
+### Loiasis / ロア糸状虫症
+### Dracunculiasis / メジナ虫症
+### Schistosomiasis / 住血吸虫症
+### Paragonimiasis / 肺吸虫症
+### Clonorchiasis / 肝吸虫症
+### Metagonimiasis / 横川吸虫症
+### Taeniasis Solium / 有鉤条虫症
+### Taeniasis Saginata / 無鉤条虫症
+### Echinococcosis / 包虫症
+### Hymenolepiasis Nana / 小形条虫症
+### Diphyllobothriasis / 裂頭条虫症
 
 # Neurology and Neurosurgery/ 神経内科・外科
 
