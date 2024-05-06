@@ -397,7 +397,95 @@ Essences of clinical medicine.
 
 # Hematology and Oncology / 血液・腫瘍内科
 
+## Anatomy / 解剖
+
+## Physiology / 生理
+
+## Pathology / 病理
+
+## Pharmacology / 薬理
+
+## Symptom / 症候
+
+## Test / 検査
+
+## Treatment / 治療
+
+## Nonhemolytic Anemia / 非溶血性貧血
+
+### Iron Deficiency Anemia / 鉄欠乏性貧血
+### Sideroblastic Anemia / 鉄芽球性貧血
+### Secondary Anemia / 二次性貧血
+### Aplastic Anemia / 再生不良性貧血
+### Pure Red Cell Aplasia / 赤芽球癆
+### Megaloblastic Anemia / 巨赤芽球性貧血
+
+## Hemolytic Anemia / 溶血性貧血
+
+### Hereditary Spherocytosis / 遺伝性球状赤血球症
+### Thalassemia / サラセミア
+### Sickle Cell Disease / 鎌状赤血球症
+### G6PD Deficiency / G6PD異常症
+### Pyruvate Kinase Deficiency / PK異常症
+### Paroxysmal Nocturnal Hemoglobinuria / 発作性夜間ヘモグロビン尿症
+### Autoimmune Hemolytic Anemia / 自己免疫性溶血性貧血
+### Red Cell Fragmentation Syndrome / 赤血球破砕症候群
+
+## Leukemia / 白血病
+
+### Acute Myeloid Leukemia / 急性骨髄性白血病
+### Acute Lymphoblastic Leukemia / 急性リンパ性白血病
+### Chronic Myeloid Leukemia / 慢性骨髄性白血病
+### Chronic Lymphocytic Leukemia / 慢性リンパ性白血病
+### Hairy Cell Leukemia / 有毛細胞白血病
+### Adult T-cell Leukemia/Lymphoma / 成人T細胞白血病・リンパ腫
+
+## Malignant Lymphoma / 悪性リンパ腫
+
+### Hodgkin Lymphoma / Hodgkinリンパ腫
+### Diffuse Large B-cell Lymphoma / びまん性大細胞型B細胞リンパ腫
+### Follicular Lymphoma / 濾胞性リンパ腫
+### MALT Lymphoma / MALTリンパ腫
+### Mantle Cell Lymphoma / マントル細胞リンパ腫
+### Burkitt lymphoma / Burkittリンパ腫
+### Peripheral T-cell Lymphoma / 末梢性T細胞リンパ腫
+### Mycosis Fungoides and Sézary Syndrome / 菌状息肉症・Sézary症候群
+
+## Other Hematopoietic Tumors / その他の造血器腫瘍
+
+### Myelodysplastic Syndrome / 骨髄異形成症候群
+### Polycythemia Vera / 真性赤血球増加症
+### Essential Thrombocythemia / 本態性血小板血症
+### Primary Myelofibrosis / 原発性骨髄線維症
+### Multiple Myeloma / 多発性骨髄腫
+### MGUS / MGUS
+### Waldenström's Macroglobulinemia / 原発性マクログロブリン血症
+### Heavy-Chain Disease / H鎖病
+
+## Other Blood Cell Disorder / その他の血球異常
+
+### Erythrocytosis / 赤血球増加症
+### Leukemoid Reaction / 類白血病反応
+### Agranulocytosis / 無顆粒球症
+### Infectious Mononucleosis / 伝染性単核症
+### Langerhans Cell Histiocytosis / Langerhans細胞組織球症
+### Hemophagocytic Syndrome / 血球貪食症候群
+
+## Hemostasis and Coagulation Disorder / 止血・凝固系の異常
+
+### Immune Thrombocytopenic Purpura / 免疫性血小板減少性紫斑病
+### Thrombotic Thrombocytopenic Purpura / 血栓性血小板減少性紫斑病
+### Hemolytic Uremic Syndrome / 溶血性尿毒症症候群
+### Von Willebrand Disease / Von Willebrand病
+### Bernard-Soulier Syndrome / Bernard-Soulier症候群
+### Glanzmann Thrombasthenia / 血小板無力症
+### Hemophilia / 血友病
+### Disseminated Intravascular Coagulation / 播種性血管内凝固
+### Vitamin K Deficiency / ビタミンK欠乏症
+
 # Immunology and Rheumatology / 免疫・膠原病内科
+
+<!-- ### IgA Vasculitis / IgA血管炎 -->
 
 # Infectious Diseases / 感染症内科
 
