@@ -39,6 +39,58 @@ Essences of clinical medicine.
 
 ## Anatomy / 解剖
 
+### Histology / 組織学
+* **Gastrointestinal tract**
+  * Mucosa: Contains the epithelium, lamina propria, and muscularis mucosae, forming the barrier and absorptive surface while supporting immune functions.
+  * Submucosa: Includes connective tissue and Meissner's plexus, which regulates blood flow and glandular secretions.
+  * Muscularis externa: Comprises inner circular and outer longitudinal muscle layers, and Auerbach's plexus for motility control.
+  * Serosa or Adventitia: Serosa covers organs intra-abdominally with a smooth, lubricating surface, while adventitia connects organs to surrounding tissues.
+* **Esophagus**
+  * Mucosa: Stratified squamous epithelium provides protection against abrasion.
+  * Submucosa: Contains the esophageal gland proper which secretes mucus to lubricate the esophagus.
+  * Muscularis externa: Consists of skeletal muscle in the upper and smooth muscle in the lower portions, aiding in swallowing.
+* **Stomach**
+  * Mucosa: Contains gastric pits leading to various glands (fundic, cardiac, pyloric) which secrete digestive enzymes and acid.
+  * Submucosa: Connective tissue layer providing support.
+  * Muscularis externa: Smooth muscle layers that mix and propel stomach contents.
+  * Surface mucous cell: Secretes mucus to protect the stomach lining from acid.
+  * Mucous neck cell: Produces mucus and bicarbonate.
+  * Chief cell: Secretes pepsinogen, an enzyme precursor.
+  * Parietal cell: Produces hydrochloric acid and intrinsic factor necessary for B12 absorption.
+  * Enteroendocrine cell: Secretes hormones like gastrin that regulate digestion.
+* **Small intestine**
+  * Mucosa: Features villi and intestinal glands for nutrient absorption and Peyer's patches for immune response.
+  * Submucosa: Contains Brunner's glands at the duodenum, which secrete alkaline mucus to neutralize stomach acid.
+  * Muscularis externa: Smooth muscle layers that facilitate peristalsis.
+  * Enterocyte: Absorbs nutrients and electrolytes.
+  * Globet cell: Secretes mucus to protect and lubricate the intestinal lining.
+  * Paneth cell: Secretes antimicrobial agents to regulate intestinal flora.
+  * Enteroendocrine cell: Produces hormones controlling digestion and appetite.
+  * M cell: Transports antigens to immune cells in Peyer's patches.
+* **Large intestine**
+  * Mucosa: Absorbs water and electrolytes, forming feces.
+  * Submucosa: Supportive tissue layer with blood vessels.
+  * Muscularis externa: Contains the teniae coli, bands of smooth muscle creating the haustra.
+  * Anal canal: The transitional zone is where the mucosa changes from colonic to squamous epithelium.
+* **Liver**
+  * Liver lobules: Encompasses the classic lobule, portal lobule, and liver acinus, each reflecting different structural and functional aspects.
+  * Blood vessels: Includes the portal vein and hepatic artery bringing blood to the liver, hepatic sinusoids distributing it within lobules, and central veins collecting the filtered blood.
+  * Parenchyma: The functional tissue of the liver, composed primarily of hepatocytes, which perform metabolic, detoxification, and synthetic functions.
+  * Hepatic sinusoid: Capillary channels that facilitate the free exchange of blood and the liver cells, important for filtering and processing nutrients.
+  * Perisinusoidal space (of Disse): A fluid-filled space between the hepatocyte and sinusoid that allows for the exchange of materials between blood and liver cells.
+  * Hepatocyte: The main cell type of the liver, responsible for protein synthesis, detoxification, and metabolism.
+  * Kupffer cell: Specialized macrophages located in the liver sinusoids, involved in breaking down red blood cells and immune response.
+  * Ito cell (stellate cell): Stores fat and vitamin A; involved in liver fibrosis.
+* **Biliary tree and gallbladder**
+  * Bile: Consists of bile canaliculi, canals of Hering, intrahepatic bile ductules, and interlobular bile ducts, which collectively transport bile from hepatocytes to the gallbladder and intestine.
+  * Mucosa: Features Rokitansky-Aschoff sinuses, which are pouches within the gallbladder mucosa that may extend into the muscle layer.
+  * Muscularis externa: Smooth muscle layer that contracts to expel bile from the gallbladder.
+  * Cholangiocyte: Epithelial cells lining the bile ducts, involved in the modification and secretion of bile.
+* **Pancreas**
+  * Exocrine: Includes pancreatic acini that produce digestive enzymes, centroacinar cells within the acini, and intercalated ducts that transport enzymes to larger ducts.
+  * Endocrine: Comprises the Islets of Langerhans which contain A cells (glucagon-secreting), B cells (insulin-secreting), and D cells (somatostatin-secreting), regulating blood glucose levels.
+{: .notice--info}
+
 ## Physiology / 生理
 
 ## Pathology / 病理
@@ -476,16 +528,52 @@ Essences of clinical medicine.
 ### Immune Thrombocytopenic Purpura / 免疫性血小板減少性紫斑病
 ### Thrombotic Thrombocytopenic Purpura / 血栓性血小板減少性紫斑病
 ### Hemolytic Uremic Syndrome / 溶血性尿毒症症候群
-### Von Willebrand Disease / Von Willebrand病
-### Bernard-Soulier Syndrome / Bernard-Soulier症候群
-### Glanzmann Thrombasthenia / 血小板無力症
-### Hemophilia / 血友病
 ### Disseminated Intravascular Coagulation / 播種性血管内凝固
 ### Vitamin K Deficiency / ビタミンK欠乏症
 
 # Immunology and Rheumatology / 免疫・膠原病内科
 
-<!-- ### IgA Vasculitis / IgA血管炎 -->
+## Allergy / アレルギー
+
+### Anaphylaxis / アナフィラキシー
+### Food Allergy / 食物アレルギー
+### Drug Allergy / 薬物アレルギー
+### Serem Sickness / 血清病
+
+## Collagen Disease (Arthritis) / 膠原病（関節炎）
+
+### Rheumatoid Arthritis / 関節リウマチ
+### Juvenile Idiopathic Arthritis / 若年性特発性関節炎
+### Adult Still's Disease / 成人Still病
+### Ankylosing Spondylitis / 強直性脊椎炎
+### Psoriatic Arthritis / 乾癬性関節炎
+### Reactive Arthritis / 反応性関節炎
+
+## Collagen Disease (Systemic) / 膠原病（全身性）
+
+### Systemic Lupus Erythematosus / 全身性エリテマトーデス
+### Scleroderma / 強皮症
+### Polymyositis and Dermatomyositis / 多発性筋炎・皮膚筋炎
+### Mixed Connective Tissue Disease / 混合性結合組織病
+### Polymyalgia Rheumatica / リウマチ性多発筋痛症
+### Fibromyalgia / 線維筋痛症
+### Sjögren's Syndrome / Sjögren症候群
+### Behcet's Disease / Behcet病
+### Antiphospholipid Syndrome / 抗リン脂質抗体症候群
+### IgG4-Related Disease / IgG4関連疾患
+### Rheumatic Fever / リウマチ熱
+### Sarcoidosis / サルコイドーシス
+
+## Collagen Disease (Vasculitis) / 膠原病（血管炎）
+
+### Giant Cell Arteritis / 巨細胞性動脈炎
+### Takayasu's Arteritis / 高安動脈炎
+### Polyarteritis Nodosa / 結節性多発動脈炎
+### Kawasaki Disease / 川崎病
+### Microscopic Polyangiitis / 顕微鏡的多発血管炎
+### Granulomatosis with Polyangiitis / 多発血管炎性肉芽腫症
+### Eosinophilic Granulomatosis with Polyangiitis / 好酸球性多発血管炎性肉芽腫症
+### IgA Vasculitis / IgA血管炎
 
 # Infectious Diseases / 感染症内科
 
@@ -683,7 +771,7 @@ Essences of clinical medicine.
 ### Biliary Atresia / 胆道閉鎖症
 ### Congenital Biliary Dilatation / 先天性胆道拡張症
 
-## Metabolism Disease / 代謝疾患
+## Metabolism and Endocrine Disease / 代謝・内分泌疾患
 
 ### Phenylketonuria / フェニルケトン尿症
 ### Maple Syrup Urine Disease / メープルシロップ尿症
@@ -708,9 +796,6 @@ Essences of clinical medicine.
 ### Osteomalacia / 骨軟化症
 ### Osteogenesis Imperfecta / 骨形成不全症
 ### Chondrodysplasia / 軟骨異形成症
-
-## Endocrine Disease / 内分泌疾患
-
 ### Growth Hormone Deficiency / 成長ホルモン欠乏症
 ### Congenital Hypothyroidism / 先天性甲状腺機能低下症
 ### Precocious Puberty / 早発性思春期
@@ -735,6 +820,24 @@ Essences of clinical medicine.
 ### Hypospadias / 尿道下裂
 ### Cryptorchidism / 停留精巣
 ### Hydrocele Testis / 陰嚢水腫
+
+## Hematologic Disease / 血液疾患
+
+### Hemophilia / 血友病
+### Von Willebrand Disease / Von Willebrand病
+### Bernard-Soulier Syndrome / Bernard-Soulier症候群
+### Glanzmann Thrombasthenia / 血小板無力症
+
+## Immune Disease / 免疫疾患
+
+### Severe Combined Immunodeficiency / 重症複合免疫不全症
+### X-linked Agammaglobulinemia / X連鎖無γ-グロブリン血症
+### Hyper-IgM Syndrome / 高IgM症候群
+### Wiskott-Aldrich Syndrome / Wiskott-Aldrich症候群
+### Ataxia Telangiectasia / 毛細血管拡張性運動失調症
+### DiGeorge Syndrome / DiGeorge症候群
+### Chédiak-Higashi Syndrome / Chédiak-Higashi症候群
+### Chronic Granulomatous Disease / 慢性肉芽腫症
 
 ## Neoplasm / 新生物
 
