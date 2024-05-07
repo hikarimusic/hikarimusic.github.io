@@ -316,6 +316,7 @@ Essences of clinical medicine.
 
 ### Hyperuricemia / 高尿酸血症
 ### Gout / 痛風
+### Pseudogout / 偽痛風
 ### Osteoporosis / 骨粗鬆症
 ### Osteopetrosis / 骨硬化症
 ### Paget's Disease of Bone / 骨Paget病
@@ -559,10 +560,10 @@ Essences of clinical medicine.
 ### Fibromyalgia / 線維筋痛症
 ### Sjögren's Syndrome / Sjögren症候群
 ### Behcet's Disease / Behcet病
-### Antiphospholipid Syndrome / 抗リン脂質抗体症候群
-### IgG4-Related Disease / IgG4関連疾患
 ### Rheumatic Fever / リウマチ熱
+### Antiphospholipid Syndrome / 抗リン脂質抗体症候群
 ### Sarcoidosis / サルコイドーシス
+### IgG4-Related Disease / IgG4関連疾患
 
 ## Collagen Disease (Vasculitis) / 膠原病（血管炎）
 
@@ -670,10 +671,10 @@ Essences of clinical medicine.
 ### Enterovirus Infection / エンテロウイルス感染症
 ### Poliovirus Infection / ポリオウイルス感染症
 ### Japanese Encephalitis / 日本脳炎
+### West Nile Encephalitis / ウエストナイル脳炎
 ### Dengue Fever / デング熱
 ### Chikungunya Fever / チクングニア熱
 ### Zika Fever / ジカ熱
-### West Nile Fever / ウエストナイル熱
 ### Ebola Hemorrhagic Fever / エボラ出血熱
 ### Rabies / 狂犬病
 ### JC Virus Infection / JCウイルス感染症
