@@ -13,9 +13,61 @@ Essences of clinical medicine.
 
 # Cardiovascular Medicine and Surgery/ 循環器内科・外科
 
+## Anatomy / 解剖学
+
+## Physiology / 生理学
+
+## Pathology / 病理学
+
+## Pharmacology / 薬理学
+
+## Symptom / 症候
+
+## Test / 検査
+
+## Treatment / 治療
+
 # Respiratory Medicine and Surgery / 呼吸器内科・外科
 
-<!-- ## Infectious Disease / 感染性疾患
+## Anatomy / 解剖学
+
+### Histology / 組織学
+* **Trachea**
+  * Mucosa: Contains ciliated pseudostratified epithelium which helps in the movement of mucus and trapped particles out of the airways.
+  * Submucosa: Includes glands that produce mucus to lubricate and protect the lining of the trachea.
+  * Cartilage layer: Comprised of C-shaped hyaline cartilages that provide structural support and keep the trachea open.
+  * Ciliated cell: Specialized cells with hair-like structures that beat rhythmically to move mucus upward.
+  * Mucous cell: Secretes mucus that traps particles and pathogens, aiding in their removal from the airways.
+  * Basal cell: A stem cell type that can differentiate into other cell types in the tracheal epithelium.
+* **Bronchi**
+  * Mucosa: Features ciliated pseudostratified epithelium similar to that of the trachea, aiding in continued airway cleaning.
+  * Submucosa: Contains smooth muscle that adjusts airway size and glands that secrete mucus.
+  * Cartilage layer: Made up of discontinuous cartilage plates that provide flexibility and support while allowing the bronchi to constrict and dilate.
+* **Bronchioles**
+  * Mucosa: Composed of simple columnar or cuboidal epithelium, suitable for smaller airway passages where less mucus production is needed.
+  * Submucosa: Lacks glands and cartilage, contains smooth muscle for significant changes in airway diameter.
+  * Division: Includes terminal bronchioles (conduct air to alveoli), respiratory bronchioles (part gas exchange), and alveolar ducts and sacs (main sites of gas exchange).
+  * Clara cell: Non-ciliated, secretory epithelial cells that detoxify harmful substances and secrete components to protect the bronchiolar lining.
+* **Alveoli**
+  * Alveolar septum: The thin walls between alveoli that contain capillaries for gas exchange.
+  * Type I alveolar cell: Extremely thin cells that line the alveoli and are primarily responsible for the gas exchange between the air and the blood.
+  * Type II alveolar cell: Secrete surfactant to decrease surface tension within alveoli, preventing their collapse during exhalation.
+  * Macrophage: Immune cells that remove debris and pathogens, helping to keep the alveolar spaces clear.
+{: .notice--info}
+
+## Physiology / 生理学
+
+## Pathology / 病理学
+
+## Pharmacology / 薬理学
+
+## Symptom / 症候
+
+## Test / 検査
+
+## Treatment / 治療
+
+## Infectious Disease / 感染性疾患
 
 ## Immune and Allergic Lung Disease / 免疫・アレルギー性肺疾患
 
@@ -33,17 +85,69 @@ Essences of clinical medicine.
 
 ## Pleural Disease / 胸膜疾患
 
-## Mediastinal Disease / 縦隔疾患 -->
+## Mediastinal Disease / 縦隔疾患
 
 # Gastroenterology and Surgery / 消化器内科・外科
 
-## Anatomy / 解剖
+## Anatomy / 解剖学
 
-## Physiology / 生理
+### Histology / 組織学
+* **Gastrointestinal tract**
+  * Mucosa: Contains the epithelium, lamina propria, and muscularis mucosae, forming the barrier and absorptive surface while supporting immune functions.
+  * Submucosa: Includes connective tissue and Meissner's plexus, which regulates blood flow and glandular secretions.
+  * Muscularis externa: Comprises inner circular and outer longitudinal muscle layers, and Auerbach's plexus for motility control.
+  * Serosa or Adventitia: Serosa covers organs intra-abdominally with a smooth, lubricating surface, while adventitia connects organs to surrounding tissues.
+* **Esophagus**
+  * Mucosa: Stratified squamous epithelium provides protection against abrasion.
+  * Submucosa: Contains the esophageal gland proper which secretes mucus to lubricate the esophagus.
+  * Muscularis externa: Consists of skeletal muscle in the upper and smooth muscle in the lower portions, aiding in swallowing.
+* **Stomach**
+  * Mucosa: Contains gastric pits leading to various glands (fundic, cardiac, pyloric) which secrete digestive enzymes and acid.
+  * Submucosa: Connective tissue layer providing support.
+  * Muscularis externa: Smooth muscle layers that mix and propel stomach contents.
+  * Surface mucous cell: Secretes mucus to protect the stomach lining from acid.
+  * Mucous neck cell: Produces mucus and bicarbonate.
+  * Chief cell: Secretes pepsinogen, an enzyme precursor.
+  * Parietal cell: Produces hydrochloric acid and intrinsic factor necessary for B12 absorption.
+  * Enteroendocrine cell: Secretes hormones like gastrin that regulate digestion.
+* **Small intestine**
+  * Mucosa: Features villi and intestinal glands for nutrient absorption and Peyer's patches for immune response.
+  * Submucosa: Contains Brunner's glands at the duodenum, which secrete alkaline mucus to neutralize stomach acid.
+  * Muscularis externa: Smooth muscle layers that facilitate peristalsis.
+  * Enterocyte: Absorbs nutrients and electrolytes.
+  * Globet cell: Secretes mucus to protect and lubricate the intestinal lining.
+  * Paneth cell: Secretes antimicrobial agents to regulate intestinal flora.
+  * Enteroendocrine cell: Produces hormones controlling digestion and appetite.
+  * M cell: Transports antigens to immune cells in Peyer's patches.
+* **Large intestine**
+  * Mucosa: Absorbs water and electrolytes, forming feces.
+  * Submucosa: Supportive tissue layer with blood vessels.
+  * Muscularis externa: Contains the teniae coli, bands of smooth muscle creating the haustra.
+  * Anal canal: The transitional zone is where the mucosa changes from colonic to squamous epithelium.
+* **Liver**
+  * Liver lobules: Encompasses the classic lobule, portal lobule, and liver acinus, each reflecting different structural and functional aspects.
+  * Blood vessels: Includes the portal vein and hepatic artery bringing blood to the liver, hepatic sinusoids distributing it within lobules, and central veins collecting the filtered blood.
+  * Parenchyma: The functional tissue of the liver, composed primarily of hepatocytes, which perform metabolic, detoxification, and synthetic functions.
+  * Hepatic sinusoid: Capillary channels that facilitate the free exchange of blood and the liver cells, important for filtering and processing nutrients.
+  * Perisinusoidal space (of Disse): A fluid-filled space between the hepatocyte and sinusoid that allows for the exchange of materials between blood and liver cells.
+  * Hepatocyte: The main cell type of the liver, responsible for protein synthesis, detoxification, and metabolism.
+  * Kupffer cell: Specialized macrophages located in the liver sinusoids, involved in breaking down red blood cells and immune response.
+  * Ito cell (stellate cell): Stores fat and vitamin A; involved in liver fibrosis.
+* **Biliary tree and gallbladder**
+  * Bile: Consists of bile canaliculi, canals of Hering, intrahepatic bile ductules, and interlobular bile ducts, which collectively transport bile from hepatocytes to the gallbladder and intestine.
+  * Mucosa: Features Rokitansky-Aschoff sinuses, which are pouches within the gallbladder mucosa that may extend into the muscle layer.
+  * Muscularis externa: Smooth muscle layer that contracts to expel bile from the gallbladder.
+  * Cholangiocyte: Epithelial cells lining the bile ducts, involved in the modification and secretion of bile.
+* **Pancreas**
+  * Exocrine: Includes pancreatic acini that produce digestive enzymes, centroacinar cells within the acini, and intercalated ducts that transport enzymes to larger ducts.
+  * Endocrine: Comprises the Islets of Langerhans which contain A cells (glucagon-secreting), B cells (insulin-secreting), and D cells (somatostatin-secreting), regulating blood glucose levels.
+{: .notice--info}
 
-## Pathology / 病理
+## Physiology / 生理学
 
-## Pharmacology / 薬理
+## Pathology / 病理学
+
+## Pharmacology / 薬理学
 
 ## Symptom / 症候
 
@@ -168,13 +272,13 @@ Essences of clinical medicine.
 
 # Metabolism, Endocrinology and Surgery / 代謝・内分泌内科・外科
 
-## Anatomy / 解剖
+## Anatomy / 解剖学
 
-## Physiology / 生理
+## Physiology / 生理学
 
-## Pathology / 病理
+## Pathology / 病理学
 
-## Pharmacology / 薬理
+## Pharmacology / 薬理学
 
 ## Symptom / 症候
 
@@ -275,13 +379,13 @@ Essences of clinical medicine.
 
 # Nephrology and Urology / 腎臓内科・泌尿器科
 
-## Anatomy / 解剖
+## Anatomy / 解剖学
 
-## Physiology / 生理
+## Physiology / 生理学
 
-## Pathology / 病理
+## Pathology / 病理学
 
-## Pharmacology / 薬理
+## Pharmacology / 薬理学
 
 ## Symptom / 症候
 
@@ -398,13 +502,13 @@ Essences of clinical medicine.
 
 # Hematology and Oncology / 血液・腫瘍内科
 
-## Anatomy / 解剖
+## Anatomy / 解剖学
 
-## Physiology / 生理
+## Physiology / 生理学
 
-## Pathology / 病理
+## Pathology / 病理学
 
-## Pharmacology / 薬理
+## Pharmacology / 薬理学
 
 ## Symptom / 症候
 
@@ -482,11 +586,11 @@ Essences of clinical medicine.
 
 # Immunology and Rheumatology / 免疫・膠原病内科
 
-## Immunology / 免疫
+## Immunology / 免疫学
 
-## Pathology / 病理
+## Pathology / 病理学
 
-## Pharmacology / 薬理
+## Pharmacology / 薬理学
 
 ## Symptom / 症候
 
@@ -538,11 +642,11 @@ Essences of clinical medicine.
 
 # Infectious Diseases / 感染症内科
 
-## Microbiology / 微生物
+## Microbiology / 微生物学
 
-## Pathology / 病理
+## Pathology / 病理学
 
-## Pharmacology / 薬理
+## Pharmacology / 薬理学
 
 ## Symptom / 症候
 
@@ -692,11 +796,234 @@ Essences of clinical medicine.
 
 # Neurology and Neurosurgery/ 神経内科・外科
 
+## Anatomy / 解剖学
+
+### Cerebrum / 大脳
+* **Lobe**
+  * Frontal lobe: (precentral gyrus, superior frontal gyrus, middle frontal gyrus, inferior frontal gyrus)
+  * Parietal lobe: (postcentral gyrus, supeior parietal lobule, inferior parietal lobule)
+  * Temporal lobe: (superior temporal gyrus, middle temporal gyrus, inferior temporal gyrus)
+  * Occipital lobe:
+  * Insula
+* **Sulcus and fissure**
+  * Central sulcus: 
+  * Parietal-occipital sulcus:
+  * Lateral sulcus:
+  * Longitudinal fissure:
+  * Transverse fissure:
+* **Parietal lobe**
+  * Primary somatosensory area:
+  * Somatosensory association cortex:
+  * Parietal area: 
+* **Occipital lobe**
+  * Primary visual area:
+  * Visual association cortex:
+* **Temporal lobe**
+  * Primary auditory area:
+  * Auditory association area:
+  * Wernicke's area:
+* **Frontal lobe**
+  * Primary motor area:
+  * Supplementary motor area:
+  * Premotor area:
+  * Frontal eye field:
+  * Prefrontal cortex:
+  * Broca's area:
+* **Hemispheral Dominence**
+  * Left hemisphere:
+  * Right hemisphere:
+* **Association fiber**
+  * Superior and inferior longitudinal fasciculus:
+  * Superior and inferior occipitofrontal fasciculus:
+  * Arcuate fiber:
+* **Commissural fiber**
+  * Corpus callosum:
+  * Anterior commissure:
+* **Projection fiber**
+  * Internal capsule:
+  * Thalamic radiation:
+
+### Basal Ganglia and Limbic System / 基底核・辺縁系
+* **Basal Ganglia**
+  * Caudate nucleus: (part of striatum, input corticostriate fiber and nigrostriate fiber, output striatopallidal fiber)
+  * Putamen: (part of striatum, input corticostriate fiber and nigrostriate fiber, output striatopallidal fiber)
+  * Globus pallidus: (input striatopallidal fiber, output pallidothalamic fiber)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amygdala
+
+### Cerebellum / 小脳
+* **Anterior lobe**
+* **Posterior lobe**
+* **Flocculonodular lobe**
+* **Tonsil**
+* **Central nuclei**
+  * Fastigial nuclei, interposed nuclei, dentate nuclei
+* **Cerebellar peduncle**
+  * Inferior cerebellar peduncle
+  * Middle cerebellar peduncle
+  * Superior cerebellar peduncle
+* Vestibulocerebellum
+* Spinocerebellum
+* Pontocerebellum
+
+
+### Spinal Cord / 脊髄
+
+### Brain Stem / 脳幹
+* **Midbrain**
+  * Crus cerebri: (corticospinal fibers, corticobulbar fibers)
+  * Substantia nigra: (pars compacta, pars reticulate)
+  * Red nucleus:
+  * Periaqueductal grey matter:
+  * Superior colliculus:
+  * Inferior colliculus:
+  * Oculomotor nucleus
+  * Trochlear nucleus:
+* **Pons**
+  * Trigeminal nucleus:
+  * Abducens nucleus:
+  * 
+* **Medulla oblongata**
+  * 
+* **Fasciculi**
+  * Medial lemniscus:
+  * Spinal lemniscus:
+  * Trigeminal lemniscus:
+  * Lateral lemniscus:
+  * Medial longitudinal fasciculus:
+
+### Motor System / 運動系
+* **Corticospinal tract**
+  * Function: 
+  * Pathway: (cerebral cortex, internal capsule, cerebral crus, pyramid, cross, lateral corticospinal tract, motor neuron)
+* **Corticobulbar tract**
+  * Function:
+  * Pathway: (cerebral cortex, internal capsule, cerebral crus, cranial nerve nuclei)
+* **Cerebellar circuit**
+  * Function:
+  * Pathway: (cerebral cortex, pontine nuclei, middle cerebellar peduncle, cerebellar cortex, dentate nucleus, superior cerebellar peduncle, ventral lateral nucleus, cerebral cortex)
+* **Basal ganglia circuit**
+  * Function: 
+  * Direct loop: (cerebral cortex excite striatum, striatum inhibit GPi, GPi inhibit thalamus, thalamus excite cerebral cortex)
+  * Indirect loop: (cerebral cortex excite striatum, striatum inhibit GPe, GPe inhibit STN, STN excite GPi, GPi inhibit thalamus, thalamus excite cerebral cortex)
+  * Nigrostriatal pathway: (SNc excite direct pathway, inhibit indirect pathway)
+
+### Sensory System / 感覚系
+* **Spinothalamic system**
+  * Function: (temperature, pain, touch)
+  * Pathway: (dorsal root ganglia, tract cell, cross, spinothalamic tract, spinal lemniscus, VPL nucleus, cerebral cortex)
+* **Medial lemniscus system**
+  * Function: (proprioception, vibration, discriminative touch)
+  * Pathway: (dorsal root ganglia, gracile and cuneate fasciculus, gracile and cuneate nucleus, internal arcuate fiber, cross, medial lemniscus, VPL nucleus, cerebral cortex)
+* **Trigeminothalamic pathway**
+  * Function: (sensory for head)
+  * Pathway: (trigeminal ganglion, trigeminal nucleus, cross, trigeminal lemniscus, VPM nucleus, cerebral cortex)
+* **Spinocerebellar pathway**
+  * Function: (unconsious proprioception)
+  * Dorsal spinocerebellar tract: (dorsal root ganglia, Clarke's nucleus, inferior cerebellar peduncle, cerebellar cortex)
+  * Ventral spinocerebellar tract: (dorsal root ganglia, Clarke's nucleus, cross, cross, superior cerebellar peduncle, cerebellar cortex)
+  * Cuneocerebellar tract: (dorsal root ganglia, accessory cuneate nucleus, inferior cerebellar peduncle, cerebellar cortex)
+
+### Special Senses / 特殊感覚
+* **Olfactory system**
+  * Function:
+  * Pathway: (olfactory epithelium, olfactory nerve, olfactory bulb, olfactory tract, olfactory cortex)
+* **Visual system**
+  * Function: 
+  * Pathway: (retina, optic nerve, optic chiasma, partial cross, optic tract, lateral geniculate body, geniculocalcarine tract, visual cortex)
+  * Light reflex: (etina, optic nerve, optic chiasma, partial cross, optic tract, pretectal nucleus, Edinger-Westphal nucleus, ciliary ganglion, sphincter pupillae muscle)
+* **Auditory system**
+  * Function:
+  * Pathway: (organ of Corti, spiral ganglion, cochlear nerve, cochlear nucleus, superior olivary nucleus, lateral lemniscus, inferior colliculus, medial geniculate body, auditory cortex)
+* **Vestibular system**
+  * Function:
+  * Pathway: (macula and crista ampullaris, vestibular ganglion, vestibular nerve, vestibular nuclei, cerebellum & spinal cord & brain stem)
+  * Cerebellum: (inferior cerebellar peduncle, cerebellum)
+  * Spinal cord: (vestibulospinal tract, motor neuron)
+  * Brain stem: (medial longitudinal fasciculus, oculomoter & trochlear & abducens nuclei)
+
+### Histology / 組織学
+* **Cerebrum**
+  * Cells: (pyramidal cell, fusiform cell, stallete cell, Cajal cell)
+  * Layers: (molecular layer, external granular layer, external pyramidal layer, internal granular layer, internal pyramidal layer, multiform layer)
+  * Columnar organization:
+
+## Physiology / 生理学
+
+## Pathology / 病理学
+
+## Pharmacology / 薬理学
+
+## Symptom / 症候
+
+## Test / 検査
+
+## Treatment / 治療
+
 # Psychiatry / 精神科
 
 # Ophthalmology / 眼科
 
 # Otolaryngology / 耳鼻咽喉科
+
+## Anatomy / 解剖学
+
+### Histology / 組織学
+* **Nasal cavity**
+  * Respiratory region: Contains respiratory mucosa with ciliated pseudostratified columnar epithelium, which helps trap and move particles out of the nasal passages.
+  * Olfactory region: Composed of olfactory mucosa with olfactory epithelium and olfactory glands, crucial for detecting odors.
+  * Olfactory receptor cell: Specialized neuron that detects odor molecules and sends signals to the brain.
+  * Supporting cell: Provides structural and metabolic support for olfactory receptor cells.
+  * Basal cell: A stem cell type that can differentiate into other types of cells in the olfactory epithelium.
+* **Oral cavity**
+  * Masticatory mucosa: Contains keratinized or parakeratinized stratified squamous epithelium, found in areas subjected to significant mechanical stress such as gums and hard palate.
+  * Lining mucosa: Comprised of nonkeratinized stratified squamous epithelium, covers the inside of the lips, cheeks, and floor of the mouth, providing a smooth, moist surface.
+  * Specialized mucosa: Features taste buds, which are sensory organs that detect taste.
+* **Tongue**
+  * Lingual papillae: Includes filiform (most numerous, providing friction), foliate (on the sides, with taste buds), fungiform (at the tip and sides, with taste buds), and circumvallate (large structures at the back of the tongue with taste buds).
+  * Taste bud: Composed of taste pores and neuroepithelial cells, responsible for the detection of taste stimuli.
+  * Taste: Detects flavors like bitter, sweet, umami (through G Protein-Coupled Receptors, GPCR), and salty, sour (through ion channels).
+* **Teeth**
+  * Enamel: Formed by ameloblasts, consists of enamel rods, the hardest substance in the human body.
+  * Cementum: Covers the root of the tooth, anchoring it to the periodontal ligament.
+  * Dentin: Produced by odontoblasts, contains dentinal tubules, forming the bulk of the tooth.
+  * Pulp cavity: The central part of the tooth containing connective tissue, blood vessels, and nerves.
+* **Salivary gland**
+  * Secretory acini: Consists of serous cells (protein secretion), mucous cells (mucin secretion), demilunes (serous cells capping mucous acini), and myoepithelial cells (aid in expulsion of saliva).
+  * Salivary duct: Includes intercalated duct (transports saliva from acini), striated duct (modifies saliva ionically), and excretory duct (conveys saliva to the oral cavity).
+  * Parotid gland: Contain only serous acini with adipose tissue.
+  * Submandibular gland: Contain predominantly serous but also mucous acini.
+  * Sublingual gland: Contain predominantly mucous but also serous acini.
+* **Pharynx and Larynx**
+  * Pharynx: Muscular tube that connects the nasal and oral cavities to the esophagus and larynx; involved in swallowing and phonation.
+  * Larynx: Contains respiratory mucosa and vocal cords covered with stratified squamous epithelium, crucial for sound production and protecting the trachea against food aspiration.
+{: .notice--info}
+
+## Physiology / 生理学
+
+## Pathology / 病理学
+
+## Pharmacology / 薬理学
+
+## Symptom / 症候
+
+## Test / 検査
+
+## Treatment / 治療
 
 # Dermatology and Plastic Surgery/ 皮膚科・形成外科
 
