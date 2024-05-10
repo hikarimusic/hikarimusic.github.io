@@ -114,20 +114,6 @@ Essences of clinical medicine.
 
 # Gastroenterology and Surgery / 消化器内科・外科
 
-## Anatomy / 解剖
-
-## Physiology / 生理
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-## Symptom / 症候
-
-## Test / 検査
-
-## Treatment / 治療
-
 ## Esophageal Disease / 食道疾患
 
 ### Achalasia / 食道アカラシア
@@ -245,20 +231,6 @@ Essences of clinical medicine.
 
 # Metabolism, Endocrinology and Surgery / 代謝・内分泌内科・外科
 
-## Anatomy / 解剖
-
-## Physiology / 生理
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-## Symptom / 症候
-
-## Test / 検査
-
-## Treatment / 治療
-
 ## Hypothalamus and Pituitary Gland Disease / 視床下部・下垂体疾患
 
 ### Hyperprolactinemia / 高プロラクチン血症
@@ -348,20 +320,6 @@ Essences of clinical medicine.
 ### Amyloidosis / アミロイドーシス
 
 # Nephrology and Urology / 腎臓内科・泌尿器科
-
-## Anatomy / 解剖
-
-## Physiology / 生理
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-## Symptom / 症候
-
-## Test / 検査
-
-## Treatment / 治療
 
 ## Water and Electrolytes Metabolism Disorder / 水・電解質代謝異常
 
@@ -472,20 +430,6 @@ Essences of clinical medicine.
 
 # Hematology and Oncology / 血液・腫瘍内科
 
-## Anatomy / 解剖
-
-## Physiology / 生理
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-## Symptom / 症候
-
-## Test / 検査
-
-## Treatment / 治療
-
 ## Nonhemolytic Anemia / 非溶血性貧血
 
 ### Iron Deficiency Anemia / 鉄欠乏性貧血
@@ -556,18 +500,6 @@ Essences of clinical medicine.
 
 # Immunology and Rheumatology / 免疫・膠原病内科
 
-## Immunology / 免疫
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-## Symptom / 症候
-
-## Test / 検査
-
-## Treatment / 治療
-
 ## Allergy / アレルギー
 
 ### Anaphylaxis / アナフィラキシー
@@ -612,18 +544,6 @@ Essences of clinical medicine.
 ### IgA Vasculitis / IgA血管炎
 
 # Infectious Diseases / 感染症内科
-
-## Microbiology / 微生物
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-## Symptom / 症候
-
-## Test / 検査
-
-## Treatment / 治療
 
 ## Gram-Positive Bacterial Infection / グラム陽性菌感染症
 
@@ -766,20 +686,6 @@ Essences of clinical medicine.
 ### Diphyllobothriasis / 裂頭条虫症
 
 # Neurology and Neurosurgery/ 神経内科・外科
-
-## Anatomy / 解剖
-
-## Physiology / 生理
-
-## Pathology / 病理
-
-## Pharmacology / 薬理
-
-## Symptoms / 症候
-
-## Tests / 検査
-
-## Treatment / 治療
 
 ## Cerebral Infarction / 脳梗塞
 
