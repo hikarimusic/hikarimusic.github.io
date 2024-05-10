@@ -15,25 +15,102 @@ Essences of clinical medicine.
 
 # Respiratory Medicine and Surgery / 呼吸器内科・外科
 
-<!-- ## Infectious Disease / 感染性疾患
+## Infectious Disease / 感染性疾患
 
-## Immune and Allergic Lung Disease / 免疫・アレルギー性肺疾患
-
-## Interstitial Lung Disease / 間質性肺疾患
+### Acute Bronchiolitis / 急性細気管支炎
+### Community-Acquired Pneumonia / 市中肺炎
+### Hospital-Acquired Pneumonia / 院内肺炎
+### Aspiration Pneumonia / 誤嚥性肺炎
+### Streptococcus Penumoniae Pneumonia / 肺炎球菌肺炎
+### Haemophilus Influenzae Pneumonia / インフルエンザ菌肺炎
+### Klebsiella Pneumoniae Pneumonia / クレブシエラ肺炎
+### Staphylococcus Aureus Pneumonia / 黄色ブドウ球菌肺炎
+### Moraxella Catarrhalis Pneumonia / モラクセラ肺炎
+### Pseudomonas Aeruginosa Pneumonia / 緑膿菌肺炎
+### Legionella Pneumophila Pneumonia / レジオネラ肺炎
+### Mycoplasma Pneumoniae Pneumonia / マイコプラズマ肺炎
+### Chlamydophila Pneumoniae Pneumonia / クラミジア肺炎
+### Psittacosis / オウム病
+### Viral Pneumonia / ウイルス性肺炎
+### Lung Abscess / 肺膿瘍
+### Pulmonary Tuberculosis / 肺結核
+### Miliary Tuberculosis / 粟粒結核
+### Nontuberculous Mycobacteriosis / 非結核性抗酸菌症
+### Simple Pulmonary Aspergilloma / 単純性肺アスペルギローマ
+### Chronic Progressive Pulmonary Aspergillosis / 慢性進行性肺アスペルギルス症
+### Invasive Pulmonary Aspergillosis / 侵襲性肺アスペルギルス症
+### Pulmonary Cryptococcosis / 肺クリプトコッカス症
 
 ## Obstructive Lung Disease / 閉塞性肺疾患
 
+### Chronic Obstructive Pulmonary Disease / 慢性閉塞性肺疾患
+### Diffuse Panbronchiolitis / びまん性汎細気管支炎
+### Lymphangioleiomyomatosis / リンパ脈管筋腫症
+
+## Interstitial Lung Disease / 間質性肺疾患
+
+### Idiopathic Pulmonary Fibrosis / 特発性肺線維症
+### Non-Specific Interstitial Pneumonia / 非特異性間質性肺炎
+### Cryptogenic Organizing Pneumonia / 特発性器質化肺炎
+### Asbestosis / 石綿肺
+### Silicosis / 珪肺
+### Radiation Pneumonitis / 放射線肺炎
+### Drug-Induced Pneumonia / 薬剤性肺炎
+
+## Immune and Allergic Lung Disease / 免疫・アレルギー性肺疾患
+
+### Bronchial Asthma / 気管支喘息
+### Aspirin-Induced Asthma / アスピリン喘息
+### Acute Eosinophilic Pneumonia / 急性好酸球性肺炎
+### Chronic Eosinophilic Pneumonia / 慢性好酸球性肺炎
+### Allergic Bronchopulmonary Aspergillosis / アレルギー性気管支肺アスペルギルス症
+### Hypersensitivity Pneumonitis / 過敏性肺炎
+
+## Lung and Bronchus Malformation / 肺・気管支の形態異常
+### Bronchiectasis / 気管支拡張症
+### Atelectasis / 無気肺
+### Pulmonary Sequestration / 肺分画症
+### Pulmonary Cystic Disease / 肺嚢胞症
+### Pulmonary Alveolar Proteinosis / 肺胞蛋白症
+
 ## Lung Tumor / 肺腫瘍
 
-## Circulation Disorder / 循環障害
+### Pulmonary Hamartoma / 肺過誤腫
+### Squamous Cell Carcinoma / 扁平上皮癌
+### Adenocarcinoma / 腺癌
+### Small Cell Lung Carcinoma / 小細胞肺癌
+### Metastatic Lung Tumor / 転移性肺腫瘍
 
-## Ventilation Disorder / 換気異常
+## Pulmonary Circulation Disorder / 肺循環障害
 
-## Other Respiratory Disease / その他の呼吸器疾患
+### Pulmonary Thromboembolism / 肺血栓塞栓症
+### Idiopathic Pulmonary Arterial Hypertension / 特発性肺動脈性肺高血圧症
+### Cor Pulmonale / 肺性心
+### Pulmonary Arteriovenous Fistula / 肺動静脈瘻
+### Pulmonary Edema / 肺水腫
+### Acute Respiratory Distress Syndrome / 急性呼吸窮迫症候群
+
+## Functional Respiratory Disease / 機能的呼吸障害
+
+### Hyperventilation Syndrome / 過換気症候群
+### CO2 Narcosis / CO2ナルコーシス
+### Sleep Apnea Syndrome / 睡眠時無呼吸症候群
 
 ## Pleural Disease / 胸膜疾患
 
-## Mediastinal Disease / 縦隔疾患 -->
+### Pneumothorax / 気胸
+### Pleuritis / 胸膜炎
+### Pyothorax / 膿胸
+### Chylothorax / 乳び胸
+### Pleural Mesothelioma / 胸膜中皮腫
+
+## Mediastinal Disease / 縦隔疾患
+
+### Acute Mediastinitis / 急性縦隔炎
+### Mediastinal Emphysema / 縦隔気腫
+### Thymoma / 胸腺腫
+### Neurogenic Tumor / 神経原性腫瘍
+### Germ Cell Tumor / 胚細胞腫瘍
 
 # Gastroenterology and Surgery / 消化器内科・外科
 
@@ -235,9 +312,6 @@ Essences of clinical medicine.
 ### Gestational Diabetes Mellitis / 妊娠糖尿病
 ### Diabetic Ketoacidosis / 糖尿病性ケトアシドーシス
 ### Hyperosmolar Hyperglycemic Syndrome / 高浸透圧高血糖症候群
-### Diabetic Neuropathy / 糖尿病性神経障害
-### Diabetic Retinopathy / 糖尿病性網膜症
-### Diabetic Nephropathy / 糖尿病性腎症
 ### Diabetic Foot / 糖尿病足病変
 ### Hypoglycemia / 低血糖症
 
@@ -522,8 +596,9 @@ Essences of clinical medicine.
 ### Behcet's Disease / Behcet病
 ### Rheumatic Fever / リウマチ熱
 ### Antiphospholipid Syndrome / 抗リン脂質抗体症候群
-### Sarcoidosis / サルコイドーシス
 ### IgG4-Related Disease / IgG4関連疾患
+### Goodpasture Syndrome / Goodpasture症候群
+### Sarcoidosis / サルコイドーシス
 
 ## Collagen Disease (Vasculitis) / 膠原病（血管炎）
 
@@ -692,6 +767,184 @@ Essences of clinical medicine.
 
 # Neurology and Neurosurgery/ 神経内科・外科
 
+## Anatomy / 解剖
+
+## Physiology / 生理
+
+## Pathology / 病理
+
+## Pharmacology / 薬理
+
+## Symptoms / 症候
+
+## Tests / 検査
+
+## Treatment / 治療
+
+## Cerebral Infarction / 脳梗塞
+
+### Atherothrombotic Infarction / アテローム血栓性脳梗塞
+### Cardioembolic Infarction / 心原性脳塞栓症
+### Lacunar Infarction / ラクナ梗塞
+### Transient Ischemic Attack / 一過性脳虚血発作
+### Carotid Artery Stenosis / 頸動脈狭窄症
+### Cerebellar Infarction / 小脳梗塞
+### Wallenberg Syndrome / Wallenberg症候群
+
+## Cerebral Hemorrhage / 脳出血
+
+### Putaminal Hemorrhage / 被殻出血
+### Thalamic Hemorrhage / 視床出血
+### Brainstem Hemorrhage / 脳幹出血
+### Cerebellar Hemorrhage / 小脳出血
+### Subcortical Hemorrhage / 皮質下出血
+### Subarachnoid Hemorrhage / くも膜下出血
+
+## Other Cerebrovascular Disease / その他の脳血管疾患
+
+### Cerebral Aneurysm / 脳動脈瘤
+### Arteriovenous Malformation / 脳動静脈奇形
+### Moyamoya Disease / もやもや病
+### Carotid-Cavernous Fistula / 内頸動脈海綿静脈洞瘻
+### Dural Arteriovenous Fistula / 硬膜動静脈瘻
+### Sinus Thrombosis / 静脈洞血栓症
+### Hypertensive Encephalopathy / 高血圧性脳症
+### Spinal Arteriovenous Malformation / 脊髄動静脈奇形
+### Spinal Cord Infarction / 脊髄梗塞
+
+## Dementia / 認知症
+
+### Alzheimer Type Dementia / Alzheimer型認知症
+### Vascular Dementia / 血管性認知症
+### Dementia with Lewy Bodies / Lewy小体型認知症
+### Frontotemporal Lobar Degeneration / 前頭側頭葉変性症
+
+## Neurodegenerative Disease / 神経変性疾患
+
+### Parkinson's Disease / Parkinson病
+### Progressive Supranuclear Palsy / 進行性核上性麻痺
+### Corticobasal Degeneration / 大脳皮質基底核変性症
+### Huntington's Disease / Huntington病
+### MSA-C / MSA-C
+### MSA-P / MSA-P
+### Shy-Drager Syndrome / Shy-Drager症候群
+### Cortical Cerebellar Atrophy / 皮質性小脳萎縮症
+### SCA-3 / SCA-3
+### SCA-6 / SCA-6
+### Dentato-Rubro-Pallido-Luysian Atrophy / 歯状核赤核淡蒼球ルイ体萎縮症
+### Friedreich Ataxia / Friedreich運動失調症
+### Syringomyelia / 脊髄空洞症
+### Subacute Combined Degeneration of Spinal Cord / 亜急性連合性脊髄変性症
+### Amyotrophic Lateral Sclerosis / 筋萎縮性側索硬化症
+### Spinal Muscular Atrophy / 脊髄性筋萎縮症
+### Spinal and Bulbar Muscular Atrophy / 球脊髄性筋萎縮症
+
+## Demyelinating Disease / 脱髄性疾患
+
+### Multiple Sclerosis / 多発性硬化症
+### Neuromyelitis Optica / 視神経脊髄炎
+### Acute Disseminated Encephalomyelitis / 急性散在性脳脊髄炎
+### Adrenoleukodystrophy / 副腎白質ジストロフィー
+### Metachromatic Leukodystrophy / 異染性白質ジストロフィー
+
+## Peripheral Neuropathy / 末梢神経障害
+
+### Guillain-Barré Syndrome / Guillain-Barré症候群
+### Chronic Inflammatory Demyelinating Polyneuropathy / 慢性炎症性脱髄性多発神経炎
+### Charcot-Marie-Tooth Disease / Charcot-Marie-Tooth病
+### Familial Amyloid Polyneuropathy / 家族性アミロイドポリニューロパチー
+### Diabetic Neuropathy / 糖尿病性神経障害
+### Wernicke Encephalopathy / Wernicke脳症
+### Carcinomatous Neuropathy / 癌性ニュロパチー
+### Crow-Fukase Syndrome / Crow-Fukase症候群
+### Trigeminal Neuralgia / 三叉神経痛
+### Bell's Palsy / Bell麻痺
+### Ramsay Hunt Syndrome / Ramsay Hunt症候群
+
+## 筋疾患 / Muscular Disease
+
+### Duchenne Muscular Dystrophy / Duchenne型筋ジストロフィー
+### Becker Muscular Dystrophy / Becker型筋ジストロフィー
+### Limb-Girdle Muscular Dystrophy / LG型筋ジストロフィー
+### Fascioscapulohumeral Muscular Dystrophy / FSH型筋ジストロフィー
+### Congenital Muscular Dystrophy / 先天性筋ジストロフィー
+### Myotonic Dystrophy / 筋強直性ジストロフィー
+### Mitochondrial Encephalomyopathy / ミトコンドリア脳筋症
+### Periodic Paralysis / 周期性四肢麻痺
+### Myasthenia Gravis / 重症筋無力症
+### Lambert-Eaton Myasthenic Syndrome / Lambert-Eaton症候群
+
+## Phacomatosis / 母斑症
+
+### Neurofibromatosis Type 1 / 神経線維腫症１型
+### Neurofibromatosis Type 2 / 神経線維腫症２型
+### Tuberous Sclerosis / 結節性硬化症
+### Von Hippel-Lindau Disease / Von Hippel-Lindau病
+### Sturge-Weber Syndrome / Sturge-Weber症候群
+
+## Infectious Disease / 感染性疾患
+
+### Bacterial Meningitis / 細菌性髄膜炎
+### Tuberculous Meningitis / 結核性髄膜炎
+### Fungal Meningitis / 真菌性髄膜炎
+### Viral Meningitis / ウイルス性髄膜炎
+### Herpes Simplex Encephalitis / 単純ヘルペス脳炎症
+### HIV-Associated Neurocognitive Disorder / HIV 関連神経認知障害
+### HTLV-1 Associated Myelopathy / HTLV-1 関連脊髄症
+### Subacute Sclerosing Panencephalitis / 亜急性硬化性全脳炎
+### Progressive Multifocal Leukoencephalopathy / 進行性多巣性白質脳症
+### Creutzfeldt-Jakob Disease / Creutzfeldt-Jakob病
+### Brain Abscess / 脳膿瘍
+### Neurosyphilis / 神経梅毒
+### Acute Encephalopathy / 急性脳症
+### Reye Syndrome / Reye症候群
+### Acute Cerebellar Ataxia / 急性小脳失調症
+
+## Brain Tumor / 脳腫瘍
+
+### Diffuse Astrocytoma / びまん性星細胞腫
+### Glioblastoma / 膠芽腫
+### Oligodendroglioma / 乏突起膠腫
+### Ependymoma / 上衣腫
+### Medulloblastoma / 髄芽腫
+### Meningioma / 髄膜腫
+### Schwannoma / 神経鞘腫
+### Pituitary Adenoma / 下垂体腺腫
+### Craniopharyngioma / 頭蓋咽頭腫
+### Germ Cell Tumor / 胚細胞腫瘍
+### Hemangioblastoma / 血管芽腫
+### Malignant Lymphoma / 悪性リンパ腫
+### Metastatic Brain Tumor / 転移性脳腫瘍
+### Spinal Cord Tumor / 脊髄腫瘍
+
+## Functional Disease / 機能性疾患
+
+### Rolandic Epilepsy / Rolandてんかん
+### Temporal Lobe Epilepsy / 側頭葉てんかん
+### Childhood Absence Epilepsy / 小児欠神てんかん
+### Juvenile Myoclonic Epilepsy / 若年ミオクロニーてんかん
+### West Syndrome / West症候群
+### Lennox-Gastaut Syndrome / Lennox-Gastaut症候群
+### Dravet Syndrome / Dravet症候群
+### Febrile Seizure / 熱性けいれん
+### Cerebral Palsy / 脳性麻痺
+### Migraine / 片頭痛
+### Tension-Type Headache / 緊張性頭痛
+### Cluster Headache / 群発頭痛
+### Restless Legs Syndrome / むずむず脚症候群
+
+## Head Injury / 頭部外傷
+
+### Skull Base Fracture / 頭蓋底骨折
+### Cranial Vault Fracture / 円蓋部骨折
+### Acute Epidural Hematoma / 急性硬膜外血腫
+### Acute Subdural Hematoma / 急性硬膜下血腫
+### Chronic Subdural Hematoma / 慢性硬膜下血腫
+### Cerebral Contusion / 脳挫傷
+### Diffuse Axonal Injury / びまん性軸索損傷
+### Spinal Cord Injury / 脊髄損傷
+### Normal Pressure Hydrocephalus / 正常圧水頭症
+
 # Psychiatry / 精神科
 
 # Ophthalmology / 眼科
@@ -799,6 +1052,16 @@ Essences of clinical medicine.
 ### DiGeorge Syndrome / DiGeorge症候群
 ### Chédiak-Higashi Syndrome / Chédiak-Higashi症候群
 ### Chronic Granulomatous Disease / 慢性肉芽腫症
+
+## Neurological Disease / 神経疾患
+
+### Craniosynostosis / 頭蓋縫合早期癒合症
+### Spina Bifida / 二分脊椎
+### Cranium Bifidum / 二分頭蓋
+### Congenital Hydrocephalus / 先天性水頭症
+### Chiari Malformation / Chiari奇形
+### Dandy-Walker Syndrome / Dandy-Walker症候群
+### Arachnoid Cyst / くも膜嚢胞
 
 ## Neoplasm / 新生物
 
