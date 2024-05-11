@@ -11,9 +11,87 @@ Essences of clinical medicine.
 
 {% include toc %}
 
-# Cardiovascular Medicine and Surgery/ 循環器内科・外科
+# Cardiovascular Medicine / 循環器科
 
-# Respiratory Medicine and Surgery / 呼吸器内科・外科
+## Ischemic Heart Disease / 虚血性心疾患
+
+### Effort Angina Pectoris / 労作性狭心症
+### Vasospastic Angina Pectoris / 冠攣縮性狭心症
+### Unstable Angina Pectoris / 不安定狭心症
+### Acute Myocardial Infarction / 急性心筋梗塞
+### Complication of Myocardial Infarction / 心筋梗塞の合併症
+
+## Valvular Heart Disease / 心臓弁膜症
+
+### Mitral Stenosis / 僧帽弁狭窄症
+### Mitral Regurgitation / 僧帽弁閉鎖不全症
+### Mitral Valve Prolapse / 僧帽弁逸脱症
+### Aortic Stenosis / 大動脈弁狭窄症
+### Aortic Regurgitation / 大動脈弁閉鎖不全症
+### Tricuspid Stenosis / 三尖弁狭窄症
+### Tricuspid Regurgitation / 三尖弁閉鎖不全症
+
+### Endocardium, Myocardium and Pericardium Disease / 心内膜・心筋・心膜疾患
+
+### Infectious Endocarditis / 感染性心内膜炎
+### Cardiac Myxoma / 心臓粘液腫
+### Dilated Cardiomyopathy / 拡張型心筋症
+### Hypertrophic Cardiomyopathy / 肥大型心筋症
+### Restrictive Cardiomyopathy / 拘束型心筋症
+### Takotsubo-Type Cardiomyopathy / たこつぼ型心筋症
+### Myocarditis / 心筋炎
+### Acute Pericarditis / 急性心膜炎
+### Cardiac Tamponade / 心タンポナーデ
+### Constrictive Pericarditis / 収縮性心膜炎
+
+## Arterial Disease / 動脈疾患
+
+### Arteriosclerosis / 動脈硬化
+### Aortic Aneurysm / 大動脈瘤
+### Aortic Dissection / 大動脈解離
+### Arterio-Venous Fistula / 動静脈瘻
+### Acute Arterial Occlusive Disease / 急性動脈閉塞症
+### Arteriosclerosis Obliterans / 閉塞性動脈硬化症
+### Thromboangiitis Obliterans / 閉塞性血栓血管炎
+### Raynaud Disease / Raynaud病
+
+## Venous Disease / 静脈疾患
+
+### Deep Vein Thrombosis / 深部静脈血栓症
+### Varicose Vein / 下肢静脈瘤
+### SVC Syndrome / 上大静脈症候群
+### Lymphedema / リンパ浮腫
+
+## Blood Pressure Disorder / 血圧異常
+
+### Essential Hypertension / 本態性高血圧症
+### Secondary Hypertension / 二次性高血圧症
+### Malignant Hypertension / 悪性高血圧症
+### Hypotension / 低血圧
+
+## Heart Failure / 心不全
+
+### Left-Sided Heart Failure / 左心不全
+### Right-Sided Heart Failure / 右心不全
+
+## Arrhythmia / 不整脈
+
+### Atrial Premature Contraction / 心房期外収縮
+### Sinus Tachycardia / 洞性頻脈
+### Paroxysmal Supraventricular Tachycardia / 発作性上室性頻拍
+### Wolff-Parkinson-White Syndrome / WPW症候群
+### Atrial Flutter / 心房粗動
+### Atrial Fibrillation / 心房細動
+### Ventricular Premature Contraction / 心室期外収縮
+### Ventricular Tachycardia / 心室頻拍
+### Ventricular Fibrillation / 心室細動
+### Long QT Syndrome / QT延長症候群
+### Brugada Syndrome / Brugada症候群
+### Sick Sinus Syndrome / 洞不全症候群
+### Atrioventricular Block / 房室ブロック
+### Bundle Branch Block / 脚ブロック
+
+# Respiratory Medicine / 呼吸器科
 
 ## Infectious Disease / 感染性疾患
 
@@ -112,7 +190,7 @@ Essences of clinical medicine.
 ### Neurogenic Tumor / 神経原性腫瘍
 ### Germ Cell Tumor / 胚細胞腫瘍
 
-# Gastroenterology and Surgery / 消化器内科・外科
+# Gastroenterology / 消化器科
 
 ## Esophageal Disease / 食道疾患
 
@@ -229,7 +307,7 @@ Essences of clinical medicine.
 ### Serous Cystic Neoplasm / 漿液性嚢胞腫瘍
 ### Pancreatic Neuroendocrine Neoplasm / 膵神経内分泌腫瘍
 
-# Metabolism, Endocrinology and Surgery / 代謝・内分泌内科・外科
+# Metabolism and Endocrinology / 代謝・内分泌科
 
 ## Hypothalamus and Pituitary Gland Disease / 視床下部・下垂体疾患
 
@@ -319,7 +397,7 @@ Essences of clinical medicine.
 ### Porphyria Cutanea Tarda / 晩発性皮膚ポルフィリン症
 ### Amyloidosis / アミロイドーシス
 
-# Nephrology and Urology / 腎臓内科・泌尿器科
+# Nephrology and Urology / 腎臓・泌尿器科
 
 ## Water and Electrolytes Metabolism Disorder / 水・電解質代謝異常
 
@@ -428,7 +506,7 @@ Essences of clinical medicine.
 ### Priapism / 持続勃起症
 ### Male Infertility / 男性不妊症
 
-# Hematology and Oncology / 血液・腫瘍内科
+# Hematology and Oncology / 血液・腫瘍科
 
 ## Nonhemolytic Anemia / 非溶血性貧血
 
@@ -498,7 +576,7 @@ Essences of clinical medicine.
 ### Disseminated Intravascular Coagulation / 播種性血管内凝固
 ### Vitamin K Deficiency / ビタミンK欠乏症
 
-# Immunology and Rheumatology / 免疫・膠原病内科
+# Immunology and Rheumatology / 免疫・リウマチ科
 
 ## Allergy / アレルギー
 
@@ -543,7 +621,7 @@ Essences of clinical medicine.
 ### Eosinophilic Granulomatosis with Polyangiitis / 好酸球性多発血管炎性肉芽腫症
 ### IgA Vasculitis / IgA血管炎
 
-# Infectious Diseases / 感染症内科
+# Infectious Diseases / 感染症
 
 ## Gram-Positive Bacterial Infection / グラム陽性菌感染症
 
@@ -685,7 +763,7 @@ Essences of clinical medicine.
 ### Hymenolepiasis Nana / 小形条虫症
 ### Diphyllobothriasis / 裂頭条虫症
 
-# Neurology and Neurosurgery/ 神経内科・外科
+# Neurology / 神経科
 
 ## Cerebral Infarction / 脳梗塞
 
@@ -857,17 +935,34 @@ Essences of clinical medicine.
 
 # Otolaryngology / 耳鼻咽喉科
 
-# Dermatology and Plastic Surgery/ 皮膚科・形成外科
+# Dermatology / 皮膚科
 
-# Orthopedic Surgery and Rehabilitation/ 整形外科・リハビリテーション科
+# Orthopedic Surgery / 整形外科
 
 # Obstetrics and Gynecology / 産科・婦人科
 
-# Pediatrics and Surgery / 小児科・外科
+# Pediatrics / 小児科
 
-## Cardiovascular Disease / 循環器疾患
+<!-- ## Cardiovascular Disease / 循環器疾患
 
-## Respiratory Disease / 呼吸器疾患
+### Atrial Septal Defect / 心房中隔欠損症
+### Ventricular Septal Defect / 心室中隔欠損症
+### Atrioventricular Septal Defect / 房室中隔欠損症
+### Patent Ductus Arteriosus / 動脈管開存症
+### Coarctation of the Aorta / 大動脈縮窄症
+### Eisenmenger Syndrome / Eisenmenger症候群
+### Tetralogy of Fallot / Fallot四徴症
+### Complete Transposition of Great Arteries / 完全大血管転位症
+### Total Anomalous Pulmonary Venous Return / 総肺静脈還流異常症
+### Double Outlet Right Ventricle / 両大血管右室起始症
+### Hypoplastic Left Heart Syndrome / 左心低形成症候群
+### Pulmonary Stenosis / 肺動脈狭窄症
+### Pure Pulmonary Atresia / 純型肺動脈閉鎖
+### Truncus Arteriosus Communis / 総動脈幹症
+### Ruptured Aneurysm of the sinus of Valsalva / Valsalva洞動脈瘤破裂
+### Tricuspid Atresia / 三尖弁閉鎖症
+### Ebstein's Disease / Ebstein病
+### Single Ventricle / 単心室症
 
 ## Gastrointestinal Disease / 消化器疾患
 
@@ -891,7 +986,7 @@ Essences of clinical medicine.
 ### Biliary Atresia / 胆道閉鎖症
 ### Congenital Biliary Dilatation / 先天性胆道拡張症
 
-## Metabolism and Endocrine Disease / 代謝・内分泌疾患
+## Metabolism Disease / 代謝疾患
 
 ### Phenylketonuria / フェニルケトン尿症
 ### Maple Syrup Urine Disease / メープルシロップ尿症
@@ -916,6 +1011,9 @@ Essences of clinical medicine.
 ### Osteomalacia / 骨軟化症
 ### Osteogenesis Imperfecta / 骨形成不全症
 ### Chondrodysplasia / 軟骨異形成症
+
+## Endocrine Disease / 内分泌疾患
+
 ### Growth Hormone Deficiency / 成長ホルモン欠乏症
 ### Congenital Hypothyroidism / 先天性甲状腺機能低下症
 ### Precocious Puberty / 早発性思春期
@@ -972,12 +1070,68 @@ Essences of clinical medicine.
 ## Neoplasm / 新生物
 
 ### Hepatoblastoma / 肝芽腫
-### Wilms' Tumor / Wilms腫瘍
-
-# Anesthesiology / 麻酔科
-
-# Radiology / 放射線科
+### Wilms' Tumor / Wilms腫瘍 -->
 
 # Emergency Medicine / 救急科
 
+## Shock / ショック
 
+### Cardiopulmonary Arrest / 心肺停止
+### Hypovolemic Shock / 循環血液量減少性ショック
+### Anaphylactic Shock / アナフィラキシーショック
+### Neurogenic Shock / 神経原性ショック
+### Septic Shock / 敗血症性ショック
+### Cardiogenic Shock / 心原性ショック
+### Extracardiac Obstructive Shock / 心外閉塞性ショック
+
+## Emergency Disease / 救急疾患
+
+### Airway Foreign Body / 気道異物
+### Gastrointestinal Foreign Body / 消化管異物
+### Status Epilepticus / てんかん重積状態
+### Acute Abdomen / 急性腹症
+### Multiple Organ Dysfunction Syndrome / 多臓器不全
+
+## Thoracic Injury / 胸部外傷
+
+### Tracheobronchial Injury / 気管・気管支損傷
+### Pulmonary Contusion / 肺挫傷
+### Flail Chest / 胸郭動揺
+### Open Pneumothorax / 開放性気胸
+### Tension Pneumothorax / 緊張性気胸
+### Aortic Injury / 大動脈損傷
+### Massive Hemothorax / 大量血胸
+
+## Abdominal Injury / 腹部外傷
+
+### Liver Injury / 肝損傷
+### Splenic Rupture / 脾破裂
+### Kidney Injury / 腎外傷
+### Urethral Injury / 尿道外傷
+### Bladder Injury / 膀胱外傷
+### Testicular Injury / 精巣外傷
+
+## Other Injury / その他の外傷
+
+### High Energy Trauma / 高エネルギー外傷
+### Crush Syndrome / 圧挫症候群
+### Compartment Syndrome / コンパートメント症候群
+### Fat Embolism Syndrome / 脂肪塞栓症候群
+### Burns / 熱傷
+### Smoke Inhalation Injury / 気道熱傷
+
+## Diseases due to Physical Factors / 物理的要因による疾患
+
+### Heat Illness / 熱中症
+### Accidental Hypothermia / 偶発性低体温症
+### Altitude Sickness / 高山病
+### Decompression Sickness / 減圧症
+
+## Poisoning / 中毒
+
+### Food Poisoning / 食中毒
+### Drug Poisoning / 薬物中毒
+### Organic Solvent Poisoning / 有機溶剤中毒
+### Toxic Gas Poisoning / 有毒ガス中毒
+### Metal Poisoning / 金属中毒
+### Pesticide Poisoning / 農薬中毒
