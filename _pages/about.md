@@ -12,7 +12,7 @@ I am 董宇光 (Yeu-Guang Tung), a medical student studying at the School of Med
 
 * National Taiwan University: School of Medicine
 * International Physics Olympiad: Silver Medal
-* 東京大学一般選抜：理科一類プラス４３点理三落ち
+* 東京大学一般選抜：理一プラス４３点理三落ち
 
 ## Paper
 

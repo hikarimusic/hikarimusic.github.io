@@ -11,9 +11,9 @@ Templates of competitive programming.
 
 {% include toc %}
 
-## Search / 探索
+## Exhaustive Search / 全探索
 
-### Exhaustive Search / 全探索
+### Bit Exhaustive Search / ビット全探索
 ```cpp
 vector<int> arr(N);
 
@@ -26,6 +26,8 @@ void search(int n) {
     }
 }
 ```
+
+### Permutation Exhaustive Search / 順列全探索
 ```cpp
 vector<int> arr(N);
 
@@ -36,6 +38,8 @@ void search(int n) {
     } while (next_permutation(arr.begin(), arr.begin()+n));
 }
 ```
+
+### DFS Exhaustive Search / DFS全探索
 ```cpp
 vector<int> arr(N);
 
@@ -46,12 +50,16 @@ void search(int p, int n) {
         return;
     }
     for ("<next value i>") {
+        if ("<pruning>")
+            continue;
         arr[p] = i;
         search(p+1, n);
         arr[p] = 0;
     }
 }
 ```
+
+### Backtracking / バックトラッキング
 ```cpp
 vector<int> arr(N);
 
@@ -70,6 +78,18 @@ bool search(int p, int n) {
         arr[p] = 0;
     }
     return false;
+}
+```
+
+## Basic Algorithm / 基本的アルゴリズム
+
+### Greedy Algorithm / 貪欲法
+```cpp
+void solve() {
+    "<preprocess>";
+    for (int i=0; i<N; ++i) {
+        "<greedy>";
+    }
 }
 ```
 
@@ -107,19 +127,23 @@ int search(int n) {
 }
 ```
 
-## Basic / 基本
-
-### Greedy Algorithm / 貪欲法
+### Prefix Sum / 累積和
 ```cpp
-void solve() {
-    "<preprocess>";
-    for (int i=0; i<N; ++i) {
-        "<greedy>";
-    }
+vector<int> arr(N), sum(N);
+
+void build(int n) {
+    for (int i=0; i<n; ++i)
+        sum[i+1] = sum[i] + arr[i];
+}
+
+int query(int l, int r) {
+    return sum[r+1] - sum[l];
 }
 ```
 
-### Dynamic Programming / 動的計画法
+## Dynamic Programming / 動的計画法
+
+### Knapsack DP / ナップサックDP
 ```cpp
 vector<vector<int>> dp(N, vector<int>(M));
 
@@ -132,6 +156,8 @@ void solve(int n, int m) {
     }
 }
 ```
+
+### Interval DP / 区間DP
 ```cpp
 vector<vector<int>> dp(N, vector<int>(N, -1));
 
@@ -144,6 +170,8 @@ int rec(int l, int r) {
     return dp[l][r] = a;
 }
 ```
+
+### Bit DP / ビットDP
 ```cpp
 vector<vector<int>> dp((1<<N), vector<int>(N, -1));
 
@@ -155,93 +183,6 @@ int rec(int S, int v, int n) {
     int a = "<combination of rec(S^(1<<v), i, n), ...>";
     return dp[S][v] = a;
 }
-```
-```cpp
-vector<vector<int>> adj(N);
-vector<vector<int>> dp(N, vector<int>(S));
-
-void dfs(int v, int p) {
-    for (int u : adj[v]) {
-        if (u==p)
-            continue;
-        dfs(u, v);
-        dp[v][i] = "<combination of dp[u][j], ...>";
-    }
-}
-```
-### Divide and Conquer / 分割統治法
-```cpp
-vector<int> arr(N);
-
-void rec(int l, int r) {
-    int m = (l+r)/2;
-    if (l==r)
-        "<base case>";
-    rec(l, m);
-    rec(m+1, r);
-    "<combine>";
-}
-```
-```cpp
-vector<vector<int>> adj(N);
-vector<int> siz(N), cen(N);
-
-void calsize(int v, int p) {
-    siz[v] = 1;
-    for (int u : adj[v]) {
-        if (u==p || cen[u])
-            continue;
-        calsize(u, v);
-        siz[v] += siz[u];
-    }
-}
-
-int centroid(int v, int p, int t) {
-    for (int u : adj[v]) {
-        if (u==p || cen[u])
-            continue;
-        if (siz[u]>t/2)
-            return centroid(u, v, t);
-    }
-    return v;
-}
-
-void rec(int v) {
-    calsize(v, -1);
-    int c = centroid(v, -1, siz[v]);
-    cen[c] = 1;
-    for (int u : adj[c]) {
-        if (cen[u])
-            continue;
-        rec(u);
-        "<combine>";
-    }
-}
-```
-```cpp
-using Point = complex<double>;
-
-bool compare_x(const Point &a, const Point &b) {
-    return a.real()<b.real();
-}
-
-bool compare_y(const Point &a, const Point &b) {
-    return a.imag()<b.imag();
-}
-
-vector<Point> ps;
-
-void rec(int l, int r) {
-    if (l==r)
-        "<base case>";
-    int m = (l+r)/2;
-    rec(l, m);
-    rec(m+1, r);
-    inplace_merge(ps.begin()+l, ps.begin()+m+1, ps.begin()+r+1, compare_y);
-    "<combine>";
-}
-
-sort(ps.begin(), ps.end(), compare_x);
 ```
 
 ## Data Structure / データ構造
@@ -469,9 +410,9 @@ int query(int l, int r, int n) {
 }
 ```
 
-## Graph / グラフ
+## Graph Traversal / グラフ探索
 
-### Graph Traversal / グラフ探索
+### DFS / 深さ優先探索
 ```cpp
 vector<vector<int>> adj(N);
 vector<int> vis(N), dis(N, INF), par(N, -1);
@@ -487,6 +428,8 @@ void dfs(int v, int d, int p) {
     }
 }
 ```
+
+### BFS / 幅優先探索
 ```cpp
 vector<vector<int>> adj(N);
 vector<int> vis(N), dis(N, INF), par(N, -1);
@@ -512,123 +455,32 @@ void bfs(int v) {
 }
 ```
 
-### Connected Component / 連結成分
+### Topological Sort / トポロジカルソート
 ```cpp
 vector<vector<int>> adj(N);
-vector<int> vis(N), cmp(N);
+vector<int> vis(N), ans;
 
-void dfs(int v, int c) {
-    vis[v] = 1;
-    cmp[v] = c;
-    for (int u : adj[v]) {
-        if (!vis[u])
-            dfs(u, c);
-    }
-}
-
-int cc(int n) {
-    int cnt = 0;
-    for (int i=0; i<n; ++i) {
-        if (!vis[i]) {
-            dfs(i, i);
-            cnt += 1;
-        }
-    }
-    return cnt;
-}
-```
-```cpp
-vector<vector<int>> adj(N), adj_r(N);
-vector<int> q, vis(N), cmp(N);
-
-void dfs1(int v) {
+void dfs(int v) {
     vis[v] = 1;
     for (int u : adj[v]) {
         if (!vis[u])
-            dfs1(u);
+            dfs(u);
     }
-    q.push_back(v);
+    ans.push_back(v);
 }
 
-void dfs2(int v, int c) {
-    vis[v] = 1;
-    cmp[v] = c;
-    for (int u : adj_r[v]) {
-        if (!vis[u])
-            dfs2(u, c);
-    }
-}
-
-int scc(int n) {
-    int cnt = 0;
+void topological_sort(int n) {
     for (int i=0; i<n; ++i) {
         if (!vis[i])
-            dfs1(i);
+            dfs(i);
     }
-    reverse(q.begin(), q.end());
-    vis.assign(n, 0);
-    for (int i : q) {
-        if (!vis[i]) {
-            dfs2(i, i);
-            cnt += 1;
-        }
-    }
-    return cnt;
-}
-```
-```cpp
-vector<vector<int>> adj(N);
-vector<int> vis(N), tin(N), low(N);
-int timer = 0;
-
-void dfs(int v, int p) {
-    vis[v] = 1;
-    tin[v] = low[v] = timer++;
-    for (int u : adj[v]) {
-        if (u==p)
-            continue;
-        if (vis[u])
-            low[v] = min(low[v], tin[u]);
-        else {
-            dfs(u, v);
-            low[v] = min(low[v], low[u]);
-            if (low[u]>tin[v]) {
-                "<bridge: v-u >";
-            }
-        }
-    }
-}
-```
-```cpp
-vector<vector<int>> adj(N);
-vector<int> vis(N), tin(N), low(N);
-int timer = 0;
-
-void dfs(int v, int p) {
-    vis[v] = 1;
-    tin[v] = low[v] = timer++;
-    int cld = 0;
-    for (int u : adj[v]) {
-        if (u==p)
-            continue;
-        if (vis[u])
-            low[v] = min(low[v], tin[u]);
-        else {
-            dfs(u, v);
-            low[v] = min(low[v], low[u]);
-            if (p!=-1 && low[u]>=tin[v]) {
-                "<articulation point: v >";
-            }
-            cld += 1;
-        }
-    }
-    if (p==-1 && cld>1) {
-        "<articulation point: v >";
-    }
+    reverse(ans.begin(), ans.end());
 }
 ```
 
-### Shortest Path / 最短経路
+## Shortest Path / 最短経路
+
+### Dijkstra's Algorithm / ダイクストラ法
 ```cpp
 vector<vector<int>> adj(N, vector<int>(N, INF));
 vector<int> vis(N), dis(N, INF), par(N, -1);
@@ -680,6 +532,8 @@ void dijkstra(int s) {
 }
 
 ```
+
+### Bellman–Ford Algorithm / ベルマン–フォード法
 ```cpp
 struct edge{
     int a, b, w;
@@ -707,6 +561,8 @@ void bellman_ford(int s, int n) {
     "<negative cycle: cnt==n>";
 }
 ```
+
+### Floyd–Warshall Algorithm / ワーシャル–フロイド法
 ```cpp
 vector<vector<int>> dis(N, vector<int>(N, INF)), par(N, vector<int>(N, -1));
 
@@ -727,7 +583,9 @@ void floyd_warshall(int n) {
 }
 ```
 
-### Minimum Spanning Tree / 最小全域木
+## Minimum Spanning Tree / 最小全域木
+
+### Prim's Algorithm / プリム法
 ```cpp
 vector<vector<int>> adj(N, vector<int>(N, INF));
 vector<int> vis(N), dis(N, INF), par(N, -1);
@@ -782,6 +640,8 @@ int prim(int s) {
     return wt;
 }
 ```
+
+### Kruskal's Algorithm / クラスカル法
 ```cpp
 vector<int> par(N), siz(N);
 
@@ -830,7 +690,133 @@ int kruskal() {
 }
 ```
 
-### Network Flow / ネットワークフロー
+## Connected Component / 連結成分
+
+### Connected Component / 連結成分
+```cpp
+vector<vector<int>> adj(N);
+vector<int> vis(N), cmp(N);
+
+void dfs(int v, int c) {
+    vis[v] = 1;
+    cmp[v] = c;
+    for (int u : adj[v]) {
+        if (!vis[u])
+            dfs(u, c);
+    }
+}
+
+int cc(int n) {
+    int cnt = 0;
+    for (int i=0; i<n; ++i) {
+        if (!vis[i]) {
+            dfs(i, i);
+            cnt += 1;
+        }
+    }
+    return cnt;
+}
+```
+
+### Strongly Connected Component / 強連結成分
+```cpp
+vector<vector<int>> adj(N), adj_r(N);
+vector<int> q, vis(N), cmp(N);
+
+void dfs1(int v) {
+    vis[v] = 1;
+    for (int u : adj[v]) {
+        if (!vis[u])
+            dfs1(u);
+    }
+    q.push_back(v);
+}
+
+void dfs2(int v, int c) {
+    vis[v] = 1;
+    cmp[v] = c;
+    for (int u : adj_r[v]) {
+        if (!vis[u])
+            dfs2(u, c);
+    }
+}
+
+int scc(int n) {
+    int cnt = 0;
+    for (int i=0; i<n; ++i) {
+        if (!vis[i])
+            dfs1(i);
+    }
+    reverse(q.begin(), q.end());
+    vis.assign(n, 0);
+    for (int i : q) {
+        if (!vis[i]) {
+            dfs2(i, i);
+            cnt += 1;
+        }
+    }
+    return cnt;
+}
+```
+
+### Bridge / 橋
+```cpp
+vector<vector<int>> adj(N);
+vector<int> vis(N), tin(N), low(N);
+int timer = 0;
+
+void dfs(int v, int p) {
+    vis[v] = 1;
+    tin[v] = low[v] = timer++;
+    for (int u : adj[v]) {
+        if (u==p)
+            continue;
+        if (vis[u])
+            low[v] = min(low[v], tin[u]);
+        else {
+            dfs(u, v);
+            low[v] = min(low[v], low[u]);
+            if (low[u]>tin[v]) {
+                "<bridge: v-u >";
+            }
+        }
+    }
+}
+```
+
+### Articulation Point / 関節点
+```cpp
+vector<vector<int>> adj(N);
+vector<int> vis(N), tin(N), low(N);
+int timer = 0;
+
+void dfs(int v, int p) {
+    vis[v] = 1;
+    tin[v] = low[v] = timer++;
+    int cld = 0;
+    for (int u : adj[v]) {
+        if (u==p)
+            continue;
+        if (vis[u])
+            low[v] = min(low[v], tin[u]);
+        else {
+            dfs(u, v);
+            low[v] = min(low[v], low[u]);
+            if (p!=-1 && low[u]>=tin[v]) {
+                "<articulation point: v >";
+            }
+            cld += 1;
+        }
+    }
+    if (p==-1 && cld>1) {
+        "<articulation point: v >";
+    }
+}
+```
+
+## Network Flow / ネットワークフロー
+
+### Maximum Flow / 最大流
 ```cpp
 vector<vector<int>> adj(N), cap(N, vector<int>(N));
 vector<int> vis(N, 0), par(N, -1);
@@ -876,6 +862,8 @@ int max_flow(int s, int t) {
     return flow;
 }
 ```
+
+### Minimum-Cost Flow / 最小費用流
 ```cpp
 vector<vector<pii>> adj(N);
 vector<int> dis(N), par(N), pot(N);
@@ -966,6 +954,8 @@ int min_cost_flow(int s, int t, int k, int n) {
     return cost;
 }
 ```
+
+### Bipartite Matching / 二部マッチング
 ```cpp
 vector<vector<int>> adj(N1);
 vector<int> vis(N1), mat(N2, -1);
@@ -990,6 +980,50 @@ int bipartite(int n) {
             res += 1;
     }
     return res;
+}
+```
+
+## Tree Algorithm / 木アルゴリズム
+
+### Tree Diameter / 木の直径
+```cpp
+vector<vector<int>> adj(N);
+vector<int> par(N);
+
+pair<int, int> dfs(int v, int d, int p) {
+    par[v] = p;
+    pair<int, int> res{d, v};
+    for (int u : adj[v]) {
+        if (u!=p)
+            res = max(res, dfs(u, d+1, v));
+    }
+    return res;
+}
+
+vector<int> tree_diameter() {
+    vector<int> ans;
+    int s = dfs(0, 0, -1).second;
+    int t = dfs(s, 0, -1).second;
+    while (t!=-1) {
+        ans.push_back(t);
+        t = par[t];
+    }
+    return ans;
+}
+```
+
+### Tree DP / 木DP
+```cpp
+vector<vector<int>> adj(N);
+vector<vector<int>> dp(N, vector<int>(S));
+
+void dfs(int v, int p) {
+    for (int u : adj[v]) {
+        if (u==p)
+            continue;
+        dfs(u, v);
+        dp[v][i] = "<combination of dp[u][j], ...>";
+    }
 }
 ```
 
@@ -1094,55 +1128,45 @@ int lca(int a, int b) {
 }
 ```
 
-### Miscellaneous / その他
+### Tree D&Q / 木の分割統治法
 ```cpp
 vector<vector<int>> adj(N);
-vector<int> vis(N), ans;
+vector<int> siz(N), cen(N);
 
-void dfs(int v) {
-    vis[v] = 1;
+void calsize(int v, int p) {
+    siz[v] = 1;
     for (int u : adj[v]) {
-        if (!vis[u])
-            dfs(u);
+        if (u==p || cen[u])
+            continue;
+        calsize(u, v);
+        siz[v] += siz[u];
     }
-    ans.push_back(v);
 }
 
-void topological_sort(int n) {
-    for (int i=0; i<n; ++i) {
-        if (!vis[i])
-            dfs(i);
-    }
-    reverse(ans.begin(), ans.end());
-}
-```
-```cpp
-vector<vector<int>> adj(N);
-vector<int> par(N);
-
-pair<int, int> dfs(int v, int d, int p) {
-    par[v] = p;
-    pair<int, int> res{d, v};
+int centroid(int v, int p, int t) {
     for (int u : adj[v]) {
-        if (u!=p)
-            res = max(res, dfs(u, d+1, v));
+        if (u==p || cen[u])
+            continue;
+        if (siz[u]>t/2)
+            return centroid(u, v, t);
     }
-    return res;
+    return v;
 }
 
-vector<int> tree_diameter() {
-    vector<int> ans;
-    int s = dfs(0, 0, -1).second;
-    int t = dfs(s, 0, -1).second;
-    while (t!=-1) {
-        ans.push_back(t);
-        t = par[t];
+void rec(int v) {
+    calsize(v, -1);
+    int c = centroid(v, -1, siz[v]);
+    cen[c] = 1;
+    for (int u : adj[c]) {
+        if (cen[u])
+            continue;
+        rec(u);
+        "<combine>";
     }
-    return ans;
 }
 ```
 
-## Mathematics / 数学
+## Divisor / 約数
 
 ### Euclidean Algorithm / ユークリッドの互除法
 ```cpp
@@ -1167,16 +1191,7 @@ int extgcd(int a, int b, int& x, int& y) {
 }
 ```
 
-### Prime and Divisor / 素数と約数
-```cpp
-bool isPrime(int n) {
-    for (int i=2; i*i<=n; ++i) {
-        if (n%i==0)
-            return false;
-    }
-    return true;
-}
-```
+### Divisor Enumeration / 約数列挙
 ```cpp
 vector<int> divisor(int n) {
     vector<int> res;
@@ -1191,6 +1206,8 @@ vector<int> divisor(int n) {
     return res;
 }
 ```
+
+### Prime Factorization / 素因数分解
 ```cpp
 vector<pii> factor(int n) {
     vector<pii> res;
@@ -1209,6 +1226,8 @@ vector<pii> factor(int n) {
     return res;
 }
 ```
+
+### Euler's Totient Function / オイラー関数
 ```cpp
 int euler_phi(int n) {
     int res = n;
@@ -1225,8 +1244,20 @@ int euler_phi(int n) {
 }
 ```
 
-### Sieve of Eratosthenes / エラトステネスの篩
+## Prime / 素数
 
+### Primality Test / 素数判定
+```cpp
+bool isPrime(int n) {
+    for (int i=2; i*i<=n; ++i) {
+        if (n%i==0)
+            return false;
+    }
+    return true;
+}
+```
+
+### Sieve of Eratosthenes / エラトステネスの篩
 ```cpp
 vector<bool> isPrime(N, 1);
 
@@ -1239,6 +1270,8 @@ void sieve(int n) {
     }
 }
 ```
+
+### Segmented Sieve / 区分篩
 ```cpp
 vector<bool> isPrime_1(N1, 1), isPrime_2(N2, 1);
 
@@ -1254,7 +1287,9 @@ void segment_sieve(int l, int r) {
 }
 ```
 
-### Binary Exponentiation / べき乗
+## Exponentiation / べき乗
+
+### Fast Exponentiation / 高速累乗
 ```cpp
 int binpow(int x, int n, int mod) {
     int res = 1;
@@ -1267,6 +1302,8 @@ int binpow(int x, int n, int mod) {
     return res;
 }
 ```
+
+### Matric Exponentiation / 行列累乗
 ```cpp
 typedef vector<int> vec;
 typedef vector<vec> mat;
@@ -1296,7 +1333,9 @@ mat matpow(mat A, int n, int m) {
 }
 ```
 
-### Modular Arithmetic / 余りの計算
+## Modular Arithmetic / 余りの計算
+
+### Modular Inverse / 逆元
 ```cpp
 int mod_inv(int a, int m) {
     int x, y;
@@ -1304,6 +1343,8 @@ int mod_inv(int a, int m) {
     return ((x % m) + m) % m;
 }
 ```
+
+### Factorial / 階乗
 ```cpp
 vector<int> fac(M, 1);
 
@@ -1324,6 +1365,8 @@ int mod_fac(int n, int m, int& e) {
         return fac[n%m] * r % m;
 }
 ```
+
+### Binary Coefficient / 二項係数
 ```cpp
 int mod_binom(int n, int k, int m) {
     if (n<0 || k<0 || n<k)
@@ -1351,7 +1394,9 @@ int mod_binom(int n, int k, int m) {
 }
 ```
 
-### Miscellaneous / その他
+## Linear Algebra / 線型代数
+
+### Linear Congruence Equation / 線形合同式
 ```cpp
 vector<int> A(N), B(N), M(N);
 
@@ -1368,6 +1413,8 @@ pair<int, int> linear_congruence(int n) {
     return {(x%m+m)%m, m};
 }
 ```
+
+### Gaussian Elimination / ガウスの消去法
 ```cpp
 vector<vector<double>> A(N, vector<double>(M));
 vector<double> B(N), sol(M);
@@ -1417,6 +1464,8 @@ int gauss(int n, int m) {
     return 1;
 }
 ```
+
+### Fast Fourier Transform / 高速フーリエ変換
 ```cpp
 using cd = complex<double>;
 const double PI = acos(-1);
@@ -1791,9 +1840,37 @@ void solve(int n) {
 }
 ```
 
+### Plane D&Q / 平面の分割統治法
+```cpp
+using Point = complex<double>;
+
+bool compare_x(const Point &a, const Point &b) {
+    return a.real()<b.real();
+}
+
+bool compare_y(const Point &a, const Point &b) {
+    return a.imag()<b.imag();
+}
+
+vector<Point> ps;
+
+void rec(int l, int r) {
+    if (l==r)
+        "<base case>";
+    int m = (l+r)/2;
+    rec(l, m);
+    rec(m+1, r);
+    inplace_merge(ps.begin()+l, ps.begin()+m+1, ps.begin()+r+1, compare_y);
+    "<combine>";
+}
+
+sort(ps.begin(), ps.end(), compare_x);
+```
+
+
 ## String / 文字列
 
-### Hash / ハッシュ
+### Rolling Hash / ローリングハッシュ
 ```cpp
 ll hashing(string s) {
     ll p = 257, m = 1e9+9;
@@ -1905,17 +1982,17 @@ void build(int x) {
 
 ## Technique / テクニック
 
-### Prefix Sum / 累積和
+### Divide and Conquer / 分割統治法
 ```cpp
-vector<int> arr(N), sum(N);
+vector<int> arr(N);
 
-void build(int n) {
-    for (int i=0; i<n; ++i)
-        sum[i+1] = sum[i] + arr[i];
-}
-
-int query(int l, int r) {
-    return sum[r+1] - sum[l];
+void rec(int l, int r) {
+    int m = (l+r)/2;
+    if (l==r)
+        "<base case>";
+    rec(l, m);
+    rec(m+1, r);
+    "<combine>";
 }
 ```
 

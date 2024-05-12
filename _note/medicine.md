@@ -195,12 +195,13 @@ Essences of clinical medicine.
 ## Esophageal Disease / 食道疾患
 
 ### Achalasia / 食道アカラシア
-### Esophagitis / 食道炎
 ### Gastroesophageal Reflux Disease / 胃食道逆流症
+### Eosinophilic Esophagitis / 好酸球性食道炎
+### Esophageal Candidiasis / 食道カンジダ症
 ### Mallory-Weiss Syndrome / Mallory-Weiss症候群
 ### Spontaneous Rupture of the Esophagus / 特発性食道破裂
 ### Esophageal Cancer / 食道癌
-### Esophageal Varices / 食道静脈瘤
+### Esophagogastric Varices / 食道・胃静脈瘤
 ### Esophageal Diverticulum / 食道憩室
 
 ## Gastric and Duodenal Disease / 胃・十二指腸疾患
@@ -208,14 +209,16 @@ Essences of clinical medicine.
 ### Acute Gastric Mucosal Lesion / 急性胃粘膜病変
 ### Chronic Gastritis / 慢性胃炎
 ### Functional Dyspepsia / 機能性ディスペプシア
-### Gastro-Duodenal Ulcer / 胃十二指腸潰瘍
-### Gastro-Duodenal Ulcer Perforation / 胃十二指腸潰瘍穿孔
+### Gastro-Duodenal Ulcer / 胃・十二指腸潰瘍
+### Gastro-Duodenal Ulcer Perforation / 胃・十二指腸潰瘍穿孔
 ### Gastric Polyp / 胃ポリープ
 ### GIST / 消化管間質腫瘍
 ### Gastric Malignant Lymphoma / 胃悪性リンパ腫
 ### Gastric Cancer / 胃癌
 ### Dumping Syndrome / ダンピング症候群
 ### Ménétrier's Disease / Ménétrier病
+### Gastro-Duodenal Diverticulum / 胃・十二指腸憩室
+### Superior Mesenteric Artery Syndrome / 上腸間膜動脈症候群
 
 ## Intestinal and Colonic Disease / 小腸・大腸疾患
 
@@ -397,7 +400,7 @@ Essences of clinical medicine.
 ### Porphyria Cutanea Tarda / 晩発性皮膚ポルフィリン症
 ### Amyloidosis / アミロイドーシス
 
-# Nephrology and Urology / 腎臓・泌尿器科
+# Nephrology / 腎臓科
 
 ## Water and Electrolytes Metabolism Disorder / 水・電解質代謝異常
 
@@ -468,43 +471,6 @@ Essences of clinical medicine.
 ### CKD Mineral and Bone Disorder / CKDに伴う骨ミネラル代謝異常
 ### Dialysis Amyloidosis / 透析アミロイドーシス
 ### Renal Anemia / 腎性貧血
-
-## Urinary Tract Dysfunction / 尿路機能障害
-
-### Hydronephrosis / 水腎症
-### Neurogenic Bladder / 神経因性膀胱
-### Overactive Bladder / 過活動膀胱
-### Stress Incontinence / 腹圧性尿失禁
-
-## Urinary Tract and Genital Infection / 尿路・性器感染症
-
-### Pyelonephritis / 腎盂腎炎
-### Renal Abscess / 腎膿瘍
-### Cystitis / 膀胱炎
-### Urinary Tuberculosis / 尿路結核
-### Urethritis / 尿道炎
-### Prostatitis / 前立腺炎
-### Epididymitis / 精巣上体炎
-### Orchitis / 精巣炎
-
-## Urinary Tract and Genital Tumor / 尿路・性器腫瘍
-
-### Urinary Stone / 尿路結石
-### Renal Cell Carcinoma / 腎細胞癌
-### Renal Pelvic and Ureteral Cancer / 腎盂・尿管癌
-### Bladder Cancer / 膀胱癌
-### Penile Cancer / 陰茎癌
-### Benign Prostatic Hyperplasia / 前立腺肥大症
-### Prostatic Cancer / 前立腺癌
-### Testicular Tumor / 精巣腫瘍
-
-## Genital Dysfunction / 性器機能異常
-### Varicocele / 精索静脈瘤
-### Testicular Torsion / 精巣捻転症
-### Phimosis / 包茎
-### Erectile Dysfunction / 勃起障害
-### Priapism / 持続勃起症
-### Male Infertility / 男性不妊症
 
 # Hematology and Oncology / 血液・腫瘍科
 
@@ -845,7 +811,7 @@ Essences of clinical medicine.
 ### Bell's Palsy / Bell麻痺
 ### Ramsay Hunt Syndrome / Ramsay Hunt症候群
 
-## 筋疾患 / Muscular Disease
+## Muscular Disease / 筋疾患
 
 ### Duchenne Muscular Dystrophy / Duchenne型筋ジストロフィー
 ### Becker Muscular Dystrophy / Becker型筋ジストロフィー
@@ -938,6 +904,45 @@ Essences of clinical medicine.
 # Dermatology / 皮膚科
 
 # Orthopedic Surgery / 整形外科
+
+# Urology / 泌尿器科
+
+## Urinary Tract Dysfunction / 尿路機能障害
+
+### Hydronephrosis / 水腎症
+### Neurogenic Bladder / 神経因性膀胱
+### Overactive Bladder / 過活動膀胱
+### Stress Incontinence / 腹圧性尿失禁
+
+## Urinary Tract and Genital Infection / 尿路・性器感染症
+
+### Pyelonephritis / 腎盂腎炎
+### Renal Abscess / 腎膿瘍
+### Cystitis / 膀胱炎
+### Urinary Tuberculosis / 尿路結核
+### Urethritis / 尿道炎
+### Prostatitis / 前立腺炎
+### Epididymitis / 精巣上体炎
+### Orchitis / 精巣炎
+
+## Urinary Tract and Genital Tumor / 尿路・性器腫瘍
+
+### Urinary Stone / 尿路結石
+### Renal Cell Carcinoma / 腎細胞癌
+### Renal Pelvic and Ureteral Cancer / 腎盂・尿管癌
+### Bladder Cancer / 膀胱癌
+### Penile Cancer / 陰茎癌
+### Benign Prostatic Hyperplasia / 前立腺肥大症
+### Prostatic Cancer / 前立腺癌
+### Testicular Tumor / 精巣腫瘍
+
+## Genital Dysfunction / 性器機能異常
+### Varicocele / 精索静脈瘤
+### Testicular Torsion / 精巣捻転症
+### Phimosis / 包茎
+### Erectile Dysfunction / 勃起障害
+### Priapism / 持続勃起症
+### Male Infertility / 男性不妊症
 
 # Obstetrics and Gynecology / 産科・婦人科
 

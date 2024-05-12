@@ -13,7 +13,7 @@ Equations of fundamental physics.
 
 ## Classical Mechanics / 古典力学
 
-### Newtonian Mechanics / ニュートン力学
+<!-- ### Newtonian Mechanics / ニュートン力学
 
 $$
 \begin{align*}
@@ -71,7 +71,7 @@ $$
 & E = const. && \sum_{i}\mathbf{F^{(nc)}_i}\cdot\mathbf{v_i} = 0 && U = U(\mathbf{r_i},\dots)
 \end{align*}
 $$
-{: .notice--info}
+{: .notice--info} -->
 
 ## Electrodynamics / 電磁気学
 
