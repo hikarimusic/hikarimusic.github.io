@@ -1,0 +1,320 @@
+---
+layout: raw-page
+permalink: /other/pharmadex/
+title: "PharmaDex"
+author_profile: false
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PharmaDex</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f9;
+    }
+    .container {
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    button {
+        background-color: #007bff; /* Adjusted color */
+        border: none;
+        padding: 10px 20px;
+        margin-top: 20px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    button:hover {
+        background-color: #0056b3; /* Adjusted hover color */
+    }
+    select {
+        background-color: #ffffff; /* Adjusted color */
+        border: none;
+        padding: 10px 20px;
+        margin-top: 20px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    select:hover {
+        background-color: #b6b6b6; /* Adjusted hover color */
+    }
+    .info {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #333;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <select id="mainCategorySelect" onchange="updateSubCategories()"></select>
+    <select id="subCategorySelect" onchange="filterDrugs()"></select>
+    <h1 id="drugName">Drug Name</h1>
+    <button onclick="showRandomDrug()">New Random Drug</button>
+    <button onclick="showDetails()">Show Details</button>
+    <div class="info" id="drugInfo"></div>
+</div>
+
+<script>
+    const drugs = [    
+        ["交感神経に作用する薬", "αβ受容体刺激薬", "アドレナリン(adrenaline)"],
+        ["交感神経に作用する薬", "αβ受容体刺激薬", "ノルアドレナリン(noradrenaline)"],
+        ["交感神経に作用する薬", "αβ受容体刺激薬", "エチレフリン(etilefrine)"],
+        ["交感神経に作用する薬", "α1受容体刺激薬", "ナファゾリン(naphazoline)"],
+        ["交感神経に作用する薬", "α1受容体刺激薬", "フェニレフリン(phenylephrine)"],
+        ["交感神経に作用する薬", "α1受容体刺激薬", "ミドドリン(midodrine)"],
+        ["交感神経に作用する薬", "α1受容体刺激薬", "オキシメタゾリン(oxymetazoline)"],
+        ["交感神経に作用する薬", "α1受容体刺激薬", "テトラヒドロゾリン(tetrahydrozoline)"],
+        ["交感神経に作用する薬", "非選択的β受容体刺激薬", "イソプレナリン(isoprenaline)"],
+        ["交感神経に作用する薬", "非選択的β受容体刺激薬", "イソクスプリン(isoxsuprine)"],
+        ["交感神経に作用する薬", "β1受容体刺激薬", "ドブタミン(dobutamine)"],
+        ["交感神経に作用する薬", "β1受容体刺激薬", "デノパミン(denopamine)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "サルブタモール(salbutamol)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "フェノテロール(fenoterol)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "プロカテロール(procaterol)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "ホルモテロール(formoterol)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "ツロブテロール(tulobuterol)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "サルメテロール(salmeterol)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "インダカテロール(indacaterol)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "テルブタリン(terbutaline)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "クレンブテロール(clenbuterol)"],
+        ["交感神経に作用する薬", "β2受容体刺激薬", "リトドリン(ritodrine)"],
+        ["交感神経に作用する薬", "β3受容体刺激薬", "ミラベグロン(mirabegron)"],
+        ["交感神経に作用する薬", "β3受容体刺激薬", "ビベグロン(vibegron)"],
+        ["交感神経に作用する薬", "混合型アドレナリン作動薬", "エフェドリン(ephedrine)"],
+        ["交感神経に作用する薬", "混合型アドレナリン作動薬", "メチルエフェドリン(methylephedrine)"],
+        ["交感神経に作用する薬", "混合型アドレナリン作動薬", "ドパミン(dopamine)"],
+        ["交感神経に作用する薬", "混合型アドレナリン作動薬", "ドカルパミン(docarpamine)"],
+        ["交感神経に作用する薬", "間接型アドレナリン作動薬", "アメジニウム(amezinium)"],
+        ["交感神経に作用する薬", "間接型アドレナリン作動薬", "メタンフェタミン(methamphetamine)"],
+        ["交感神経に作用する薬", "間接型アドレナリン作動薬", "アンフェタミン(amphetamine)"],
+        ["交感神経に作用する薬", "間接型アドレナリン作動薬", "チラミン(tyramine)"],
+        ["交感神経に作用する薬", "非選択的α受容体遮断薬", "フェントラミン(phentolamine)"],
+        ["交感神経に作用する薬", "非選択的α受容体遮断薬", "エルゴタミン(ergotamine)"],
+        ["交感神経に作用する薬", "非選択的α受容体遮断薬", "エルゴメトリン(ergometrine)"],
+        ["交感神経に作用する薬", "選択的α1受容体遮断薬", "ブナゾシン(bunazosin)"],
+        ["交感神経に作用する薬", "選択的α1受容体遮断薬", "ドキサゾシン(doxazosin)"],
+        ["交感神経に作用する薬", "選択的α1受容体遮断薬", "テラゾシン(terazosin)"],
+        ["交感神経に作用する薬", "選択的α1受容体遮断薬", "ウラピジル(urapidil)"],
+        ["交感神経に作用する薬", "選択的α1受容体遮断薬", "プラゾシン(prazosin)"],
+        ["交感神経に作用する薬", "選択的α1受容体遮断薬", "タムスロシン(tamsulosin)"],
+        ["交感神経に作用する薬", "選択的α1受容体遮断薬", "シロドシン(silodosin)"],
+        ["交感神経に作用する薬", "選択的α1受容体遮断薬", "ナフトピジル(naftopidil)"],
+        ["交感神経に作用する薬", "非選択的β受容体遮断薬", "プロプラノロール(propranolol)"],
+        ["交感神経に作用する薬", "非選択的β受容体遮断薬", "カルテオロール(carteolol)"],
+        ["交感神経に作用する薬", "非選択的β受容体遮断薬", "チモロール(timolol)"],
+        ["交感神経に作用する薬", "非選択的β受容体遮断薬", "ブフェトロール(bufetolol)"],
+        ["交感神経に作用する薬", "非選択的β受容体遮断薬", "ピンドロール(pindolol)"],
+        ["交感神経に作用する薬", "非選択的β受容体遮断薬", "ナドロール(Nadolol)"],
+        ["交感神経に作用する薬", "非選択的β受容体遮断薬", "ニプラジロール(nipradilol)"],
+        ["交感神経に作用する薬", "選択的β1受容体遮断薬", "アテノロール(atenolol)"],
+        ["交感神経に作用する薬", "選択的β1受容体遮断薬", "ビソプロロール(bisoprolol)"],
+        ["交感神経に作用する薬", "選択的β1受容体遮断薬", "メトプロロール(metoprolol)"],
+        ["交感神経に作用する薬", "選択的β1受容体遮断薬", "ベタキソロール(betaxolol)"],
+        ["交感神経に作用する薬", "選択的β1受容体遮断薬", "アセブトロール(acebutolol)"],
+        ["交感神経に作用する薬", "選択的β1受容体遮断薬", "セリプロロール(celiprolol)"],
+        ["交感神経に作用する薬", "選択的β1受容体遮断薬", "ランジオロール(landiolol)"],
+        ["交感神経に作用する薬", "選択的β1受容体遮断薬", "エスモロール(esmolol)"],
+        ["交感神経に作用する薬", "αβ受容体遮断薬", "アロチノロール(arotinolol)"],
+        ["交感神経に作用する薬", "αβ受容体遮断薬", "カルベジロール(carvedilol)"],
+        ["交感神経に作用する薬", "αβ受容体遮断薬", "ラベタロール(labetalol)"],
+        ["交感神経に作用する薬", "αβ受容体遮断薬", "アモスラロール(amosulalol)"],
+        ["交感神経に作用する薬", "αβ受容体遮断薬", "ベバントロール(bevantolol)"],
+        ["交感神経に作用する薬", "ノルアドレナリン枯渇薬", "レセルピン(reserpine)"],
+        ["交感神経に作用する薬", "中枢性交感神経抑制薬（α2受容体刺激薬）", "メチルドパ(methyldopa)"],
+        ["交感神経に作用する薬", "中枢性交感神経抑制薬（α2受容体刺激薬）", "クロニジン(clonidine)"],
+        ["交感神経に作用する薬", "中枢性交感神経抑制薬（α2受容体刺激薬）", "グアナベンズ(guanabenz)"],
+
+        ["副交感神経に作用する薬", "コリンエステル類", "アセチルコリン(acetylcholine)"],
+        ["副交感神経に作用する薬", "コリンエステル類", "ベタネコール(bethanechol)"],
+        ["副交感神経に作用する薬", "コリンエステル類", "カルバコール(carbachol)"],
+        ["副交感神経に作用する薬", "コリンエステル類", "カルプロニウム(carpronium)"],
+        ["副交感神経に作用する薬", "コリンエステル類", "メタコリン(methacholine)"],
+        ["副交感神経に作用する薬", "コリンエステル類", "オキソトレモリン(oxotremorine)"],
+        ["副交感神経に作用する薬", "コリン作動性アルカロイド", "ピロカルピン(pilocarpine)"],
+        ["副交感神経に作用する薬", "コリン作動性アルカロイド", "ムスカリン(muscarine)"],
+        ["副交感神経に作用する薬", "コリン作動性アルカロイド", "アレコリン(arecoline)"],
+        ["副交感神経に作用する薬", "その他のコリン作動薬", "セビメリン(cevimeline)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "ネオスチグミン(neostigmine)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "ジスチグミン(distigmine)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "ピリドスチグミン(pyridostigmine)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "アンベノニウム(ambenonium)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "エドロホニウム(edrophonium)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "フィゾスチグミン(physostigmine)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "アコチアミド(acotiamide)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "ドネペジル(donepezil)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "リバスチグミン(rivastigmine)"],
+        ["副交感神経に作用する薬", "可逆的コリンエステラーゼ阻害薬", "ガランタミン(galantamine)"],
+        ["副交感神経に作用する薬", "非可逆的コリンエステラーゼ阻害薬", "サリン(sarin)"],
+        ["副交感神経に作用する薬", "非可逆的コリンエステラーゼ阻害薬", "パラチオン(parathion)"],
+        ["副交感神経に作用する薬", "非可逆的コリンエステラーゼ阻害薬", "ジクロルボス(dichlorvos)"],
+        ["副交感神経に作用する薬", "非可逆的コリンエステラーゼ阻害薬", "マラチオン(malathion)"],
+        ["副交感神経に作用する薬", "有機リン剤中毒解毒剤", "プラリドキシム(pralidoxime)"],
+        ["副交感神経に作用する薬", "ニコチン受容体刺激薬", "ニコチン(nicotine)"],
+        ["副交感神経に作用する薬", "ニコチン受容体刺激薬", "バレニクリン(varenicline)"],
+        ["副交感神経に作用する薬", "ベラドンナアルカロイド", "アトロピン(atropine)"],
+        ["副交感神経に作用する薬", "ベラドンナアルカロイド", "スコポラミン(scopolamine)"],
+        ["副交感神経に作用する薬", "鎮痙薬", "ブチルスコポラミン(butylscopolamine)"],
+        ["副交感神経に作用する薬", "鎮痙薬", "N-メチルスコポラミン(N-methylscopolamine)"],
+        ["副交感神経に作用する薬", "鎮痙薬", "プロパンテリン(propantheline)"],
+        ["副交感神経に作用する薬", "鎮痙薬", "チメピジウム(timepidium)"],
+        ["副交感神経に作用する薬", "鎮痙薬", "ブトロピウム(butropium)"],
+        ["副交感神経に作用する薬", "鎮痙薬", "チキジウム(tiquizium)"],
+        ["副交感神経に作用する薬", "鎮痙薬", "メペンゾラート(mepenzolate)"],
+        ["副交感神経に作用する薬", "鎮痙薬", "ピペリドレート(piperidolate)"],
+        ["副交感神経に作用する薬", "消化性潰瘍治療薬", "ピレンゼピン(pirenzepine)"],
+        ["副交感神経に作用する薬", "気管支拡張薬", "チオトロピウム(tiotropium)"],
+        ["副交感神経に作用する薬", "気管支拡張薬", "イプラトロピウム(ipratropium)"],
+        ["副交感神経に作用する薬", "気管支拡張薬", "グリコピロニウム(glycopyrronium)"],
+        ["副交感神経に作用する薬", "気管支拡張薬", "アクリジニウム(aclidinium)"],
+        ["副交感神経に作用する薬", "気管支拡張薬", "ウメクリジニウム(umeclidinium)"],
+        ["副交感神経に作用する薬", "頻尿治療薬", "オキシブチニン(oxybutynin)"],
+        ["副交感神経に作用する薬", "頻尿治療薬", "イミダフェナシン(imidafenacin)"],
+        ["副交感神経に作用する薬", "頻尿治療薬", "ソリフェナシン(solifenacin)"],
+        ["副交感神経に作用する薬", "頻尿治療薬", "トルテロジン(tolterodine)"],
+        ["副交感神経に作用する薬", "頻尿治療薬", "プロピベリン(propiverine)"],
+        ["副交感神経に作用する薬", "頻尿治療薬", "フェソテロジン(fesoterodine)"],
+        ["副交感神経に作用する薬", "パーキンソン病治療薬", "トリヘキシフェニジル(trihexyphenidyl)"],
+        ["副交感神経に作用する薬", "パーキンソン病治療薬", "ビペリデン(biperiden)"],
+        ["副交感神経に作用する薬", "パーキンソン病治療薬", "マザチコール(mazaticol)"],
+        ["副交感神経に作用する薬", "パーキンソン病治療薬", "ピロヘプチン(piroheptine)"],
+        ["副交感神経に作用する薬", "散瞳薬", "トロピカミド(tropicamide)"],
+        ["副交感神経に作用する薬", "散瞳薬", "シクロペントラート(cyclopentolate)"],
+        ["副交感神経に作用する薬", "原発性腋窩多汗症治療薬", "ソフピロニウム(sofpironium)"],
+        ["副交感神経に作用する薬", "神経節遮断薬", "ヘキサメトニウム(hexamethonium)"],
+        ["副交感神経に作用する薬", "神経節遮断薬", "トリメタファン(trimetaphan)"],
+        ["副交感神経に作用する薬", "神経筋接合部遮断薬（筋弛緩薬）", "ツボクラリン(tubocurarine)"],
+        ["副交感神経に作用する薬", "神経筋接合部遮断薬（筋弛緩薬）", "ベクロニウム(vecuronium)"],
+        ["副交感神経に作用する薬", "神経筋接合部遮断薬（筋弛緩薬）", "ロクロニウム(rocuronium)"],
+        ["副交感神経に作用する薬", "神経筋接合部遮断薬（筋弛緩薬）", "スキサメトニウム(suxamethonium)"],
+
+        ["局所麻酔薬", "エステル型局所麻酔薬", "プロカイン(procaine)"],
+        ["局所麻酔薬", "エステル型局所麻酔薬", "テトラカイン(tetracaine)"],
+        ["局所麻酔薬", "エステル型局所麻酔薬", "パラブチルアミノ安息香酸ジエチルアミノエチル(ethyl p-butylaminobenzoyldiethylamino)"],
+        ["局所麻酔薬", "エステル型局所麻酔薬", "ピペリジノアセチルアミノ安息香酸エチル(ethyl p-piperidinoacetylaminobenzoate)"],
+        ["局所麻酔薬", "エステル型局所麻酔薬", "オキシブプロカイン(oxybuprocaine)"],
+        ["局所麻酔薬", "エステル型局所麻酔薬", "アミノ安息香酸エチル(ethyl aminobenzoate)"],
+        ["局所麻酔薬", "エステル型局所麻酔薬", "コカイン(cocaine)"],
+        ["局所麻酔薬", "アミド型局所麻酔薬", "リドカイン(lidocaine)"],
+        ["局所麻酔薬", "アミド型局所麻酔薬", "ジブカイン(dibucaine)"],
+        ["局所麻酔薬", "アミド型局所麻酔薬", "メピバカイン(mepivacaine)"],
+        ["局所麻酔薬", "アミド型局所麻酔薬", "ブピバカイン(bupivacaine)"],
+        ["局所麻酔薬", "アミド型局所麻酔薬", "レボブピバカイン(levobupivacaine)"],
+        ["局所麻酔薬", "アミド型局所麻酔薬", "ロピバカイン(ropivacaine)"],
+        ["局所麻酔薬", "アミド型局所麻酔薬", "オキセサゼイン(oxethazaine)"],
+        ["局所麻酔薬", "局所麻酔薬中毒治療薬", "脂肪乳剤(fat emulsion)"],
+
+        ["筋弛緩薬", "非脱分極性筋弛緩薬", "ツボクラリン(tubocurarine)"],
+        ["筋弛緩薬", "非脱分極性筋弛緩薬", "パンクロニウム(pancuronium)"],
+        ["筋弛緩薬", "非脱分極性筋弛緩薬", "ベクロニウム(vecuronium)"],
+        ["筋弛緩薬", "非脱分極性筋弛緩薬", "ロクロニウム(rocuronium)"],
+        ["筋弛緩薬", "脱分極性筋弛緩薬", "スキサメトニウム(suxamethonium)"],
+        ["筋弛緩薬", "ダントロレン", "ダントロレン(dantrolene)"],
+        ["筋弛緩薬", "ボツリヌス毒素", "A型ボツリヌス毒素(botulinum toxin type A)"],
+        ["筋弛緩薬", "ボツリヌス毒素", "B型ボツリヌス毒素(botulinum toxin type B)"],
+        ["筋弛緩薬", "筋弛緩回復薬", "スガマデクス(sugammadex)"],
+        ["筋弛緩薬", "中枢性筋弛緩薬", "クロルフェネシンカルバミン酸エステル(chlorphenesin carbamate)"],
+        ["筋弛緩薬", "中枢性筋弛緩薬", "バクロフェン(baclofen)"],
+        ["筋弛緩薬", "中枢性筋弛緩薬", "チザニジン(tizanidine)"],
+        ["筋弛緩薬", "中枢性筋弛緩薬", "エペリゾン(eperisone)"],
+        ["筋弛緩薬", "中枢性筋弛緩薬", "アフロクアロン(afloqualone)"],
+
+        ["体性神経系・筋の疾患", "ALS治療薬", "リルゾール(riluzole)"],
+        ["体性神経系・筋の疾患", "抗補体（C5）モノクローナル抗体", "エクリズマブ(eculizumab)"],
+        ["体性神経系・筋の疾患", "筋ジストロフィー治療薬", "ビルトラルセン(viltolarsen)"],
+        ["体性神経系・筋の疾患", "脊髄性筋萎縮症治療薬", "ヌシネルセン(nusinersen)"],
+        ["体性神経系・筋の疾患", "家族性アミロイドニューロパチー関連疾患薬", "パチシラン(patisiran)"],
+
+        ["全身麻酔薬", "揮発性吸入麻酔薬", "イソフルラン(isoflurane)"],
+        ["全身麻酔薬", "揮発性吸入麻酔薬", "セボフルラン(sevoflurane)"],
+        ["全身麻酔薬", "揮発性吸入麻酔薬", "デスフルラン(desflurane)"],
+        ["全身麻酔薬", "ガス性吸入麻酔薬", "亜酸化窒素(nitrous oxide)"],
+        ["全身麻酔薬", "バルビツール酸系全身麻酔薬", "チオペンタール(thiopental)"],
+        ["全身麻酔薬", "バルビツール酸系全身麻酔薬", "チアミラール(thiamylal)"],
+        ["全身麻酔薬", "ベンゾジアゼピン系全身麻酔薬", "ミダゾラム(idazolam)"],
+        ["全身麻酔薬", "ベンゾジアゼピン系全身麻酔薬", "レミマゾラム(remimazolam)"],
+        ["全身麻酔薬", "イソプロピルフェノール系全身麻酔薬", "プロポフォール(propofol)"],
+        ["全身麻酔薬", "フェンシクリジン系全身麻酔薬", "ケタミン(ketamine)"],
+        ["全身麻酔薬", "ブチロフェノン系全身麻酔薬", "ドロペリドール(droperidol)"],
+        ["全身麻酔薬", "鎮静薬（中枢性α2アドレナリン受容体作動薬）", "デクスメデトミジン(dexmedetomidine)"],
+    ];
+
+    let filteredDrugs = drugs; // This will hold the filtered list of drugs
+
+    function populateMainCategories() {
+        const mainCategorySet = new Set();
+        drugs.forEach(drug => mainCategorySet.add(drug[0]));
+        const mainCategorySelect = document.getElementById('mainCategorySelect');
+        mainCategorySelect.innerHTML = '<option value="All">全種類</option>'; // option for all drugs
+        mainCategorySet.forEach(category => {
+            mainCategorySelect.innerHTML += `<option value="${category}">${category}</option>`;
+        });
+        updateSubCategories(); // Update subcategories once main categories are populated
+    }
+
+    function updateSubCategories() {
+        const selectedMainCategory = document.getElementById('mainCategorySelect').value;
+        const subCategorySet = new Set();
+        drugs.forEach(drug => {
+            if (drug[0] === selectedMainCategory || selectedMainCategory === "All") {
+                subCategorySet.add(drug[1]);
+            }
+        });
+        const subCategorySelect = document.getElementById('subCategorySelect');
+        subCategorySelect.innerHTML = selectedMainCategory === "All" ?
+            '<option value="All">全種類</option>' :
+            '<option value="All">全種類</option>'; // option for all drugs in main category
+        subCategorySet.forEach(subCategory => {
+            subCategorySelect.innerHTML += `<option value="${subCategory}">${subCategory}</option>`;
+        });
+        filterDrugs(); // Filter drugs based on the new subcategory
+    }
+
+    window.onload = function() {
+        populateMainCategories(); // Initialize the main category dropdown
+    };
+
+    function filterDrugs() {
+        const selectedMainCategory = document.getElementById('mainCategorySelect').value;
+        const selectedSubCategory = document.getElementById('subCategorySelect').value;
+        filteredDrugs = drugs.filter(drug => 
+            (selectedSubCategory === "All" ? (selectedMainCategory === "All" || drug[0] === selectedMainCategory) : drug[1] === selectedSubCategory)
+        );
+        showRandomDrug();
+    }
+
+    function showRandomDrug() {
+        if (filteredDrugs.length === 0) {
+            document.getElementById('drugName').textContent = "No drugs in this category";
+            document.getElementById('drugInfo').textContent = '';
+            return;
+        }
+        const randomDrug = filteredDrugs[Math.floor(Math.random() * filteredDrugs.length)];
+        document.getElementById('drugName').textContent = randomDrug[2];
+        document.getElementById('drugInfo').textContent = '';
+    }
+
+    function showDetails() {
+        const drugName = document.getElementById('drugName').textContent;
+        const drug = filteredDrugs.find(d => d[2] === drugName);
+        document.getElementById('drugInfo').textContent = drug ? drug.join(' - ') : "Select a drug to view details";
+    }
+</script>
+</body>
+</html>

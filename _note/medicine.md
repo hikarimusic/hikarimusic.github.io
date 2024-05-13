@@ -213,12 +213,12 @@ Essences of clinical medicine.
 ### Gastro-Duodenal Ulcer Perforation / 胃・十二指腸潰瘍穿孔
 ### Gastric Polyp / 胃ポリープ
 ### GIST / 消化管間質腫瘍
-### Gastric Malignant Lymphoma / 胃悪性リンパ腫
+### Gastrointestinal Malignant Lymphoma / 消化管悪性リンパ腫
 ### Gastric Cancer / 胃癌
 ### Dumping Syndrome / ダンピング症候群
-### Ménétrier's Disease / Ménétrier病
 ### Gastro-Duodenal Diverticulum / 胃・十二指腸憩室
 ### Superior Mesenteric Artery Syndrome / 上腸間膜動脈症候群
+### Ménétrier's Disease / Ménétrier病
 
 ## Intestinal and Colonic Disease / 小腸・大腸疾患
 
@@ -227,36 +227,42 @@ Essences of clinical medicine.
 ### Intestinal Tuberculosis / 腸結核
 ### Infectious Enterocolitis / 感染性腸炎
 ### Pseudomembranous Colitis / 偽膜性大腸炎
+### Antibiotic-Associated Hemorrhagic Colitis / 抗菌薬関連出血性大腸炎
+### MRSA Enteritis / MRSA腸炎
 ### Irritable Bowel Syndrome / 過敏性腸症候群
-### Malabsorption Syndrome / 吸収不良症候群
-### Protein-Losing Gastroenteropathy / 蛋白漏出性胃腸症
-### Gastrointestinal Neuroendocrine Neoplasm / 消化管神経内分泌腫瘍
 ### Colonic Polyp / 大腸ポリープ
 ### Colorectal Cancer / 大腸癌
+### Lynch Syndrome / Lynch症候群
+### Small Intestine Tumor / 小腸腫瘍
+### Gastrointestinal Neuroendocrine Neoplasm / 消化管神経内分泌腫瘍
 ### Familial Adenomatous Polyposis / 家族性腺腫性ポリポーシス
 ### Peutz-Jeghers Syndrome / Peutz-Jeghers症候群
-### Lynch Syndrome / リンチ症候群
+### Malabsorption Syndrome / 吸収不良症候群
+### Protein-Losing Gastroenteropathy / 蛋白漏出性胃腸症
 ### Ischemic Colitis / 虚血性大腸炎
 ### Acute Mesenteric Artery Occlusion / 急性腸間膜動脈閉塞症
-### Obstructive Ileus / 閉塞性イレウス
-### Strangulation Ileus / 絞扼性イレウス
+### Occlusive Ileus / 閉塞性腸閉塞
+### Strangulation Ileus / 絞扼性腸閉塞
 ### Paralytic Ileus / 麻痺性イレウス
 ### Colonic Diverticulum / 大腸憩室
+### Acute Appendicitis / 急性虫垂炎
+
+## Anal Disease / 肛門疾患
+
 ### Hemorrhoids / 痔核
+### Anal Fissure / 裂肛
 ### Perianal Abscess / 肛門周囲膿瘍
 ### Anal Fistula / 痔瘻
-### Anal Fissure / 裂肛
 ### Rectal Prolapse / 直腸脱
 
 ## Peritoneal Disease / 腹膜疾患
 
-### Acute Appendicitis / 急性虫垂炎
-### Esophageal Hiatal Hernia / 食道裂孔ヘルニア
 ### Inguinal Hernia / 鼠径ヘルニア
 ### Femoral Hernia / 大腿ヘルニア
 ### Obturator Hernia / 閉鎖孔ヘルニア
 ### Abdominal Incisional Hernia / 腹壁瘢痕ヘルニア
 ### Umbilical Hernia / 臍ヘルニア
+### Esophageal Hiatal Hernia / 食道裂孔ヘルニア
 ### Acute Peritonitis / 急性腹膜炎
 ### Spontaneous Bacterial Peritonitis / 特発性細菌性腹膜炎
 ### Cancerous Peritonitis / 癌性腹膜炎
