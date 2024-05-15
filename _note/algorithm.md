@@ -127,17 +127,17 @@ int search(int n) {
 }
 ```
 
-### Prefix Sum / 累積和
+### Divide and Conquer / 分割統治法
 ```cpp
-vector<int> arr(N), sum(N);
+vector<int> arr(N);
 
-void build(int n) {
-    for (int i=0; i<n; ++i)
-        sum[i+1] = sum[i] + arr[i];
-}
-
-int query(int l, int r) {
-    return sum[r+1] - sum[l];
+void rec(int l, int r) {
+    int m = (l+r)/2;
+    if (l==r)
+        "<base case>";
+    rec(l, m);
+    rec(m+1, r);
+    "<combine>";
 }
 ```
 
@@ -1027,6 +1027,44 @@ void dfs(int v, int p) {
 }
 ```
 
+### Tree D&Q / 木の分割統治法
+```cpp
+vector<vector<int>> adj(N);
+vector<int> siz(N), cen(N);
+
+void calsize(int v, int p) {
+    siz[v] = 1;
+    for (int u : adj[v]) {
+        if (u==p || cen[u])
+            continue;
+        calsize(u, v);
+        siz[v] += siz[u];
+    }
+}
+
+int centroid(int v, int p, int t) {
+    for (int u : adj[v]) {
+        if (u==p || cen[u])
+            continue;
+        if (siz[u]>t/2)
+            return centroid(u, v, t);
+    }
+    return v;
+}
+
+void rec(int v) {
+    calsize(v, -1);
+    int c = centroid(v, -1, siz[v]);
+    cen[c] = 1;
+    for (int u : adj[c]) {
+        if (cen[u])
+            continue;
+        rec(u);
+        "<combine>";
+    }
+}
+```
+
 ### Lowest Common Ancestor / 最近共通祖先
 ```cpp
 vector<vector<int>> adj(N), par(LOG_N, vector<int>(N, -1));
@@ -1125,44 +1163,6 @@ int lca(int a, int b) {
     if (l>r)
         swap(l, r);
     return query(0, 0, arr.size()-1, l, r);
-}
-```
-
-### Tree D&Q / 木の分割統治法
-```cpp
-vector<vector<int>> adj(N);
-vector<int> siz(N), cen(N);
-
-void calsize(int v, int p) {
-    siz[v] = 1;
-    for (int u : adj[v]) {
-        if (u==p || cen[u])
-            continue;
-        calsize(u, v);
-        siz[v] += siz[u];
-    }
-}
-
-int centroid(int v, int p, int t) {
-    for (int u : adj[v]) {
-        if (u==p || cen[u])
-            continue;
-        if (siz[u]>t/2)
-            return centroid(u, v, t);
-    }
-    return v;
-}
-
-void rec(int v) {
-    calsize(v, -1);
-    int c = centroid(v, -1, siz[v]);
-    cen[c] = 1;
-    for (int u : adj[c]) {
-        if (cen[u])
-            continue;
-        rec(u);
-        "<combine>";
-    }
 }
 ```
 
@@ -1982,17 +1982,17 @@ void build(int x) {
 
 ## Technique / テクニック
 
-### Divide and Conquer / 分割統治法
+### Prefix Sum / 累積和
 ```cpp
-vector<int> arr(N);
+vector<int> arr(N), sum(N);
 
-void rec(int l, int r) {
-    int m = (l+r)/2;
-    if (l==r)
-        "<base case>";
-    rec(l, m);
-    rec(m+1, r);
-    "<combine>";
+void build(int n) {
+    for (int i=0; i<n; ++i)
+        sum[i+1] = sum[i] + arr[i];
+}
+
+int query(int l, int r) {
+    return sum[r+1] - sum[l];
 }
 ```
 
