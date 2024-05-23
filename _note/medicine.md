@@ -11,7 +11,29 @@ Essences of clinical medicine.
 
 {% include toc %}
 
-# Cardiovascular Medicine / 循環器科
+# Cardiology / 循環器科
+
+## Heart Failure / 心不全
+
+### Left-Sided Heart Failure / 左心不全
+### Right-Sided Heart Failure / 右心不全
+
+## Arrhythmia / 不整脈
+
+### Sinus Tachycardia / 洞性頻脈
+### Paroxysmal Supraventricular Tachycardia / 発作性上室頻拍
+### Wolff-Parkinson-White Syndrome / WPW症候群
+### Atrial Flutter / 心房粗動
+### Atrial Fibrillation / 心房細動
+### Atrial Premature Contraction / 心房期外収縮
+### Ventricular Premature Contraction / 心室期外収縮
+### Ventricular Tachycardia / 心室頻拍
+### Ventricular Fibrillation / 心室細動
+### Long QT Syndrome / QT延長症候群
+### Brugada Syndrome / Brugada症候群
+### Sick Sinus Syndrome / 洞不全症候群
+### Atrioventricular Block / 房室ブロック
+### Bundle Branch Block / 脚ブロック
 
 ## Ischemic Heart Disease / 虚血性心疾患
 
@@ -31,7 +53,7 @@ Essences of clinical medicine.
 ### Tricuspid Stenosis / 三尖弁狭窄症
 ### Tricuspid Regurgitation / 三尖弁閉鎖不全症
 
-### Endocardium, Myocardium and Pericardium Disease / 心内膜・心筋・心膜疾患
+## Endocardium, Myocardium and Pericardium Disease / 心内膜・心筋・心膜疾患
 
 ### Infectious Endocarditis / 感染性心内膜炎
 ### Cardiac Myxoma / 心臓粘液腫
@@ -69,29 +91,7 @@ Essences of clinical medicine.
 ### Malignant Hypertension / 悪性高血圧症
 ### Hypotension / 低血圧
 
-## Heart Failure / 心不全
-
-### Left-Sided Heart Failure / 左心不全
-### Right-Sided Heart Failure / 右心不全
-
-## Arrhythmia / 不整脈
-
-### Atrial Premature Contraction / 心房期外収縮
-### Sinus Tachycardia / 洞性頻脈
-### Paroxysmal Supraventricular Tachycardia / 発作性上室性頻拍
-### Wolff-Parkinson-White Syndrome / WPW症候群
-### Atrial Flutter / 心房粗動
-### Atrial Fibrillation / 心房細動
-### Ventricular Premature Contraction / 心室期外収縮
-### Ventricular Tachycardia / 心室頻拍
-### Ventricular Fibrillation / 心室細動
-### Long QT Syndrome / QT延長症候群
-### Brugada Syndrome / Brugada症候群
-### Sick Sinus Syndrome / 洞不全症候群
-### Atrioventricular Block / 房室ブロック
-### Bundle Branch Block / 脚ブロック
-
-# Respiratory Medicine / 呼吸器科
+# Pulmonology/ 呼吸器科
 
 ## Infectious Disease / 感染性疾患
 
@@ -276,11 +276,12 @@ Essences of clinical medicine.
 ### Hepatitis D / D型肝炎
 ### Hepatitis E / E型肝炎
 ### Acute Viral Hepatitis / 急性ウイルス性肝炎
+### Chronic Viral Hepatitis / 慢性ウイルス性肝炎
 ### Drug-Induced Liver Injury / 薬剤性肝障害
 ### Acute Liver Failure / 急性肝不全
-### Chronic Viral Hepatitis / 慢性ウイルス性肝炎
-### Alcoholic Liver Disease / アルコール性肝障害
+### Fatty Liver / 脂肪肝
 ### Nonalcoholic Steatohepatitis / 非アルコール性脂肪性肝炎
+### Alcoholic Liver Disease / アルコール性肝障害
 ### Autoimmune Hepatitis / 自己免疫性肝炎
 ### Primary Biliary Cholangitis / 原発性胆汁性胆管炎
 ### Primary Sclerosing Cholangitis / 原発性硬化性胆管炎
@@ -302,21 +303,21 @@ Essences of clinical medicine.
 ### Gallbladder Adenomyomatosis / 胆嚢腺筋腫症
 ### Gallbladder Cancer / 胆嚢癌
 ### Bile Duct Cancer / 胆管癌
-### Cancer of the Pipilla of Vator / 乳頭部癌
+### Cancer of Pipilla of Vator / 乳頭部癌
 
 ## Pancreatic Disease / 膵疾患
 
 ### Acute Pancreatitis / 急性膵炎
 ### Chronic Pancreatitis / 慢性膵炎
 ### Autoimmune Pancreatitis / 自己免疫性膵炎
-### Pancreatic Psuedocyst / 膵仮性嚢胞
 ### Pancreatic Carcinoma / 膵癌
+### Pancreatic Psuedocyst / 膵仮性嚢胞
 ### Intraductal Papillary Mucinous Neoplasm / 膵管内乳頭粘液性腫瘍
 ### Mucinous Cystic Neoplasm / 粘液性嚢胞腫瘍
 ### Serous Cystic Neoplasm / 漿液性嚢胞腫瘍
 ### Pancreatic Neuroendocrine Neoplasm / 膵神経内分泌腫瘍
 
-# Metabolism and Endocrinology / 代謝・内分泌科
+# Endocrinology / 内分泌科
 
 ## Hypothalamus and Pituitary Gland Disease / 視床下部・下垂体疾患
 
@@ -478,7 +479,7 @@ Essences of clinical medicine.
 ### Dialysis Amyloidosis / 透析アミロイドーシス
 ### Renal Anemia / 腎性貧血
 
-# Hematology and Oncology / 血液・腫瘍科
+# Hematology / 血液科
 
 ## Nonhemolytic Anemia / 非溶血性貧血
 
@@ -548,7 +549,7 @@ Essences of clinical medicine.
 ### Disseminated Intravascular Coagulation / 播種性血管内凝固
 ### Vitamin K Deficiency / ビタミンK欠乏症
 
-# Immunology and Rheumatology / 免疫・リウマチ科
+# Rheumatology / リウマチ科
 
 ## Allergy / アレルギー
 
@@ -950,7 +951,7 @@ Essences of clinical medicine.
 ### Priapism / 持続勃起症
 ### Male Infertility / 男性不妊症
 
-# Obstetrics and Gynecology / 産科・婦人科
+# Obstetrics and Gynecology / 産婦人科
 
 # Pediatrics / 小児科
 
@@ -991,7 +992,7 @@ Essences of clinical medicine.
 ### Omphalocele / 臍帯ヘルニア
 ### Gastroschisis / 腹壁破裂
 ### Gilbert Syndrome / Gilbert症候群
-### Crigler-Najjar Syndrome / Girgler-Najjar症候群
+### Crigler-Najjar Syndrome / Cirgler-Najjar症候群
 ### Dubin-Johnson Syndrome / Dubin-Johnson症候群
 ### Rotor Syndrome / Rotor症候群
 ### Biliary Atresia / 胆道閉鎖症

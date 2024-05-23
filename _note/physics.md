@@ -11,7 +11,7 @@ Equations of fundamental physics.
 
 {% include toc %}
 
-## Classical Mechanics / 古典力学
+## Analytical Mechanics / 解析力学
 
 <!-- ### Newtonian Mechanics / ニュートン力学
 
@@ -73,8 +73,16 @@ $$
 $$
 {: .notice--info} -->
 
-## Electrodynamics / 電磁気学
+## Electromagnetism / 電磁気学
 
-## Thermodynamics / 熱力学
+## Statistical Mechanics / 統計力学
 
 ## Quantum Mechanics / 量子力学
+
+## Condensed Matter Physics / 物性物理学
+
+## Particle Physics / 素粒子物理学
+
+## Theory of Relativity / 相対性理論
+
+## Quantum Field Theory / 場の量子論
