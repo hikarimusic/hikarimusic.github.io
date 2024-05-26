@@ -13,7 +13,7 @@ Essences of clinical medicine.
 
 # Cardiology / 循環器科
 
-## Heart Failure / 心不全
+<!-- ## Heart Failure / 心不全
 
 ### Left-Sided Heart Failure / 左心不全
 ### Right-Sided Heart Failure / 右心不全
@@ -89,11 +89,11 @@ Essences of clinical medicine.
 ### Essential Hypertension / 本態性高血圧症
 ### Secondary Hypertension / 二次性高血圧症
 ### Malignant Hypertension / 悪性高血圧症
-### Hypotension / 低血圧
+### Hypotension / 低血圧 -->
 
 # Pulmonology/ 呼吸器科
 
-## Infectious Disease / 感染性疾患
+<!-- ## Infectious Disease / 感染性疾患
 
 ### Acute Bronchiolitis / 急性細気管支炎
 ### Community-Acquired Pneumonia / 市中肺炎
@@ -188,10 +188,11 @@ Essences of clinical medicine.
 ### Mediastinal Emphysema / 縦隔気腫
 ### Thymoma / 胸腺腫
 ### Neurogenic Tumor / 神経原性腫瘍
-### Germ Cell Tumor / 胚細胞腫瘍
+### Germ Cell Tumor / 胚細胞腫瘍 -->
 
 # Gastroenterology / 消化器科
 
+<!-- 
 ## Esophageal Disease / 食道疾患
 
 ### Achalasia / 食道アカラシア
@@ -315,11 +316,11 @@ Essences of clinical medicine.
 ### Intraductal Papillary Mucinous Neoplasm / 膵管内乳頭粘液性腫瘍
 ### Mucinous Cystic Neoplasm / 粘液性嚢胞腫瘍
 ### Serous Cystic Neoplasm / 漿液性嚢胞腫瘍
-### Pancreatic Neuroendocrine Neoplasm / 膵神経内分泌腫瘍
+### Pancreatic Neuroendocrine Neoplasm / 膵神経内分泌腫瘍 -->
 
 # Endocrinology / 内分泌科
 
-## Hypothalamus and Pituitary Gland Disease / 視床下部・下垂体疾患
+<!-- ## Hypothalamus and Pituitary Gland Disease / 視床下部・下垂体疾患
 
 ### Hyperprolactinemia / 高プロラクチン血症
 ### Acromegaly / 先端肥大症
@@ -405,11 +406,11 @@ Essences of clinical medicine.
 ### Hemochromatosis / ヘモクロマトーシス
 ### Acute Intermittent Porphyria / 急性間欠性ポルフィリン症
 ### Porphyria Cutanea Tarda / 晩発性皮膚ポルフィリン症
-### Amyloidosis / アミロイドーシス
+### Amyloidosis / アミロイドーシス -->
 
 # Nephrology / 腎臓科
 
-## Water and Electrolytes Metabolism Disorder / 水・電解質代謝異常
+<!-- ## Water and Electrolytes Metabolism Disorder / 水・電解質代謝異常
 
 ### Hyponatremia / 低ナトリウム血症
 ### Hypernatremia / 高ナトリウム血症
@@ -477,11 +478,11 @@ Essences of clinical medicine.
 ### Disequilibrium Syndrome / 不均衡症候群
 ### CKD Mineral and Bone Disorder / CKDに伴う骨ミネラル代謝異常
 ### Dialysis Amyloidosis / 透析アミロイドーシス
-### Renal Anemia / 腎性貧血
+### Renal Anemia / 腎性貧血 -->
 
 # Hematology / 血液科
 
-## Nonhemolytic Anemia / 非溶血性貧血
+<!-- ## Nonhemolytic Anemia / 非溶血性貧血
 
 ### Iron Deficiency Anemia / 鉄欠乏性貧血
 ### Sideroblastic Anemia / 鉄芽球性貧血
@@ -547,11 +548,11 @@ Essences of clinical medicine.
 ### Thrombotic Thrombocytopenic Purpura / 血栓性血小板減少性紫斑病
 ### Hemolytic Uremic Syndrome / 溶血性尿毒症症候群
 ### Disseminated Intravascular Coagulation / 播種性血管内凝固
-### Vitamin K Deficiency / ビタミンK欠乏症
+### Vitamin K Deficiency / ビタミンK欠乏症 -->
 
 # Rheumatology / リウマチ科
 
-## Allergy / アレルギー
+<!-- ## Allergy / アレルギー
 
 ### Anaphylaxis / アナフィラキシー
 ### Food Allergy / 食物アレルギー
@@ -592,65 +593,70 @@ Essences of clinical medicine.
 ### Microscopic Polyangiitis / 顕微鏡的多発血管炎
 ### Granulomatosis with Polyangiitis / 多発血管炎性肉芽腫症
 ### Eosinophilic Granulomatosis with Polyangiitis / 好酸球性多発血管炎性肉芽腫症
-### IgA Vasculitis / IgA血管炎
+### IgA Vasculitis / IgA血管炎 -->
 
-# Infectious Diseases / 感染症
+# Infectious Diseases / 感染症科
+
+<!-- 
 
 ## Gram-Positive Bacterial Infection / グラム陽性菌感染症
 
-### Staphylococcal Infection / ブドウ球菌感染症
-### Streptococcal Infection / レンサ球菌感染症
-### Pneumococcal Infection / 肺炎球菌感染症
-### Enterococcal Infection / 腸球菌感染症
+### Staphylococcus Aureus Infection / 黄色ブドウ球菌感染症
+### Staphylococcus Epidermidis Infection / 表皮ブドウ球菌感染症
+### Streptococcus Pyogenes Infection / 化膿レンサ球菌感染症
+### Streptococcus Agalactiae Infection / B群レンサ球菌感染症
+### Streptococcus Pneumoniae Infection / 肺炎球菌感染症
+### Viridans Streptococci Infection / 緑色レンサ球菌感染症
+### Enterococcus Infection / 腸球菌感染症
 ### Diphtheria / ジフテリア
-### Listeria Infection / リステリア症
+### Listeriosis / リステリア症
 ### Anthrax / 炭疽
-### Tetanus / 破傷風
 ### Botulism / ボツリヌス症
-### Gas Gangrene / ガス壊疽
+### Tetanus / 破傷風
+### Clostridium Perfringens Infection / ウェルシュ菌感染症
+### Clostridioides Difficile Infection / ディフィシル菌感染症
+### Non-Sporeforming Anaerobe Infection / 無芽胞嫌気性菌感染症
 
 ## Gram-Negative Bacterial Infection / グラム陰性菌感染症
 
-### Gonococcal Infection / 淋菌感染症
-### Meningococcal Infection / 髄膜炎菌感染症
-### Moraxella Infection / モラクセラ感染症
-### Haemophilus Infection / インフルエンザ菌感染症
-### Legionella Infection / レジオネラ症
-### Pertussis / 百日咳
-### Pseudomonas Infection / 緑膿菌感染症
-### Acinetobacter Infection / アシネトバクター感染症
-### Escherichia Infection / 大腸菌感染症
-### Klebsiella Infection / クレブシエラ感染症
-### Serratia Infection / セラチア感染症
+### Escherichia Coli Infection / 大腸菌感染症
+### Shigellosis / 細菌性赤痢
 ### Typhoid Fever / 腸チフス
 ### Salmonellosis / サルモネラ症
-### Shigellosis / 細菌性赤痢
+### Plague / ペスト
+### Yersinia Enterocolitica Infection / エルシニア感染症
+### Klebsiella Pneumoniae Infection / クレブシエラ感染症
+### Serratia Marcescens Infection / セラチア感染症
 ### Cholera / コレラ
-### Vibrio Infection / ビブリオ感染症
-### Campylobacter Infection / カンピロバクター感染症
-### Helicobacter Infection / ピロリ菌感染症
+### Vibrio Parahaemolyticus Infection / 腸炎ビブリオ感染症
+### Vibrio Vulnificus Infection / バルニフィカス菌感染症
+### Campylobacter Jejuni Infection / カンピロバクター感染症
+### Helicobacter Pylori Infection / ピロリ菌感染症
+### Haemophilus Influenzae Infection / インフルエンザ菌感染症
+### Pertussis / 百日咳
+### Pseudomonas Aeruginosa Infection / 緑膿菌感染症
+### Acinetobacter Baumannii Infection / アシネトバクター感染症
+### Legionellosis / レジオネラ症
 ### Brucellosis / ブルセラ症
 ### Tularemia / 野兎病
-### Plague / ペスト
-### Yersinia Infection / エルシニア感染症
 ### Cat-Scratch Disease / ねこひっかき病
+### Neisseria Gonorrhoeae Infection / 淋菌感染症
+### Neisseria Meningitidis Infection / 髄膜炎菌感染症
+### Moraxella Catarrhalis Infection / モラクセラ感染症
 
 ## Other Bacterial Infection / その他の細菌感染症
 
 ### Actinomycosis / 放線菌症
 ### Nocardiosis / ノカルジア症
-### Whipple’s Disease / Whipple病
-### Anaerobic Infection / 嫌気性菌感染症
 ### Tuberculosis / 結核
 ### Nontuberculous Mycobacteriosis / 非結核性抗酸菌症
 ### Leprosy / Hansen病
 ### Syphilis / 梅毒
+### Borreliosis / ボレリア症
 ### Leptospirosis / レプトスピラ症
-### Relapsing Fever / 回帰熱
-### Lyme Disease / ライム病
-### Rickettsia Infection / リケッチア感染症
-### Mycoplasma Infection / マイコプラズマ感染症
 ### Chlamydia Infection / クラミジア感染症
+### Mycoplasma Infection / マイコプラズマ感染症
+### Rickettsia Infection / リケッチア感染症
 
 ## DNA Viral Infection / DNAウイルス感染症
 
@@ -659,86 +665,91 @@ Essences of clinical medicine.
 ### Epstein-Barr Virus Infection / EBウイルス感染症
 ### Cytomegalovirus Infection / サイトメガロウイルス感染症
 ### Human Herpesvirus 6 & 7 Infection / ヒトヘルペスウイルス感染症
-### Poxvirus Infection / ポックスウイルス感染症
 ### Human Papillomavirus Infection / ヒトパピローマウイルス感染症
+### Poxvirus Infection / ポックスウイルス感染症
 ### Parvovirus Infection / パルボウイルス感染症
 ### Adenovirus Infection / アデノウイルス感染症
+### Hepatitis B / B型肝炎
 
 ## RNA Viral Infection / RNAウイルス感染症
 
-### Common Cold Syndrome / かぜ症候群
 ### Influenza / インフルエンザ
 ### COVID-19 / 新型コロナウイルス感染症
-### Norwalk Virus Infection / ノロウイルス感染症
+### SARS / 重症急性呼吸器症候群
+### MERS / 中東呼吸器症候群
+### Norovirus Infection / ノロウイルス感染症
 ### Rotavirus Infection / ロタウイルス感染症
-### Measles / 麻疹
-### Rubella / 風疹
-### Mumps / 流行性耳下腺炎
 ### Enterovirus Infection / エンテロウイルス感染症
-### Poliovirus Infection / ポリオウイルス感染症
+### Measles Virus Infection / 麻疹ウイルス感染症
+### Rubella Virus Infection / 風疹ウイルス感染症
+### Mumps Virus Infection / ムンプスウイルス感染症
 ### Japanese Encephalitis / 日本脳炎
 ### West Nile Encephalitis / ウエストナイル脳炎
+### Rabies / 狂犬病
 ### Dengue Fever / デング熱
 ### Chikungunya Fever / チクングニア熱
 ### Zika Fever / ジカ熱
 ### Ebola Hemorrhagic Fever / エボラ出血熱
-### Rabies / 狂犬病
-### JC Virus Infection / JCウイルス感染症
-### Human Immunodeficiency Virus Infection / HIV感染症
-### Human T-Cell Lymphotropic Virus 1 Infection / HTLV-1感染症
+### SFTS / 重症熱性血小板減少症候群
+### HIV Infection / HIV感染症
+### HTLV-1 Infection / HTLV-1感染症
+### Hepatitis A / A型肝炎
+### Hepatitis C / C型肝炎
+### Hepatitis D / D型肝炎
+### Hepatitis E / E型肝炎
 
 ## Fungal Infection / 真菌感染症
 
-### Histoplasmosis / ヒストプラスマ症
-### Coccidioidomycosis / コクシジオイデス症
-### Blastomycosis / ブラストミセス症
-### Cryptococcosis / クリプトコックス症
 ### Candidiasis / カンジダ症
 ### Aspergillosis / アスペルギルス症
 ### Mucormycosis / ムーコル症
+### Cryptococcosis / クリプトコックス症
 ### Pneumocystis Infection / ニューモシスチス感染症
+### Histoplasmosis / ヒストプラスマ症
+### Coccidioidomycosis / コクシジオイデス症
+### Blastomycosis / ブラストミセス症
 
 ## Protozoal Infection / 原虫感染症
 
-### Amebiasis / 赤痢アメーバ症
+### Amebiasis / アメーバ赤痢
+### Giardiasis / ランブル鞭毛虫症
+### Cryptosporidiosis / クリプトスポリジウム症
 ### Malaria / マラリア
 ### Babesiosis / バベシア症
-### Leishmaniasis / リーシュマニア症
-### Chagas Disease / シャーガス病
-### African Trypanosomiasis / アフリカ・トリパノソーマ症
 ### Toxoplasmosis / トキソプラズマ症
-### Giardiasis / ジアルジア症
-### Cryptosporidiosis / クリプトスポリジウム症
+### Leishmaniasis / リーシュマニア症
+### African Sleeping Sickness / アフリカ睡眠病
+### Chagas Disease / シャーガス病
 ### Trichomoniasis / トリコモナス症
 
 ## Helminthic Infection / 蠕虫感染症
 
 ### Ascariasis / 回虫症
-### Trichuriasis / 鞭虫症
 ### Enterobiasis / 蟯虫症
+### Trichuriasis / 鞭虫症
 ### Hookworm Infection / 鉤虫症
 ### Strongyloidiasis / 糞線虫症
 ### Anisakiasis / アニサキス
-### Gnathostomiasis / 顎口虫症
-### Angiostrongyliasis / 住血線虫症
-### Trichinellosis / 旋毛虫症
 ### Filariasis / フィラリア症
 ### Onchocerciasis / オンコセルカ症
 ### Loiasis / ロア糸状虫症
-### Dracunculiasis / メジナ虫症
+### Gnathostomiasis / 顎口虫症
+### Angiostrongyliasis / 広東住血線虫症
+### Trichinellosis / 旋毛虫症
 ### Schistosomiasis / 住血吸虫症
-### Paragonimiasis / 肺吸虫症
 ### Clonorchiasis / 肝吸虫症
 ### Metagonimiasis / 横川吸虫症
-### Taeniasis Solium / 有鉤条虫症
-### Taeniasis Saginata / 無鉤条虫症
-### Echinococcosis / 包虫症
-### Hymenolepiasis Nana / 小形条虫症
+### Paragonimiasis / 肺吸虫症
 ### Diphyllobothriasis / 裂頭条虫症
+### Taeniasis Saginata / 無鉤条虫症
+### Taeniasis Solium / 有鉤条虫症
+### Echinococcosis / 包虫症
+
+-->
 
 # Neurology / 神経科
 
-## Cerebral Infarction / 脳梗塞
+<!-- ## Cerebral Infarction / 脳梗塞
 
 ### Atherothrombotic Infarction / アテローム血栓性脳梗塞
 ### Cardioembolic Infarction / 心原性脳塞栓症
@@ -900,7 +911,7 @@ Essences of clinical medicine.
 ### Cerebral Contusion / 脳挫傷
 ### Diffuse Axonal Injury / びまん性軸索損傷
 ### Spinal Cord Injury / 脊髄損傷
-### Normal Pressure Hydrocephalus / 正常圧水頭症
+### Normal Pressure Hydrocephalus / 正常圧水頭症 -->
 
 # Psychiatry / 精神科
 
@@ -910,11 +921,176 @@ Essences of clinical medicine.
 
 # Dermatology / 皮膚科
 
+<!-- ## Eczema and Dermatitis / 湿疹・皮膚炎
+
+### Contact Dermatitis /  接触皮膚炎
+### Atopic Dermatitis / アトピー性皮膚炎
+### Asteatotic Eczema / 皮脂欠乏性湿疹
+### Seborrheic Dermatitis / 脂漏性皮膚炎
+### Nummular Eczema / 貨幣状湿疹
+### Autosensitization Dermatitis / 自家感作性皮膚炎
+### Stasis Dermatitis / うっ滞性皮膚炎
+### Lichen Vidal / Vidal苔癬
+### Pompholyx / 汗疱
+
+## Urticaria and Pruritis / 蕁麻疹・掻痒
+
+### Urticaria / 蕁麻疹
+### Angioedema / 血管性浮腫
+### Prurigo / 痒疹
+### Pruritus Cutaneous / 皮膚瘙痒症
+
+## Erythema and Drug Eruption / 紅斑症・薬疹
+
+### Erythema Exsudativum Multiforme / 多形滲出性紅斑
+### Erythema Nodosum / 結節性紅斑
+### Erythema Induratum / 硬結性紅斑
+### Sweet's Disease / Sweet病
+### Drug Eruption / 薬疹
+### Fixed Drug Eruption / 固定薬疹
+### Stevens-Johnson Syndrome / Stevens-Johnson症候群
+### Toxic Epidermal Necrolysis / 中毒性表皮壊死症
+### Drug-Induced Hypersensitivity Syndrome / 薬剤性過敏症症候群
+### Skin Disorders Caused by Anticancer Drugs / 抗がん薬による皮膚障害
+### Erythroderma / 紅皮症
+### Graft-Versus-Host Disease / 移植片対宿主病
+
+## Bullous Dermatoses and Pustulosis / 水疱症・膿疱症
+
+### Pemphigus Vulgaris / 尋常性天疱瘡
+### Pemphigus Foliaceus / 落葉状天疱瘡
+### Bullous Pemphigoid / 水疱性類天疱瘡
+### Dermatitis Herpetiformis Duhring / Duhring疱疹状皮膚炎
+### Epidermolysis Bullosa Acquisita / 後天性表皮水疱症
+### Epidermolysis Bullosa Hereditaria / 先天性表皮水疱症
+### Palmoplantar Pustulosis / 掌蹠膿疱症
+
+## Keratosis / 角化症
+
+### Psoriasis Vulgaris / 尋常性乾癬
+### Guttate Psoriasis / 滴状乾癬
+### Pustular Psoriasis / 膿疱性乾癬
+### Psoriatic Erythroderma / 乾癬性紅皮症
+### Parapsoriasis En Plaques / 局面状類乾癬
+### Pityriasis Lichenoides / 苔癬状粃糠疹
+### Lichen Planus / 扁平苔癬
+### Pityriasis Rosea Gibert / Gibertばら色粃糠疹
+### Pityriasis Rubra Pilaris / 毛孔性紅色粃糠疹
+### Keratosis Pilaris / 毛孔性角化症
+### Clavus and Callus / 鶏眼・胼胝
+### Acanthosis Nigricans / 黒色表皮腫
+### Ichthyosis Vulgaris / 尋常性魚鱗癬
+### X-Linked Ichthyosis / X連鎖性魚鱗癬
+### Congenital Ichthyosiform Erythroderma / 先天性魚鱗癬様紅皮症
+### Epidermolytic Ichthyosis / 表皮融解性魚鱗癬
+### Palmoplantar Keratoderma / 掌蹠角化症
+### Darier's Disease / Darier病
+
+## Pigmentary Disorder / 色素異常症
+
+### Oculocutaneous Albinism / 眼皮膚白皮症
+### Vitiligo Vulgaris / 尋常性白斑
+### Nevus Depigmentosus / 脱色素性母斑
+### Vogt-Koyanagi-Harada Disease / Vogt-小柳-原田病
+### Leucoderma Sutton / Sutton白斑
+### Ephelides / 雀卵斑
+### Melasma / 肝斑
+### Senile Lentigo / 老人性色素斑
+
+## Nevus / 母斑
+
+### Epidermal Nevus / 表皮母斑
+### Sebaceous Nevus / 脂腺母斑
+### Melanocytic Nevus / 色素性母斑
+### Spitz Nevus / Spitz母斑
+### Nevus Spilus / 扁平母斑
+### Nevus of Ota / 太田母斑
+### Mongolian Spot / 蒙古斑
+### Blue Nevus / 青色母斑
+
+## Skin Tumor / 皮膚腫瘍
+
+### Seborrheic Keratosis / 脂漏性角化症
+### Porokeratosis / 汗孔角化症
+### Epidermal Cyst / 表皮嚢腫
+### Hypertrophic Scar and Keloid / 肥厚性瘢痕・ケロイド
+### Mastocytoma / 肥満細胞症
+### Infantile Hamangioma / 乳児血管腫
+### Glomus Tumor / グロムス腫瘍
+### Kasabach-Merritt Syndrome / Kasabach-Merritt症候群
+### Capillary Malformation / 毛細血管奇形
+### Basal Cell Carcinoma / 基底細胞癌
+### Squamous Cell Carcinoma / 有棘細胞癌
+### Keratoacanthoma / ケラトアカントーマ
+### Solar Keratosis / 日光角化症
+### Bowen's Disease / Bowen病
+### Extramammary Paget's Disease / 乳房外Paget病
+### Merkel Cell Carcinoma / Merkel細胞癌
+### Malignant Melanoma / 悪性黒色腫
+### Angiosarcoma / 血管肉腫
+### Kaposi's Sarcoma / Kaposi肉腫
+### Mycosis Fungoides / 菌状息肉症
+### Sézary Syndrome / Sézary症候群
+
+## Skin Infection / 皮膚感染症
+
+### Folliculitis / 毛包炎
+### Furuncle and Carbuncle / 癤・癰
+### Paronychia / 爪囲炎
+### Erysipelas / 丹毒
+### Cellulitis / 蜂巣炎
+### Necrotizing Fasciitis / 壊死性筋膜炎
+### Gas Gangrene / ガス壊疽
+### Impetigo Contagiosa / 伝染性膿痂疹
+### Staphylococcal Scalded Skin Syndrome / ブドウ球菌性熱傷様皮膚症候群
+### Toxic Shock Syndrome / トキシックショック症候群
+### Scarlet Fever / 猩紅熱
+### Tuberculosis Cutis / 皮膚結核
+### Nontuberculous Mycobacteriosis / 非結核性抗酸菌症
+### Leprosy / Hansen病
+### Herpes Simplex / 単純疱疹
+### Varicella / 水痘
+### Herpes Zoster / 帯状疱疹
+### Hand Foot and Mouth Disease / 手足口病
+### Measles / 麻疹
+### Rubella / 風疹
+### Exanthema Subitum / 突発性発疹
+### Erythema Infectiosum / 伝染性紅斑
+### Gianotti Disease / Gianotti病
+### Verruca Vulgaris / 尋常性疣贅
+### Verruca Plana / 扁平疣贅
+### Molluscum Contagiosum / 伝染性軟属腫
+### Dermatophytosis / 白癬
+### Cutaneous Candidiasis / 皮膚カンジダ症
+### Malassezia Infection / マラセチア感染症
+### Sporotrichosis / スポロトリコーシス
+### Dematiaceous Fungal Infection / 黒色真菌症
+### Scabies / 疥癬
+### Pediculosis / シラミ症
+### Lyme Disease / ライム病
+### Scrub Typhus / ツツガムシ病 
+
+## Epidermal Appendage Disease / 皮膚附属器の疾患
+
+### Miliaria / 汗疹
+### Hyperhidrosis / 多汗症
+### Anhidrosis / 無汗症
+### Bromidrosis / 臭汗症
+### Acne Valgaris / 尋常性痤瘡
+### Acneiform Eruption / 痤瘡様発疹
+### Rosacea / 酒皶
+### Rosacea-Like Dermatitis / 酒皶様皮膚炎
+### Androgenetic Alopecia / 男性型脱毛症
+### Alopecia Areata / 円形脱毛症
+### Trichotillomania / 抜毛症
+### Ingrown Nail / 陥入爪
+-->
+
 # Orthopedic Surgery / 整形外科
 
 # Urology / 泌尿器科
 
-## Urinary Tract Dysfunction / 尿路機能障害
+<!-- ## Urinary Tract Dysfunction / 尿路機能障害
 
 ### Hydronephrosis / 水腎症
 ### Neurogenic Bladder / 神経因性膀胱
@@ -949,9 +1125,19 @@ Essences of clinical medicine.
 ### Phimosis / 包茎
 ### Erectile Dysfunction / 勃起障害
 ### Priapism / 持続勃起症
-### Male Infertility / 男性不妊症
+### Male Infertility / 男性不妊症 -->
 
-# Obstetrics and Gynecology / 産婦人科
+# Gynecology / 婦人科
+
+
+<!-- 
+
+### Syphilis / 梅毒
+### Chancroid / 軟性下疳 
+
+-->
+
+# Obstetrics / 産科
 
 # Pediatrics / 小児科
 
@@ -1084,7 +1270,7 @@ Essences of clinical medicine.
 ### Hepatoblastoma / 肝芽腫
 ### Wilms' Tumor / Wilms腫瘍 -->
 
-# Emergency Medicine / 救急科
+<!-- # Emergency Medicine / 救急科
 
 ## Shock / ショック
 
@@ -1146,4 +1332,4 @@ Essences of clinical medicine.
 ### Organic Solvent Poisoning / 有機溶剤中毒
 ### Toxic Gas Poisoning / 有毒ガス中毒
 ### Metal Poisoning / 金属中毒
-### Pesticide Poisoning / 農薬中毒
+### Pesticide Poisoning / 農薬中毒 -->
