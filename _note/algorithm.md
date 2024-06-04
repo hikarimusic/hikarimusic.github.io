@@ -11,7 +11,9 @@ Templates of competitive programming.
 
 {% include toc %}
 
-## Basic / 基本
+# Basic / 基本
+
+## Brute-Force / 全探索
 
 ### Bit Exhaustive Search / ビット全探索
 ```cpp
@@ -81,6 +83,8 @@ bool search(int p, int n) {
 }
 ```
 
+## Basic Method / 基本的手法
+
 ### Greedy Algorithm / 貪欲法
 ```cpp
 void solve() {
@@ -139,6 +143,8 @@ void rec(int l, int r) {
 }
 ```
 
+## Dynamic Programming / 動的計画法
+
 ### Knapsack DP / ナップサックDP
 ```cpp
 vector<vector<int>> dp(N, vector<int>(M));
@@ -180,6 +186,8 @@ int rec(int S, int v, int n) {
     return dp[S][v] = a;
 }
 ```
+
+## Data Structure / データ構造
 
 ### Basic Data Structure / 基本的データ構造
 ```cpp
@@ -225,7 +233,7 @@ void hash_table2() {
 }
 ```
 
-### Disjoint Set Union / Union-Find 木
+### Disjoint Set Union / Union-Find木
 ```cpp
 vector<int> par(N), siz(N);
 
@@ -404,7 +412,9 @@ int query(int l, int r, int n) {
 }
 ```
 
-## Graph / グラフ
+# Graph / グラフ
+
+## Graph Traversal / グラフ探索
 
 ### DFS / 深さ優先探索
 ```cpp
@@ -471,6 +481,8 @@ void topological_sort(int n) {
     reverse(ans.begin(), ans.end());
 }
 ```
+
+## Shortest Path / 最短経路
 
 ### Dijkstra's Algorithm / ダイクストラ法
 ```cpp
@@ -574,6 +586,8 @@ void floyd_warshall(int n) {
     "<negative cycle: dis[i][i]<0 >";
 }
 ```
+
+## Minimum Spanning Tree / 最小全域木
 
 ### Prim's Algorithm / プリム法
 ```cpp
@@ -679,6 +693,8 @@ int kruskal() {
     return wt;
 }
 ```
+
+## Connectivity / 連結性
 
 ### Connected Component / 連結成分
 ```cpp
@@ -801,6 +817,8 @@ void dfs(int v, int p) {
     }
 }
 ```
+
+## Network Flow / ネットワークフロー
 
 ### Maximum Flow / 最大流
 ```cpp
@@ -969,6 +987,8 @@ int bipartite(int n) {
 }
 ```
 
+## Tree Algorithm / 木アルゴリズム
+
 ### Tree Diameter / 木の直径
 ```cpp
 vector<vector<int>> adj(N);
@@ -1011,7 +1031,7 @@ void dfs(int v, int p) {
 }
 ```
 
-### Tree D&Q / 木の分割統治法
+### Tree Divide and Conquer / 木の分割統治法
 ```cpp
 vector<vector<int>> adj(N);
 vector<int> siz(N), cen(N);
@@ -1150,7 +1170,9 @@ int lca(int a, int b) {
 }
 ```
 
-## Math / 数学
+# Math / 数学
+
+## Divisor / 約数
 
 ### Euclidean Algorithm / ユークリッドの互除法
 ```cpp
@@ -1228,6 +1250,8 @@ int euler_phi(int n) {
 }
 ```
 
+## Prime / 素数
+
 ### Primality Test / 素数判定
 ```cpp
 bool isPrime(int n) {
@@ -1268,6 +1292,8 @@ void segment_sieve(int l, int r) {
     }
 }
 ```
+
+## Exponentiation / べき乗
 
 ### Fast Exponentiation / 高速累乗
 ```cpp
@@ -1313,7 +1339,9 @@ mat matpow(mat A, int n, int m) {
 }
 ```
 
-### Modular Inverse / 逆元
+## Mod / 剰余
+
+### Inverse / 逆元
 ```cpp
 int mod_inv(int a, int m) {
     int x, y;
@@ -1371,6 +1399,8 @@ int mod_binom(int n, int k, int m) {
     return fac[n] * (finv[n-k] * finv[k] % m) % m; 
 }
 ```
+
+## Linear Algebra / 線型代数
 
 ### Linear Congruence Equation / 線形合同式
 ```cpp
@@ -1494,7 +1524,9 @@ vector<int> multiply(vector<int> a, vector<int> b) {
 }
 ```
 
-## Others / その他の
+# Others / その他の
+
+## Geometry / 幾何
 
 ### Geometry Library / 幾何ライブラリ
 ```cpp
@@ -1811,7 +1843,7 @@ void solve(int n) {
 }
 ```
 
-### Plane D&Q / 平面の分割統治法
+### Plane Divide and Conquer / 平面の分割統治法
 ```cpp
 using Point = complex<double>;
 
@@ -1837,6 +1869,8 @@ void rec(int l, int r) {
 
 sort(ps.begin(), ps.end(), compare_x);
 ```
+
+## String / 文字列
 
 ### Rolling Hash / ローリングハッシュ
 ```cpp
@@ -1916,6 +1950,8 @@ int search(string s, string t, vector<int> sa) {
 }
 ```
 
+## Game / ゲーム
+
 ### Nim / Nim
 ```cpp
 vector<int> arr(N);
@@ -1945,6 +1981,8 @@ void build(int x) {
     }
 }
 ```
+
+## Technique / テクニック
 
 ### Prefix Sum / 累積和
 ```cpp
