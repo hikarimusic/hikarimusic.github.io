@@ -8,8 +8,6 @@ tags:
 
 **Developer:** HikariMusic\\
 **Overview:** BIOSTATS is an intuitive app for statistical analysis, designed to assist biomedical researchers in easily and efficiently analyzing their data. With its simple graphical interface, researchers can perform statistical tests and create statistical plots with just a few clicks. This enables researchers to investigate the relationships between different variables and validate their hypotheses easily. The [API reference](https://hikarimusic.github.io/BIOSTATS/) for BIOSTATS can also serve as a review material on biostatistics. The project is open-source and can be found at [Github](https://github.com/hikarimusic/BIOSTATS).
-**Citation:** Tung, Yeu-Guang (2022). BIOSTATS: An Intuitive App for Biostatistical Analysis. Zenodo. https://doi.org/10.5281/zenodo.10550106
-
 
 <img src="https://github.com/hikarimusic/BIOSTATS/raw/main/docs/_static/home/banner2.png"><br>
 
