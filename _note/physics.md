@@ -1,6 +1,6 @@
 ---
 title: 'Physics 🍊⭐'
-date: 2023-01-01
+date: 2023-01-02
 permalink: /note/physics
 tags:
   - note
@@ -239,10 +239,10 @@ $$
 
 # Quantum Mechanics / 量子力学
 
-# Condensed Matter Physics / 物性物理学
+<!-- # Condensed Matter Physics / 物性物理学
 
 # Particle Physics / 素粒子物理学
 
 # Theory of Relativity / 相対性理論
 
-# Quantum Field Theory / 場の量子論
+# Quantum Field Theory / 場の量子論 -->

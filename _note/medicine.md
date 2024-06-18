@@ -1333,3 +1333,79 @@ Essences of clinical medicine.
 ### Toxic Gas Poisoning / 有毒ガス中毒
 ### Metal Poisoning / 金属中毒
 ### Pesticide Poisoning / 農薬中毒 -->
+
+# Anatomy / 解剖学
+
+# Physiology / 生理学
+
+# Pathology / 病理学
+
+# Pharmacology / 薬理学
+
+## Central Nervous System
+
+### Antipsychotic
+
+* **Typical antipsychotic**
+  * **Drugs**: Chlorpromazine, thioridazine, haloperidol, fluphenazine
+  * **Mechanism**: D2 agtagonist
+  * **Indication**: Schizophrenia, psycotic disorder (positive symptom)
+  * **Adverse effect**: Extrapyramidal syndrome, hyperprolactinemia, neuroleptic malignant syndrome (treatment: dantrolene), cholinergic antagonist, histamine antagonist, α1 adrenergic antagonist
+* **Atypical antipsychotic**
+  * **Drugs**: Clozapine, olanzapine, quetiapine, risperidone, ziprasidone, aripiprazole, amisulpride
+  * **Mechanism**: Multi-receptor antagonist (clozapine), D2 / 5HT2A antagonist (risperidone), D2 partial agonist (aripiprazole), D2 / D3 antagonist (amisulpride)
+  * **Indication**: Same as typical (positive and negative symptom)
+  * **Adverse effect**: Agranulocytosis (clozapine), QT prolong (ziprasidone)
+{: .notice--info}
+
+### Antidepressant
+
+* **TCA (tricyclic antidepressant)**
+  * **Drugs**: Imipramine, desipramine, clomipramine, amitriptyline, protriptyline, nortriptyline
+  * **Mechanism**: Serotonin norepinephrine reuptake inhibitor
+  * **Indication**: Depression
+  * **Adverse effect**: Cholinergic antagonist, histamine antagonist, α1 adrenergic antagonist
+* **SSRI (selective serotonin reuptake inhibitor)**
+  * **Drugs**: Fluoxetine, paroxetine, fluvoxetine, setraline, citalopram, escitalopram
+  * **Mechanism**: Selective serotonin reuptake inhibitor
+  * **Indication**: Depression
+  * **Adverse effect**: GI distress, sexual dysfunction
+* **SNRI (serotonin norepinephrine reuptake inhibitor)**
+  * **Drugs**: Venlafaxine, desvenlafaxine, duloxetine, milnacipran
+  * **Mechanism**: Serotonin norepinephrine reuptake inhibitor
+  * **Indication**: Depression
+* **SARI (serotonin antagonist / reuptake inhibitor)**:
+  * **Drugs**: Trazodone, nefazodone
+  * **Mechanism**: Serotonin antagonist / reuptake inhibitor
+  * **Indication**: Depression
+* **MAOI (monoamine oxidase inhibitor)**:
+  * **Drugs**: Tranylcypromine, phenelzine, isocarboxazid
+  * **Mechanism**: Monoamine oxidase inhibitor
+  * **Indication**: Depression
+  * **Adverse effect**: Hypertension crisis (with tyramine), serotonin syndrome (with SSRI)
+* **NaSSA (Noradrenergic and specific serotonergic antiderpressant)**: 
+  * **Drugs**: Mirtazapine
+  * **Mechanism**: α2 adrenergic antagonist
+  * **Indication**: Depression
+* **NDRI (norepinephrine dopamine reuptake inhibitor)**
+  * **Drugs**: Bupropion
+  * **Mechanism**: Norepinephrine dopamine reuptake inhibitor
+  * **Indication**: Smoking cessation
+* **NRI (norepinephrine reuptake inhibitor)**
+  * **Drugs**: Amoxapine, maproline
+  * **Mechanism**: Norepinephrine reuptake inhibitor
+  * **Indication**: Depression
+{: .notice--info}
+
+### Mood Stabilizer
+
+* **Lithium**
+  * **Drugs**: Lithium
+  * **Mechanism**: Inhibit Gq
+  * **Indication**: Bipolar disorder
+{: .notice--info}
+
+
+# Microbiology / 微生物学
+
+# Biochemistry / 生化学
