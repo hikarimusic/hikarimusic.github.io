@@ -11,6 +11,200 @@ Essences of clinical medicine.
 
 {% include toc %}
 
+# Anatomy / 解剖学
+
+# Physiology / 生理学
+
+# Pathology / 病理学
+
+# Pharmacology / 薬理学
+
+## Autonomic Nervous System
+
+### Adrenergic Agonist
+
+* **αβ agonist**
+  * **Drugs**: Epinephrine, norepinephrine, dopamine
+  * **Mechanism**: αβ agonist (epinephrine: β>α, norepinephrine: α>β, dopamine: D>β>α)
+  * **Indication**: Shock (dopamine preserve renal blood flow), glaucoma (epinephrine)
+* **α1 agonist**
+  * **Drugs**: Oxymetazoline, phenylephrine, midodrine
+  * **Mechanism**: α1 agonist
+  * **Indication**: Nasal congestion (Oxymetazoline, phenylephrine), midodrine (orthostatic hypotension)
+* **α2 agonist**
+  * **Drugs**: Clonidine, methyldopa, brimonidine
+  * **Mechanism**: α2 agonist
+  * **Indication**: Hypertension (methyldopa: for pregnant women), glaucoma (brimonidine)
+* **β agonist**
+  * **Drugs**: Isoproterenol
+  * **Mechanism**: β1-β2 agonist
+  * **Indication**: Bradycardia
+* **β1 agonist**
+  * **Drugs**: Dobutamine
+  * **Mechanism**: β1 agonist
+  * **Indication**: Heart failure
+* **β2 agonist**
+  * **Drugs**: Metaproterenol, pirbuterol, albuterol, terbutaline, procaterol, salmeterol, formoterol, ritodrine
+  * **Mechanism**: β2 agonist
+  * **Indication**: Asthma, COPD, tocolytic (ritodrine)
+* **β3 agonist**
+  * **Drugs**: Mirabegron
+  * **Mechanism**: β3 agonist
+  * **Indication**: Overactive bladder
+* **D1 agonist**
+  * **Drugs**: Fenoldopam
+  * **Mechanism**: D1 agonist
+  * **Indication**: Severe hypertension
+* **Indirect agonist**
+  * **Drugs**: Amphetamine, methylphenidate, modafinil, cocaine, amitryptiline
+  * **Mechanism**: Increase catecholamine release (amphetamine), inhibit catecholamine reuptake (others)
+  * **Indication**: ADHD, narcolepsy
+* **Mixed agonist**
+  * **Drugs**: Ephedrine, pseudoephedrine
+  * **Mechanism**: Direct and indirect agonist
+  * **Indication**: Nasal congestion, nocturnal neuresis
+{: .notice--info}
+
+### Adrenergic Antagonist
+
+* **α antagonist**
+  * **Drugs**: Phentolamine, phenoxybenzamine
+  * **Mechanism**: Non-selective α antagonist
+  * **Indication**: Pheochromocytoma diagnosis (Phentolamine), pheochromocytoma treatment (phenoxybenzamine)
+* **α1 antagonist**
+  * **Drugs**: Prazosin, doxazosin, terazosin, tamsulosin, indoramin, urapidil
+  * **Mechanism**: α1 antagonist
+  * **Indication**: Hypertension, BPH
+* **α2 antagonist**
+  * **Drugs**: Mirtazapine
+  * **Mechanism**: α2 antagonist
+  * **Indication**: Depression
+* **β antagonist**
+  * **Drugs**: Nadolol, pindolol, propranolol, timolol
+  * **Mechanism**: Non-selective β antagonist
+  * **Indication**: Hypertension, arrhythmia, heart failure, glaucoma (timolol)
+* **β1 antagonist**
+  * **Drugs**: Acebutolol, atenolol, betaxolol, bisoprolol, esmolol, metoprolol
+  * **Mechanism**: β1 antagonist
+  * **Indication**: Same as β antagonist
+* **αβ antagonist**
+  * **Drugs**: Labetalol, carvedilol
+  * **Mechanism**: αβ antagonist
+  * **Indication**: Hypertension, heart failure
+* **Indirect antagonist**
+  * **Drugs**: Reserpine, guanethidene, bretylium, metyrosine
+  * **Mechanism**: Deplete neurotransmitter in vesicle (reserpine), inhibit vesicle release (guanethidine, bretylium), inhibit tyrosine hydroxylase (metyrosine)
+  * **Indication**: Hypertension, heart failure
+{: .notice--info}
+
+### Cholinergic Agonist
+
+* **Direct agonist**
+  * **Drugs**: Acetylcholine, bethanechol, carbachol, methacholine, pilocarpine, cevimeline
+  * **Mechanism**: Muscarinic agonist (+ nicotinic agonist: acetylcholine, carbachol)
+  * **Indication**: Ileus and urinary retension, asthma diagnosis (methacholine), glaucoma (pilocarpine), Sjogren syndrome (cevimeline)
+* **Indirect agonist (anti-cholinesterase)**
+  * **Drugs**: Physostigmine, neostigmine, pyridostigmine, edrophonium, ambenonium
+  * **Mechanism**: Inhibit cholinesterase to increase acetylcholine
+  * **Indication**: Myasthenia gravis, ileus and urinary retension, glaucoma (physostigmine)
+  * **Organic phosphate**: Irreversible anti-cholinesterase (treatment: pyridostigmine, atropine, pralidoxime)
+{: .notice--info}
+
+### Cholinergic Antagonist
+
+* **Muscarinic antagonist**
+  * **Drugs and indication**
+    * Reduce exocrine: Atropine
+    * Ophthalmoscopic examination: Homatropine, cyclopentolate, tropicamide
+    * Motion sickness: Scopolamine
+    * Gastric ulcer: Pirenzepine, propantheline
+    * Diarrhea and IBS: Dicyclomine, clidinium
+    * Asthama and COPD: Ipratropium, tiotropium
+    * Overactive bladder: Oxybutynin
+    * Parkinson disease: Trihexyphenidyl, bentropine, biperidin
+  * **Mechanism**: Muscarinic antagonist
+* **Nitotinic antagonist (ganglion blocker)**
+  * **Drugs**: Mecamylamine, trimethaphan, hexamethonium
+  * **Mechanism**: Nitotinic antagonist at autonomic ganglion
+  * **Indication**: Hypertension
+* **Nitotinic antagonist (muscle relaxant)**
+  * **Drugs**: Tubocurarine, mivacurium, atracurium, cisatracurium, pancuronium, vecuronium, rocuronium, succinylcholine, decamothonium
+  * **Mechanism**: Nitotinic antagonist at neuromuscular junction (non-depolarizing: tubocurarine ~ rocuronium, depolarizing: succinylcholine, decamothonium)
+  * **Indication**: Anesthesia
+* **Other muscle relaxant**
+  * **Drugs**: Diazepam, baclofen, tizanidine, dantroline, hemicholinium, botulinum toxin, tetrodotoxin
+  * **Mechanism**: GABA-A agonist (diazepam), GABA-B agonist (baclofen), α2 agonist (tizanidine), ryodine receptor blocker (dantroline), inhibit cholien uptake (hemicholinium), inhibit vesicle release (botulinum toxin), inhibit Na+ channel (tetrodotoxin)
+  * **Indication**: Spasmolytic
+{: .notice--info}
+
+## Central Nervous System
+
+### Antipsychotic
+
+* **Typical antipsychotic**
+  * **Drugs**: Chlorpromazine, thioridazine, haloperidol, fluphenazine
+  * **Mechanism**: D2 agtagonist
+  * **Indication**: Schizophrenia, psycotic disorder (positive symptom)
+  * **Adverse effect**: Extrapyramidal syndrome, hyperprolactinemia, neuroleptic malignant syndrome (treatment: dantrolene), cholinergic antagonist, histamine antagonist, α1 adrenergic antagonist
+* **Atypical antipsychotic**
+  * **Drugs**: Clozapine, olanzapine, quetiapine, risperidone, ziprasidone, aripiprazole, amisulpride
+  * **Mechanism**: Multi-receptor antagonist (clozapine), D2 / 5HT2A antagonist (risperidone), D2 partial agonist (aripiprazole), D2 / D3 antagonist (amisulpride)
+  * **Indication**: Same as typical (positive and negative symptom)
+  * **Adverse effect**: Agranulocytosis (clozapine), QT prolong (ziprasidone)
+{: .notice--info}
+
+### Antidepressant
+
+* **TCA (tricyclic antidepressant)**
+  * **Drugs**: Imipramine, desipramine, clomipramine, amitriptyline, protriptyline, nortriptyline
+  * **Mechanism**: Serotonin norepinephrine reuptake inhibitor
+  * **Indication**: Depression
+  * **Adverse effect**: Cholinergic antagonist, histamine antagonist, α1 adrenergic antagonist
+* **SSRI (selective serotonin reuptake inhibitor)**
+  * **Drugs**: Fluoxetine, paroxetine, fluvoxetine, setraline, citalopram, escitalopram
+  * **Mechanism**: Selective serotonin reuptake inhibitor
+  * **Indication**: Depression
+  * **Adverse effect**: GI distress, sexual dysfunction
+* **SNRI (serotonin norepinephrine reuptake inhibitor)**
+  * **Drugs**: Venlafaxine, desvenlafaxine, duloxetine, milnacipran
+  * **Mechanism**: Serotonin norepinephrine reuptake inhibitor
+  * **Indication**: Depression
+* **SARI (serotonin antagonist / reuptake inhibitor)**:
+  * **Drugs**: Trazodone, nefazodone
+  * **Mechanism**: Serotonin antagonist / reuptake inhibitor
+  * **Indication**: Depression
+* **MAOI (monoamine oxidase inhibitor)**:
+  * **Drugs**: Tranylcypromine, phenelzine, isocarboxazid
+  * **Mechanism**: Monoamine oxidase inhibitor
+  * **Indication**: Depression
+  * **Adverse effect**: Hypertension crisis (with tyramine), serotonin syndrome (with SSRI)
+* **NaSSA (Noradrenergic and specific serotonergic antiderpressant)**: 
+  * **Drugs**: Mirtazapine
+  * **Mechanism**: α2 adrenergic antagonist
+  * **Indication**: Depression
+* **NDRI (norepinephrine dopamine reuptake inhibitor)**
+  * **Drugs**: Bupropion
+  * **Mechanism**: Norepinephrine dopamine reuptake inhibitor
+  * **Indication**: Smoking cessation
+* **NRI (norepinephrine reuptake inhibitor)**
+  * **Drugs**: Amoxapine, maproline
+  * **Mechanism**: Norepinephrine reuptake inhibitor
+  * **Indication**: Depression
+{: .notice--info}
+
+### Mood Stabilizer
+
+* **Lithium**
+  * **Drugs**: Lithium
+  * **Mechanism**: Inhibit Gq
+  * **Indication**: Bipolar disorder
+{: .notice--info}
+
+
+# Microbiology / 微生物学
+
+# Biochemistry / 生化学
+
 # Cardiology / 循環器科
 
 <!-- ## Heart Failure / 心不全
@@ -1334,78 +1528,3 @@ Essences of clinical medicine.
 ### Metal Poisoning / 金属中毒
 ### Pesticide Poisoning / 農薬中毒 -->
 
-# Anatomy / 解剖学
-
-# Physiology / 生理学
-
-# Pathology / 病理学
-
-# Pharmacology / 薬理学
-
-## Central Nervous System
-
-### Antipsychotic
-
-* **Typical antipsychotic**
-  * **Drugs**: Chlorpromazine, thioridazine, haloperidol, fluphenazine
-  * **Mechanism**: D2 agtagonist
-  * **Indication**: Schizophrenia, psycotic disorder (positive symptom)
-  * **Adverse effect**: Extrapyramidal syndrome, hyperprolactinemia, neuroleptic malignant syndrome (treatment: dantrolene), cholinergic antagonist, histamine antagonist, α1 adrenergic antagonist
-* **Atypical antipsychotic**
-  * **Drugs**: Clozapine, olanzapine, quetiapine, risperidone, ziprasidone, aripiprazole, amisulpride
-  * **Mechanism**: Multi-receptor antagonist (clozapine), D2 / 5HT2A antagonist (risperidone), D2 partial agonist (aripiprazole), D2 / D3 antagonist (amisulpride)
-  * **Indication**: Same as typical (positive and negative symptom)
-  * **Adverse effect**: Agranulocytosis (clozapine), QT prolong (ziprasidone)
-{: .notice--info}
-
-### Antidepressant
-
-* **TCA (tricyclic antidepressant)**
-  * **Drugs**: Imipramine, desipramine, clomipramine, amitriptyline, protriptyline, nortriptyline
-  * **Mechanism**: Serotonin norepinephrine reuptake inhibitor
-  * **Indication**: Depression
-  * **Adverse effect**: Cholinergic antagonist, histamine antagonist, α1 adrenergic antagonist
-* **SSRI (selective serotonin reuptake inhibitor)**
-  * **Drugs**: Fluoxetine, paroxetine, fluvoxetine, setraline, citalopram, escitalopram
-  * **Mechanism**: Selective serotonin reuptake inhibitor
-  * **Indication**: Depression
-  * **Adverse effect**: GI distress, sexual dysfunction
-* **SNRI (serotonin norepinephrine reuptake inhibitor)**
-  * **Drugs**: Venlafaxine, desvenlafaxine, duloxetine, milnacipran
-  * **Mechanism**: Serotonin norepinephrine reuptake inhibitor
-  * **Indication**: Depression
-* **SARI (serotonin antagonist / reuptake inhibitor)**:
-  * **Drugs**: Trazodone, nefazodone
-  * **Mechanism**: Serotonin antagonist / reuptake inhibitor
-  * **Indication**: Depression
-* **MAOI (monoamine oxidase inhibitor)**:
-  * **Drugs**: Tranylcypromine, phenelzine, isocarboxazid
-  * **Mechanism**: Monoamine oxidase inhibitor
-  * **Indication**: Depression
-  * **Adverse effect**: Hypertension crisis (with tyramine), serotonin syndrome (with SSRI)
-* **NaSSA (Noradrenergic and specific serotonergic antiderpressant)**: 
-  * **Drugs**: Mirtazapine
-  * **Mechanism**: α2 adrenergic antagonist
-  * **Indication**: Depression
-* **NDRI (norepinephrine dopamine reuptake inhibitor)**
-  * **Drugs**: Bupropion
-  * **Mechanism**: Norepinephrine dopamine reuptake inhibitor
-  * **Indication**: Smoking cessation
-* **NRI (norepinephrine reuptake inhibitor)**
-  * **Drugs**: Amoxapine, maproline
-  * **Mechanism**: Norepinephrine reuptake inhibitor
-  * **Indication**: Depression
-{: .notice--info}
-
-### Mood Stabilizer
-
-* **Lithium**
-  * **Drugs**: Lithium
-  * **Mechanism**: Inhibit Gq
-  * **Indication**: Bipolar disorder
-{: .notice--info}
-
-
-# Microbiology / 微生物学
-
-# Biochemistry / 生化学
