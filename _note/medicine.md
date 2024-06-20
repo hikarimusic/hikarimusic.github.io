@@ -44,17 +44,13 @@ Essences of clinical medicine.
   * **Mechanism**: β1 agonist
   * **Indication**: Heart failure
 * **β2 agonist**
-  * **Drugs**: Metaproterenol, pirbuterol, albuterol, terbutaline, procaterol, salmeterol, formoterol, ritodrine
+  * **Drugs**: Albuterol (salbutamol), terbutaline, fenoterol, metaproterol, procaterol, salmeterol, formoterol, ritodrine
   * **Mechanism**: β2 agonist
   * **Indication**: Asthma, COPD, tocolytic (ritodrine)
 * **β3 agonist**
   * **Drugs**: Mirabegron
   * **Mechanism**: β3 agonist
   * **Indication**: Overactive bladder
-* **D1 agonist**
-  * **Drugs**: Fenoldopam
-  * **Mechanism**: D1 agonist
-  * **Indication**: Severe hypertension
 * **Indirect agonist**
   * **Drugs**: Amphetamine, methylphenidate, modafinil, cocaine, amitryptiline
   * **Mechanism**: Increase catecholamine release (amphetamine), inhibit catecholamine reuptake (others)
@@ -148,7 +144,7 @@ Essences of clinical medicine.
   * **Adverse effect**: Extrapyramidal syndrome, hyperprolactinemia, neuroleptic malignant syndrome (treatment: dantrolene), cholinergic antagonist, histamine antagonist, α1 adrenergic antagonist
 * **Atypical antipsychotic**
   * **Drugs**: Clozapine, olanzapine, quetiapine, risperidone, ziprasidone, aripiprazole, amisulpride
-  * **Mechanism**: Multi-receptor antagonist (clozapine), D2 / 5HT2A antagonist (risperidone), D2 partial agonist (aripiprazole), D2 / D3 antagonist (amisulpride)
+  * **Mechanism**: Multi-receptor antagonist (clozapine), D2 / 5HT2 antagonist (risperidone), D2 partial agonist (aripiprazole), D2 / D3 antagonist (amisulpride)
   * **Indication**: Same as typical (positive and negative symptom)
   * **Adverse effect**: Agranulocytosis (clozapine), QT prolong (ziprasidone)
 {: .notice--info}
@@ -171,14 +167,14 @@ Essences of clinical medicine.
   * **Indication**: Depression
 * **SARI (serotonin antagonist / reuptake inhibitor)**:
   * **Drugs**: Trazodone, nefazodone
-  * **Mechanism**: Serotonin antagonist / reuptake inhibitor
+  * **Mechanism**: Serotonin 5HT2 antagonist / reuptake inhibitor
   * **Indication**: Depression
 * **MAOI (monoamine oxidase inhibitor)**:
   * **Drugs**: Tranylcypromine, phenelzine, isocarboxazid
   * **Mechanism**: Monoamine oxidase inhibitor
   * **Indication**: Depression
   * **Adverse effect**: Hypertension crisis (with tyramine), serotonin syndrome (with SSRI)
-* **NaSSA (Noradrenergic and specific serotonergic antiderpressant)**: 
+* **NaSSA (noradrenergic and specific serotonergic antiderpressant)**: 
   * **Drugs**: Mirtazapine
   * **Mechanism**: α2 adrenergic antagonist
   * **Indication**: Depression
@@ -200,6 +196,295 @@ Essences of clinical medicine.
   * **Indication**: Bipolar disorder
 {: .notice--info}
 
+## Cardiovascular System
+
+### Antihypertensive Drug
+
+* **ACE inhibitor**
+  * **Drugs**: Captopril, enalapril, lisinopril
+  * **Mechanism**: Angiotensin converting enzyme inhibitor
+  * **Indication**: Hypertension (heart failure, diabetes)
+  * **Adverse effect**: Nonproductive cough, angioadema
+* **Angiotensin II receptor blocker**
+  * **Drugs**: Losartan, valsartan, candesartan
+  * **Mechanism**: Angiotensin II receptor blocker
+  * **Indication**: Hypertension
+* **Renin inhibitor**
+  * **Drugs**: Aliskiren
+  * **Mechanism**: Renin inhibitor
+  * **Indication**: Hypertension
+* **β-blocker**
+  * **Drugs**: Acebutolol, atenolol, carvedilol, esmolol, labetalol, metoprolol, pindolol, propranolol
+  * **Mechanism**: β1-blocker (reduce cardial output, inhibit renin secretion)
+  * **Indication**: Hypertension
+  * **Adverse effect**: Asthma
+* **Calcium channel blocker**
+  * **Drugs**: DHP: Amlodipine, nifedipine, felodipine / Non-DHP: verapamil, diltiazem, bepridil
+  * **Mechanism**: Calcium channel blocker (vessel: DHP, heart: non-DHP)
+  * **Indication**: Hypertension
+* **Diuretics**
+  * See diuretics
+* **Vasodilator**
+  * **Drugs**: Minoxidil, diazoxide, hydralazine, nitroprusside
+  * **Mechanism**: Activate K channel (minoxidil, diazoxide), increase cGMP (hydralazine, nitroprusside)
+  * **Indication**: Hypertension
+  * **Adverse effect**: Hirsutism (minoxidil), hyperglycemia (diazoxide), lupus-like syndrome (hydralazine), nitroprusside (cyanide toxicity)
+* **α1 antagonist**
+  * **Drugs**: Prazosin, doxazosin, terazosin
+  * **Mechanism**: α1 antagonist 
+  * **Indication**: Hypertension (with BPH)
+* **α2 agonist**
+  * **Drugs**: Clonidine, methyldopa
+  * **Mechanism**: α2 agonist 
+  * **Indication**: Hypertension (pregnancy)
+* **D1 agonist**
+  * **Drugs**: Fenoldopam
+  * **Mechanism**: D1 agonist
+  * **Indication**: Malignant hypertension
+* **PDE5 inhibitor**
+  * **Drugs**: Sildenafil, vardenafil
+  * **Mechanism**: PDE5 inhibitor
+  * **Indication**: Pulmonary hypertension, erectile dysfunction
+{: .notice--info}
+
+### Antiarrhythmic Drug
+
+* **Class IA**
+  * **Drugs**: Quinidine, procainamide, disopyramide
+  * **Mechanism**: Na (and K) channel blocker (prolong QRS)
+  * **Indication**: Arrythmia
+  * **Adverse effect**: Torsade de pointes, cinchonism (quinidine), lupus-like syndrome (procainamide)
+* **Class IB**
+  * **Drugs**: Mexiletine, lidocaine, phenytoin
+  * **Mechanism**: Na channel blocker (prolong QRS)
+  * **Indication**: Arrythmia
+* **Class IC**
+  * **Drugs**: Flecanide, propafenone
+  * **Mechanism**: Na channel blocker (prolong QRS)
+  * **Indication**: Arrythmia
+* **Class II**
+  * **Drugs**: Propranolol, metoprolol, pindolol, esmolol
+  * **Mechanism**: β blocker (prolong PR)
+  * **Indication**: Tachycardia, Post-MI
+* **Class III**
+  * **Drugs**: Amiodarone, dronedarone, sotalol, ibutilide, dofetilide
+  * **Mechanism**: K channel blocker (prolong QT)
+  * **Indication**: Arrythmia
+  * **Adverse effect**: Torsade de pointes, thyroid dysfunction (amiodarone), liver dysfunction (amiodarone), pulmonary fibrosis (amiodarone)
+* **Class IV**
+  * **Drugs**: Verapamil, diltiazem, bepridil
+  * **Mechanism**: Ca channel blocker (prolong PR)
+  * **Indication**: Tachycardia
+* **Class V**
+  * **Drugs**: Adenosine, MgSO4
+  * **Mechanism**: Gi (adenosine)
+  * **Indication**: PSVT (adenosine), torsade de pointes (MgSO4)
+{: .notice--info}
+
+## Renal System
+
+### Diuretics
+
+* **Carbonic anhydrase inhibitor**
+  * **Drugs**: Acetazolamide
+  * **Mechanism**: Inhibit carbonic anhydrase
+  * **Indication**: Glaucoma, urine alkalinization
+  * **Adverse effect**: Acidosis, renal calculi
+* **Loop diuretics**
+  * **Drugs**: Furosemide, bumetanide, torsemide, ethacrynic acid
+  * **Mechanism**: Inhibit Na-K-2Cl contransporter
+  * **Indication**: Acute pulmonary edema, congestive heart failure
+  * **Adverse effect**: Hypokalemia, hypocalcemia, alkalosis, ototoxicity (with aminoglycoside)
+* **Thiazide diuretics**
+  * **Drugs**: Hydrochlorothiazide, chlorothiazide
+  * **Mechanism**: Inhibit Na-Cl contransporter
+  * **Indication**: Hypertension, nephrogenic diabetes insipidus
+  * **Adverse effect**: Hypokalemia, hypercalcemia, alkalosis, hyperuricemia, hyperglycemia
+* **Potassium-sparing diuretics**
+  * **Drugs**: Spironolactone, eplerenone, amiloride, triamterene
+  * **Mechanism**: Aldosterone antagonist (spironolactone, eplerenone), ENac blocker (amiloride, triamterene)
+  * **Indication**: Hyperaldosteronism, prevent K+ loss
+  * **Adverse effect**: Hyperkalemia, acidosis, gynecomastia (spironolactone)
+* **Osmotic diuretics**
+  * **Drugs**: Mannitol
+  * **Mechanism**: Inhibit water reabsorption
+  * **Indication**: Reduce intracranial and intraocular pressure 
+* **ADH antagonist**
+  * **Drugs**: Conivaptan, tolvaptan, demeclocycline
+  * **Mechanism**: V1 and/or V2 antagonist
+  * **Indication**: SIADH
+{: .notice--info}
+
+## Endocrine System
+
+### Hypothalamus and Pituitary Hormone
+
+* **Somatostatin analog**
+  * **Drugs**: Octreotide, lantreotide
+  * **Mechanism**: Somatostatin analog (decrease GH)
+  * **Indication**: Acromegaly, esophageal variceal bleeding
+* **GH agonist**
+  * **Drugs**: Somatropin, somatrem, mecasermin
+  * **Mechanism**: recombinant GH (somatropin, somatrem), recombinant IGF-1 (mecasermin)
+  * **Indication**: Acromegaly, variceal bleeding
+* **GH antagonist**
+  * **Drugs**: Pegvisomant
+  * **Mechanism**: GH antagonist
+  * **Indication**: Acromegaly
+* **Dopamine analog**
+  * **Drugs**: Bromocriptine, cabergoline
+  * **Mechanism**: Dopamine analog (decrease prolactin)
+  * **Indication**: Hyperprolactenemia
+* **GnRH agonist**
+  * **Drugs**: Leuprolide, goserelin
+  * **Mechanism**: GnRH agonist (pulsatile: increase FSH and LH, chronic: decrease FSH and LH)
+  * **Indication**: Prostate cancer, endometriosis
+* **GnRH antagonist**
+  * **Drugs**: Abarelix, ganirelix
+  * **Mechanism**: GnRH antagonist (decrease FSH and LH)
+  * **Indication**: Prostate cancer, controlled ovarian stimulation
+* **ADH agonist**
+  * **Drugs**: Desmopressin
+  * **Mechanism**: ADH V2 agonist
+  * **Indication**: Central diabetes indipidus, hemophilia A
+* **ADH antagonist**
+  * **Drugs**: Conivaptan, tolvaptan, demeclocycline
+  * **Mechanism**: ADH V1/2 antagonist
+  * **Indication**: SIADH
+{: .notice--info}
+
+### Thyroid Hormone
+
+### Adrenal Cortical Hormone
+
+* **Glucocorticoid**
+  * **Drugs**: Short-acting: Cortisol, cortisone / Intermediate-acting: Prednisone, prednisolone, methylprednisolone, triamcinolone / Long-acting: Betamethasone, dexamethasone
+  * **Mechanism**: GR receptor agonist
+  * **Indication**: Inflammation, replacement therapy, Cushing syndrome diagnosis (dexamethasone)
+  * **Adverse effect**: Adrenal suppression, hyperglycemia, osteoporosis, peptic ulcer
+* **Mineralcorticoid**
+  * **Drugs**: Desoxycorticosterone, fludrocortisone
+  * **Mechanism**: MR receptor agonist
+  * **Indication**: Replacement therapy
+* **Synthesis inhibitor**
+  * **Drugs**: Ketoconazole, metyrapone, aminoglutethimide
+  * **Mechanism**: 17α-hydroxylase inhibitor (ketoconazole), 11β-hydroxylase inhibitor (metyrapone), cholesterol side chain cleaving enzyme inhibitor (aminoglutethimide)
+  * **Indication**: Cushing syndrome, pituitary function test (metyrapone)
+{: .notice--info}
+
+### Sex Hormone
+
+* **Estrogen**
+  * **Drugs**: Estradiol, mestranol
+  * **Mechanism**: Estrogen
+  * **Indication**: Menopausal therapy, contraception
+  * **Adverse effect**: Endometrial cancer, breast cancer
+* **SERM**
+  * **Drugs**: Clomiphene, raloxifene, tamoxifen
+  * **Mechanism**: Selective estrogen receptor modulator
+  * **Indication**: Ovary dysfunction infertility (clomiphene), osteoporosis (raloxifene), breast cancer (tamoxifen)
+* **Estrogen antagonist**
+  * **Drugs**: Fulvestrant
+  * **Mechanism**: Estrogen antagonist
+  * **Indication**: Breast cancer
+* **Aromatase inhibitor**
+  * **Drugs**: Letrozole, anastrolzole, exemestane
+  * **Mechanism**: Aromatase inhibitor (decrease estrogen)
+  * **Indication**: Breast cancer
+* **Progestin**
+  * **Drugs**: Norgestrel, desogestrol
+  * **Mechanism**: Progestin
+  * **Indication**: Endometriosis, contraception (with estrogen)
+* **Progestin antagonsit**
+  * **Drugs**: Mifepristone
+  * **Mechanism**: Progestin antagonist
+  * **Indication**: Abortion
+* **Androgen**
+  * **Drugs**: Testosterone, oxandrolone, danazol
+  * **Mechanism**: Androgen
+  * **Indication**: Hypogonadism, endometriosis (danazol)
+  * **Adverse effect**: Decreased testicular function
+* **Androgen antagonist**
+  * **Drugs**: Cyproterone, flutamide, bicalutamide, spironolactone
+  * **Mechanism**: Androgen antagonist
+  * **Indication**: Prostate cancer
+* **5α-reductase inhibitor**
+  * **Drugs**: Finasteride
+  * **Mechanism**: 5α-reductase inhibitor (decrease DHT)
+  * **Indication**: BPH, male-pattern baldness
+{: .notice--info}
+
+### Glucose Homeostasis
+
+* **Insulin**
+  * **Drugs**: Rapid-acting: insulin lispro, insulin aspart / Short-acting: Regular insulin / Intermediate-acting: NPH / Long-acting: insulin glargine, insulin detemir, insulin degludec
+  * **Mechanism**: Insulin
+  * **Indication**: Diabetes mellitus
+* **Sulfonylurea**
+  * **Drugs**: Glyburide, glipizide, glimepiride, tolbutamide
+  * **Mechanism**: Inhibit ATP-dependent K channel (increase insulin secretion)
+  * **Indication**: Diabetes mellitus
+* **Meglitinide**
+  * **Drugs**: Rapaglinide, nateglinide
+  * **Mechanism**: Inhibit ATP-dependent K channel (increase insulin secretion)
+  * **Indication**: Diabetes mellitus
+* **GLP-1 agonist**
+  * **Drugs**: Exenatide, liraglutide
+  * **Mechanism**: GLP-1 analog (increase insulin secretion)
+  * **Indication**: Diabetes mellitus
+* **DPP-4 inhibitor**
+  * **Drugs**: Sitagliptin, saxagliptin
+  * **Mechanism**: DPP-4 inhibitor (increase GLP-1, increase insulin secretion)
+  * **Indication**: Diabetes mellitus
+* **Biguanide**
+  * **Drugs**: Metformin
+  * **Mechanism**: Reduce hepatic gluconeogenesis
+  * **Indication**: Diabetes mellitus
+* **Thiazolidinedione**
+  * **Drugs**: Troglitazone, rosiglitazone
+  * **Mechanism**: Activate PPARγ (decrease insulin resistance)
+  * **Indication**: Diabetes mellitus
+* **α-glucosidase inhibitor**
+  * **Drugs**: Acarbose
+  * **Mechanism**: α-glucosidase inhibitor (decrease intestinal glucose absorption)
+  * **Indication**: Diabetes mellitus
+* **SGLT2 inhibitor**
+  * **Drugs**: Canagliflozin, empagliflozin
+  * **Mechanism**: SGLT2 inhibitor (decrease renal glucose reabsorption)
+  * **Indication**: Diabetes mellitus
+* **Amylin analog**
+  * **Drugs**: Pramlintide
+  * **Mechanism**: Amylin analog
+  * **Indication**: Diabetes mellitus
+{: .notice--info}
+
+### Calcium Homeostasis
+
+* **Bisphosphonate**
+  * **Drugs**: Alendronate, risedronate, pamidronate
+  * **Mechanism**: Inhibit osteoclast
+  * **Indication**: Osteoporosis
+* **Anti-RANKL antibody**
+  * **Drugs**: Denosumab
+  * **Mechanism**: Anti-RANKL antibody (inhibit osteoclast)
+  * **Indication**: Osteoporosis
+* **Parathyroid hormone**
+  * **Drugs**: Teriparatide
+  * **Mechanism**: Stimulate osteoblast
+  * **Indication**: Osteoporosis
+* **Calcitonin**
+  * **Drugs**: Calcitonin
+  * **Mechanism**: Inhibit osteoclast
+  * **Indication**: Paget disease
+* **Vitamin D**
+  * **Drugs**: Cholecalciferol
+  * **Mechanism**: Increase Ca absorption and reabsorption
+  * **Indication**: Osteomalacia
+* **SERM**
+  * **Drugs**: Raloxifene, estrogen
+  * **Mechanism**: Inhibit osteoclast
+  * **Indication**: Postmenopausal osteoporosis
+{: .notice--info}
 
 # Microbiology / 微生物学
 
