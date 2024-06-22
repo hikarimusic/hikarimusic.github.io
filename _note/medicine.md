@@ -13,6 +13,113 @@ Essences of clinical medicine.
 
 # Anatomy / 解剖学
 
+## Skeleton
+
+## Muscle
+
+## Vessel
+
+## Nerve
+
+## Cardiovascular System
+
+### Aorta Arch
+
+* **Ascending aorta**: Coronary artery
+* **Aortic arch**: Brachiocephalic artery, left common carotid artery, left subclavian artery
+* **Descending aorta**: Thoracic aorta, abdominal aorta, common iliac artery
+{: .notice--info}
+
+### Common Carotid Artery
+
+* **Common carotis artery**: External carotid artery, internal carotid artery (carotid sinus: baroreceptor, carotid body: chemoreceptor)
+* **External carotid artery**: Superior thyroid artery, ligual artery, facial artery, ascending pharyngeal artery, occipital artery, posterior auricular artery, superficial temporal artery, maxillary artery
+  * **Maxillary artery**: Middle meningeal artery, inferior alveolar artery, superior alveolar artery, infraorbital artery, sphenopalatine artery
+* **Internal carotid artyer**: Ophthalmic artery, arterior cerebral artery (supply medial brain), middle cerebral artery (supply lateral brain)
+* **Circle of Willis**: Anterior cerebral artery, anterior communicating artery, posterior cerebral artery, posterior communicating artery
+{: .notice--info}
+
+### Subclavian Artery
+
+* **Subclavian artery**: Vertebral artery, internal thoracic artery, thyrocervical trunk, costal cervical trunk, dorsal scapular artery
+  * **Vertebral artery**: Posterior inferior cerebellar artery, basilar artery, anterior inferior cerebellar artery, pontine artery, superior cerebellar artery, posterior cerebral artery
+  * **Internal thoracic artery**: Pericardiophrenic artery, anterior intercostal artery, musculophrenic artery, superior epigastric artery
+  * **Thyrocervical trunk**: Inferior thyroid artery, transverse cervical artery, suprascapular artery
+  * **Costocervical trunk**: Deep cervical artery, superior (1st, 2nd) intercostal artery
+* **Axillary artery**: Superior thoracic artery, thoracoacromial artery, lateral thoracic artery, subscapular artery, anterior circumflex humeral artery, posterior circumflex humeral artery
+* **Brachial artery**: Profunda brachial artery, radial artery, ulnar artery
+  * **Radial artery**: Deep palmar arch, palmar metacarpal artery
+  * **Ulnar artery**: Common interosseous artery, superficial palmar arch, palmar digital artery
+{: .notice--info}
+
+### Thoracic and Abdominal Aorta
+
+* **Thoracic aorta**: Pericardial artery, bronchial artery, esophageal artery, posterior intercostal (subcostal) artery, superior phrenic artery
+* **Abdominal aorta**: Celiac trunk, superior mesenteric atery, inferior mesenteric atery, inferior phrenic artery (superior suprarenal artery), middle suprarenal artery, renal artery (inferior suprarenal artery), testicular/ovarian artery, lumbar artery
+* **Ciliac trunk**: Left gastric artery, splenic artery, common hepatic artery
+  * **Splenic artery**: Short gastric artery, left gastroepiploic artery, pancreatic branch, splenic branch
+  * **Common hepatic artery**: Hepatic artery proper, left hepatic artery, right hepatic artery, cystic artery, right gastric artery, gastroduodenal artery, right gastroepiploic artery, superior pancreaticoduodenal artery
+* **Superior mesenteric artery**: Inferior pancreaticoduodenal artery, jejunal artery, ileal artery, ileocolic artery, right colic artery, middle colic artery
+* **Inferior mesenteric artery**: Left colic artery, sigmoid artery, superior rectal artery
+{: .notice--info}
+
+### Common Iliac Artery
+
+* **Common iliac artery**: External iliac artery, internal iliac artery
+* **Internal iliac artery**
+  * **Anterior division**: Superior vesical artery, ductus deferens/uterine artery, obturator artery, inferior vesical/vaginal artery, middle rectal artery, internal pudendal artery, inferior gluteal artery
+    * **Internal pudendal artery**: Inferior rectal artery, perineal artery
+  * **Posterior divisoin**: Iliolumbar artery, lateral sacral artery, superior gluteal artery
+* **External iliac artery**: Inferior epigastric artery, femoral artery
+* **Femoral artery**: Superficial epigastric artery, superficial circumflex iliac artery, external pudendal artery, profunda femoral artery, popliteal artery
+  * **Profunda femoral artery**: Medial circumflex femoral artery, lateral circumflex femoral artery, 1st perforaing artery, 2nd perforaing artery, 3rd perforaing artery
+* **Popliteal artery**: Anterior tibial artery, posterior tibial artery
+  * **Anterior tibial artery**: Dorsalis pedis arery
+  * **Posterior tibial artery**: Peroneal artery, medial plantar artery, lateral plantar artery
+{: .notice--info}
+
+### Vein
+
+* **Vena cava**: Superior vena cava, inferior vena cava
+  * **Superior vena cava**: Brachiocephalic vein (internal jugular vein, subclavian vein), azygos vein
+  * **Inferior vena cava**: Common iliac vein, hepatic vein, renal vein, suprarenal vein (left into renal), testicular/ovarian vein (left into renal)
+* **Jugular vein**: Retromandibular vein, external jugular vein, internal jugular vein
+  * **Retromandibular vein**: Superficial temporal vein, maxillary vein
+  * **External jugular vein**: Retromandibular vein (posterior branch), posterior auricular vein
+  * **Internal jugular vein**: Retromandibular vein (anterior branch), all other veins
+* **Superficial vein**: 
+  * **Upper limb**: Cephalic vein (radial side), basilic vein (ulnar side), median cubital vein
+  * **Lower limb**: Greater saphenous vein (tibial side), small saphenous vein (fibular side)
+* **Azygos venous system**: Azygos vein, hemiazygos vein, accessory hemiazygos vein
+  * **Azygos vein**: Ascending lumbar vein, subcostal vein, intercostal vein (4th-11th), superior intercostal vein (2nd-3rd)
+  * **Hemiazygos vein**: Ascending lumbar vein, subcostal vein, intercostal vein (9th-11th)
+  * **Accessory hemiazygos vein**: Intercostal vein (4th-8th)
+* **Hepatic portal system**
+  * **Origin**: Superior mesenteric vein, splenic vein (recieve inferior mesenteric vein)
+  * **Drainage**: Hepatic portal vein (recieve left gastric vein, right gastric vein, cystic vein, paraumbilical vein), hepatic vein
+  * **Portal systemic anastomosis**: Left gastric vein - esophageal vein, superior rectal vein - middle rectal vein, paraumbilical vein - epigastric vein
+* **Intracarnial venous sinus**
+  * **Origin**: Superior sagital sinus (recieve superior cerebral vein), straight sinus (recieve inferior sagital sinus, great cerebral vein), occipital sinus
+  * **Drainage**: Transverse sinus (recieve superior petrosal sinus), sigmoid sinus, internal jugular vein (recieve inferior petrosal sinus)
+  * **Cavernous sinus**: Communication (superior petrosal sinus, inferior petrosal sinus, ophthalmic vein), inside (internal carotid artery, CN VI), wall (CN III, CN IV, CN V1, CN V2)
+{: .notice--info}
+ 
+## Respiratory System
+
+## Gastrointestinal System
+
+## Renal System
+
+## Reproductive System
+
+## Endocrine System
+
+## Nervous System
+
+## Histology
+
+## Embryology
+
 # Physiology / 生理学
 
 # Pathology / 病理学
@@ -354,6 +461,32 @@ Essences of clinical medicine.
 {: .notice--info}
 
 ### Thyroid Hormone
+
+* **Thyroid hormone**
+  * **Drugs**: Liothyronine (T3), levothyroxine (T4), liotrix (mix)
+  * **Mechanism**: Thyroid hormone
+  * **Indication**: Hypothyroidism
+* **Thioamide**
+  * **Drugs**: Propylthiouracil, methimazole, carbimazole
+  * **Mechanism**: Inhibit T4/T3 synthesis and conversion
+  * **Indication**: Hyperthyroidism
+  * **Adverse effect**: Agranulocytosis
+* **Iodide**
+  * **Drugs**: Iodide, lithium
+  * **Mechanism**: Inhibit T4/T3 release, decrease thyroid vascularity
+  * **Indication**: Before thyroid surgery 
+* **Radioactive iodide**
+  * **Drugs**: I-131
+  * **Mechanism**: Destruct thyroid gland
+  * **Indication**: Hyperthyroidism, thyroid carcinoma
+* **Anion inhibitor**
+  * **Drugs**: Perchlorate, pertechnetate, thriocyanate
+  * **Mechanism**: Inhibit iodide entry
+  * **Indication**: Hyperthyroidism
+* **Other therapy**
+  * **Drugs**: β-blocker, hydrocortisone
+  * **Mechanism**: Inhibit T4/T3 conversion, release symptom
+{: .notice--info}
 
 ### Adrenal Cortical Hormone
 
