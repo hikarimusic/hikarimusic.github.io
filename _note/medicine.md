@@ -17,11 +17,114 @@ Essences of clinical medicine.
 
 ## Muscle
 
+### Head and Neck Muscle
+
+* **Facial muscle**: Occipitofrontalis, corrugator supercilii, obicularis oculi, levator palpebrae superioris, orbicularis oris, buccinator, levator labii superioris, levator anguli oris, zygomaticus, risorius, platysma, depressor labii inferioris, depressor angulii oris
+  * **Most muscle**: CN VII, facial expression
+  * **Levator palpebrae superioris**: CN III and sympathetic, elevate upper eyelid
+* **Extraocular muscle**: Superior rectus, inferior rectus, medial rectus, lateral rectus, superior oblique, inferior oblique
+  * **Superior rectus**: CN III, elevate and adduct eye
+  * **Infeior rectus**: CN III, depress and adduct eye
+  * **Medial rectus**: CN III, adduct eye
+  * **Lateral rectus**: CN VI, abduct eye
+  * **Superior oblique**: CN IV, depress and abduct eye
+  * **Infeiror oblique**: CN III, elevate and abduct eye
+* **Masticatory muscle**: Temporalis, masseter, medial pterygoid, lateral pterygoid
+  * **Temporalis**: CN V3, elevate and retract mandible
+  * **Masseter**: CN V3, elevate mandible
+  * **Medial pterygoid**: CN V3, elevate and protrude mandible
+  * **Lateral pteryoid**: CN V3, depress and protrude mandible
+* **Lingual muscle**: Genioglossus, palatoglossus, styloglossus, hyoglossus, intrinsic muscle
+  * **Genioglossus**: CN XII, depress and protrude tongue
+  * **Palatoglossus**: CN X, elevate tongue
+  * **Styloglossus**: CN XII, elevate and retract tongue
+  * **Hyoglossus**: CN XII, depress and retract tongue
+  * **Intrinsic muscle**: CN XII, deform tongue
+* **Pharyngeal muscle**: Superior pharyngeal constrictor, middle pharyngeal constrictor, inferior pharyngeal constrictor, salpingopharyngeus, palatopharyngeus, stylopharyngeus, musculus uvulae, levator veli palatini, tensor veli palatini
+  * **Superior pharyngeal constrictor, middle pharyngeal constrictor, inferior pharyngeal constrictor**: CN X, constrict pharynx
+  * **Salpingopharyngeus, palatopharyngeus, stylopharyngeus**: CN X (stylopharyngeus: CN IX), elevate pharynx
+  * **Musculus uvulae, levator veli palatini, tensor veli palatini**: CN X (tensor veli palatini: CN V3), elevate and tense soft palate
+* **Laryngeal muscle**: Cricothyroideus, lateral cricoarytenoideus, posterior cricoarytenoideus, thyroarytenoideus, transverse arytenoideus, oblique arytenoideus, vocalis
+  * **Cricothyroideus**: Superior laryngeal nerve (CN X), tense vocal cord
+  * **Lateral cricoarytenoideus**: Recurrent laryngeal nerve (CN X), close vocal cord
+  * **Posterior cricoarytenoideus**: Recurrent laryngeal nerve (CN X), open vocal cord
+  * **Thyroarytenoideus**: Recurrent laryngeal nerve (CN X), relax vocal cord
+  * **Transverse arytenoideus**: Recurrent laryngeal nerve (CN X), close vocal cord
+  * **Oblique arytenoideus**: Recurrent laryngeal nerve (CN X), constrict vocal cord
+  * **Vocalis**: Recurrent laryngeal nerve (CN X), tense vocal cord
+* **Hyoid muscle**: Geniohyoid, mylohyoid, digastric, stylohyoid, thyrohyoid, sternothyroid, sternohyoid, omohyoid
+  * **Geniohyoid**: C1, Protrude hyoid
+  * **Mylohyid**: CN V3, elevate hyoid
+  * **Digastric**: CN V3 (anterior belly), CN VII (posterior belly), elevate hyoid
+  * **Stylohyoid**: CN VII, elevate hyoid
+  * **Thyrohyiod**: C1, depress hyoid
+  * **Sternothyroid**: Ansa cervicalis, depress hyoid
+  * **Sternohyoid**: Ansa cervicalis, depress hyoid
+  * **Omohyoid**: Ansa cervicalis, depress hyoid
+* **Cervical muscle**: Sternocleidomastoid, trapezius, longus capitis, rectus capitis anterior, rectus capitis lateralis, rectus capitis posterior major, rectus capitis posterior minor, obliquus capitis superior, obliquus capitis inferior
+  * **Sternocleidomastoid**: CN XI, rotate head, elevate mandible
+  * **Trapezius**: CN XI, abduct and extend head, elevate shoulder
+  * **Other muscles**: C1~C3 (anterior), suboccipital nerve (posterior), flex or abduct or extend head
+{: .notice--info}
+
+### Thorax and Back Muscle
+
+### Abdomen and Pelvis Muscle
+
+### Upper Limb Muscle
+
+* **Sholder muscle**: Deltoid, pectoralis major, pectoralis minor, teres major, subscapularis, supraspinatus, infraspinatus, teres minor (last 4: rotator cuff)
+  * **Deltoid**: Axillary nerve, flex and abduct and extend arm
+  * **Pectoralis major**: Lateral and medial thoracic nerve, adduct arm
+  * **Pectoralis minor**: Medial thoracic nerve, elevate rib
+  * **Teres major**: Subscapular nerve, internal rotate arm
+  * **Subscapularis**: Subscapular nerve, internal rotate arm
+  * **Supraspinatus**: Suprascapular nerve, abduct arm
+  * **Infraspinatus**: Suprascapular nerve, external rotate arm
+  * **Teres minor**: Axillary nerve, external rotate arm
+* **Arm muscle (anterior compartment)**: Bicpes brachii, coracobrachialis, brachialis
+  * **Biceps brachii**: Scapula to radius, musculocutaneous nerve, flex arm and forearm
+  * **Coracobrachialis**: Scapula to humerus, musculocutaneous nerve, flex arm
+  * **Brachialis**: Humerus to ulna, musculocutaneous nerve, flex forearm
+* **Arm muscle (posterior compartment)**: Triceps brachii
+  * **Triceps brachii**: Scapula and humerus to radius, radial nerve, extend arm and forearm
+* **Forearm muscle (anterior compartment)**: Brachioradialis, pronator teres, flexor carpi radialis, palmaris longus, flexor carpi ulnaris, flexor digitorum superficialis, flexor pollicis longus, flexor digitorum profundus
+  * **Brachioradialis**: Radial nerve, flex wrist
+  * **Pronator teres**: Median nerve, pronate wrist
+  * **Flexor carpi radialis**: Median nerve, flex wrist
+  * **Palmaris longus**: Median nerve, flex wrist
+  * **Flexor carpi ulnaris**: Median nerve, flex wrist
+  * **Flexor digitorum superficialis**: Median nerve, flex fingers (middle phalanx)
+  * **Flexor pollicis longus**: Median nerve, flex thumb
+  * **Flexor digitorum profundus**: Median nerve, flex fingers (distal phalanx)
+* **Forearm muscle (posterior compartment)**: Extensor carpi radialis longus, extensor carpi radialis brevis, extensor digitorum, extensor digitor minimi, extensor carpi ulnaris, anconeus, supinator, abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus, extensor indicis
+  * **Extensor carpi radialis longus**: Radial nerve, extend wrist
+  * **Extensor carpi radialis brevis**: Radial nerve, extend wrist
+  * **Extensor digitorum**: Radial nerve, extend fingers
+  * **Extensor digitor minimi**: Radial nerve, extend little finger
+  * **Extensor carpi ulnaris**: Radial nerve, extend wrist
+  * **Anconeus**: Radial nerve, extend forearm
+  * **Supinator**: Radial nerve, supine wrist
+  * **Abductor pollicis longus**: Radial nerve, abduct thumb
+  * **Extensor pollicis brevis**: Radial nerve, extend thumb
+  * **Extensor pollicis longus**: Radial nerve, extend thumb
+  * **Extensor indicis**: Radial nerve, extend index finger
+* **Hand muscle**: Opponens pollicis, abductor pollicis brevis, flexor pollicis brevis, opponens digiti minimi, abductor digiti minimi brevis, flexor digiti minimi brevis, palmaris brevis, adductor pollicis, lumbricalis, interossei
+  * **Opponens pollicis**: Median nerve, opponent thumb
+  * **Abductor pollicis brevis**: Median nerve, abduct thumb
+  * **Flexor pollicis brevis**: Median nerve, flex thumb
+  * **Opponens digiti minimi**: Ulnar nerve, opponent little finger
+  * **Abductor digiti minimi brevis**: Ulnar nerve, abduct little finger
+  * **Flexor digiti minimi brevis**: Ulnar nerve, flex little finger
+  * **Palmaris brevis**: Ulnar nerve, tense skin
+  * **Adductor pollicis**: Ulnar nerve, adduct thumb
+  * **Lumbricalis**: Median nerve (1st, 2nd), ulnar nerve (3rd, 4th), flex and extend fingers
+  * **Interossei**: Ulnar nerve, adduct fingers (palmar), abduct fingers (dorsal)
+{: .notice--info}
+
+### Lower Limb Muscle
+
 ## Vessel
-
-## Nerve
-
-## Cardiovascular System
 
 ### Aorta Arch
 
@@ -42,7 +145,7 @@ Essences of clinical medicine.
 ### Subclavian Artery
 
 * **Subclavian artery**: Vertebral artery, internal thoracic artery, thyrocervical trunk, costal cervical trunk, dorsal scapular artery
-  * **Vertebral artery**: Posterior inferior cerebellar artery, basilar artery, anterior inferior cerebellar artery, pontine artery, superior cerebellar artery, posterior cerebral artery
+  * **Vertebral artery**: Anterior spinal artery, posterior spinal artery, posterior inferior cerebellar artery, basilar artery, anterior inferior cerebellar artery, pontine artery, superior cerebellar artery, posterior cerebral artery
   * **Internal thoracic artery**: Pericardiophrenic artery, anterior intercostal artery, musculophrenic artery, superior epigastric artery
   * **Thyrocervical trunk**: Inferior thyroid artery, transverse cervical artery, suprascapular artery
   * **Costocervical trunk**: Deep cervical artery, superior (1st, 2nd) intercostal artery
@@ -67,8 +170,7 @@ Essences of clinical medicine.
 
 * **Common iliac artery**: External iliac artery, internal iliac artery
 * **Internal iliac artery**
-  * **Anterior division**: Superior vesical artery, ductus deferens/uterine artery, obturator artery, inferior vesical/vaginal artery, middle rectal artery, internal pudendal artery, inferior gluteal artery
-    * **Internal pudendal artery**: Inferior rectal artery, perineal artery
+  * **Anterior division**: Umbilical artery (superior vesical artery, ductus deferens/uterine artery), obturator artery, inferior vesical/vaginal artery, middle rectal artery, internal pudendal artery (inferior rectal artery, perineal artery), inferior gluteal artery
   * **Posterior divisoin**: Iliolumbar artery, lateral sacral artery, superior gluteal artery
 * **External iliac artery**: Inferior epigastric artery, femoral artery
 * **Femoral artery**: Superficial epigastric artery, superficial circumflex iliac artery, external pudendal artery, profunda femoral artery, popliteal artery
@@ -103,7 +205,80 @@ Essences of clinical medicine.
   * **Drainage**: Transverse sinus (recieve superior petrosal sinus), sigmoid sinus, internal jugular vein (recieve inferior petrosal sinus)
   * **Cavernous sinus**: Communication (superior petrosal sinus, inferior petrosal sinus, ophthalmic vein), inside (internal carotid artery, CN VI), wall (CN III, CN IV, CN V1, CN V2)
 {: .notice--info}
- 
+
+## Nerve
+
+### Cranial Nerve
+
+### Cervical Plexus
+
+### Brachial Plexus
+
+### Lumbar Plexus
+
+### Sacral Plexus
+
+### Autonomic Nerve Plexus
+
+## Space
+
+### Head and Neck
+
+* **Orbit**
+  * **Common tendinous ring**: CN II, CN III, CN VI, ophthalmic artery
+  * **Superior orbital fissure**: CN IV, CN V1, superior ophthalmic vein
+  * **Inferior orbital fissure**: CN V2, inferior ophthalmic vein
+* **Pharynx**
+  * **Above superior constrictor**: Levator veli palatini, tensor veli palatini
+  * **Between superior and middle constrictor**: Stylopharyngeus, CN IX
+  * **Between middle and inferior constrictor**: Superior laryngeal nerve
+  * **Below infeiror constrictor**: Recurrent laryngeal nerve
+* **Suboccipital triangle**
+  * **Border**: Obliquus capitis superior, obliquus capitis inferior, rectus capitis posterior major
+  * **Angle**: Occipital bone, C1 transverse process, C2 spinous process
+  * **Content**: Vertebral artery, suboccipital nerve, C1 lamina
+* **Anterior cervical triangle**
+  * **Border**: Cervical midline, sternocleidomastoid, mandible (subdivided by digastric anterior belly, digastric posterior belly, omohyoid superior belly)
+  * **Subdivision**: Submental triangle (submental lymph node), submandibular triangle (submandibular gland), carotid triangle (carotid sheath), muscular triangle (infrahyoid muscles)
+* **Posterior cervical triangle**
+  * **Border**: Sternocleidomastoid, trapezius, clavicle (subdivided by omohyoid inferior belly)
+  * **Subdivision**: Occipital triangle (transverse cervical artery, CN XI), supraclavicular triangle
+* **Cervical deep fascia**
+  * **Investing layer**: Whole neck
+  * **Pretracheal layer**: Thyroid gland
+  * **Prevertebral layer**: Sympathetic trunk
+  * **Carotid sheath**: Common carotid artery, internal jugular vein, vagus nerve, deep cervical lymphp node
+  * **Retropharyngeal space**: Between pretrecheal layer (buccopharyngeal fascia) and prevertebral layer
+{: .notice--info}
+
+### Upper Limb
+
+* **Axilla**
+  * **Border**: pectoralis major, subscapularis, anterior serratus, coracobrachialis
+  * **Content**: Axillary artery, axillary nerve, brachial plexus
+* **Quadrangular space**
+  * **Border**: Teres major, teres minor, humerus, triceps brachii long head
+  * **Content**: Axillary nerve, posterior circumflex humeral artery
+* **Triangular space**
+  * **Border**: Teres major, teres minor, triceps brachii long head
+  * **Content**: Circumflex scapular artery
+* **Triangular interval**
+  * **Border**: Teres major, humerus, triceps brachii long head
+  * **Content**: Radial nerve, profunda brachial artery
+* **Cubital fossa**
+  * **Border**: Pronator teres, brachioradialis
+  * **Content**: Median nerve, brachial artery, biceps brachii tendon, radial nerve
+* **Carpal tunnel**
+  * **Border**: Flexor retinaculum, carpal bone
+  * **Flexor retinaculum**: From scaphoid and trapezium to pisiform and hamate
+  * **Median nerve, flexor digitorum superficialis, flexor pollicis longus, flexor digitorum profundus
+* **Anatomic snuffbox**
+  * **Border**: Abductor pollicis longus and extensor pollicis brevis, extensor pollicis longus
+  * **Content**: Radial artery
+{: .notice--info}
+
+## Cardiovascular System
+
 ## Respiratory System
 
 ## Gastrointestinal System
@@ -116,7 +291,135 @@ Essences of clinical medicine.
 
 ## Nervous System
 
+### Cerebrum
+
+* **Cerebral cortex**
+  * **Sensory**: Vision (occipital 17 18 19), hearing (temporal 41 42), taste (insula 43), smelling (parahippocampus 28), somatosensory (postcentral 3 1 2)
+  * **Motor**: Motor (precentral 4 6 8)
+  * **Interneuron**: Language motor (left broca 44 45), language sensory (left wernicke 22, angular 39)
+* **Cerebral medulla**
+  * **Projection**: Corona radiate, internal capsule
+  * **Association**: Uncinate fasiculus (temporal-frontal), superior longitudinal fasiculus (occipital-frontal), inferior longitudinal fasiculus (occipital-temporal), arcuate fasiculus (Wernicke-Broca)
+  * **Commisure**: Anterior commisure (bilateral olfactory bulb), fornix commisure (bilateral hippocampus), corpus callosum (bilateral frontal and parietal lobes)
+* **Basal ganglia**
+  * **Component**: Striatum (caudate nucleus, putamen), globus pallidus (internal segment, external segment), substantia nigra (compacta, reticulata), subthalamic nucleus
+  * **Function**: Motor planning, reward
+  * **Direct pathway**: Cortex/SNc (+) striatum (-) Gpi/SNr (-) thalamus (+) cortex
+  * **Indirect pathway**: Cortex/SNc (+) striatum (-) GPe (-) STN (+) GPi/SNr (+) thalamus (+) cortex
+  * **Disease**: Parkinsonism (SNc), Huntington chorea (caudate nucleus), hemiballism (STN)
+* **Limbic system**
+  * **Component**: Hippocampal formation (hippocampus), limbic lobe (parahippocampus, cingulate), amygdala, hypothalamus (mamillary body), thalamus (anterior nucleus)
+  * **Function**: Emotion, memmory
+  * **Connection**: Fornix (hippocampus-mamillary body), mamillothalamic tract (mamillary body-anterior nucleus), stria terminalis (amygdala-septal nucleus)
+  * **Papex circuit**: Parahippocampus (entorhino cortex) - hippocampus - mamillary body - anterior nucleue - cingulate - parahippocampus
+* **Blood supply**
+  * **Anterior cerebral artery**: Anterior medial cerebrum (sensory and motion below knee)
+  * **Middle cerebral artery**: Anterior lateral cerebrum (sensory and motion above knee, language), basal ganglia
+  * **Posterior cerebral artery**: Posterior cerebrum (vision)
+{: .notice--info}
+
+### Diencephalon
+
+* **Thalamus**
+  * **Sensory**: Lateral geniculate body (vision), medial geniculate body (hearing), ventroposterior lateral nucleus (somatosensory of body), ventroposterior medial nucleus (somatosensory of head)
+  * **Motor**: Ventral anterior nucleus, ventral lateral nucleus
+  * **Blood supply**: Posterior cerebral artery
+* **Hypothalamus**
+  * **Hormone**: Suprachiasmatic nucleus (circadium rhythm), supraoptic nucleus (ADH), paraventricular nucleus (oxytocin)
+  * **ANS**: Anterior nucleus (parasympathetic), posterior nucleus (sympathetic)
+  * **Desire**: Ventromedial nucleus (satiety), lateral nucleus (desire)
+* **Epithalamus**
+  * **Pineal body**: Secrete melatonin, light-dark cycle
+  * **Posterior commisure**: Connect E-W nucleus and pretectal area, light reflex
+{: .notice--info}
+
+### Brain Stem
+
+* **Midbrain**
+  * **Cerebral peduncle**: Corticospinal and corticobulbar tract, to pyramid
+  * **Substantia nigra**: Direct and indirect pathway, to basal ganglia
+  * **Red nucleus**: Motion modulation
+  * **Periaquaductal grey**: Pain modulation
+  * **Superior colliculus**: Visual reflex
+  * **Inferior colliculus**: Auditory reflex
+* **Pons**
+  * **Pontine nucleus**: Motion modulation
+  * **Respiratory center**: Pneumotaxic, apneustic
+* **Medulla oblongata**
+  * **Pyramid**: Corticospinal tract, to pyramidal decussation
+  * **Arcuate nucleus**: Motion modulation, to cerebellum
+  * **Olivary nuclear complex**: Superior olivary nucleus (auditory), inferior olivary nucleus (balance)
+  * **Gracile nucleus**: Proprioception and touch of lower limb, to internal arcuate fiber and medial lemniscus
+  * **Cuneate nucleus**: Proprioception and touch of upper limb, to internal arcuate fiber and medial lemniscus
+  * **Accessory cuneate nucleus**: Unconscious proprioception of upper limb, to cerebellum
+  * **Area postrema**: Chemoreceptor trigger zone, without BBB
+  * **Vital center**: Cardiac, respiratory, vasomotor, reflex
+* **Cranial nerve nucleus**
+  * **Mibrain**: CN III, CN IV
+  * **Pons**: CN V, CN VI, CN VII
+  * **Medulla oblongata**: CN VIII, CN IX, CN X, CN XI, CN XII
+  * **Arrangement**: Somatic efferent - visceral efferent - visceral afferent - somatic afferent (medial to lateral)
+* **Tract**
+  * **Medial lemniscus**: Proprioception and touch of body, from gracile and cuneate nucleus to VPL nucleus (through internal arcuate fiber)
+  * **Spinal lemniscus**: Temperature and nociception of body, from posterior horn cell to VPL nucleus
+  * **Trigeminalthalamic tract**: Proprioception and touch of head from trigeminal pontine nucleus to VPM nuclus
+  * **Trigeminal lemniscus**: Temperature and nociception of head, from trigeminal spinal nucleus to VPM nucleus
+  * **Lateral lemniscus**: Auditory, from superior olivary nucleus to inferior colliculus
+  * **Medial longitudinal fasciculus**: Balance and eye conjugated motion, from vestibular nucleus to CN III IV V nucleus
+* **Reticular formation**
+  * **Structure**: Mixed gray and white matter
+  * **Function**: Arousal level, sleep cycle, muscle tone
+* **Neurotransmitter**
+  * **Dopamine**: Ventral tegmental area - limbic system (addiction), ventral tegmental area - cerebral cortex (schizophrenia), substantia nigra - stiatum (Parkinson), hypothalamus to pituitary (prolactin)
+  * **Norepinephrine**: Locus cereleus
+  * **Serotonin**: Raphe nucleus
+  * **Acetylcholine**
+{: .notice--info}
+
+### Cerebellum
+
+* **Lobe**: Anterior lobe (primary fissure) posterior lobe (posterolateral fissure) flocculonodular lobe
+* **Functional area**: Vestibulocerebellum, spinocerebellum, cerebrocerebellum
+  * **Vestibulocerebellum**: Flocculonodular lobe, connect vestibular nucleus, balance
+  * **Spinocerebellum**: Medial anterior and posterior lobe, connect spinal cord, muscle tone
+  * **Cerebrocerebellum**: Lateral anterior and posterior lobe, connect cerebrum and brainstem, fine movement
+* **Afferent pathway**
+  * **Cerebral cortex (contralateral)**: Cortico-ponto-cerebellar tract, cortico-reticular-cerebellar tract, cortico-olivary-cerebellar tract, cortico-arcuato-cerebellar tract
+  * **Brain stem (ipsilateral)**: Vestibulo-cerebellar tract, cuneo-cerebellar tract
+  * **Spinal cord (ipsilateral)**: Anterior spinocerebellar tract, posterior spinocerebellar tract
+* **Intrinsic pathway**: Afferent fiber - cortex - Purkinje cell - medalla - deep nucleus - efferent fiber
+  * **Afferent fiber**: Climbing fiber (ponto-cerebellar tract, excite Purkinje cell), mossy fiber (other tracts, excite granule cell then purkinje cell)
+  * **Deep nucleus**: Dentate nucleus, interpositus nucleus (emboliform, globose), fastigial nucleus (lateral to medial)
+* **Efferent pathway**
+  * **Contralateral**: Dento-thalamic-cortical tract, emboliform/globose-rebral tract
+  * **Ipsilateral**: Fastigial-vestibular tract, fastigial-reticular tract
+* **Cerebellar peduncle**
+  * **Superior cerebellar peduncle**: Thalamus, red nucleus, anterior spinocerebellar tract
+  * **Middle cerebellar peduncle**: Pontine nucleus, reticular formation
+  * **Inferior cerebellar peduncle**: Olivary nucleus, arcuate nucleus, vestibular nucleus, reticular formation, accessory cuneate nucleus, posterior spinocerebellar tract
+{: .notice--info}
+
+### Spinal Cord
+
+### Somatic Motor System
+
+### Visceral Motor System
+
+### Somatosensory System
+
+### Special Sensory System
+
 ## Histology
+
+### Nervous System
+
+* **Cerebrum**
+  * **Layer**: Molecular layer (horizontal cell, Cajal cell), external granular layer (stallate cell), external pyramidal layer (pyramidal cell), internal granular layer (stellate cell), internal pyramidal layer (pyramidal cell, Betz cell), multiform layer (fusiform cell, Martinotti cell)
+  * **Classification**: Homotypical (all 6 layer), heterotypical granular type (prominent layer 2 4, sensation), heterotypical agranular type (absent layer 2 4, motor)
+* **Cerebellum**
+  * **Layer**: Molecular layer (basket cell, stellate cell), Purkinje layer (Purkinje cell, the only excitatory), granular layer (granule cell)
+* **Pineal body**: Brain sand
+{: .notice--info}
 
 ## Embryology
 
