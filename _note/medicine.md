@@ -315,6 +315,42 @@ Essences of clinical medicine.
 
 ### Cranial Nerve
 
+* **Olfactory nerve I**
+  * **Function**: Smelling
+* **Optic nerve II**
+  * **Function**: Vision
+* **Oculomotor nerve III**: Superior branch, inferior branch
+  * **Function**: Motor (extraocular muscle, levator palpebrae superioris), parasympathetic (ciliary muscle, pupillary sphincter)
+* **Trochlear nerve IV**: (From posterior midbrain, cross)
+  * **Function**: Motor (superior oblique)
+* **Trigeminal nerve V**: Ophthalmic nerve, maxillary nerve, mandibular nerve
+  * **Function**: Sensory (face, nasal cavity, oral cavity, anterior 2/3 tongue, nasopharynx), motor (masticatory muscle)
+  * **Ophthalmic nerve**: Frontal nerve (supraorbital nerve, supratrochlear nerve), lacrimal nerve, nasociliary nerve (anterior and posterior ethmoidal nerve, long and short ciliary nerve, infratrochlear nerve)
+  * **Maxillary nerve**: Infraorbital nerve, superior alveolar nerve, nasopalatine nerve, pharyngeal nerve, greater and lesser palatine nerve, zygomatic nerve
+  * **Mandibular nerve**: Inferior alveolar nerve (mental nerve), lingual nerve, buccal nerve, ariculotemporal nerve, muscular branch
+* **Abducens nerve VI**
+  * **Function**: Motor (lateral rectus)
+* **Facial nerve VII**: Great petrosal nerve, chorda tympani nerve, muscular branch
+  * **Function**: Taste (anterior 2/3 tongue), motor (facial muscle), parasympathetic (lacrimal gland, submandibular gland, sublingual gland)
+  * **Great petrosal nerve**: Great petrosal nerve - pterygoid canal nerve - pterygopalatine ganglion (lacrimal gland, nasal gland)
+  * **Chorda tympani nerve**: Chorda tympani nerve - lingual nerve - submandibular ganglion (submandibular gland, sublingual gland)
+  * **Muscular branch**: Ttemporal branch, zygomatic branch, buccal branch, mandibular branch, cervical branch
+* **Vestibulocochlear nerve VIII**
+  * **Function**: Hearing, balance
+* **Glossopharyngeal nerve IX**: Tympanic nerve, muscular branch
+  * **Function**: Sensory (posterior 1/3 tongue, oropharynx), taste (posterior 1/3 tongue), motor (stylopharyngeus), parasympathetic (parotid gland)
+  * **Tympanic nerve**: Tympanic nerve - lesser petrosal nerve - otic ganglion (parotid gland)
+  * **Muscular branch**
+* **Vagus nerve X**: Auricular branch, pharyngeal branch, superior laryngeal nerve, recurrent laryngeal nerve, cardiac branch, pulmonary branch, esophageal branch, vagus trunk
+  * **Function**: Sensory (larynx, laryngopharynx, viscera), taste (epiglottis), motor (pharyngeal muscle, laryngeal muscle), parasympathetic (thoracic and abdominal viscera)
+  * **Superior laryngeal nerve**: External laryngeal nerve (cricothyroid), internal laryngeal nerve (sensory above vocal cord)
+  * **Recurrent laryngeal nerve**: Left reccurent laryngeal nerve (loop aortic arch), right reccurent laryngeal nerve (loop subclavian artery)
+* **Accessory nerve XI**
+  * **Function**: Motor (sternocleidomastoid, trapezius)
+* **Hypoglossal nerve XII**
+  * **Function**: Motor (lingual muscle)
+{: .notice--info}
+
 ### Cervical Plexus
 
 ### Brachial Plexus
@@ -516,8 +552,8 @@ Essences of clinical medicine.
   * **Pyramid**: Corticospinal tract, to pyramidal decussation
   * **Arcuate nucleus**: Motion modulation, to cerebellum
   * **Olivary nuclear complex**: Superior olivary nucleus (auditory), inferior olivary nucleus (balance)
-  * **Gracile nucleus**: Proprioception and touch of lower limb, to internal arcuate fiber and medial lemniscus
-  * **Cuneate nucleus**: Proprioception and touch of upper limb, to internal arcuate fiber and medial lemniscus
+  * **Gracile nucleus**: Proprioception and light touch of lower limb, to internal arcuate fiber and medial lemniscus
+  * **Cuneate nucleus**: Proprioception and light touch of upper limb, to internal arcuate fiber and medial lemniscus
   * **Accessory cuneate nucleus**: Unconscious proprioception of upper limb, to cerebellum
   * **Area postrema**: Chemoreceptor trigger zone, without BBB
   * **Vital center**: Cardiac, respiratory, vasomotor, reflex
@@ -527,10 +563,10 @@ Essences of clinical medicine.
   * **Medulla oblongata**: CN VIII, CN IX, CN X, CN XI, CN XII
   * **Arrangement**: Somatic efferent - visceral efferent - visceral afferent - somatic afferent (medial to lateral)
 * **Tract**
-  * **Medial lemniscus**: Proprioception and touch of body, from gracile and cuneate nucleus to VPL nucleus (through internal arcuate fiber)
-  * **Spinal lemniscus**: Temperature and nociception of body, from posterior horn cell to VPL nucleus
-  * **Trigeminalthalamic tract**: Proprioception and touch of head from trigeminal pontine nucleus to VPM nuclus
-  * **Trigeminal lemniscus**: Temperature and nociception of head, from trigeminal spinal nucleus to VPM nucleus
+  * **Medial lemniscus**: Proprioception and light touch of body, from gracile and cuneate nucleus to VPL nucleus (through internal arcuate fiber)
+  * **Spinal lemniscus**: Temperature and pain and crude touch of body, from posterior horn cell to VPL nucleus
+  * **Trigeminothalamic tract**: Proprioception and light touch and crude touch of head, from trigeminal pontine nucleus to VPM nuclus
+  * **Trigeminal lemniscus**: Temperature and pain of head, from trigeminal spinal nucleus to VPM nucleus
   * **Lateral lemniscus**: Auditory, from superior olivary nucleus to inferior colliculus
   * **Medial longitudinal fasciculus**: Balance and eye conjugated motion, from vestibular nucleus to CN III IV V nucleus
 * **Reticular formation**
@@ -568,13 +604,55 @@ Essences of clinical medicine.
 
 ### Spinal Cord
 
-### Somatic Motor System
+* **Gray matter**
+  * **Posterior horn**: II substantia gelatinosa (temperature, pain, crude touch), III IV nucleus proprius (proprioception, light touch), V nucleus reticularis (visceral sensory)
+  * **Lateral horn**: VII nucleus intermediolateralis (preganglionic neuron of sympathetic and parasympathetic system), VII nucleus dorsalis of Clark (posterior spinocerebellar tract)
+  * **Anterior horn**: VIII medial motor neuron (neck and trunk motion), IX lateral motor neuron (limbs motion)
+* **White matter**
+  * **Posterior funiculus**: Gracile and cuneate fasciculus (proprioception, light touch)
+  * **Lateral funiculus (anterior)**: Lateral spinothalamic track (temperature, pain), anterior spinocerebellar tract (unconscious proprioception)
+  * **Lateral funiculus (posterior)**: Lateral corticospinal tract (muscle motion), posterior spinocerebellar tract (unconscious proprioception), rubrospinal tract (muscle motion)
+  * **Anterior funiculus**: Anterior spinothalamic tract (crude touch), anterior corticospinal tract (muscle motion), tectospinal and vestibularspinal and reticulospinal tract (muscle tone)
+* **Blood supply**
+  * **Spinal artery**: Anterior spinal artery (1), posterior spinal artery (2), from vertebral arery
+  * **Segmental artery**: From vertebral artery, posterior intercostal artery, lumbar artery
+{: .notice--info}
 
-### Visceral Motor System
+### Pathway
 
-### Somatosensory System
-
-### Special Sensory System
+* **Somatic motor**
+  * **Corticobulbar tract**: Cortex - cross cranial nerve nucleus - cranial nerve - voluntary movement
+  * **Lateral corticospinal tract**: Cortex - pyramid - (cross) - lateral funiculus - ventral horn - voluntary movement
+  * **Anterior corticospinal tract**: Cortex - pyramid - anterior funiculus - (cross) - ventral horn - voluntary movement
+  * **Rubralspinal tract**: Red nucleus - (cross) - lateral funiculus - upper limb flexion
+  * **Tectospinal tract**: Colliculus - (cross) - anterior funiculus - muscle tone
+  * **Vestibulospinal tract**: Vestibular nucleus - anterior funiculus - muscle tone
+  * **Reticulospinal tract**: Reticular formation - anterior funiculus - muscle tone
+* **Visceral motor**
+  * **Pupillary and ciliary pathway**: E-W nucleus (CN III) - occulomotor nerve - ciliary ganglion - short ciliary nerve - pupillary sphincter and ciliary muscle
+  * **Lacrimal pathway**: Lacrimal nucleus (CN VII)- intermedius nerve - greater petrosal nerve - pterygoid canal nerve - pterygopalatine ganglion - zygomatic and lacrimal nerve - lacrimal gland
+  * **Submandiblar and sublingual pathway**: Superior salivatory nucleus (CN VII) - intermedius nerve - chorda tympani nerve - lingual nerve - submandibular ganglion - submandibular and sublingual gland
+  * **Parotid pathway**: Inferior salivatory nucleus (CN IX) - typanic nerve - lesser petrosal nerve - otic ganglion - auriculotemporal nerve - parotid gland
+* **Somatosensory**
+  * **Trigeminothalamic tract**: Prioception and touch - semilunar ganglion (1st) - pontine nucleus (2nd) - trigeminothalamic tract - VPM - cerebral cortex
+  * **Trigeminal lemniscus tract**: Temperature and pain - semilunar nucleus (1st) - spinal nucleus (2nd) - trigeminal lemniscus - VPM - cerebral cortex
+  * **Medial lemniscus tract**: Prioception and light touch - dorsal root ganglion (1st) - dorsal horn - posterior funiculus - gracile and cuneate nucleus (2nd) - internal arcuate fiber (cross) - VPL - cerebral cortex
+  * **Lateral spinothalamic tract**: Temperature and pain - dorsal root ganglion (1st) - dorsal horn - nucleus (2nd) - lateral funiculus - VPL - cerebral cortex
+  * **Anterior spinothalamic tract**: Crude touch - dorsa root ganglion (1st) - dorsal horn - nucleus (2nd) - anterior funiculus - VPL - cerebral cortex
+  * **Visceral sensory tract**: Sympathetic pathway (pain, stress), parasympathetic pathway (other reflex)
+* **Special sensory**
+  * **Olfactory pathway**
+  * **Visual pathway**
+  * **Auditory pathway**
+  * **Vestibular pathway**
+* **Reflex**
+  * **Light reflex**: Retina - CN II - pretecal nucleus - CN III - pupillary sphincter
+  * **Corneal reflex**: Cornea - CN V1 - trigeminal nucleus - CN VII - orbicularis oculi
+  * **Pharyngeal reflex**: Oropharynx - CN IX - solitary nucleus - CN X - pharyngeal muscle
+  * **Baroreflex**: Carotis and aortic sinus - CN IX X - solitary nucleus - CN X - heart and vessel
+  * **Cremasteric reflex**: Medial thigh skin - genitofemoral nerve (ilioinguinal nerve) - L1 L2 - genitofemoral nerve - cremasteric muscle
+  * **Patellar reflex**: Patellar ligament - femoral nerve - L3 L4 - femoral nerve - quadriceps femoris
+{: .notice--info}
 
 ## Histology
 
