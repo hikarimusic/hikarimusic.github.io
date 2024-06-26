@@ -11,1165 +11,934 @@ Essences of clinical medicine.
 
 {% include toc %}
 
-# Anatomy / 解剖学
+# Pharmacology
 
-## Skeleton
+## Autonomic Nervous Drug
 
-## Muscle
+## Central Nervous Drug
 
-### Head and Neck Muscle
+## Autocoid
 
-* **Facial muscle**: Occipitofrontalis, corrugator supercilii, obicularis oculi, levator palpebrae superioris, orbicularis oris, buccinator, levator labii superioris, levator anguli oris, zygomaticus, risorius, platysma, depressor labii inferioris, depressor angulii oris
-  * **Most muscle**: CN VII, facial expression
-  * **Levator palpebrae superioris**: CN III and sympathetic, elevate upper eyelid
-* **Extraocular muscle**: Superior rectus, inferior rectus, medial rectus, lateral rectus, superior oblique, inferior oblique
-  * **Superior rectus**: CN III, elevate and adduct eye
-  * **Infeior rectus**: CN III, depress and adduct eye
-  * **Medial rectus**: CN III, adduct eye
-  * **Lateral rectus**: CN VI, abduct eye
-  * **Superior oblique**: CN IV, depress and abduct eye
-  * **Infeiror oblique**: CN III, elevate and abduct eye
-* **Masticatory muscle**: Temporalis, masseter, medial pterygoid, lateral pterygoid
-  * **Temporalis**: CN V3, elevate and retract mandible
-  * **Masseter**: CN V3, elevate mandible
-  * **Medial pterygoid**: CN V3, elevate and protrude mandible
-  * **Lateral pteryoid**: CN V3, depress and protrude mandible
-* **Lingual muscle**: Genioglossus, palatoglossus, styloglossus, hyoglossus, intrinsic muscle
-  * **Genioglossus**: CN XII, depress and protrude tongue
-  * **Palatoglossus**: CN X, elevate tongue
-  * **Styloglossus**: CN XII, elevate and retract tongue
-  * **Hyoglossus**: CN XII, depress and retract tongue
-  * **Intrinsic muscle**: CN XII, deform tongue
-* **Pharyngeal muscle**: Superior pharyngeal constrictor, middle pharyngeal constrictor, inferior pharyngeal constrictor / salpingopharyngeus, palatopharyngeus, stylopharyngeus / musculus uvulae, levator veli palatini, tensor veli palatini
-  * **Superior pharyngeal constrictor**: CN X, constrict pharynx
-  * **Middle pharyngeal constrictor**: CN X, constrict pharynx
-  * **Inferior pharyngeal constrictor**: CN X, constrict pharynx
-  * **Salpingopharyngeus**: CN X, elevate pharynx
-  * **Palatopharyngeus**: CN X, elevate pharynx
-  * **Stylopharyngeus**: CN IX, elevate pharynx
-  * **Musculus uvulae**: CN X, elevate soft palate
-  * **Levator veli palatini**: CN X, elevate soft palate
-  * **Tensor veli palatini**: CN V3, tense soft palate
-* **Laryngeal muscle**: Cricothyroideus, lateral cricoarytenoideus, posterior cricoarytenoideus, thyroarytenoideus, transverse arytenoideus, oblique arytenoideus, vocalis
-  * **Cricothyroideus**: Superior laryngeal nerve (CN X), tense vocal cord
-  * **Lateral cricoarytenoideus**: Recurrent laryngeal nerve (CN X), close vocal cord
-  * **Posterior cricoarytenoideus**: Recurrent laryngeal nerve (CN X), open vocal cord
-  * **Thyroarytenoideus**: Recurrent laryngeal nerve (CN X), relax vocal cord
-  * **Transverse arytenoideus**: Recurrent laryngeal nerve (CN X), close vocal cord
-  * **Oblique arytenoideus**: Recurrent laryngeal nerve (CN X), constrict vocal cord
-  * **Vocalis**: Recurrent laryngeal nerve (CN X), tense vocal cord
-* **Hyoid muscle**: Geniohyoid, mylohyoid, digastric, stylohyoid / thyrohyoid, sternothyroid, sternohyoid, omohyoid
-  * **Geniohyoid**: C1, Protrude hyoid
-  * **Mylohyid**: CN V3, elevate hyoid
-  * **Digastric**: CN V3 (anterior belly), CN VII (posterior belly), elevate hyoid
-  * **Stylohyoid**: CN VII, elevate hyoid
-  * **Thyrohyiod**: C1, depress hyoid
-  * **Sternothyroid**: Ansa cervicalis, depress hyoid
-  * **Sternohyoid**: Ansa cervicalis, depress hyoid
-  * **Omohyoid**: Ansa cervicalis, depress hyoid
-* **Cervical muscle**: Sternocleidomastoid, trapezius, longus capitis, rectus capitis anterior, rectus capitis lateralis / rectus capitis posterior major, rectus capitis posterior minor, obliquus capitis superior, obliquus capitis inferior
-  * **Sternocleidomastoid**: CN XI, rotate head, elevate mandible
-  * **Trapezius**: CN XI, abduct and extend head, elevate and depress shoulder
-  * **Other muscles**: C1~C3 (anterior), suboccipital nerve (posterior), flex or abduct or extend head
+### Histamine
+
+* **H1 antagonist (1st generation)**
+  * **Drug**: Chlorpheniramine, dimenhydrinate, diphenhydramine, doxylamine, meclizine, promethazine
+  * **Mechanism**: H1 receptor antagonist (pass BBB)
+  * **Indication**: Allergic symptoms, insomnia, motion sickness, nausea and vomiting
+  * **Adverse effect**: Sedation, dry mouth, blurred vision, urine retention
+* **H1 antagonist (2st generation)**
+  * **Drug**: Loratadine, cetirizine, clemastine, fexofenadine, desloratadine
+  * **Mechanism**: H1 receptor antagonist (not pass BBB)
+  * **Indication**: Allergic rhinitis
+* **H2 antagonist**
+  * **Drug**: Cimetidine, ranitidine, famotidine, nizatidine
+  * **Mechanism**: H2 receptor antagonist
+  * **Indication**: Gastric and duodenal ulcer
+  * **Adverse effect**: Gynecomastia and impotence (cimetidine), CYP450 inhibitor (cimetidine)
+* **Mast cell stabilizer**
+  * **Drug**: Cromalyn, nedocromil
+  * **Mechanism**: Inhibit histamine release
+  * **Indication**: Allergic rhinitis, allergic conjunctivitis
 {: .notice--info}
 
-### Thorax and Abdomen Muscle
+### Serotonin
 
-* **Respiratory musccle**: Diaphragm, external intercostalis, internal intercostalis, innermost intercostalis, scalene, anterior serratus, posterior serratus, levator costarum
-  * **Diaphragm**: Phrenic nerve (C3-C5), inspiration
-  * **External intercostalis**: Intercostal nerve, inspiration
-  * **Internal intercostalis**: Intercostal nerve, expiration
-  * **Innermost intercostalis (transversus thoracis, subcostal)**: Intercostal nerve, expiration
-  * **Scalene (anterior, middle, posterior)**: Cervical nerve, elevate rib (anterior and middle: R1, posterior: R2)
-  * **Anterior serratus**: Long thoracic nerve, protract scapula
-  * **Posterior serratus (superior, inferior)**: Intercostal nerve, elevate and depress rib
-  * **Levator costarum**
-* **Anterior abdominal wall muscle**: External oblique, internal oblique, transversus abdominus / rectus abdominus, pyramidalis
-  * **External oblique**: Thoracic nerve, flex trunk, form inguinal ligament (anterior superior iliac spine to pubic tubercle)
-  * **Internal oblique**: Thoracic nerve, flex trunk, form conjoint tendon, become cremasteric muslce (genitofemoral nerve)
-  * **Transversus abdominus**: Thoracic nerve, compress abdomen
-  * **Rectus abdominus**: Thoracic nerve, flex trunk, border (linea alba, linea semilunaris)
-  * **Pyramidalis**
-* **Posterior abdominal wall muscle** Quadratus lumborum, psoas major, iliacus
-  * **Quadratus lumborum**: Lumbar plexus, stabilize rib
-  * **Psoas major**: Lumbar plexus, flex thigh
-  * **Iliacus**: Femoral nerve, flex thigh
-* **Back muscle**: Trapezius, latissimus dorsi / levator scapulae, rhomboides, posterior serratus / splenius, erector spinae, transversospinales
-  * **Trapezius**: CN XI, abduct and extend head, elevate and depress shoulder
-  * **Latissimus dorsi**: Thoracodorsal nerve, adduct arm
-  * **Levator scapulae**: Dorsal scapular nerve, elevate scapula
-  * **Rhomboideus (major, minor)**: Dorsal scapular nerve, adduct scapula
-  * **Posterior serratus (superior, inferior)**: Intercostal nerve, elevate and depress rib
-  * **Splenius (splenius capitis, splenius cervicis)**: Lateral flex and extend spine
-  * **Erector spinae (spinalis, longissimus, iliocostalis)**: Lateral flex and extend spine
-  * **Transversospinales (semispinalis, multifidus, rotatores)**: Lateral flex and extend spine
+* **5-HT1A agonist**
+  * **Drug**: Buspirone
+  * **Mechanism**: 5-HT1A receptor partial agonist
+  * **Indication**: Anxiety disorder
+  * **Adverse effect**: Dizziness, drowsiness, and nausea
+* **5-HT1B/1D agonist**
+  * **Drug**: Sumatriptan, rizatriptan, eletriptan, zolmitriptan, almotriptan, frovatriptan, naratriptan
+  * **Mechanism**: 5-HT1B/1D receptor agonist (vasoconstriction)
+  * **Indication**: Acute migraine, cluster headache
+  * **Adverse effect**: Dizziness, drowsiness, chest pain, contraindicated in coronary artery disease
+* **5-HT3 antagonist**
+  * **Drug**: Ondansetron, granisetron, dolasetron, and palonosetron
+  * **Mechanism**: 5-HT3 receptor antagonist (in chemoreceptor trigger zone)
+  * **Indication**: Nausea and vomiting prevention (chemotherapy, radiation)
+  * **Adverse effect**: Headache, constipation, QT prolongation
 {: .notice--info}
 
-###  Pelvis and Perineum Muscle
+### Ergot Alkaloid
 
-* **Pelvic muscle**: Levator ani (anterior, middle, posterior), coccygeus
-  * **Levator ani**: Sacral nerve, form pelvic floor, composed of anterior middle posterior fibers
-  * **Anterior fiber**: Puboprostaticus, pubovaginalis, to perineal body
-  * **Middle fiber**: Puborectalis, pubococcygeus, to anococcygeal body
-  * **Posterior fiber**: Iliococcygeus, to coccyx
-  * **Coccygeus**: Sacral nerve, form pelvic floow
-* **Perineal muscle**: Ischiocavernosus, bulbospongiosus, superficial transverse perineal muscle / deep transverse perineal muscle, external urethral sphincter / external anal sphincter
-  * **Ischiocavernosus**: Perineal nerve, erection
-  * **Bulbospongiosus**: Perineal nerve, ejaculation
-  * **Superficial transverse perineal muscle**: Perineal nerve
-  * **Deep transverse perineal muscle**: Perineal nerve
-  * **External urethral sphincter**: Perineal nerve
-  * **External anal sphincter**: Inferior rectal nerve
+* **Ergot Alkaloid**
+  * **Drug**: Methylergonovine, ergotamine, dihydroergotamine, brpmocriptine, cabergoline
+  * **Mechanism**: Agonist or antagonist on α-adrenoceptors, dopamine receptors, serotonin receptors
+  * **Indication**: Postpartum hemorrhage (methylergonovine), migraine (ergotamine, dihydroergotamine), hyperprolactinemia (brpmocriptine, cabergoline)
 {: .notice--info}
 
-### Upper Limb Muscle
+### Eicosanoid
 
-* **Sholder muscle**: Deltoid, pectoralis major, pectoralis minor / teres major, subscapularis, supraspinatus, infraspinatus, teres minor (last 4: rotator cuff)
-  * **Deltoid**: Axillary nerve, flex and abduct and extend arm
-  * **Pectoralis major**: Lateral and medial thoracic nerve, adduct arm
-  * **Pectoralis minor**: Medial thoracic nerve, elevate rib
-  * **Teres major**: Subscapular nerve, internal rotate arm
-  * **Subscapularis**: Subscapular nerve, internal rotate arm
-  * **Supraspinatus**: Suprascapular nerve, abduct arm
-  * **Infraspinatus**: Suprascapular nerve, external rotate arm
-  * **Teres minor**: Axillary nerve, external rotate arm
-* **Arm muscle (anterior compartment)**: Bicpes brachii, coracobrachialis, brachialis
-  * **Biceps brachii**: Musculocutaneous nerve,  flex arm and forearm
-  * **Coracobrachialis**: Musculocutaneous nerve, flex arm
-  * **Brachialis**: Musculocutaneous nerve, flex forearm
-* **Arm muscle (posterior compartment)**: Triceps brachii
-  * **Triceps brachii**: Radial nerve, extend arm and forearm
-* **Forearm muscle (anterior compartment)**: Brachioradialis, pronator teres, flexor carpi radialis, palmaris longus, flexor carpi ulnaris / flexor digitorum superficialis / flexor pollicis longus, flexor digitorum profundus
-  * **Brachioradialis**: Radial nerve, flex wrist
-  * **Pronator teres**: Median nerve, pronate wrist
-  * **Flexor carpi radialis**: Median nerve, flex wrist
-  * **Palmaris longus**: Median nerve, flex wrist
-  * **Flexor carpi ulnaris**: Median nerve, flex wrist
-  * **Flexor digitorum superficialis**: Median nerve, flex fingers (middle phalanx)
-  * **Flexor pollicis longus**: Median nerve, flex thumb
-  * **Flexor digitorum profundus**: Median nerve, flex fingers (distal phalanx)
-* **Forearm muscle (posterior compartment)**: Extensor carpi radialis longus, extensor carpi radialis brevis, extensor digitorum, extensor digitor minimi, extensor carpi ulnaris, anconeus / supinator, abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus, extensor indicis
-  * **Extensor carpi radialis longus**: Radial nerve, extend wrist
-  * **Extensor carpi radialis brevis**: Radial nerve, extend wrist
-  * **Extensor digitorum**: Radial nerve, extend fingers
-  * **Extensor digitor minimi**: Radial nerve, extend little finger
-  * **Extensor carpi ulnaris**: Radial nerve, extend wrist
-  * **Anconeus**: Radial nerve, extend forearm
-  * **Supinator**: Radial nerve, supine wrist
-  * **Abductor pollicis longus**: Radial nerve, abduct thumb
-  * **Extensor pollicis brevis**: Radial nerve, extend thumb
-  * **Extensor pollicis longus**: Radial nerve, extend thumb
-  * **Extensor indicis**: Radial nerve, extend index finger
-* **Hand muscle**: Opponens pollicis, abductor pollicis brevis, flexor pollicis brevis / opponens digiti minimi, abductor digiti minimi brevis, flexor digiti minimi brevis / palmaris brevis, adductor pollicis, lumbricalis, interossei
-  * **Opponens pollicis**: Median nerve, opponent thumb
-  * **Abductor pollicis brevis**: Median nerve, abduct thumb
-  * **Flexor pollicis brevis**: Median nerve, flex thumb
-  * **Opponens digiti minimi**: Ulnar nerve, opponent little finger
-  * **Abductor digiti minimi brevis**: Ulnar nerve, abduct little finger
-  * **Flexor digiti minimi brevis**: Ulnar nerve, flex little finger
-  * **Palmaris brevis**: Ulnar nerve, tense skin
-  * **Adductor pollicis**: Ulnar nerve, adduct thumb
-  * **Lumbricalis**: Median nerve (1st, 2nd), ulnar nerve (3rd, 4th), flex and extend fingers
-  * **Interossei**: Ulnar nerve, adduct fingers (palmar), abduct fingers (dorsal)
+* **PGE1 agonist**
+  * **Drug**: Misoprostol, alprostadil
+  * **Mechanism**: PGE1 agonist
+  * **Indication**: NSAID-induced ulcer (misoprostol), erectile dysfunction (alprostadil), ductus arteriosus maintenance (alprostadil)
+* **PGE2 agonist**
+  * **Drug**: Dinoprostone
+  * **Mechanism**: PGE2 agonist
+  * **Indication**: Pregnancy termination, cervical ripening
+* **PGF2α agonist**
+  * **Drug**: Carboprost, latanoprost
+  * **Mechanism**: PGF2α agonist
+  * **Indication**: Pregnancy termination (carboprost), glaucoma (latanoprost)
+* **PGI2 agonist**
+  * **Drug**: Epoprostenol, treprostinil, iloprost
+  * **Mechanism**: PGI2 agonist
+  * **Indication**: Pulmonary hypertension
 {: .notice--info}
 
-### Lower Limb Muscle
+## Cardiovascular Drug
 
-* **Hip muscle**: Gluteus maximus, gluteus medius, gluteus minimus, tensor fascia lata / piriformis, obturator externus, obturator internus, gemellus superior, gemellus inferior, quadratus femoris
-  * **Gluteus maximus**: Inferior gluteus nerve, extend thigh
-  * **Gluteus medius**: Superior gluteus, abduct thigh
-  * **Gluteus minimus**: Superior gluteus, abduct thigh
-  * **Tensor fascia lata**: Superior gluteus, abduct thigh
-  * **Piriformis**: Sacral plexus, lateral rotate thigh
-  * **Obturator externus**: Obturator nerve, lateral rotate thigh
-  * **Obturator internus**: Obturator internus nerve, lateral rotate thigh
-  * **Gemellus superior**: Obturator internus nerve, lateral rotate thigh
-  * **Gemellus inferior**: Quadratus femoris nerve, lateral rotate thigh
-  * **Quadratus femoris**: Quadratus femoris nerve, lateral rotate thigh
-* **Thigh muscle (anterior compartment)**: Quadriceps femoris (rectus femoris, vastus lateralis, vastus intermedius, vastus medialis), sartorius
-  * **Quadriceps**: Femoral nerve, flex thigh, extend leg
-  * **Sartorius**: Femoral nerve, Flex thigh, flex leg
-* **Thigh muscle (medial compartment)**: Adductor longus, adductor brevis, adductor magnus, gracilis
-  * **Adductor longus**: Obturator nerve, adduct thigh
-  * **Adductor brevis**: Obturator nerve, adduct thigh
-  * **Adductor magnus**: Obturator (sciatic) nerve, adduct (extend) thigh
-  * **Gracilis**: Obturator nerve, adduct thigh, flex leg
-* **Thigh muscle (posterior compartment)**: Biceps femoris, semitendinosus, semimembranosus
-  * **Biceps femoris**: Sciatic nerve, extend thigh, flex leg
-  * **Semitendinosus**: Sciatic nerve, extend thigh, flex leg
-  * **Semimembranosus**: Sciatic nerve, extend thigh, flex leg
-* **Knee muscle**: Popliteus
-  * **Popliteus**: Tibial nerve, unlock knee joint
-* **Leg muscle (anterior compartment)**: Tibialis anterior, extensor hallucis longus, extensor digitorum longus, fibularis tertius
-  * **Tibialis anterior**: Deep fibular nerve, dorsiflex foot
-  * **Extensor hallucis longus**: Deep fibular nerve, dorsiflex foot, extend big toe
-  * **Extensor digitorum longus**: Deep fibular nerve, dorsiflex foot, extend toes
-  * **Fibularis tertius**: Deep fibular nerve, dorsiflex foot
-* **Leg muscle (lateral compartment)**: Fibularis longus, fibularis brevis
-  * **Fibularis longus**: Superficial fibular nerve, plantarflex foot, evert foot
-  * **Fibularis brevis**: Superficial fibular nerve, plantarflex foot, evert foot
-* **Leg muscle (posterior compartment)**: Gastrocnemius, plantaris, soleus / flexor hallucis longus, flexor digitorum longus, tibialis posterior
-  * **Gastrocnemius**: Tibial nerve, plantarflex foot
-  * **Plantaris**: Tibial nerve, plantarflex foot
-  * **Soleus**: Tibial nerve, plantarflex foot
-  * **Flexor hallucis longus**: Tibial nerve, flex big toe
-  * **Flexor digitorum longus**: Tibial nerve, flex toes
-  * **Tibialis posterior**: Tibial nerve, plantarflex foot
-* **Foot muscle**: Abductor hallucis, flexor hallucis brevis, flexor digitorum brevis / abductor digiti minimi, flexor digiti minimi brevis / quadratus plantae, adductor hallucis, lumbricalis, interossei / extensor digitorum brevis
-  * **Abductor hallucis**: Medial plantar nerve, abduct big toe
-  * **Flexor hallucis brevis**: Medial plantar nerve, flex big toe
-  * **Flexor digitorum brevis**: Medial plantar nerve, flex toes
-  * **Abductor digiti minimi**: Lateral plantar nerve, abduct little toe
-  * **Flexor digiti minimi brevis**: Lateral plantar nerve, flex little toe
-  * **Quadratus plantae**: Lateral plantar nerve, flex toes
-  * **Adductor hallucis**: Lateral plantar nerve, adduct bit toe
-  * **Lumbricalis**: Medial plantar nerve (1st), lateral plantar nerve (2nd-4th), flex and extend toes
-  * **Interossei**: Lateral plantar nerve, adduct toes (palmar), abduct toes (dorsal)
-  * **Extensor dibitorum brevis**: Deep fibular nerve, extend toes
+## Renal Drug
+
+## Gastrointestinal Drug
+
+### Peptic Ulcer Drug
+* **Antacid**
+  * **Drug**: Sodium bicarbonate, calcium carbonate, magnesium hydroxide, aluminum hydroxide
+  * **Mechanism**: Neutralize gastric acid
+  * **Indication**: Reduce intragastric acidity
+  * **Adverse effect**: Sodium bicarbonate: gastric distention and belching, fluid retention, metabolic alkalosis / Calcium carbonate: nausea and belching, metabolic alkalosis / Magnesium hydroxide: diarrhea / Aluminium hydroxide: constipation
+* **H2 antagonist**
+  * **Drug**: Ranitidine, famotidine, nizatidine, cimetidine
+  * **Mechanism**: H2 antagonist, decrease acid secretion
+  * **Indication**: Peptic ulcer disease, gastroesophageal reflux disease
+  * **Adverse effect**: Drowsiness, gynecomastia (cimetidine)
+* **Proton pump inhibitor**
+  * **Drug**: Omeprazole, lansoprazole, dexlansoprazole, esomeprazole, pantoprazole, rabeprazole
+  * **Mechanism**: Inhibit H/K-ATPase pump (irreversible)
+  * **Indication**: Peptic ulcer disease, gastroesophageal reflux disease
+  * **Adverse effect**: Hypomagnesemia, clostridium difficile-associated diarrhea
+* **Sucralfate**
+  * **Drug**: Sucralfate
+  * **Mechanism**: Form viscous gel, protect stomach surface
+  * **Indication**: Duodenal ulcer
+  * **Adverse effect**: Constipation
+* **PGE1 analog**
+  * **Drug**: Misoprostol
+  * **Mechanism**: PGE1 analog, stimulate bicarbonate and mucus production
+  * **Indication**: NSAID-induced gastric ulcers
+  * **Adverse effect**: Abortion
 {: .notice--info}
 
-## Vessel
+### Antiemetics
 
-### Aorta Arch
-
-* **Ascending aorta**: Coronary artery
-* **Aortic arch**: Brachiocephalic artery, left common carotid artery, left subclavian artery
-* **Descending aorta**: Thoracic aorta, abdominal aorta, common iliac artery
+* **M1 antagonist**
+  * **Drug**: Scopolamine
+  * **Mechanism**: M1 antagonist
+  * **Indication**: Motion sickness
+* **H1 antagonist**
+  * **Drug**: Meclizine, dimenhydrinate
+  * **Mechanism**: H1 antagonist
+  * **Indication**: Motion sickness, vertigo
+* **D2 antagonist**
+  * **Drug**: Prochlorperazine, promethazine, droperidol, metoclopromide
+  * **Mechanism**: D2 antagonist (prochlorperazine and promethazine: antiadrenergic, anticholinergic, antihistaminic / Metoclopramide: enhanced motility, accelerate gastric emptying)
+  * **Indication**: Nausea and vomiting, gastroesophageal reflux (metoclopramide)
+  * **Adverse effect**: Extrapyramidal effect, QT prlongation (droperidol), contraindicated in Parkinson disease
+* **5-HT3 antagonist**
+  * **Drug**: Ondansetron, dolasetron, granisetron, palonosetron
+  * **Mechanism**: 5-HT3 antagonist
+  * **Indication**: Nausea and vomiting
+* **Cannabinoid**
+  * **Drug**: Dronabinol, nabilone
+  * **Mechanism**: CB1 receptor agonist
+  * **Indication**: Nausea and vomiting
+* **Benzodiazepine**
+  * **Drug**: Lorazepam
+  * **Mechanism**: Inhance GABA effect
+  * **Indication**: Nausea and vomiting
+* **Neurokinin receptor antagonist**
+  * **Drug**: Aprepitant, fosaprepitant
+  * **Mechanism**: NK1 receptor antagonist
+  * **Indication**: Nausea and vomiting
 {: .notice--info}
 
-### Common Carotid Artery
+### Constipation Drug
 
-* **Common carotis artery**: External carotid artery, internal carotid artery (carotid sinus: baroreceptor, carotid body: chemoreceptor)
-* **External carotid artery**: Superior thyroid artery, ligual artery, facial artery, ascending pharyngeal artery, occipital artery, posterior auricular artery, superficial temporal artery, maxillary artery
-  * **Maxillary artery**: Middle meningeal artery, inferior alveolar artery, superior alveolar artery, infraorbital artery, sphenopalatine artery
-* **Internal carotid artyer**: Ophthalmic artery, arterior cerebral artery (supply medial brain), middle cerebral artery (supply lateral brain)
-* **Circle of Willis**: Anterior cerebral artery, anterior communicating artery, posterior cerebral artery, posterior communicating artery
+<!-- * **Bulk-forming laxative**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+* **Osmotic laxative**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+* **Irritant laxative**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+* **Stool softener**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+* **Lubricatin agent**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+* **Opioid-receptor antagonist**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+{: .notice--info} -->
+
+### Antidiarrheal Drug
+
+<!-- * **Opioid agonist**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+* **Bismuth**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+* **Octreotide**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+{: .notice--info} -->
+
+### Irritable Bowel Syndrome Drug
+
+<!-- * **Antispasmodics**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+* **5-HT3 antagonist**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+* **Chloride channel activator**
+  * **Drug**: 
+  * **Mechanism**:
+  * **Indication**: 
+  * **Adverse effect**:
+{: .notice--info} -->
+
+### Other Gastrointestinal Druug
+
+* **Simethicone**
+  * **Drug**: Simethicone
+  * **Mechanism**: Alter surface tension, accelerate gas passage
+  * **Indication**: Gas retention, bloating
+* **Ursodiol**
+  * **Drug**: Ursodiol
+  * **Mechanism**: Reduce cholesterol synthesis and secretion into bile, dissolve cholesterol stone
+  * **Indication**: Noncalcifiad gallbladder stones, primary biliary cirrhosis
+* **Pancrelipase**
+  * **Drug**: Pancrelipase
+  * **Mechanism**: Digestive enzyme replacement
+  * **Indication**: Exocrine pancreatic insufficiency (cystic fibrosis, pancreatitis)
+* **5-Aminosalicylate**
+  * **Drug**: Sulfasalazine, olsalazine, balsalazide
+  * **Mechanism**: Decrease prostaglandin and leukotriene synthesis, inhibit NK cells, scavenge free radicals
+  * **Indication**: Ulcerative colitis, crohn disease
+  * **Adverse effect**: Skin rash
 {: .notice--info}
 
-### Subclavian Artery
-
-* **Subclavian artery**: Vertebral artery, internal thoracic artery, thyrocervical trunk, costal cervical trunk, dorsal scapular artery
-  * **Vertebral artery**: Anterior spinal artery, posterior spinal artery, posterior inferior cerebellar artery, basilar artery, anterior inferior cerebellar artery, pontine artery, superior cerebellar artery, posterior cerebral artery
-  * **Internal thoracic artery**: Pericardiophrenic artery, anterior intercostal artery, musculophrenic artery, superior epigastric artery
-  * **Thyrocervical trunk**: Inferior thyroid artery, transverse cervical artery, suprascapular artery
-  * **Costocervical trunk**: Deep cervical artery, superior (1st, 2nd) intercostal artery
-* **Axillary artery**: Superior thoracic artery, thoracoacromial artery, lateral thoracic artery, subscapular artery, anterior circumflex humeral artery, posterior circumflex humeral artery
-* **Brachial artery**: Profunda brachial artery, radial artery, ulnar artery
-  * **Radial artery**: Deep palmar arch, palmar metacarpal artery
-  * **Ulnar artery**: Common interosseous artery, superficial palmar arch, palmar digital artery
-{: .notice--info}
-
-### Thoracic and Abdominal Aorta
-
-* **Thoracic aorta**: Pericardial artery, bronchial artery, esophageal artery, posterior intercostal artery, subcostal artery, superior phrenic artery
-* **Abdominal aorta**: Celiac trunk, superior mesenteric atery, inferior mesenteric atery, inferior phrenic artery (superior suprarenal artery), middle suprarenal artery, renal artery (inferior suprarenal artery), testicular/ovarian artery, lumbar artery
-* **Ciliac trunk**: Left gastric artery, splenic artery, common hepatic artery
-  * **Splenic artery**: Short gastric artery, left gastroepiploic artery, pancreatic branch, splenic branch
-  * **Common hepatic artery**: Hepatic artery proper (left hepatic artery, right hepatic artery, cystic artery), right gastric artery, gastroduodenal artery (right gastroepiploic artery, superior pancreaticoduodenal artery)
-* **Superior mesenteric artery**: Inferior pancreaticoduodenal artery, jejunal artery, ileal artery, ileocolic artery, right colic artery, middle colic artery
-* **Inferior mesenteric artery**: Left colic artery, sigmoid artery, superior rectal artery
-{: .notice--info}
-
-### Common Iliac Artery
-
-* **Common iliac artery**: External iliac artery, internal iliac artery
-* **Internal iliac artery**
-  * **Anterior division**: Umbilical artery (superior vesical artery, ductus deferens/uterine artery), obturator artery, inferior vesical/vaginal artery, middle rectal artery, internal pudendal artery, inferior gluteal artery
-  * **Posterior divisoin**: Iliolumbar artery, lateral sacral artery, superior gluteal artery
-* **Internal pudendal artery**: Inferior rectal artery, perineal artery, posterior scrotal/libial artery, dorsal artery of pennis/clitoris, deep artery of pennis/clitoris
-* **External iliac artery**: Inferior epigastric artery, femoral artery
-* **Femoral artery**: Superficial epigastric artery, superficial circumflex iliac artery, external pudendal artery, profunda femoral artery, popliteal artery
-  * **Profunda femoral artery**: Medial circumflex femoral artery, lateral circumflex femoral artery, 1st perforaing artery, 2nd perforaing artery, 3rd perforaing artery
-* **Popliteal artery**: Anterior tibial artery, posterior tibial artery
-  * **Anterior tibial artery**: Dorsalis pedis arery
-  * **Posterior tibial artery**: Fibular artery, medial plantar artery, lateral plantar artery
-{: .notice--info}
-
-### Vein
-
-* **Vena cava**: Superior vena cava, inferior vena cava
-  * **Superior vena cava**: Brachiocephalic vein (internal jugular vein, subclavian vein), azygos vein
-  * **Inferior vena cava**: Common iliac vein, hepatic vein, renal vein, suprarenal vein (left into renal), testicular/ovarian vein (left into renal)
-* **Jugular vein**: Retromandibular vein, external jugular vein, internal jugular vein
-  * **Retromandibular vein**: Superficial temporal vein, maxillary vein
-  * **External jugular vein**: Retromandibular vein (posterior branch), posterior auricular vein
-  * **Internal jugular vein**: Retromandibular vein (anterior branch), all other veins
-* **Superficial vein**: 
-  * **Upper limb**: Cephalic vein (radial side), basilic vein (ulnar side), median cubital vein
-  * **Lower limb**: Greater saphenous vein (tibial side), small saphenous vein (fibular side)
-* **Azygos venous system**: Azygos vein, hemiazygos vein, accessory hemiazygos vein
-  * **Azygos vein**: Ascending lumbar vein, subcostal vein, intercostal vein (4th-11th), superior intercostal vein (2nd-3rd)
-  * **Hemiazygos vein**: Ascending lumbar vein, subcostal vein, intercostal vein (9th-11th)
-  * **Accessory hemiazygos vein**: Intercostal vein (4th-8th)
-* **Hepatic portal system**
-  * **Origin**: Superior mesenteric vein, splenic vein (recieve inferior mesenteric vein)
-  * **Drainage**: Hepatic portal vein (recieve left gastric vein, right gastric vein, cystic vein, paraumbilical vein), hepatic vein
-  * **Portal systemic anastomosis**: Left gastric vein - esophageal vein, superior rectal vein - middle rectal vein, paraumbilical vein - epigastric vein
-* **Intracarnial venous sinus**
-  * **Origin**: Superior sagital sinus (recieve superior cerebral vein), straight sinus (recieve inferior sagital sinus, great cerebral vein), occipital sinus
-  * **Drainage**: Transverse sinus (recieve superior petrosal sinus), sigmoid sinus, internal jugular vein (recieve inferior petrosal sinus)
-  * **Cavernous sinus**: Communication (superior petrosal sinus, inferior petrosal sinus, ophthalmic vein), inside (internal carotid artery, CN VI), wall (CN III, CN IV, CN V1, CN V2)
-{: .notice--info}
-
-## Nerve
-
-### Cranial Nerve
-
-* **Olfactory nerve I**
-  * **Function**: Smelling
-* **Optic nerve II**
-  * **Function**: Vision
-* **Oculomotor nerve III**: Superior branch, inferior branch
-  * **Function**: Motor (extraocular muscle, levator palpebrae superioris), parasympathetic (ciliary muscle, pupillary sphincter)
-* **Trochlear nerve IV**: (From posterior midbrain, cross)
-  * **Function**: Motor (superior oblique)
-* **Trigeminal nerve V**: Ophthalmic nerve, maxillary nerve, mandibular nerve
-  * **Function**: Sensory (face, nasal cavity, oral cavity, anterior 2/3 tongue, nasopharynx), motor (masticatory muscle)
-  * **Ophthalmic nerve**: Frontal nerve (supraorbital nerve, supratrochlear nerve), lacrimal nerve, nasociliary nerve (anterior and posterior ethmoidal nerve, long and short ciliary nerve, infratrochlear nerve)
-  * **Maxillary nerve**: Infraorbital nerve, superior alveolar nerve, nasopalatine nerve, pharyngeal nerve, greater and lesser palatine nerve, zygomatic nerve
-  * **Mandibular nerve**: Inferior alveolar nerve (mental nerve), lingual nerve, buccal nerve, ariculotemporal nerve, muscular branch
-* **Abducens nerve VI**
-  * **Function**: Motor (lateral rectus)
-* **Facial nerve VII**: Great petrosal nerve, chorda tympani nerve, muscular branch
-  * **Function**: Taste (anterior 2/3 tongue), motor (facial muscle), parasympathetic (lacrimal gland, submandibular gland, sublingual gland)
-  * **Great petrosal nerve**: Great petrosal nerve - pterygoid canal nerve - pterygopalatine ganglion (lacrimal gland, nasal gland)
-  * **Chorda tympani nerve**: Chorda tympani nerve - lingual nerve - submandibular ganglion (submandibular gland, sublingual gland)
-  * **Muscular branch**: Ttemporal branch, zygomatic branch, buccal branch, mandibular branch, cervical branch
-* **Vestibulocochlear nerve VIII**
-  * **Function**: Hearing, balance
-* **Glossopharyngeal nerve IX**: Tympanic nerve, muscular branch
-  * **Function**: Sensory (posterior 1/3 tongue, oropharynx), taste (posterior 1/3 tongue), motor (stylopharyngeus), parasympathetic (parotid gland)
-  * **Tympanic nerve**: Tympanic nerve - lesser petrosal nerve - otic ganglion (parotid gland)
-  * **Muscular branch**
-* **Vagus nerve X**: Auricular branch, pharyngeal branch, superior laryngeal nerve, recurrent laryngeal nerve, cardiac branch, pulmonary branch, esophageal branch, vagus trunk
-  * **Function**: Sensory (larynx, laryngopharynx, viscera), taste (epiglottis), motor (pharyngeal muscle, laryngeal muscle), parasympathetic (thoracic and abdominal viscera)
-  * **Superior laryngeal nerve**: External laryngeal nerve (cricothyroid), internal laryngeal nerve (sensory above vocal cord)
-  * **Recurrent laryngeal nerve**: Left reccurent laryngeal nerve (loop aortic arch), right reccurent laryngeal nerve (loop subclavian artery)
-* **Accessory nerve XI**
-  * **Function**: Motor (sternocleidomastoid, trapezius)
-* **Hypoglossal nerve XII**
-  * **Function**: Motor (lingual muscle)
-{: .notice--info}
-
-### Cervical Plexus
-
-### Brachial Plexus
-
-### Lumbar Plexus
-
-### Sacral Plexus
-
-### Autonomic Nerve Plexus
-
-## Space
-
-### Head and Neck
-
-* **Orbit**
-  * **Common tendinous ring**: CN II, CN III, CN VI, ophthalmic artery
-  * **Superior orbital fissure**: CN IV, CN V1, superior ophthalmic vein
-  * **Inferior orbital fissure**: CN V2, inferior ophthalmic vein
-* **Pharynx**
-  * **Above superior constrictor**: Levator veli palatini, tensor veli palatini
-  * **Between superior and middle constrictor**: Stylopharyngeus, CN IX
-  * **Between middle and inferior constrictor**: Superior laryngeal nerve
-  * **Below infeiror constrictor**: Recurrent laryngeal nerve
-* **Suboccipital triangle**
-  * **Border**: Obliquus capitis superior, obliquus capitis inferior, rectus capitis posterior major
-  * **Angle**: Occipital bone, C1 transverse process, C2 spinous process
-  * **Content**: Vertebral artery, suboccipital nerve, C1 lamina
-* **Anterior cervical triangle**
-  * **Border**: Cervical midline, sternocleidomastoid, mandible (subdivided by digastric anterior belly, digastric posterior belly, omohyoid superior belly)
-  * **Subdivision**: Submental triangle (submental lymph node), submandibular triangle (submandibular gland), carotid triangle (carotid sheath), muscular triangle (infrahyoid muscles)
-* **Posterior cervical triangle**
-  * **Border**: Sternocleidomastoid, trapezius, clavicle (subdivided by omohyoid inferior belly)
-  * **Subdivision**: Occipital triangle (transverse cervical artery, CN XI), supraclavicular triangle
-* **Cervical deep fascia**
-  * **Investing layer**: Whole neck
-  * **Pretracheal layer**: Thyroid gland
-  * **Prevertebral layer**: Sympathetic trunk
-  * **Carotid sheath**: Common carotid artery, internal jugular vein, vagus nerve, deep cervical lymphp node
-  * **Retropharyngeal space**: Between pretrecheal layer (buccopharyngeal fascia) and prevertebral layer
-{: .notice--info}
-
-### Thorax and Abdomen
-
-* **Scalene**
-  * **Anterior to anterior scalene**: Subclavian vein, thoracic duct
-  * **Between anterior and middle scalene**: Subclavian artery, brachial plexus
-* **Intercostal space**
-  * **Position**: Between internal and innermost intercostalis
-  * **Content (superior to inferior)**: Intercostal vein, intercostal artery, intercostal nerve
-* **Diaphragm**
-  * **Caval hiatus (T8, central tendon)**: Inferior vena cava, right phrenic nerve
-  * **Esophageal hiatus (T10, right crus)**: Esophagus, vagus nerve
-  * **Aortic hiatus (T12, bewtween two crura)**: Aorta, azygos vein, thoracic duct
-  * **Median arcuate ligament**: Aorta
-  * **Medial arcuate ligament**: Psoas major, sympathetic trunk
-  * **Lateral arcuate ligament**: Quadratus lumborum
-* **Rectus sheath**
-  * **Above arcuate line**: Anterior (external oblique, internal oblique), posterior (internal oblique, transversus abdominus, fascia transversalis)
-  * **Below arcuate line**: Anterior (external oblique, internal oblique, transversus abdominus), posterior (fascia transversalis)
-* **Inguinal canal**
-  * **Wall**: External oblique aponeurosis, fascia transversalis, inguinal and lacunar ligament
-  * **Content**: Spermatic cord (male), round ligament (female), ilioinguinal nerve
-  * **Ring**: Deep ring (by fascia transversalis), superficial ring (by external oblique aponeurosis)
-* **Hasselbach triangle**
-  * **Border**: Rectus abdominus, inferior epigastric artery, inguinal ligament
-  * **Hernia**: Direct inguinal (Hasselbach traingle, above inguinal ligament, medial to inferior epigastric artery), indirect inguinal (deep ring, above inguinal ligament, lateral to inferior epigastric artery), femoral hernia (femoral ring, below inguinal ligament)
-* **Ascultation triangle**
-  * **Border**: Trapezius, latissimus dorsi, scapula
-* **Lumbar triangle**
-  * **Border**: Latissimus dorsi, external oblique, iliac crest
-{: .notice--info}
-
-###  Pelvis and Perineum
-
-* **Deep perineal pouch**
-  * **Position**: Above perineal membrane
-  * **Content**: Membranous urethra, external urethral sphincter, deep transverse perineal muscle, artery and nerve of pennis/clitoris, bulbourethral gland
-* **Superficial perineal pouch**
-  * **Position**: Below perineal membrane
-  * **Content**: Crus and bulb of pennis/clitoris, superficial transverse perineal muscle, artery and nerve of scrotum/labia, vestibular gland
-* **Ischioanal fossa**
-  * **Wall**: Levator ani, obturator internus
-  * **Content**: Inferior rectal artery, inferior rectal nerve
-{: .notice--info}
-
-### Upper Limb
-
-* **Axilla**
-  * **Border**: pectoralis major, subscapularis, anterior serratus, coracobrachialis
-  * **Content**: Axillary artery, axillary nerve, brachial plexus
-* **Quadrangular space**
-  * **Border**: Teres major, teres minor, humerus, triceps brachii long head
-  * **Content**: Axillary nerve, posterior circumflex humeral artery
-* **Triangular space**
-  * **Border**: Teres major, teres minor, triceps brachii long head
-  * **Content**: Circumflex scapular artery
-* **Triangular interval**
-  * **Border**: Teres major, humerus, triceps brachii long head
-  * **Content**: Radial nerve, profunda brachial artery
-* **Cubital fossa**
-  * **Border**: Pronator teres, brachioradialis
-  * **Content**: Median nerve, brachial artery, biceps brachii tendon, radial nerve
-* **Carpal tunnel**
-  * **Border**: Flexor retinaculum, carpal bone
-  * **Flexor retinaculum**: From scaphoid and trapezium to pisiform and hamate
-  * **Content**: Median nerve, flexor digitorum superficialis, flexor pollicis longus, flexor digitorum profundus
-* **Anatomic snuffbox**
-  * **Border**: Abductor pollicis longus and extensor pollicis brevis, extensor pollicis longus
-  * **Content**: Radial artery
-{: .notice--info}
-
-### Lower Limb
-
-* **Femoral triangle**
-  * **Border**: Adductor longus, sartorius, inguinal ligament
-  * **Content (femoral sheath)**: Femoral artery, femoral vein, femoral canal (lymph node)
-  * **Content (lateral)**: Femoral nerve
-* **Adductor canal**
-  * **Position**: Between anterior and medial compartment of thigh
-  * **Content**: Femoral artery, femoral vein, saphenous nerve
-  * **Adductor hiatus**: Formed by adductor magnus
-* **Popliteal fossa**
-  * **Border**: Posterior compartment muscle of thigh, posterior compartment muscle of leg
-  * **Content (inside to outside)**: Popliteal artery, popliteal vein, tibial nerve, common fibular nerve
-* **Retinaculum**
-  * **Extensor retinaculum (superior and inferior)**: Anterior tibial artery, deep fibular nerve, anterior compartment muscle tendon
-  * **Flexor retinaculum**: Posterior tibial artery, tibial nerve, posterior compartment muscle tendon
-{: .notice--info}
-
-## Cardiovascular System
-
-## Respiratory System
-
-## Gastrointestinal System
-
-## Renal System
-
-## Reproductive System
-
-## Endocrine System
-
-## Nervous System
-
-### Cerebrum
-
-* **Cerebral cortex**
-  * **Sensory**: Vision (occipital 17 18 19), hearing (temporal 41 42), taste (insula 43), smelling (parahippocampus 28), somatosensory (postcentral 3 1 2)
-  * **Motor**: Motor (precentral 4 6 8)
-  * **Interneuron**: Language motor (left broca 44 45), language sensory (left wernicke 22, angular 39)
-* **Cerebral medulla**
-  * **Projection**: Corona radiate, internal capsule
-  * **Association**: Uncinate fasiculus (temporal-frontal), superior longitudinal fasiculus (occipital-frontal), inferior longitudinal fasiculus (occipital-temporal), arcuate fasiculus (Wernicke-Broca)
-  * **Commisure**: Anterior commisure (bilateral olfactory bulb), fornix commisure (bilateral hippocampus), corpus callosum (bilateral frontal and parietal lobes)
-* **Basal ganglia**
-  * **Component**: Striatum (caudate nucleus, putamen), globus pallidus (internal segment, external segment), substantia nigra (compacta, reticulata), subthalamic nucleus
-  * **Function**: Motor planning, reward
-  * **Direct pathway**: Cortex/SNc (+) striatum (-) Gpi/SNr (-) thalamus (+) cortex
-  * **Indirect pathway**: Cortex/SNc (+) striatum (-) GPe (-) STN (+) GPi/SNr (+) thalamus (+) cortex
-  * **Disease**: Parkinsonism (SNc), Huntington chorea (caudate nucleus), hemiballism (STN)
-* **Limbic system**
-  * **Component**: Hippocampal formation (hippocampus), limbic lobe (parahippocampus, cingulate), amygdala, hypothalamus (mamillary body), thalamus (anterior nucleus)
-  * **Function**: Emotion, memmory
-  * **Connection**: Fornix (hippocampus-mamillary body), mamillothalamic tract (mamillary body-anterior nucleus), stria terminalis (amygdala-septal nucleus)
-  * **Papex circuit**: Parahippocampus (entorhino cortex) - hippocampus - mamillary body - anterior nucleue - cingulate - parahippocampus
-* **Blood supply**
-  * **Anterior cerebral artery**: Anterior medial cerebrum (sensory and motion below knee)
-  * **Middle cerebral artery**: Anterior lateral cerebrum (sensory and motion above knee, language), basal ganglia
-  * **Posterior cerebral artery**: Posterior cerebrum (vision)
-{: .notice--info}
-
-### Diencephalon
-
-* **Thalamus**
-  * **Sensory**: Lateral geniculate body (vision), medial geniculate body (hearing), ventroposterior lateral nucleus (somatosensory of body), ventroposterior medial nucleus (somatosensory of head)
-  * **Motor**: Ventral anterior nucleus, ventral lateral nucleus
-  * **Blood supply**: Posterior cerebral artery
-* **Hypothalamus**
-  * **Hormone**: Suprachiasmatic nucleus (circadium rhythm), supraoptic nucleus (ADH), paraventricular nucleus (oxytocin)
-  * **ANS**: Anterior nucleus (parasympathetic), posterior nucleus (sympathetic)
-  * **Desire**: Ventromedial nucleus (satiety), lateral nucleus (desire)
-* **Epithalamus**
-  * **Pineal body**: Secrete melatonin, light-dark cycle
-  * **Posterior commisure**: Connect E-W nucleus and pretectal area, light reflex
-{: .notice--info}
-
-### Brain Stem
-
-* **Midbrain**
-  * **Cerebral peduncle**: Corticospinal and corticobulbar tract, to pyramid
-  * **Substantia nigra**: Direct and indirect pathway, to basal ganglia
-  * **Red nucleus**: Motion modulation
-  * **Periaquaductal grey**: Pain modulation
-  * **Superior colliculus**: Visual reflex
-  * **Inferior colliculus**: Auditory reflex
-* **Pons**
-  * **Pontine nucleus**: Motion modulation
-  * **Respiratory center**: Pneumotaxic, apneustic
-* **Medulla oblongata**
-  * **Pyramid**: Corticospinal tract, to pyramidal decussation
-  * **Arcuate nucleus**: Motion modulation, to cerebellum
-  * **Olivary nuclear complex**: Superior olivary nucleus (auditory), inferior olivary nucleus (balance)
-  * **Gracile nucleus**: Proprioception and light touch of lower limb, to internal arcuate fiber and medial lemniscus
-  * **Cuneate nucleus**: Proprioception and light touch of upper limb, to internal arcuate fiber and medial lemniscus
-  * **Accessory cuneate nucleus**: Unconscious proprioception of upper limb, to cerebellum
-  * **Area postrema**: Chemoreceptor trigger zone, without BBB
-  * **Vital center**: Cardiac, respiratory, vasomotor, reflex
-* **Cranial nerve nucleus**
-  * **Mibrain**: CN III, CN IV
-  * **Pons**: CN V, CN VI, CN VII
-  * **Medulla oblongata**: CN VIII, CN IX, CN X, CN XI, CN XII
-  * **Arrangement**: Somatic efferent - visceral efferent - visceral afferent - somatic afferent (medial to lateral)
-* **Tract**
-  * **Medial lemniscus**: Proprioception and light touch of body, from gracile and cuneate nucleus to VPL nucleus (through internal arcuate fiber)
-  * **Spinal lemniscus**: Temperature and pain and crude touch of body, from posterior horn cell to VPL nucleus
-  * **Trigeminothalamic tract**: Proprioception and light touch and crude touch of head, from trigeminal pontine nucleus to VPM nuclus
-  * **Trigeminal lemniscus**: Temperature and pain of head, from trigeminal spinal nucleus to VPM nucleus
-  * **Lateral lemniscus**: Auditory, from superior olivary nucleus to inferior colliculus
-  * **Medial longitudinal fasciculus**: Balance and eye conjugated motion, from vestibular nucleus to CN III IV V nucleus
-* **Reticular formation**
-  * **Structure**: Mixed gray and white matter
-  * **Function**: Arousal level, sleep cycle, muscle tone
-* **Neurotransmitter**
-  * **Dopamine**: Ventral tegmental area - limbic system (addiction), ventral tegmental area - cerebral cortex (schizophrenia), substantia nigra - stiatum (Parkinson), hypothalamus to pituitary (prolactin)
-  * **Norepinephrine**: Locus cereleus
-  * **Serotonin**: Raphe nucleus
-  * **Acetylcholine**
-{: .notice--info}
-
-### Cerebellum
-
-* **Lobe**: Anterior lobe (primary fissure) posterior lobe (posterolateral fissure) flocculonodular lobe
-* **Functional area**: Vestibulocerebellum, spinocerebellum, cerebrocerebellum
-  * **Vestibulocerebellum**: Flocculonodular lobe, connect vestibular nucleus, balance
-  * **Spinocerebellum**: Medial anterior and posterior lobe, connect spinal cord, muscle tone
-  * **Cerebrocerebellum**: Lateral anterior and posterior lobe, connect cerebrum and brainstem, fine movement
-* **Afferent pathway**
-  * **Cerebral cortex (contralateral)**: Cortico-ponto-cerebellar tract, cortico-reticular-cerebellar tract, cortico-olivary-cerebellar tract, cortico-arcuato-cerebellar tract
-  * **Brain stem (ipsilateral)**: Vestibulo-cerebellar tract, cuneo-cerebellar tract
-  * **Spinal cord (ipsilateral)**: Anterior spinocerebellar tract, posterior spinocerebellar tract
-* **Intrinsic pathway**: Afferent fiber - cortex - Purkinje cell - medalla - deep nucleus - efferent fiber
-  * **Afferent fiber**: Climbing fiber (ponto-cerebellar tract, excite Purkinje cell), mossy fiber (other tracts, excite granule cell then purkinje cell)
-  * **Deep nucleus**: Dentate nucleus, interpositus nucleus (emboliform, globose), fastigial nucleus (lateral to medial)
-* **Efferent pathway**
-  * **Contralateral**: Dento-thalamic-cortical tract, emboliform/globose-rebral tract
-  * **Ipsilateral**: Fastigial-vestibular tract, fastigial-reticular tract
-* **Cerebellar peduncle**
-  * **Superior cerebellar peduncle**: Thalamus, red nucleus, anterior spinocerebellar tract
-  * **Middle cerebellar peduncle**: Pontine nucleus, reticular formation
-  * **Inferior cerebellar peduncle**: Olivary nucleus, arcuate nucleus, vestibular nucleus, reticular formation, accessory cuneate nucleus, posterior spinocerebellar tract
-{: .notice--info}
-
-### Spinal Cord
-
-* **Gray matter**
-  * **Posterior horn**: II substantia gelatinosa (temperature, pain, crude touch), III IV nucleus proprius (proprioception, light touch), V nucleus reticularis (visceral sensory)
-  * **Lateral horn**: VII nucleus intermediolateralis (preganglionic neuron of sympathetic and parasympathetic system), VII nucleus dorsalis of Clark (posterior spinocerebellar tract)
-  * **Anterior horn**: VIII medial motor neuron (neck and trunk motion), IX lateral motor neuron (limbs motion)
-* **White matter**
-  * **Posterior funiculus**: Gracile and cuneate fasciculus (proprioception, light touch)
-  * **Lateral funiculus (anterior)**: Lateral spinothalamic track (temperature, pain), anterior spinocerebellar tract (unconscious proprioception)
-  * **Lateral funiculus (posterior)**: Lateral corticospinal tract (muscle motion), posterior spinocerebellar tract (unconscious proprioception), rubrospinal tract (muscle motion)
-  * **Anterior funiculus**: Anterior spinothalamic tract (crude touch), anterior corticospinal tract (muscle motion), tectospinal and vestibularspinal and reticulospinal tract (muscle tone)
-* **Blood supply**
-  * **Spinal artery**: Anterior spinal artery (1), posterior spinal artery (2), from vertebral arery
-  * **Segmental artery**: From vertebral artery, posterior intercostal artery, lumbar artery
-{: .notice--info}
-
-### Pathway
-
-* **Somatic motor**
-  * **Corticobulbar tract**: Cortex - cross cranial nerve nucleus - cranial nerve - voluntary movement
-  * **Lateral corticospinal tract**: Cortex - pyramid - (cross) - lateral funiculus - ventral horn - voluntary movement
-  * **Anterior corticospinal tract**: Cortex - pyramid - anterior funiculus - (cross) - ventral horn - voluntary movement
-  * **Rubralspinal tract**: Red nucleus - (cross) - lateral funiculus - upper limb flexion
-  * **Tectospinal tract**: Colliculus - (cross) - anterior funiculus - muscle tone
-  * **Vestibulospinal tract**: Vestibular nucleus - anterior funiculus - muscle tone
-  * **Reticulospinal tract**: Reticular formation - anterior funiculus - muscle tone
-* **Visceral motor**
-  * **Pupillary and ciliary pathway**: E-W nucleus (CN III) - occulomotor nerve - ciliary ganglion - short ciliary nerve - pupillary sphincter and ciliary muscle
-  * **Lacrimal pathway**: Lacrimal nucleus (CN VII)- intermedius nerve - greater petrosal nerve - pterygoid canal nerve - pterygopalatine ganglion - zygomatic and lacrimal nerve - lacrimal gland
-  * **Submandiblar and sublingual pathway**: Superior salivatory nucleus (CN VII) - intermedius nerve - chorda tympani nerve - lingual nerve - submandibular ganglion - submandibular and sublingual gland
-  * **Parotid pathway**: Inferior salivatory nucleus (CN IX) - typanic nerve - lesser petrosal nerve - otic ganglion - auriculotemporal nerve - parotid gland
-* **Somatosensory**
-  * **Trigeminothalamic tract**: Prioception and touch - semilunar ganglion (1st) - pontine nucleus (2nd) - trigeminothalamic tract - VPM - cerebral cortex
-  * **Trigeminal lemniscus tract**: Temperature and pain - semilunar nucleus (1st) - spinal nucleus (2nd) - trigeminal lemniscus - VPM - cerebral cortex
-  * **Medial lemniscus tract**: Prioception and light touch - dorsal root ganglion (1st) - dorsal horn - posterior funiculus - gracile and cuneate nucleus (2nd) - internal arcuate fiber (cross) - VPL - cerebral cortex
-  * **Lateral spinothalamic tract**: Temperature and pain - dorsal root ganglion (1st) - dorsal horn - nucleus (2nd) - lateral funiculus - VPL - cerebral cortex
-  * **Anterior spinothalamic tract**: Crude touch - dorsa root ganglion (1st) - dorsal horn - nucleus (2nd) - anterior funiculus - VPL - cerebral cortex
-  * **Visceral sensory tract**: Sympathetic pathway (pain, stress), parasympathetic pathway (other reflex)
-* **Special sensory**
-  * **Olfactory pathway**
-  * **Visual pathway**
-  * **Auditory pathway**
-  * **Vestibular pathway**
-* **Reflex**
-  * **Light reflex**: Retina - CN II - pretecal nucleus - CN III - pupillary sphincter
-  * **Corneal reflex**: Cornea - CN V1 - trigeminal nucleus - CN VII - orbicularis oculi
-  * **Pharyngeal reflex**: Oropharynx - CN IX - solitary nucleus - CN X - pharyngeal muscle
-  * **Baroreflex**: Carotis and aortic sinus - CN IX X - solitary nucleus - CN X - heart and vessel
-  * **Cremasteric reflex**: Medial thigh skin - genitofemoral nerve (ilioinguinal nerve) - L1 L2 - genitofemoral nerve - cremasteric muscle
-  * **Patellar reflex**: Patellar ligament - femoral nerve - L3 L4 - femoral nerve - quadriceps femoris
-{: .notice--info}
-
-## Histology
-
-### Nervous System
-
-* **Cerebrum**
-  * **Layer**: Molecular layer (horizontal cell, Cajal cell), external granular layer (stallate cell), external pyramidal layer (pyramidal cell), internal granular layer (stellate cell), internal pyramidal layer (pyramidal cell, Betz cell), multiform layer (fusiform cell, Martinotti cell)
-  * **Classification**: Homotypical (all 6 layer), heterotypical granular type (prominent layer 2 4, sensation), heterotypical agranular type (absent layer 2 4, motor)
-* **Cerebellum**
-  * **Layer**: Molecular layer (basket cell, stellate cell), Purkinje layer (Purkinje cell, the only excitatory), granular layer (granule cell)
-* **Pineal body**: Brain sand
-{: .notice--info}
-
-## Embryology
-
-# Physiology / 生理学
-
-# Pathology / 病理学
-
-# Pharmacology / 薬理学
-
-## Autonomic Nervous System
-
-### Adrenergic Agonist
-
-* **αβ agonist**
-  * **Drugs**: Epinephrine, norepinephrine, dopamine
-  * **Mechanism**: αβ agonist (epinephrine: β>α, norepinephrine: α>β, dopamine: D>β>α)
-  * **Indication**: Shock (dopamine preserve renal blood flow), glaucoma (epinephrine)
-* **α1 agonist**
-  * **Drugs**: Oxymetazoline, phenylephrine, midodrine
-  * **Mechanism**: α1 agonist
-  * **Indication**: Nasal congestion (Oxymetazoline, phenylephrine), midodrine (orthostatic hypotension)
-* **α2 agonist**
-  * **Drugs**: Clonidine, methyldopa, brimonidine
-  * **Mechanism**: α2 agonist
-  * **Indication**: Hypertension (methyldopa: for pregnant women), glaucoma (brimonidine)
-* **β agonist**
-  * **Drugs**: Isoproterenol
-  * **Mechanism**: β1-β2 agonist
-  * **Indication**: Bradycardia
-* **β1 agonist**
-  * **Drugs**: Dobutamine
-  * **Mechanism**: β1 agonist
-  * **Indication**: Heart failure
-* **β2 agonist**
-  * **Drugs**: Albuterol (salbutamol), terbutaline, fenoterol, metaproterol, procaterol, salmeterol, formoterol, ritodrine
-  * **Mechanism**: β2 agonist
-  * **Indication**: Asthma, COPD, tocolytic (ritodrine)
-* **β3 agonist**
-  * **Drugs**: Mirabegron
-  * **Mechanism**: β3 agonist
-  * **Indication**: Overactive bladder
-* **Indirect agonist**
-  * **Drugs**: Amphetamine, methylphenidate, modafinil, cocaine, amitryptiline
-  * **Mechanism**: Increase catecholamine release (amphetamine), inhibit catecholamine reuptake (others)
-  * **Indication**: ADHD, narcolepsy
-* **Mixed agonist**
-  * **Drugs**: Ephedrine, pseudoephedrine
-  * **Mechanism**: Direct and indirect agonist
-  * **Indication**: Nasal congestion, nocturnal neuresis
-{: .notice--info}
-
-### Adrenergic Antagonist
-
-* **α antagonist**
-  * **Drugs**: Phentolamine, phenoxybenzamine
-  * **Mechanism**: Non-selective α antagonist
-  * **Indication**: Pheochromocytoma diagnosis (Phentolamine), pheochromocytoma treatment (phenoxybenzamine)
-* **α1 antagonist**
-  * **Drugs**: Prazosin, doxazosin, terazosin, tamsulosin, indoramin, urapidil
-  * **Mechanism**: α1 antagonist
-  * **Indication**: Hypertension, BPH
-* **α2 antagonist**
-  * **Drugs**: Mirtazapine
-  * **Mechanism**: α2 antagonist
-  * **Indication**: Depression
-* **β antagonist**
-  * **Drugs**: Nadolol, pindolol, propranolol, timolol
-  * **Mechanism**: Non-selective β antagonist
-  * **Indication**: Hypertension, arrhythmia, heart failure, glaucoma (timolol)
-* **β1 antagonist**
-  * **Drugs**: Acebutolol, atenolol, betaxolol, bisoprolol, esmolol, metoprolol
-  * **Mechanism**: β1 antagonist
-  * **Indication**: Same as β antagonist
-* **αβ antagonist**
-  * **Drugs**: Labetalol, carvedilol
-  * **Mechanism**: αβ antagonist
-  * **Indication**: Hypertension, heart failure
-* **Indirect antagonist**
-  * **Drugs**: Reserpine, guanethidene, bretylium, metyrosine
-  * **Mechanism**: Deplete neurotransmitter in vesicle (reserpine), inhibit vesicle release (guanethidine, bretylium), inhibit tyrosine hydroxylase (metyrosine)
-  * **Indication**: Hypertension, heart failure
-{: .notice--info}
-
-### Cholinergic Agonist
-
-* **Direct agonist**
-  * **Drugs**: Acetylcholine, bethanechol, carbachol, methacholine, pilocarpine, cevimeline
-  * **Mechanism**: Muscarinic agonist (+ nicotinic agonist: acetylcholine, carbachol)
-  * **Indication**: Ileus and urinary retension, asthma diagnosis (methacholine), glaucoma (pilocarpine), Sjogren syndrome (cevimeline)
-* **Indirect agonist (anti-cholinesterase)**
-  * **Drugs**: Physostigmine, neostigmine, pyridostigmine, edrophonium, ambenonium
-  * **Mechanism**: Inhibit cholinesterase to increase acetylcholine
-  * **Indication**: Myasthenia gravis, ileus and urinary retension, glaucoma (physostigmine)
-  * **Organic phosphate**: Irreversible anti-cholinesterase (treatment: pyridostigmine, atropine, pralidoxime)
-{: .notice--info}
-
-### Cholinergic Antagonist
-
-* **Muscarinic antagonist**
-  * **Drugs and indication**
-    * Reduce exocrine: Atropine
-    * Ophthalmoscopic examination: Homatropine, cyclopentolate, tropicamide
-    * Motion sickness: Scopolamine
-    * Gastric ulcer: Pirenzepine, propantheline
-    * Diarrhea and IBS: Dicyclomine, clidinium
-    * Asthama and COPD: Ipratropium, tiotropium
-    * Overactive bladder: Oxybutynin
-    * Parkinson disease: Trihexyphenidyl, bentropine, biperidin
-  * **Mechanism**: Muscarinic antagonist
-* **Nitotinic antagonist (ganglion blocker)**
-  * **Drugs**: Mecamylamine, trimethaphan, hexamethonium
-  * **Mechanism**: Nitotinic antagonist at autonomic ganglion
-  * **Indication**: Hypertension
-* **Nitotinic antagonist (muscle relaxant)**
-  * **Drugs**: Tubocurarine, mivacurium, atracurium, cisatracurium, pancuronium, vecuronium, rocuronium, succinylcholine, decamothonium
-  * **Mechanism**: Nitotinic antagonist at neuromuscular junction (non-depolarizing: tubocurarine ~ rocuronium, depolarizing: succinylcholine, decamothonium)
-  * **Indication**: Anesthesia
-* **Other muscle relaxant**
-  * **Drugs**: Diazepam, baclofen, tizanidine, dantroline, hemicholinium, botulinum toxin, tetrodotoxin
-  * **Mechanism**: GABA-A agonist (diazepam), GABA-B agonist (baclofen), α2 agonist (tizanidine), ryodine receptor blocker (dantroline), inhibit cholien uptake (hemicholinium), inhibit vesicle release (botulinum toxin), inhibit Na+ channel (tetrodotoxin)
-  * **Indication**: Spasmolytic
-{: .notice--info}
-
-## Central Nervous System
-
-### Antipsychotic
-
-* **Typical antipsychotic**
-  * **Drugs**: Chlorpromazine, thioridazine, haloperidol, fluphenazine
-  * **Mechanism**: D2 agtagonist
-  * **Indication**: Schizophrenia, psycotic disorder (positive symptom)
-  * **Adverse effect**: Extrapyramidal syndrome, hyperprolactinemia, neuroleptic malignant syndrome (treatment: dantrolene), cholinergic antagonist, histamine antagonist, α1 adrenergic antagonist
-* **Atypical antipsychotic**
-  * **Drugs**: Clozapine, olanzapine, quetiapine, risperidone, ziprasidone, aripiprazole, amisulpride
-  * **Mechanism**: Multi-receptor antagonist (clozapine), D2 / 5HT2 antagonist (risperidone), D2 partial agonist (aripiprazole), D2 / D3 antagonist (amisulpride)
-  * **Indication**: Same as typical (positive and negative symptom)
-  * **Adverse effect**: Agranulocytosis (clozapine), QT prolong (ziprasidone)
-{: .notice--info}
-
-### Antidepressant
-
-* **TCA (tricyclic antidepressant)**
-  * **Drugs**: Imipramine, desipramine, clomipramine, amitriptyline, protriptyline, nortriptyline
-  * **Mechanism**: Serotonin norepinephrine reuptake inhibitor
-  * **Indication**: Depression
-  * **Adverse effect**: Cholinergic antagonist, histamine antagonist, α1 adrenergic antagonist
-* **SSRI (selective serotonin reuptake inhibitor)**
-  * **Drugs**: Fluoxetine, paroxetine, fluvoxetine, setraline, citalopram, escitalopram
-  * **Mechanism**: Selective serotonin reuptake inhibitor
-  * **Indication**: Depression
-  * **Adverse effect**: GI distress, sexual dysfunction
-* **SNRI (serotonin norepinephrine reuptake inhibitor)**
-  * **Drugs**: Venlafaxine, desvenlafaxine, duloxetine, milnacipran
-  * **Mechanism**: Serotonin norepinephrine reuptake inhibitor
-  * **Indication**: Depression
-* **SARI (serotonin antagonist / reuptake inhibitor)**:
-  * **Drugs**: Trazodone, nefazodone
-  * **Mechanism**: Serotonin 5HT2 antagonist / reuptake inhibitor
-  * **Indication**: Depression
-* **MAOI (monoamine oxidase inhibitor)**:
-  * **Drugs**: Tranylcypromine, phenelzine, isocarboxazid
-  * **Mechanism**: Monoamine oxidase inhibitor
-  * **Indication**: Depression
-  * **Adverse effect**: Hypertension crisis (with tyramine), serotonin syndrome (with SSRI)
-* **NaSSA (noradrenergic and specific serotonergic antiderpressant)**: 
-  * **Drugs**: Mirtazapine
-  * **Mechanism**: α2 adrenergic antagonist
-  * **Indication**: Depression
-* **NDRI (norepinephrine dopamine reuptake inhibitor)**
-  * **Drugs**: Bupropion
-  * **Mechanism**: Norepinephrine dopamine reuptake inhibitor
-  * **Indication**: Smoking cessation
-* **NRI (norepinephrine reuptake inhibitor)**
-  * **Drugs**: Amoxapine, maproline
-  * **Mechanism**: Norepinephrine reuptake inhibitor
-  * **Indication**: Depression
-{: .notice--info}
-
-### Mood Stabilizer
-
-* **Lithium**
-  * **Drugs**: Lithium
-  * **Mechanism**: Inhibit Gq
-  * **Indication**: Bipolar disorder
-{: .notice--info}
-
-## Cardiovascular System
-
-### Antihypertensive Drug
-
-* **ACE inhibitor**
-  * **Drugs**: Captopril, enalapril, lisinopril
-  * **Mechanism**: Angiotensin converting enzyme inhibitor
-  * **Indication**: Hypertension (heart failure, diabetes)
-  * **Adverse effect**: Nonproductive cough, angioadema
-* **Angiotensin II receptor blocker**
-  * **Drugs**: Losartan, valsartan, candesartan
-  * **Mechanism**: Angiotensin II receptor blocker
-  * **Indication**: Hypertension
-* **Renin inhibitor**
-  * **Drugs**: Aliskiren
-  * **Mechanism**: Renin inhibitor
-  * **Indication**: Hypertension
-* **β-blocker**
-  * **Drugs**: Acebutolol, atenolol, carvedilol, esmolol, labetalol, metoprolol, pindolol, propranolol
-  * **Mechanism**: β1-blocker (reduce cardial output, inhibit renin secretion)
-  * **Indication**: Hypertension
-  * **Adverse effect**: Asthma
-* **Calcium channel blocker**
-  * **Drugs**: DHP: Amlodipine, nifedipine, felodipine / Non-DHP: verapamil, diltiazem, bepridil
-  * **Mechanism**: Calcium channel blocker (vessel: DHP, heart: non-DHP)
-  * **Indication**: Hypertension
-* **Diuretics**
-  * See diuretics
-* **Vasodilator**
-  * **Drugs**: Minoxidil, diazoxide, hydralazine, nitroprusside
-  * **Mechanism**: Activate K channel (minoxidil, diazoxide), increase cGMP (hydralazine, nitroprusside)
-  * **Indication**: Hypertension
-  * **Adverse effect**: Hirsutism (minoxidil), hyperglycemia (diazoxide), lupus-like syndrome (hydralazine), nitroprusside (cyanide toxicity)
-* **α1 antagonist**
-  * **Drugs**: Prazosin, doxazosin, terazosin
-  * **Mechanism**: α1 antagonist 
-  * **Indication**: Hypertension (with BPH)
-* **α2 agonist**
-  * **Drugs**: Clonidine, methyldopa
-  * **Mechanism**: α2 agonist 
-  * **Indication**: Hypertension (pregnancy)
-* **D1 agonist**
-  * **Drugs**: Fenoldopam
-  * **Mechanism**: D1 agonist
-  * **Indication**: Malignant hypertension
-* **PDE5 inhibitor**
-  * **Drugs**: Sildenafil, vardenafil
-  * **Mechanism**: PDE5 inhibitor
-  * **Indication**: Pulmonary hypertension, erectile dysfunction
-{: .notice--info}
-
-### Antiarrhythmic Drug
-
-* **Class IA**
-  * **Drugs**: Quinidine, procainamide, disopyramide
-  * **Mechanism**: Na (and K) channel blocker (prolong QRS)
-  * **Indication**: Arrythmia
-  * **Adverse effect**: Torsade de pointes, cinchonism (quinidine), lupus-like syndrome (procainamide)
-* **Class IB**
-  * **Drugs**: Mexiletine, lidocaine, phenytoin
-  * **Mechanism**: Na channel blocker (prolong QRS)
-  * **Indication**: Arrythmia
-* **Class IC**
-  * **Drugs**: Flecanide, propafenone
-  * **Mechanism**: Na channel blocker (prolong QRS)
-  * **Indication**: Arrythmia
-* **Class II**
-  * **Drugs**: Propranolol, metoprolol, pindolol, esmolol
-  * **Mechanism**: β blocker (prolong PR)
-  * **Indication**: Tachycardia, Post-MI
-* **Class III**
-  * **Drugs**: Amiodarone, dronedarone, sotalol, ibutilide, dofetilide
-  * **Mechanism**: K channel blocker (prolong QT)
-  * **Indication**: Arrythmia
-  * **Adverse effect**: Torsade de pointes, thyroid dysfunction (amiodarone), liver dysfunction (amiodarone), pulmonary fibrosis (amiodarone)
-* **Class IV**
-  * **Drugs**: Verapamil, diltiazem, bepridil
-  * **Mechanism**: Ca channel blocker (prolong PR)
-  * **Indication**: Tachycardia
-* **Class V**
-  * **Drugs**: Adenosine, MgSO4
-  * **Mechanism**: Gi (adenosine)
-  * **Indication**: PSVT (adenosine), torsade de pointes (MgSO4)
-{: .notice--info}
-
-## Renal System
-
-### Diuretics
-
-* **Carbonic anhydrase inhibitor**
-  * **Drugs**: Acetazolamide
-  * **Mechanism**: Inhibit carbonic anhydrase
-  * **Indication**: Glaucoma, urine alkalinization
-  * **Adverse effect**: Acidosis, renal calculi
-* **Loop diuretics**
-  * **Drugs**: Furosemide, bumetanide, torsemide, ethacrynic acid
-  * **Mechanism**: Inhibit Na-K-2Cl contransporter
-  * **Indication**: Acute pulmonary edema, congestive heart failure
-  * **Adverse effect**: Hypokalemia, hypocalcemia, alkalosis, ototoxicity (with aminoglycoside)
-* **Thiazide diuretics**
-  * **Drugs**: Hydrochlorothiazide, chlorothiazide
-  * **Mechanism**: Inhibit Na-Cl contransporter
-  * **Indication**: Hypertension, nephrogenic diabetes insipidus
-  * **Adverse effect**: Hypokalemia, hypercalcemia, alkalosis, hyperuricemia, hyperglycemia
-* **Potassium-sparing diuretics**
-  * **Drugs**: Spironolactone, eplerenone, amiloride, triamterene
-  * **Mechanism**: Aldosterone antagonist (spironolactone, eplerenone), ENac blocker (amiloride, triamterene)
-  * **Indication**: Hyperaldosteronism, prevent K+ loss
-  * **Adverse effect**: Hyperkalemia, acidosis, gynecomastia (spironolactone)
-* **Osmotic diuretics**
-  * **Drugs**: Mannitol
-  * **Mechanism**: Inhibit water reabsorption
-  * **Indication**: Reduce intracranial and intraocular pressure 
-* **ADH antagonist**
-  * **Drugs**: Conivaptan, tolvaptan, demeclocycline
-  * **Mechanism**: V1 and/or V2 antagonist
-  * **Indication**: SIADH
-{: .notice--info}
-
-## Endocrine System
-
-### Hypothalamus and Pituitary Hormone
-
-* **Somatostatin analog**
-  * **Drugs**: Octreotide, lantreotide
-  * **Mechanism**: Somatostatin analog (decrease GH)
-  * **Indication**: Acromegaly, esophageal variceal bleeding
-* **GH agonist**
-  * **Drugs**: Somatropin, somatrem, mecasermin
-  * **Mechanism**: recombinant GH (somatropin, somatrem), recombinant IGF-1 (mecasermin)
-  * **Indication**: Acromegaly, variceal bleeding
-* **GH antagonist**
-  * **Drugs**: Pegvisomant
-  * **Mechanism**: GH antagonist
-  * **Indication**: Acromegaly
-* **Dopamine analog**
-  * **Drugs**: Bromocriptine, cabergoline
-  * **Mechanism**: Dopamine analog (decrease prolactin)
-  * **Indication**: Hyperprolactenemia
-* **GnRH agonist**
-  * **Drugs**: Leuprolide, goserelin
-  * **Mechanism**: GnRH agonist (pulsatile: increase FSH and LH, chronic: decrease FSH and LH)
-  * **Indication**: Prostate cancer, endometriosis
-* **GnRH antagonist**
-  * **Drugs**: Abarelix, ganirelix
-  * **Mechanism**: GnRH antagonist (decrease FSH and LH)
-  * **Indication**: Prostate cancer, controlled ovarian stimulation
-* **ADH agonist**
-  * **Drugs**: Desmopressin
-  * **Mechanism**: ADH V2 agonist
-  * **Indication**: Central diabetes indipidus, hemophilia A
-* **ADH antagonist**
-  * **Drugs**: Conivaptan, tolvaptan, demeclocycline
-  * **Mechanism**: ADH V1/2 antagonist
-  * **Indication**: SIADH
-{: .notice--info}
-
-### Thyroid Hormone
-
-* **Thyroid hormone**
-  * **Drugs**: Liothyronine (T3), levothyroxine (T4), liotrix (mix)
-  * **Mechanism**: Thyroid hormone
-  * **Indication**: Hypothyroidism
-* **Thioamide**
-  * **Drugs**: Propylthiouracil, methimazole, carbimazole
-  * **Mechanism**: Inhibit T4/T3 synthesis and conversion
-  * **Indication**: Hyperthyroidism
-  * **Adverse effect**: Agranulocytosis
-* **Iodide**
-  * **Drugs**: Iodide, lithium
-  * **Mechanism**: Inhibit T4/T3 release, decrease thyroid vascularity
-  * **Indication**: Before thyroid surgery 
-* **Radioactive iodide**
-  * **Drugs**: I-131
-  * **Mechanism**: Destruct thyroid gland
-  * **Indication**: Hyperthyroidism, thyroid carcinoma
-* **Anion inhibitor**
-  * **Drugs**: Perchlorate, pertechnetate, thriocyanate
-  * **Mechanism**: Inhibit iodide entry
-  * **Indication**: Hyperthyroidism
-* **Other therapy**
-  * **Drugs**: β-blocker, hydrocortisone
-  * **Mechanism**: Inhibit T4/T3 conversion, release symptom
-{: .notice--info}
-
-### Adrenal Cortical Hormone
-
-* **Glucocorticoid**
-  * **Drugs**: Short-acting: Cortisol, cortisone / Intermediate-acting: Prednisone, prednisolone, methylprednisolone, triamcinolone / Long-acting: Betamethasone, dexamethasone
-  * **Mechanism**: GR receptor agonist
-  * **Indication**: Inflammation, replacement therapy, Cushing syndrome diagnosis (dexamethasone)
-  * **Adverse effect**: Adrenal suppression, hyperglycemia, osteoporosis, peptic ulcer
-* **Mineralcorticoid**
-  * **Drugs**: Desoxycorticosterone, fludrocortisone
-  * **Mechanism**: MR receptor agonist
-  * **Indication**: Replacement therapy
-* **Synthesis inhibitor**
-  * **Drugs**: Ketoconazole, metyrapone, aminoglutethimide
-  * **Mechanism**: 17α-hydroxylase inhibitor (ketoconazole), 11β-hydroxylase inhibitor (metyrapone), cholesterol side chain cleaving enzyme inhibitor (aminoglutethimide)
-  * **Indication**: Cushing syndrome, pituitary function test (metyrapone)
-{: .notice--info}
-
-### Sex Hormone
-
-* **Estrogen**
-  * **Drugs**: Estradiol, mestranol
-  * **Mechanism**: Estrogen
-  * **Indication**: Menopausal therapy, contraception
-  * **Adverse effect**: Endometrial cancer, breast cancer
-* **SERM**
-  * **Drugs**: Clomiphene, raloxifene, tamoxifen
-  * **Mechanism**: Selective estrogen receptor modulator
-  * **Indication**: Ovary dysfunction infertility (clomiphene), osteoporosis (raloxifene), breast cancer (tamoxifen)
-* **Estrogen antagonist**
-  * **Drugs**: Fulvestrant
-  * **Mechanism**: Estrogen antagonist
-  * **Indication**: Breast cancer
-* **Aromatase inhibitor**
-  * **Drugs**: Letrozole, anastrolzole, exemestane
-  * **Mechanism**: Aromatase inhibitor (decrease estrogen)
-  * **Indication**: Breast cancer
-* **Progestin**
-  * **Drugs**: Norgestrel, desogestrol
-  * **Mechanism**: Progestin
-  * **Indication**: Endometriosis, contraception (with estrogen)
-* **Progestin antagonsit**
-  * **Drugs**: Mifepristone
-  * **Mechanism**: Progestin antagonist
-  * **Indication**: Abortion
-* **Androgen**
-  * **Drugs**: Testosterone, oxandrolone, danazol
-  * **Mechanism**: Androgen
-  * **Indication**: Hypogonadism, endometriosis (danazol)
-  * **Adverse effect**: Decreased testicular function
-* **Androgen antagonist**
-  * **Drugs**: Cyproterone, flutamide, bicalutamide, spironolactone
-  * **Mechanism**: Androgen antagonist
-  * **Indication**: Prostate cancer
-* **5α-reductase inhibitor**
-  * **Drugs**: Finasteride
-  * **Mechanism**: 5α-reductase inhibitor (decrease DHT)
-  * **Indication**: BPH, male-pattern baldness
-{: .notice--info}
-
-### Glucose Homeostasis
-
-* **Insulin**
-  * **Drugs**: Rapid-acting: insulin lispro, insulin aspart / Short-acting: Regular insulin / Intermediate-acting: NPH / Long-acting: insulin glargine, insulin detemir, insulin degludec
-  * **Mechanism**: Insulin
-  * **Indication**: Diabetes mellitus
-* **Sulfonylurea**
-  * **Drugs**: Glyburide, glipizide, glimepiride, tolbutamide
-  * **Mechanism**: Inhibit ATP-dependent K channel (increase insulin secretion)
-  * **Indication**: Diabetes mellitus
-* **Meglitinide**
-  * **Drugs**: Rapaglinide, nateglinide
-  * **Mechanism**: Inhibit ATP-dependent K channel (increase insulin secretion)
-  * **Indication**: Diabetes mellitus
+### Obesity Drug
+
+* **Sympathomimetics**
+  * **Drug**: Phentermine, diethylpropion, benzphetamine, phendimetrazine
+  * **Mechanism**: Stimulate norepinephrine release 
+  * **Indication**: Obesity
+  * **Adverse effect**: Tachycardia, hypertension, dependence, contraindicated in coronary artery disease
+* **Lipase inhibitor**
+  * **Drug**: Orlistat
+  * **Mechanism**: Lipase inhibitor, inhibit fat digestion
+  * **Indication**: Obesity
+  * **Adverse effect**: Oily rectal leakage, diarrhea, prevent fat-soluble vitamins absorption, contraindicated in cholestasis and malabsorption syndrome
 * **GLP-1 agonist**
-  * **Drugs**: Exenatide, liraglutide
-  * **Mechanism**: GLP-1 analog (increase insulin secretion)
-  * **Indication**: Diabetes mellitus
-* **DPP-4 inhibitor**
-  * **Drugs**: Sitagliptin, saxagliptin
-  * **Mechanism**: DPP-4 inhibitor (increase GLP-1, increase insulin secretion)
-  * **Indication**: Diabetes mellitus
-* **Biguanide**
-  * **Drugs**: Metformin
-  * **Mechanism**: Reduce hepatic gluconeogenesis
-  * **Indication**: Diabetes mellitus
-* **Thiazolidinedione**
-  * **Drugs**: Troglitazone, rosiglitazone
-  * **Mechanism**: Activate PPARγ (decrease insulin resistance)
-  * **Indication**: Diabetes mellitus
-* **α-glucosidase inhibitor**
-  * **Drugs**: Acarbose
-  * **Mechanism**: α-glucosidase inhibitor (decrease intestinal glucose absorption)
-  * **Indication**: Diabetes mellitus
-* **SGLT2 inhibitor**
-  * **Drugs**: Canagliflozin, empagliflozin
-  * **Mechanism**: SGLT2 inhibitor (decrease renal glucose reabsorption)
-  * **Indication**: Diabetes mellitus
-* **Amylin analog**
-  * **Drugs**: Pramlintide
-  * **Mechanism**: Amylin analog
-  * **Indication**: Diabetes mellitus
+  * **Drug**: Liraglutide
+  * **Mechanism**: GLP-1 agonist, slow gastric empty 
+  * **Indication**: Chronic weight management, type 2 diabetes
+* **5-HT2C agonist**
+  * **Drug**: Lorcaserin
+  * **Mechanism**: 5-HT2C agonist
+  * **Indication**: Chronic weight management
 {: .notice--info}
 
-### Calcium Homeostasis
+## Respiratory Drug
 
-* **Bisphosphonate**
-  * **Drugs**: Alendronate, risedronate, pamidronate
-  * **Mechanism**: Inhibit osteoclast
-  * **Indication**: Osteoporosis
-* **Anti-RANKL antibody**
-  * **Drugs**: Denosumab
-  * **Mechanism**: Anti-RANKL antibody (inhibit osteoclast)
-  * **Indication**: Osteoporosis
-* **Parathyroid hormone**
-  * **Drugs**: Teriparatide
-  * **Mechanism**: Stimulate osteoblast
-  * **Indication**: Osteoporosis
-* **Calcitonin**
-  * **Drugs**: Calcitonin
-  * **Mechanism**: Inhibit osteoclast
-  * **Indication**: Paget disease
-* **Vitamin D**
-  * **Drugs**: Cholecalciferol
-  * **Mechanism**: Increase Ca absorption and reabsorption
-  * **Indication**: Osteomalacia
-* **SERM**
-  * **Drugs**: Raloxifene, estrogen
-  * **Mechanism**: Inhibit osteoclast
-  * **Indication**: Postmenopausal osteoporosis
+## Endocrine Drug
+
+## Hematologic Drug
+
+### Anemia Drug
+
+* **Iron**
+  * **Drug**: Iron agents
+  * **Mechanism**: Heme synthesis
+  * **Indication**: Iron deficienc anemia
+  * **Adverse effect**: Gastrointestinal distress, black tarry stool, allergy, acute iron toxicity (treated by deferoxamine)
+* **Vitamin B12**
+  * **Drug**: Cyanocobalamin, hydroxocobalamin
+  * **Mechanism**: DNA synthesis
+  * **Indication**: Megaloblastic anemia (pernicious anemia), gastrectomy
+* **Folic acid**
+  * **Drug**: Folic acid
+  * **Mechanism**: DNA synthesis
+  * **Indication**: Megaloblastic anemia, prevent fetes neural tube defect 
+* **Hydroxyurea**
+  * **Drug**: Hydroxyurea
+  * **Mechanism**: Increase fetal hemoglobin
+  * **Indication**: Sickle cell disease
+  * **Adverse effect**: Myelosuppression
+* **Erythropoietin**
+  * **Drug**: Epoetin alfa, darbepoetin alfa
+  * **Mechanism**: Increase RBC
+  * **Indication**: Anemia (chronic kidney disease, chemotherapy)
+  * **Adverse effect**: Hypertension, thrombosis, hemoglobinemia, tumor progression
+* **Thrombopoietin**
+  * **Drug**: Romiplostim
+  * **Mechanism**: Increase platelet
+  * **Indication**: Immune thrombocytopenia
+* **G-CSF**
+  * **Drug**: Filgrastim, pegfilgrastim
+  * **Mechanism**: Increase neutrophils
+  * **Indication**: Neutropenia (chemotherapy)
+  * **Adverse effect**: Bone pain
+* **GM-CSF**
+  * **Drug**: Sargramostim
+  * **Mechanism**: Increase neutrophils, eosinophils, monocytes, macrophages
+  * **Indication**: Neutropenia (chemotherapy), mobilize peripheral blood progenitor (bone marrow donation)
+  * **Adverse effect**: Bone pain
 {: .notice--info}
 
-# Microbiology / 微生物学
+### Anticoagulants
 
-# Biochemistry / 生化学
+* **Heparin**
+  * **Drug**: Heparin / enoxaparin, daltaparin / fondaparinux (parenteral)
+  * **Mechanism**: ATIII-mediated inhibition of factor Xa and thrombin (heparin only)
+  * **Indication**: Deep vein thrombosis, pulmonary embolism, acute coronary syndrome
+  * **Adverse effect**: Bleeding (heparin reversed by protamine), heparin-induced thrombocytopenia, monitor by aPTT
+* **Warfarin**
+  * **Drug**: Warfarin
+  * **Mechanism**: Inhibit vitamin K epoxide reductase (inhibit synthesis of factor II, VII, IX, X, protein C, protein S)
+  * **Indication**: Deep vein thrombosis, pulmonary embolism,
+  * **Adverse effect**: Transient hypercoagulable state, bleeding (reversed by vitamin K), monitor by INR, contraindicated in pregnancy, interacted with drugs affecting CYP2C9 and CYP3A4
+* **Direct Xa inhibitor**
+  * **Drug**: Rivaroxaban, apixaban, edoxaban, betrixaban (oral)
+  * **Mechanism**: Directly bind factor Xa
+  * **Indication**: Prevent stroke in atrial fibrillation
+  * **Adverse effect**: Bleeding (reversed by andexanet alfa)
+* **Direct thrombin inhibitor**
+  * **Drug**: Bivalirudin, desirudin, argotroban (parenteral) / Dabigatran (oral)
+  * **Mechanism**: Directly bind thrombin 
+  * **Indication**: Percutaneous coronary intervention, heparin-induced thrombocytopenia, deep vein thrombosis, pulmonary embolism
+  * **Adverse effect**: Bleeding (dabigatran reversed by idarucizumab)
+{: .notice--info}
+
+### Antiplatelets
+
+* **Aspirin**
+  * **Drug**: Aspirin
+  * **Mechanism**: Inhibit COX-1 (irreversible), decrease thromboxane A2
+  * **Indication**: Coronary artery disease, stroke
+  * **Adverse effect**: Bleeding
+* **PDE inhibitor**
+  * **Drug**: Dipyridamole, cilostazol
+  * **Mechanism**: Inhbit phosphodiesterase, increase cAMP, cause vasodilation and inhibit platelet aggregation 
+  * **Indication**: Stroke (dipyridamole), intermittent claudication (cilostazol)
+* **P2Y12 inhibitor**
+  * **Drug**: Clopidogral, prasugrel, ticagralor, cangrelor
+  * **Mechanism**: Bind ADP receptor, inhibit platelet aggregation
+  * **Indication**: Coronary artery disease, stroke
+  * **Adverse effect**: Bleeding, interact with PPI
+  * **Adverse effect**: Bleeding
+* **GPIIb/IIIa inhibitor**
+  * **Drug**: Abciximab, eptifibatide, tirofiban
+  * **Mechanism**: Bind GPIIb/IIIa, inhibit fibrinogen binding, inhibit platelet aggregation
+  * **Indication**: Percutaneous coronary intervention, coronary artery disease
+  * **Adverse effect**: Bleeding
+* **Thrombin receptor antagonist**
+  * **Drug**: Vorapaxar
+  * **Mechanism**: Thrombin receptor antagonist, inhibit platelet aggregation
+  * **Indication**: Coronary artery disease
+  * **Adverse effect**: Bleeding
+{: .notice--info}
+
+### Thrombolytic Drug
+
+* **Tissue plasminogen activator**
+  * **Drug**: Alteplase, tenecteplase
+  * **Mechanism**: Form plasmin, lyse thrombi
+  * **Indication**: Myocardial infarction, stroke
+  * **Adverse effect**: Bleeding
+{: .notice--info}
+
+### Hemostatic Drug
+
+* **Vitamin K1**
+  * **Drug**: Vitamin K1
+  * **Indication**: Newborns, warfarin bleeding
+* **Coagulation factor**
+  * **Drug**: Factor VIII, factor IX, thrombin
+  * **Indication**: Hemophilia A, Hemophilia B
+* **Desmopressin**
+  * **Drug**: Desmopressin
+  * **Mechanism**: Increase factor VIII
+  * **Indication**: Hemophilia A
+* **Aminocaproic acid**
+  * **Drug**: Aminocaproic acid, tranexamic acid
+  * **Mechanism**: Inhibit plasminogen activation
+  * **Indication**: Hemophilia, postsurgical bleeding
+{: .notice--info}
+
+## Immunologic Drug
+
+### NSAID
+
+* **Aspirin**
+  * **Drug**: Aspirin
+  * **Mechanism**: Inactivate COX-1 and COX-2 (irreversible)
+  * **Indication**: Inflammation, pain, fever, reduce thrombi formation, cutaneous infection (topical)
+  * **Adverse effect**: Gastrointestinal event, hypersensitivity, renal inpairment, Reye syndrome (during viral infection)
+* **NSAID**
+  * **Drug**: Ibuprofen, naproxen, fenoprofen, ketoprofen, indomethacin, sulindac, ketorolac, and diclofenac, peroxicam, mefenamate, meclofenamate, nabumetone, celecoxib (COX-2 selective)
+  * **Mechanism**: Inactivate COX-1 and COX-2 (reversible)
+  * **Indication**: Inflammation, pain, fever
+  * **Adverse effect**: Gastrointestinal event, hypersensitivity, renal inpairment, cardiovascular event (COX-2 selective)
+* **Acetaminophen**
+  * **Drug**: Acetaminophen
+  * **Mechanism**: Inactivate COX (centrally acting)
+  * **Indication**: Pain, fever
+  * **Adverse effect**: Mild increase in hepatic enzyme, toxicity (via NAPQI)
+{: .notice--info}
+
+### Gout Drug
+
+* **Colchicine**
+  * **Drug**: Colchicine
+  * **Mechanism**: Prevent tubulin polymerization, interfere neutrophil migration
+  * **Indication**: Acute gouty arthritis
+  * **Adverse effect**: Gatrointestinal distress
+* **Porbenecid**
+  * **Drug**: Compatitively inhibits reabaorption
+of urate
+  * **Mechanism**: Chronic gout
+  * **Indication**: Urolithiasis
+  * **Adverse effect**: Reduct other drugs excretion (penicillin)
+* **Allopurinol**
+  * **Drug**: Allopurinol, feboxostat
+  * **Mechanism**: Xanthine oxidase inhibitor
+  * **Indication**: Chronic gout
+  * **Adverse effect**: Skin rash, GI distress
+* **Pegloticase**
+  * **Drug**: Pegloticase
+  * **Mechanism**: Recombinant uricase
+  * **Indication**: Chronic gout
+  * **Adverse effect**: Anaphylaxis
+{: .notice--info}
+
+### Immunosuppressive Drug
+
+* **Calcineurin inhibitor**
+  * **Drug**: Cyclosporine, tacralimus
+  * **Mechanism**: Calcineurin inhibitor
+  * **Indication**: Solid-organ transplant, autoimmune disease
+  * **Adverse effect**: Nephrotoxicity, hypertension, gingival hyperplasia (cyclosporine)
+* **mTOR inhibitor**
+  * **Drug**: Sirolimus
+  * **Mechanism**: mTOR inhibitor
+  * **Indication**: Solid-organ transplant
+  * **Adverse effect**: Anemia, impaired wound healing, increased cholesterol
+* **Antimetabolite**
+  * **Drug**: Azathioprine, mycophenolate mofetil, leflunomide
+  * **Mechanism**: Inhibit DNA synthesis (Azathioprine: converted to 6-MP and incorporated, inhibit purine synthesis / Mycophenolate mofetil: inhibit inosine monophosphate dehydrogenase, inhibit purine synthesis / Leflunomide: inhibit dihydroorotate dehydrogenase, inhibit pyrimidine synthesis)
+  * **Indication**: Solid-organ transplant, autoimmune disease
+  * **Adverse effect**: GI distress, leukopenia, interact with allopurinol (azathioprine)
+* **Biologic agent (TNF-α)**
+  * **Drug**: Infliximab, adalimumab, certolizumab, golimumab, and etanercept
+  * **Mechanism**: Block TNF-α 
+  * **Indication**: Autoimmune diseases
+  * **Adverse effect**: Tuberculosis ,lymphoma
+* **Biologic agent (IL-1)**
+  * **Drug**: Anakinra
+  * **Mechanism**: IL-1 receptor antagonist
+  * **Indication**: Rheumatold arthritis
+  * **Adverse effect**: Infection
+* **Biologic agent (IL-6 receptor)**
+  * **Drug**: Tocilizumab
+  * **Mechanism**: IL-6 receptor antagonist
+  * **Indication**: Rheumatold arthritis
+  * **Adverse effect**: Increased cholesterol
+* **Biologic agent (JAK-STAT)**
+  * **Drug**: Tofacitinib
+  * **Mechanism**: Block JAK-STAT signaling
+  * **Indication**: Rheumatold arthritis
+  * **Adverse effect**: Increased cholesterol
+* **Biologic agent (CD80/86)**
+  * **Drug**: Abatacept
+  * **Mechanism**: Block costimulatory signal
+  * **Indication**: Rheumatold arthritis
+  * **Adverse effect**: Infection
+* **Biologic agent (CD20)**
+  * **Drug**: Rituximab
+  * **Mechanism**: Anti-CD20 antibody
+  * **Indication**: Rheumatoid arthritis, leukemia and lymphoma
+  * **Adverse effect**: Infusion reactions, hepatitis B reactivation
+* **Biologic agent (CD25)**
+  * **Drug**: Basiliximab
+  * **Mechanism**: Anti-CD25 antibody
+  * **Indication**: Acute transplant rejection
+  * **Adverse effect**: Hypertension, infection
+* **Biologic agent (α4 integrin)**
+  * **Drug**: Natalizumab
+  * **Mechanism**: Anti-α4 integrin antibody
+  * **Indication**: Multiple sclerosis, Crohn disease.
+  * **Adverse effect**: Progressive multifocal leukoencephalopathy
+* **Antithymocyte globulin**
+  * **Drug**: Antithymocyte globulin
+  * **Mechanism**: Elimination of T lymphocyte
+  * **Indication**: Aplastic anemia, graft-versus-host disease
+  * **Adverse effect**: Serum sickness
+{: .notice--info}
+
+## Antineoplastic Drug
+
+### Alkylating Agent
+
+* **Nitrogen mustard**
+  * **Drug**: Cyclophosphamide, ifosfamide
+  * **Mechanism**: Directly damage DNA
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, hemorrhagic cystitis (due to acrolein, prevented by masna)
+* **Nitrosoureas**
+  * **Drug**: Carmustine, lomustine
+  * **Mechanism**: Directly damage DNA
+  * **Indication**: Brain tumor (cross BBB)
+  * **Adverse effect**: Myelosuppression, pulmonary toxicity
+* **Alkyl sulfonate**
+  * **Drug**: Busfulfan
+  * **Mechanism**: Directly damage DNA
+  * **Indication**: Before bone marrow transplantation
+  * **Adverse effect**: Myelosuppression, pulmonary fibrosis, hyperpigmentation
+* **Platinum analog**
+  * **Drug**: Cisplatin, carboplatin, oxaliplatin
+  * **Mechanism**: Directly damage DNA
+  * **Indication**: Various tumor
+  * **Adverse effect**: Myelosuppresion, nephrotoxicity, peripheral neuropathy, otoxicity
+{: .notice--info}
+
+### Antimetabolte
+
+* **Methotrexate**
+  * **Drug**: Methotrexate
+  * **Mechanism**: Inhibit dihydrofolate reductase
+  * **Indication**: Leukemia and lymphoma, autoimmune disease
+  * **Adverse effect**: Myelosuppresion, mucositis, nephrotoxicity, rescued by leucovorin)
+* **Pemetrexed**
+  * **Drug**: Pemetrexed
+  * **Mechanism**: Inhibit thymidylate synthetase, inhibit dihydrofolate reductase (S phase)
+  * **Indication**: Mesothelioma, non-small cell lung cancer
+  * **Adverse effect**: Myelosuppresion, cutaneous reaction
+* **5-Fluorouracil**
+  * **Drug**: 5-Fluorouracil, capecitabine
+  * **Mechanism**:  Inhibit thymidylate synthetase
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, hand-and-foot syndrome
+* **Cytarabine**
+  * **Drug**: Cytarabine
+  * **Mechanism**: Pyrimidine antagonist
+  * **Indication**: Leukemia
+  * **Adverse effect**: Myelosuppression, cerebellar toxicity
+* **Gemcitabine**
+  * **Drug**: Gemcitabine
+  * **Mechanism**: Pyrimidine antagonist
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression
+* **6-Mercaptopurine**
+  * **Drug**: 6-Mercaptopurine, 6-thioguanine
+  * **Mechanism**: Purine antagonist
+  * **Indication**: Leukemia
+  * **Adverse effect**: Myelosuppression, interact with allopurinol
+* **Cladribine**
+  * **Drug**: Cladribine
+  * **Mechanism**: Purine antagonist
+  * **Indication**: Hairy cell leukemia
+  * **Adverse effect**: Myelosuppression
+* **Hydroxyuria**
+  * **Drug**: Hydroxyuria
+  * **Mechanism**: Inhibit ribonucleoside diphosphate reductase
+  * **Indication**: Leukemia, sickle cell anemia
+  * **Adverse effect**: Myelosuppression, GI distress
+{: .notice--info}
+
+### Microtubule Damaging Agent
+
+* **Vinca alkaloids**
+  * **Drug**: Vinblastine, vincristine, vinorelbine
+  * **Mechanism**: Inhibit microtubule polymerization
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, peripheral neuropathy, constipation
+* **Taxanes**
+  * **Drug**: Paclitaxel, docltaxel, cabazitaxel
+  * **Mechanism**: Inhibit microtubule depolymerization
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, peripheral neuropathy, hypersensitivity (paclitaxel), fluid retention (docetaxel)
+{: .notice--info}
+
+### Topoisomerase Inhibitor
+
+* **Topoisomerase I inhibitor**
+  * **Drug**: Topotecan, irinotecan
+  * **Mechanism**: Topoisomerase I inhibitor
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, diarrhea, secondary leukemia
+* **Topoisomerase II inhibitor**
+  * **Drug**: Etoposide
+  * **Mechanism**: Topoisomerase II inhibitor
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression
+{: .notice--info}
+
+### Antitumor Antibiotics
+
+* **Antrhacyclines**
+  * **Drug**: Doxorubicin, daunorubicin, idarubicin, epirubicin
+  * **Mechanism**: Inhibit topoisomerase II, intercalate between DNA base pairs, form oxygen free radical
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, cardiotoxicity (dexrazoxane protect)
+* **Dactinomycin**
+  * **Drug**: Dactinomycin
+  * **Mechanism**: Intercalate between DNA base pairs
+  * **Indication**: Pediatric cancer
+  * **Adverse effect**: Myelosuppression
+* **Bleomycin**
+  * **Drug**: Bleomycin
+  * **Mechanism**: Form oxygen free radical
+  * **Indication**: Testicular cancer
+  * **Adverse effect**: Pulmonary toxicity, hyperpigmentation
+{: .notice--info}
+
+### Target Therapy
+
+* **Monoclonal antibody (CD20)**
+  * **Drug**: Rituximab
+  * **Mechanism**: Anti-CD20
+  * **Indication**: Non-Hodgkin lymphoma, chronic lymphocytic leukemia
+  * **Adverse effect**: Infusion-related reaction, mucocutaneous reaction, hepatitis B reactivation
+* **Monoclonal antibody (CD30)**
+  * **Drug**: Brentuximab vedotin
+  * **Mechanism**: Anti-CD30
+  * **Indication**: Hodgkin lymphoma
+  * **Adverse effect**: Peripheral neuropathy
+* **Monoclonal antibody (HER2)**
+  * **Drug**: Trastuzumab
+  * **Mechanism**: Anti-HER2
+  * **Indication**: Breast cancer, gastric cancer
+  * **Adverse effect**: Cardiomyopathy
+* **Monoclonal antibody (EGFR)**
+  * **Drug**: Cetuximab
+  * **Mechanism**: Anti-EGFR
+  * **Indication**: Metastatic colorectal cancer (KRAS wild-type)
+  * **Adverse effect**: Rash
+* **Monoclonal antibody (VEGF)**
+  * **Drug**: Bevacizumab
+  * **Mechanism**: Anti-VEGF (inhibit microvascular growth)
+  * **Indication**: Various cancer
+  * **Adverse effect**: Hypertension, thrombotic event
+* **Immune checkpoint inhibitor (CTLA-4)**
+  * **Drug**: Ipilimumab
+  * **Mechanism**: Anti-CTLA-4, enhance T-cell activation
+  * **Indication**: Melanoma
+  * **Adverse effect**: Immune-mediated reaction
+* **Immune checkpoint inhibitor (PD-1)**
+  * **Drug**: Pembrolizumab, nivolumab, cemiplimab
+  * **Mechanism**: Anti-PD-1, enhance T-cell activation
+  * **Indication**: Various cancer
+  * **Adverse effect**: Immune-mediated reaction
+* **Immune checkpoint inhibitor (PD-L1)**
+  * **Drug**: Atezolizumab, durvalumab, avelumab
+  * **Mechanism**: Anti-PD-L1, enhance T-cell activation
+  * **Indication**: Various cancer
+  * **Adverse effect**: Immune-mediated reaction
+* **Tyrosine kinase inhibitor (BCR-ABL)**
+  * **Drug**: Imatinib, dasatinib, nilotinib, and ponatinib
+  * **Mechanism**: BCR-ABL inhibitor
+  * **Indication**: Leukemia and lymphoma (Philadelphia chromosome-positive) 
+  * **Adverse effect**: Peripheral edema, elevated transaminase
+* **Tyrosine kinase inhibitor (EGFR)**
+  * **Drug**: Gatitinib, erlotinib
+  * **Mechanism**: EFGR inhibitor
+  * **Indication**: NSCLC
+  * **Adverse effect**: Acne
+* **Tyrosine kinase inhibitor (BRAF)**
+  * **Drug**: Vemurafenib
+  * **Mechanism**: BRAF inhibitor
+  * **Indication**: Melanoma (BRAF V600E)
+  * **Adverse effect**: Photosensitivity, squamous cell carcinoma
+* **Immunomodulator**
+  * **Drug**: Thalidomide, lenalidomide
+  * **Mechanism**: Inhibit prointlammatory cytokines secretion, enhance call-mediated immunity
+  * **Indication**: Multiple myeloma
+  * **Adverse effect**: Hematologic toxicity, peripheral neuropathy, thromboembolic event, birth defect
+{: .notice--info}
+
+### Hormone Therapy
+
+* **Selective estrogen receptor modulator**
+  * **Drug**: Tamoxifen, toremifene, raloxifene
+  * **Mechanism**: Antiestrogenic in breast
+  * **Indication**: Breast cancer (hormone receptor positive)
+  * **Adverse effect**: Hot flash, endomtrial cancer (tamoxifen), thromboembolic event
+* **Estrogen receptor antagonist**
+  * **Drug**: Fulvestrant
+  * **Mechanism**: Estrogen receptor antagonist
+  * **Indication**: Breast cancer (hormone receptor positive)
+  * **Adverse effect**: Hot flash
+* **Aromatase inhibitor**
+  * **Drug**: Anastrozole, letrozole, exemestane
+  * **Mechanism**: Inhibit aromatase, decrease estrogen
+  * **Indication**: Breast cancer
+  * **Adverse effect**: Decreased bone mineral density, hypercholesterolemia, contraindicate in premenopausal women
+* **GnRH agonist**
+  * **Drug**: Leuprolide, triptorelin, goserelin, histrelin
+  * **Mechanism**: Suppress LH and FSH, decrease androgen
+  * **Indication**: Advanced prostate cancer
+  * **Adverse effect**: Hot flash, gynecomastia, sexual dysfunction, tumor flare
+* **GnRH antagonist**
+  * **Drug**: Degarelix
+  * **Mechanism**: Suppress LH and FSH, decrease androgen
+  * **Indication**: Advanced prostate cancer
+  * **Adverse effect**: Hot flash
+* **Androgen synthesis inhibitor**
+  * **Drug**: Abiraterone, ketoconazole
+  * **Mechanism**: Inhibit testosterone production (inhibit CYP17)
+  * **Indication**: Metastatic prostate cancer
+  * **Adverse effect**: Hepatotoxicity
+* **Androgen receptor antagonist**
+  * **Drug**: Flutamide, bicalutamlde, nilutamide / enzalutamide
+  * **Mechanism**: Androgen receptor antagonist (1st generation), androgen singaling inhibitor (2nd generation)
+  * **Indication**: Advanced prostate cancer
+  * **Adverse effect**: Seizure
+{: .notice--info}
+
+## Antibiotic Drug
+
+### Antibacterial Drug (Cell Wall Synthesis Inhibitor)
+
+* **Penicillins**
+  * **Drug**: Penicillin G, penicillin V, banzathine / Penicillinase-resistant: oxacillin, dicloxacillin, mathicillin, nafcillin / Extended-spectrum: ampicillin, amoxicillin, peperacillin / β-lactamase inhibitor: clavulanic acid, sulbactam, tazobactam
+  * **Mechanism**: Inhibit penicillin-binding protein
+  * **Property**: Bactericidal, resistance due to β-lactamase
+  * **Indication**: Various, pseudomonas (piperacillin)
+  * **Adverse effect**: Hypersensitivity, GI disturbances
+* **Cephalosporins**
+  * **Drug**: 1st generation: cephelexin, cefazolin, cefadroxil / 2nd generation: cefoxitin, cefaclor, cefuroxime, cefotatan, cefprozil / 3rd generation: cetdinir, cefixime, cetotaxime, ceftazidime, caftriaxone / 4th: cefepime / 5th generation: ceftaroline
+  * **Mechanism**: Inhibit penicillin-binding protein
+  * **Property**: Resistant to penicillinases, penetrate CSF (cefuroxime, 3rd generation)
+  * **Indication**: Various, pseudomonas (cefoperazone, ceftazidime, cefepime), gonorrhea (ceftriaxone), MRSA (ceftaroline)
+  * **Adverse effect**: Hypersensitivity, GI disturbances
+* **Carbapenems**
+  * **Drug**: Imipenem (+ cilastatin: inhibit renal dehydropeptidase), ertapenem, meropenem, doripenem
+  * **Mechanism**: Inhibit penicillin-binding protein
+  * **Indication**: Various, pseudomonas
+  * **Adverse effect**: Hypersensitivity
+* **Monobactam**
+  * **Drug**: Aztreonam
+  * **Mechanism**: Inhibit penicillin-binding protein
+  * **Indication**: Gram-negative
+* **Glycopeptides**
+  * **Drug**: Vancomycin, talavancin, dalbavancin, oritavancin
+  * **Mechanism**: Inhibit transglycosylase
+  * **Indication**: Gram-positive, MRSA
+  * **Adverse effect**: Red man syndrome, nephrotoxicity
+* **Daptomycin**
+  * **Drug**: Daptomycin
+  * **Mechanism**: Disrupt cell membrane
+  * **Indication**: Gram-positive, MRSA
+  * **Adverse effect**: Myopathy
+* **Polymyxin**
+  * **Drug**: Polymyxin
+  * **Mechanism**: Disrupt cell membrane
+  * **Indication**: Gram-negative
+  * **Adverse effect**: Nephrotoxicity, neurotoxicity
+{: .notice--info}
+
+### Antibacterial Drug (Protein Synthesis Inhibitor)
+
+* **Aminoglycosides**
+  * **Drug**: Streptomycin, gentamicin, tabramycin, amikacin, neomycin
+  * **Mechanism**: Inhibit 30S ribosomal subunit (interfere initiation, mRNA misreadling)
+  * **Property**: Narrow therapeutic range, gram-negative aerobes only (active transport through inner membrane)
+  * **Indication**: Streptomycin: plague, brucellosis, mycobacterial infections (combination) / Gentamicin and tabramycin: Enterobacter, Proteus, Pseudomonas, Klebsiel/a, Serratia (synergistically β-lactam) / Amikacin : severe gram-negative infections / Neomycin: soft tissue infections (topical)
+  * **Adverse effect**: Ototoxic, nephrotoxic, neuromuscular blockade
+* **Tetracyclines**
+  * **Drug**: Tetracycline, demeclocycline, doxycycline, minocycline, tigecycline
+  * **Mechanism**: Inhibit 30S ribosomal subunit (prevent tRNA binding)
+  * **Indication**: Rickatlsia, chlamydia, mycoplasma, acne vulgaris, helicobacter pylori (combination), SIADH (demeclocycline), MRSA (tigecycline)
+  * **Adverse effect**: Photosensitivity, tooth discoloration, calcium impair absorption
+* **Macrolides**
+  * **Drug**: Erythromycin, clarithromycin, azithromycin, telithromycin
+  * **Mechanism**: Inhibit 50S subunit (inhibit aminoacyl tanslocation, inhibi initiation complexes)
+  * **Indication**: Erythromycin: gram-positive (patients with an allergy to β-lactam, Legionella pneumophila, syphilis, Bordetella pertussis / Clarithromycin, azithromycin: community-acquired pneumonia and sinusitis, Mycabacterium avium complex
+  * **Adverse effect**: QT prolongation, inhibit CYP450
+* **Lincosamide**
+  * **Drug**: Clindamycin
+  * **Mechanism**: Inhibit 50S subunit (inhibit peptide bond formation)
+  * **Indication**: Anaerobic, ance (topical)
+  * **Adverse effect**: Diarrhea, psaudomembranous colitis
+* **Oxazolidinones**
+  * **Drug**: Linezolid
+  * **Mechanism**: Inhibit 50S subunit (prevents formation of 70S)
+  * **Indication**: Gram-positive, VRE
+  * **Adverse effect**: Thrombocytopenia, serotonin syndrome
+* **Amphenicol**
+  * **Drug**: Chloramphenicol
+  * **Mechanism**: Inhibit 50S subunit (inhibit peptidyl transferase)
+  * **Indication**: Gram-negative organisms, anaerobes
+  * **Adverse effect**: Aplastic anemia, hemolytic anemia (G6PD deficienct), gray baby syndrome
+* **Streptogramins**
+  * **Drug**: Quinupristin, dalfopristin
+  * **Mechanism**: Inhibit 50S subunit
+  * **Indication**: VRE, MRSA, multi drug resistant streptococci
+{: .notice--info}
+
+### Antibacterial Drug (DNA Synthesis Inhibitor)
+
+* **Antifolate drug**
+  * **Drug**: Trimethoprim + sulfamethoxazole
+  * **Mechanism**: Inhibit dihydropteroate synthase (sulfamethoxazole), inhibit dihydrofolate reductase (trimethoprim)
+  * **Indication**: Urinary tract infections, pneumocystis pneumonia
+  * **Adverse effect**: Hypenensitivity, Stevens-Johnson syndrome, hemolytic reactions (G6PD deficiency)
+* **Fluoroquinolones**
+  * **Drug**: Ciprofloxacin, norfloxacin, ofloxacin, levofloxacin, moxifloxacin, gemifloxacin
+  * **Mechanism**: Inhibit DNA gyrase, inhibit topoisomerase IV
+  * **Indication**: Urinary tract infections, respiratory tract infections
+  * **Adverse effect**: QT prolongation, tendon rupture, divalent and trivalent cations impair absorption
+* **Metronidazole**
+  * **Drug**: Metronidazole
+  * **Mechanism**: Form free radical, inhibit of DNA synthesis and degradation
+  * **Indication**: Trichomonas vaginalis, pseudomembranous colitis
+  * **Adverse effect**: Peripheral neuropathy, ditulfiram-like reaction
+{: .notice--info}
+
+### Antibacterial Drug (Antimycobacterial)
+
+* **Isoniazid**
+  * **Drug**: Isoniazid
+  * **Mechanism**: Inhibit mycobactarial call wall synthesis
+  * **Indication**: Tuberculosis (combination), prophylaxis
+  * **Adverse effect**: Hapatotoxic, peripheral nauropathy (minimized by pyridoxine)
+* **Rifampin**
+  * **Drug**: Rifampin, rifapentine ,rifabutin
+  * **Mechanism**: Inhibits RNA synthesis
+  * **Indication**: Tuberculosis (combination), atypical mycobactaria, meningitis
+  * **Adverse effect**: Orange-color urine
+* **Ethambutol**
+  * **Drug**: Ethambutol
+  * **Mechanism**: Inhibit arabinosyl transfarase
+  * **Indication**: Tuberculosis (combination)
+  * **Adverse effect**: Visual disturbance
+* **Pyrazinamide**
+  * **Drug**: Pyrazinamide
+  * **Indication**: Tuberculosis (combination)
+  * **Adverse effect**: Hepatotoxicity
+* **Dapsone**
+  * **Drug**: Dapsone
+  * **Mechanism**: Inhibit dihydropteroate synthase
+  * **Indication**: Leprosy, pneumocystis pneumonia
+  * **Adverse effect**: Hemolysis, methemoglobinemia
+{: .notice--info}
+
+### Antifungal Drug
+
+* **Amphotericin B**
+  * **Drug**: Amphotericin B
+  * **Mechanism**: Bind to ergosterol and form pores
+  * **Indication**: Various
+  * **Adverse effect**: Infusion-related reactions, nephrotoxicity
+* **Azoles**
+  * **Drug**: Itraconazole, ketoconazole, miconazole, fluconazole, clotrimazole, voriconazola, isavuconazole, and posaconazole
+  * **Mechanism**: Inhibit ergosterol synthesis (inhibit lanosterol 14-α-demethylase)
+  * **Indication**: Various
+  * **Adverse effect**: Hepatotoxicity
+* **Echinocandins**
+  * **Drug**: Caspofungin, micafungin, anidulafungin
+  * **Mechanism**: Disrupt cell wall (inhibit β-D-glucan synthesis)
+  * **Indication**: Candida, aspergillus
+* **Flucytosine**
+  * **Drug**: Flucytosine
+  * **Mechanism**: Inhibit nucleic acid synthesis (converted to 5-fluorauracil)
+  * **Indication**: Cryptococcal meningitis
+  * **Adverse effect**: Bone marrow supression
+* **Griseofulvin**
+  * **Drug**: Griseofulvin
+  * **Mechanism**: Prevents spindle formation
+  * **Indication**: Dermatophyte
+{: .notice--info}
+
+### Antiviral Drug
+
+* **Antiherpetic drug**
+  * **Drug**: Acyclovir, valacyclovir, famiciclovir / ganciclovir, valganciclovir / foscarnet / cidofovir
+  * **Mechanism**: Inhbit DNA polymerase (acyclovir, valacyclovir, famiciclovir: activated by viral thymidine kinase / ganciclovir, valganciclovir: activated by viral phosphotransferase)
+  * **Indication**: HSV, EBV, VZV, CMV
+  * **Adverse effect**: Acyclovir, valacyclovir, famiciclovir: renal insufficiency, neurotoxicity / ganciclovir, valganciclovir: neutropania, thrombocytopania / foscarnet: nephrotoxicity / cidofovir: naphrotoxicity, neutropenia
+* **Anti-influenza drug**
+  * **Drug**: Amantadine, rimantadine / Zanamivir, neltamivir / Baloxavir marboxil
+  * **Mechanism**: M2 protein inhibitor / Neuraminidase inhibitor / Polymerase acidic protein inhibitor
+  * **Indication**: Influenza, prophylaxis
+  * **Adverse effect**: CNS effect (M2 protein inhibitor), GI dysfunction (oseltamivir), bronchospasm (zanamivir)
+* **Anti-HCV durg (direct-acting antiviral)**
+  * **Drug**: Glecaprevir, grazoprevir, paritaprevir, and simeprevir / Daclatasvir, elbasvir, ledipasvir, ombitasvir, pibrentasvir, velpatasvir / Sofosbubir, dasabuvir
+  * **Mechanism**: NS3/4A inhibitor, NS5A inhibitor, NS5B inhibitor
+  * **Indication**: HCV
+* **Anti-HBV drug**
+  * **Drug**: Lamivudine, adefovir, entecavir, tenofovir / interferon alpha
+  * **Mechanism**: Inhibit DNA polymerase
+  * **Indication**: HBV
+{: .notice--info}
+
+### Antiretroviral Drug
+
+* **Nucleoside reverse transcriptase inhibitor**
+  * **Drug**: Tenofovir, abacavir, zidovudine, emtricitabine, lamivudine, didanosine, stavudine
+  * **Mechanism**: Competitively inhibit reverse transcriptase (require phosphorylation)
+  * **Indication**: HIV
+  * **Adverse effect**: Leukopenia, neuropathy, pancreatitis
+* **Nonnucleoside reverse transcriptasa inhibitor**
+  * **Drug**: Efavirenz, nevirapine, rilpivirine, etravirine, delavirdine
+  * **Mechanism**: Noncompetitively inhibit reverse transcriptase (not require phosphorylation)
+  * **Indication**: HIV
+  * **Adverse effect**: GI dysfunction, skin reaction
+* **Protease inhibitor**
+  * **Drug**: Ritonavir, darunavir, atazanavir, lopinavir
+  * **Mechanism**: Inhibit polyprotein cleavage
+  * **Indication**: HIV
+  * **Adverse effect**: Hyperglycemia, hyparlipidemia lipodystrophy
+* **Integrase inhibitor**
+  * **Drug**: Raltegravir, elvitegravir, dolutegravir bictegravir.
+  * **Mechanism**: Prevent viral DNA integration
+  * **Indication**: HIV
+* **Fusion inhibitor**
+  * **Drug**: Enfuvirtida
+  * **Mechanism**: Block viral entry (bind gp41)
+  * **Indication**: HIV
+* **CCR5 antagonist**
+  * **Drug**: Maraviroc
+  * **Mechanism**: Block viral entry (bind CCR5)
+  * **Indication**: HIV
+{: .notice--info}
+
+### Antiparasitic Drug
+
+pass
+{: .notice--info}
 
 # Cardiology / 循環器科
 
