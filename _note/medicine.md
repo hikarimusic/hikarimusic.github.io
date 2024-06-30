@@ -15,6 +15,236 @@ Essences of clinical medicine.
 
 ## Introduction /　総論
 
+### Adrenergic Agonist / アドレナリン作動薬
+
+* **αβ agonist**
+  * **Drugs**: Epinephrine, norepinephrine, dopamine
+  * **Mechanism**: αβ agonist (epinephrine: β>α, norepinephrine: α>β, dopamine: D>β>α)
+  * **Indication**: Shock (dopamine preserve renal blood flow), glaucoma (epinephrine)
+* **α1 agonist**
+  * **Drugs**: Oxymetazoline, phenylephrine, midodrine
+  * **Mechanism**: α1 agonist
+  * **Indication**: Nasal congestion (Oxymetazoline, phenylephrine), midodrine (orthostatic hypotension)
+* **α2 agonist**
+  * **Drugs**: Clonidine, methyldopa, brimonidine
+  * **Mechanism**: α2 agonist
+  * **Indication**: Hypertension (methyldopa: for pregnant women), glaucoma (brimonidine)
+* **β agonist**
+  * **Drugs**: Isoproterenol
+  * **Mechanism**: β1-β2 agonist
+  * **Indication**: Bradycardia
+* **β1 agonist**
+  * **Drugs**: Dobutamine
+  * **Mechanism**: β1 agonist
+  * **Indication**: Heart failure
+* **β2 agonist**
+  * **Drugs**: Albuterol (salbutamol), terbutaline, fenoterol, metaproterol, procaterol, salmeterol, formoterol, ritodrine
+  * **Mechanism**: β2 agonist
+  * **Indication**: Asthma, COPD, tocolytic (ritodrine)
+* **β3 agonist**
+  * **Drugs**: Mirabegron
+  * **Mechanism**: β3 agonist
+  * **Indication**: Overactive bladder
+* **Indirect agonist**
+  * **Drugs**: Amphetamine, methylphenidate, modafinil, cocaine, amitryptiline
+  * **Mechanism**: Increase catecholamine release (amphetamine), inhibit catecholamine reuptake (others)
+  * **Indication**: ADHD, narcolepsy
+* **Mixed agonist**
+  * **Drugs**: Ephedrine, pseudoephedrine
+  * **Mechanism**: Direct and indirect agonist
+  * **Indication**: Nasal congestion, nocturnal neuresis
+{: .notice--info}
+
+### Adrenergic Antagonist / アドレナリン拮抗薬
+
+* **α antagonist**
+  * **Drugs**: Phentolamine, phenoxybenzamine
+  * **Mechanism**: Non-selective α antagonist
+  * **Indication**: Pheochromocytoma diagnosis (Phentolamine), pheochromocytoma treatment (phenoxybenzamine)
+* **α1 antagonist**
+  * **Drugs**: Prazosin, doxazosin, terazosin, tamsulosin, indoramin, urapidil
+  * **Mechanism**: α1 antagonist
+  * **Indication**: Hypertension, BPH
+* **α2 antagonist**
+  * **Drugs**: Mirtazapine
+  * **Mechanism**: α2 antagonist
+  * **Indication**: Depression
+* **β antagonist**
+  * **Drugs**: Nadolol, pindolol, propranolol, timolol
+  * **Mechanism**: Non-selective β antagonist
+  * **Indication**: Hypertension, arrhythmia, heart failure, glaucoma (timolol)
+* **β1 antagonist**
+  * **Drugs**: Acebutolol, atenolol, betaxolol, bisoprolol, esmolol, metoprolol
+  * **Mechanism**: β1 antagonist
+  * **Indication**: Same as β antagonist
+* **αβ antagonist**
+  * **Drugs**: Labetalol, carvedilol
+  * **Mechanism**: αβ antagonist
+  * **Indication**: Hypertension, heart failure
+* **Indirect antagonist**
+  * **Drugs**: Reserpine, guanethidene, bretylium, metyrosine
+  * **Mechanism**: Deplete neurotransmitter in vesicle (reserpine), inhibit vesicle release (guanethidine, bretylium), inhibit tyrosine hydroxylase (metyrosine)
+  * **Indication**: Hypertension, heart failure
+{: .notice--info}
+
+### Cholinergic Agonist / コリン作動薬
+
+* **Direct agonist**
+  * **Drugs**: Acetylcholine, bethanechol, carbachol, methacholine, pilocarpine, cevimeline
+  * **Mechanism**: Muscarinic agonist (+ nicotinic agonist: acetylcholine, carbachol)
+  * **Indication**: Ileus and urinary retension, asthma diagnosis (methacholine), glaucoma (pilocarpine), Sjogren syndrome (cevimeline)
+* **Indirect agonist (anti-cholinesterase)**
+  * **Drugs**: Physostigmine, neostigmine, pyridostigmine, edrophonium, ambenonium
+  * **Mechanism**: Inhibit cholinesterase to increase acetylcholine
+  * **Indication**: Myasthenia gravis, ileus and urinary retension, glaucoma (physostigmine)
+  * **Organic phosphate**: Irreversible anti-cholinesterase (treatment: pyridostigmine, atropine, pralidoxime)
+{: .notice--info}
+
+### Cholinergic Antagonist / コリン拮抗薬
+
+* **Muscarinic antagonist**
+  * **Drugs and indication**
+    * Reduce exocrine: Atropine
+    * Ophthalmoscopic examination: Homatropine, cyclopentolate, tropicamide
+    * Motion sickness: Scopolamine
+    * Gastric ulcer: Pirenzepine, propantheline
+    * Diarrhea and IBS: Dicyclomine, clidinium
+    * Asthama and COPD: Ipratropium, tiotropium
+    * Overactive bladder: Oxybutynin
+    * Parkinson disease: Trihexyphenidyl, bentropine, biperidin
+  * **Mechanism**: Muscarinic antagonist
+* **Nitotinic antagonist (ganglion blocker)**
+  * **Drugs**: Mecamylamine, trimethaphan, hexamethonium
+  * **Mechanism**: Nitotinic antagonist at autonomic ganglion
+  * **Indication**: Hypertension
+* **Nitotinic antagonist (muscle relaxant)**
+  * **Drugs**: Tubocurarine, mivacurium, atracurium, cisatracurium, pancuronium, vecuronium, rocuronium, succinylcholine, decamothonium
+  * **Mechanism**: Nitotinic antagonist at neuromuscular junction (non-depolarizing: tubocurarine ~ rocuronium, depolarizing: succinylcholine, decamothonium)
+  * **Indication**: Anesthesia
+* **Other muscle relaxant**
+  * **Drugs**: Diazepam, baclofen, tizanidine, dantroline, hemicholinium, botulinum toxin, tetrodotoxin
+  * **Mechanism**: GABA-A agonist (diazepam), GABA-B agonist (baclofen), α2 agonist (tizanidine), ryodine receptor blocker (dantroline), inhibit cholien uptake (hemicholinium), inhibit vesicle release (botulinum toxin), inhibit Na+ channel (tetrodotoxin)
+  * **Indication**: Spasmolytic
+{: .notice--info}
+
+### Antihypertensive Drug / 降圧薬
+
+* **ACE inhibitor**
+  * **Drugs**: Captopril, enalapril, lisinopril
+  * **Mechanism**: Angiotensin converting enzyme inhibitor
+  * **Indication**: Hypertension (heart failure, diabetes)
+  * **Adverse effect**: Nonproductive cough, angioadema
+* **Angiotensin II receptor blocker**
+  * **Drugs**: Losartan, valsartan, candesartan
+  * **Mechanism**: Angiotensin II receptor blocker
+  * **Indication**: Hypertension
+* **Renin inhibitor**
+  * **Drugs**: Aliskiren
+  * **Mechanism**: Renin inhibitor
+  * **Indication**: Hypertension
+* **β-blocker**
+  * **Drugs**: Acebutolol, atenolol, carvedilol, esmolol, labetalol, metoprolol, pindolol, propranolol
+  * **Mechanism**: β1-blocker (reduce cardial output, inhibit renin secretion)
+  * **Indication**: Hypertension
+  * **Adverse effect**: Asthma
+* **Calcium channel blocker**
+  * **Drugs**: DHP: Amlodipine, nifedipine, felodipine / Non-DHP: verapamil, diltiazem, bepridil
+  * **Mechanism**: Calcium channel blocker (vessel: DHP, heart: non-DHP)
+  * **Indication**: Hypertension
+* **Vasodilator**
+  * **Drugs**: Minoxidil, diazoxide, hydralazine, nitroprusside
+  * **Mechanism**: Activate K channel (minoxidil, diazoxide), increase cGMP (hydralazine, nitroprusside)
+  * **Indication**: Hypertension
+  * **Adverse effect**: Hirsutism (minoxidil), hyperglycemia (diazoxide), lupus-like syndrome (hydralazine), nitroprusside (cyanide toxicity)
+* **α1 antagonist**
+  * **Drugs**: Prazosin, doxazosin, terazosin
+  * **Mechanism**: α1 antagonist 
+  * **Indication**: Hypertension (with BPH)
+* **α2 agonist**
+  * **Drugs**: Clonidine, methyldopa
+  * **Mechanism**: α2 agonist 
+  * **Indication**: Hypertension (pregnancy)
+* **D1 agonist**
+  * **Drugs**: Fenoldopam
+  * **Mechanism**: D1 agonist
+  * **Indication**: Malignant hypertension
+* **PDE5 inhibitor**
+  * **Drugs**: Sildenafil, vardenafil
+  * **Mechanism**: PDE5 inhibitor, increase cGMP
+  * **Indication**: Pulmonary hypertension, erectile dysfunction
+* **Diuretics**
+  * See diuretics
+{: .notice--info}
+
+### Heart Failure Drug / 心不全の薬
+
+* **Cardiac glycoside**
+  * **Drugs**: Digoxin, digitoxin
+  * **Mechanism**: Inhibit Na/K ATPase, elevate intreacellular Ca
+  * **Indication**: Congestive heart failure
+  * **Adverse effect**: GI distress, visual disturbance, digoxin toxicity (treat with potassium and antibody)
+* **PDE3 inhibitor**
+  * **Drugs**: Melrinone, amrinone
+  * **Mechanism**: Inhibit PDE3, increase cAMP
+  * **Indication**: Heart failure
+* **Adrenergic agonist**
+  * **Drugs**: Dobutamine
+  * **Mechanism**: β1 agonist
+  * **Indication**: Heart failure
+* **BNP agonist**
+  * **Drugs**: Nesiritide, sacubitril
+  * **Mechanism**: BNP agonist (nersiritide), increase BNP (sacubitril)
+  * **Indication**: Heart failure
+{: .notice--info}
+
+### Antianginal Drug / 抗狭心症薬
+
+* **Nitrates**
+  * **Drugs**: Nitroglycerin, isosorbide mononitrate, isosorbide dinitrate
+  * **Mechanism**: Increase cGMP
+  * **Indication**: Angina pectoris
+  * **Adverse effect**: Headache, flushing
+* **Ranolazine**
+  * **Drugs**: Ranolazine
+  * **Mechanism**: Inhibit Na current, decrease intracellular Ca
+  * **Indication**: Angina pectoris
+  * **Adverse effect**: QT prolongation
+{: .notice--info}
+
+### Antiarrhythmic Drug / 抗不整脈薬
+
+* **Class IA**
+  * **Drugs**: Quinidine, procainamide, disopyramide
+  * **Mechanism**: Na (and K) channel blocker (prolong QRS)
+  * **Indication**: Arrythmia
+  * **Adverse effect**: Torsade de pointes, cinchonism (quinidine), lupus-like syndrome (procainamide)
+* **Class IB**
+  * **Drugs**: Mexiletine, lidocaine, phenytoin
+  * **Mechanism**: Na channel blocker (prolong QRS)
+  * **Indication**: Arrythmia
+* **Class IC**
+  * **Drugs**: Flecanide, propafenone
+  * **Mechanism**: Na channel blocker (prolong QRS)
+  * **Indication**: Arrythmia
+* **Class II**
+  * **Drugs**: Propranolol, metoprolol, pindolol, esmolol
+  * **Mechanism**: β blocker (prolong PR)
+  * **Indication**: Tachycardia, Post-MI
+* **Class III**
+  * **Drugs**: Amiodarone, dronedarone, sotalol, ibutilide, dofetilide
+  * **Mechanism**: K channel blocker (prolong QT)
+  * **Indication**: Arrythmia
+  * **Adverse effect**: Torsade de pointes, thyroid dysfunction (amiodarone), liver dysfunction (amiodarone), pulmonary fibrosis (amiodarone)
+* **Class IV**
+  * **Drugs**: Verapamil, diltiazem, bepridil
+  * **Mechanism**: Ca channel blocker (prolong PR)
+  * **Indication**: Tachycardia
+* **Class V**
+  * **Drugs**: Adenosine, MgSO4
+  * **Mechanism**: Gi (adenosine)
+  * **Indication**: PSVT (adenosine), torsade de pointes (MgSO4)
+{: .notice--info}
+
 <!-- ## Heart Failure / 心不全
 
 ### Left-Sided Heart Failure / 左心不全
@@ -368,6 +598,220 @@ Essences of clinical medicine.
   * **Adrenal medulla**: Chromaffin cell (epinephrine, norepinephrine), sympathetic presynaptic fiber
 {: .notice--info}
 
+### Hypothalamus and Pituitary Hormone / 視床下部・下垂体ホルモン
+
+* **Somatostatin analog**
+  * **Drugs**: Octreotide, lantreotide
+  * **Mechanism**: Somatostatin analog (decrease GH)
+  * **Indication**: Acromegaly, esophageal variceal bleeding
+* **GH agonist**
+  * **Drugs**: Somatropin, somatrem, mecasermin
+  * **Mechanism**: recombinant GH (somatropin, somatrem), recombinant IGF-1 (mecasermin)
+  * **Indication**: Acromegaly, variceal bleeding
+* **GH antagonist**
+  * **Drugs**: Pegvisomant
+  * **Mechanism**: GH antagonist
+  * **Indication**: Acromegaly
+* **Dopamine analog**
+  * **Drugs**: Bromocriptine, cabergoline
+  * **Mechanism**: Dopamine analog (decrease prolactin)
+  * **Indication**: Hyperprolactenemia
+* **GnRH agonist**
+  * **Drugs**: Leuprolide, goserelin
+  * **Mechanism**: GnRH agonist (pulsatile: increase FSH and LH, chronic: decrease FSH and LH)
+  * **Indication**: Prostate cancer, endometriosis
+* **GnRH antagonist**
+  * **Drugs**: Abarelix, ganirelix
+  * **Mechanism**: GnRH antagonist (decrease FSH and LH)
+  * **Indication**: Prostate cancer, controlled ovarian stimulation
+* **ADH agonist**
+  * **Drugs**: Desmopressin
+  * **Mechanism**: ADH V2 agonist
+  * **Indication**: Central diabetes indipidus, hemophilia A
+* **ADH antagonist**
+  * **Drugs**: Conivaptan, tolvaptan, demeclocycline
+  * **Mechanism**: ADH V1/2 antagonist
+  * **Indication**: SIADH
+{: .notice--info}
+
+### Thyroid Hormone / 甲状腺ホルモン
+
+* **Thyroid hormone**
+  * **Drugs**: Liothyronine (T3), levothyroxine (T4), liotrix (mix)
+  * **Mechanism**: Thyroid hormone
+  * **Indication**: Hypothyroidism
+* **Thioamide**
+  * **Drugs**: Propylthiouracil, methimazole, carbimazole
+  * **Mechanism**: Inhibit T4/T3 synthesis and conversion
+  * **Indication**: Hyperthyroidism
+  * **Adverse effect**: Agranulocytosis
+* **Iodide**
+  * **Drugs**: Iodide, lithium
+  * **Mechanism**: Inhibit T4/T3 release, decrease thyroid vascularity
+  * **Indication**: Before thyroid surgery 
+* **Radioactive iodide**
+  * **Drugs**: I-131
+  * **Mechanism**: Destruct thyroid gland
+  * **Indication**: Hyperthyroidism, thyroid carcinoma
+* **Anion inhibitor**
+  * **Drugs**: Perchlorate, pertechnetate, thriocyanate
+  * **Mechanism**: Inhibit iodide entry
+  * **Indication**: Hyperthyroidism
+* **Other therapy**
+  * **Drugs**: β-blocker, hydrocortisone
+  * **Mechanism**: Inhibit T4/T3 conversion, release symptom
+{: .notice--info}
+
+### Adrenal Cortical Hormone / 副腎髄質ホルモン
+
+* **Glucocorticoid**
+  * **Drugs**: Short-acting: Cortisol, cortisone / Intermediate-acting: Prednisone, prednisolone, methylprednisolone, triamcinolone / Long-acting: Betamethasone, dexamethasone
+  * **Mechanism**: GR receptor agonist
+  * **Indication**: Inflammation, replacement therapy, Cushing syndrome diagnosis (dexamethasone)
+  * **Adverse effect**: Adrenal suppression, hyperglycemia, osteoporosis, peptic ulcer
+* **Mineralcorticoid**
+  * **Drugs**: Desoxycorticosterone, fludrocortisone
+  * **Mechanism**: MR receptor agonist
+  * **Indication**: Replacement therapy
+* **Synthesis inhibitor**
+  * **Drugs**: Ketoconazole, metyrapone, aminoglutethimide
+  * **Mechanism**: 17α-hydroxylase inhibitor (ketoconazole), 11β-hydroxylase inhibitor (metyrapone), cholesterol side chain cleaving enzyme inhibitor (aminoglutethimide)
+  * **Indication**: Cushing syndrome, pituitary function test (metyrapone)
+{: .notice--info}
+
+### Sex Hormone / 性ホルモン
+
+* **Estrogen**
+  * **Drugs**: Estradiol, mestranol
+  * **Mechanism**: Estrogen
+  * **Indication**: Menopausal therapy, contraception
+  * **Adverse effect**: Endometrial cancer, breast cancer
+* **SERM**
+  * **Drugs**: Clomiphene, raloxifene, tamoxifen
+  * **Mechanism**: Selective estrogen receptor modulator
+  * **Indication**: Ovary dysfunction infertility (clomiphene), osteoporosis (raloxifene), breast cancer (tamoxifen)
+* **Estrogen antagonist**
+  * **Drugs**: Fulvestrant
+  * **Mechanism**: Estrogen antagonist
+  * **Indication**: Breast cancer
+* **Aromatase inhibitor**
+  * **Drugs**: Letrozole, anastrolzole, exemestane
+  * **Mechanism**: Aromatase inhibitor (decrease estrogen)
+  * **Indication**: Breast cancer
+* **Progestin**
+  * **Drugs**: Norgestrel, desogestrol
+  * **Mechanism**: Progestin
+  * **Indication**: Endometriosis, contraception (with estrogen)
+* **Progestin antagonist**
+  * **Drugs**: Mifepristone
+  * **Mechanism**: Progestin antagonist
+  * **Indication**: Abortion
+* **Androgen**
+  * **Drugs**: Testosterone, oxandrolone, danazol
+  * **Mechanism**: Androgen
+  * **Indication**: Hypogonadism, endometriosis (danazol)
+  * **Adverse effect**: Decreased testicular function
+* **Androgen antagonist**
+  * **Drugs**: Cyproterone, flutamide, bicalutamide, spironolactone
+  * **Mechanism**: Androgen antagonist
+  * **Indication**: Prostate cancer
+* **5α-reductase inhibitor**
+  * **Drugs**: Finasteride
+  * **Mechanism**: 5α-reductase inhibitor (decrease DHT)
+  * **Indication**: BPH, male-pattern baldness
+{: .notice--info}
+
+### Glucose Homeostasis / 糖代謝の薬
+
+* **Insulin**
+  * **Drugs**: Rapid-acting: insulin lispro, insulin aspart / Short-acting: Regular insulin / Intermediate-acting: NPH / Long-acting: insulin glargine, insulin detemir, insulin degludec
+  * **Mechanism**: Insulin
+  * **Indication**: Diabetes mellitus
+* **Sulfonylurea**
+  * **Drugs**: Glyburide, glipizide, glimepiride, tolbutamide
+  * **Mechanism**: Inhibit ATP-dependent K channel (increase insulin secretion)
+  * **Indication**: Diabetes mellitus
+* **Meglitinide**
+  * **Drugs**: Rapaglinide, nateglinide
+  * **Mechanism**: Inhibit ATP-dependent K channel (increase insulin secretion)
+  * **Indication**: Diabetes mellitus
+* **GLP-1 agonist**
+  * **Drugs**: Exenatide, liraglutide
+  * **Mechanism**: GLP-1 analog (increase insulin secretion)
+  * **Indication**: Diabetes mellitus
+* **DPP-4 inhibitor**
+  * **Drugs**: Sitagliptin, saxagliptin
+  * **Mechanism**: DPP-4 inhibitor (increase GLP-1, increase insulin secretion)
+  * **Indication**: Diabetes mellitus
+* **Biguanide**
+  * **Drugs**: Metformin
+  * **Mechanism**: Reduce hepatic gluconeogenesis
+  * **Indication**: Diabetes mellitus
+* **Thiazolidinedione**
+  * **Drugs**: Troglitazone, rosiglitazone
+  * **Mechanism**: Activate PPARγ (decrease insulin resistance)
+  * **Indication**: Diabetes mellitus
+* **α-glucosidase inhibitor**
+  * **Drugs**: Acarbose
+  * **Mechanism**: α-glucosidase inhibitor (decrease intestinal glucose absorption)
+  * **Indication**: Diabetes mellitus
+* **SGLT2 inhibitor**
+  * **Drugs**: Canagliflozin, empagliflozin
+  * **Mechanism**: SGLT2 inhibitor (decrease renal glucose reabsorption)
+  * **Indication**: Diabetes mellitus
+* **Amylin analog**
+  * **Drugs**: Pramlintide
+  * **Mechanism**: Amylin analog
+  * **Indication**: Diabetes mellitus
+{: .notice--info}
+
+### Calcium Homeostasis Drug / カルシウム代謝の薬
+
+* **Bisphosphonate**
+  * **Drugs**: Alendronate, risedronate, pamidronate
+  * **Mechanism**: Inhibit osteoclast
+  * **Indication**: Osteoporosis
+* **Anti-RANKL antibody**
+  * **Drugs**: Denosumab
+  * **Mechanism**: Anti-RANKL antibody (inhibit osteoclast)
+  * **Indication**: Osteoporosis
+* **Parathyroid hormone**
+  * **Drugs**: Teriparatide
+  * **Mechanism**: Stimulate osteoblast
+  * **Indication**: Osteoporosis
+* **Calcitonin**
+  * **Drugs**: Calcitonin
+  * **Mechanism**: Inhibit osteoclast
+  * **Indication**: Paget disease
+* **Vitamin D**
+  * **Drugs**: Cholecalciferol
+  * **Mechanism**: Increase Ca absorption and reabsorption
+  * **Indication**: Osteomalacia
+* **SERM**
+  * **Drugs**: Raloxifene, estrogen
+  * **Mechanism**: Inhibit osteoclast
+  * **Indication**: Postmenopausal osteoporosis
+{: .notice--info}
+
+### Retinoic Acid / レチノイン酸
+
+* **Tretinoin**
+  * **Drugs**: Tretinoin
+  * **Mechanism**: Modify epithelial growth and turnover
+  * **Indication**: Acne, photo-aged skin, acute promyelocytic leukemia
+  * **Adverse effect**: Sunburn
+* **Isotretinoin**
+  * **Drugs**: Isotretinoin
+  * **Mechanism**: Reduce sebaceous gland size
+  * **Indication**: Severe cystic acne
+  * **Adverse effect**: Teratogenic
+* **Acitretin**
+  * **Drugs**: Acitretin
+  * **Mechanism**: Inhibit proinflammatory cytokine expression
+  * **Indication**: Psoriases
+  * **Adverse effect**: Skin and nail abnormality, teratogenic
+{: .notice--info}
+
 <!-- ## Hypothalamus and Pituitary Gland Disease / 視床下部・下垂体疾患
 
 ### Hyperprolactinemia / 高プロラクチン血症
@@ -460,6 +904,38 @@ Essences of clinical medicine.
 
 ## Introduction /　総論
 
+### Diuretics / 利尿薬
+
+* **Carbonic anhydrase inhibitor**
+  * **Drugs**: Acetazolamide
+  * **Mechanism**: Inhibit carbonic anhydrase
+  * **Indication**: Glaucoma, urine alkalinization
+  * **Adverse effect**: Acidosis, renal calculi
+* **Loop diuretics**
+  * **Drugs**: Furosemide, bumetanide, torsemide, ethacrynic acid
+  * **Mechanism**: Inhibit Na-K-2Cl contransporter
+  * **Indication**: Acute pulmonary edema, congestive heart failure
+  * **Adverse effect**: Hypokalemia, hypocalcemia, alkalosis, ototoxicity (with aminoglycoside)
+* **Thiazide diuretics**
+  * **Drugs**: Hydrochlorothiazide, chlorothiazide
+  * **Mechanism**: Inhibit Na-Cl contransporter
+  * **Indication**: Hypertension, nephrogenic diabetes insipidus
+  * **Adverse effect**: Hypokalemia, hypercalcemia, alkalosis, hyperuricemia, hyperglycemia
+* **Potassium-sparing diuretics**
+  * **Drugs**: Spironolactone, eplerenone, amiloride, triamterene
+  * **Mechanism**: Aldosterone antagonist (spironolactone, eplerenone), ENac blocker (amiloride, triamterene)
+  * **Indication**: Hyperaldosteronism, prevent K+ loss
+  * **Adverse effect**: Hyperkalemia, acidosis, gynecomastia (spironolactone)
+* **Osmotic diuretics**
+  * **Drugs**: Mannitol
+  * **Mechanism**: Inhibit water reabsorption
+  * **Indication**: Reduce intracranial and intraocular pressure 
+* **ADH antagonist**
+  * **Drugs**: Conivaptan, tolvaptan, demeclocycline
+  * **Mechanism**: V1 and/or V2 antagonist
+  * **Indication**: SIADH
+{: .notice--info}
+
 <!-- ## Water and Electrolytes Metabolism Disorder / 水・電解質代謝異常
 
 ### Hyponatremia / 低ナトリウム血症
@@ -534,6 +1010,159 @@ Essences of clinical medicine.
 
 ## Introduction /　総論
 
+### Alkylating Drug / アルキル化薬
+
+* **Nitrogen mustard**
+  * **Drug**: Cyclophosphamide, ifosfamide
+  * **Mechanism**: Directly damage DNA
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, hemorrhagic cystitis (due to acrolein, prevented by mesna)
+* **Nitrosoureas**
+  * **Drug**: Carmustine, lomustine
+  * **Mechanism**: Directly damage DNA
+  * **Indication**: Brain tumor (cross BBB)
+  * **Adverse effect**: Myelosuppression, pulmonary toxicity
+* **Alkyl sulfonate**
+  * **Drug**: Busfulfan
+  * **Mechanism**: Directly damage DNA
+  * **Indication**: Before bone marrow transplantation
+  * **Adverse effect**: Myelosuppression, pulmonary fibrosis, hyperpigmentation
+* **Platinum analog**
+  * **Drug**: Cisplatin, carboplatin, oxaliplatin
+  * **Mechanism**: Directly damage DNA
+  * **Indication**: Various tumor
+  * **Adverse effect**: Myelosuppresion, nephrotoxicity, otoxicity, peripheral neuropathy
+{: .notice--info}
+
+### Antimetabolte / 代謝拮抗薬
+
+* **Folic acid analog**
+  * **Drug**: Methotrexate, pemetrexed
+  * **Mechanism**: Inhibit dihydrofolate reductase, inhibit thymidylate synthetase (pemetrexed)
+  * **Indication**: Leukemia and lymphoma, autoimmune disease (methotrexate), mesothelioma, non-small cell lung cancer (pemetrexed)
+  * **Adverse effect**: Myelosuppresion, mucositis, nephrotoxicity (rescued by leucovorin)
+* **5-Fluorouracil**
+  * **Drug**: 5-Fluorouracil, capecitabine
+  * **Mechanism**:  Inhibit thymidylate synthetase (5F-dUMP)
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, hand-and-foot syndrome
+* **Pyrimidine analog**
+  * **Drug**: Cytarabine, gemticabine
+  * **Mechanism**: Inhibit DNA polymerase
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression
+* **Purine analog**
+  * **Drug**: 6-Mercaptopurine, cladribine
+  * **Mechanism**: Inhibit DNA polymerase
+  * **Indication**: Leukemia
+  * **Adverse effect**: Myelosuppression, interact with allopurinol
+* **Hydroxyuria**
+  * **Drug**: Hydroxyuria
+  * **Mechanism**: Inhibit ribonucleoside diphosphate reductase
+  * **Indication**: Leukemia, sickle cell anemia
+  * **Adverse effect**: Myelosuppression, GI distress
+{: .notice--info}
+
+### Microtubule Damaging Drug / 微小管阻害薬
+
+* **Vinca alkaloids**
+  * **Drug**: Vinblastine, vincristine, vinorelbine
+  * **Mechanism**: Inhibit microtubule polymerization
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, peripheral neuropathy
+* **Taxanes**
+  * **Drug**: Paclitaxel, docltaxel, cabazitaxel
+  * **Mechanism**: Inhibit microtubule depolymerization
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, peripheral neuropathy, hypersensitivity (paclitaxel), fluid retention (docetaxel)
+{: .notice--info}
+
+### Topoisomerase Inhibitor / トポイソメラーゼ阻害薬
+
+* **Topoisomerase I inhibitor**
+  * **Drug**: Topotecan, irinotecan
+  * **Mechanism**: Topoisomerase I inhibitor
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, diarrhea, secondary leukemia
+* **Topoisomerase II inhibitor**
+  * **Drug**: Etoposide
+  * **Mechanism**: Topoisomerase II inhibitor
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression
+{: .notice--info}
+
+### Antitumor Antibiotics / 抗腫瘍性抗生物質
+
+* **Antrhacyclines**
+  * **Drug**: Doxorubicin, daunorubicin, idarubicin, epirubicin
+  * **Mechanism**: Inhibit topoisomerase II, intercalate between DNA base pairs, form oxygen free radical
+  * **Indication**: Various cancer
+  * **Adverse effect**: Myelosuppression, cardiotoxicity (dexrazoxane protect)
+* **Dactinomycin**
+  * **Drug**: Dactinomycin
+  * **Mechanism**: Intercalate between DNA base pairs
+  * **Indication**: Pediatric cancer
+  * **Adverse effect**: Myelosuppression
+* **Bleomycin**
+  * **Drug**: Bleomycin
+  * **Mechanism**: Form oxygen free radical
+  * **Indication**: Testicular cancer
+  * **Adverse effect**: Pulmonary toxicity, hyperpigmentation
+{: .notice--info}
+
+### Target Therapy / 分子標的薬
+
+* **Monoclonal antibody (CD20)**
+  * **Drug**: Rituximab
+  * **Mechanism**: Anti-CD20
+  * **Indication**: Non-Hodgkin lymphoma, chronic lymphocytic leukemia
+* **Monoclonal antibody (CD30)**
+  * **Drug**: Brentuximab vedotin
+  * **Mechanism**: Anti-CD30
+  * **Indication**: Hodgkin lymphoma
+* **Monoclonal antibody (HER2)**
+  * **Drug**: Trastuzumab, pertuzumab
+  * **Mechanism**: Anti-HER2
+  * **Indication**: Breast cancer, gastric cancer
+* **Monoclonal antibody (EGFR)**
+  * **Drug**: Cetuximab, panitumumab, necitumumab
+  * **Mechanism**: Anti-EGFR
+  * **Indication**: Metastatic colorectal cancer (KRAS wild-type)
+* **Monoclonal antibody (VEGF)**
+  * **Drug**: Bevacizumab, ramucirumab
+  * **Mechanism**: Anti-VEGF (inhibit microvascular growth)
+  * **Indication**: Various cancer
+* **Tyrosine kinase inhibitor (BCR-ABL)**
+  * **Drug**: Imatinib, dasatinib, nilotinib, and ponatinib
+  * **Mechanism**: BCR-ABL inhibitor
+  * **Indication**: Leukemia and lymphoma (Philadelphia chromosome-positive) 
+* **Tyrosine kinase inhibitor (EGFR)**
+  * **Drug**: Gatitinib, erlotinib
+  * **Mechanism**: EFGR inhibitor
+  * **Indication**: NSCLC
+* **Tyrosine kinase inhibitor (BRAF)**
+  * **Drug**: Vemurafenib
+  * **Mechanism**: BRAF inhibitor
+  * **Indication**: Melanoma (BRAF V600E)
+* **Immune checkpoint inhibitor (CTLA-4)**
+  * **Drug**: Ipilimumab
+  * **Mechanism**: Anti-CTLA-4, enhance T-cell activation
+  * **Indication**: Melanoma
+* **Immune checkpoint inhibitor (PD-1)**
+  * **Drug**: Pembrolizumab, nivolumab, cemiplimab
+  * **Mechanism**: Anti-PD-1, enhance T-cell activation
+  * **Indication**: Various cancer
+* **Immune checkpoint inhibitor (PD-L1)**
+  * **Drug**: Atezolizumab, durvalumab, avelumab
+  * **Mechanism**: Anti-PD-L1, enhance T-cell activation
+  * **Indication**: Various cancer
+* **Immunomodulator**
+  * **Drug**: Thalidomide, lenalidomide
+  * **Mechanism**: Inhibit proinflammatory cytokines secretion, enhance call-mediated immunity
+  * **Indication**: Multiple myeloma
+  * **Adverse effect**: Birth defect
+{: .notice--info}
+
 <!-- ## Nonhemolytic Anemia / 非溶血性貧血
 
 ### Iron Deficiency Anemia / 鉄欠乏性貧血
@@ -606,6 +1235,134 @@ Essences of clinical medicine.
 
 ## Introduction /　総論
 
+### Antiallergic Drug / 抗アレルギー薬
+
+* **H1 antagonist (1st generation)**
+  * **Drug**: Chlorpheniramine, dimenhydrinate, diphenhydramine, doxylamine, meclizine, promethazine
+  * **Mechanism**: H1 receptor antagonist (pass BBB)
+  * **Indication**: Allergic symptoms, insomnia, motion sickness, nausea and vomiting
+  * **Adverse effect**: Sedation, anticholinergic
+* **H1 antagonist (2st generation)**
+  * **Drug**: Loratadine, cetirizine, clemastine, fexofenadine, desloratadine
+  * **Mechanism**: H1 receptor antagonist (not pass BBB)
+  * **Indication**: Allergic rhinitis
+{: .notice--info}
+
+### NSAID / 非ステロイド性抗炎症薬
+
+* **Aspirin**
+  * **Drug**: Aspirin
+  * **Mechanism**: Inactivate COX-1 and COX-2 (irreversible)
+  * **Indication**: Inflammation, pain, fever, reduce thrombi formation
+  * **Adverse effect**: Gastrointestinal event, hypersensitivity, Reye syndrome (during viral infection)
+* **NSAID**
+  * **Drug**: Ibuprofen, naproxen, fenoprofen, ketoprofen / indomethacin, sulindac, ketorolac, diclofenac / peroxicam, mefenamate, meclofenamate, nabumetone / celecoxib (COX-2 selective)
+  * **Mechanism**: Inactivate COX-1 and COX-2 (reversible)
+  * **Indication**: Inflammation (indomethacin, diclofenac), pain (ketorolac), fever (ibuprogen, naproxen)
+  * **Adverse effect**: Gastrointestinal event, hypersensitivity, cardiovascular event (COX-2 selective)
+* **Acetaminophen**
+  * **Drug**: Acetaminophen
+  * **Mechanism**: Inactivate COX (centrally acting)
+  * **Indication**: Pain, fever
+  * **Adverse effect**: Hepatotoxicity (due to NAPQI, treat with N-acetylcystein)
+* **PGE1 agonist**
+  * **Drug**: Misoprostol, alprostadil
+  * **Mechanism**: PGE1 agonist
+  * **Indication**: NSAID-induced ulcer (misoprostol), erectile dysfunction (alprostadil), ductus arteriosus maintenance (alprostadil)
+* **PGE2 agonist**
+  * **Drug**: Dinoprostone
+  * **Mechanism**: PGE2 agonist
+  * **Indication**: Pregnancy termination
+* **PGF2α agonist**
+  * **Drug**: Carboprost, latanoprost
+  * **Mechanism**: PGF2α agonist
+  * **Indication**: Pregnancy termination (carboprost), glaucoma (latanoprost)
+* **PGI2 agonist**
+  * **Drug**: Epoprostenol, treprostinil, iloprost
+  * **Mechanism**: PGI2 agonist
+  * **Indication**: Pulmonary hypertension
+{: .notice--info}
+
+### Gout Drug / 痛風の薬
+
+* **Colchicine**
+  * **Drug**: Colchicine
+  * **Mechanism**: Prevent tubulin polymerization, interfere neutrophil migration
+  * **Indication**: Acute gouty arthritis
+  * **Adverse effect**: Gatrointestinal distress
+* **Allopurinol**
+  * **Drug**: Allopurinol, feboxostat
+  * **Mechanism**: Xanthine oxidase inhibitor
+  * **Indication**: Chronic gout
+  * **Adverse effect**: Skin rash, GI distress
+* **Porbenecid**
+  * **Drug**: Compatitively inhibits reabaorption
+of urate
+  * **Mechanism**: Chronic gout
+  * **Indication**: Urolithiasis
+  * **Adverse effect**: Reduct other drugs excretion (penicillin)
+* **Pegloticase**
+  * **Drug**: Pegloticase
+  * **Mechanism**: Recombinant uricase
+  * **Indication**: Chronic gout
+  * **Adverse effect**: Anaphylaxis
+{: .notice--info}
+
+### Immunosuppressive Drug / 免疫抑制薬
+
+* **Calcineurin inhibitor**
+  * **Drug**: Cyclosporine, tacralimus
+  * **Mechanism**: Calcineurin inhibitor
+  * **Indication**: Solid-organ transplant, autoimmune disease
+  * **Adverse effect**: Nephrotoxicity, gingival hyperplasia (cyclosporine)
+* **mTOR inhibitor**
+  * **Drug**: Sirolimus
+  * **Mechanism**: mTOR inhibitor
+  * **Indication**: Solid-organ transplant, autoimmune disease
+  * **Adverse effect**: Anemia, increased cholesterol
+* **Antimetabolite**
+  * **Drug**: Azathioprine, mycophenolate mofetil, leflunomide
+  * **Mechanism**: Inhibit DNA synthesis (Azathioprine: converted to 6-MP) (Mycophenolate mofetil: inhibit inosine monophosphate dehydrogenase) (Leflunomide: inhibit dihydroorotate dehydrogenase)
+  * **Indication**: Solid-organ transplant, autoimmune disease
+  * **Adverse effect**: GI distress, leukopenia, interact with allopurinol (azathioprine)
+* **Biologic agent (TNF-α)**
+  * **Drug**: Infliximab, adalimumab, certolizumab, golimumab, etanercept
+  * **Mechanism**: Block TNF-α 
+  * **Indication**: Autoimmune diseases
+* **Biologic agent (IL-1)**
+  * **Drug**: Anakinra
+  * **Mechanism**: IL-1 receptor antagonist
+  * **Indication**: Rheumatold arthritis
+* **Biologic agent (IL-6 receptor)**
+  * **Drug**: Tocilizumab
+  * **Mechanism**: IL-6 receptor antagonist
+  * **Indication**: Rheumatold arthritis
+* **Biologic agent (JAK-STAT)**
+  * **Drug**: Tofacitinib
+  * **Mechanism**: Block JAK-STAT signaling
+  * **Indication**: Rheumatold arthritis
+* **Biologic agent (CD80/86)**
+  * **Drug**: Abatacept
+  * **Mechanism**: Block costimulatory signal
+  * **Indication**: Rheumatold arthritis
+* **Biologic agent (CD20)**
+  * **Drug**: Rituximab
+  * **Mechanism**: Anti-CD20 antibody
+  * **Indication**: Rheumatoid arthritis, leukemia and lymphoma
+* **Biologic agent (CD25)**
+  * **Drug**: Basiliximab
+  * **Mechanism**: Anti-CD25 antibody
+  * **Indication**: Acute transplant rejection
+* **Biologic agent (α4 integrin)**
+  * **Drug**: Natalizumab
+  * **Mechanism**: Anti-α4 integrin antibody
+  * **Indication**: Multiple sclerosis, Crohn disease.
+* **Antithymocyte globulin**
+  * **Drug**: Antithymocyte globulin
+  * **Mechanism**: Elimination of T lymphocyte
+  * **Indication**: Aplastic anemia, graft-versus-host disease
+{: .notice--info}
+
 <!-- ## Allergy / アレルギー
 
 ### Anaphylaxis / アナフィラキシー
@@ -652,6 +1409,223 @@ Essences of clinical medicine.
 # Infectious Diseases / 感染症科
 
 ## Introduction /　総論
+
+### Cell Wall Synthesis Inhibitor / 細胞壁合成阻害薬
+
+* **Penicillins**
+  * **Drug**: (Original) penicillin G, penicillin V, benzathine penicillin / (β-lactamase resistant) oxacillin, dicloxacillin, methicillin, nafcillin / (Extended-spectrum) ampicillin, amoxicillin, piperacillin, ticarcillin / (β-lactamase inhibitor) clavulanate, sulbactam, tazobactam
+  * **Mechanism**: Inhibit transpeptidase, resistance from β-lactamase, synergistic with aminoglycoside
+  * **Indication**: Various bacteria, pseudomonas (piperacillin, ticarcillin)
+  * **Adverse effect**: Hypersensitivity, GI disturbances
+* **Cephalosporins**
+  * **Drug**: (1st generation) cephalexin, cefazolin, cefadroxil / (2nd generation) cefoxitin, cefaclor, cefuroxime, cefotetan, cefprozil / (3rd generation)
+  ceftazidime, cefperazone, ceftriazone, cefixime, cefdinir, cefotaxime / (4th generation) cefepime / (5th generation) ceftaroline
+  * **Mechanism**: Inhibit transpeptidase, β-lactamase resistant, penetrate CSF (cefuroxime, 3rd generation)
+  * **Indication**: Various bacteria, pseudomonas (cefoperazone, ceftazidime, cefepime), gonorrhea (ceftriaxone, cefixime), MRSA (ceftaroline)
+  * **Adverse effect**: Hypersensitivity, GI disturbances
+* **Carbapenems**
+  * **Drug**: Imipenem (+ cilastatin), ertapenem, meropenem, doripenem
+  * **Mechanism**: Inhibit transpeptidase, β-lactamase resistant, (cilastin: inhibit renal dehydropeptidase)
+  * **Indication**: Various bacteria
+  * **Adverse effect**: Hypersensitivity
+* **Monobactam**
+  * **Drug**: Aztreonam
+  * **Mechanism**: Inhibit transpeptidase, β-lactamase resistant
+  * **Indication**: Gram-negative (penicillin hypersensitivity)
+* **Glycopeptides**
+  * **Drug**: Vancomycin, telavancin, dalbavancin, oritavancin
+  * **Mechanism**: Inhibit transglycosylase
+  * **Indication**: Gram-positive (penicillin hypersensitivity), MRSA
+  * **Adverse effect**: Red man syndrome, nephrotoxicity
+* **Daptomycin**
+  * **Drug**: Daptomycin
+  * **Mechanism**: Disrupt cell membrane
+  * **Indication**: Gram-positive, MRSA
+  * **Adverse effect**: Myopathy
+* **Polymyxin**
+  * **Drug**: Polymyxin
+  * **Mechanism**: Disrupt cell membrane
+  * **Indication**: Gram-negative
+  * **Adverse effect**: Nephrotoxicity, neurotoxicity
+{: .notice--info}
+
+### Protein Synthesis Inhibitor / タンパク質合成阻害薬
+
+* **Aminoglycosides**
+  * **Drug**: Streptomycin, gentamicin, tobramycin, neomycin, amikacin
+  * **Mechanism**: Inhibit 30S ribosomal subunit, require active transport (anaerobe resistant), synergistic with β-lactam
+  * **Indication**: Gram-negative, aerobe
+  * **Adverse effect**: Nephrotoxic, ototoxic, neuromuscular blockade
+* **Tetracyclines**
+  * **Drug**: Tetracycline, demeclocycline, doxycycline, minocycline, tigecycline
+  * **Mechanism**: Inhibit 30S ribosomal subunit
+  * **Indication**: Rickatlsia, chlamydia, mycoplasma, acne vulgaris, MRSA (tigecycline)
+  * **Adverse effect**: Tooth discoloration, growth inhibition, photosensitivity, calcium impair absorption
+* **Macrolides**
+  * **Drug**: Azithromycin, clarithromycin, erythromycin, telithromycin
+  * **Mechanism**: Inhibit 50S subunit
+  * **Indication**: Legionella, mycoplasma
+  * **Adverse effect**: QT prolongation, inhibit CYP450
+* **Lincosamide**
+  * **Drug**: Clindamycin
+  * **Mechanism**: Inhibit 50S subunit
+  * **Indication**: Anaerobe, ance
+  * **Adverse effect**: Pseudomembranous colitis
+* **Oxazolidinones**
+  * **Drug**: Linezolid
+  * **Mechanism**: Inhibit 50S subunit
+  * **Indication**: Gram-positive, VRE
+  * **Adverse effect**: Thrombocytopenia, serotonin syndrome
+* **Amphenicol**
+  * **Drug**: Chloramphenicol
+  * **Mechanism**: Inhibit 50S subunit
+  * **Indication**: Various bacteria
+  * **Adverse effect**: Aplastic anemia, hemolytic anemia (G6PD deficienct), gray baby syndrome
+* **Streptogramins**
+  * **Drug**: Quinupristin, dalfopristin
+  * **Mechanism**: Inhibit 50S subunit
+  * **Indication**: VRE, MRSA
+{: .notice--info}
+
+### DNA Synthesis Inhibitor / 核酸合成阻害薬
+
+* **Antifolate drug**
+  * **Drug**: Trimethoprim + sulfamethoxazole
+  * **Mechanism**: Inhibit dihydropteroate synthase (sulfamethoxazole), inhibit dihydrofolate reductase (trimethoprim)
+  * **Indication**: Urinary tract infections, pneumocystis pneumonia
+  * **Adverse effect**: Hypenensitivity, Stevens-Johnson syndrome, hemolytic anemia (G6PD deficiency)
+* **Fluoroquinolones**
+  * **Drug**: Ciprofloxacin, norfloxacin, ofloxacin, levofloxacin, moxifloxacin, gemifloxacin
+  * **Mechanism**: Inhibit DNA gyrase, inhibit topoisomerase IV
+  * **Indication**: Urinary tract infections, respiratory tract infections
+  * **Adverse effect**: QT prolongation, tendon rupture
+* **Metronidazole**
+  * **Drug**: Metronidazole
+  * **Mechanism**: Form free radical
+  * **Indication**: Trichomonas vaginalis, pseudomembranous colitis
+  * **Adverse effect**: Peripheral neuropathy, ditulfiram-like reaction
+{: .notice--info}
+
+### Antimycobacterial Drug / 抗結核薬
+
+* **Isoniazid**
+  * **Drug**: Isoniazid
+  * **Mechanism**: Inhibit mycobactarial call wall synthesis
+  * **Indication**: Tuberculosis (combination), prophylaxis
+  * **Adverse effect**: Peripheral nauropathy (minimized by pyridoxine), hepatotoxicity
+* **Rifampin**
+  * **Drug**: Rifampin
+  * **Mechanism**: Inhibits RNA polymerase
+  * **Indication**: Tuberculosis (combination), atypical mycobactaria, meningitis
+  * **Adverse effect**: Orange-color urine
+* **Ethambutol**
+  * **Drug**: Ethambutol
+  * **Mechanism**: Inhibit arabinosyl transfarase
+  * **Indication**: Tuberculosis (combination)
+  * **Adverse effect**: Visual disturbance
+* **Pyrazinamide**
+  * **Drug**: Pyrazinamide
+  * **Indication**: Tuberculosis (combination)
+  * **Adverse effect**: Hepatotoxicity
+* **Dapsone**
+  * **Drug**: Dapsone
+  * **Mechanism**: Inhibit dihydropteroate synthase
+  * **Indication**: Leprosy, pneumocystis pneumonia
+  * **Adverse effect**: Hemolysis, methemoglobinemia
+{: .notice--info}
+
+### Antifungal Drug / 抗真菌薬
+
+* **Polyene**
+  * **Drug**: Amphotericin B, nystatin
+  * **Mechanism**: Bind to ergosterol, form pores
+  * **Indication**: Various fungus, cryptococcal meningitis (with flucytosine)
+  * **Adverse effect**: Infusion-related reactions, nephrotoxicity
+* **Azoles**
+  * **Drug**: Itraconazole, ketoconazole, miconazole, fluconazole, clotrimazole, voriconazole, isavuconazole, posaconazole
+  * **Mechanism**: Inhibit ergosterol synthesis (inhibit lanosterol methylation)
+  * **Indication**: Various fungus, cryptococcal meningitis (fluconazole)
+  * **Adverse effect**: Hepatotoxicity
+* **Echinocandins**
+  * **Drug**: Caspofungin, micafungin, anidulafungin
+  * **Mechanism**: Inhibit cell wall synthesis
+  * **Indication**: Candida, aspergillus
+* **Flucytosine**
+  * **Drug**: Flucytosine
+  * **Mechanism**: Inhibit nucleic acid synthesis (converted to 5-fluorauracil)
+  * **Indication**: Cryptococcal meningitis (with amphotericin B)
+  * **Adverse effect**: Bone marrow supression
+* **Griseofulvin**
+  * **Drug**: Griseofulvin
+  * **Mechanism**: Prevents spindle formation
+  * **Indication**: Dermatophyte
+{: .notice--info}
+
+### Antiviral Drug / 抗ウイルス薬
+
+* **Antiherpetic drug**
+  * **Drug**: Acyclovir, valacyclovir, famiciclovir / ganciclovir, valganciclovir / foscarnet / cidofovir
+  * **Mechanism**: Inhbit DNA polymerase (acyclovir, valacyclovir, famiciclovir: activated by viral thymidine kinase)
+  * **Indication**: HSV, VZV, EBV, CMV
+  * **Adverse effect**: Nephrotoxicity, neurotoxicity, bone marrow suppression
+* **Anti-influenza drug**
+  * **Drug**: Amantadine, rimantadine / zanamivir, neltamivir / baloxavir marboxil
+  * **Mechanism**: M2 protein inhibitor / neuraminidase inhibitor / PA protein inhibitor
+  * **Indication**: Influenza, prophylaxis
+  * **Adverse effect**: CNS effect, GI dysfunction
+* **Anti-HCV durg (direct-acting antiviral)**
+  * **Drug**: Glecaprevir, grazoprevir, paritaprevir, simeprevir / daclatasvir, elbasvir, ledipasvir, ombitasvir, pibrentasvir, velpatasvir / sofosbubir, dasabuvir
+  * **Mechanism**: NS3/4A inhibitor, NS5A inhibitor, NS5B inhibitor
+  * **Indication**: HCV
+* **Anti-HBV drug**
+  * **Drug**: Lamivudine, adefovir, entecavir, tenofovir / interferon alpha
+  * **Mechanism**: Inhibit DNA polymerase
+  * **Indication**: HBV
+{: .notice--info}
+
+### Antiretroviral Drug / 抗HIV薬
+
+* **Nucleoside reverse transcriptase inhibitor**
+  * **Drug**: Tenofovir, abacavir, zidovudine, emtricitabine, lamivudine, didanosine, stavudine
+  * **Mechanism**: Competitively inhibit reverse transcriptase (require phosphorylation)
+  * **Indication**: HIV
+  * **Adverse effect**: Leukopenia, neuropathy, pancreatitis
+* **Nonnucleoside reverse transcriptase inhibitor**
+  * **Drug**: Efavirenz, nevirapine, rilpivirine, etravirine, delavirdine
+  * **Mechanism**: Noncompetitively inhibit reverse transcriptase (not require phosphorylation)
+  * **Indication**: HIV
+  * **Adverse effect**: GI dysfunction, skin reaction
+* **Protease inhibitor**
+  * **Drug**: Ritonavir, darunavir, atazanavir, lopinavir
+  * **Mechanism**: Inhibit polyprotein cleavage
+  * **Indication**: HIV
+  * **Adverse effect**: Hyperglycemia, hyparlipidemia lipodystrophy
+* **Integrase inhibitor**
+  * **Drug**: Raltegravir, elvitegravir, dolutegravir bictegravir.
+  * **Mechanism**: Prevent viral DNA integration
+  * **Indication**: HIV
+* **Fusion inhibitor**
+  * **Drug**: Enfuvirtida
+  * **Mechanism**: Block viral entry (bind gp41)
+  * **Indication**: HIV
+* **CCR5 antagonist**
+  * **Drug**: Maraviroc
+  * **Mechanism**: Block viral entry (bind CCR5)
+  * **Indication**: HIV
+{: .notice--info}
+
+### Antiparasitic Drug / 抗寄生虫薬
+
+* **Anti-malaria drug**
+  * **Drug**: Cloroquine, primaquine, quinine, atovaquone, artemether, mefloquine
+  * **Indication**: Plasmodium vivax/ovale (chloroquine, primaquine), Plasmodium malaria (chloroquine), Plasmodium falciparum (quinine, atovaquone, artemther, mefloquine)
+* **Anti-protozoa drug**
+  * **Drug**: Metronidazole, stibogluconate sodium, nifurtimox, suramin
+  * **Indication**: Entamoeba & Giardia & Trichomonas (metronidazole), Leishmania (stibogluconate sodium), trypanosoma (nifurtimox, suramin)
+* **Anti-metazoa drug**
+  * **Drug**: Albendazole, pyrantel pamoate, ivermectin, diethylcarbamazine, praziquantel, 
+  * **Indication**: Nematode (albendazole, pyrantel pamoate, ivermectin), filaria (diethylcarbamazine), trematode & cestode (praziquantel)
+{: .notice--info}
 
 <!-- 
 
