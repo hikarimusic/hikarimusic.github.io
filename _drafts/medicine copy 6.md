@@ -15,23 +15,6 @@ Essences of clinical medicine.
 
 ## Introduction /　総論
 
-### Cardiovascular Drugs / 循環器疾患治療薬
-
-* **Calcium channel blocker (DHP)**
-  * **Drugs**: Amlodipine, nifedipine
-  * **Mechanism**: Decrease intracellular calcium, relax smooth muscle
-  * **Indication**: Hypertension, angina pectoris
-  * **Adverse effect**: Tachycardia, flush
-* **Calcium channel blocker (non-DHP)**
-  * **Drugs**: Verapamil, diltiazem, bepridil
-  * **Mechanism**: Decrease intracellular calcium, inhibit SA node and AV node
-  * **Indication**: Supraventribular tachycardia
-  * **Adverse effect**: Bradycardia
-* **β blockers**
-* **αβ blockers**
-{: .notice--info}
-
-
 ### Adrenergic Agonist / アドレナリン作動薬
 
 * **αβ agonist**
@@ -2234,35 +2217,38 @@ of urate
 
 # Gynecology / 婦人科
 
-## Endocrine Disorder / 内分泌の異常
+## Introduction /　総論
 
-### Anovulatory Cycle / 無排卵周期症
+<!-- ### Female Genital Organ / 女性器
 
-### Luteal Insufficiency / 黄体機能不全
+* **Ovary**
+  * **Structure**: Germinal epithelium, tunica albuginea, cortex (follicle), medulla
+  * **Ligament**: Suspensory ligament (ovary artery and vein), ovarian round ligament, mesoovarium (peritoneum)
+  * **Artery**: Ovarian artery (abdominal aorta)
+  * **Vein**: Right ovarian vein (inferior vena cava), left ovarian vein (left renal vein)
+  * **Oogenesis**: Oogonia, 1st oocyte (birth), 2nd oocyte (ovulation), ovum (fertilization)
+  * **Follicle**: Primary follicle (1st oocyte, granulosa cell), secondary follicle (2nd oocyte, granulosa cell, theca cell, antrum), Graafian follicle, corpus luteum (luteal cell), corpus albicans
+  * **Cell**: Granulosa cell (estrogen), theca cell (androgen), luteal cell (progestin, estrogen)
+  * **Genital tract**: Ovary (simple cuboid), oviduct (simple columnar), uterus (simple columnar), vagina (stratified squamous)
+* **Uterus**
+  * **Structure**: Myometrium (smooth muscle), endometrium (stratum basale, stratum funcionale)
+  * **Ligament**: Broad ligament (peritonium), round ligament (inguinal canal), cardinal ligament (cervix)
+  * **Artery**: Uterine artery (internal iliac artery), ovarian artery (abdominal aorta), anastomoses
+* **Vagina**
+  * **Artery**: Vaginal artery (internal iliac artery), middle rectal artery (internal iliac artery)
+  * **Vulva**: Labia majora, labia minora, clitoris, greater vestibular gland
+* **Breast**
+  * **Structure**: Mammary gland (TDLU), Cooper ligament
+  * **Artery**: Lateral thoracic artery, thoracoacromial artery, intrnal thoracic artery
+  * **Lymph**: Axillary lymph node, parasternal lymph node
+{: .notice--info} -->
 
-### Premenstrual Syndrome / 月経前症候群
+<!-- 
 
-### Dysmenorrhea / 月経困難症
+### Syphilis / 梅毒
+### Chancroid / 軟性下疳 
 
-### Hyperprolactinemia / 高プロラクチン血症
-
-### Anorexia Nervosa / 神経性やせ症
-
-### Amenorrhea Due to Weight Loss / 単純性体重減少性無月経
-
-### Sheehan Syndrome / Sheehan症候群
-
-### Polycystic Ovary Syndrome / 多嚢胞性卵巣症候群
-
-## Sex Development Disorder / 性分化疾患
-
-### Congenital Adrenocortical Hyperplasia / 先天性副腎皮質過形成症
-
-### Androgen Insensitivity Syndrome / アンドロゲン不応症
-
-### Turner Syndrome / Turner症候群
-
-### Klinefelter Syndrome / Klinefelter症候群
+-->
 
 # Obstetrics / 産科
 
