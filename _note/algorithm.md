@@ -159,6 +159,22 @@ void solve(int n, int m) {
 }
 ```
 
+### Digit Dp / 桁DP
+```cpp
+int dp[N][M][2];
+
+void solve(int n, int m) {
+    "<base case>";
+    for (int i=0; i<n; ++i) {
+        for (int j=0; j<m; ++j) {
+            "<transfer dp[i][j][0] to dp[i+1][target(0~9) ][0] >";
+            "<transfer dp[i][j][1] to dp[i+1][target(0~di)][0] >";
+            "<transfer dp[i][j][1] to dp[i+1][target(di)  ][1] >";
+        }
+    }
+}
+```
+
 ### Interval DP / 区間DP
 ```cpp
 vector<vector<int>> dp(N, vector<int>(N, -1));

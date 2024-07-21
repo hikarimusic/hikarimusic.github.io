@@ -507,6 +507,7 @@ author_profile: true
         player2: ['u', 'i', 'o', 'j', 'k', 'l', 'm', ',', '.']
     };
     let activePlayer = null;
+    let waitForSpace = false;
 
     function populateMainCategories() {
         const mainCategorySet = new Set(drugs.map(drug => drug[0]));
@@ -600,7 +601,7 @@ author_profile: true
             for (let i = 0; i < count; i++) {
                 const button = document.createElement('button');
                 button.textContent = shuffledOptions.pop();
-                button.onclick = () => checkAnswer(button.textContent, correctAnswer, playerKeys['player1'][row * 3 + i] || playerKeys['player2'][row * 3 + i]);
+                button.onclick = () => handleButtonClick(button.textContent, correctAnswer);
                 rowDiv.appendChild(button);
             }
             optionsContainer.appendChild(rowDiv);
@@ -632,7 +633,6 @@ author_profile: true
             document.querySelectorAll('#optionButtons button').forEach(btn => {
                 if (btn.textContent === correctAnswer) {
                     btn.style.backgroundColor = '#4CAF50';
-                    // btn.classList.add('correct'); // Highlight correct button
                 }
             });
             if (playerScores[player] >= 21) {
@@ -641,10 +641,10 @@ author_profile: true
                 return;
             }
             activePlayer = player === 'player1' ? 'player2' : 'player1';
-            if (activePlayer=='player1') {
+            if (activePlayer === 'player1') {
                 document.getElementById('gameStatus').textContent = "Player 1 press a key to continue...";
             }
-            if (activePlayer=='player2') {
+            if (activePlayer === 'player2') {
                 document.getElementById('gameStatus').textContent = "Player 2 press a key to continue...";
             }
             waitForSpace = true; // Set flag to wait for spacebar press before moving to the next drug
@@ -653,19 +653,32 @@ author_profile: true
             activePlayer = player === 'player1' ? 'player2' : 'player1';
         }
     }
-    
+
+    function handleButtonClick(chosenOption, correctAnswer) {
+        if (activePlayer === null) {
+            processAnswerButton(chosenOption, correctAnswer, 'player1');
+        } else if (waitForSpace) {
+            waitForSpace = false;
+            setupGame();
+        }
+    }
+
+    function processAnswerButton(chosenOption, correctAnswer, player) {
+        checkAnswer(chosenOption, correctAnswer, player);
+    }
+
     document.addEventListener('keydown', function(event) {
-        if (playerKeys.player1.includes(event.key) && activePlayer==='player1' && waitForSpace) {
-            waitForSpace = false;   // Reset flag
-            setupGame(); // Now call setupGame to move to the next drug
+        if (playerKeys.player1.includes(event.key) && activePlayer === 'player1' && waitForSpace) {
+            waitForSpace = false;
+            setupGame();
             return;
         }
-        if (playerKeys.player2.includes(event.key) && activePlayer==='player2' && waitForSpace) {
-            waitForSpace = false;   // Reset flag
-            setupGame(); // Now call setupGame to move to the next drug
+        if (playerKeys.player2.includes(event.key) && activePlayer === 'player2' && waitForSpace) {
+            waitForSpace = false;
+            setupGame();
             return;
         }
-        if (waitForSpace) return; // Ignore other key presses when waiting for space
+        if (waitForSpace) return;
 
         if (activePlayer === null || playerKeys[activePlayer].includes(event.key)) {
             if (playerKeys.player1.includes(event.key)) {

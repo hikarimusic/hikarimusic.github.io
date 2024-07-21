@@ -13,7 +13,27 @@ Essences of clinical medicine.
 
 # Cardiology / 循環器科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Arrhythmia / 不整脈
+
+## Ischemic Heart Disease / 虚血性心疾患
+
+## Valvular Heart Disease / 心臓弁膜症
+
+## Endocardium, Myocardium and Pericardium Disease / 心内膜・心筋・心膜疾患
+
+## Congenital Heart Disease / 先天性心疾患
+
+## Heart Failure / 心不全
+
+## Arterial Disorder / 動脈疾患
+
+## Venous Disorder / 静脈疾患
+
+## Blood Pressure Disorder / 血圧異常
+
+<!-- ## Introduction / 総論
 
 ### Cardiovascular Drugs / 循環器疾患治療薬
 
@@ -260,7 +280,7 @@ Essences of clinical medicine.
   * **Drugs**: Adenosine, MgSO4
   * **Mechanism**: Gi (adenosine)
   * **Indication**: PSVT (adenosine), torsade de pointes (MgSO4)
-{: .notice--info}
+{: .notice--info} -->
 
 <!-- ## Heart Failure / 心不全
 
@@ -342,7 +362,27 @@ Essences of clinical medicine.
 
 # Pulmonology/ 呼吸器科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Infectious Disorder / 感染性疾患
+
+## Immune and Allergic Disorder / 免疫・アレルギー性疾患
+
+## Interstitial Lung Disease / 間質性肺疾患
+
+## Obstructive Lung Disease / 閉塞性肺疾患
+
+## Lung Tumor / 肺腫瘍
+
+## Pulmonary Circulation Disorder / 肺循環障害
+
+## Functional Respiratory Disorder / 機能的呼吸障害
+
+## Pleural Disorder / 胸膜疾患
+
+## Mediastinal Disorder / 縦隔疾患
+
+## Miscellaneous Respiratory Disorder / その他の呼吸器疾患
 
 <!-- ### Inferior Respiratory Tract / 下気道
 
@@ -460,7 +500,23 @@ Essences of clinical medicine.
 
 # Gastroenterology / 消化器科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Esophagus Disorder / 食道疾患
+
+## Stomach Disorder / 胃疾患
+
+## Intestine Disorder / 腸疾患
+
+## Anus Disorder / 肛門疾患
+
+## Peritoneum Disorder / 腹膜疾患
+
+## Liver Disorder / 肝疾患
+
+## Biliary Tract Disorder / 胆道疾患
+
+## Pancreas Disorder / 膵疾患
 
 <!-- 
 ## Esophageal Disease / 食道疾患
@@ -590,7 +646,25 @@ Essences of clinical medicine.
 
 # Endocrinology / 内分泌科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Pituitary Gland Disorder / 下垂体疾患
+
+## Thyroid Gland Disorder / 甲状腺疾患
+
+## Parathyroid Gland Disorder / 副甲状腺疾患
+
+## Adrenal Gland Disorder / 副腎疾患
+
+## Neuroendocrine Tumor / 神経内分泌腫瘍
+
+## Carbohydrate and Lipid Metabolism Disorder / 糖・脂質代謝異常
+
+## Uric Acid and Bone Metabolism Disorder / 尿酸・骨代謝異常
+
+## Congenital Metabolism Disorder / 先天代謝異常
+
+## Nutritional Disorder / 栄養異常
 
 <!-- ### Endocrine Organ / 内分泌器
 
@@ -615,7 +689,7 @@ Essences of clinical medicine.
   * **Adrenal medulla**: Chromaffin cell (epinephrine, norepinephrine), sympathetic presynaptic fiber
 {: .notice--info} -->
 
-### Hypothalamus and Pituitary Hormone / 視床下部・下垂体ホルモン
+<!-- ### Hypothalamus and Pituitary Hormone / 視床下部・下垂体ホルモン
 
 * **Somatostatin analog**
   * **Drugs**: Octreotide, lantreotide
@@ -827,7 +901,7 @@ Essences of clinical medicine.
   * **Mechanism**: Inhibit proinflammatory cytokine expression
   * **Indication**: Psoriases
   * **Adverse effect**: Skin and nail abnormality, teratogenic
-{: .notice--info}
+{: .notice--info} -->
 
 <!-- ## Hypothalamus and Pituitary Gland Disease / 視床下部・下垂体疾患
 
@@ -919,7 +993,21 @@ Essences of clinical medicine.
 
 # Nephrology / 腎臓科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Electrolytes Metabolism Disorder / 電解質代謝異常
+
+## Glomerular Disorder / 糸球体疾患
+
+## Tubulointerstitial Disorder / 尿細管・間質性疾患
+
+## Renal Injury with Systemic Disorder / 全身性疾患に伴う腎障害
+
+## Renal Vascular Disorder / 腎血管性疾患
+
+## Renal Failure / 腎不全
+
+<!-- ## Introduction /　総論
 
 ### Diuretics / 利尿薬
 
@@ -951,7 +1039,7 @@ Essences of clinical medicine.
   * **Drugs**: Conivaptan, tolvaptan, demeclocycline
   * **Mechanism**: V1 and/or V2 antagonist
   * **Indication**: SIADH
-{: .notice--info}
+{: .notice--info} -->
 
 <!-- ## Water and Electrolytes Metabolism Disorder / 水・電解質代謝異常
 
@@ -1025,7 +1113,23 @@ Essences of clinical medicine.
 
 # Hematology / 血液科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Hemostasis Disorder (Primary) / 止血の異常（一次）
+
+## Hemostasis Disorder (Secondary) / 止血の異常（二次）
+
+## Red Blood Cell Disorder (Nonehemolysis) / 赤血球の異常（非溶血）
+
+## Red Blood Cell Disorder (Hemolysis) / 赤血球の異常（溶血）
+
+## White Blood Cell Disorder / 白血球の異常
+
+## Myeloid Neoplasm / 骨髄系腫瘍
+
+## Lymphoid Neoplasm / リンパ系腫瘍
+
+<!-- ## Introduction /　総論
 
 ### Alkylating Drug / アルキル化薬
 
@@ -1178,7 +1282,7 @@ Essences of clinical medicine.
   * **Mechanism**: Inhibit proinflammatory cytokines secretion, enhance call-mediated immunity
   * **Indication**: Multiple myeloma
   * **Adverse effect**: Birth defect
-{: .notice--info}
+{: .notice--info} -->
 
 <!-- ## Nonhemolytic Anemia / 非溶血性貧血
 
@@ -1250,7 +1354,19 @@ Essences of clinical medicine.
 
 # Rheumatology / リウマチ科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Immunodeficiency / 免疫不全
+
+## Allergy / アレルギー
+
+## Collagen Disease (Arthritis) / 膠原病（関節炎）
+
+## Collagen Disease (Systemic) / 膠原病（全身性）
+
+## Collagen Disease (Vasculitis) / 膠原病（血管炎）
+
+<!-- ## Introduction /　総論
 
 ### Antiallergic Drug / 抗アレルギー薬
 
@@ -1378,7 +1494,7 @@ of urate
   * **Drug**: Antithymocyte globulin
   * **Mechanism**: Elimination of T lymphocyte
   * **Indication**: Aplastic anemia, graft-versus-host disease
-{: .notice--info}
+{: .notice--info} -->
 
 <!-- ## Allergy / アレルギー
 
@@ -1425,7 +1541,23 @@ of urate
 
 # Infectious Diseases / 感染症科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Gram-Positive Bacteria Infection / グラム陽性菌感染症
+
+## Gram-Negative Bacteria Infection / グラム陰性菌感染症
+
+## Miscellaneous Bacteria Infection / その他の細菌感染症
+
+## DNA Virus Infection / DNAウイルス感染症
+
+## RNA Virus Infection / RNAウイルス感染症
+
+## Fungus Infection / 真菌感染症
+
+## Parasite Infection / 寄生虫感染症
+
+<!-- ## Introduction /　総論
 
 ### Cell Wall Synthesis Inhibitor / 細胞壁合成阻害薬
 
@@ -1642,7 +1774,7 @@ of urate
 * **Anti-metazoa drug**
   * **Drug**: Albendazole, pyrantel pamoate, ivermectin, diethylcarbamazine, praziquantel, 
   * **Indication**: Nematode (albendazole, pyrantel pamoate, ivermectin), filaria (diethylcarbamazine), trematode & cestode (praziquantel)
-{: .notice--info}
+{: .notice--info} -->
 
 <!-- 
 
@@ -1796,7 +1928,37 @@ of urate
 
 # Neurology / 神経科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Cerebrovascular Disorder / 脳血管障害
+
+## Hydrocephalus and Hernia / 水頭症・ヘルニア
+
+## Dementia / 認知症
+
+## Neurodegenerative Disorder / 神経変性疾患
+
+## Demyelinating Disorder / 脱髄性疾患
+
+## Cranial Nerve Disorder / 脳神経障害
+
+## Spinal Cord Disorder / 脊髄障害
+
+## Peripheral Nerve Disorder / 末梢神経障害
+
+## Muscular Disorder / 筋疾患
+
+## Infectious Disorder / 感染性疾患
+
+## Functional Disease / 機能性疾患
+
+## Neurocutaneous Syndrome / 母斑症
+
+## Brain Tumor / 脳腫瘍
+
+## Head Injury / 頭部外傷
+
+## Congenital Anomaly / 先天奇形
 
 <!-- ## Cerebral Infarction / 脳梗塞
 
@@ -1964,17 +2126,65 @@ of urate
 
 # Psychiatry / 精神科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Schizophrenia / 統合失調症
+
+## Mood Disorder / 気分障害
+
+## Neurotic Disorder / 神経症性障害
+
+## Physiologic Disorder / 生理的障害
+
+## Personality Disorder / 人格障害
+
+## Developmental Disorder / 発達障害
+
+## Organic Mental Disorder / 器質性精神障害
+
+## Substance Related Disorder / 物質関連障害
 
 # Ophthalmology / 眼科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Functional Disorder / 機能障害
+
+## Conjunctiva Disorder / 結膜疾患
+
+## Cornea Disorder / 角膜疾患
+
+## Uvea Disorder / ぶどう膜疾患
+
+## Retina Disorder / 網膜疾患
+
+## Cataract / 白内障
+
+## Glaucoma / 緑内障
+
+## Optic Nerve Disorder / 視神経疾患
+
+## Eyelid and Lacrimal Apparatus Disorder / 眼瞼・涙器疾患
+
+## Miscellaneous Ophthalmic Disorder / その他の眼科疾患
 
 # Otolaryngology / 耳鼻咽喉科
 
-## Introduction /　総論
+## Introduction / 総論
 
-### Upper Respiratory Tract / 上気道
+## External and Middle Ear Disorder / 外耳・中耳疾患
+
+## Inner Ear Disorder / 内耳疾患
+
+## Nose and Paranasal Sinus Disorder / 鼻・副鼻腔疾患
+
+## Oral Cavity and Tonsil Disorder / 口腔・扁桃疾患
+
+## Pharynx and Larynx Disorder / 咽頭・喉頭疾患
+
+## Cervical and Facial Disorder / 頸部・顔面疾患
+
+<!-- ### Upper Respiratory Tract / 上気道 -->
 
 <!-- * **Nose**
   * **Structure**: Palatine, nasal septum (medial), ethmoid, 3 nasal choncha
@@ -1995,7 +2205,36 @@ of urate
 
 # Dermatology / 皮膚科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Eczema / 湿疹
+
+## Urticaria / 蕁麻疹
+
+## Erythema / 紅斑症
+
+## Bullous Dermatoses / 水疱症
+
+## Keratosis / 角化症
+
+## Pigmentary Disorder / 色素異常症
+
+## Nevus / 母斑
+
+## Skin Tumor / 皮膚腫瘍
+
+## Skin Infection / 皮膚感染症
+
+## Epidermal Appendage Disorder / 皮膚附属器疾患
+
+## Dermis Disorder / 真皮疾患
+
+## Collagen Disease / 膠原病
+
+## Metabolism Disorder / 代謝異常症
+
+## Physical Disorder / 物理的障害
+
 
 <!-- ## Eczema and Dermatitis / 湿疹・皮膚炎
 
@@ -2164,11 +2403,44 @@ of urate
 
 # Orthopedic Surgery / 整形外科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Upper Limb Disorder / 上肢疾患
+
+## Lower Limb Disorder / 下肢疾患
+
+## Trunk Disorder / 体幹疾患
+
+## Joint Disorder / 関節疾患
+
+## Peripheral Nerve Disorder / 末梢神経疾患
+
+## Trauma / 外傷
+
+## Metabolic Disorder / 代謝性疾患
+
+## Infectious Disorder / 感染性疾患
+
+## Bone Tumor / 骨腫瘍
 
 # Urology / 泌尿器科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Urinary Tract Infection and Stone / 尿路感染症・結石
+
+## Urinary Tract Tumor / 尿路腫瘍
+
+## Urinary Tract Dysfunction / 尿路機能障害
+
+## Urinary Tract Congenital Anomaly / 尿路先天異常
+
+## Penis Disorder / 陰茎疾患
+
+## Testicle Disorder / 睾丸疾患
+
+## Prostate Disorder / 前立腺疾患
+
 
 <!-- ### Male Genital Organ / 男性器
 
@@ -2234,7 +2506,27 @@ of urate
 
 # Gynecology / 婦人科
 
+## Introduction / 総論
+
+## Sexuel Development Disorder / 性分化疾患
+
 ## Endocrine Disorder / 内分泌の異常
+
+## Aging-Related Disorder / 加齢による疾患
+
+## Genital Infection / 性器感染症
+
+## Valvar and Vaginal Disorder / 外陰・腟疾患
+
+## Uterine Disorder / 子宮疾患
+
+## Ovarian Disorder / 卵巣疾患
+
+## Breast Disorder / 乳腺疾患
+
+## Infertility / 不妊症
+
+<!-- ## Endocrine Disorder / 内分泌の異常
 
 ### Anovulatory Cycle / 無排卵周期症
 
@@ -2262,15 +2554,53 @@ of urate
 
 ### Turner Syndrome / Turner症候群
 
-### Klinefelter Syndrome / Klinefelter症候群
+### Klinefelter Syndrome / Klinefelter症候群 -->
 
 # Obstetrics / 産科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Early Pregnancy Disorder / 妊娠初期の異常
+
+## Later Pregnancy Disorder / 妊娠中・後期の異常
+
+## Complicated Pregnancy / 合併症妊娠
+
+## Mother to Children Infection / 母子感染症
+
+## Delivery Disorder / 分娩の異常
+
+## Puerperium Disorder / 産褥の異常
 
 # Pediatrics / 小児科
 
-## Introduction /　総論
+## Introduction / 総論
+
+## Neonate Disorder / 新生児疾患
+
+## Congenital Disorder / 先天異常
+
+## Cardiovascular Disorder / 循環器疾患
+
+## Respiratory Disorder / 呼吸器疾患
+
+## Gastrointestinal Disorder / 消化器疾患
+
+## Endocrine and Metabolism Disorder / 内分泌・代謝疾患
+
+## Renal and Urologic Disorder / 腎・泌尿器疾患
+
+## Hematologic Disorder / 血液疾患
+
+## Immunologic Disorder / 免疫疾患
+
+## Infectious Disorder / 感染性疾患
+
+## Neurologic Disorder / 神経疾患
+
+## Mental Disorder / 精神疾患
+
+## Neoplasm / 新生物
 
 <!-- ## Cardiovascular Disease / 循環器疾患
 
