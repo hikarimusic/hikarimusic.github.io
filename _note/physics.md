@@ -15,12 +15,95 @@ Equations of fundamental physics.
 
 ## Newtonian Mechanics / Newton力学
 
+### Equation of Motion / 運動方程式
+
+$$
+\mathbf{F} = \frac{d}{dt}\left(m\mathbf{v}\right) \\
+\mathbf{F}_{\alpha\beta} = -\mathbf{F}_{\beta\alpha}
+$$
+{: .notice--info}
+
+### Momentum / 運動量
+
+$$
+\frac{d\mathbf{P}}{dt} = \mathbf{F} \\
+\begin{aligned}
+& \mathbf{P} = m\mathbf{v} && \mathbf{F} \\
+& \mathbf{P} = M\mathbf{V} && \mathbf{F} = \sum_{\alpha}\mathbf{F}_\alpha^{(e)}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\frac{d\mathbf{P}}{dt} = \mathbf{F} \\
+\begin{aligned}
+\mathbf{P} &= \sum_\alpha m_\alpha\left(\mathbf{V} + \mathbf{v'}_\alpha\right) \\
+&= \sum_\alpha m_\alpha\mathbf{V} + \sum_\alpha m_\alpha\mathbf{v'}_\alpha \\
+&= M\mathbf{V}
+\end{aligned} \\
+\begin{aligned}
+\mathbf{F} &= \sum_\alpha\left(\mathbf{F}_\alpha^{(e)} + \sum_{\beta\neq\alpha}\mathbf{F}_{\alpha\beta}\right) \\
+&= \sum_\alpha\mathbf{F}_{\alpha}^{(e)} + \sum_{\beta>\alpha}\left(\mathbf{F}_{\alpha\beta} + \mathbf{F}_{\beta\alpha}\right) \\
+&= \sum_\alpha\mathbf{F}_\alpha^{(e)}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Angular Momentum / 角運動量
+
+$$
+\frac{d\mathbf{M}}{dt} = \mathbf{N} \\
+\begin{aligned}
+& \mathbf{M} = m\mathbf{r}\times\mathbf{v} && \mathbf{N} = \mathbf{r}\times\mathbf{F} \\
+& \mathbf{M} = M\mathbf{R}\times\mathbf{V} + \sum_\alpha m_\alpha\mathbf{r'}_\alpha\times\mathbf{v'}_\alpha && \mathbf{N} = \sum_\alpha\mathbf{r}_\alpha\times\mathbf{F}_\alpha^{(e)}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\frac{d\mathbf{M}}{dt} = m\mathbf{v}\times\mathbf{v} + m\mathbf{r}\times\mathbf{a} = \mathbf{r}\times\mathbf{F} = \mathbf{N} \\
+\begin{aligned}
+\mathbf{M} &= \sum_\alpha m_\alpha\left(\mathbf{R}+\mathbf{r'}_\alpha\right)\times\left(\mathbf{V}+\mathbf{v'}_\alpha\right) \\
+&= \sum_\alpha m_\alpha\mathbf{R}\times\mathbf{V} + \mathbf{R}\times\left(\sum_\alpha m_\alpha\mathbf{v}'_\alpha\right) \\
+&+ \left(\sum_\alpha m_\alpha\mathbf{r'}_\alpha\right)\times\mathbf{V} + \sum_\alpha m_\alpha\mathbf{r'}_\alpha\times\mathbf{v'}_\alpha \\
+&= M\mathbf{R}\times\mathbf{V} + \sum_\alpha m_\alpha\mathbf{r'}_\alpha\times\mathbf{v'}_\alpha
+\end{aligned} \\
+\begin{aligned}
+\mathbf{N} &= \sum_\alpha \mathbf{r}_\alpha\times\left(\mathbf{F}_\alpha^{(e)} + \sum_{\beta\neq\alpha}\mathbf{F_{\alpha\beta}}\right) \\
+&= \sum_\alpha\mathbf{r}_\alpha\times\mathbf{F}_\alpha^{(e)} + \sum_{\beta>\alpha}\left(\mathbf{r}_\alpha\times\mathbf{F}_{\alpha\beta} + \mathbf{r}_\beta\times\mathbf{F}_{\beta\alpha}\right) \\
+&= \sum_\alpha\mathbf{r}_\alpha\times\mathbf{F}_\alpha^{(e)} + \sum_{\beta>\alpha}\left(\mathbf{r}_\alpha-\mathbf{r}_\beta\right)\times\mathbf{F}_{\alpha\beta} \\
+&= \sum_\alpha\mathbf{r}_\alpha\times\mathbf{F}_\alpha^{(e)}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Energy / エネルギー
+
+$$
+\frac{dE}{dt} = 0 \\
+\begin{aligned}
+E &= \frac{1}{2} mv^2 + U \\
+E &= \frac{1}{2} MV^2 + \sum_\alpha \frac{1}{2} m_\alpha v_\alpha'^2 + U \\
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\frac{dE}{dt} = m\mathbf{v} \cdot \mathbf{a} + (\mathbf{\nabla} U) \cdot \mathbf{v} + \frac{\partial U}{\partial t} = (\mathbf{F} + \mathbf{\nabla} U) \cdot \mathbf{v} = 0 \\
+\begin{aligned}
+E &= \sum_\alpha \frac{1}{2} m_\alpha (\mathbf{V} + \mathbf{v}_\alpha') \cdot (\mathbf{V} + \mathbf{v}_\alpha') \\
+&= \sum_\alpha \frac{1}{2} m_\alpha V^2 + \left(\sum_\alpha m_\alpha \mathbf{v}_\alpha'\right) \cdot \mathbf{V} + \sum_\alpha \frac{1}{2} m_\alpha v_\alpha'^2 \\
+&= \frac{1}{2} MV^2 + \sum_\alpha \frac{1}{2} m_\alpha v_\alpha'^2
+\end{aligned}
+$$
+{: .notice--primary}
+
 ## Lagrangian Mechanics / Lagrange力学
 
 ### Lagrange's Equation / Langrange方程式
 
 $$
-S = \int_{t_1}^{t_2} L dt \quad L = T - U \\
+\delta S = \delta\int_{t_1}^{t_2} L dt = 0 \quad L = T - U\\
 \begin{aligned}
 & \frac{d}{dt} \frac{\partial{L}}{\partial{\dot{q}_i}} - \frac{\partial{L}}{\partial{q_i}} = 0 \\
 & \frac{d}{dt} \frac{\partial{L}}{\partial{\dot{q}_i}} - \frac{\partial{L}}{\partial{q_i}} + \sum_j \lambda_j \frac{\partial{f_j}}{\partial{q_i}} = 0
@@ -31,7 +114,7 @@ $$
 $$
 \begin{aligned}
 \delta S &= \int_{t_1}^{t_2} \sum_i \left( \frac{\partial{L}}{\partial{q_i}} \delta q_i + \frac{\partial{L}}{\partial{\dot{q}_i}} \delta \dot{q}_i \right) dt \\
-&= \int_{t_1}^{t_2} \sum_i \frac{\partial{L}}{\partial{q_i}} \delta q_i dt + \left[ \sum_i \frac{\partial{L}}{\partial{\dot{q}_i}} \delta q_i \right]_{t_1}^{t_2} - \int_{t_1}^{t_2} \sum_i \frac{d}{dt} \left( \frac{\partial{L}}{\partial{q_i}} \right) \delta q_i dt \\
+&= \int_{t_1}^{t_2} \sum_i \frac{\partial{L}}{\partial{q_i}} \delta q_i dt + \left[ \sum_i \frac{\partial{L}}{\partial{\dot{q}_i}} \delta q_i \right]_{t_1}^{t_2} - \int_{t_1}^{t_2} \sum_i \frac{d}{dt} \left( \frac{\partial{L}}{\partial{\dot{q_i}}} \right) \delta q_i dt \\
 &= \int_{t_1}^{t_2} \sum_i \left( \frac{\partial{L}}{\partial{q_i}} - \frac{d}{dt} \frac{\partial{L}}{\partial{\dot{q}_i}} \right) \delta q_i dt \\
 &= 0
 \end{aligned}
@@ -87,18 +170,28 @@ L' &= \frac{1}{2} m \left( \mathbf{v}' \right)^2 - U'(\mathbf{r}') \\
 $$
 {: .notice--primary}
 
-### Scale Transformation / スケール変換
+### Virial Theorem / Virial定理
 
 $$
 U(\alpha \mathbf{r}) = \alpha ^k U(\mathbf{r}) \\
-\frac{t'}{t} = \left( \frac{l'}{l} \right)^{1-\frac{k}{2}}
+\frac{t'}{t} = \left( \frac{l'}{l} \right)^{1-\frac{k}{2}} \\
+\langle T \rangle = \frac{k}{2}\langle U \rangle
 $$
 {: .notice--info}
 
 $$
 l' = \alpha l \quad t' = \beta t \\
 \frac{T'}{T} = \alpha^2 \beta^{-2} = \frac{U'}{U} = \alpha^k \\
-\beta = \alpha^{1-\frac{k}{2}}
+\beta = \alpha^{1-\frac{k}{2}} \\
+\begin{aligned}
+2T &= \sum_\alpha\mathbf{P}_\alpha\cdot\mathbf{v}_\alpha \\
+&= \frac{d}{dt}\left(\sum_\alpha\mathbf{P}_\alpha\cdot\mathbf{r}_\alpha\right) - \sum_\alpha\mathbf{F}_\alpha\cdot\mathbf{r}_\alpha
+\end{aligned} \\
+\begin{aligned}
+\langle 2T \rangle &= \lim_{\tau\to\infty}\frac{1}{\tau}\int_o^\infty\frac{d}{dt}\left(\sum_\alpha\mathbf{P}_\alpha\cdot\mathbf{r}_\alpha\right)dt - \langle\sum_\alpha\mathbf{F}_\alpha\cdot\mathbf{r}_\alpha\rangle \\
+&= \lim_{\tau\to\infty}\frac{1}{\tau}\left[\sum_\alpha\mathbf{P}_\alpha\cdot\mathbf{r}_\alpha\right]_0^\infty + \langle\sum_\alpha\frac{\partial U}{\partial\mathbf{r}_\alpha}\cdot\mathbf{r}_\alpha\rangle \\
+&= k\langle U \rangle
+\end{aligned}
 $$
 {: .notice--primary}
 

@@ -167,9 +167,9 @@ void solve(int n, int m) {
     "<base case>";
     for (int i=0; i<n; ++i) {
         for (int j=0; j<m; ++j) {
-            "<transfer dp[i][j][0] to dp[i+1][target(0~9) ][0] >";
-            "<transfer dp[i][j][1] to dp[i+1][target(0~di)][0] >";
-            "<transfer dp[i][j][1] to dp[i+1][target(di)  ][1] >";
+            "<transfer dp[i][j][0] to dp[i+1][target (0~9) ][0] >";
+            "<transfer dp[i][j][1] to dp[i+1][target (0~di)][0] >";
+            "<transfer dp[i][j][1] to dp[i+1][target (di)  ][1] >";
         }
     }
 }
@@ -531,8 +531,8 @@ vector<int> dis(N, INF), par(N, -1);
 
 void dijkstra(int s) {
     priority_queue<pii, vector<pii>, greater<pii>> q;
-    q.push({0, s});
     dis[s] = 0;
+    q.push({0, s});
     while (!q.empty()) {
         int v = q.top().second;
         int d_v = q.top().first;
