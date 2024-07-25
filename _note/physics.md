@@ -304,6 +304,73 @@ $$
 
 ## Central Force Motion / 中心力運動
 
+### Reduced Mass / 換算質量
+
+$$
+\begin{aligned}
+\mu &= \frac{m_1 m_2}{m_1 + m_2} \\
+M &= \mu r^2 \dot{\theta} \\
+E &= \frac{1}{2} \mu \dot{r}^2 + \frac{1}{2}\frac{M^2}{\mu r^2} + U(r)
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+L &= \frac{1}{2} m_1 \left| \frac{m_2}{m_1 + m_2} \dot{\mathbf{r}} \right|^2 + \frac{1}{2} m_2 \left| \frac{m_1}{m_1 + m_2} \dot{\mathbf{r}} \right|^2 - U(r) \\
+&= \frac{1}{2} \frac{m_1 m_2}{m_1 + m_2} (\dot{r}^2 + r^2 \dot{\theta}^2) - U(r)
+\end{aligned} \\
+M = \frac{\partial L}{\partial\dot{\theta}} = \mu r^2 \dot{\theta} \\
+\begin{aligned}
+E &= \frac{1}{2} \mu \dot{r}^2 + \frac{1}{2} \mu r^2 \dot{\theta}^2 + U(r) \\
+&= \frac{1}{2} \mu \dot{r}^2 + \frac{1}{2}\frac{M^2}{\mu r^2} + U(r)
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Orbit / 軌道
+
+$$
+U_{\text{eff}}(r) = U(r) + \frac{M^2}{2\mu r^2} \\
+t = \int \frac{dr}{\sqrt{\frac{2}{\mu} (E - U_{\text{eff}}(r))}} \\
+\theta = \int \frac{M dr}{r^2 \sqrt{2\mu (E - U_{\text{eff}}(r))}}
+$$
+{: .notice--info}
+
+$$
+E = \frac{1}{2} \mu \dot{r}^2 + U_{\text{eff}}(r) \\
+\frac{dr}{dt} = \sqrt{\frac{2}{\mu} (E - U_{\text{eff}}(r))} \\
+t = \int \frac{dr}{\sqrt{\frac{2}{\mu} (E - U_{\text{eff}}(r))}} \\
+\begin{aligned}
+\frac{d\theta}{dr} &= \frac{d\theta}{dt} \frac{dt}{dr} \\
+&= \frac{M}{\mu r^2} \frac{1}{\sqrt{\frac{2}{\mu} (E - U_{\text{eff}}(r))}} 
+\end{aligned} \\
+\theta = \int \frac{M dr}{r^2 \sqrt{2\mu (E - U_{\text{eff}}(r))}}
+$$
+{: .notice--primary}
+
+### Kepler Problem / Kepler問題
+
+$$
+U = -\frac{\alpha}{r} \quad p = \frac{M^2}{\mu\alpha} \quad e = \sqrt{1 + \frac{2EM^2}{\mu \alpha^2}} \\
+r = \frac{p}{1 + e \cos \theta} \\
+\tau = 2\pi \sqrt{\frac{\mu}{\alpha}}a^{3/2}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\theta &= \int \frac{\frac{M}{r^2} \, dr}{\sqrt{2\mu \left( E + \frac{\alpha}{r} - \frac{M^2}{2\mu r^2} \right)}} \\
+&= \int \frac{\frac{1}{r^2} \,dr}{\sqrt{ -\left( \frac{1}{r} - \frac{\mu \alpha}{M^2}\right)^2 + \frac{\mu^2 \alpha^2}{M^4}\left(1 + \frac{2EM^2}{\mu \alpha^2}\right)}} \\
+&= \int \frac{\frac{1}{r^2} \,dr}{\sqrt{ -\left( \frac{1}{r} - \frac{1}{p}\right)^2 + \frac{e^2}{p^2}}} \\
+&= \int \frac{\frac{e}{p}\sin\phi\,d\phi}{\frac{e}{p}\sin \phi} \\
+&= \phi + C \quad \left( \frac{1}{r} - \frac{1}{p} = \frac{e}{p} \cos \phi \right)
+\end{aligned} \\
+r = \frac{p}{1 + e \cos \theta} \quad a = \frac{p}{1 - e^2} \quad b = \frac{p}{\sqrt{1 - e^2}} \\
+\tau = \frac{\pi ab}{\dot{S}} = \frac{\pi a \sqrt{ap}}{\frac{M}{2\mu}}= 2\pi \sqrt{\frac{\mu}{\alpha}}a^{3/2}
+$$
+{: .notice--primary}
+
 ## Rigid Body Motion / 剛体運動
 
 ## Gravity / 重力
