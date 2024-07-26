@@ -373,6 +373,190 @@ $$
 
 ## Rigid Body Motion / 剛体運動
 
+### Non-Inertial Frame / 非慣性系
+
+$$
+\begin{aligned}
+\mathbf{r} &= \mathbf{R} + \mathbf{r}' \\
+\mathbf{v} &= \mathbf{V} + \mathbf{v}' + \boldsymbol{\Omega} \times \mathbf{r}' \\
+\mathbf{a} &= \mathbf{A} + \mathbf{a}' + \dot{\boldsymbol{\Omega}} \times \mathbf{r}' + \boldsymbol{\Omega} \times (\boldsymbol{\Omega} \times \mathbf{r}') + 2 \boldsymbol{\Omega} \times \mathbf{v}'
+\end{aligned} 
+$$
+{: .notice--info}
+
+$$
+\frac{d\mathbf{Q}}{dt} = \frac{d'\mathbf{Q}}{dt} + \boldsymbol{\Omega} \times \mathbf{Q} \\
+\mathbf{r} = \mathbf{R} + \mathbf{r}' \\
+\begin{aligned}
+\frac{d\mathbf{r}}{dt} &= \frac{d\mathbf{R}}{dt} + \frac{d\mathbf{r}'}{dt}  \\
+&= \frac{d\mathbf{R}}{dt} + \frac{d'\mathbf{r}'}{dt} + \boldsymbol{\Omega} \times \mathbf{r}'
+\end{aligned} \\
+\mathbf{v} = \mathbf{V} + \mathbf{v}' + \boldsymbol{\Omega} \times \mathbf{r}' \\
+\begin{aligned}
+\frac{d\mathbf{v}}{dt} &= \frac{d\mathbf{V}}{dt} + \frac{d\mathbf{v}'}{dt} + \frac{d\boldsymbol{\Omega}}{dt} \times \mathbf{r}' + \boldsymbol{\Omega} \times \frac{d\mathbf{r}'}{dt} \\
+&= \frac{d\mathbf{V}}{dt} + \frac{d'\mathbf{v}'}{dt} + \boldsymbol{\Omega}\times\mathbf{v}' + \left( \frac{d'\boldsymbol{\Omega}}{dt} + \boldsymbol{\Omega} \times \boldsymbol{\Omega} \right) \times \mathbf{r}' + \boldsymbol{\Omega} \times \left( \frac{d'\mathbf{r}'}{dt} + \boldsymbol{\Omega} \times \mathbf{r}' \right)
+\end{aligned} \\
+\mathbf{a} = \mathbf{A} + \mathbf{a}' + \dot{\boldsymbol{\Omega}} \times \mathbf{r}' + \boldsymbol{\Omega} \times (\boldsymbol{\Omega} \times \mathbf{r}') + 2 \boldsymbol{\Omega} \times \mathbf{v}'
+$$
+{: .notice--primary}
+
+### Euler Angle / Euler角
+
+$$
+\begin{aligned}
+\Omega_1 &= \dot{\phi} \sin \theta \sin \psi + \dot{\theta} \cos \psi \\
+\Omega_2 &= \dot{\phi} \sin \theta \cos \psi - \dot{\theta} \sin \psi \\
+\Omega_3 &= \dot{\phi} \cos \theta + \dot{\psi}
+\end{aligned} \\
+$$
+{: .notice--info}
+
+### Inertia Tensor / 慣性テンソル
+
+$$
+\begin{aligned}
+I_{ij} &= \sum_{\alpha} m_{\alpha} (\delta_{ij} r_{\alpha}^2 - r_{\alpha ,i} r_{\alpha ,j}) \\
+T &= \sum_{i,j} \frac{1}{2} I_{ij} \Omega_i \Omega_j \\
+M_i &= \sum_j I_{ij} \Omega_j
+\end{aligned} 
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+T &= \sum_{\alpha} \frac{1}{2} m_{\alpha} (\boldsymbol{\Omega} \times \mathbf{r}_{\alpha}) \cdot (\boldsymbol{\Omega} \times \mathbf{r}_{\alpha}) \\
+&= \sum_{\alpha} \frac{1}{2} m_{\alpha} [\Omega^2 r_{\alpha}^2 - (\boldsymbol{\Omega}\cdot\mathbf{r}_{\alpha})^2] \\
+&= \sum_{i,j}\sum_{\alpha} \frac{1}{2} m_{\alpha} (\delta_{ij} r_{\alpha}^2 - r_{\alpha ,i} r_{\alpha ,j}) \Omega_i \Omega_j \\
+\end{aligned} \\
+\begin{aligned}
+\mathbf{M} &= \sum_{\alpha} m_{\alpha} \mathbf{r}_{\alpha} \times (\mathbf{\Omega} \times \mathbf{r}_{\alpha}) \\
+&= \sum_{\alpha} m_{\alpha} [\mathbf{\Omega} (r_{\alpha}^2) - \mathbf{r}_{\alpha} (\mathbf{r}_{\alpha} \cdot \Omega)] \\
+M_i &= \sum_j \sum_{\alpha} m_{\alpha} (\delta_{ij} r_{\alpha}^2 - r_{\alpha ,i} r_{\alpha ,j}) \Omega_j
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Euler's Equation / Eulerの運動方程式
+
+$$
+\begin{aligned}
+I_1 \dot{\Omega}_1 + (I_3 - I_2) \Omega_2 \Omega_3 &= N_1 \\
+I_2 \dot{\Omega}_2 + (I_1 - I_3) \Omega_3 \Omega_1 &= N_2 \\
+I_3 \dot{\Omega}_3 + (I_2 - I_1) \Omega_1 \Omega_2 &= N_3
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\frac{d\mathbf{M}}{dt} = \frac{d'\mathbf{M}}{dt} + \boldsymbol{\Omega} \times \mathbf{M} = \mathbf{N} \\
+\begin{bmatrix}
+I_1 \dot{\Omega}_1 \\
+I_2 \dot{\Omega}_2 \\
+I_3 \dot{\Omega}_3
+\end{bmatrix}
++
+\begin{bmatrix}
+\Omega_1 \\
+\Omega_2 \\
+\Omega_3
+\end{bmatrix}
+\times
+\begin{bmatrix}
+I_1 \Omega_1 \\
+I_2 \Omega_2 \\
+I_3 \Omega_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+N_1 \\
+N_2 \\
+N_3
+\end{bmatrix}
+$$
+{: .notice--primary}
+
+### Symmetrical Top (Free) / 対称コマ（自由）
+
+$$
+\begin{aligned}
+\theta &= \text{const.} \\
+\dot{\phi} &= \frac{M_z}{I_1} \\
+\dot{\psi} &= M_z \cos \theta \left( \frac{1}{I_3} - \frac{1}{I_1} \right)
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+L = \frac{1}{2} I_1 (\dot{\phi}^2 \sin^2 \theta + \dot{\theta}^2) + \frac{1}{2} I_3 (\dot{\phi} \cos \theta + \dot{\psi})^2 \\
+\begin{aligned}
+\frac{\partial L}{\partial \dot{\psi}} &= I_3 (\dot{\phi} \cos \theta + \dot{\psi}) = M_3 = M_z \cos \theta \\
+\frac{\partial L}{\partial \dot{\phi}} &= I_1 \dot{\phi} \sin^2 \theta + I_3 (\dot{\phi} \cos \theta + \dot{\psi}) \cos \theta = M_z
+\end{aligned} \\
+\begin{aligned}
+\dot{\phi} &= \frac{M_z - M_z \cos^2 \theta}{I_1 \sin^2 \theta} = \frac{M_z}{I_1} \\
+\dot{\psi} &= \frac{M_z \cos \theta}{I_3} - \dot{\phi} \cos \theta = M_z \cos \theta \left( \frac{1}{I_3} - \frac{1}{I_1} \right)
+\end{aligned} \\
+\begin{aligned}
+\frac{\partial L}{\partial \theta} &= I_1 \dot{\phi}^2 \sin \theta \cos \theta - I_3 (\dot{\phi} \cos \theta + \dot{\psi}) \dot{\phi} \sin \theta \\
+&= \frac{M_z^2}{I_1} \sin \theta \cos \theta - \frac{M_z^2}{I_1} \sin \theta \cos \theta = 0 \\
+&= \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\theta}} \right) = \frac{d}{dt} (I_1 \dot{\theta}) \quad (\dot{\theta} = \text{const.})
+\end{aligned} \\
+E = \frac{1}{2} I_1 \left( \frac{M_z^2}{I_1^2} \sin^2 \theta + \dot{\theta}^2 \right) + \frac{1}{2} I_3 \frac{M_z^2}{I_3^2} \cos^2 \theta \\
+\quad \theta = \text{const.}
+$$
+{: .notice--primary}
+
+### Symmetrical Top (Gravity) / 対称コマ（重力）
+
+$$
+\begin{aligned}
+\theta_1 &\leq \theta \leq \theta_2 \\
+\dot{\phi}& = \frac{M_z - M_3 \cos \theta}{(I_1 + Ma^2) \sin^2 \theta} \\
+\dot{\psi} &= \frac{M_3}{I_3} - \frac{(M_z - M_3 \cos \theta) \cos \theta}{(I_1 + Ma^2) \sin^2 \theta}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+L = \frac{1}{2} (I_1 + Ma^2) (\dot{\phi}^2 \sin^2 \theta + \dot{\theta}^2) + \frac{1}{2} I_3 (\dot{\phi} \cos \theta + \dot{\psi})^2 - Mga \cos \theta \\
+\begin{aligned}
+\frac{\partial L}{\partial \dot{\psi}} &= I_3 (\dot{\phi} \cos \theta + \dot{\psi}) = M_3 \\
+\frac{\partial L}{\partial \dot{\phi}} &= (I_1 + Ma^2) \dot{\phi} \sin^2 \theta + I_3 (\dot{\phi} \cos \theta + \dot{\psi}) \cos \theta = M_z
+\end{aligned} \\
+\begin{aligned}
+\dot{\phi} &= \frac{M_z - M_3 \cos \theta}{(I_1 + Ma^2) \sin^2 \theta} \\
+\dot{\psi} &= \frac{M_3}{I_3} - \frac{(M_z - M_3 \cos \theta) \cos \theta}{(I_1 + Ma^2) \sin^2 \theta}
+\end{aligned} \\
+E = \frac{1}{2} (I_1 + Ma^2) \dot{\theta}^2 + \frac{1}{2} \frac{(M_z - M_3 \cos \theta)^2}{(I_1 + Ma^2) \sin^2 \theta} + \frac{1}{2} \frac{M_3^2}{I_3} + Mga \cos \theta \\
+u = \cos \theta \quad \dot{\theta}^2 = \frac{\dot{u}^2}{1 - u^2} \\
+E = \frac{1}{2} (I_1 + Ma^2) \frac{\dot{u}^2}{1 - u^2} + \frac{1}{2} \frac{(M_z - M_3 u)^2}{(I_1 + Ma^2)(1 - u^2)} + \frac{1}{2} \frac{M_3^2}{I_3} + Mga u \\
+\dot{u}^2 = (1 - u^2) \left( A - B u \right) - \frac{(M_z - M_3 u)^2}{(I_1 + Ma^2)^2} \geq 0 \\
+f(\cos \theta_1) = f(\cos \theta_2) = 0 \\
+\theta_1 \leq \theta \leq \theta_2
+$$
+{: .notice--primary}
+
+### Asymmetrical Top (Free) / 非対称コマ（自由）
+
+$$
+\sqrt{2EI_1} \leq M \leq \sqrt{2EI_3} \\
+\Omega_1: \text{stable} \quad \Omega_2: \text{unstable} \quad \Omega_3: \text{stable}
+$$
+{: .notice--info}
+
+$$
+M^2 = M_1^2 + M_2^2 + M_3^2 \\
+E = \frac{M_1^2}{2I_1} + \frac{M_2^2}{2I_2} + \frac{M_3^2}{2I_3} \\
+\sqrt{2EI_1} \leq M \leq \sqrt{2EI_3} \\
+\delta \Omega_1 = a e^{\lambda t} \quad \delta \Omega_2 = b e^{\lambda t} \quad \delta \Omega_3 = c e^{\lambda t} \\
+\begin{aligned}
+\Omega_1 : \quad \lambda^2 &=  \frac{-\Omega_1^2(I_3 - I_1)(I_2 - I_1)}{I_2 I_3} < 0, &&\text{stable} \\
+\Omega_2 : \quad \lambda^2 &=  \frac{\Omega_2^2(I_3 - I_2)(I_2 - I_1)}{I_1 I_3} > 0,  &&\text{unstable} \\
+\Omega_3 : \quad \lambda^2 &=  \frac{-\Omega_3^2(I_3 - I_2)(I_3 - I_1)}{I_1 I_2} < 0,  &&\text{stable}
+\end{aligned}
+$$
+{: .notice--primary}
+
 ## Gravity / 重力
 
 # Electromagnetism / 電磁気学
