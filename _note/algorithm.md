@@ -2087,3 +2087,25 @@ int query(int p, int d) {
     return p;
 }
 ```
+
+### Imos Algorithm / いもす法
+```cpp
+void solve(int n, int w, int h) {
+    vector<vector<int>> G(w+1, vector<int>(h+1));
+    for (int i=0; i<n; ++i) {
+        "< Rectangle: (lx~rx, ly~ry) >";
+        G[lx][ly] += 1;
+        G[lx][ry] -= 1;
+        G[rx][ly] -= 1;
+        G[rx][ry] += 1;
+    }
+    for (int i=0; i<=w; ++i) {
+        for (int j=1; j<=h; ++j)
+            G[i][j] += G[i][j-1];
+    }
+    for (int j=0; j<=h; ++j) {
+        for (int i=1; i<=w; ++i)
+            G[i][j] += G[i-1][j];
+    }
+}
+```
