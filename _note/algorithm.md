@@ -2090,8 +2090,9 @@ int query(int p, int d) {
 
 ### Imos Algorithm / いもす法
 ```cpp
+vector<vector<int>> G(W, vector<int>(H));
+
 void solve(int n, int w, int h) {
-    vector<vector<int>> G(w+1, vector<int>(h+1));
     for (int i=0; i<n; ++i) {
         "< Rectangle: (lx~rx, ly~ry) >";
         G[lx][ly] += 1;
