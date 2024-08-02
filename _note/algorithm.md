@@ -291,17 +291,6 @@ void build(int v, int tl, int tr) {
     tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
 }
 
-int query(int v, int tl, int tr, int l, int r) {
-    if (l>r)
-        return "<identity>";
-    if (tl==l && tr==r)
-        return tree[v];
-    int tm = (tl+tr)/2;
-    int q1 = query(v*2+1, tl, tm, l, min(r, tm));
-    int q2 = query(v*2+2, tm+1, tr, max(l, tm+1), r);
-    return "<merge q1 and q2>";
-}
-
 void update(int v, int tl, int tr, int pos, int x) {
     if (tl==tr) {
         tree[v] = x;
@@ -314,30 +303,59 @@ void update(int v, int tl, int tr, int pos, int x) {
         update(v*2+2, tm+1, tr, pos, x);
     tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
 }
+
+int query(int v, int tl, int tr, int l, int r) {
+    if (l>r)
+        return "<identity>";
+    if (tl==l && tr==r)
+        return tree[v];
+    int tm = (tl+tr)/2;
+    int q1 = query(v*2+1, tl, tm, l, min(r, tm));
+    int q2 = query(v*2+2, tm+1, tr, max(l, tm+1), r);
+    return "<merge q1 and q2>";
+}
 ```
 ```cpp
-vector<int> arr(N), tree(4*N), lazy(4*N);
+vector<int> arr(N), tree(4*N), lazy(4*N), mark(4*N);
 
 void build(int v, int tl, int tr) {
     if (tl==tr) {
         tree[v] = arr[tl];
-        lazy[v] = "<identity>";
         return;
     }
     int tm = (tl+tr)/2;
     build(v*2+1, tl, tm);
     build(v*2+2, tm+1, tr);
     tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
-    lazy[v] = "<identity>";
 }
 
 void push(int v, int tl, int tr) {
+    if (!mark[v])
+        return;
     int tm = (tl+tr)/2;
     tree[v*2+1] = "<update with lazy[v]>";
     tree[v*2+2] = "<update with lazy[v]>";
-    lazy[v*2+1] = "<propogate lazy[v]>";
-    lazy[v*2+2] = "<propogate lazy[v]>";
-    lazy[v] = "<identity>";
+    lazy[v*2+1] = lazy[v];
+    lazy[v*2+2] = lazy[v];
+    mark[v*2+1] = 1;
+    mark[v*2+2] = 1;
+    mark[v] = 0;
+}
+
+void update(int v, int tl, int tr, int l, int r, int x) {
+    if (l>r)
+        return;
+    if (tl==l && tr==r) {
+        tree[v] = "<update with x>";
+        lazy[v] = "<update with x>";
+        mark[v] = 1;
+        return;
+    }
+    push(v, tl, tr);
+    int tm = (tl+tr)/2;
+    update(v*2+1, tl, tm, l, min(r, tm), x);
+    update(v*2+2, tm+1, tr, max(l, tm+1), r, x);
+    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
 }
 
 int query(int v, int tl, int tr, int l, int r) {
@@ -350,21 +368,6 @@ int query(int v, int tl, int tr, int l, int r) {
     int q1 = query(v*2+1, tl, tm, l, min(r, tm));
     int q2 = query(v*2+2, tm+1, tr, max(l, tm+1), r);
     return "<merge q1 and q2>";
-}
-
-void update(int v, int tl, int tr, int l, int r, int x) {
-    if (l>r)
-        return;
-    if (tl==l && tr==r) {
-        tree[v] = "<update with x>";
-        lazy[v] = "<update with x>";
-        return;
-    }
-    push(v, tl, tr);
-    int tm = (tl+tr)/2;
-    update(v*2+1, tl, tm, l, min(r, tm), x);
-    update(v*2+2, tm+1, tr, max(l, tm+1), r, x);
-    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
 }
 ```
 
