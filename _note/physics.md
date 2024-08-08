@@ -387,6 +387,84 @@ $$
 
 ## Wave / 波動
 
+### Wave Equation / 波動方程式
+
+$$
+\frac{\partial}{\partial t} \left( \frac{\delta L}{\delta (\partial_t \phi)} \right) + \frac{\partial}{\partial x} \left( \frac{\delta L}{\delta (\partial_x \phi)} \right) - \frac{\delta L}{\delta \phi} = 0 \\
+\rho \frac{\partial^2 \phi}{\partial t^2} - k \frac{\partial^2 \phi}{\partial x^2} = 0
+$$
+{: .notice--info}
+
+$$
+L = \int \mathcal{L} \left( \phi, \frac{\partial \phi}{\partial t}, \frac{\partial \phi}{\partial x}, t \right) dx \\
+\begin{aligned}
+\delta S &= \int dt \int dx \left[ \frac{\delta L}{\delta \phi} \delta \phi + \frac{\delta L}{\delta (\partial_t \phi)} \delta (\partial_t \phi) + \frac{\delta L}{\delta (\partial_x \phi)} \delta (\partial_x \phi) \right] \\
+&= \int dt \int dx \left[ \frac{\delta L}{\delta \phi} - \frac{\partial}{\partial t} \left( \frac{\delta L}{\delta (\partial_t \phi)} \right) - \frac{\partial}{\partial x} \left( \frac{\delta L}{\delta (\partial_x \phi)} \right) \right] \delta \phi 
+\end{aligned} \\
+\frac{\partial}{\partial t} \left( \frac{\delta L}{\delta (\partial_t \phi)} \right) + \frac{\partial}{\partial x} \left( \frac{\delta L}{\delta (\partial_x \phi)} \right) - \frac{\delta L}{\delta \phi} = 0 \\
+L = \int \left[ \frac{1}{2} \rho (\partial_t \phi)^2 - \frac{1}{2} k (\partial_x \phi)^2 \right] dx \\
+\delta L = \int \left[ \rho (\partial_t \phi) \delta (\partial_t \phi) - k (\partial_x \phi) \delta (\partial_x \phi) \right] dx \\
+\frac{\delta L}{\delta (\partial_t \phi)} = \rho \frac{\partial \phi}{\partial t} \quad \frac{\delta L}{\delta (\partial_x \phi)} = -k \frac{\partial \phi}{\partial x} \\
+\rho \frac{\partial^2 \phi}{\partial t^2} - k \frac{\partial^2 \phi}{\partial x^2} = 0
+$$
+{: .notice--primary}
+
+### Bounded Wave / 有界波
+
+$$
+\frac{\partial^2 \phi}{\partial t^2} - v^2 \frac{\partial^2 \phi}{\partial x^2} = 0 \\
+\phi = \sum_n \tilde{A}_n e^{i (\omega_n t - k_n x)} \\
+\begin{aligned}
+&\phi(0) = \phi(L) = 0: && k_n = \frac{n \pi}{L} \quad \tilde{A}_{-n} = -\tilde{A}_n \\
+&\frac{\partial \phi}{\partial x}(0) = \frac{\partial \phi}{\partial x}(L) = 0: && k_n = \frac{n \pi}{L} \quad \tilde{A}_{-n} = \tilde{A}_n \\
+&\phi(0) = \phi(L),\; \frac{\partial \phi}{\partial x}(0) = \frac{\partial \phi}{\partial x}(L): && k_n = \frac{2n \pi}{L}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\phi(x,t) = \psi(x) e^{i \omega t} \\
+\psi(x) = \tilde{A} e^{-ikx} \\
+\phi = \sum_n \tilde{A}_n e^{i(\omega_n t - k_n x)} \quad k_n = \pm \frac{\omega_n}{v} \\
+\phi(0) = \phi(L) = 0 \\
+\begin{aligned}
+&\tilde{A}_n e^{i \omega_n t} + \tilde{A}_{-n} e^{i \omega_n t} = 0 && \tilde{A}_{-n} = -\tilde{A}_n \\
+&\tilde{A}_n e^{i \omega_n t} \left( e^{-ik_n L} - e^{ik_n L} \right) = 0 && k_n L = n \pi
+\end{aligned} \\
+\frac{\partial \phi}{\partial x}(0) = \frac{\partial \phi}{\partial x}(L) = 0 \\
+\begin{aligned}
+& -\tilde{A}_n k_n e^{i \omega_n t} - \tilde{A}_{-n} (-k_n) e^{i \omega_n t} = 0 && \tilde{A}_{-n} = \tilde{A}_n \\
+& -\tilde{A}_n k_n e^{i \omega_n t} \left( e^{-ik_n L} - e^{ik_n L} \right) = 0 && k_n L = n \pi
+\end{aligned} \\
+\phi(0) = \phi(L) \quad \frac{\partial \phi}{\partial x}(0) = \frac{\partial \phi}{\partial x}(L) \\
+\begin{align*}
+\left( \tilde{A}_n + \tilde{A}_{-n} \right) e^{i\omega_n t} &= \left(\tilde{A}_n e^{-i k_n L} + \tilde{A}_{-n} e^{i k_n L} \right) e^{i\omega_n t} \\
+\left( -\tilde{A}_n k_n + \tilde{A}_{-n} k_n \right) e^{i\omega_n t} &= \left( -\tilde{A}_n k_n e^{-i k_n L} + \tilde{A}_{-n} k_n e^{i k_n L} \right) e^{i\omega_n t}
+\end{align*} \\
+e^{ik_n L} = e^{-ik_n L} = 1 \quad k_n L = 2n \pi
+$$
+{: .notice--primary}
+
+### Free Wave / 自由波
+
+$$
+\frac{\partial^2 \phi}{\partial t^2} - v^2 \frac{\partial^2 \phi}{\partial x^2} = 0 \\
+\phi = \int \tilde{A}(k) e^{i (\omega t - k x)} \, dk \\
+v_p = \frac{\omega}{k} \quad v_g = \frac{d\omega}{dk}
+$$
+{: .notice--info}
+
+$$
+\phi(x, t) = \psi(x) e^{i \omega t} \\
+\psi(x) = \tilde{A} e^{-i k x} \\
+\phi = \int \tilde{A}(k) e^{i (\omega t - k x)} \, dk \quad k = \frac{\omega}{v} \\
+\omega = \omega_0 + \left( \frac{d\omega}{dk} \right)_0 (k - k_0) \\
+\omega t - k x = (\omega_0 t - k_0 x) + (k - k_0)(\omega_0' t - x) \\
+\phi = \int \tilde{A}(k) e^{i(\omega_0 t - k_0 x)} e^{i (k - k_0) (\omega_0' t - x)} \, dk \\
+v_p = \frac{\omega}{k} \quad v_g = \frac{d\omega}{dk}
+$$
+{: .notice--primary}
+
 ## Collision / 衝突
 
 ## Central Force Motion / 中心力運動
