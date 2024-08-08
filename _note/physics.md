@@ -298,6 +298,93 @@ $$
 
 ## Oscillation / 振動
 
+### Small Oscillation / 微小振動
+
+$$
+\ddot{x} + \omega_0^2 x = 0 \\
+x = \tilde{A} e^{i \omega_0 t}
+$$
+{: .notice--info}
+
+$$
+U'(x_0) = 0 \quad U''(x_0) = k \\
+L = \frac{1}{2} m \dot{x}^2 - \frac{1}{2} k x^2 \\
+m \ddot{x} + k x = 0 \\
+\ddot{x} + \omega_0^2 x = 0 \\
+x = \tilde{A} e^{i \omega_0 t}
+$$
+{: .notice--primary}
+
+### Damped Oscillation / 減衰振動
+
+$$
+\ddot{x} + 2 \beta \dot{x} + \omega_0^2 x = 0 \\
+\begin{aligned}
+x &= e^{-\beta t} \cdot \tilde{A} e^{i \sqrt{\omega_0^2 - \beta^2} t} \\
+x &= e^{-\beta t} (A + B t) \\
+x &= e^{-\beta t} \left( A_1 e^{\sqrt{\beta^2 - \omega_0^2} t} + A_2 e^{-\sqrt{\beta^2 - \omega_0^2} t} \right)
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+m \ddot{x} + b \dot{x} + k x = 0 \\
+\ddot{x} + 2 \beta \dot{x} + \omega_0^2 x = 0 \\
+x = e^{\gamma t} \\
+\gamma^2 + 2 \beta \gamma + \omega_0^2 = 0 \\
+\gamma = -\beta \pm \sqrt{\beta^2 - \omega_0^2} \\
+x = e^{-\beta t} \left( A_1 e^{\sqrt{\beta^2 - \omega_0^2} t} + A_2 e^{-\sqrt{\beta^2 - \omega_0^2} t} \right)
+$$
+{: .notice--primary}
+
+### Forced Oscillation / 強制振動
+
+$$
+\ddot{x} + 2 \beta \dot{x} + \omega_0^2 x = \alpha e^{i \omega t} \\
+x_p = \tilde{A} e^{i \omega t} \\
+|\tilde{A}| = \frac{\alpha}{\sqrt{(\omega^2 - \omega_0^2)^2 + 4 \beta^2 \omega^2}} \\
+\text{arg}(\tilde{A}) = \tan^{-1} \left( \frac{2 \beta \omega}{\omega^2 - \omega_0^2} \right)
+$$
+{: .notice--info}
+
+$$
+m \ddot{x} + b \dot{x} + k x = f\cos(\omega t) \\
+\ddot{x} + 2 \beta \dot{x} + \omega_0^2 x = \alpha e^{i \omega t} \\
+x_p = \tilde{A} e^{i \omega t} \\
+(-\omega^2 + 2 \beta \omega i + \omega_0^2) \tilde{A} = \alpha \\
+\tilde{A} = \frac{\alpha}{(\omega_0^2 - \omega^2) + 2 \beta \omega i}
+$$
+{: .notice--primary}
+
+### Coupled Oscillation / 連成振動
+
+$$
+M \ddot{\mathbf{x}} + K \mathbf{x} = 0 \\
+\left( -\omega_n^2 M + K \right) \mathbf{A_n} = 0 \\
+\mathbf{x} = \sum_n \tilde{c}_n \mathbf{A_n} e^{i \omega_n t} \\
+\mathbf{x} = \sum_n q_n \mathbf{A_n} \quad \ddot{q}_n + \omega_n^2 q_n = 0
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+L &= \frac{1}{2} \sum_{i,j} m_{ij} \dot{x}_i \dot{x}_j - \frac{1}{2} \sum_{i,j} k_{ij} x_i x_j \\
+&= \frac{1}{2} \dot{\mathbf{x}}^T M \dot{\mathbf{x}} - \frac{1}{2} \mathbf{x}^T K \mathbf{x} 
+\end{aligned} \\
+M \ddot{\mathbf{x}} + K \mathbf{x} = 0 \quad \mathbf{x} = \mathbf{A} e^{i \omega t} \\
+|-\omega_n^2 M + K| = 0 \quad (-\omega_n^2 M + K) \mathbf{A}_n = 0 \\
+\mathbf{x} = \sum_n \hat{c}_n \mathbf{A}_n e^{i \omega_n t} \\
+\mathbf{A}_n^T (K \mathbf{A}_m) - (K \mathbf{A}_n)^T \mathbf{A}_m = (\omega_n^2 - \omega_m^2) \mathbf{A}_n^T M \mathbf{A}_m = 0 \\
+\mathbf{A}_n^T M \mathbf{A}_m = \delta_{nm} \quad \mathbf{A}_n^T K \mathbf{A}_m = \delta_{nm} \omega_m^2 \\
+\mathbf{x} = \sum_n q_n \mathbf{A}_n \\
+\begin{aligned}
+L &= \frac{1}{2} \sum_{n,m} \dot{q}_n (\mathbf{A}_n^T M \mathbf{A}_m) \dot{q}_m - \frac{1}{2} \sum_{n,m} q_n (\mathbf{A}_n^T K \mathbf{A}_m) q_m \\
+&= \frac{1}{2} \sum_n \dot{q}_n^2 - \frac{1}{2} \sum_n \omega_n^2 q_n^2
+\end{aligned} \\
+\ddot{q}_n + \omega_n^2 q_n = 0
+$$
+{: .notice--primary}
+
 ## Wave / 波動
 
 ## Collision / 衝突
@@ -370,6 +457,17 @@ r = \frac{p}{1 + e \cos \theta} \quad a = \frac{p}{1 - e^2} \quad b = \frac{p}{\
 \tau = \frac{\pi ab}{\dot{S}} = \frac{\pi a \sqrt{ap}}{\frac{M}{2\mu}}= 2\pi \sqrt{\frac{\mu}{\alpha}}a^{3/2}
 $$
 {: .notice--primary}
+
+### Gravity / 重力
+
+$$
+\begin{aligned}
+\Phi &= \frac{U}{m} = -\frac{GM}{r} \\
+\mathbf{g} &= -\mathbf{\nabla} \Phi = -\frac{GM}{r^2} \hat{\mathbf{e}}_r \\
+\mathbf{F} &= m\mathbf{g} = -\frac{GMm}{r^2} \hat{\mathbf{e}}_r
+\end{aligned}
+$$
+{: .notice--info}
 
 ## Rigid Body Motion / 剛体運動
 
@@ -557,7 +655,7 @@ E = \frac{M_1^2}{2I_1} + \frac{M_2^2}{2I_2} + \frac{M_3^2}{2I_3} \\
 $$
 {: .notice--primary}
 
-## Gravity / 重力
+## Continuum Mechanics / 連続体力学
 
 # Electromagnetism / 電磁気学
 
@@ -618,6 +716,26 @@ $$
 ## Scattering Theory / 散乱理論
 
 ## Identical Particles / 同種粒子
+
+# Physical Mathematics / 物理数学
+
+## Calculus / 微積分
+
+## Complex Analysis / 複素解析
+
+## Ordinary Differential Equation / 常微分方程式
+
+## Partial Differential Equation / 偏微分方程式
+
+## Special Function / 特殊関数
+
+## Linear Algebra / 線形代数
+
+## Abstract Algebra / 抽象代数
+
+## Vector Calculus / ベクトル解析
+
+## Differential Geometry / 微分幾何
 
 <!-- # Condensed Matter Physics / 物性物理学
 
