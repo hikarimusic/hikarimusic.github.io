@@ -89,7 +89,7 @@ $$
 {: .notice--info}
 
 $$
-\frac{dE}{dt} = m\mathbf{v} \cdot \mathbf{a} + (\mathbf{\nabla} U) \cdot \mathbf{v} + \frac{\partial U}{\partial t} = (\mathbf{F} + \mathbf{\nabla} U) \cdot \mathbf{v} = 0 \\
+\frac{dE}{dt} = m\mathbf{v} \cdot \mathbf{a} + (\nabla U) \cdot \mathbf{v} + \frac{\partial U}{\partial t} = (\mathbf{F} + \nabla U) \cdot \mathbf{v} = 0 \\
 \begin{aligned}
 E &= \sum_\alpha \frac{1}{2} m_\alpha (\mathbf{V} + \mathbf{v}_\alpha') \cdot (\mathbf{V} + \mathbf{v}_\alpha') \\
 &= \sum_\alpha \frac{1}{2} m_\alpha V^2 + \left(\sum_\alpha m_\alpha \mathbf{v}_\alpha'\right) \cdot \mathbf{V} + \sum_\alpha \frac{1}{2} m_\alpha v_\alpha'^2 \\
@@ -541,7 +541,7 @@ $$
 $$
 \begin{aligned}
 \Phi &= \frac{U}{m} = -\frac{GM}{r} \\
-\mathbf{g} &= -\mathbf{\nabla} \Phi = -\frac{GM}{r^2} \hat{\mathbf{e}}_r \\
+\mathbf{g} &= -\nabla \Phi = -\frac{GM}{r^2} \hat{\mathbf{e}}_r \\
 \mathbf{F} &= m\mathbf{g} = -\frac{GMm}{r^2} \hat{\mathbf{e}}_r
 \end{aligned}
 $$
@@ -734,6 +734,95 @@ $$
 {: .notice--primary}
 
 ## Continuum Mechanics / 連続体力学
+
+### Fundamental Equation / 基礎方程式
+
+$$
+\frac{DQ}{Dt} = \frac{\partial Q}{\partial t} + \mathbf{v} \cdot \nabla Q \\
+\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0 \\
+\rho \frac{D \mathbf{v}}{Dt} = \mathbf{f} + \nabla \cdot \sigma
+$$
+{: .notice--info}
+
+$$
+\frac{d}{dt} \int_V \rho \, dV = \int_V \frac{\partial \rho}{\partial t} \, dV = -\oint_{\partial V} \rho \mathbf{v} \cdot d\mathbf{S} = -\int_V \nabla \cdot (\rho \mathbf{v}) \, dV \\
+\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0 \\
+\begin{aligned}
+\frac{d}{dt} \int_V \rho v_i \, dV &= \int_V \frac{\partial (\rho v_i)}{\partial t} \, dV \\
+&= - \oint_{\partial V} \rho v_i \mathbf{v} \cdot d\mathbf{S} + \int_V f_i \, dV + \oint_{\partial V} \boldsymbol{\sigma}_i \cdot d\mathbf{S} \\
+&= - \int_V \nabla \cdot (\rho v_i \mathbf{v}) \, dV + \int_V f_i \, dV + \int_V \nabla \cdot \boldsymbol{\sigma}_i \, dV
+\end{aligned} \\
+\begin{aligned}
+\frac{\partial (\rho v_i)}{\partial t} + \nabla \cdot (\rho v_i \mathbf{v}) &= \frac{\partial \rho}{\partial t} v_i + \rho \frac{\partial v_i}{\partial t} + (\nabla \cdot \rho \mathbf{v}) v_i + \rho (\mathbf{v} \cdot \nabla) v_i \\
+&= \rho \left( \frac{\partial v_i}{\partial t} + (\mathbf{v} \cdot \nabla) v_i \right) + \left( \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) \right) v_i \\
+&= f_i + \nabla \cdot \boldsymbol{\sigma}_i
+\end{aligned} \\
+\rho \frac{D \mathbf{v}}{Dt} = \mathbf{f} + \nabla \cdot \sigma
+$$
+{: .notice--primary}
+
+### Elastic Body / 弾性体
+
+$$
+E_{ij} = \frac{1}{2} \left( \frac{\partial r_j}{\partial x_i} + \frac{\partial r_i}{\partial x_k} \right) \\
+{\sigma}_{ij} = \lambda \delta_{ij} E_{kk} + 2 \mu E_{ij} \\
+\rho \frac{D \mathbf{v}}{Dt} = \mathbf{f} + (\lambda + \mu) \nabla (\nabla \cdot \mathbf{r}) + \mu \nabla^2 \mathbf{r}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\rho \frac{Dv_i}{Dt} &= f_i + \frac{\partial {\sigma}_{ij}}{\partial x_j} \\
+&= f_i + \lambda \frac{\partial}{\partial x_i} \left( \frac{\partial r_k}{\partial x_k} \right) + \mu \frac{\partial}{\partial x_j} \left( \frac{\partial r_j}{\partial x_i} + \frac{\partial r_i}{\partial x_j} \right) \\
+&= f_i + (\lambda + \mu) \frac{\partial}{\partial x_i} (\nabla \cdot \mathbf{r}) + \mu \nabla^2 r_i
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Fluid / 流体
+
+$$
+\dot{E}_{ij} = \frac{1}{2} \left( \frac{\partial v_j}{\partial x_i} + \frac{\partial v_i}{\partial x_j} \right) \\
+{\sigma}_{ij} = - p \delta_{ij} + \lambda \delta_{ij} \dot{E}_{kk} + 2 \eta \dot{E}_{ij} \\
+\rho \frac{D \mathbf{v}}{Dt} = \mathbf{f} - \nabla p + (\lambda + \eta) \nabla (\nabla \cdot \mathbf{v}) + \eta {\nabla}^2 \mathbf{v}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\rho \frac{D v_i}{Dt} &= f_i + \frac{\partial {\sigma}_{ij}}{\partial x_j} \\
+&= f_i - \frac{\partial p}{\partial x_i} + \lambda \frac{\partial}{\partial x_i} \left( \frac{\partial v_k}{\partial x_k} \right) + \eta \frac{\partial}{\partial x_j} \left( \frac{\partial v_j}{\partial x_i} + \frac{\partial v_i}{\partial x_j} \right) \\
+&= f_i - \frac{\partial p}{\partial x_i} + (\lambda + \eta) \frac{\partial}{\partial x_i} (\nabla \cdot \mathbf{v}) + \eta {\nabla}^2 v_i
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Bernoulli's Principle / Bernoulliの定理
+
+$$
+\rho \mathbf{v} \cdot \mathbf{s} = \text{const.} \\
+p + \frac{1}{2} \rho v^2 + \rho gz = \text{const.}
+$$
+{: .notice--info}
+
+$$
+\lambda = \eta = 0 \quad \frac{\partial \rho}{\partial t} = \frac{\partial \mathbf{v}}{\partial t} = 0 \\
+\begin{aligned}
+\int_{V} \frac{\partial \rho}{\partial t} \, dV &= \int_{V} \nabla \cdot (\rho \mathbf{v}) \, dV \\
+&= \oint_{\partial V} \rho \mathbf{v} \cdot d\mathbf{S} \\
+&= \int_{S_1} \rho \mathbf{v} \cdot d\mathbf{S} - \int_{S_2} \rho \mathbf{v} \cdot d\mathbf{S} = 0
+\end{aligned} \\
+\rho \mathbf{v} \cdot \mathbf{s} = \text{const.} \\
+\begin{aligned}
+\rho \frac{D\mathbf{v}}{Dt} &= \rho \left( \mathbf{v} \cdot \nabla \right) \mathbf{v} \\
+&= \rho \nabla \left(\frac{v^2}{2}\right) - \rho \nabla \times \left( \nabla \times \mathbf{v} \right) \\
+&= -\nabla \left( \rho gz \right) - \nabla p
+\end{aligned} \\
+\nabla \left( p + \frac{1}{2} \rho v^2 + \rho gz \right) = \rho \mathbf{v} \times \left( \nabla \times \mathbf{v} \right) \\
+\mathbf{v} \cdot \nabla \left( p + \frac{1}{2} \rho v^2 + \rho gz \right) = 0 \\
+p + \frac{1}{2} \rho v^2 + \rho gz = \text{const.}
+$$
+{: .notice--primary}
 
 # Electromagnetism / 電磁気学
 
