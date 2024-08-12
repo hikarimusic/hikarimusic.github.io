@@ -465,8 +465,6 @@ v_p = \frac{\omega}{k} \quad v_g = \frac{d\omega}{dk}
 $$
 {: .notice--primary}
 
-## Collision / 衝突
-
 ## Central Force Motion / 中心力運動
 
 ### Reduced Mass / 換算質量
@@ -533,6 +531,64 @@ $$
 \end{aligned} \\
 r = \frac{p}{1 + e \cos \theta} \quad a = \frac{p}{1 - e^2} \quad b = \frac{p}{\sqrt{1 - e^2}} \\
 \tau = \frac{\pi ab}{\dot{S}} = \frac{\pi a \sqrt{ap}}{\frac{M}{2\mu}}= 2\pi \sqrt{\frac{\mu}{\alpha}}a^{3/2}
+$$
+{: .notice--primary}
+
+### Collision / 衝突
+
+$$
+\begin{aligned}
+\mathbf{v}_1 &= \frac{m_2 \mathbf{v}}{m_1 + m_2} + \frac{m_1 \mathbf{u}_1 + m_2 \mathbf{u}_2}{m_1 + m_2} \\
+\mathbf{v}_2 &= \frac{-m_1 \mathbf{v}}{m_1 + m_2} + \frac{m_1 \mathbf{u}_1 + m_2 \mathbf{u}_2}{m_1 + m_2}
+\end{aligned} \\
+\begin{aligned}
+\tan{\theta_1} &= \frac{\sin{\theta}}{\cos{\theta} + \frac{m_1}{m_2}} \\
+\tan{\theta_2} &= \frac{\sin{\theta}}{\cos{\theta} - 1}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+m_1 \mathbf{v}_1' + m_2 \mathbf{v}_2' = 0 \\
+\mathbf{v}_1' - \mathbf{v}_2' = \mathbf{v} \\
+\begin{aligned}
+\mathbf{v}_1 &= \mathbf{v}_1' + \mathbf{V} = \frac{m_2 \mathbf{v}}{m_1 + m_2} + \frac{m_1 \mathbf{u}_1 + m_2 \mathbf{u}_2}{m_1 + m_2} \\
+\mathbf{v}_2 &= \mathbf{v}_2' + \mathbf{V} = \frac{-m_1 \mathbf{v}}{m_1 + m_2} + \frac{m_1 \mathbf{u}_1 + m_2 \mathbf{u}_2}{m_1 + m_2}
+\end{aligned} \\
+u_2 = 0 \quad u_1 = v \\
+\begin{aligned}
+\tan{\theta_1} &= \frac{m_2 \mathbf{v} \sin{\theta}}{m_2 \mathbf{v} \cos{\theta} + m_1 \mathbf{v}} = \frac{\sin{\theta}}{\cos{\theta} + \frac{m_1}{m_2}} \\
+\tan{\theta_2} &= \frac{-m_1 \mathbf{v} \sin{\theta}}{-m_1 \mathbf{v} \cos{\theta} + m_1 \mathbf{v}} = \frac{\sin{\theta}}{\cos{\theta} - 1}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Scattering / 散乱
+
+$$
+\begin{aligned}
+\frac{d\sigma}{d\Omega} &= \frac{R^2}{4} \\
+\frac{d\sigma}{d\Omega} &= \left(\frac{\alpha}{4T}\right)^2 \frac{1}{\sin^4\frac{\theta}{2}}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+b = R \sin{\varphi} = R \sin{\left(\frac{\pi}{2} - \frac{\theta}{2}\right)} = R \cos{\frac{\theta}{2}} \\
+\begin{aligned}
+\frac{d\sigma}{d\Omega} &= \frac{b}{\sin{\theta}} \left| \frac{db}{d\theta} \right| \\
+&= \frac{R \cos{\frac{\theta}{2}}}{2 \sin{\frac{\theta}{2}} \cos{\frac{\theta}{2}}} \cdot \frac{R}{2} \sin{\frac{\theta}{2}} \\
+&= \frac{R^2}{4}
+\end{aligned} \\
+\frac{1}{r_\infty} + \frac{1}{p} = \frac{e}{p} \cos{\varphi} \quad \quad \cos{\varphi} = \frac{1}{e} \\
+e = \sqrt{1 + \frac{2EM^2}{m \alpha^2}} = \sqrt{1 + \frac{4T^2 b^2}{\alpha^2}} \\
+\tan{\varphi} = \sqrt{e^2 - 1} = \frac{2Tb}{\alpha} \\
+b = \frac{\alpha}{2T} \tan{\varphi} = \frac{\alpha}{2T} \tan{\left(\frac{\pi}{2} - \frac{\theta}{2}\right)} = \frac{\alpha}{2T} \cot{\frac{\theta}{2}} \\
+\begin{aligned}
+\frac{d\sigma}{d\Omega} &= \frac{b}{\sin{\theta}} \left| \frac{db}{d\theta} \right| \\
+&= \frac{\frac{\alpha}{2T} \cot{\frac{\theta}{2}}}{2 \sin{\frac{\theta}{2}} \cos{\frac{\theta}{2}}} \cdot \frac{\alpha}{4T} \frac{1}{\sin^2{\frac{\theta}{2}}} \\
+&= \left(\frac{\alpha}{4T}\right)^2 \frac{1}{\sin^4{\frac{\theta}{2}}}
+\end{aligned}
 $$
 {: .notice--primary}
 
@@ -824,6 +880,8 @@ p + \frac{1}{2} \rho v^2 + \rho gz = \text{const.}
 $$
 {: .notice--primary}
 
+## Theory of Relativity / 相対性理論
+
 # Electromagnetism / 電磁気学
 
 ## Maxwell's Equation / Maxwell方程式
@@ -900,7 +958,7 @@ $$
 
 ## Abstract Algebra / 抽象代数
 
-## Vector Calculus / ベクトル解析
+## Vector Analysis / ベクトル解析
 
 ## Differential Geometry / 微分幾何
 
