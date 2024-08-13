@@ -1954,6 +1954,94 @@ of urate
 
 ## Neurocutaneous Syndrome / 母斑症
 
+### Tuberous Sclerosis / 結節性硬化症
+
+* **Etiology**
+  * **Genetic**: TSC1 (hamartin) or TSC2 (tuberin) mutation, mTOR pathway overactivated, tumor formation
+  * **Inheritance**: Autosomal dominant (1/3), de novo (2/3)
+* **Manifestation**
+  * **Cutaneous**: Facial angiofibromas, hypomelanotic macules (ash leaf spots), Shagreen patches, ungual fibromas
+  * **Neurological**: Cortical tubers (seizures, intellectual disability), subependymal nodules and giant cell astrocytomas (hydrocephalus)
+  * **Other organs**: Cardiac rhabdomyomas, renal angiomyolipomas, renal cysts, lymphangioleiomyomatosis (lung), retinal hamartomas
+* **Diagnosis**
+  * **Clinical**: Two major features or one major with two minor features
+  * **Imaging**: MRI for brain lesions, renal ultrasound
+  * **Genetic testing**: Confirmatory
+* **Treatment**
+  * **No cure**
+  * **Management**: Seizure control (AEDs), mTOR inhibitors, surgical resection of tumors
+{: .notice--info}
+
+### Neurofibromatosis Type 1 / 神経線維腫症１型
+
+* **Etiology**
+  * **Genetic**: NF1 gene mutation (neurofibromin), tumor suppressor loss
+  * **Inheritance**: Autosomal dominant, de novo in 50%
+* **Manifestation**
+  * **Cutaneous**: Café-au-lait spots, neurofibromas, axillary/inguinal freckling
+  * **Neurological**: Lisch nodules (iris hamartomas), optic pathway gliomas
+  * **Skeletal**: Scoliosis, sphenoid dysplasia, tibial bowing
+* **Diagnosis**
+  * **Clinical**: Two or more of the NIH criteria
+  * **Imaging**: MRI for optic gliomas, skeletal x-rays
+  * **Genetic testing**: Confirmatory
+* **Treatment**
+  * **No cure**
+  * **Management**: Tumor removal, vision and skeletal care
+{: .notice--info}
+
+### Neurofibromatosis Type 2 / 神経線維腫症２型
+
+* **Etiology**
+  * **Genetic**: NF2 gene mutation (merlin), tumor suppressor loss
+  * **Inheritance**: Autosomal dominant, de novo in 50%
+* **Manifestation**
+  * **Neurological**: Bilateral vestibular schwannomas (hearing loss, tinnitus, balance issues), meningiomas and schwannomas
+  * **Ophthalmologic**: Cataracts (early onset)
+* **Diagnosis**
+  * **Clinical**: Bilateral vestibular schwannomas or family history + typical tumors
+  * **Imaging**: MRI for brain and spinal tumors
+  * **Genetic testing**: Confirmatory
+* **Treatment**
+  * **No cure**
+  * **Management**: Surgical removal of tumors, hearing aids/cochlear implants
+{: .notice--info}
+
+### Sturge-Weber Syndrome / Sturge-Weber症候群
+
+* **Etiology**
+  * **Genetic**: Somatic mutation in GNAQ gene, abnormal blood vessel development
+  * **Inheritance**: Not inherited (sporadic)
+* **Manifestation**
+  * **Cutaneous**: Port-wine stain (facial birthmark, typically trigeminal nerve distribution)
+  * **Neurological**: Leptomeningeal angiomatosis (seizures, hemiparesis, developmental delay)
+  * **Ophthalmologic**: Glaucoma (enlarged cornea), choroidal hemangiomas
+* **Diagnosis**
+  * **Clinical**: Port-wine stain, neurological symptoms, and ocular findings
+  * **Imaging**: Brain MRI (leptomeningeal enhancement), brain X-ray (tramline calcification)
+* **Treatment**
+  * **No cure**
+  * **Management**: Antiepileptic drugs, laser therapy for port-wine stain, glaucoma management, surgical interventions
+{: .notice--info}
+
+### Von Hippel-Lindau Disease / Von Hippel-Lindau病
+
+* **Etiology**
+  * **Genetic**: VHL gene mutation (pVHL, tumor suppressor), HIFs accumulation
+  * **Inheritance**: Autosomal dominant, de novo in 20%
+* **Manifestation**
+  * **Neurological**: Hemangioblastomas (cerebellar, retina)
+  * **Renal**: Renal cell carcinoma, renal cysts
+  * **Endocrine**: Pheochromocytomas, pancreatic neuroendocrine tumors
+* **Diagnosis**
+  * **Clinical**: Hemangioblastomas + visceral involvement, family history
+  * **Imaging**: MRI/CT for CNS and abdominal tumors
+  * **Genetic testing**: Confirmatory
+* **Treatment**
+  * **No cure**
+  * **Management**: Regular surveillance, surgical removal of tumors
+{: .notice--info}
+
 ## Brain Tumor / 脳腫瘍
 
 ## Head Injury / 頭部外傷
