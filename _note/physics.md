@@ -880,7 +880,137 @@ p + \frac{1}{2} \rho v^2 + \rho gz = \text{const.}
 $$
 {: .notice--primary}
 
-## Theory of Relativity / 相対性理論
+## Special Relativity / 特殊相対性理論
+
+### Lorentz Transformation / Lorentz変換
+
+$$
+g_{\mu \nu} dx^{\mu} dx^{\nu} = \text{const.} \\
+\begin{aligned}
+t' &= \frac{t - \frac{v}{c^2} x}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+x' &= \frac{x - vt}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+y' &= y \\
+z' &= z
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+g = \begin{pmatrix}
+1 & 0 & 0 & 0 \\
+0 & -1 & 0 & 0 \\
+0 & 0 & -1 & 0 \\
+0 & 0 & 0 & -1
+\end{pmatrix} \quad 
+X = \begin{pmatrix}
+ct \\
+x \\
+y \\
+z
+\end{pmatrix} \\
+X' = L X \\
+(dX')^T g (dX') = (L dX)^T g (L dX) = (dX)^T g (dX) \\
+L^T g L = g \\
+L = \begin{pmatrix}
+\cosh \omega & \sinh \omega & 0 & 0 \\
+\sinh \omega & \cosh \omega & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{pmatrix} \\
+\begin{pmatrix}
+ct' \\
+0 \\
+0 \\
+0
+\end{pmatrix}
+= \begin{pmatrix}
+\cosh \omega & \sinh \omega & 0 & 0 \\
+\sinh \omega & \cosh \omega & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{pmatrix}
+\begin{pmatrix}
+ct \\
+vt \\
+0 \\
+0
+\end{pmatrix} \\
+\tanh \omega = -\frac{v}{c} \quad \cosh \omega = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \quad \sinh \omega = \frac{-\frac{v}{c}}{\sqrt{1 - \frac{v^2}{c^2}}}
+$$
+{: .notice--primary}
+
+### Consequence of Transformation / 変換の帰結
+
+$$
+\begin{aligned}
+\tau &= \frac{\tau_0}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+\ell &= \ell_0 \sqrt{1 - \frac{v^2}{c^2}} \\
+v_x &= \frac{v_x' + v}{1 + \frac{v}{c^2} v_x'} \\
+v_y &= \frac{\sqrt{1 - \frac{v^2}{c^2}} v_y'}{1 + \frac{v}{c^2} v_x'}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\Delta x' = 0 \quad \Delta t' = \tau_0 \\
+\Delta t = \frac{\Delta t' - \frac{v}{c^2} \Delta x'}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{\Delta t'}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+\Delta t = 0 \quad \Delta x' = \ell_0 \\
+\Delta x' = \frac{\Delta x - v \Delta t}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{\Delta x}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+v_x = \frac{dx}{dt} = \frac{dx' + v dt'}{dt' + \frac{v}{c^2} dx'} = \frac{v_x' + v}{1 + \frac{v}{c^2} v_x'} \\
+v_y = \frac{dy}{dt} = \frac{\sqrt{1 - \frac{v^2}{c^2}} \, dy'}{dt' + \frac{v}{c^2} dx'} = \frac{\sqrt{1 - \frac{v^2}{c^2}} v_y'}{1 + \frac{v}{c^2} v_x'}
+$$
+{: .notice--primary}
+
+### Relativistic Dynamics / 相対論的力学
+
+$$
+\delta S = \delta \int -mc \sqrt{g_{\mu \nu} dx^{\mu} dx^{\nu}} = 0 \\
+\begin{aligned}
+\mathbf{p} &= \frac{m\mathbf{v}}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+E &= \frac{mc^2}{\sqrt{1 - \frac{v^2}{c^2}}} = \sqrt{p^2 c^2 + m^2 c^4}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+S &= \int -mc \sqrt{c^2 dt^2 - dx^2 - dy^2 - dz^2} \\
+&= \int -mc^2 \sqrt{1 - \frac{v^2}{c^2}} \, dt 
+\end{aligned} \\
+L = -mc^2 \sqrt{1 - \frac{v^2}{c^2}} \\
+\mathbf{p} = \frac{\partial L}{\partial \mathbf{v}} = \frac{m\mathbf{v}}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+\begin{aligned}
+E &= \mathbf{p} \cdot \mathbf{v} - L \\
+&= \frac{m v^2}{\sqrt{1 - \frac{v^2}{c^2}}} + mc^2 \sqrt{1 - \frac{v^2}{c^2}} \\
+&= \frac{mc^2}{\sqrt{1 - \frac{v^2}{c^2}}}
+\end{aligned} \\
+p^2 c^2 + m^2 c^4 = \frac{m^2 v^2 c^2}{1 - \frac{v^2}{c^2}} + \frac{m^2 c^4 - m^2 c^2 v^2}{1 - \frac{v^2}{c^2}} = E^2
+$$
+{: .notice--primary}
+
+### Four-Vector / ４元ベクトル
+
+$$
+\mathbf{A'} = L \mathbf{A} \\
+\begin{aligned}
+\mathbf{X} &= (ct, x, y, z) \\
+\mathbf{V} &= (\frac{c}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_x}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_y}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_z}{\sqrt{1 - \frac{v^2}{c^2}}}) \\
+\mathbf{P} &= (\frac{E}{c}, p_x, p_y, p_z)
+\end{aligned} 
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+d\mathbf{X} &= (cdt, dx, dy, dz) \\
+d\tau &= \sqrt{dt^2 - \frac{dx^2 + dy^2 + dz^2}{c^2}} = dt \sqrt{1 - \frac{v^2}{c^2}} = \text{const.}
+\end{aligned} \\
+\begin{aligned}
+\mathbf{V} &= \frac{d\mathbf{X}}{d\tau} = (\frac{c}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_x}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_y}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_z}{\sqrt{1 - \frac{v^2}{c^2}}}) \\
+\mathbf{P} &= m\mathbf{V} = (\frac{E}{c}, p_x, p_y, p_z)
+\end{aligned} 
+$$
+{: .notice--primary}
 
 # Electromagnetism / 電磁気学
 
