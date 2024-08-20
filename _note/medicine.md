@@ -1932,6 +1932,35 @@ of urate
 
 ## Cerebrovascular Disorder / 脳血管障害
 
+### Cerebral Infarction / 脳梗塞
+
+### Cerebral Infarction / 脳梗塞
+
+* **Overview**
+  * Thrombus or embolus obstruct cerebral artery, ischemia and necrosis in the supplied areas, various neurological symptoms and permanent disabilities 
+  * [Atherothrombotic infarction] Thrombus forms due to atherosclerosis of carotid or cerebral arteries; hypertension, diabetes, dyslipidemia, smoking, and heavy drinking increase the risk
+  * [Cardioembolic infarction] Embolus forms in heart due to heart diseases (atrial fibrillation, valvular heart disease, myocardial infarction)
+  * [Lacunar infarction] Lipohyalinosis (blood vessel degeneration due to prolonged hypertension) or microatheroma block small penetrating arteries (to basal ganglia, internal capsule, thalamus)
+* **Presentation**
+  * **Hemiplegia, sensory disturbances, dysarthria**: Damage to primary motor or somatosensory cortex
+  * **Aphasia, agnosia**: Damage to association cortex
+  * **Consciousness disorder**: Widespread cortical damage
+  * **[Atherothrombotic infarction] Occur at rest (often sleeping) and gradually worsen; sometimes preceded by transient ischemic attack**: Stasis of blood flow promotes thrombus formation, thrombus gradually enlarge and progressively block the blood flow
+  * **[Cardioembolic infarction] Occur suddenly during activity and develop rapidly, often with large infarct area and severe symptoms**: Increased blood flow during activity dislodge the thrombus,  thrombus rapidly block a major cerebral artery
+  * **[Lacunar infarction] Mild motor disturbances, sensory disturbances or dysarthria, without cortical symptoms**: Blockage of small penetrating artery resulting in small infarction area in deep brain
+* **Examination**
+  * **[CT] No obvious abnormalities in hyperacute phase, low-density region in acute and chronic phase**: No enough structural changes in hyperacute phase, edema in acute phase, liquefactive necrosis in chronic phase
+  * **[MRI] High-signal on DWI in hyperacute phase, high signal on T2 and FLAIR in acute and chronic phase**: Water accumulate in cells with restricted diffusion in hyperacute phase, edema in acute phase, liquefactive necrosis in chronic phase
+  * **[CTA, MRA, cerebral angiography] Vascular stenosis or occlusion**
+* **Management**
+  * **[Acute phase] General management if required, including airway patency and oxygen administration , blood pressure monitoring (avoid aggressively lower BP), blood glucose control**: Control respiration, circulation, metabolism
+  * **[Acute phase] Thrombolytics (rt-PA) or thrombectomy**: Activate plasminogen and dissolve clot, or directly remove clot endovascularly
+  * **[Acute phase] Antiplatelet drugs (ozagrel, aspirin) and anticoagulants (heparin, argatroban), neuroprotective drugs (edaravone), osmotic diuretics (glycerol)**: Prevent thrombus enlargement, prevent free radical damage, prevent brain herniation
+  * **[Chronic phase] Control hypertension, diabetes, dyslipidemia, obesity**: Control risk factors
+  * **[Chronic phase] Antiplatelet drugs (clopidogrel, cilostazol, aspirin) for atherothrombotic and lacunar infarction, anticoagulants (dabigatran, rivaroxaban, warfarin) for cardioembolic infarction**: Prevent thrombus or embolus formation
+  * **[Chronic phase] Rehabilitation**
+{: .notice--info}
+
 ## Hydrocephalus and Hernia / 水頭症・ヘルニア
 
 ## Dementia / 認知症
@@ -1943,13 +1972,13 @@ of urate
 ### Multiple Sclerosis / 多発性硬化症
 
 * **Overview**
-  * Autoimmune destruction of oligodendrocytes, inflammation and demylination of CNS white matter (PNS usually spared), various neurologic symptoms with relapse and remission (multiple lesion in time and space)
-  * Relapse and remission at first, progress without remission latter; some cases progress without remission from onset
+  * Autoimmune destruction of oligodendrocytes, inflammation and demyelination of CNS white matter (PNS usually spared), various neurologic symptoms with relapse and remission (multiple lesion in time and space)
+  * Relapse and remission at first, progress without remission later; some cases progress without remission from onset
   * Prevelance 0.032%, more common in young adults and women (autoimmune), more common in high latitude region
 * **Presentation**
   * **Vision loss, central scotomas (recover in 1-2 weeks, relapse latter)**: Impairment of optic nerve (optic neuritis)
   * **Internuclear ophthalmoplegia**: Impairment of medial longitudinal fasciculus
-  * **Ataxia, tremmor, dysarthria**: Impairment of cerebellum
+  * **Ataxia, tremor, dysarthria**: Impairment of cerebellum
   * **Weakness of extremities, spasticity, hyperreflexia, clonus**: Impairment of motor pathway
   * **Numbness, electric shock-like sensation during neck movement (Lhermitte's sign), trigeminal neuralgia**: Impairment of sensory pathway
   * **Bladder and bowel dysfunction**: Impairment of autonomic nervous system
