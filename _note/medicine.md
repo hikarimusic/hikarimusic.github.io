@@ -1934,8 +1934,6 @@ of urate
 
 ### Cerebral Infarction / 脳梗塞
 
-### Cerebral Infarction / 脳梗塞
-
 * **Overview**
   * Thrombus or embolus obstruct cerebral artery, ischemia and necrosis in the supplied areas, various neurological symptoms and permanent disabilities 
   * [Atherothrombotic infarction] Thrombus forms due to atherosclerosis of carotid or cerebral arteries; hypertension, diabetes, dyslipidemia, smoking, and heavy drinking increase the risk
