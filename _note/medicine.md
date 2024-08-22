@@ -1940,7 +1940,7 @@ of urate
   * [Cardioembolic infarction] Embolus forms in heart due to heart diseases (atrial fibrillation, valvular heart disease, myocardial infarction)
   * [Lacunar infarction] Lipohyalinosis (blood vessel degeneration due to prolonged hypertension) or microatheroma block small penetrating arteries (to basal ganglia, internal capsule, thalamus)
 * **Presentation**
-  * **Hemiplegia, sensory disturbances, dysarthria**: Damage to primary motor or somatosensory cortex
+  * **Contralateral hemiplegia, sensory disturbances, dysarthria**: Damage to primary motor or somatosensory cortex
   * **Aphasia, agnosia**: Damage to association cortex
   * **Consciousness disorder**: Widespread cortical damage
   * **[Atherothrombotic infarction] Occur at rest (often sleeping) and gradually worsen; sometimes preceded by transient ischemic attack**: Stasis of blood flow promotes thrombus formation, thrombus gradually enlarge and progressively block the blood flow
@@ -1951,12 +1951,37 @@ of urate
   * **[MRI] High-signal on DWI in hyperacute phase, high signal on T2 and FLAIR in acute and chronic phase**: Water accumulate in cells with restricted diffusion in hyperacute phase, edema in acute phase, liquefactive necrosis in chronic phase
   * **[CTA, MRA, cerebral angiography] Vascular stenosis or occlusion**
 * **Management**
-  * **[Acute phase] General management if required, including airway patency and oxygen administration , blood pressure monitoring (avoid aggressively lower BP), blood glucose control**: Control respiration, circulation, metabolism
+  * **[Acute phase] Respiration management (intubation as needed), circulation management (avoid aggressively lowering BP), metabolism management (fluid, glucose)**: Control respiration, circulation, metabolism
   * **[Acute phase] Thrombolytics (rt-PA) or thrombectomy**: Activate plasminogen and dissolve clot, or directly remove clot endovascularly
   * **[Acute phase] Antiplatelet drugs (ozagrel, aspirin) and anticoagulants (heparin, argatroban), neuroprotective drugs (edaravone), osmotic diuretics (glycerol)**: Prevent thrombus enlargement, prevent free radical damage, prevent brain herniation
   * **[Chronic phase] Control hypertension, diabetes, dyslipidemia, obesity**: Control risk factors
   * **[Chronic phase] Antiplatelet drugs (clopidogrel, cilostazol, aspirin) for atherothrombotic and lacunar infarction, anticoagulants (dabigatran, rivaroxaban, warfarin) for cardioembolic infarction**: Prevent thrombus or embolus formation
   * **[Chronic phase] Rehabilitation**
+{: .notice--info}
+
+### Cerebral Hemorrhage / 脳出血
+
+* **Overview**
+  * Prolonged hypertension weakens vessels walls, leading to rupture and bleeding
+  * [Putaminal hemorrhage] Rupture of lenticulostriate artery
+  * [Thalamic hemorrhage] Rupture of thalamoperforating or thalamogeniculate artery
+  * [Brainstem hemorrhage] Rupture of pontine arteries
+  * [Cerebellar hemorrhage] Rupture of superior cerebellar artery
+  * [Subcortical hemorrhage] Rupture of cortical branches
+* **Presentation**
+  * **Headache, impaired consciousness**: Increased intracranial pressure lead to pain and brain herniation
+  * **Contralateral hemiplegia, sensory disturbances**: Damage to descending or ascending fibers in internal capsule
+  * **[Putaminal hemorrhage] Conjugate deviation of eyes towards affected side**: Damage to corticobulbar fibers to contralateral PPRF (horizontal gaze center)
+  * **[Thalamic hemorrhage] Downward and inward deviation of eyes**: Damage to superior colliculus (vertical gaze center)
+  * **[Brainstem hemorrhage] Respiratory distress,quadriplegia, fixed midline eyes, pinpoint pupils**: Damage to respiratory center, bilateral corticospinal tract, PPRF and superior colliculus, sympathetic tract
+  * **[Cerebellar hemorrhage] Rotational vertigo and repeated vomiting, standing and walking difficulty**: Damage to cerebellar balancing function and coordination function
+  * **[Subcortical hemorrhage] Motor disturbances, sensory disturbances, visual field defects, sensory aphasia**: Damage to frontal lobe, parietal lobe, occipital lobe, temporal lobe
+* **Examination**
+  * **[CT] High-density region**: Fresh blood has higher density
+* **Management**
+  * **[Clear consciousness] Respiration management (intubation as needed),  circulation management (systolic pressure < 140 mmHg), metabolism management (fluid), osmotic diuretics (glycerol, mannitol)**: Control respiration, circulation, metabolism, cerebral edema
+  * **[Impaired consciousness] Hematoma removal surgery, ventricular drainage**: Relieve brain herniation due to hematoma or hydrocephalus
+  * **[Chronic phase] Control hypertension, rehabilitation**
 {: .notice--info}
 
 ## Hydrocephalus and Hernia / 水頭症・ヘルニア
