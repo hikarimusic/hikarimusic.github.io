@@ -1943,6 +1943,8 @@ of urate
   * **Contralateral hemiplegia, sensory disturbances, dysarthria**: Damage to primary motor or somatosensory cortex
   * **Aphasia, agnosia**: Damage to association cortex
   * **Consciousness disorder**: Widespread cortical damage
+  * **Dizziness, nausea, vomiting, cerebellar ataxia, dysarthria (in case of cerebellar infarction)**: Damage to cerebellar balancing and coordinating functions
+  * **Temperature and pain sensation impairment of ipsilateral face and contralateral limbs, nystagmus, hoarseness, dysarthria (in case of brainstem infarction, particularly Wallenberg syndrome)**: Damage to spinothalamic tract and cranial nerve nucleus at lateral medulla
   * **[Atherothrombotic infarction] Occur at rest (often sleeping) and gradually worsen; sometimes preceded by transient ischemic attack**: Stasis of blood flow promotes thrombus formation, thrombus gradually enlarge and progressively block the blood flow
   * **[Cardioembolic infarction] Occur suddenly during activity and develop rapidly, often with large infarct area and severe symptoms**: Increased blood flow during activity dislodge the thrombus,  thrombus rapidly block a major cerebral artery
   * **[Lacunar infarction] Mild motor disturbances, sensory disturbances or dysarthria, without cortical symptoms**: Blockage of small penetrating artery resulting in small infarction area in deep brain
@@ -1953,10 +1955,38 @@ of urate
 * **Management**
   * **[Acute phase] Respiration management (intubation as needed), circulation management (avoid aggressively lowering BP), metabolism management (fluid, glucose)**: Control respiration, circulation, metabolism
   * **[Acute phase] Thrombolytics (rt-PA) or thrombectomy**: Activate plasminogen and dissolve clot, or directly remove clot endovascularly
-  * **[Acute phase] Antiplatelet drugs (ozagrel, aspirin) and anticoagulants (heparin, argatroban), neuroprotective drugs (edaravone), osmotic diuretics (glycerol)**: Prevent thrombus enlargement, prevent free radical damage, prevent brain herniation
+  * **[Acute phase] Antiplatelet drugs (ozagrel, aspirin) and anticoagulants (heparin, argatroban), neuroprotective drugs (edaravone), anti-cerebral adema drugs (glycerol)**: Prevent thrombus enlargement, prevent free radical damage, prevent brain herniation
   * **[Chronic phase] Control hypertension, diabetes, dyslipidemia, obesity**: Control risk factors
   * **[Chronic phase] Antiplatelet drugs (clopidogrel, cilostazol, aspirin) for atherothrombotic and lacunar infarction, anticoagulants (dabigatran, rivaroxaban, warfarin) for cardioembolic infarction**: Prevent thrombus or embolus formation
   * **[Chronic phase] Rehabilitation**
+{: .notice--info}
+
+### Transient Ischemic Attack / 一過性脳虚血発作
+
+* **Overview**
+  * Thrombus or embolus obstruct peripheral arteries, transient neurological symptoms, thrombus dissolves and vessels reopen soon after
+* **Presentation**
+  * **Temporary loss of vision, weakness and hemiplegia, numbness, aphasia (resolve within 2 ~ 15 minutes)**: Temporary ischemia of eye, motor cortex, sensory cortex, language cortex
+  * **May develop to cerebral infarction**
+* **Examination**
+  * **[CT, MRI] No findings of cerebral infarction**
+* **Management**
+  * **[Preventive] Antiplatelet drugs (clopidogrel, cilostazol, aspirin), anticoagulants (dabigatran, rivaroxaban, warfarin), carotid edarterectomy or carotid artery stenting, control risk factors**: Prevent thrombus or embolus formation
+{: .notice--info}
+
+### Carotid Artery Stenosis / 頸動脈狭窄症
+
+* **Overview**
+  * Narrowing of carotid artery due to atherosclerosis, may lead to TIA or cerebral infarction due to dislodged thrombus
+* **Presentation**
+  * **Asymptomatic**
+  * **TIA, cerebral infarction**
+* **Examination**
+  * **[Carotid ultrasound] Stenosis of internal carotid artery**
+  * **[MRA, CTA, cerebral angiography] Stenosis of internal carotid artery**
+* **Management**
+  * **[Preventive] Antiplatelet drugs (clopidogrel, cilostazol, aspirin), control hypertension, diabetes, dyslipidemia**: Prevent thrombus formation
+  * **[Surgical] Carotid edarterectomy, carotid artery stenting**: Directly remove plaque or prevent plaque breaking off
 {: .notice--info}
 
 ### Cerebral Hemorrhage / 脳出血
@@ -1979,9 +2009,46 @@ of urate
 * **Examination**
   * **[CT] High-density region**: Fresh blood has higher density
 * **Management**
-  * **[Clear consciousness] Respiration management (intubation as needed),  circulation management (systolic pressure < 140 mmHg), metabolism management (fluid), osmotic diuretics (glycerol, mannitol)**: Control respiration, circulation, metabolism, cerebral edema
+  * **[Clear consciousness] Respiration management (intubation as needed),  circulation management (systolic pressure < 140 mmHg), metabolism management (fluid), anti-cerebral adema drugs (glycerol, mannitol)**: Control respiration, circulation, metabolism, cerebral edema
   * **[Impaired consciousness] Hematoma removal surgery, ventricular drainage**: Relieve brain herniation due to hematoma or hydrocephalus
   * **[Chronic phase] Control hypertension, rehabilitation**
+{: .notice--info}
+
+### Subarachnoid Hemorrhage / くも膜下出血
+
+* **Overview**
+  * Bleeding into subarachnoid space due to rupture of vascular lesions, underlying diseases include cerebral aneurysm (80%) and arteriovenous malformations
+* **Presentation**
+  * **Sudden severe pain**: Increased intracranial pressure trigger pain
+  * **Nausea, vomiting, impaired consciousness**: Increased intracranial pressure irritates brainstem
+  * **Neck stiffness, Kernig sign, Brudzinski sign, positive neck flexion test**: Blood in subarachnoid space irritates meninges
+  * **[Complication] Rebleeding**: Dislodge of the initial clot due to fluctuation of blood pressure
+  * **[Complication] Cerebral vasospasm**: Blood breakdown products irritate and trigger contractions of vessels
+  * **[Complication] Normal pressure hydrocephalus**: Blood breakdown products obstruct CSF absorption pathway
+* **Examination**
+  * **[CT] Star-shaped high-density area around suprasellar region**: Fresh blood pooling in subarachnoid space (which has star-shaped anatomy around suprasellar region)
+  * **[MRI] High signal on FLAIR**: FLAIR suppress CSF signal but highlight abnormal fluid (blood)
+  * **[CSF analysis] Blood-stained CSF or xanthochromia (yellowish CSF)**: RBC or bilirubin in CSF
+  * **[DSA (4-vessel study), MRA, 3D-CTA] Cerebral aneurysm (preoperative)**
+* **Management**
+  * **[Preoperative] Blood pressure management (antihypertensive drugs), intracranial pressure management (anti-cerebral edema drugs), pain relief and sedation (diazepam, pentazocine)**: Prevent rebleeding and brain herniation
+  * **[Surgical] Aneurysm neck clipping, aneurysm coil embolization**: Prevent rebleeding
+  * **[Postoperative] Vasodilator (fasudil), antiplatelet drug (ozagrel)**: Prevent vasospasm
+{: .notice--info}
+
+### Cerebral Aneurysm / 脳動脈瘤
+
+* **Overview**
+  * Bulge in brain vessels (particularly in branching points) due to congenital defects in tunica media and acquired factors such as hypertension and arteriosclerosis; usually asymptomatic but may lead to subarachnoid hemorrhage
+* **Presentation**
+  * **Asymptomatic in most cases**
+  * **Mydriasis, diplopia, ptosis**: Compression of oculomotor nerve by aneurysm
+  * **Vision and visual field defects**: Compression of optic nerve by aneurysm 
+* **Examination**
+  * **[MRA, 3D-CTA, DSA] Cerebral aneurysm**
+* **Management**
+  * **[Observation]**: If asymptomatic 
+  * **[Surgical] Aneurysm neck clipping, aneurysm coil embolization**: If symptomatic or high risk of rupture
 {: .notice--info}
 
 ## Hydrocephalus and Hernia / 水頭症・ヘルニア
