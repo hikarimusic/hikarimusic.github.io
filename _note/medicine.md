@@ -2085,6 +2085,45 @@ of urate
   * **[Medical] Antiplatelet drugs, anticonvulsants**: Infarction prevention and symptomatic treatment 
 {: .notice--info}
 
+### Carotid-Cavernous Fistula / 内頸動脈-海綿静脈洞瘻
+
+* **Overview**
+  * Arteriovenous fistula forms between internal carotid artery and cavernous sinus due to trauma or rupture of aneurysm, lead to increased pressure in cavernous sinus and ophthalmic veins
+  * [Dural arteriovenous fistula] Arteriovenous fistula can also form in transverse sinus and sigmoid sinus
+* **Presentation**
+  * **Pulsatile exophthalmos, conjunctival congestion and edema**: Increased pressure in ophthalmic veins in a pulsatile fashion 
+  * **Pulsatile bruit in orbital region, extraocular muscle paralysis**: Increased pressure in cavernous sinus in a pulsatile fashion 
+* **Examination**
+  * **[Cerebral angiography ] Visualization of cavernous sinus during arterial phase**: Arterial blood flows directly into cavernous sinus
+* **Management**
+  * **Endovascular embolization using coil**: Occlusion of the fistula
+{: .notice--info}
+
+### Sinus Thrombosis / 静脈洞血栓症
+
+* **Overview**
+  * Thrombus forms in venous sinus and obstructs blood return, due to dural arteriovenous fistula or hypercoagulability
+* **Presentation**
+  * **Headache, vomiting**: Increased intracranial pressure
+* **Examination**
+  * **[MRV] Narrowing or occlusion of venous sinus**
+* **Management**
+  * **Anticoagulants (heparin)**: Prevent further thrombus formation
+{: .notice--info}
+
+### Hypertensive Encephalopathy / 高血圧性脳症
+
+* **Overview**
+  * Sudden or severe increase in blood pressure impairs brain’s autoregulation and blood-brain barrier, lead to cerebral edema and neurological symptoms 
+* **Presentation**
+  * **Headache, nausea, vomiting, consciousness disturbances**: Increased intracranial pressure
+* **Examination**
+  * **[MRI] High signal in localized area**: Edema
+  * **[CT] Low-density in localized area**: Edema
+* **Management**
+  * **Calcium channel blockers (nicardipine), anti-cerebral edema drugs (glycerol, mannitol)**: Reduce blood pressure, relieve cerebral edema
+{: .notice--info}
+
 ## Hydrocephalus and Hernia / 水頭症・ヘルニア
 
 ## Dementia / 認知症
