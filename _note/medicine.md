@@ -1964,7 +1964,7 @@ of urate
 ### Transient Ischemic Attack / 一過性脳虚血発作
 
 * **Overview**
-  * Thrombus or embolus obstruct peripheral arteries, transient neurological symptoms, thrombus dissolves and vessels reopen soon after
+  * Thrombus or embolus obstruct peripheral arteries, transient neurological symptoms, thrombus dissolves and vessels reopen soon after, may precede cerebral infarction due to larger thrombus formation
 * **Presentation**
   * **Temporary loss of vision, weakness and hemiplegia, numbness, aphasia (resolve within 2 ~ 15 minutes)**: Temporary ischemia of eye, motor cortex, sensory cortex, language cortex
   * **May develop to cerebral infarction**
@@ -1980,7 +1980,7 @@ of urate
   * Narrowing of carotid artery due to atherosclerosis, may lead to TIA or cerebral infarction due to dislodged thrombus
 * **Presentation**
   * **Asymptomatic**
-  * **TIA, cerebral infarction**
+  * **May cause TIA or cerebral infarction**
 * **Examination**
   * **[Carotid ultrasound] Stenosis of internal carotid artery**
   * **[MRA, CTA, cerebral angiography] Stenosis of internal carotid artery**
@@ -2014,6 +2014,22 @@ of urate
   * **[Chronic phase] Control hypertension, rehabilitation**
 {: .notice--info}
 
+### Arteriovenous Malformation / 脳動静脈奇形
+
+* **Overview**
+  * Congenital cerebrovascular abnormality where arteries and veins directly connect without capillaries, result in a cluster of dilated and tortuous vessels (nidus), may lead to cerebral hemorrhage and secondary subarachnoid hemorrhage due to rupture
+  * More common in children and young adults
+* **Presentation**
+  * **Headache, seizures, progressive hemiplegia**: Abnormal connection bypass capillaries and cause ischemia
+  * **May cause cerebral hemorrhage and secondary subarachnoid hemorrhage**
+* **Examination**
+  * **[Cerebral angiography, MRA] Cluster of dilated and tortuous vessels**
+  * **[MRI] Multiple flow void (no signal) region**: MRI cannot capture fast-moving blood in abnormal vessels
+* **Management**
+  * **[Hemorrhage or symptomatic] Resection of nidus, embolization of nidus, gamma knife**: Prevent hemorrhage
+  * **[Non-hemorrhage] Anticonvulsants**: Symptomatic treatment
+{: .notice--info}
+
 ### Subarachnoid Hemorrhage / くも膜下出血
 
 * **Overview**
@@ -2039,16 +2055,34 @@ of urate
 ### Cerebral Aneurysm / 脳動脈瘤
 
 * **Overview**
-  * Bulge in brain vessels (particularly in branching points) due to congenital defects in tunica media and acquired factors such as hypertension and arteriosclerosis; usually asymptomatic but may lead to subarachnoid hemorrhage
+  * Bulge in brain vessels (particularly in branching points) due to congenital defects in tunica media and acquired factors such as hypertension and arteriosclerosis; usually asymptomatic but may lead to subarachnoid hemorrhage due to rupture
+  * More common in middle age adults
 * **Presentation**
   * **Asymptomatic in most cases**
   * **Mydriasis, diplopia, ptosis**: Compression of oculomotor nerve by aneurysm
-  * **Vision and visual field defects**: Compression of optic nerve by aneurysm 
+  * **Vision and visual field defects**: Compression of optic nerve by aneurysm
+  * **May cause subarchnoid hemorrhage** 
 * **Examination**
   * **[MRA, 3D-CTA, DSA] Cerebral aneurysm**
 * **Management**
   * **[Observation]**: If asymptomatic 
   * **[Surgical] Aneurysm neck clipping, aneurysm coil embolization**: If symptomatic or high risk of rupture
+{: .notice--info}
+
+### Moyamoya Disease / もやもや病
+
+* **Overview**
+  * Narrowing or occlusion of arteries in circle of Willis lead to ischemia, fragility of compensating collateral circulation lead to hemorrhage
+  * More common in children under 10s and adults in 30s ~ 40s
+* **Presentation**
+  * **[Childhood] Temporary hemiplegia, sensory disturbances, altered consciousness, seizures after cooling hot food by blowing, playing wind instruments, intense crying**: Hypoventilation cause decreased CO2 levels, lead to cerebral vasoconstriction and ischemia
+  * **[Adulthood] May lead to cerebral hemorrhage**
+* **Examination**
+  * **[DSA, MRA] Narrowing or occlusion near terminal portion of internal carotid artery, presence of moyamoya vessles near basal ganglia**
+  * **[MRI] Punctate or linear flow void (no signal) region near basal ganglia**: MRI cannot capture fast-moving blood in abnormal vessels
+* **Management**
+  * **[Surgical] STA-MCA bypass**: Revascularization by connecting superficial temporal artery and middle cerebral artery
+  * **[Medical] Antiplatelet drugs, anticonvulsants**: Infarction prevention and symptomatic treatment 
 {: .notice--info}
 
 ## Hydrocephalus and Hernia / 水頭症・ヘルニア
