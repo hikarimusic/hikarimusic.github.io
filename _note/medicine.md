@@ -1945,6 +1945,7 @@ of urate
   * **Consciousness disorder**: Widespread cortical damage
   * **Dizziness, nausea, vomiting, cerebellar ataxia, dysarthria (in case of cerebellar infarction)**: Damage to cerebellar balancing and coordinating functions
   * **Temperature and pain sensation impairment of ipsilateral face and contralateral limbs, nystagmus, hoarseness, dysarthria (in case of brainstem infarction, particularly Wallenberg syndrome)**: Damage to spinothalamic tract and cranial nerve nucleus at lateral medulla
+  * **Motor disturbance, sensory disturbance, bladder and rectal disturbance, with proprioception preserved (in case of spinal cord infarction, particularly anterior spinal artery syndrome)**
   * **[Atherothrombotic infarction] Occur at rest (often sleeping) and gradually worsen; sometimes preceded by transient ischemic attack**: Stasis of blood flow promotes thrombus formation, thrombus gradually enlarge and progressively block the blood flow
   * **[Cardioembolic infarction] Occur suddenly during activity and develop rapidly, often with large infarct area and severe symptoms**: Increased blood flow during activity dislodge the thrombus,  thrombus rapidly block a major cerebral artery
   * **[Lacunar infarction] Mild motor disturbances, sensory disturbances or dysarthria, without cortical symptoms**: Blockage of small penetrating artery resulting in small infarction area in deep brain
@@ -2021,6 +2022,7 @@ of urate
   * More common in children and young adults
 * **Presentation**
   * **Headache, seizures, progressive hemiplegia**: Abnormal connection bypass capillaries and cause ischemia
+  * **Motor disturbance, sensory disturbance, bladder and rectal disturbance (in case of spinal AVM)**
   * **May cause cerebral hemorrhage and secondary subarachnoid hemorrhage**
 * **Examination**
   * **[Cerebral angiography, MRA] Cluster of dilated and tortuous vessels**
