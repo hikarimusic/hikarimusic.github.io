@@ -2126,8 +2126,6 @@ of urate
   * **Calcium channel blockers (nicardipine), anti-cerebral edema drugs (glycerol, mannitol)**: Reduce blood pressure, relieve cerebral edema
 {: .notice--info}
 
-## Hydrocephalus and Hernia / 水頭症・ヘルニア
-
 ## Dementia / 認知症
 
 ## Neurodegenerative Disorder / 神経変性疾患
@@ -2137,29 +2135,71 @@ of urate
 ### Multiple Sclerosis / 多発性硬化症
 
 * **Overview**
-  * Autoimmune destruction of oligodendrocytes, inflammation and demyelination of CNS white matter (PNS usually spared), various neurologic symptoms with relapse and remission (multiple lesion in time and space)
-  * Relapse and remission at first, progress without remission later; some cases progress without remission from onset
-  * Prevelance 0.032%, more common in young adults and women (autoimmune), more common in high latitude region
+  * Autoimmune-related Inflammatory demyelination throughout white matter of CNS (spatial dissemination), leading to various neurological symptoms that recur and remit (temporal dissemination); PNS usually spared
+  * Relapsing-remitting type (more) characterized by relapse and remission at first and progress without remission later; primary progressive type (less) progress without remission from onset
+  * More common in young women (autoimmune) and high latitude region
 * **Presentation**
   * **Vision loss, central scotomas (recover in 1-2 weeks, relapse latter)**: Impairment of optic nerve (optic neuritis)
   * **Internuclear ophthalmoplegia**: Impairment of medial longitudinal fasciculus
-  * **Ataxia, tremor, dysarthria**: Impairment of cerebellum
+  * **Ataxia, tremor, nystagmus, dysarthria**: Impairment of cerebellum
   * **Weakness of extremities, spasticity, hyperreflexia, clonus**: Impairment of motor pathway
-  * **Numbness, electric shock-like sensation during neck movement (Lhermitte's sign), trigeminal neuralgia**: Impairment of sensory pathway
+  * **Numbness, electric shock-like sensation during neck movement (Lhermitte’s sign), trigeminal neuralgia**: Impairment of sensory pathway
   * **Bladder and bowel dysfunction**: Impairment of autonomic nervous system
 * **Examination**
-  * **[MRI] Multiple plaque lesion in brain and spinal cord**: Demyelination of CNS white matter
+  * **[MRI] Multiple high-signal plaque lesion in brain and spinal cord**: Demyelination of CNS white matter
   * **[CSF analysis] Lymphocytes increased, IgG increased, oligoclonal band present, myelin binding protein present**: Autoimmune destruction of myelin in CNS
   * **Abnormal evoked potential (especially visual)**: Demyelination of the corresponding pathway
 * **Management**
-  * **[Acute exacerbation treatment] Steroid pulse therapy**: Suppress acute inflammation
-  * **[Relapse prevention] Interferon-beta, glatiramer (MBP analogue), natalizumab (anti α4-integrin), fingolimod (S1PR modulator)**: Immunomodulatory or immunosuppressive drugs
-  * **[Symptomatic treatment] Muscle relaxant, anticholinergic drugs or alpha-blockers, anticonvulsant (gabapentin, pregabalin)**: For spasticity, urinary symptoms, neuropathic pain
+  * **[Acute exacerbation] Steroid pulse therapy, plasmapheresis**: Suppress acute inflammation
+  * **[Relapse prevention] Interferon-beta, glatiramer (MBP-mimicking peptide), natalizumab (anti-α4 integrin antibody), fingolimod (S1PR modulator)**: Immunomodulatory or immunosuppressive drugs
+  * **[Symptomatic treatment] Muscle relaxant, anticonvulsant (gabapentin, pregabalin), anticholinergic drugs or alpha-blockers**: For spasticity, neuropathic pain, urinary symptoms
 {: .notice--info}
 
-## Cranial Nerve Disorder / 脳神経障害
+### Neuromyelitis / 視神経脊髄炎
 
-## Spinal Cord Disorder / 脊髄障害
+* **Overview**
+  * Anti-AQP4 autoantibody damage astrocytes, lead to inflammatory demyelination causing relapsing optic neuritis and myelitis
+More common in middle age women (autoimmune)
+* **Presentation**
+  * **Vision loss, visual field defects**: Impairment of optic nerve (optic neuritis)
+  * **Motor disturbances, sensory disturbances, bladder and bowel dysfunction**: Impairment of spinal cord (myelitis)
+* **Examination**
+  * **[MRI] High-signal lesion in brain and spinal cord (>3 vertebral segments)**: Demyelination of optic nerve and spinal cord
+  * **[Blood] Anti-AQP4 antibody positive**: Autoimmune nature
+* **Management**
+  * **[Acute exacerbation] Steroid pulse therapy, plasmapheresis**: Suppress acute inflammation
+  * **[Relapse prevention] Steroid, immunosuppressant, rituximab (anti -CD20 antibody)**
+{: .notice--info}
+
+### Acute Disseminated Encephalomyelitis / 急性散在性脳脊髄炎
+
+* **Overview**
+  * Inflammatory demyelination of throughout CNS (spatial dissemination) with acute and monophasic course (compared to multiple sclerosis), preceded by viral infection or vaccination (hypersensitivity)
+* **Presentation**
+  * **Fever, headache, vomiting (acute onset and rapid remission)**: Inflammation of brain
+* **Examination**
+  * **[Blood] WBC increase, ESR increase, CRP increase**: Inflammation
+  * **[MRI] Scattered high-signal lesions in brain**: Disseminated demyelination of CNS
+* **Management**
+  * **Steroid pulse therapy, plasmapheresis, high-dose immunoglobulin therapy**: Suppress acute inflammation
+{: .notice--info}
+
+### Adrenoleukodystrophy / 副腎白質ジストロフィー
+
+* **Overview**
+  * X-linked recessive disorder, defects of peroxisome prevent breakdown of very long-chain fatty acids, which accumulate in white matter of brain (progressive demyelination) and adrenal gland (adrenal insufficiency)
+* **Presentation**
+  * **Personality and behavioral abnormalities (aggression), intellectual disability**: Impairment of commissural fibers of brain
+  * **Gait disturbances (ataxic gait)**: Impairment of spinal cord
+  * **Vision and hearing impairment**: Impairment of visual and auditory pathway
+* **Examination**
+  * **[Blood] Cortisol decrease, very long-chain fatty acids increase**: Adrenal insufficiency, fatty acid metabolism defect
+  * **[MRI] High-signal lesion in brain**: Demyelination of CNS
+  * **[Genetic test] ABCD1 mutation**
+* **Management**
+  * **Steroid hormone**: For adrenal insufficiency 
+  * **No cure, dead in 1~5 years**
+{: .notice--info}
 
 ## Peripheral Nerve Disorder / 末梢神経障害
 
