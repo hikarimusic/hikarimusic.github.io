@@ -2130,6 +2130,74 @@ of urate
 
 ## Neurodegenerative Disorder / 神経変性疾患
 
+### Parkinson’s Disease / Parkinson病
+
+* **Overview**
+  * Degeneration of dopamine neuron in substantia nigra pars compacta lead to dopamine deficiency, the direct pathway of basal ganglia (striatum - globus pallidus internum - thalamus) cannot be excited and making movement difficult
+  * More common in middle-aged to elderly individuals 
+  * Pathology reveals loss of neuromelanin-containing cells in substantia nigra and appearance of Lewy bodies in nerve cells
+* **Presentation**
+  * **Akinesia (slow movement, difficulty initiating walking and short-step gait, masked face)**: Dopamine depletion disrupts movement control
+  * **Resting tremor  (pill-rolling tremor, tapping tremor)**: Dopamine depletion disrupts movement control
+  * **Muscle rigidity (cogwheel or lead-pipe)**: Dopamine depletion disrupts muscle tone control
+  * **Postural instability (increased tendency to fall when pushed)**: Dopamine depletion disrupts balance maintenance 
+  * **Depression, dementia, sleep disorder**: Dopamine depletion disrupts mood and cognition
+  * **Orthostatic hypotension, urinary dysfunction, chronic constipation**: Dopamine depletion disrupts autonomic system
+* **Examination**
+  * **[CT, MRI] No specific findings**
+* **Management**
+  * **Dopamine precursor (levodopa) + dopamine decarboxylase inhibitor (carbidopa)**: Levodopa cross blood-brain barrier and convert to dopamine (carbidopa inhibit the conversion in peripheral tissue)
+  * **Dopamine agonist (bromocriptine, pergolide, cabergoline, pramipexole, ropinirole, rotigotine, apomorphine)**: Stimulate dopamine receptor
+  * **Anticholinergic drugs (trihexyphenidyl, biperiden, prophenamine)**: Balance acetylcholine and dopamine level
+  * **Dopamine release promoter (amantadine)**: Increase dopamine release
+  * **Monoamine oxidase B inhibitor (selegiline, rasagiline)**: Inhibit breakdown of dopamine
+  * **COMT inhibitor (Entacapone)**: Inhibit breakdown of levodopa
+  * **Deep brain stimulation (subthalamic nucleus or globus pallidus)**: Modulate abnormal neural activity caused by dopamine deficiency 
+{: .notice--info}
+
+### Progressive Supranuclear Palsy / 進行性核上性麻痺
+
+* **Overview**
+  * Degeneration of basal ganglia and brainstem due to abnormal accumulation of tau protein
+* **Presentation**
+  * **Increased neck muscle tone, akinesia, muscle rigidity, postural instability, (resting tremor is absent)**: Degeneration of basal ganglia
+  * **Vertical gaze palsy, speech and swallowing impairment**: Degeneration of brain stem
+  * **Mental disturbances**: Degeneration of frontal lobe
+* **Examination**
+  * **[CT, MRI] Atrophy of midbrain tegmentum (hummingbird sign)**
+* **Management**
+  * **No established treatment, similar to medication for Parkinson’s disease**: Limited response
+{: .notice--info}
+
+### Corticobasal Degeneration / 大脳皮質基底核変性症
+
+* **Overview**
+  * Degeneration of cerebral cortex and basal ganglia due to abnormal accumulation of tau protein
+* **Presentation**
+  * **Motor clumsiness, apraxia, alien hand syndrome, dementia, involuntary movements (asymmetry between two sides)**: Degeneration of cerebral cortex
+  * **Akinesia, muscle rigidity, postural instability, (resting tremor is absent)**: Degeneration of basal ganglia
+* **Examination**
+  * **[CT, MRI] Asymmetric cortical atrophy**
+* **Management**
+  * **No established treatment, similar to medication for Parkinson’s disease**: Limited response
+{: .notice--info}
+
+### Huntington’s Disease / Huntington病
+
+* **Overview**
+  * Degeneration of striatum lead to overactivity of dopaminergic neurons, causing involuntary movements
+Autosomal dominant inheritance, due to abnormal expansion of CAG repeats
+* **Presentation**
+  * **Rapid involuntary movements of limbs**: Degeneration of striatum disruptions inhibition of involuntary movements
+  * **Personality change, dementia**: Degeneration of cerebral cortex
+* **Examination**
+  * **[CT, MRI] Atrophy of caudate nucleus, enlargement of anterior horns of lateral ventricles**
+  * **[Genetic test] Abnormal expansion of CAG repeats**
+* **Management**
+  * **Tetrabenazine**: For involuntary movements
+  * **Antipsychotics (haloperidol )**: For psychiatric symptoms
+{: .notice--info}
+
 ## Demyelinating Disorder / 脱髄性疾患
 
 ### Multiple Sclerosis / 多発性硬化症
