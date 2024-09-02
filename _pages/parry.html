@@ -1,9 +1,10 @@
 ---
 layout: raw_page
 permalink: /other/parry/
-title: "Parry Random"
+title: "Parry Lot"
 author_profile: true
 ---
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -65,10 +66,9 @@ author_profile: true
     </div>
 
     <script>
-        const people = ["Person 1", "Person 2", "Person 3", "Person 4", "Person 5", "Person 6", "Person 7"];
-        const twoTimesReporters = ["Person 1", "Person 2", "Person 3"]; // People who only report twice
-
-        const allPeople = ["Person 1", "Person 2", "Person 3", "Person 4", "Person 5", "Person 6", "Person 7", "Person 1", "Person 2", "Person 3", "Person 4", "Person 5", "Person 6", "Person 7", "Person 1", "Person 2", "Person 3", "Person 4"];
+        const people = ["康元甫", "吳群明", "羅培瑞", "盧卓禮", "林品均", "何芝婷", "陳可若"];
+        const allPeople = ["康元甫", "吳群明", "羅培瑞", "盧卓禮", "林品均", "何芝婷", "陳可若"];
+        const twoTimesReporters = ["林品均", "何芝婷", "吳群明"]; // People who only report twice
 
         function shuffle(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -79,25 +79,46 @@ author_profile: true
         }
 
         function assignGroups() {
-            shuffle(allPeople);
             let result = document.getElementById('result');
             result.innerHTML = '';
-            let presentations = [];
 
+            let assignments = { "康元甫":0, "吳群明":0, "羅培瑞":0, "盧卓禮":0, "林品均":0, "何芝婷":0, "陳可若":0 };
+            let presentations = [];
+            let cnt = 0;
             for (let i = 0; i < 6; i++) {
+                shuffle(allPeople);
+
                 let group = [];
-                for (let j = 0; j < 3; j++) {
-                    group.push(allPeople[i*3+j]);
+                for (let j = 0; j < allPeople.length; j++) {
+                    let person = allPeople[j];
+                    // console.log(i, j, person, assignments[person])
+                    if (person==people[i]) {
+                        continue;
+                    }
+                    if (i==3 && person=="羅培瑞") {
+                        continue;
+                    }
+                    if (group.length < 3 && assignments[person] < (twoTimesReporters.includes(person) ? 2 : 3)) {
+                        group.push(person);
+                        // console.log("push", person);
+                        assignments[person]++;
+                        cnt += 1;
+                    }
                 }
                 presentations.push(group);
             }
 
-            presentations.forEach((group, index) => {
-                let groupDiv = document.createElement('div');
-                groupDiv.className = 'group';
-                groupDiv.innerHTML = `<strong>Presentation ${index + 1}:</strong> ${group.join(', ')}`;
-                result.appendChild(groupDiv);
-            });
+            if (cnt==18) {
+                presentations.forEach((group, index) => {
+                    let groupDiv = document.createElement('div');
+                    groupDiv.className = 'group';
+                    groupDiv.innerHTML = `<strong>Presentation ${index + 1}:</strong> ${group.join(', ')}`;
+                    result.appendChild(groupDiv);
+                });                
+            }
+            else {
+                assignGroups();
+            }
         }
     </script>
 </body>
