@@ -1,0 +1,104 @@
+---
+layout: raw_page
+permalink: /other/parry/
+title: "Parry Random"
+author_profile: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Group Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .group {
+            margin-bottom: 15px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Group Assignment</h1>
+        <h2>For Parry Lo</h2>
+        <p>Click the button below to assign groups randomly</p>
+        <p>Person 1 ~ 4 will present 3 times, and Person 5 ~ 7 will present 2 times</p>
+        <button onclick="assignGroups()">Assign Groups</button>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        const people = ["Person 1", "Person 2", "Person 3", "Person 4", "Person 5", "Person 6", "Person 7"];
+        const twoTimesReporters = ["Person 1", "Person 2", "Person 3"]; // People who only report twice
+
+        const allPeople = ["Person 1", "Person 2", "Person 3", "Person 4", "Person 5", "Person 6", "Person 7", "Person 1", "Person 2", "Person 3", "Person 4", "Person 5", "Person 6", "Person 7", "Person 1", "Person 2", "Person 3", "Person 4"];
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function assignGroups() {
+            shuffle(allPeople);
+            let result = document.getElementById('result');
+            result.innerHTML = '';
+            let presentations = [];
+
+            for (let i = 0; i < 6; i++) {
+                let group = [];
+                for (let j = 0; j < 3; j++) {
+                    group.push(allPeople[i*3+j]);
+                }
+                presentations.push(group);
+            }
+
+            presentations.forEach((group, index) => {
+                let groupDiv = document.createElement('div');
+                groupDiv.className = 'group';
+                groupDiv.innerHTML = `<strong>Presentation ${index + 1}:</strong> ${group.join(', ')}`;
+                result.appendChild(groupDiv);
+            });
+        }
+    </script>
+</body>
+</html>
