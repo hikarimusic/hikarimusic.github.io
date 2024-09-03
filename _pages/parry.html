@@ -68,7 +68,7 @@ author_profile: true
     <script>
         const people = ["康元甫", "吳群明", "羅培瑞", "盧卓禮", "林品均", "何芝婷", "陳可若"];
         const allPeople = ["康元甫", "吳群明", "羅培瑞", "盧卓禮", "林品均", "何芝婷", "陳可若"];
-        const twoTimesReporters = ["林品均", "何芝婷", "吳群明"]; // People who only report twice
+        const FirstReporters = ["林品均", "何芝婷", "吳群明"]; // People who only report twice
 
         function shuffle(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -85,10 +85,21 @@ author_profile: true
             let assignments = { "康元甫":0, "吳群明":0, "羅培瑞":0, "盧卓禮":0, "林品均":0, "何芝婷":0, "陳可若":0 };
             let presentations = [];
             let cnt = 0;
-            for (let i = 0; i < 6; i++) {
+            for (let i = 0; i < 7; i++) {
                 shuffle(allPeople);
-
                 let group = [];
+
+                if (i==0) {
+                        for (let j=0; j<3; ++j) {
+                                        person = FirstReporters[j];
+                        group.push(person);
+                        assignments[person]++;
+                        cnt += 1;
+
+                    }
+                    presentations.push(group);
+                    continue;
+                }
                 for (let j = 0; j < allPeople.length; j++) {
                     let person = allPeople[j];
                     // console.log(i, j, person, assignments[person])
@@ -98,9 +109,8 @@ author_profile: true
                     if (i==3 && person=="羅培瑞") {
                         continue;
                     }
-                    if (group.length < 3 && assignments[person] < (twoTimesReporters.includes(person) ? 2 : 3)) {
+                    if (group.length < 3 && assignments[person] < 3) {
                         group.push(person);
-                        // console.log("push", person);
                         assignments[person]++;
                         cnt += 1;
                     }
@@ -108,13 +118,13 @@ author_profile: true
                 presentations.push(group);
             }
 
-            if (cnt==18) {
+            if (cnt==21) {
                 presentations.forEach((group, index) => {
                     let groupDiv = document.createElement('div');
                     groupDiv.className = 'group';
                     groupDiv.innerHTML = `<strong>Presentation ${index + 1}:</strong> ${group.join(', ')}`;
                     result.appendChild(groupDiv);
-                });                
+                });               
             }
             else {
                 assignGroups();
