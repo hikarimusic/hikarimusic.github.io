@@ -2128,6 +2128,68 @@ of urate
 
 ## Dementia / 認知症
 
+### Alzheimer’s Dementia / Alzheimer型認知症
+
+* **Overview**
+  * Degeneration of cerebral cortex due to accumulation of amyloid β and phosphorylated tau protein, leading to cognitive impairment
+  * Common in elderly individuals, most common type of dementia
+  * Pathology shows cerebral atrophy grossly, senile plaques and neurofibrillary tangles microscopically 
+* **Presentation**
+  * **[Core symptoms] Memory impairment, executive dysfunction, aphasia, apraxia, agnosia**: Degeneration of cerebral cortex, mainly temporal lobe (hippocampus) and parietal lobe 
+  * **[BPSD] Insomnia, hallucinations/delusions, depressive states, anxiety/agitation, excitement/violence, unclean behavior, wandering, pica/overeating, dependency**: Disruption of normal brain functions
+* **Examination**
+  * **[Cognitive function test] HDS-R score <= 20, MMSE <= 23**: Cognitive impairment
+  * **[CT, MRI] Atrophy, mainly temporal lobe and hippocampus**: Degeneration of temporal lobe
+  * **[SPECT, PET] Reduced blood flow, mainly temporal lobe and parietal lobe**: Reduced neuronal activity leads to reduced blood flow
+* **Management**
+  * **Cholinesterase inhibitor (donepezil, galantamine, rivastigmine)**: Reduce breakdown and increase level of acetylcholine, improve signal transduction
+  * **NMDA receptor antagonist (memantin)**: Inhibit excessive glutamate activity, reduce neuronal damage 
+{: .notice--info}
+
+### Dementia With Lewy Bodies / Lewy小体型認知症
+
+* **Overview**
+  * Degeneration of cerebral cortex due to accumulation of α-synuclein, leading to cognitive impairment and Parkinsonism
+Pathology shows Lewy bodies
+* **Presentation**
+  * **Cognitive impairment, visual hallucinations (with daily or weekly fluctuation)**: Degeneration of cerebral cortex, mainly occipital lobe
+  * **Parkinsonism, REM sleep behavior disorder**: Degeneration of basal ganglia and brainstem
+* **Examination**
+  * **[SPECT, PET] Reduced blood flow, mainly occipital lobe**: Degeneration of occipital lobe
+  * **[MIBG myocardial scintigraphy] Decreased uptake**: Degeneration of postganglionic sympathetic nerve fiber
+  * **[Dopamine reuptake test] Loss of dopamine neuron in basal ganglia**
+* **Management**
+  * **Cholinesterase inhibitor (donepezil)**: For cognitive impairment
+  * **Levodopa**: For Parkinsonism
+  * **Benzodiazepine (clonazepam)**: For REM sleep behavior disorder
+{: .notice--info}
+
+### Frontotemporal Dementia / 前頭側頭型認知症
+
+* **Overview**
+  * Degeneration of cerebral cortex (mainly frontal and temporal lobe), leading to cognitive impairment, personality changes and behavioral abnormalities 
+* **Presentation**
+  * **Decreased spontaneity, emotional blunting, disinhibition, stereotyped behaviors**: Degeneration of cerebral cortex, mainly frontal lobe and temporal lobe 
+* **Examination**
+  * **[CT, MRI] Atrophy, mainly frontal lobe and temporal lobe**: Degeneration of frontal lobe and temporal lobe
+  * **[SPECT, PET] Reduced blood flow, mainly frontal lobe and temporal lobe**: Degeneration of frontal lobe and temporal lobe
+* **Management**
+  * **Symptomatic treatment**
+{: .notice--info}
+
+### Vascular Dementia / 血管性認知症
+
+* **Overview**
+  * Cerebrovascular diseases damage the brain, leading to cognitive impairment
+* **Presentation**
+  * **Gradual and patchy decline in cognitive function**: Gradual and partial damage to cerebral cortex
+  * **Motor and sensory disturbances**: Other symptoms of cerebral infarction or hemorrhage
+* **Examination**
+  * **[CT, MRI] Cerebral infarction or hemorrhage**
+* **Management**
+  * **Control hypertension, antiplatelet drugs, anticoagulants**: Prevent relapse of infarction
+{: .notice--info}
+
 ## Neurodegenerative Disorder / 神経変性疾患
 
 ### Parkinson’s Disease / Parkinson病
@@ -2135,7 +2197,7 @@ of urate
 * **Overview**
   * Degeneration of dopamine neuron in substantia nigra pars compacta lead to dopamine deficiency, the direct pathway of basal ganglia (striatum - globus pallidus internum - thalamus) cannot be excited and making movement difficult
   * More common in middle-aged to elderly individuals 
-  * Pathology reveals loss of neuromelanin-containing cells in substantia nigra and appearance of Lewy bodies in nerve cells
+  * Pathology reveals loss of neuromelanin-containing cells in substantia nigra and appearance of Lewy bodies in nerve cells (due to accumulation of α-synuclein)
 * **Presentation**
   * **Akinesia (slow movement, difficulty initiating walking and short-step gait, masked face)**: Dopamine depletion disrupts movement control
   * **Resting tremor  (pill-rolling tremor, tapping tremor)**: Dopamine depletion disrupts movement control
@@ -2145,6 +2207,8 @@ of urate
   * **Orthostatic hypotension, urinary dysfunction, chronic constipation**: Dopamine depletion disrupts autonomic system
 * **Examination**
   * **[CT, MRI] No specific findings**
+  * **[MIBG myocardial scintigraphy] Decreased uptake**: Degeneration of postganglionic sympathetic nerve fibers
+  * **[Dopamine transporter imaging] Loss of dopamine neuron in basal ganglia**
 * **Management**
   * **Dopamine precursor (levodopa) + dopamine decarboxylase inhibitor (carbidopa)**: Levodopa cross blood-brain barrier and convert to dopamine (carbidopa inhibit the conversion in peripheral tissue)
   * **Dopamine agonist (bromocriptine, pergolide, cabergoline, pramipexole, ropinirole, rotigotine, apomorphine)**: Stimulate dopamine receptor
@@ -2195,7 +2259,7 @@ Autosomal dominant inheritance, due to abnormal expansion of CAG repeats
   * **[Genetic test] Abnormal expansion of CAG repeats**
 * **Management**
   * **Tetrabenazine**: For involuntary movements
-  * **Antipsychotics (haloperidol )**: For psychiatric symptoms
+  * **Antipsychotics (haloperidol)**: For psychiatric symptoms
 {: .notice--info}
 
 ## Demyelinating Disorder / 脱髄性疾患
