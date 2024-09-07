@@ -2262,6 +2262,126 @@ Autosomal dominant inheritance, due to abnormal expansion of CAG repeats
   * **Antipsychotics (haloperidol)**: For psychiatric symptoms
 {: .notice--info}
 
+### Amyotrophic Lateral Sclerosis / 筋萎縮性側索硬化症
+
+* **Overview**: 
+  * Degeneration of upper and lower motor neurons leads to progressive muscular atrophy; mostly sporadic but sometimes hereditary 
+  * More common in middle-aged to elderly individuals 
+  * Pathology shows atrophy of pyramidal tract and anterior horn, with TDP-43 positive inclusions
+* **Presentation**
+  * **Muscle weakness, muscle atrophy, fasciculations**: Degeneration of lower motor neurons lead to reduced stimulation on muscles
+  * **Increased tendon reflexes, positive Babinski sign**: Degeneration of upper motor neurons lead to reduced inhibition on lower motor neurons
+  * **Dysphagia, dysarthria, tongue atrophy**: Degeneration of cranial nerves lead to bulbar palsy
+  * **No eye movement disorders, sensory impairments, bladder or rectal dysfunction, pressure sores**: Cranial nerves III IV VI, sensory neurons, autonomic neurons are spared
+* **Examination**
+  * **[EMG] Denervation potentials at rest**: Denervation from lower motor neurons leads to spontaneous electrical activity
+  * **[EMG] High-amplitude potentials during voluntary contraction**: Degeneration of lower motor neurons leads to formation of larger motor units by remaining neurons
+  * **[Muscle biopsy] Grouped atrophy**: Denervation of motor units
+* **Management**
+  * **No cure**: Progress to requiring mechanical ventilation or death in 3~5 years
+  * **[Medication] Riluzole, edaravone**: Protect neurons by reducing glutamate activity or scavenging free radicals
+{: .notice--info}
+
+### Spinal Muscular Atrophy / 脊髄性筋萎縮症
+
+* **Overview**
+  * Degeneration of lower motor neurons leads to progressive muscular atrophy; autosomal recessive inheritance
+  * Type I onset at birth and die within one year, type III onset at 2~18 years and have good prognosis
+* **Presentation**
+  * **Muscle weakness (floppy infant, Gowers’ sign), fasciculations, absent tendon reflexes**: Degeneration of lower motor neurons cause reduced stimulation on muscles
+* **Examination**
+  * **[Genetic test] SMN gene mutation**
+* **Management**
+  * **Symptomatic treatment**: Type I die within one year, type III and IV have good prognosis
+{: .notice--info}
+
+### Bulbospinal Muscular Atrophy / 球脊髄性筋萎縮症
+
+* **Overview**
+  * Degeneration of lower motor neurons leads to progressive muscular atrophy; X-linked recessive inheritance, due to abnormal expansion of CAG repeats in androgen receptor gene
+* **Presentation**
+  * **Muscle weakness, muscle atrophy (primarily proximal muscles), fasciculations, tremors**: Degeneration of lower motor neurons cause reduced stimulation on muscles
+  * **Dysphagia, dysarthria, tongue atrophy**: Degeneration of cranial nerves cause bulbar palsy
+  * **Gynecomastia, impotence, testicular atrophy**: Abnormal androgen receptor lead to reduced sensitivity to androgen
+* **Examination**
+  * **[Genetic test] Abnormal expansion of CAG repeats**
+* **Management**
+  * **Symptomatic treatment**: Prognosis depends on CAG repeats number
+{: .notice--info}
+
+### Multiple System Atrophy / 多系統萎縮症
+
+* **Overview**
+  * Degeneration of olivo-ponto-cerebellar system, striatonigral system, and autonomic nervous system; sporadic
+  * More common in middle-aged to elderly individuals 
+  * Pathology shows glial cytoplasmic inclusion (due to accumulation of α-synuclein)
+  * [MSA-C] Cerebellar ataxia as predominant early symptom, but other symptoms present later
+  * [MSA-P] Parkinsonism as predominant early symptom, but other symptoms present later
+  * [Shy-Drager syndrome] Autonomic dysfunction as predominant early symptom, but other symptoms present later
+* **Presentation**
+  * **[Cerebellar ataxia] Truncal ataxia (staggering gait), limb coordination problems (abnormal finger-to-nose test), dysarthria**: Degeneration of olivo-ponto-cerebellar system
+  * **[Parkinsonism] Bradykinesia, muscle rigidity, shuffling gait (resting tremor are rare)**: Degeneration of striatonigral system
+  * **[Autonomic dysfunction] Orthostatic hypotension, bladder and rectal dysfunction, erectile dysfunction, sweating abnormalities, horner syndrome**: Degeneration of autonomic nervous system
+* **Examination**
+  * **[CT, MRI] Atrophy of cerebellum and brainstem, cross sign in pons**: Degeneration of olivo-ponto-cerebellar system, degeneration of transverse and longitudinal pontocerebellar fibers
+  * **[CT, MRI] Atrophy of putamen, linear area of high-signal on lateral side of putamen**: Degeneration of striatonigral system, gliosis of lateral side of putamen
+* **Management**
+  * **[Cerebellar ataxia] TRH analog (protirelin, taltirelin)**: Stimulate neurotransmission and enhance motor control
+  * **[Parkinsonism] Dopamine precursor (levodopa)**: Converted to dopamine and alleviate Parkinsonism
+  * **[Autonomic dysfunction] Alpha-agonists (midodrine, droxidopa), alpha-blockers**: For orthostatic hypotension or urinary retention 
+{: .notice--info}
+
+### Spinocerebellar Ataxia / 脊髄小脳失調症
+
+* **Overview**
+  * Degeneration of cerebellum or spinal cord; hereditary
+  * [SCA-3] Abnormal expansion of CAG repeats in ataxia-3 gene, autosomal dominant
+  * [SCA-6] Abnormal expansion of CAG repeats in CACNA1A gene, autosomal dominant
+  * [Dentato-rubro-pallido-luysian atrophy] Abnormal expansion of atrophin-1 gene, autosomal dominant
+  * [Friedreich ataxia] Abnormal expansion of GAA repeats in frataxin genes, autosomal recessive
+* **Presentation**
+  * **Cerebellar ataxia, startled expression (SCA-3)**: Degeneration of cerebellum 
+  * **Spinal ataxia, deep sensory loss (Friedreich ataxia)**: Degeneration of spinal cord
+* **Examination**
+  * **[CT. MRI] Degeneration of cerebellum and spinal cord**
+* **Management**
+  * **Symptomatic treatment**
+{: .notice--info}
+
+### Wernicke Encephalopathy / Wernicke脳症
+
+* **Overview**
+  * Vitamin B1 deficiency (chronic alcoholism, malnutrition, inappropriate IV infusion) damage neurons and cause necrosis (mainly around cerebral ventricles)
+* **Presentation**
+  * **Consciousness disturbances (somnolence, delirium)**: Impairment of thalamus
+  * **Ocular movement disorders (abducens nerve palsy, nystagmus)**: Impairment of brainstem (cranial nerve nucleus)
+  * **Cerebellar dysfunction (ataxic gait)**: Impairment of cerebellum 
+  * **Korsakoff syndrome (memory impairment, confabulation, disorientation)**: Irreversible damage to brain if untreated
+* **Examination**
+  * **[MRI] High signal in third ventricle, cerebral aqueduct, fourth ventricle, mammillary body**: Neuronal damage around cerebral ventricles
+  * **[Blood test] Vitamin B1 decrease**: Vitamin B1 deficiency
+* **Management**
+  * **Large intravenous administration of Vitamin B1**
+  * **[Don’t] Glucose administration alone during Vitamin B1 deficiency is contraindicated**: Further consume Vitamin B12
+{: .notice--info}
+
+### Subacute Combined Degeneration of Spinal Cord / 亜急性脊髄連合変性症
+
+* **Overview**
+  * Vitamin B12 deficiency (total gastrectomy, autoimmune atrophic gastritis) cause degeneration of posterior column, lateral column and peripheral nerve
+* **Presentation**
+  * **Deep sensory impairment, positive Romberg’s sign**: Impairment of posterior column
+  * **Increased tendon reflexes, positive Babinski sign, spastic paralysis**: Impairment of lateral column
+  * **Numbness, muscle weakness**: Impairment of peripheral nerves
+  * **Anemia, Hunter’s glossitis**: Impairment of DNA synthesis 
+* **Examination**
+  * **[Blood test] Megaloblastic anemia, vitamin B12 decrease, methylmalonic acid increase, homocysteine increase**: Vitamin B12 is crucial for DNA synthesis (RBC production), conversion of methylmalonyl-CoA to succinyl-CoA, conversion of homocysteine to methionine
+  * **[MRI] High-signal in posterior column and lateral column**
+* **Management**
+  * **IV and oral administration of Vitamin B12**
+  * **[Don’t] Folic acid administration alone is contraindicated**: Mask the neurological symptoms and further consume Vitamin B12
+{: .notice--info}
+
 ## Demyelinating Disorder / 脱髄性疾患
 
 ### Multiple Sclerosis / 多発性硬化症
