@@ -2016,6 +2016,22 @@ int query(int l, int r) {
     return sum[r+1] - sum[l];
 }
 ```
+```cpp
+vector<vector<int>> arr(N, vector<int>(N));
+vector<vector<int>> sum(N, vector<int>(N));
+
+void build(int nx, int ny) {
+    for (int i=0; i<nx; ++i) {
+        for (int j=0; j<ny; ++j) {
+            sum[i+1][j+1] = sum[i][j+1] + sum[i+1][j] - sum[i][j] + arr[i][j];
+        }
+    }
+}
+
+int query(int lx, int rx, int ly, int ry) {
+    return sum[rx+1][ry+1] - sum[lx][ry+1] - sum[rx+1][ly] + sum[lx][ly];
+}
+```
 
 ### Two Pointers / しゃくとり法
 ```cpp

@@ -2135,7 +2135,7 @@ of urate
   * Common in elderly individuals, most common type of dementia
   * Pathology shows cerebral atrophy grossly, senile plaques and neurofibrillary tangles microscopically 
 * **Presentation**
-  * **[Core symptoms] Memory impairment, executive dysfunction, aphasia, apraxia, agnosia**: Degeneration of cerebral cortex, mainly temporal lobe (hippocampus) and parietal lobe 
+  * **[Core symptoms] Memory impairment, disorientation, executive dysfunction, aphasia, apraxia, agnosia**: Degeneration of cerebral cortex, mainly temporal lobe (hippocampus) and parietal lobe 
   * **[BPSD] Insomnia, hallucinations/delusions, depressive states, anxiety/agitation, excitement/violence, unclean behavior, wandering, pica/overeating, dependency**: Disruption of normal brain functions
 * **Examination**
   * **[Cognitive function test] HDS-R score <= 20, MMSE <= 23**: Cognitive impairment
