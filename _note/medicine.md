@@ -516,6 +516,28 @@ Essences of clinical medicine.
 
 ## Biliary Tract Disorder / 胆道疾患
 
+### Cholelithiasis / 胆石症
+
+* **Overview**
+  * Stones in gallbladder, bile duct or liver
+  * Common in middle-aged and older adults
+* **Presentation**
+  * **Asymptomatic**
+  * **Sudden pain in right hypochondrium or epigastrium, lasting for hours**: Gallstone temporarily obstructs cystic or bile duct, leading to increase pressure
+  * **Radiating pain to right shoulder or back**: Irritation of phrenic nerve
+  * **Nausea, vomiting**: Irritation of vagus nerve
+* **Examination**
+  * **[Blood] Elevation of AST, ALT, γ-GT, ALP, bilirubin**: Bile stasis damages liver and bile duct
+  * **[Ultrasound] High-echoic image with acoustic shodows**: Stone reflects sound waves
+  * **[CT] High-density stone**
+  * **[MRI] Defect images of stone**
+* **Management**
+  * **[Acute phase] NSAIDs, anticholinergic drugs**: Relieve pain
+  * **[Gallbladder stone] Observation (asymptomatic), laparoscopic cholecystectomy (symptomatic)**: Remove gallbladder and stones
+  * **[Common bile duct stone] Endoscopic sphincterotomy or endoscopic papillary balloon dilation, endoscopic lithotripsy**: Widen sphincter of Oddi and remove stones
+  * **[Intrahepatic stone] Percutaneous transhepatic cholangioscopy, hepatectomy (liver atrophy or intrahepatic cholangiocarcinoma)**: Remove stones, remove liver lobe if necessary
+{: .notice--info}
+
 ## Pancreas Disorder / 膵疾患
 
 <!-- 
@@ -2407,7 +2429,7 @@ Autosomal dominant inheritance, due to abnormal expansion of CAG repeats
   * **[Symptomatic treatment] Muscle relaxant, anticonvulsant (gabapentin, pregabalin), anticholinergic drugs or alpha-blockers**: For spasticity, neuropathic pain, urinary symptoms
 {: .notice--info}
 
-### Neuromyelitis / 視神経脊髄炎
+### Neuromyelitis Optica / 視神経脊髄炎
 
 * **Overview**
   * Anti-AQP4 autoantibody damage astrocytes, lead to inflammatory demyelination causing relapsing optic neuritis and myelitis
