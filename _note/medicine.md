@@ -523,19 +523,59 @@ Essences of clinical medicine.
   * Common in middle-aged and older adults
 * **Presentation**
   * **Asymptomatic**
-  * **Sudden pain in right hypochondrium or epigastrium, lasting for hours**: Gallstone temporarily obstructs cystic or bile duct, leading to increase pressure
+  * **Sudden pain in right upper quadrant, lasting for hours**: Gallstone temporarily obstructs cystic or bile duct, leading to increased pressure in gallbladder
   * **Radiating pain to right shoulder or back**: Irritation of phrenic nerve
   * **Nausea, vomiting**: Irritation of vagus nerve
 * **Examination**
-  * **[Blood] Elevation of AST, ALT, γ-GT, ALP, bilirubin**: Bile stasis damages liver and bile duct
+  * **[Blood] ALP↑, γ-GT↑, bilirubin↑**: Bile stasis and bile duct damage
   * **[Ultrasound] High-echoic image with acoustic shodows**: Stone reflects sound waves
   * **[CT] High-density stone**
-  * **[MRI] Defect images of stone**
+  * **[MRCP, ERCP] Defect images of stone**
 * **Management**
-  * **[Acute phase] NSAIDs, anticholinergic drugs**: Relieve pain
+  * **[Symptomatic] NSAIDs, anticholinergic drugs**: Relieve pain
   * **[Gallbladder stone] Observation (asymptomatic), laparoscopic cholecystectomy (symptomatic)**: Remove gallbladder and stones
   * **[Common bile duct stone] Endoscopic sphincterotomy or endoscopic papillary balloon dilation, endoscopic lithotripsy**: Widen sphincter of Oddi and remove stones
   * **[Intrahepatic stone] Percutaneous transhepatic cholangioscopy, hepatectomy (liver atrophy or intrahepatic cholangiocarcinoma)**: Remove stones, remove liver lobe if necessary
+{: .notice--info}
+
+### Acute Cholecystitis / 急性胆嚢炎
+
+* **Overview**
+  * Acute inflammation and infection of gallbladder, due to blockage of cystic duct by stones
+  * Common in middle-aged and older adults, with history of gallstones
+* **Presentation**
+  * **Pain in right upper quadrant, Murphy's sign**: Increased pressure and inflammation of gallbladder
+  * **Fever**: Infection
+  * **Abdominal tenderness, muscle guarding**: Irritation of peritoneum
+* **Examination**
+  * **[Blood] WBC↑, CRP↑**: Infection
+  * **[Blood] ALP↑, γ-GT↑, bilirubin↑**: Bile stasis and bile duct damage
+  * **[Ultrasound, CT] Gallbladder wall thickening, gallbladder enlargement, debris, gallstones**: Inflammation and bile stasis
+* **Management**
+  * **[Initial treatment] Fasting, IV fluids, antibiotics (IV), analgesics**: For infection and pain
+  * **[Unstable state] Percutaneous transhepatic gallbladder drainage**: Reduce gallbladder pressure and infection
+  * **[Stable state] Laparoscopic cholecystectomy**: Remove gallbladder
+{: .notice--info}
+
+### Acute Cholangitis / 急性胆管炎
+
+* **Overview**
+  * Acute inflammation and infection of bile duct, due to blockage of common bile duct by stones or tumor, may progress to sepsis if endotoxin enters bloodstream through liver retrogradely
+  * Common in middle-aged and older adults, with history of gallstones
+* **Presentation**
+  * **Abdominal pain**: Increased pressure and inflammation of biliary system
+  * **Fever (with chills)**: Infection
+  * **Jaundice**: Obstruction of bile duct
+  * **Shock, altered consciousness**: Sepsis leads to drop in BP
+* **Examination**
+  * **[Blood] WBC↑, CRP↑**: Infection
+  * **[Blood] ALP↑, γ-GT↑, bilirubin↑**: Bile stasis and bile duct damage
+  * **[Blood] AST↑, ALT↑**: Liver damage
+  * **[Ultrasound, CT] Dilated bile ducts, gallstones**: Obstruction of bile flow
+* **Management**
+  * **[Initial treatment] Fasting, IV fluids, antibiotics (IV), analgesics**: For infection and pain
+  * **[Unstable state] Endoscopic biliary drainage or percutaneous transhepatic biliary drainage**: Reduce biliary tract pressure and infection
+  * **[Stable state] Endoscopic sphincterotomy or endoscopic papillary balloon dilation, endoscopic lithotripsy**: Remove stones
 {: .notice--info}
 
 ## Pancreas Disorder / 膵疾患

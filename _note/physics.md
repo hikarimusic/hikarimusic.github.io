@@ -1072,7 +1072,7 @@ $$
 
 ## Identical Particles / 同種粒子
 
-# Physical Mathematics / 物理数学
+<!-- # Physical Mathematics / 物理数学
 
 ## Calculus / 微積分
 
@@ -1090,7 +1090,7 @@ $$
 
 ## Vector Analysis / ベクトル解析
 
-## Differential Geometry / 微分幾何
+## Differential Geometry / 微分幾何 -->
 
 <!-- # Condensed Matter Physics / 物性物理学
 
