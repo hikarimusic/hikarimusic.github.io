@@ -532,7 +532,7 @@ Essences of clinical medicine.
   * **[CT] High-density stone**
   * **[MRCP, ERCP] Defect images of stone**
 * **Management**
-  * **[Symptomatic] NSAIDs, anticholinergic drugs**: Relieve pain
+  * **NSAIDs, anticholinergic drugs**: Relieve pain
   * **[Gallbladder stone] Observation (asymptomatic), laparoscopic cholecystectomy (symptomatic)**: Remove gallbladder and stones
   * **[Common bile duct stone] Endoscopic sphincterotomy or endoscopic papillary balloon dilation, endoscopic lithotripsy**: Widen sphincter of Oddi and remove stones
   * **[Intrahepatic stone] Percutaneous transhepatic cholangioscopy, hepatectomy (liver atrophy or intrahepatic cholangiocarcinoma)**: Remove stones, remove liver lobe if necessary
@@ -576,6 +576,26 @@ Essences of clinical medicine.
   * **[Initial treatment] Fasting, IV fluids, antibiotics (IV), analgesics**: For infection and pain
   * **[Unstable state] Endoscopic biliary drainage or percutaneous transhepatic biliary drainage**: Reduce biliary tract pressure and infection
   * **[Stable state] Endoscopic sphincterotomy or endoscopic papillary balloon dilation, endoscopic lithotripsy**: Remove stones
+{: .notice--info}
+
+### Primary Biliary Cholangitis / 原発性硬化性胆管炎
+
+* **Overview**
+  * Chronic inflammation of intraphepatic and extrahepatic biles ducts, leading to fibrous thickening of bile ducts and eventually liver cirrhosis
+  * Bimodal peaks in 20s and 60s, more in men, associated with ulcerative colitis
+* **Presentation**
+  * **Asymptomatic**
+  * **Fluctuating jaundice and puritis**: Bile stasis leads to bilirubin and bile acids accumulation
+* **Examination**
+  * **[Blood] ALP↑, γ-GT↑, bilirubin↑**: Bile stasis and bile duct damage
+  * **[Blood] AST↑, ALT↑ (slightly)**: Liver damage
+  * **[Blood] P-ANCA(+)**: Autoimmune nature
+  * **[ERCP, MRCP] Multiple strictures and irregularities of intrehepatic and extrahepatic bile ducts**: Narrowing due to fibrosis, dilation due to obstruction
+* **Management**
+  * **UDCA, bezafibrate**: Improve bile flow
+  * **Cholestyramine, antihistamine**: Relieve puritis
+  * **Biliary drainage**: Relieve jaundice
+  * **Liver transplantation**: Only treatment for advanced cases
 {: .notice--info}
 
 ## Pancreas Disorder / 膵疾患
