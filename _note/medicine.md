@@ -520,7 +520,7 @@ Essences of clinical medicine.
 
 * **Overview**
   * Stones in gallbladder, bile duct or liver
-  * Common in middle-aged and older adults
+  * Commonly in middle-aged and older adults
 * **Presentation**
   * **Asymptomatic**
   * **Sudden pain in right upper quadrant, lasting for hours**: Gallstone temporarily obstructs cystic or bile duct, leading to increased pressure in gallbladder
@@ -542,7 +542,7 @@ Essences of clinical medicine.
 
 * **Overview**
   * Acute inflammation and infection of gallbladder, due to blockage of cystic duct by stones
-  * Common in middle-aged and older adults, with history of gallstones
+  * Commonly in middle-aged and older adults, with history of gallstones
 * **Presentation**
   * **Pain in right upper quadrant, Murphy's sign**: Increased pressure and inflammation of gallbladder
   * **Fever**: Infection
@@ -561,7 +561,7 @@ Essences of clinical medicine.
 
 * **Overview**
   * Acute inflammation and infection of bile duct, due to blockage of common bile duct by stones or tumor, may progress to sepsis if endotoxin enters bloodstream through liver retrogradely
-  * Common in middle-aged and older adults, with history of gallstones
+  * Commonly in middle-aged and older adults, with history of gallstones
 * **Presentation**
   * **Abdominal pain**: Increased pressure and inflammation of biliary system
   * **Fever (with chills)**: Infection
@@ -590,12 +590,31 @@ Essences of clinical medicine.
   * **[Blood] ALP↑, γ-GT↑, bilirubin↑**: Bile stasis and bile duct damage
   * **[Blood] AST↑, ALT↑ (slightly)**: Liver damage
   * **[Blood] P-ANCA(+)**: Autoimmune nature
-  * **[ERCP, MRCP] Multiple strictures and irregularities of intrehepatic and extrahepatic bile ducts**: Narrowing due to fibrosis, dilation due to obstruction
+  * **[ERCP, MRCP] Multiple strictures and irregularities of intrehepatic and extrahepatic bile ducts**: Narrowing due to fibrosis, dilatation due to obstruction
 * **Management**
   * **UDCA, bezafibrate**: Improve bile flow
   * **Cholestyramine, antihistamine**: Relieve puritis
   * **Biliary drainage**: Relieve jaundice
   * **Liver transplantation**: Only treatment for advanced cases
+{: .notice--info}
+
+### Congenital Biliary Dilatation / 先天性胆道拡張症
+
+* **Overview**
+  * Congenital dilatation of extrahepatic bile ducts, often accompanied by abnormal pancreaticobiliary junction, with high incidence of biliary tract carcinoma
+  * Commonly in younger individuals, more in females and Asians
+* **Presentation**
+  * **Asymptomatic**
+  * **Abdominal pain**: Inflammation caused by pancreatic enzyme reflux
+  * **Jaundice**: Bile stasis
+  * **Abdominal mass**: Dilated bile ducts
+* **Examination**
+  * **[Blood] ALP↑, γ-GT↑**: Bile duct damage
+  * **[Blood] Amylase↑**: Pancreatic enzyme reflux to bile ducts
+  * **[Ultrasound, CT] Dilated common bile duct**
+  * **[MRCP, ERCP] Cystic or fusiform dilatation of common bile duct, abnormal junction of pancreatic duct and common bile duct outside duodenal wall**
+* **Management**
+  * **Extrahepatic duct resection, cholecystectomy, biliary reconstruction**: Prevent biliary tract carcinoma
 {: .notice--info}
 
 ## Pancreas Disorder / 膵疾患
