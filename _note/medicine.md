@@ -21,6 +21,127 @@ Essences of clinical medicine.
 
 ## Valvular Heart Disease / 心臓弁膜症
 
+### Mitral Stenosis / 僧帽弁狭窄症
+
+* **Overview**
+  * Narrowing of mitral valve, impeding blood flow from left atrium to left ventricle
+  * Common in women over 40-50 years, often with history of rheumatic fever
+* **Presentation**
+  * **Dyspnea on exertion, palpitations, irregular pulse**: Due to pulmonary congestion and atrial fibrillation
+  * **Embolism**: Thrombus formation in left atrium
+* **Examination**
+  * **[Auscultation] Accentuated S1, opening snap, diastolic rumble, presystolic murmur**: Mitral valve stenosis
+  * **[ECG] Left atrial enlargement, atrial fibrillation**: Increase left atrium pressure
+  * **[Chest X-ray] Prominent left 3rd arc**: Enlarged left atrium
+  * **[Echocardiography] Reduced valve area, dome-shaped anterior mitral leaflet**: Confirms diagnosis
+* **Management**
+  * **Symptomatic treatment**: For heart failure
+  * **Anticoagulation**: For patients with AF
+  * **Percutaneous mitral commissurotomy (PTMC)**: Catheter-based valve opening
+  * **Open mitral commissurotomy (OMC) or mitral valve replacement (MVR)**: Surgical options
+{: .notice--info}
+
+### Mitral Regurgitation / 僧帽弁閉鎖不全症
+
+* **Overview**
+  * Backflow of blood from left ventricle to left atrium during systole
+  * Common causes: mitral valve prolapse, ischemic heart disease
+* **Presentation**
+  * **Dyspnea on exertion, palpitations, fatigue, paroxysmal nocturnal dyspnea, orthopnea**: Left heart failure symptoms
+* **Examination**
+  * **[Auscultation] Holosystolic murmur at apex, diminished S1, S3**: Mitral valve regurgitation
+  * **[ECG] Left atrial enlargement, left ventricular hypertrophy, atrial fibrillation**: Increased volume load
+  * **[Chest X-ray] Prominent left 3rd and 4th arcs**: Left atrial and ventricular enlargement
+  * **[Echocardiography] Valve abnormalities, left heart enlargement, regurgitation**: Confirms diagnosis
+* **Management**
+  * **Symptomatic treatment**: For heart failure
+  * **Mitral valve repair or replacement (MVR)**: Surgical options
+{: .notice--info}
+
+### Mitral Valve Prolapse / 僧帽弁逸脱症
+
+* **Overview**
+  * Syndrome characterized by prolapse of mitral valve leaflets into left atrium during systole
+  * Often idiopathic, can be associated with Marfan syndrome
+* **Presentation**
+  * **Asymptomatic, chest pain, dizziness**: Mild cases
+  * **Heart failure symptoms**: Severe mitral regurgitation
+* **Examination**
+  * **[Auscultation] Mid-systolic click or Holosystolic murmur**: Mitral valve prolapse or regurgitation
+  * **[Echocardiography] Prolapse of mitral valve leaflets during systole**: Confirms diagnosis
+* **Management**
+  * **β blockers**: For chest pain and dizziness
+{: .notice--info}
+
+### Aortic Stenosis / 大動脈弁狭窄症
+
+* **Overview**
+  * Narrowing of aortic valve, impeding blood flow from left ventricle to aorta
+  * Causes: Degeneration due to aging, abnormal number of valves
+* **Presentation**
+  * **Dyspnea, angina**: Left heart failure, myocardial ischemia due to ventricular hypertrophy
+  * **Syncope, dizziness, slow and weak pulse, hypotension**: Reduced cardiac output
+* **Examination**
+  * **[Auscultation] Ejection click, systolic ejection murmur, diminished and paradoxical splitting of S2**: Aortic valve stenosis
+  * **[ECG] Left ventricular hypertrophy**
+  * **[Echocardiography] Restricted valve opening, reduced valve area, increased transvalvular gradient**: Confirms diagnosis
+* **Management**
+  * **Aortic valve replacement (AVR)**: Surgical option
+  * **Transcatheter aortic valve implantation (TAVI)**: Less invasive option
+{: .notice--info}
+
+### Aortic Regurgitation / 大動脈弁閉鎖不全症
+
+* **Overview**
+  * Backflow of blood from aorta to left ventricle during diastole
+  * Causes left ventricular volume and pressure overload, leading to LV enlargement and hypertrophy
+  * Can be compensated for long periods, but poor prognosis once heart failure develops
+* **Presentation**
+  * **Palpitations**: Increased stroke volume
+  * **Dyspnea, angina**: Pulmonary congestion, decreased diastolic aortic pressure
+  * **Strong and fast pulse, capillary pulsations of fingernail bed (Quincke's sign)**: Increased pulse pressure
+* **Examination**
+  * **[Auscultation] Diastolic decrescendo murmur, systolic ejection murmur, Austin-Flint murmur**: Aortic valve regurgitation, relative AS, functional MS
+  * **[Chest X-ray] Prominent left 4th arc**: Left ventricular enlargement
+  * **[ECG] Left ventricular hypertrophy**
+  * **[Echocardiography] Valve abnormalities, left ventricular enlargement, regurgitation, fluttering of mitral valve**: Confirms diagnosis
+* **Management**
+  * **Aortic valve replacement (AVR) or aortic valvuloplasty (AVP)**: Surgical option
+{: .notice--info}
+
+
+### Tricuspid Stenosis / 三尖弁狭窄症
+
+* **Overview**
+  * Narrowing of tricuspid valve, impeding blood flow from right atrium to right ventricle
+  * Mostly due to rheumatic fever
+* **Presentation**
+  * **Asymptomatic**
+  * **Right heart failure symptoms**: In advanced cases
+* **Examination**
+  * **[Auscultation] Diastolic rumble**: Tricuspid valve stenosis
+  * **[Echocardiography] Restricted tricuspid valve, increased transvalvular gradient**: Confirms diagnosis
+* **Management**
+  * **Symptomatic treatment**: For heart failure
+  * **Tricuspid valve replacement**: Surgical options
+{: .notice--info}
+
+### Tricuspid Regurgitation / 三尖弁閉鎖不全症
+
+* **Overview**
+  * Backflow of blood from right ventricle to right atrium during systole
+  * Common causes: Pulmonary hypertension due to left valvular heart disease
+* **Presentation**
+  * **Asymptomatic**
+  * **Right heart failure symptoms**: In advanced cases
+* **Examination**
+  * **[Auscultation] Holosystolic murmur**: Tricuspid valve regurgitation
+  * **[Echocardiography] Valve abnormalities, regurgitation**: Confirms diagnosis
+* **Management**
+  * **Symptomatic treatment**: For heart failure
+  * **Tricuspid valve repair or replacement**: Surgical options
+{: .notice--info}
+
 ## Endocardium, Myocardium and Pericardium Disease / 心内膜・心筋・心膜疾患
 
 ## Congenital Heart Disease / 先天性心疾患
