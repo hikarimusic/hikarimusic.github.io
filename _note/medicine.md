@@ -15,11 +15,11 @@ Essences of clinical medicine.
 
 ## Introduction / 総論
 
+## Ischemic Heart Disease and Heart Failure / 虚血性心疾患・心不全
+
 ## Arrhythmia / 不整脈
 
-## Ischemic Heart Disease / 虚血性心疾患
-
-## Valvular Heart Disease / 心臓弁膜症
+## Endocardium and Valvular Disease / 心内膜・弁膜疾患
 
 ### Mitral Stenosis / 僧帽弁狭窄症
 
@@ -142,11 +142,211 @@ Essences of clinical medicine.
   * **Tricuspid valve repair or replacement**: Surgical options
 {: .notice--info}
 
-## Endocardium, Myocardium and Pericardium Disease / 心内膜・心筋・心膜疾患
+### Infective Endocarditis / 感染性心内膜炎
+
+* **Overview**
+  * Systemic septic disease with vegetation formation on heart valves or endocardium due to bacterial infection
+  * Common cause: Dental intervention, with underlying congenital heart disease or valvular heart disease
+* **Presentation**
+  * **Fever, joint pain, muscle pain**: Systemic infection
+  * **Petechiae, splinter hemorrhages, Osler nodes, Janeway lesions, Roth spots**: Peripheral embolism
+  * **Stroke, renal infarction, splenic infarction**: Systemic embolism
+  * **Congestive heart failure**: Valve destruction, regurgitation, or chordae tendineae rupture
+* **Examination**
+  * **[Auscultation] Heart murmur**: Valvular damage
+  * **[Blood] WBC↑, ESR↑, CRP↑, γ-globulin↑, fibrinogen↑**: Inflammatory response
+  * **[Blood culture] Pathogen detection**: Confirms causative microorganism
+  * **[Echocardiography] Vegetation**: Confirms cardiac involvement
+* **Management**
+  * **High-dose, long-term intravenous antibiotics**: Based on causative microorganism
+  * **Surgical intervention**: If antibiotics ineffective
+{: .notice--info}
+
+### Cardiac Myxoma / 心臓粘液腫
+
+* **Overview**
+  * Most common primary cardiac tumor, mostly occur in the left atrium
+* **Presentation**
+  * **Fatigue, weight loss, fever, joint pain**: Systemic effects due to IL-6 secreted by tumor
+* **Examination**
+  * **[Auscultation] Variable diastolic murmur with position changes, tumor plop**: Tumor movement mimicking mitral stenosis
+  * **[Blood] ESR↑, WBC↑, CRP↑, γ-globulin↑**: Inflammation due to IL-6 secreted by tumor
+  * **[Echocardiography] Mass in atrium**: Confirms diagnosis
+* **Management**
+  * **Surgical resection**: Prevents potentially fatal embolization
+{: .notice--info}
+
+## Myocardium Disease / 心筋疾患
+
+### Dilated Cardiomyopathy / 拡張型心筋症
+
+* **Overview**
+  * Degenerative myocardial disease with left ventricular dilation and reduced contractility
+  * More common in males aged 40-70, about 20-30% are familial
+* **Presentation**
+  * **Palpitations, dyspnea, pulsus alternans, edema**: Chronic progressive heart failure
+* **Examination**
+  * **[Auscultation] S3 or S4 (gallop rhythm), systolic murmur**: Heart failure, ventricular dilation leading to mitral regurgitation
+  * **[ECG] Left ventricular high voltage, wide QRS**: Left ventricular hypertrophy
+  * **[Chest X-ray] Cardiomegaly**: Heart failure
+  * **[Echocardiography, MRI] Dilated left ventricle, diffuse hypokinesis**: Left ventricular dilation
+  * **[Cardiac catheterization] LVEDP↑, PAWP↑**: Left heart failure
+* **Management**
+  * **Lifestyle modifications (restrict water and salt), medication (β-blockers, ACE inhibitors, ARBs, MRAs)**: For heart failure
+  * **Cardiac resynchronization therapy (CRT), ventricular assist devices (VAD), heart transplantation**: For severe heart failure
+  * **Anticoagulation**: For thromboembolism prevention
+  * **Antiarrhythmic drugs, implantable cardioverter-defibrillator (ICD), pacemaker**: For arrhythmia management
+{: .notice--info}
+
+### Hypertrophic Cardiomyopathy / 肥大型心筋症
+
+* **Overview**
+  * Degenerative myocardial disease with asymmetric ventricular hypertrophy, with high risk of sudden death
+  * 50% familial (autosomal dominant, mutation of sarcomere protein gene)
+* **Presentation**
+  * **Chest pain, dyspnea, palpitations**: Due to increased oxygen demand, pulmonary congestion, and arrhythmia
+  * **Dizziness, syncope**: Due to left ventricular outflow tract obstruction or arrhythmia
+* **Examination**
+  * **[Auscultation] S4, S3, increased apical impulse**: Ventricular diastolic dysfunction
+  * **[ECG] Left ventricular high voltage, ST depression, negative T waves**: Left ventricular hypertrophy, relative ischemia
+  * **[Chest X-ray] Normal or mild cardiomegaly, upper lung field congestion**: Pulmonary congestion
+  * **[Echocardiography, MRI] Asymmetric left ventricular wall hypertrophy (thickness ≥15 mm), diastolic dysfunction**: Left ventricular hypertrophy
+  * **[Cardiac catheterization] LVEDP↑**: Diastolic dysfunction
+* **Management**
+  * **Lifestyle modifications (Avoid strenuous exercise), implantable cardioverter-defibrillator (ICD)**: Prevent sudden death
+  * **Medications (β-blockers, CCBs, diuretics, ACE inhibitors, ARBs)**: For heart failure
+  * **Antiarrhythmic drugs, anticoagulants**: For arrhythmia management
+{: .notice--info}
+
+### Hypertrophic Obstructive Cardiomyopathy / 閉塞性肥大型心筋症
+
+* **Overview**
+  * Subset of HCM with left ventricular outflow tract obstruction (about 25% of HCM cases)
+* **Presentation**
+  * **Symptoms of HCM**
+  * **Bifid pulse**: Due to dynamic obstruction
+* **Examination**
+  * **[Auscultation] Ejection systolic murmur**: Outflow obstruction
+  * **[Echocardiography] Systolic anterior motion of mitral valve**: Due to increased outflow speed and Venturi phenomenon
+  * **[Cardiac catheterization] Brockenbrough phenomenon**: Increased LV-aorta systolic pressure gradient after premature ventricular contraction
+* **Management**
+  * **Treatmnents of HCM**
+  * **Medications (β-blockers, CCBs, antiarrhythmics)**: Decrease LV-aorta systolic pressure gradient
+  * **Surgical myectomy, pacemaker implantation, percutaneous transluminal septal myocardial ablation (PTSMA)**: For refractory cases
+{: .notice--info}
+
+### Restrictive Cardiomyopathy / 拘束型心筋症
+
+* **Overview**
+  * Characterized by reduced left ventricular compliance and diastolic dysfunction
+* **Presentation**
+  * **Generalized edema, pulmonary congestion, pleural effusion**: Heart failure symptoms
+* **Examination**
+  * **[Cardiac catheterization] Dip and plateau pattern in ventricular pressure curve**: Diastolic restriction
+* **Management**
+  * **Symptom management (diuretics)**
+{: .notice--info}
+
+### Cardiac Sarcoidosis / 心臓サルコイドーシス
+
+* **Overview**
+  * Part of systemic sarcoidosis, forming non-caseating epithelioid granulomas in multiple organs
+* **Presentation**
+  * **Complete atrioventricular block, ventricular arrhythmias**: Damage to conduction pathways and cardiac muscles
+* **Examination**
+  * **[Ga scintigraphy, PET] Focal uptake in heart**: Inflammation
+* **Management**
+  * **Corticosteroid**: Control inflammation
+{: .notice--info}
+
+### Cardiac Amyloidosis / 心アミロイドーシス
+
+* **Overview**
+  * Systemic syndrome with amyloid protein deposition in various organs (AL amyloidosis or ATTR amyloidosis)
+* **Presentation**
+  * **Cardiac hypertrophy, diastolic dysfunction**: Deposition of amyloid protein
+* **Examination**
+  * **[ECG] Low voltage, conduction disorders**: Damage to conduction pathways
+  * **[Echocardiography] Cardiac hypertrophy, diastolic dysfunction**: Deposition of amyloid protein
+  * **[Cardiac biopsy] Amyloid deposition in myocardium**: Confirms diagnosis
+* **Management**
+  * **Symptomatic treatment**: For heart failure and arrhythmias
+{: .notice--info}
+
+### Acute Myocarditis / 急性心筋炎
+
+* **Overview**
+  * Acute myocardial necrosis and dysfunction due to infection (mostly virus) or idiopathic, may cause of sudden death but good prognosis if overcome acute phase
+* **Presentation**
+  * **Flu-like symptoms, gastrointestinal symptoms**: Prodromal phase of infection
+  * **Heart failure symptoms, chest pain, fever**: Acute cardiac inflammation
+* **Examination**
+  * **[Auscultation] S3, crackles**: Heart failure signs
+  * **[ECG] ST-T changes, arrhythmia**: Myocardial injury and conduction disturbances
+  * **[Echocardiography] Diffuse wall thickening, hypokinesis, small cardiac chambers, pericardial effusion**: Myocardial inflammation and dysfunction
+  * **[Blood] Troponin T↑, CK-MB↑, AST↑, LDH↑, CRP↑**: Myocardial injury and inflammation
+  * **[Endomyocardial biopsy] Inflammatory cell infiltration, myocyte necrosis, interstitial edema**: Confirms diagnosis
+* **Management**
+  * **Bed rest, hospitalization**: Supportive care
+  * **Diuretics, catecholamines, IABP, ECMO**: For heart failure and cardiogenic shock
+  * **Pacemaker, defibrillation**: For arrhythmia
+{: .notice--info}
+
+## Pericardium Disease / 心膜疾患
+
+### Acute Pericarditis / 急性心膜炎
+
+* **Overview**
+  * Acute inflammation of the pericardium, mostly idiopathic (90%) or viral, generally good prognosis
+* **Presentation**
+  * **Chest pain worsening in supine position and during inspiration**: Pericardial irritation
+  * **Fever**: Inflammatory response
+* **Examination**
+  * **[Auscultation] Pericardial friction rub**: Inflamed pericardial surfaces rubbing together
+  * **[ECG] Diffuse concave ST elevation**: Pericardial inflammation
+  * **[Blood] WBC↑, ESR↑, CRP↑**: Inflammatory response
+  * **[Echocardiography] Small pericardial effusion**: May be present
+  * **[Chest X-ray] Usually normal**: Distinguishes from pleuritis
+* **Management**
+  * **Symptomatic treatment (NSAIDs)**: Often self-resolving
+  * **Treat primary cause**: If secondary to underlying disease
+{: .notice--info}
+
+### Cardiac Tamponade / 心タンポナーデ
+
+* **Overview**
+  * Life-threatening condition where pericardial fluid accumulation impairs cardiac filling
+  * Causes include aortic dissection, cardiac rupture after MI, trauma, malignancies invading pericardium
+* **Presentation**
+  * **Hypotension, jugular vein distension, muffled heart sounds**: Decreased cardiac output, increased venous pressure, pericardial fluid accumulation
+  * **Hepatomegaly, ascites, leg edema**: Right heart failure signs
+  * **Narrow pulse pressure, tachycardia, pulsus paradoxus (systolic BP drop during inspiration)**: Decreased cardiac output, exaggerated when increased venous return compress left ventricle
+* **Examination**
+  * **[Chest X-ray] Enlarged flask-shaped cardiac silhouette**: Pericardial effusion
+  * **[Echocardiography] Echo-free space in pericardium, ventricular free wall collapse**: Confirmatory findings
+* **Management**
+  * **Pericardiocentesis**: Definitive treatment to drain fluid
+  * **Treat underlying cause**
+{: .notice--info}
+
+### Constrictive Pericarditis / 収縮性心膜炎
+
+* **Overview**
+  * Chronic inflammation causing fibrotic thickening and calcification of pericardium, impairing cardiac filling
+  * Causes include idiopathic, tuberculosis, viral, post-radiation, post-cardiac surgery
+* **Presentation**
+  * **Dyspnea on exertion, fatigue**: Decreased cardiac output
+  * **Jugular vein distension (exaggerated during inspiration = Kussmaul's sign), ascites, edema, hepatomegaly, congestive cirrhosis**: Right heart failure signs
+* **Examination**
+  * **[Auscultation] Pericardial knock**: Abrupt cessation of ventricular filling
+  * **[ECG] Low voltage, nonspecific ST-T changes**: Thickening of pericardium
+  * **[Echocardiography, Chest X-ray, CT, MRI] Thickened or calcified pericardium**: Thickening of pericardium
+  * **[Cardiac catheterization] M or W-shaped RAP curve, RVP dip and plateau pattern**: Impaired ventricular filling lead to increased pressure of RA, rapid filling and termination of RV
+* **Management**
+  * **Pericardiectomy**: Definitive treatment
+{: .notice--info}
 
 ## Congenital Heart Disease / 先天性心疾患
-
-## Heart Failure / 心不全
 
 ## Arterial Disorder / 動脈疾患
 
