@@ -17,6 +17,86 @@ Essences of clinical medicine.
 
 ## Ischemic Heart Disease and Heart Failure / 虚血性心疾患・心不全
 
+### Effort Angina / 労作性狭心症
+
+* **Overview**
+  * Transient myocardial ischemia due to coronary artery stenosis (from atherosclerosis) and increased oxygen demand (during exertion)
+  * Risk factors: Hypertension, DM, dyslipidemia, smoking, aging
+* **Presentation**
+  * **Chest tightness/pressure during exertion (lasting 3-5 minutes)**: Temporary myocardial ischemia, rapid relief with nitroglycerin
+* **Examination**
+  * **[ECG] ST depression (during attack or exercise stress)**: Ischemia
+  * **[Echocardiography] Wall motion abnormality**: Ischemia
+  * **[Blood] No elevation in cardiac biomarkers**: Excludes myocardial necrosis
+  * **[Myocardial perfusion SPECT] Reduced uptake during stress, improved at rest**: Reversible ischemia
+* **Management**
+  * **Nitroglycerin (sublingual)**: Rapid relief of acute attacks (relax coronary artery)
+  * **β-blockers, calcium channel blockers**: Prevent attacks (decrease oxygen demand)
+  * **Antiplatelet drugs, statins**: Prevent thrombosis, improve atherosclerosis
+  * **Percutaneous coronary intervention (PCI) or coronary artery bypass grafting (CABG)**: For severe cases
+  * **Lifestyle modifications**
+{: .notice--info}
+
+### Vasospastic Angina / 冠攣縮性狭心症
+
+* **Overview**
+  * Transient myocardial ischemia caused by coronary artery spasm
+  * Risk factors: Smoking, hypertension, DM, dyslipidemia
+* **Presentation**
+  * **Chest tightness/pressure at night to early morning or at rest (lasting several to 15 minutes)**: Coronary artery spasm, triggered by hyperventilation, alcohol, or early morning exercise
+* **Examination**
+  * **[ECG] ST elevation or depression (during attack)**: Ischemia due to spasm
+  * **[Blood] No elevation in cardiac biomarkers**: Excludes myocardial infarction
+  * **[Coronary angiography] Hyperventilation or drug-induced spasm**: Confirms diagnosis
+* **Management**
+  * **Nitroglycerin (sublingual)**: Rapid relief of acute attacks (relax coronary artery)
+  * **Calcium channel blockers, nitrates**: Prevent attacks (relax coronary artery)
+  * **Lifestyle modifications**
+{: .notice--info}
+
+### Acute Coronary Syndrome / 急性冠症候群
+
+* **Overview**
+  * Myocardial ischemia and necrosis due to rapid narrowing or obstruction of coronary artery by thrombosis formation, encompasses unstable angina, acute myocardial infarction, and sudden cardiac death due to ischemia
+  * Classified as non-ST elevation ACS (NSTE-ACS) and ST elevation myocardial infarction (STEMI)
+  * Risk factors: Hypertension, DM, dyslipidemia, smoking, aging
+* **Presentation**
+  * **Chest pain at rest or during exertion (lasting several to >15 minutes)**: Acute myocardial ischemia
+* **Examination**
+  * **[ECG] ST elevation (or depression for NSTE-ACS), hyperacute T, abnoraml Q**:  Infarction or ischemia
+  * **[Blood] Elevated cardiac troponin**: Confirms myocardial injury
+  * **[Echocardiography]**: Abnormal wall motions
+* **Management**
+  * **[Initial treatment] Morphine, oxygen, nitroglycerin, aspirin**: Stabilize general condition
+  * **[Reperfusion therapy] Percutaneous coronary intervention (PCI), thrombolysis (t-PA), coronary artery bypass grafting (CABG)**: Reopen obstructed coronary artery (first choice: PCI)
+  * **[Antiplatelet drugs] Aspirin, clopidogrel, prasugrel**: Prevent thrombosis
+  * **[Anti-anginal drugs] β-blockers, nitrates, calcium channel blockers**: Reduce oxygen demant and relax coronary artery
+  * **[Anti-hypertensive drugs] ACE inhibitors, ARBs, MRAs**: Reduce afterload
+  * **[Anti-hyperlipidemic drugs] Statins**: Prevent recurrence
+  * **[Complications management] Arrhythmias, heart failure, stroke, cardiac rehabilitation**
+{: .notice--info}
+
+### Heart Failure / 心不全
+
+* **Overview**
+  * Cardiac pump dysfunction leading to pulmonary and systemic congestion
+  * Causes: Ischemic heart disease, valvular heart disease, cardiomyopathy, hypertension
+* **Presentation**
+  * **Dyspnea, tachypnea, orthopnea, paroxysmal nocturnal dyspnea**: Left-sided heart failure (pulmonary congestion)
+  * **Leg edema, jugular vein distension**: Right-sided heart failure (systemic congestion)
+* **Examination**
+  * **[Auscultation] Coarse crackles, S3 or S4 gallop**: Pulmonary congestion, ventricular dysfunction
+  * **[Chest X-ray] Cardiomegaly, pulmonary vascular markings, butterfly shadow, Kerley's lines, pleural effusion**: Cardiac enlargement and congestion
+  * **[Blood] BNP↑, NT-proBNP↑**: Sensitive markers of heart failure
+  * **[Echocardiography] Systolic dysfunction, diastolic dysfunction**: Cardiac function assessment
+* **Management**
+  * **Diuretics, vasodilators**: Improve hemodynamics and symptoms
+  * **ACE inhibitors, ARBs, ARNI, MRAs, β-blockers, ivabradine**: Cardioprotective effects
+  * **ICD, CRT, MitraClip, IABP, ECMO, IMPELLA, VAD**: Cardiac and circulatory support for severe cases
+  * **Heart transplantation**: For end-stage heart failure
+  * **Disease management**: Address underlying causes
+{: .notice--info}
+
 ## Arrhythmia / 不整脈
 
 ## Endocardium and Valvular Disease / 心内膜・弁膜疾患
