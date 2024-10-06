@@ -99,6 +99,208 @@ Essences of clinical medicine.
 
 ## Arrhythmia / 不整脈
 
+### Atrial Premature Contraction / 心房期外収縮
+
+* **Overview**
+  * Premature excitation from atria earlier than sinus node firing
+* **Presentation**
+  * **Asymptomatic, palpitations, chest discomfort**: Mostly asymptomatic
+* **Examination**
+  * **[ECG] Early P wave**: Premature atrial depolarization
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **β-blockers , Na channel blockers**: For symptomatic cases
+{: .notice--info}
+
+### Paroxysmal Supraventricular Tachycardia / 発作性上室頻拍
+
+* **Overview**
+  * Supraventricular tachycardia due to reentry involving AV node (AVNRT) or accessory pathway (AVRT)
+* **Presentation**
+  * **Palpitations (sudden onset and termination)**: Reentry mechanism
+  * **Dizziness, syncope (in severe cases)**: Due to reduced cardiac output
+* **Examination**
+  * **[ECG] Regular narrow QRS complexes at 120-220 bpm**: Supraventricular origin of tachycardia
+* **Management**
+  * **Vagal maneuvers, ATP, calcium channel blockers**: For stable hemodynamics
+  * **Cardioversion, overdrive pacing**: For unstable hemodynamics
+  * **Catheter ablation**: Curative treatment
+{: .notice--info}
+
+### Wolff-Parkinson-White Syndrome / WPW症候群
+
+* **Overview**
+  * Presence of accessory pathway directly connecting atria and ventricles, can cause AVRT or AF resembling VT
+* **Presentation**
+  * **Asymptomatic**: Mostly
+  * **Palpitations, syncope**: During tachycardia episodes
+* **Examination**
+  * **[ECG] Delta wave, short PQ interval, wide QRS complex**: Ventricular pre-excitation through accessory pathway
+  * **[ECG] AVRT or AF resembling VT (during episodes)**: Reentry or direct connection
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **Vagal maneuvers, ATP, Ca channel blockers**: For AVRT
+  * **Na channel blockers**: For AF resembling VT (digitalis and Ca channel blockers contraindicated)
+  * **Cardioversion**: For hemodynamically unstable AVRT or AF
+  * **Catheter ablation**: Curative treatment
+{: .notice--info}
+
+### Atrial Flutter / 心房粗動
+
+* **Overview**
+  * Regular reentrant circuit in atria with consistent conduction to ventricles
+* **Presentation**
+  * **Palpitations, dyspnea**: Due to rapid heart rate
+* **Examination**
+  * **[ECG] Regular RR intervals, narrow QRS complexes, regular flutter waves (~300/min)**: Regular tachycardia with consistent AV conduction ratio
+* **Management**
+  * **Na channel blockers, K channel blockers, Ca channel blockers, cardioversion**: Termination of episodes
+  * **Catheter ablation**: Prevention of recurrence
+  * **Anticoagulation**: For thromboembolic prevention
+  * **Upstream therapy**: Treatment of underlying diseases
+{: .notice--info}
+
+### Atrial Fibrillation / 心房細動
+
+* **Overview**
+  * Rapid and disorganized electrical activity in atria leading to irregular ventricular conduction
+  * Common in elderly, hypertension, valvular disease, heart failure, ischemic heart disease, hyperthyroidism
+  * High risk of thromboembolism due to left atrial thrombus formation
+* **Presentation**
+  * **Palpitations, irregular pulse**: Due to irregular ventricular conduction
+* **Examination**
+  * **[ECG] Irregular RR intervals, narrow QRS complexes, absence of P waves with fine baseline oscillations**: Rapid atrial activation with irregular conduction to ventricles
+* **Management**
+  * **Anticoagulation (warfarin, DOAC)**: Thromboembolism prevention
+  * **β-blockers, Ca channel blockers, digitalis**: Rate control
+  * **Na channel blockers, K channel blockers, cardioversion**: Rhythm control
+  * **Catheter ablation**: Prevention of recurrence
+  * **Upstream therapy**: Treatment of underlying diseases
+{: .notice--info}
+
+### Ventricular Premature Contraction / 心室期外収縮
+
+* **Overview**
+  * Premature ectopic excitation from ventricles, seen in patients with underlying heart diseases
+* **Presentation**
+  * **Asymptomatic, palpitations, chest discomfort**
+* **Examination**
+  * **[ECG] Wide QRS complex without preceding P wave**: Premature ventricular depolarization
+* **Management**
+  * **Observation**: For asymptomatic cases without risk factors
+  * **Na channel blockers, K channel blockers, β-blockers**: For symptomatic cases or risk of VT/VF (myocardial infarction)
+{: .notice--info}
+
+### Ventricular Tachycardia / 心室頻拍
+
+* **Overview**
+  * Consecutive VPCs causing tachycardia, dangerous arrhythmia with risk of pulselessness and VF
+* **Presentation**
+  * **Palpitations, shortness of breath**: Due to rapid heart rate
+  * **Dizziness, syncope, loss of consciousness**: Due to reduced cardiac output
+* **Examination**
+  * **[ECG] Wide QRS complexes occurring regularly**: Regular ventricular tachycardia
+* **Management**
+  * **Amiodarone, nifekalant, procainamide**: Acute termination (hemodynamically stable)
+  * **Cardioversion, electrical defibrillation**: Acute termination (hemodynamically unstable)
+  * **Amiodarone, sotalol, bepridil, catheter ablation**: Prevention of recurrence (normal cardiac function)
+  * **Implantable cardioverter-defibrillator (ICD)**: Prevention of recurrence (reduced cardiac function)
+{: .notice--info}
+
+### Ventricular Fibrillation / 心室細動
+
+* **Overview**
+  * Completely disorganized ventricular excitation resulting in zero cardiac output, rapidly fatal without immediate treatment
+  * Common in: STEMI, cardiomyopathy, Brugada syndrome, long QT syndrome, hypoxemia, hypothermia
+* **Presentation**
+  * **Dizziness followed by immediate syncope, absence of pulse**: Sudden loss of cardiac output
+* **Examination**
+  * **[ECG] Completely irregular waves with variable amplitude and frequency**: Chaotic ventricular activity
+* **Management**
+  * **Immediate electrical defibrillation**: First-line treatment
+  * **CPR 2 minutes, IV adrenaline, defibrillation**: If above unsuccessful
+  * **CPR 2 minutes, IV nifekalant or amiodarone, defibrillation**: If above unsuccessful
+  * **CPR 2 minutes, IV β-blockers, left stellate ganglion block**: If above unsuccessful
+  * **Treatment of underlying disease**: If defibrillation successful
+{: .notice--info}
+
+### Sick Sinus Syndrome / 洞不全症候群
+
+* **Overview**
+  * Dysfunction of sinoatrial node or surrounding tissue, leading to sinus bradycardia, sinoatrial block, or sinus arrest
+* **Presentation**
+  * **Dizziness, lightheadedness, syncope**: Cerebral hypoperfusion due to bradycardia
+  * **Fatigue, shortness of breath**: Heart failure symptoms
+* **Examination**
+  * **[ECG] Sinus bradycardia (HR < 50 bpm), sinus arrest (absence of P waves)**: Dysfunction of sinoatrial node
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **Pacemaker implantation**: For persistent symptomatic bradycardia
+  * **Atropine, isoproterenol, theophylline, cilostazol**: For cases where pacemaker is not suitable
+{: .notice--info}
+
+### Atrioventricular Block / 房室ブロック
+
+* **Overview**
+  * Delayed or interrupted conduction from atria to ventricles at AV node or His bundle
+* **Presentation**
+  * **Syncope, heart failure**: Due to decreased cardiac output
+* **Examination**
+  * **[ECG] Prolonged PQ intervals**: 1st degree AV block
+  * **[ECG] Progressive lengthing of PQ intervals with subsequent QRS drop**: Mobitz I 2nd degree AV block
+  * **[ECG] Regular PQ intervals with random QRS drop**: Mobitz II 2nd degree AV block
+  * **[ECG] P and QRS independently at regular intervals**: 3rd degree AV block
+  * **[Auscultation] Cannon sound**: Loud S1 every few beats (3rd degree AV block)
+* **Management**
+  * **Observation**: For 1st degree and Mobitz I 2nd degree AV block
+  * **Pacemaker implantation**: For Mobitz II 2nd degree and 3rd degree AV block
+  * **Atropine, isoproterenol**: Bridge therapy before pacemaker implantation
+{: .notice--info}
+
+### Bundle Branch Block / 脚ブロック
+
+* **Overview**
+  * Impaired conduction in right or left bundle branch due to myocardial ischemia or degeneration
+* **Presentation**
+  * Asymptomatic
+* **Examination**
+  * **[ECG] Wide QRS, rSR' in V1, wide S in V6**: Right bundle branch block
+  * **[ECG] Wide QRS, QS or rS in V1, absent septal Q and notched QRS in V6**: Left bundle branch block
+* **Management**
+  * **Observation**: Mostly
+  * **Cardiac resynchronization therapy (CRT)**: For some left bundle branch block 
+{: .notice--info}
+
+### Brugada Syndrome / Brugada症候群
+
+* **Overview**
+  * Genetic disorder causing ventricular fibrillation during parasympathetic dominance
+  * More common in young to middle-aged men, often associated with family history of sudden death
+* **Presentation**
+  * **Recurrent syncope, loss of consciousness**: Due to VF episodes
+  * **Sudden cardiac death**: Especially during sleep or rest after meals
+* **Examination**
+  * **[ECG] Right bundle branch block pattern, characteristic ST elevation**: Diagnostic feature
+* **Management**
+  * **Implantable cardioverter defibrillator (ICD)**: Only effective prevention for sudden death
+  * **Pharmacological therapy, catheter ablation**: Considered in some cases
+{: .notice--info}
+
+### Long QT Syndrome / QT延長症候群
+
+* **Overview**
+  * Prolongation of myocardial action potential leading to extended QT interval, can cause torsades de pointes (a type of polymorphic VT)
+* **Presentation**
+  * **Recurrent syncope**: Due to TdP episodes
+  * **Sudden cardiac death**: In severe cases
+* **Examination**
+  * **[ECG] Corrected QT interval > 0.48 seconds**: Diagnostic feature
+* **Management**
+  * **Beta-blockers, temporary pacing**: For congenital LQTS
+  * **Remove underlying cause**: For acquired LQTS
+  * **Magnesium sulfate**: During TdP episodes
+{: .notice--info}
+
 ## Endocardium and Valvular Disease / 心内膜・弁膜疾患
 
 ### Mitral Stenosis / 僧帽弁狭窄症
