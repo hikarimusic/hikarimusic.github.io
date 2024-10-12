@@ -635,88 +635,74 @@ Essences of clinical medicine.
 ### Aortic Aneurysm / 大動脈瘤
 
 * **Overview**
-  * Abnormal dilation of aorta due to atherosclerosis
-  * More common in middle-aged and elderly men (male:female ratio 4:1)
-  * Often asymptomatic, but potentially fatal if ruptured
+  * Abnormal dilation of aorta due to atherosclerosis, potentially fatal if ruptured
+  * More common in middle-aged and elderly men
 * **Presentation**
-  * **Asymptomatic**: Most common presentation
+  * **Asymptomatic**: Most common
   * **Hoarseness, Horner's syndrome**: Compression of recurrent laryngeal nerve or sympathetic nerves
   * **Dysphagia, nausea, vomiting**: Compression of esophagus
   * **Cough, hemoptysis, dyspnea**: Compression of trachea or lungs
-  * **Abdominal pain, altered consciousness, leg numbness**: Organ ischemia
-  * **Back pain, pulsatile abdominal mass**: Expansion of abdominal aorta
+  * **Altered consciousness, abdominal pain, leg numbness**: Organ ischemia
 * **Examination**
-  * **[Chest X-ray] Widened mediastinal shadow**
-  * **[CT, MRI, Ultrasound, Transesophageal echocardiography] Confirmation of aneurysm size and location**
+  * **[PE] Pulsatile abdominal mass**: Expansion of abdominal aorta
+  * **[Chest X-ray] Widened mediastinal shadow**: Expansion of thoracic aorta
+  * **[CT, MRI, Ultrasound] Aneurysm**: Confirmation of size and location
 * **Management**
   * **Lifestyle modification, blood pressure control**: Conservative management
-  * **Surgery (if aneurysm >5-6 cm or rapid expansion)**: 
-    * Artificial graft replacement
-    * Endovascular stent grafting
+  * **Artificial graft replacement, endovascular stent grafting**: If aneurysm >5-6 cm or rapid expansion
+{: .notice--info}
 
-
-### Ruptured Aortic Aneurysm / 大動脈瘤破裂・切迫破裂
+### Ruptured Aortic Aneurysm / 大動脈瘤破裂
 
 * **Overview**
   * Life-threatening complication of aortic aneurysm
-  * Common in middle-aged and elderly individuals with atherosclerosis
 * **Presentation**
-  * **[Impending rupture] Various compression symptoms**: Similar to unruptured aneurysm
-  * **[Rupture] Sudden severe chest/back/lumbar pain, anemia, shock**: Rapid blood loss
+  * **Sudden severe chest/back/lumbar pain, anemia, shock**: Rupture and rapid blood loss
   * **Hemoptysis, hematemesis**: Blood leaking into adjacent structures
 * **Examination**
-  * **[CT (non-contrast and contrast), Ultrasound] Confirmation of aneurysm rupture and extent**
+  * **[CT, Ultrasound] Aneurysm and hematoma**: Confirmation of rupture
 * **Management**
-  * **Emergency surgery**: Immediate intervention required
-    * Artificial graft replacement
-    * Endovascular stent grafting
-    * Open stent grafting
-
+  * **Artificial graft replacement, endovascular stent grafting, open stent grafting**: Immediate intervention required
+{: .notice--info}
 
 ### Aortic Dissection / 大動脈解離
 
 * **Overview**
-  * Tear in aortic intima leads to blood flow separating the medial layer, forming a false lumen
-  * Peak incidence: 50-70 years old, male:female ratio 2:1
-  * High mortality rate in acute phase, poor prognosis
+  * Tear in aortic intima leads to blood flow separating the medial layer and forming a false lumen, high mortality rate
+  * Risk factors: Chronic hypertension, congenital connective tissue disorders
 * **Presentation**
-  * **Sudden severe chest/back pain, hypertension, blood pressure difference between arms**: Aortic wall disruption and organ ischemia
+  * **Sudden severe chest/back pain**: Aortic wall disruption
+  * **Hypertension, blood pressure difference between arms**: Organ ischemia
 * **Examination**
-  * **[ECG] No specific findings**: To rule out myocardial infarction
-  * **[Blood] Elevated D-dimer**
-  * **[Chest X-ray] Widened mediastinal shadow**
-  * **[CT (non-contrast and contrast)] Confirmation of dissection and extent**
-  * **[Echocardiography] Assess aortic valve regurgitation, pericardial effusion**
+  * **[ECG] No specific findings**: Rules out myocardial infarction
+  * **[Blood] Elevated D-dimer**: Indicates thrombosis
+  * **[Chest X-ray] Widened mediastinal shadow**: Aortic dilatation
+  * **[CT] Intimal flap, true and false lumens**: Confirms diagnosis
+  * **[Echocardiography] Aortic regurgitation, pericardial effusion**: Complications
 * **Management**
-  * **Stanford Type A (DeBakey I, II)**: Surgical repair with artificial graft
-  * **Stanford Type B (DeBakey III)**:
-    * **Medical management**: Blood pressure control (SBP 100-120 mmHg), heart rate control (60-80 bpm) using β-blockers, Ca-channel blockers
-    * **Pain management, bed rest**
-    * **Surgery (stent grafting)**: For complications (rupture, organ ischemia) or refractory cases
+  * **[Stanford Type A] Emergency surgical graft replacement**: Involving ascending aorta
+  * **[Stanford Type B] Blood pressure and heart rate control, pain management**: Not involving ascending aorta 
+  * **[Stanford Type B] Endovascular stent graft**: For complications or refractory cases
+{: .notice--info}
 
-
-### Takayasu's Arteritis (Aortic Arch Syndrome) / 高安動脈炎（大動脈炎症候群）
+### Takayasu's Arteritis / 高安動脈炎
 
 * **Overview**
   * Chronic vasculitis affecting aorta and its major branches
-  * Etiology unknown, suspected autoimmune involvement
-  * More common in young women (10-30 years), female:male ratio 9:1
+  * More common in young women
 * **Presentation**
-  * **Fever, fatigue, general malaise**: Systemic symptoms
-  * **Dizziness, syncope, numbness/coldness in upper limbs**: Vascular stenosis symptoms
-  * **Weak/absent upper limb pulses, blood pressure differences**: Subclavian artery lesions
-  * **Bruits over neck, back, abdomen**: Arterial stenosis
+  * **Fever, fatigue**: Systemic inflammation
+  * **Dizziness, syncope**: Common carotid artery stenosis
+  * **Upper limb numbness/coldness**: Subclavian artery stenosis
   * **Heart murmur**: Often due to aortic regurgitation
-  * **Hypertension in young patients**
-  * **Visual changes**: Hypertensive or hypotensive retinopathy
 * **Examination**
-  * **[Angiography, CT, MRA, FDG-PET] Vessel wall calcification, stenosis, occlusion, or dilation**
-  * **[Blood] Elevated ESR, CRP, WBC, γ-globulin**: Inflammatory markers
+  * **[PE] Weak/absent pulses, BP differences, bruits**: Vascular stenosis
+  * **[Blood] ESR↑, CRP↑, WBC↑, γ-globulin↑**: Inflammatory markers
+  * **[DSA, CT, MRA, FDG-PET] Vessel wall calcification, stenosis/occlusion/dilation**: Confirms diagnosis
 * **Management**
-  * **Corticosteroids**: First-line treatment
-  * **Immunosuppressants or biologics**: For steroid-resistant cases
-  * **Surgery**: For cardiac lesions, aortic dilation, or severe stenosis
-
+  * **Corticosteroids, immunosuppressants**: Suppress inflammation
+  * **Surgery**: For cardiac or aortic lesions
+{: .notice--info}
 
 ### Arteriosclerosis Obliterans (ASO) / 閉塞性動脈硬化症
 
