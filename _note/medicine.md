@@ -644,7 +644,7 @@ Essences of clinical medicine.
   * **Cough, hemoptysis, dyspnea**: Compression of trachea or lungs
   * **Altered consciousness, abdominal pain, leg numbness**: Organ ischemia
 * **Examination**
-  * **[PE] Pulsatile abdominal mass**: Expansion of abdominal aorta
+  * **[Physical] Pulsatile abdominal mass**: Expansion of abdominal aorta
   * **[Chest X-ray] Widened mediastinal shadow**: Expansion of thoracic aorta
   * **[CT, MRI, Ultrasound] Aneurysm**: Confirmation of size and location
 * **Management**
@@ -696,7 +696,7 @@ Essences of clinical medicine.
   * **Upper limb numbness/coldness**: Subclavian artery stenosis
   * **Heart murmur**: Often due to aortic regurgitation
 * **Examination**
-  * **[PE] Weak/absent pulses, BP differences, bruits**: Vascular stenosis
+  * **[Physical] Weak/absent pulses, BP differences, bruits**: Vascular stenosis
   * **[Blood] ESR↑, CRP↑, WBC↑, γ-globulin↑**: Inflammatory markers
   * **[DSA, CT, MRA, FDG-PET] Vessel wall calcification, stenosis/occlusion/dilation**: Confirms diagnosis
 * **Management**
@@ -704,66 +704,52 @@ Essences of clinical medicine.
   * **Surgery**: For cardiac or aortic lesions
 {: .notice--info}
 
-### Arteriosclerosis Obliterans (ASO) / 閉塞性動脈硬化症
+### Arteriosclerosis Obliterans / 閉塞性動脈硬化症
 
 * **Overview**
-  * Chronic occlusive disease of arteries below abdominal aorta due to atherosclerosis
-  * Common in males over 50, major form of peripheral arterial disease (PAD)
+  * Chronic occlusive disease of arteries in lower limbs due to arteriosclerosis
+  * Common in males over 50 with risk factors of atherosclerosis
 * **Presentation**
   * **Intermittent claudication, rest pain, ulcers/necrosis**: Chronic lower limb ischemia
-  * **Weakened or absent peripheral pulses, asymmetry**: Arterial occlusion
 * **Examination**
   * **[Physical] Weakened or absent arterial sounds, ankle-brachial index (ABI) ≤ 0.9**: Reduced blood flow
-  * **[Angiography] Irregular arterial walls, 'moth-eaten' appearance**: Arterial narrowing and occlusion
-  * **[Ultrasound, MRA, CTA] Arterial stenosis or occlusion**
+  * **[Angiography, ultrasound, MRA, CTA] Arterial stenosis or occlusion**: Confirm diagnosis
 * **Management**
-  * **Risk factor modification**: Control hypertension, diabetes, dyslipidemia; smoking cessation
-  * **Exercise therapy, antiplatelet drugs, vasodilators**: For intermittent claudication
-  * **Revascularization (severe ischemia or refractory claudication)**: 
-    * Percutaneous transluminal angioplasty (PTA), stenting
-    * Bypass surgery, thromboembolectomy
+  * **Exercise therapy, antiplatelet drugs (cilostazol), vasodilators**: For intermittent claudication
+  * **Percutaneous transluminal angioplasty (PTA), stenting, bypass surgery, thromboembolectomy**: For severe ischemia
+{: .notice--info}
 
-
-### Thromboangiitis Obliterans (TAO) / 閉塞性血栓血管炎 [Buerger's Disease]
+### Thromboangiitis Obliterans / 閉塞性血栓血管炎
 
 * **Overview**
-  * Inflammatory occlusive disease of small to medium-sized arteries and veins in distal extremities
-  * Affects male smokers under 50, etiology unknown
+  * Inflammatory occlusive disease of arteries in distal extremities
+  * Affects male smokers under 50
 * **Presentation**
   * **Cold sensation, numbness, Raynaud's phenomenon in extremities**: Reduced blood flow
-  * **Intermittent claudication, severe ischemic symptoms (painful ulcers, necrosis) in fingers/toes**: Progressive vascular occlusion
-  * **Decreased skin temperature, weakened or absent peripheral pulses**: Vascular compromise
+  * **Intermittent claudication, painful ulcers/necrosis in fingers or toes**: Progressive vascular occlusion
 * **Examination**
   * **[Doppler] Decreased ankle blood pressure, low ankle-brachial index (ABI)**: Reduced distal blood flow
-  * **[Angiography] Abrupt vessel cutoffs, corkscrew collaterals, 'accordion-like' appearance**: Characteristic vascular changes
+  * **[Angiography] Abrupt vessel cutoffs, corkscrew collaterals**: Characteristic vascular changes
 * **Management**
   * **Smoking cessation**: Essential for disease control
-  * **Antiplatelet drugs (e.g., cilostazol), prostaglandin E1 infusion**: Improve blood flow
-  * **Sympathectomy, bypass surgery (in select cases)**: Surgical interventions
-  * **Amputation**: In advanced cases with severe tissue damage
-
+  * **Antiplatelet drugs (cilostazol), vasodilators**: Improve blood flow
+  * **Sympathectomy, bypass surgery, amputation**: Surgical interventions
+{: .notice--info}
 
 ### Acute Arterial Occlusive Disease / 急性動脈閉塞症
 
 * **Overview**
-  * Sudden occlusion of peripheral arteries due to embolism or thrombosis
-  * High mortality rate (10-28%) if not treated promptly
+  * Sudden occlusion of peripheral arteries due to embolism or thrombosis, high mortality rate if not treated
+  * Risk factors: Atrial fibrillation, cardiac myxoma, hypercoagulability, atherosclerosis
 * **Presentation**
-  * **Sudden pain, pallor, pulselessness, paralysis, paresthesia (5 P's)**: Acute limb ischemia
+  * **Pain, pulselessness, pallor, paralysis, paresthesia (5P)**: Acute limb ischemia
 * **Examination**
-  * **[Physical] Irregular pulse, absent peripheral pulses**: Signs of embolism or thrombosis
-  * **[ABI] Decreased ankle-brachial index**: Reduced blood flow
-  * **[Doppler ultrasound, Angiography, MDCT, MRA] Arterial occlusion**: Confirm diagnosis and location
+  * **[Physical] Absent peripheral pulses, decreased ankle-brachial index (ABI)**: Signs of arterial occlusion
+  * **[Ultrasound, angiography, MDCT, MRA] Arterial occlusion**: Confirm diagnosis
 * **Management**
-  * **Urgent revascularization**: 
-    * Thromboembolectomy (e.g., Fogarty catheter)
-    * Bypass surgery
-    * Catheter-directed thrombolysis
-  * **Anticoagulation therapy**: Heparin infusion
-* **Etiology**
-  * **Embolism**: Atrial fibrillation, cardiac myxoma
-  * **Thrombosis**: Hypercoagulability, atherosclerosis
-
+  * **Urgent thromboembolectomy, catheter-directed thrombolysis, bypass surgery**: Revascularization
+  * **Anticoagulants (heparin)**: Conservative treatment
+{: .notice--info}
 
 ## Venous Disorder / 静脈疾患
 
