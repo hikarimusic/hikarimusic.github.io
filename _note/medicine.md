@@ -632,6 +632,153 @@ Essences of clinical medicine.
 
 ## Arterial Disorder / 動脈疾患
 
+### Aortic Aneurysm / 大動脈瘤
+
+* **Overview**
+  * Abnormal dilation of aorta due to atherosclerosis
+  * More common in middle-aged and elderly men (male:female ratio 4:1)
+  * Often asymptomatic, but potentially fatal if ruptured
+* **Presentation**
+  * **Asymptomatic**: Most common presentation
+  * **Hoarseness, Horner's syndrome**: Compression of recurrent laryngeal nerve or sympathetic nerves
+  * **Dysphagia, nausea, vomiting**: Compression of esophagus
+  * **Cough, hemoptysis, dyspnea**: Compression of trachea or lungs
+  * **Abdominal pain, altered consciousness, leg numbness**: Organ ischemia
+  * **Back pain, pulsatile abdominal mass**: Expansion of abdominal aorta
+* **Examination**
+  * **[Chest X-ray] Widened mediastinal shadow**
+  * **[CT, MRI, Ultrasound, Transesophageal echocardiography] Confirmation of aneurysm size and location**
+* **Management**
+  * **Lifestyle modification, blood pressure control**: Conservative management
+  * **Surgery (if aneurysm >5-6 cm or rapid expansion)**: 
+    * Artificial graft replacement
+    * Endovascular stent grafting
+
+
+### Ruptured Aortic Aneurysm / 大動脈瘤破裂・切迫破裂
+
+* **Overview**
+  * Life-threatening complication of aortic aneurysm
+  * Common in middle-aged and elderly individuals with atherosclerosis
+* **Presentation**
+  * **[Impending rupture] Various compression symptoms**: Similar to unruptured aneurysm
+  * **[Rupture] Sudden severe chest/back/lumbar pain, anemia, shock**: Rapid blood loss
+  * **Hemoptysis, hematemesis**: Blood leaking into adjacent structures
+* **Examination**
+  * **[CT (non-contrast and contrast), Ultrasound] Confirmation of aneurysm rupture and extent**
+* **Management**
+  * **Emergency surgery**: Immediate intervention required
+    * Artificial graft replacement
+    * Endovascular stent grafting
+    * Open stent grafting
+
+
+### Aortic Dissection / 大動脈解離
+
+* **Overview**
+  * Tear in aortic intima leads to blood flow separating the medial layer, forming a false lumen
+  * Peak incidence: 50-70 years old, male:female ratio 2:1
+  * High mortality rate in acute phase, poor prognosis
+* **Presentation**
+  * **Sudden severe chest/back pain, hypertension, blood pressure difference between arms**: Aortic wall disruption and organ ischemia
+* **Examination**
+  * **[ECG] No specific findings**: To rule out myocardial infarction
+  * **[Blood] Elevated D-dimer**
+  * **[Chest X-ray] Widened mediastinal shadow**
+  * **[CT (non-contrast and contrast)] Confirmation of dissection and extent**
+  * **[Echocardiography] Assess aortic valve regurgitation, pericardial effusion**
+* **Management**
+  * **Stanford Type A (DeBakey I, II)**: Surgical repair with artificial graft
+  * **Stanford Type B (DeBakey III)**:
+    * **Medical management**: Blood pressure control (SBP 100-120 mmHg), heart rate control (60-80 bpm) using β-blockers, Ca-channel blockers
+    * **Pain management, bed rest**
+    * **Surgery (stent grafting)**: For complications (rupture, organ ischemia) or refractory cases
+
+
+### Takayasu's Arteritis (Aortic Arch Syndrome) / 高安動脈炎（大動脈炎症候群）
+
+* **Overview**
+  * Chronic vasculitis affecting aorta and its major branches
+  * Etiology unknown, suspected autoimmune involvement
+  * More common in young women (10-30 years), female:male ratio 9:1
+* **Presentation**
+  * **Fever, fatigue, general malaise**: Systemic symptoms
+  * **Dizziness, syncope, numbness/coldness in upper limbs**: Vascular stenosis symptoms
+  * **Weak/absent upper limb pulses, blood pressure differences**: Subclavian artery lesions
+  * **Bruits over neck, back, abdomen**: Arterial stenosis
+  * **Heart murmur**: Often due to aortic regurgitation
+  * **Hypertension in young patients**
+  * **Visual changes**: Hypertensive or hypotensive retinopathy
+* **Examination**
+  * **[Angiography, CT, MRA, FDG-PET] Vessel wall calcification, stenosis, occlusion, or dilation**
+  * **[Blood] Elevated ESR, CRP, WBC, γ-globulin**: Inflammatory markers
+* **Management**
+  * **Corticosteroids**: First-line treatment
+  * **Immunosuppressants or biologics**: For steroid-resistant cases
+  * **Surgery**: For cardiac lesions, aortic dilation, or severe stenosis
+
+
+### Arteriosclerosis Obliterans (ASO) / 閉塞性動脈硬化症
+
+* **Overview**
+  * Chronic occlusive disease of arteries below abdominal aorta due to atherosclerosis
+  * Common in males over 50, major form of peripheral arterial disease (PAD)
+* **Presentation**
+  * **Intermittent claudication, rest pain, ulcers/necrosis**: Chronic lower limb ischemia
+  * **Weakened or absent peripheral pulses, asymmetry**: Arterial occlusion
+* **Examination**
+  * **[Physical] Weakened or absent arterial sounds, ankle-brachial index (ABI) ≤ 0.9**: Reduced blood flow
+  * **[Angiography] Irregular arterial walls, 'moth-eaten' appearance**: Arterial narrowing and occlusion
+  * **[Ultrasound, MRA, CTA] Arterial stenosis or occlusion**
+* **Management**
+  * **Risk factor modification**: Control hypertension, diabetes, dyslipidemia; smoking cessation
+  * **Exercise therapy, antiplatelet drugs, vasodilators**: For intermittent claudication
+  * **Revascularization (severe ischemia or refractory claudication)**: 
+    * Percutaneous transluminal angioplasty (PTA), stenting
+    * Bypass surgery, thromboembolectomy
+
+
+### Thromboangiitis Obliterans (TAO) / 閉塞性血栓血管炎 [Buerger's Disease]
+
+* **Overview**
+  * Inflammatory occlusive disease of small to medium-sized arteries and veins in distal extremities
+  * Affects male smokers under 50, etiology unknown
+* **Presentation**
+  * **Cold sensation, numbness, Raynaud's phenomenon in extremities**: Reduced blood flow
+  * **Intermittent claudication, severe ischemic symptoms (painful ulcers, necrosis) in fingers/toes**: Progressive vascular occlusion
+  * **Decreased skin temperature, weakened or absent peripheral pulses**: Vascular compromise
+* **Examination**
+  * **[Doppler] Decreased ankle blood pressure, low ankle-brachial index (ABI)**: Reduced distal blood flow
+  * **[Angiography] Abrupt vessel cutoffs, corkscrew collaterals, 'accordion-like' appearance**: Characteristic vascular changes
+* **Management**
+  * **Smoking cessation**: Essential for disease control
+  * **Antiplatelet drugs (e.g., cilostazol), prostaglandin E1 infusion**: Improve blood flow
+  * **Sympathectomy, bypass surgery (in select cases)**: Surgical interventions
+  * **Amputation**: In advanced cases with severe tissue damage
+
+
+### Acute Arterial Occlusive Disease / 急性動脈閉塞症
+
+* **Overview**
+  * Sudden occlusion of peripheral arteries due to embolism or thrombosis
+  * High mortality rate (10-28%) if not treated promptly
+* **Presentation**
+  * **Sudden pain, pallor, pulselessness, paralysis, paresthesia (5 P's)**: Acute limb ischemia
+* **Examination**
+  * **[Physical] Irregular pulse, absent peripheral pulses**: Signs of embolism or thrombosis
+  * **[ABI] Decreased ankle-brachial index**: Reduced blood flow
+  * **[Doppler ultrasound, Angiography, MDCT, MRA] Arterial occlusion**: Confirm diagnosis and location
+* **Management**
+  * **Urgent revascularization**: 
+    * Thromboembolectomy (e.g., Fogarty catheter)
+    * Bypass surgery
+    * Catheter-directed thrombolysis
+  * **Anticoagulation therapy**: Heparin infusion
+* **Etiology**
+  * **Embolism**: Atrial fibrillation, cardiac myxoma
+  * **Thrombosis**: Hypercoagulability, atherosclerosis
+
+
 ## Venous Disorder / 静脈疾患
 
 ## Blood Pressure Disorder / 血圧異常
