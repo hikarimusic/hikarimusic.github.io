@@ -630,6 +630,80 @@ Essences of clinical medicine.
 
 ## Congenital Heart Disease / 先天性心疾患
 
+### Atrial Septal Defect / 心房中隔欠損症
+
+* **Overview**
+  * Congenital defect in atrial septum causing left-to-right shunt
+* **Presentation**
+  * **Asymptomatic (childhood)**: Left-to-right shunt compensated
+  * **Dyspnea on exertion, fatigue (adolescence/adulthood)**: Right heart volume overload
+* **Examination**
+  * **[Auscultation] Fixed splitting of S2, systolic ejection murmur, accentuated S1, tricuspid diastolic rumble**: Relative pulmonary stenosis and tricuspid stenosis due to right atrial volume overload
+  * **[ECG] Right axis deviation, incomplete right bundle branch block, right ventricular hypertrophy, atrial fibrillation**: Right heart strain
+  * **[Echocardiography] Left atrium to right atrium shunt**: Confirms diagnosis
+  * **[Cardiac catheterization] O2 step-up in right atrium**: Quantifies shunt
+* **Management**
+  * **Observation**: For mild cases (pulmonary-to-systemic flow ratio <1.5)
+  * **Surgical or catheter-based closure**: For significant shunts (ratio >1.5)
+{: .notice--info}
+
+### Ventricular Septal Defect / 心室中隔欠損症
+
+* **Overview**
+  * Congenital defect in ventricular septum causing left-to-right shunt
+* **Presentation**
+  * **Asymptomatic**: Left-to-right shunt compensated (small VSD)
+  * **Tachypnea, feeding difficulties, poor weight gain, sweating**: Heart failure symptoms (large VSD)
+* **Examination**
+  * **[Auscultation] Holosystolic murmur, palpable thrill**: Shunt through defect (small VSD)
+  * **[Auscultation] Accentuated S2, diastolic rumble**: Pulmonary hypertension, relative mitral stenosis (large VSD)
+  * **[ECG] Biventricular hypertrophy, left atrial overload**: Pulmonary hypertension (large VSD)
+  * **[Chest X-ray] Marked ventricular and atrial enlargement, prominent pulmonary artery, increased pulmonary vascularity**: Left-to-right shunt (large VSD)
+  * **[Echocardiography, left ventriculography] Left ventricle to right ventricle shunt**: Confirms diagnosis
+  * **[Cardiac catheterization] O2 step-up in right atrium to ventricle**: Quantifies shunt
+* **Management**
+  * **Observation**: Many small defects close spontaneously
+  * **Diuretics, surgical closure**: For large VSD
+{: .notice--info}
+
+### Atrioventricular Septal Defect / 房室中隔欠損症
+
+* **Overview**
+  * Developmental defect of atrioventricular septum, classified into incomplete and complete type based on existence of VSD
+  * Associated with Down syndrome
+* **Presentation**
+  * **Asymptomatic, dyspnea**: Heart failure symptoms
+* **Examination**
+  * **[Auscultation] Systolic regurgitant murmur, systolic ejection murmur, diastolic rumble, fixed S2 splitting**: MR + ASD (imcomplete AVSD)
+  * **[Auscultation] Systolic regurgitant murmur, diastolic rumble, accentuated S2**: MR + VSD (complete AVSD)
+  * **[ECG] Left axis deviation, incomplete right bundle branch block, prolonged PQ interval, right ventricular hypertrophy**: Conduction abnormalities and right heart strain
+  * **[Chest X-ray] Cardiomegaly, increased pulmonary vascularity**: Volume overload and increased pulmonary flow
+  * **[Echocardiography] ASD, VSD (in complete type), left-to-right shunt, valve abnormalities**: Confirms diagnosis
+  * **[Cardiac catheterization] O2 step-up in right heart chambers**: Quantifies shunt
+  * **[Left ventriculography] Goose-neck sign**: Characteristic appearance of AVSD
+* **Management**
+  * **Surgical closure of defects, mitral valve repair**: For incomplete and complete AVSD
+{: .notice--info}
+
+### Patent Ductus Arteriosus / 動脈管開存症
+
+* **Overview**
+  * Persistence of fetal ductus arteriosus between aortic isthmus and pulmonary artery
+  * Associated with congenital rubella syndrome
+* **Presentation**
+  * **Asymptomatic**: In mild cases
+  * **Widened pulse pressure, bounding pulse, Quincke's sign**: Increased systolic and decreased diastolic pressures
+* **Examination**
+  * **[Auscultation] Continuous machinery murmur (at 2nd left intercostal space)**: Aorta-to-pulmonary artery shunt
+  * **[ECG] Left ventricular hypertrophy**: Increased pulmonary flow
+  * **[Chest X-ray] Prominent left 1st/2nd/4th arches, increased pulmonary vascularity**: Volume overload and increased pulmonary flow
+  * **[Echocardiography, aortography] Aorta-to-pulmonary artery shunt**: Confirms diagnosis
+  * **[Cardiac catheterization] O2 step-up in pulmonary artery**: Quantifies shunt
+* **Management**
+  * **Coil embolization, Amplatzer duct occluder, PDA ligation**: If continuous murmur present
+  * **Indomethacin or ibuprofen**: Pharmacological closure in premature infants
+{: .notice--info}
+
 ## Arterial Disorder / 動脈疾患
 
 ### Aortic Aneurysm / 大動脈瘤
