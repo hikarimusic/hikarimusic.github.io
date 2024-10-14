@@ -694,7 +694,7 @@ Essences of clinical medicine.
   * **Asymptomatic**: In mild cases
   * **Widened pulse pressure, bounding pulse, Quincke's sign**: Increased systolic and decreased diastolic pressures
 * **Examination**
-  * **[Auscultation] Continuous machinery murmur (at 2nd left intercostal space)**: Aorta-to-pulmonary artery shunt
+  * **[Auscultation] Continuous machinery murmur**: Aorta-to-pulmonary artery shunt
   * **[ECG] Left ventricular hypertrophy**: Increased pulmonary flow
   * **[Chest X-ray] Prominent left 1st/2nd/4th arches, increased pulmonary vascularity**: Volume overload and increased pulmonary flow
   * **[Echocardiography, aortography] Aorta-to-pulmonary artery shunt**: Confirms diagnosis
@@ -702,6 +702,141 @@ Essences of clinical medicine.
 * **Management**
   * **Coil embolization, Amplatzer duct occluder, PDA ligation**: If continuous murmur present
   * **Indomethacin or ibuprofen**: Pharmacological closure in premature infants
+{: .notice--info}
+
+### Pulmonary Stenosis / 肺動脈狭窄症
+
+* **Overview**
+  * Congenital narrowing of pulmonary artery (most commonly pulmonary valve)
+* **Presentation**
+  * **Asymptomatic**: Compensated right heart function
+* **Examination**
+  * **[Auscultation] Ejection click, systolic ejection murmur, weakened and pathological splitting of S2**: Obstruction in pulmonary outflow
+  * **[ECG] Right ventricular hypertrophy**: Right heart pressure overload
+  * **[Chest X-ray] Prominent left 2nd arc, rounded left 4th arc**: Post-stenotic dilatation of pulmonary artery
+  * **[Echocardiography, right ventriculography] Stenotic valve, post-stenotic dilatation**: Confirms diagnosis
+  * **[Cardiac catheterization] Pressure gradient between pulmonary artery and right ventricle, elevated right heart pressures**: Quantifies stenosis severity
+* **Management**
+  * **Observation**: For mild cases
+  * **Percutaneous balloon pulmonary valvuloplasty (PTPV), surgical valvotomy**: For moderate to severe cases
+{: .notice--info}
+
+### Coarctation of the Aorta / 大動脈縮窄症
+
+* **Overview**
+  * Local narrowing of aortic isthmus or descending aorta, classified into simple and complex types based on existence of associated defects
+* **Presentation**
+  * **Asymptomatic**: Gradual development of collateral circulation (simple CoA)
+  * **Dyspnea, pallor, oliguria, differential cyanosis**: Heart failure and upper-lower body perfusion difference (complex CoA)
+  * **Weak/absent lower limb pulses, upper limb hypertension**: Aortic narrowing
+* **Examination**
+  * **[Auscultation] Accentuated S2, systolic murmur**: Increased flow velocity at coarctation
+  * **[ECG] Left ventricular or biventricular hypertrophy**: Cardiac strain
+  * **[Chest X-ray] 3-sign, rib notching, cardiomegaly, increased pulmonary vascularity**: Collateral circulation and heart failure
+  * **[Echocardiography] Narrowing at aortic isthmus, associated defects**: Confirms diagnosis
+* **Management**
+  * **Balloon angioplasty, stent placement, aortic arch reconstruction**: Intervention for pressure gradient ≥20mmHg (simple CoA)
+  * **Prostaglandin E1, aortic arch reconstruction with/without intracardiac repair**: Urgent surgery (complex CoA) 
+{: .notice--info}
+
+### Ruptured Aneurysm of the Sinus of Valsalva / Valsalva洞動脈瘤破裂
+
+* **Overview**
+  * Sudden rupture of aneurysm in right or non-coronary sinus into right ventricle/atrium
+* **Presentation**
+  * **Sudden onset of palpitations, dyspnea, chest pain**: Aneurysm rupture
+  * **Bounding pulse**: Increased stroke volume due to left-to-right shunt
+* **Examination**
+  * **[Auscultation] Continuous murmur**: Shunt from aorta to right heart
+  * **[Chest X-ray] Prominence of left second arch, increased pulmonary vascularity**: Pulmonary volume overload
+  * **[Echocardiography] Coronary sinus to right ventricle shunt**: Confirms diagnosis
+* **Management**
+  * **Aneurysm resection, fistula closure with patch**: Early surgical intervention
+  * **VSD closure, aortic valve repair**: If necessary
+{: .notice--info}
+
+### Tetralogy of Fallot / Fallot四徴症
+
+* **Overview**
+  * Congenital heart defect with four main features: pulmonary stenosis, ventricular septal defect, overriding aorta, right ventricular hypertrophy
+* **Presentation**
+  * **Cyanosis (from neonatal period)**: Right-to-left shunt
+  * **Hypoxic spells (from 2-3 months)**: Right ventricular outflow tract spasm
+  * **Squatting posture (after age 2)**: Increases systemic vascular resistance
+* **Examination**
+  * **[Auscultation] Systolic ejection murmur, single S2**: PS, weak pulmonary component
+  * **[ECG] Right ventricular hypertrophy, right axis deviation**: Right heart overload
+  * **[Chest X-ray] Boot-shaped heart, decreased pulmonary vascular markings**: Characteristic findings
+  * **[Echocardiography] Pulmonary stenosis, ventricular septal defect, overriding aorta, right ventricular hypertrophy**: Confirms diagnosis
+* **Management**
+  * **Blalock-Taussig shunt**: Subclavian artery to pulmonary artery shunt (palliative surgery)
+  * **VSD closure, right ventricular outflow tract reconstruction**: Complete repair (after 6 months of age)
+  * **Sedation, oxygen, knee-chest position, β-blockers, α-agonists**: Hypoxic spell management
+{: .notice--info}
+
+### Complete Transposition of the Great Arteries / 完全大血管転位症
+
+* **Overview**
+  * Aorta from right ventricle, pulmonary artery from left ventricle, classified into Types I-III based on associated defects
+* **Presentation**
+  * **Cyanosis, tachypnea, respiratory distress**: Separation of systemic and pulmonary circulations
+* **Examination**
+  * **[Auscultation] Single and accentuated S2**: Anterior displacement of aorta
+  * **[ECG] Right ventricular hypertrophy, right axis deviation**: Right heart overlaod due to high resistance
+  * **[Chest X-ray] Egg-shaped cardiac silhouette**: Characteristic findings
+  * **[Echocardiography] Aorta from right ventricle (anterior), pulmonary artery from left ventricle**: Confirms diagnosis
+* **Management**
+  * **PGE1 infusion, balloon atrial septostomy, diuretics**: Emergency measures
+  * **Jatene procedure**: Arterial switch operation (type I, II)
+  * **Rastelli procedure**: Creates intracardiac tunnel to redirect blood flow (type III)
+{: .notice--info}
+
+### Total Anomalous Pulmonary Venous Return / 総肺静脈還流異常症
+
+* **Overview**
+  * All four pulmonary veins drain into the right heart system
+* **Presentation**
+  * **Respiratory distress, right heart failure symptoms, cyanosis**: Abnormal pulmonary venous return
+* **Examination**
+  * **[Auscultation] Accentuated S2**: Pulmonary hypertension
+  * **[ECG] Right ventricular hypertrophy, right axis deviation**: Right heart strain
+  * **[Chest X-ray] Cardiomegaly, increased pulmonary vascular markings, snowman appearance (Type Ia)**: Right heart volume overload and pulmonary congestion
+  * **[Echocardiography, MDCT] Enlarged right atrium and ventricle, abnormal pulmonary vein course**: Confirms diagnosis
+* **Management**
+  * **Anastomosis of common pulmonary vein to left atrium, ASD closure**: Urgent intracardiac repair
+{: .notice--info}
+
+### Tricuspid Atresia / 三尖弁閉鎖症
+
+* **Overview**
+  * Absent tricuspid valve blocking right atrium-ventricle communication, always with ASD
+* **Presentation**
+  * **Cyanosis, heart failure symptoms**: Right-to-left shunt
+* **Examination**
+  * **[ECG] Left ventricular hypertrophy, left axis deviation**: Right-to-left shunt through ASD
+  * **[Chest X-ray] Prominent left 4th arc**: Left ventricular enlargement
+  * **[Echocardiography] Absence of right atrium-right ventricle communication**: Confirms diagnosis
+* **Management**
+  * **PGE1 administration, Blalock-Taussig shunt**: For decreased pulmonary flow type (palliative treatment)
+  * **Pulmonary artery banding**: For increased pulmonary flow type (palliative treatment)
+  * **Bidirectional Glenn procedure, Fontan procedure**: Connect SVC and IVC to pulmonary artery
+{: .notice--info}
+
+### Ebstein's Anomaly / Ebstein病
+
+* **Overview**
+  * Malformation of right ventricle and tricuspid valve causing tricuspid regurgitation
+* **Presentation**
+  * **Cyanosis, heart failure symptoms**: Severity varies widely
+* **Examination**
+  * **[Auscultation] Holosystolic murmur, S3, S4**: TR, heart failure
+  * **[ECG] Right atrial P waves, prolonged PQ interval, right bundle branch block, WPW syndrome**: Conduction abnormalities
+  * **[Chest X-ray] Prominent right second arc**: Enlarged right atrium
+  * **[Echocardiography] Tricuspid valve displaced towards right ventricle, tricuspid regurgitation**: Confirms diagnosis
+* **Management**
+  * **Observation**: For mild cyanosis and heart failure symptoms
+  * **Tricuspid valve repair (Carpentier procedure), ASD closure if needed**: For severe cyanosis or heart failure
+  * **Starnes procedure, Fontan operation**: For severe neonatal cases
 {: .notice--info}
 
 ## Arterial Disorder / 動脈疾患
@@ -787,7 +922,7 @@ Essences of clinical medicine.
   * **Intermittent claudication, rest pain, ulcers/necrosis**: Chronic lower limb ischemia
 * **Examination**
   * **[Physical] Weakened or absent arterial sounds, ankle-brachial index (ABI) ≤ 0.9**: Reduced blood flow
-  * **[Angiography, ultrasound, MRA, CTA] Arterial stenosis or occlusion**: Confirm diagnosis
+  * **[Angiography, ultrasound, MRA, CTA] Arterial stenosis or occlusion**: Confirms diagnosis
 * **Management**
   * **Exercise therapy, antiplatelet drugs (cilostazol), vasodilators**: For intermittent claudication
   * **Percutaneous transluminal angioplasty (PTA), stenting, bypass surgery, thromboembolectomy**: For severe ischemia
@@ -819,7 +954,7 @@ Essences of clinical medicine.
   * **Pain, pulselessness, pallor, paralysis, paresthesia (5P)**: Acute limb ischemia
 * **Examination**
   * **[Physical] Absent peripheral pulses, decreased ankle-brachial index (ABI)**: Signs of arterial occlusion
-  * **[Ultrasound, angiography, MDCT, MRA] Arterial occlusion**: Confirm diagnosis
+  * **[Ultrasound, angiography, MDCT, MRA] Arterial occlusion**: Confirms diagnosis
 * **Management**
   * **Urgent thromboembolectomy, catheter-directed thrombolysis, bypass surgery**: Revascularization
   * **Anticoagulants (heparin)**: Conservative treatment
