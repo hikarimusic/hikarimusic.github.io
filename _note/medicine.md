@@ -996,6 +996,35 @@ Essences of clinical medicine.
   * **Early ambulation, compression stockings, intermittent compression**: Reduce risk in high-risk situations
 {: .notice--info}
 
+### Superior Vena Cava Syndrome / 上大静脈症候群
+
+* **Overview**
+  * Obstruction of venous return through superior vena cava, often caused by malignant tumors or aortic aneurysms
+* **Presentation**
+  * **Edema of head/face/unilateral arm, headache, dyspnea**: Upper body congestion
+  * **Distended neck and upper body superficial veins**: Impaired venous return
+* **Examination**
+  * **[Chest X-ray] Widened upper mediastinum**: Mass effect
+  * **[CT, MRI] Stenosis or occlusion of superior vena cava**: Definitive diagnosis
+* **Management**
+  * **Treatment of underlying cause**: Malignant tumors, benign mediastinal tumors, thoracic aortic aneurysm
+  * **Stent placement, bypass surgery**: Endovascular or surgical treatment
+{: .notice--info}
+
+### Lymphedema / リンパ浮腫
+
+* **Overview**
+  * Impaired lymphatic drainage causing tissue swelling, 
+  * Primary (rare) or secondary (often due to cancer treatment)
+* **Presentation**
+  * **Unilateral or bilateral limb swelling**: Impaired lymph drainage
+* **Examination**
+  * **[Physical] Asymmetric limb swelling, skin changes**: Visual and tactile assessment
+* **Management**
+  * **Limb elevation, compression stockings, massage, infection prevention**: Complex decongestive therapy
+  * **Lymphaticovenous anastomosis**: For refractory cases
+{: .notice--info}
+
 ## Blood Pressure Disorder / 血圧異常
 
 <!-- ## Introduction / 総論
