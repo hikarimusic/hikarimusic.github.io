@@ -962,6 +962,40 @@ Essences of clinical medicine.
 
 ## Venous Disorder / 静脈疾患
 
+### Varicose Vein of the Lower Extremity / 下肢静脈瘤
+
+* **Overview**
+  * Dilated and tortuous superficial veins in lower limbs due to venous valve incompetence
+  * More common in women over 30, influenced by pregnancy, prolonged standing, obesity, aging
+* **Presentation**
+  * **Dilated and tortuous veins**: Venous reflux and stasis
+  * **Dull pain, heaviness, itching, eczema, skin pigmentation**: Chronic blood stasis
+* **Examination**
+  * **[Ultrasound] Reflux and valve incompetence in superficial veins**: Confirms diagnosis
+* **Management**
+  * **Compression stockings, leg elevation**: Conservative therapy to improve venous return
+  * **Endovenous ablation, stripping, varicectomy, sclerotherapy**: Occlusion or removal of incompetent veins
+{: .notice--info}
+
+### Deep Vein Thrombosis / 深部静脈血栓症
+
+* **Overview**
+  * Thrombosis in deep veins of lower limbs, can lead to pulmonary thromboembolism
+  * Risk factors: Surgery, trauma, prolonged bed rest, intravenous catheterization, pregnancy, malignancy
+* **Presentation**
+  * **Unilateral leg swelling, superficial vein dilation, color changes**: Venous obstruction and congestion
+  * **Leg tension, pain, Homans' sign**: Vascular inflammation
+* **Examination**
+  * **[Blood] D-dimer↑, FDP↑**: Fibrin degradation products
+  * **[Ultrasound] Reduced blood flow**: Venous obstruction
+  * **[Contrast CT] Confirmation of thrombus**: Definitive diagnosis
+* **Management**
+  * **Anticoagulation (heparin, warfarin, DOACs)**: Prevent clot propagation
+  * **Thrombolysis (urokinase)**: Dissolve existing clots
+  * **Catheter-directed therapy, surgical thrombectomy**: For severe cases
+  * **Early ambulation, compression stockings, intermittent compression**: Reduce risk in high-risk situations
+{: .notice--info}
+
 ## Blood Pressure Disorder / 血圧異常
 
 <!-- ## Introduction / 総論
