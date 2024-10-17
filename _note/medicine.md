@@ -1027,6 +1027,69 @@ Essences of clinical medicine.
 
 ## Blood Pressure Disorder / 血圧異常
 
+### Essential Hypertension / 本態性高血圧
+
+* **Overview**
+  * High blood pressure without identifiable cause
+  * Accounts for about 90% of hypertension cases
+* **Presentation**
+  * **Asymptomatic**: Gradual onset and progression
+* **Examination**
+  * **[Blood Pressure] ≥140/90 mmHg**: Persistent elevation of blood pressure
+* **Management**
+  * **Salt reduction, weight loss, exercise, smoking cessation, alcohol moderation**: Lifestyle modifications
+  * **CCBs, ARBs, ACE inhibitors, MRAs, diuretics, β-blockers**: Vasodilation, fluid excretion, cardiac output reduction
+{: .notice--info}
+
+### Malignant Hypertension / 加速型悪性高血圧
+
+* **Overview**
+  * Severe hypertension with rapid progression of organ damage
+  * More common in males 40-50 years old
+* **Presentation**
+  * **Headache, visual disturbances**: Hypertensive encephalopathy
+  * **Oliguria, uremia**: Rapidly progressing renal dysfunction
+  * **Heart failure symptoms**: Cardiac overload
+* **Examination**
+  * **[Blood pressure] Diastolic BP ≥120-130 mmHg**: Severe elevation of blood pressure
+  * **[Fundoscopy] Retinal hemorrhages, papilledema**: Hypertensive retinopathy
+* **Management**
+  * **Immediate IV or oral antihypertensives**: Hypertensive emergency
+  * **Dialysis**: For severe renal dysfunction
+{: .notice--info}
+
+### Renovascular Hypertension / 腎血管性高血圧
+
+* **Overview**
+  * Hypertension caused by renal artery stenosis and increased RAA system activity
+  * Common in patients <30 or >60 years old
+* **Presentation**
+  * **Treatment-resistant or malignant hypertension**: Due to persistent RAAS activation
+  * **Worsening renal function after ACE inhibitors or ARBs**: Impaired glomerular filtration
+* **Examination**
+  * **[Auscultation] Abdominal bruit**: Severe vascular stenosis
+  * **[Ultrasound, MR/CT angiography] Renal artery stenosis**: Primary screening method
+  * **[Blood] Elevated plasma renin activity (PRA)**: RAAS activation
+* **Management**
+  * **Combination of antihypertensives**: ACE inhibitors/ARBs contraindicated in bilateral cases
+  * **Percutaneous transluminal renal angioplasty (PTRA)**: For significant stenosis
+{: .notice--info}
+
+### Hypotension / 低血圧
+
+* **Overview**
+  * Low blood pressure due to various causes, including essential hypotension, orthostatic hypotension, postprandial hypotension
+* **Presentation**
+  * **Asymptomatic**: Especially in essential hypotension
+  * **Dizziness, fatigue, syncope**: Inadequate cerebral perfusion
+* **Examination**
+  * **[Blood pressure] Systolic BP <100 mmHg**: Basic diagnostic criteria
+  * **[Orthostatic test] BP drop after standing (≥20 mmHg systolic or ≥10 mmHg diastolic)**: Diagnoses orthostatic hypotension
+* **Management**
+  * **Improve sleep, diet, exercise habits**: Lifestyle modifications
+  * ** Sympathomimetics, mineralocorticoids**: Vasoconstriction, increase plasma volume
+{: .notice--info}
+
 <!-- ## Introduction / 総論
 
 ### Cardiovascular Drugs / 循環器疾患治療薬
