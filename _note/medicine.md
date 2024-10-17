@@ -1087,7 +1087,7 @@ Essences of clinical medicine.
   * **[Orthostatic test] BP drop after standing (≥20 mmHg systolic or ≥10 mmHg diastolic)**: Diagnoses orthostatic hypotension
 * **Management**
   * **Improve sleep, diet, exercise habits**: Lifestyle modifications
-  * ** Sympathomimetics, mineralocorticoids**: Vasoconstriction, increase plasma volume
+  * **Sympathomimetics, mineralocorticoids**: Vasoconstriction, increase plasma volume
 {: .notice--info}
 
 <!-- ## Introduction / 総論
