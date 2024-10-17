@@ -3090,7 +3090,7 @@ of urate
 
 ## Cerebrovascular Disorder / 脳血管障害
 
-### Cerebral Infarction / 脳梗塞
+<!-- ### Cerebral Infarction / 脳梗塞
 
 * **Overview**
   * Thrombus or embolus obstruct cerebral artery, ischemia and necrosis in the supplied areas, various neurological symptoms and permanent disabilities 
@@ -3282,11 +3282,11 @@ of urate
   * **[CT] Low-density in localized area**: Edema
 * **Management**
   * **Calcium channel blockers (nicardipine), anti-cerebral edema drugs (glycerol, mannitol)**: Reduce blood pressure, relieve cerebral edema
-{: .notice--info}
+{: .notice--info} -->
 
 ## Dementia / 認知症
 
-### Alzheimer’s Dementia / Alzheimer型認知症
+<!-- ### Alzheimer’s Dementia / Alzheimer型認知症
 
 * **Overview**
   * Degeneration of cerebral cortex due to accumulation of amyloid β and phosphorylated tau protein, leading to cognitive impairment
@@ -3346,11 +3346,11 @@ Pathology shows Lewy bodies
   * **[CT, MRI] Cerebral infarction or hemorrhage**
 * **Management**
   * **Control hypertension, antiplatelet drugs, anticoagulants**: Prevent relapse of infarction
-{: .notice--info}
+{: .notice--info} -->
 
 ## Neurodegenerative Disorder / 神経変性疾患
 
-### Parkinson’s Disease / Parkinson病
+<!-- ### Parkinson’s Disease / Parkinson病
 
 * **Overview**
   * Degeneration of dopamine neuron in substantia nigra pars compacta lead to dopamine deficiency, the direct pathway of basal ganglia (striatum - globus pallidus internum - thalamus) cannot be excited and making movement difficult
@@ -3538,11 +3538,11 @@ Autosomal dominant inheritance, due to abnormal expansion of CAG repeats
 * **Management**
   * **IV and oral administration of Vitamin B12**
   * **[Don’t] Folic acid administration alone is contraindicated**: Mask the neurological symptoms and further consume Vitamin B12
-{: .notice--info}
+{: .notice--info} -->
 
 ## Demyelinating Disorder / 脱髄性疾患
 
-### Multiple Sclerosis / 多発性硬化症
+<!-- ### Multiple Sclerosis / 多発性硬化症
 
 * **Overview**
   * Autoimmune-related Inflammatory demyelination throughout white matter of CNS (spatial dissemination), leading to various neurological symptoms that recur and remit (temporal dissemination); PNS usually spared
@@ -3609,7 +3609,7 @@ More common in middle age women (autoimmune)
 * **Management**
   * **Steroid hormone**: For adrenal insufficiency 
   * **No cure, dead in 1~5 years**
-{: .notice--info}
+{: .notice--info} -->
 
 ## Peripheral Nerve Disorder / 末梢神経障害
 
@@ -3622,6 +3622,94 @@ More common in middle age women (autoimmune)
 ## Neurocutaneous Syndrome / 母斑症
 
 ## Brain Tumor / 脳腫瘍
+
+### Diffuse Astrocytoma / びまん性星細胞腫
+
+* **Overview**
+  * Low-grade (Grade II) astrocytoma with high differentiation
+  * Common in young adults, usually in cerebral hemispheres
+* **Presentation**
+  * **Epileptic seizures, paralysis, aphasia**: Focal brain symptoms
+  * **Headache, vomiting**: Increased intracranial pressure
+* **Examination**
+  * **[CT] Ill-defined low-density mass**: Infiltrative nature of tumor
+  * **[MRI] T1: ill-defined low signal, T2: high signal**: Tumor characteristics
+  * **[Contrast CT/MRI] No enhancement**: Low-grade nature
+  * **[Genetic testing] IDH1 mutation**: Associated with better prognosis
+* **Management**
+  * **Surgical resection**: Aim for maximal safe resection
+  * **Radiation therapy**: Additional treatment post-surgery
+{: .notice--info}
+
+### Pilocytic Astrocytoma / 毛様細胞性星細胞腫
+
+* **Overview**
+  * Most benign (Grade I) astrocytoma, non-invasive and rare malignant transformation
+  * Common in childhood to adolescence, often in cerebellum or optic nerve/chiasm
+* **Presentation**
+  * **Cerebellar ataxia**: Cerebellar involvement
+  * **Headache, vomiting**: Increased intracranial pressure
+  * **Visual impairment, visual field defects**: Optic nerve/chiasm involvement
+* **Examination**
+  * **[Imaging] Well-defined tumor in cerebellum or optic pathway**: Characteristic locations
+  * **[Genetic testing] NF1 gene mutation**: Association with neurofibromatosis type 1
+* **Management**
+  * **Surgical resection**: Curative for accessible tumors
+  * **Chemotherapy**: For optic pathway tumors where resection is difficult
+{: .notice--info}
+
+### Glioblastoma / 膠芽腫
+
+* **Overview**
+  * Highest grade (Grade IV) astrocytoma with low differentiation, rapidly progressing with extremely poor prognosis
+  * Common in middle-aged and older adults, often in cerebral hemispheres
+* **Presentation**
+  * **Rapidly progressing headache, vomiting**: Increased intracranial pressure
+  * **Personality changes, epileptic seizures, paralysis, aphasia**: Focal brain symptoms
+* **Examination**
+  * **[MRI] T1: ill-defined low signal, T2: heterogeneous high signal**: Tumor characteristics
+  * **[Contrast MRI] Ring-like enhancement**: Typical pattern
+  * **[Pathology] Microvascular proliferation, necrosis, pseudopalisading**: Characteristic histological features
+  * **[Genetic testing] IDH mutation**: For further classification
+* **Management**
+  * **Surgical resection**: Primary treatment
+  * **Postoperative radiotherapy and chemotherapy**: Adjuvant treatment
+  * **Prognosis**: Usually fatal within 2 years
+{: .notice--info}
+
+### Oligodendroglioma / 乏突起膠腫
+
+* **Overview**
+  * Low-grade (Grade II) glioma originating from oligodendroglia, slow growth
+  * Common in adults aged 20-50 years, often in cerebral white matter
+* **Presentation**
+  * **Epileptic seizures**: Focal brain irritation
+  * **Headache**: Increased intracranial pressure
+* **Examination**
+  * **[CT] Low to iso-density mass, often with calcification**: Characteristic finding
+  * **[MRI] T1: low signal, T2: high signal, well-defined mass**: Tumor characteristics
+  * **[Genetic testing] 1p/19q co-deletion**: Diagnostic and prognostic marker
+  * **[Pathology] Honeycomb structure, fried egg appearance**: Characteristic histological features
+* **Management**
+  * **Surgical resection**: Aim for total removal
+  * **Postoperative radiotherapy**: High sensitivity to radiation
+{: .notice--info}
+
+### Ependymoma / 上衣腫
+
+* **Overview**
+  * Grade II brain tumor originating from ependymal cells
+  * Peak incidence at 5-9 years, often near ventricles (especially 4th ventricle)
+* **Presentation**
+  * **Headache, vomiting**: Increased intracranial pressure due to non-communicating hydrocephalus
+* **Examination**
+  * **[CT] Iso to high-density mass, often with cysts/calcification**: Characteristic findings
+  * **[MRI] T1: low signal, T2: high signal, well-defined mass**: Tumor characteristics
+  * **[Pathology] Perivascular pseudorosettes, ependymal rosettes**: Diagnostic histological features
+* **Management**
+  * **Surgical resection**: Aim for total removal
+  * **Postoperative radiotherapy**: Additional treatment
+{: .notice--info}
 
 ## Head Injury / 頭部外傷
 
