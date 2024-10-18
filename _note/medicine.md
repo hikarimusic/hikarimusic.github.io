@@ -3621,6 +3621,83 @@ More common in middle age women (autoimmune)
 
 ## Neurocutaneous Syndrome / 母斑症
 
+### Tuberous Sclerosis / 結節性硬化症
+
+* **Overview**
+  * Autosomal dominant genetic disorder causing multiple nodular lesions (hamartomas) in various organs
+* **Presentation**
+  * **Hypopigmented macules (ash-leaf spots), facial angiofibromas , shagreen patches**: Characteristic skin lesions
+  * **Seizures, developmental delay**: Cortical tubers in brain
+* **Examination**
+  * **[CT] Multiple calcifications around lateral ventricles**: Brain hamartomas (subependymal giant cell astrocytoma, subependymal nodule)
+  * **[MRI] Nodular lesions in cortex/subependymal areas**: Brain hamartomas (subependymal giant cell astrocytoma, subependymal nodule)
+* **Management**
+  * **Symptomatic treatment**: Tailored to individual manifestations
+{: .notice--info}
+
+### Neurofibromatosis Type 1 / 神経線維腫症1型
+
+* **Overview**
+  * Autosomal dominant genetic disorder (50-70% due to new mutations) causing multiple neurofibroma
+* **Presentation**
+  * **Multiple café-au-lait spots (by age 2)**: Light to dark brown patches
+  * **Axillary/inguinal freckling (age 3-5)**: Clustered small brown spots
+  * **Cutaneous neurofibromas**: Soft and hemispherical nodules on skin
+  * **Lisch nodules**: Gray-brown nodules on iris
+* **Examination**
+  * **Based on clinical presentation**
+* **Management**
+  * **Symptomatic treatment**: Tailored to individual manifestations
+{: .notice--info}
+
+### Neurofibromatosis Type 2 / 神経線維腫症2型
+
+* **Overview**
+  * Autosomal dominant genetic disorder causing acoustic schwannomas
+  * Typically onset in 20-30s
+* **Presentation**
+  * **Bilateral hearing loss, tinnitus**: Due to acoustic schwannomas
+  * **Vertigo, facial nerve palsy**: Involvement of other cranial nerves
+  * **Early-onset cataracts**: Ocular manifestation
+* **Examination**
+  * **[MRI] Bilateral acoustic schwannomas**: Characteristic finding
+* **Management**
+  * **Surgical removal of tumors**: Challenging to improve neurological symptoms
+{: .notice--info}
+
+### Sturge-Weber Syndrome / Sturge-Weber症候群
+
+* **Overview**
+  * Non-hereditary neurocutaneous disorder characterized by facial angioma simplex, leptomeningeal angioma, and choroidal vascular lesions
+* **Presentation**
+  * **Unilateral facial port-wine stain**: Facial angioma simplex (present at birth, following trigeminal nerve distribution)
+  * **Seizures, hemiparesis, intellectual disability**: Leptomeningeal angioma  (contralateral to port-wine stain)
+  * **Glaucoma**: Choroidal vascular lesions (Ipsilateral to port-wine stain)
+* **Examination**
+  * **[Contrast MRI] Enhanced leptomeningeal angioma**: Vascularized angioma
+  * **[Skull X-ray] Gyriform calcifications**: Leptomeningeal involvement
+* **Management**
+  * **Laser therapy**: For facial port-wine stain
+  * **Anticonvulsants,**: For seizure control
+  * **Intraocular pressure reduction (trabeculotomy, trabeculectomy)**: For glaucoma treatment
+{: .notice--info}
+
+### von Hippel-Lindau Disease / von Hippel-Lindau病
+
+* **Overview**
+  * Autosomal dominant genetic disorder causing hemangioblastomas in CNS and cystic tumors in multiple organs
+  * Typically onset in 20-40s
+* **Presentation**
+  * **Dizziness, nystagmus, ataxia**: Cerebellar hemangioblastomas
+  * **Headache, vomiting**: Increased intracranial pressure
+  * **Visual disturbances, eye pain**: Hemangioblastomas in retina
+  * **Tumors or cysts in kidneys, adrenal glands, pancreas, spleen**: Multi-organ involvement
+* **Examination**
+  * **[CT, MRI] Multiple cystic tumors with mural nodules in cerebellum**: Hemangioblastomas
+* **Management**
+  * **Surgical resection or radiotherapy**:  For hemangioblastomas
+{: .notice--info}
+
 ## Brain Tumor / 脳腫瘍
 
 ### Diffuse Astrocytoma / びまん性星細胞腫
