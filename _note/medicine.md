@@ -3711,6 +3711,163 @@ More common in middle age women (autoimmune)
   * **Postoperative radiotherapy**: Additional treatment
 {: .notice--info}
 
+### Medulloblastoma / 髄芽腫
+
+* **Overview**
+  * Malignant embryonal tumor (Grade IV) derived from undifferentiated neuroepithelial cells
+  * Most common malignant brain tumor in children, predilection for cerebellar vermis
+* **Presentation**
+  * **Headache, projectile vomiting, papilledema**: Increased intracranial pressure due to non-communicating hydrocephalus
+  * **Inability to maintain sitting, gait instability, falls**: Cerebellar symptoms
+* **Examination**
+  * **[CT] Iso to high-density mass , often calcified**: Tumor characteristics
+  * **[MRI] T1: low signal, T2: high signal**: Tumor characteristics
+  * **[Contrast MRI] Homogeneous enhancement**: Tumor vascularity
+  * **[Pathology] Tumor cells with scant cytoplasm, Homer Wright rosettes**: Diagnostic features
+  * **[Genetic testing] WNT, SHH, MYC abnormalities**: For subclassification
+* **Management**
+  * **Surgical resection**: Primary treatment
+  * **Postoperative radiotherapy and chemotherapy**: Adjuvant treatment
+{: .notice--info}
+
+### Germ Cell Tumor / 胚細胞腫瘍
+
+* **Overview**
+  * Tumors derived from germ cells, mainly germinomas and teratomas
+  * Common in male children, mostly in suprasellar and pineal regions
+* **Presentation**
+  * **Polyuria, growth retardation, delayed puberty**: Hypothalamic-pituitary dysfunction (suprasellar tumor)
+  * **Visual disturbances**: Optic nerve/chiasm compression (suprasellar tumor)
+  * **Headache, vomiting**: Increased intracranial pressure due to hydrocephalus (pineal tumor)
+  * **Upward gaze palsy (Parinaud syndrome), light-near dissociation (Argyll Robertson pupils)**: Midbrain involvement (pineal tumor)
+* **Examination**
+  * **[CT/MRI] Mass in suprasellar region**: Suprasellar tumor
+  * **[CT/MRI] Mass in pineal region , calcification, ventricular enlargement**: Pineal tumor
+* **Management**
+  * **Radiotherapy + chemotherapy**: For germinoma
+  * **Surgical resection + radiotherapy/chemotherapy**: For teratoma
+{: .notice--info}
+
+### Malignant Lymphoma / 悪性リンパ腫
+
+* **Overview**
+  * Intracranial lymphoid tumor, mostly primary non-Hodgkin's lymphoma
+  * More common in 50-70s adults and males
+* **Presentation**
+  * **Headache, vomiting, papilledema**: Increased intracranial pressure
+  * **Paralysis, aphasia, memory impairment**: Focal brain symptoms
+* **Examination**
+  * **[CT] Iso to high-density lesions**: Tumor characteristics
+  * **[MRI] T1: iso to slow signal, T2: high signal**: Tumor characteristics
+  * **[Contrast CT/MRI] Homogeneous enhancement**: Highly vascular tumor
+  * **[Blood, CSF] Soluble IL-2 receptor↑ (blood), β2-microglobulin↑ (CSF)**: Tumor marker
+* **Management**
+  * **High-dose methotrexate + radiotherapy**: Standard treatment
+{: .notice--info}
+
+### Hemangioblastoma / 血管芽腫
+
+* **Overview**
+  * Benign tumor rich in capillaries with intratumoral cysts, associated with von Hippel-Lindau disease
+  * More common in 20-70s adults, mostly in cerebellar hemisphere
+* **Presentation**
+  * **Headache, vomiting**: Increased intracranial pressure
+  * **Dizziness, nystagmus, ataxia**: Cerebellar symptoms
+  * **Polycythemia**: Due to erythropoietin production by tumor
+* **Examination**
+  * **[MRI] T1: iso to low signal, T2: high signal, cystic lesion**: Tumor characteristics
+  * **[Contrast MRI] Enhancing mural nodule**: Highly vascular tumor component
+* **Management**
+  * **Surgical resection**: Primary treatment
+  * **Radiation therapy**: For inoperable cases or residual
+{: .notice--info}
+
+### Meningioma / 髄膜腫
+
+* **Overview**
+  * Benign tumor (Grade I) originating from arachnoid cells, grows slowly and compresses surrounding brain tissue
+  * More common in 40-70s women
+* **Presentation**
+  * **Headache, epileptic seizures**: Due to compression of brain tissue
+* **Examination**
+  * **[X-ray/CT] Bone thickening, destruction, calcification**: Tumor effects on adjacent bone
+  * **[MRI] T1: iso to low signal, T2: iso to high signal**: Tumor characteristics
+  * **[Contrast CT/MRI] Well-defined homogeneous enhancement, dural tail sign**: Highly vascular nature
+  * **[External carotid angiography] Sunburst appearance**: Tumor vasculature
+* **Management**
+  * **Surgical resection**: Primary treatment
+  * **Stereotactic radiosurgery**: For small or residual tumors
+  * **Observation**: For small asymptomatic tumors
+{: .notice--info}
+
+### Schwannoma / 神経鞘腫
+
+* **Overview**
+  * Benign tumor (Grade I) originating from Schwann cells, 90% of intracranial cases occur on vestibulocochlear nerve
+  * More common in 40-60s adults
+* **Presentation**
+  * **Unilateral high-frequency hearing loss, tinnitus**: Cochlear nerve involvement
+  * **Horizontal nystagmus towards healthy side, Bruns nystagmus, vertigo**: Vestibular nerve involvement
+* **Examination**
+  * **[CT] Internal auditory canal enlargement, low to iso-density mass in cerebellopontine angle**: Tumor growth and characteristics
+  * **[MRI] T1: low signal, T2: iso signal**: Tumor characteristics
+  * **[Contrast CT/MRI] Marked enhancement**: Highly vascular nature
+* **Management**
+  * **Surgery**: For large symptomatic tumors
+  * **Radiation therapy**: For tumors <3 cm or residual tumors
+  * **Observation**: For small asymptomatic tumors
+{: .notice--info}
+
+### Pituitary Adenoma / 下垂体腺腫
+
+* **Overview**
+  * Benign tumor originating from anterior pituitary cells, classified as functional or non-functional
+  * Common in adults
+* **Presentation**
+  * **Acromegaly, hyperprolactinemia, Cushing disease**: Hormone overproduction (functional adenoma)
+  * **Visual field defects (bitemporal hemianopsia), headache, pituitary hormone deficiency**: Compression of optic chiasm/normal pituitary
+* **Examination**
+  * **[X-ray] Ballooning/double floor of sella turcica**: Bone shadows changes due to tumor growth
+  * **[CT/MRI] Mass in suprasellar cistern, T1: iso to low signal, T2: iso to high signal**: Microadenoma or macroadenoma in sella turcica
+* **Management**
+  * **Dopamine agonists**: For prolactin-secreting tumors
+  * **Transsphenoidal surgery (TSS)**: For other types of tumors
+  * **Radiotherapy**: For inoperable cases or residual tumors
+  * **Observation**: For small asymptomatic tumors
+{: .notice--info}
+
+### Craniopharyngioma / 頭蓋咽頭腫
+
+* **Overview**
+  * Benign tumor (Grade I) originating from craniopharyngeal duct remnants (Rathke's pouch)
+  * Bimodal age distribution of children and adults , common in suprasellar region
+* **Presentation**
+  * ** Visual field defects (bitemporal hemianopsia), optic atrophy**: Optic chiasm compression
+  * **Short stature, delayed puberty, hypogonadism, amenorrhea**: Anterior pituitary dysfunction
+  * **Hypothermia, consciousness disturbance, memory loss, depression**: Hypothalamic dysfunction
+* **Examination**
+  * **[X-ray] Flattened sella turcica**: Tumor effect on surrounding bone
+  * **[CT] Scattered calcifications, cystic components in suprasellar region**: Characteristic tumor features
+  * **[Contrast CT/MRI] Enhancement of cyst wall and solid components**: Tumor vascularity
+* **Management**
+  * **Surgery**: Primary treatment
+  * **Radiation therapy**: For residual tumor or recurrence
+{: .notice--info}
+
+### Metastatic Brain Tumor / 転移性脳腫瘍
+
+* **Overview**
+  * Malignant tumors from extracranial sites metastasizing to the brain
+* **Presentation**
+  * ** Headache, neurological deficits, seizures **: Symptoms vary based on location and size
+* **Examination**
+  * **[CT/MRI] Multiple lesions, ring-like enhancement with contrast**: Characteristic imaging features
+* **Management**
+  * **Whole-brain radiation therapy**: Primary treatment
+  * **Stereotactic radiosurgery**: For selected cases
+  * **Surgery**: For large and accessible single lesions
+{: .notice--info}
+
 ## Head Injury / 頭部外傷
 
 ## Congenital Anomaly / 先天奇形
