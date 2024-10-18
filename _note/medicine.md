@@ -3842,7 +3842,7 @@ More common in middle age women (autoimmune)
   * Benign tumor (Grade I) originating from craniopharyngeal duct remnants (Rathke's pouch)
   * Bimodal age distribution of children and adults , common in suprasellar region
 * **Presentation**
-  * ** Visual field defects (bitemporal hemianopsia), optic atrophy**: Optic chiasm compression
+  * **Visual field defects (bitemporal hemianopsia), optic atrophy**: Optic chiasm compression
   * **Short stature, delayed puberty, hypogonadism, amenorrhea**: Anterior pituitary dysfunction
   * **Hypothermia, consciousness disturbance, memory loss, depression**: Hypothalamic dysfunction
 * **Examination**
@@ -3859,7 +3859,7 @@ More common in middle age women (autoimmune)
 * **Overview**
   * Malignant tumors from extracranial sites metastasizing to the brain
 * **Presentation**
-  * ** Headache, neurological deficits, seizures **: Symptoms vary based on location and size
+  * **Headache, neurological deficits, seizures**: Symptoms vary based on location and size
 * **Examination**
   * **[CT/MRI] Multiple lesions, ring-like enhancement with contrast**: Characteristic imaging features
 * **Management**
