@@ -3635,7 +3635,7 @@ More common in middle age women (autoimmune)
   * **Symptomatic treatment**: Tailored to individual manifestations
 {: .notice--info}
 
-### Neurofibromatosis Type 1 / 神経線維腫症1型
+### Neurofibromatosis Type 1 / 神経線維腫症１型
 
 * **Overview**
   * Autosomal dominant genetic disorder (50-70% due to new mutations) causing multiple neurofibroma
@@ -3650,7 +3650,7 @@ More common in middle age women (autoimmune)
   * **Symptomatic treatment**: Tailored to individual manifestations
 {: .notice--info}
 
-### Neurofibromatosis Type 2 / 神経線維腫症2型
+### Neurofibromatosis Type 2 / 神経線維腫症２型
 
 * **Overview**
   * Autosomal dominant genetic disorder causing acoustic schwannomas
