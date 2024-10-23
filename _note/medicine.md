@@ -3617,6 +3617,197 @@ More common in middle age women (autoimmune)
 
 ## Infectious Disorder / 感染性疾患
 
+### Bacterial Meningitis / 細菌性髄膜炎
+
+* **Overview**
+  * Acute bacterial infection of meninges, medical emergency with high mortality
+* **Presentation**
+  * **Fever, headache, vomiting (within 1 week)**: Meningeal inflammation
+  * **Altered consciousness**: Severe inflammation affecting brain function
+  * **Neck stiffness, Kernig's sign**: Meningeal irritation
+* **Examination**
+  * **[CSF] Pressure↑, WBC↑ (neutrophils) , protein↑, glucose↓**: Bacterial infection and inflammation
+  * **[CSF] Culture, antigen detection, PCR**: Identify causative bacteria
+* **Management**
+  * **Empiric antibiotics**: Immediate treatment based on age
+  * **Targeted antibiotics**: Switch to narrow-spectrum after pathogen identification
+  * **Corticosteroids**: Reduce inflammation
+{: .notice--info}
+
+### Tuberculous Meningitis / 結核性髄膜炎
+
+* **Overview**
+  * Subacute meningitis caused by M. tuberculosis
+  * Common in children 1-6 years
+* **Presentation**
+  * **Fever, headache, vomiting (over 2-4 weeks)**: Meningeal inflammation
+  * **Altered consciousness**: Severe inflammation affecting brain function
+  * **Neck stiffness, Kernig's sign**: Meningeal irritation
+  * **Cranial nerve palsies (III, VI, VII, VIII)**: Basilar inflammation
+* **Examination**
+  * **[CSF] Pressure↑, lymphocytes↑, protein↑, glucose↓, Cl↓, fibrin formation, ADA↑**: TB infection
+  * **[CSF] PCR, acid-fast stain, culture**: Identify TB bacteria
+  * **[Contrast CT/MRI] Basilar enhancement, hydrocephalus**: Characteristic findings
+* **Management**
+  * **Anti-TB drugs (INH, RFP, PZA, EB)**: Multiple drug combination
+  * **Corticosteroids**: Reduce inflammation
+{: .notice--info}
+
+
+### Fungal Meningitis / 真菌性髄膜炎
+
+* **Overview**
+  * Fungal infection of meninges, mainly by Cryptococcus neoformans
+  * Common in AIDS and immunocompromised patients
+* **Presentation**
+  * **Fever, headache, altered consciousness (over 2-4 weeks)**: Meningeal inflammation
+  * **Neck stiffness, Kernig's sign**: Meningeal irritation
+* **Examination**
+  * **[CSF] Pressure↑, lymphocytes↑, protein↑, glucose↓**: Inflammatory response
+  * **[CSF] India ink stain, latex agglutination, PCR, culture**: Identify fungal pathogen
+* **Management**
+  * **IV Amphotericin B + oral Flucytosine**: Standard combination therapy
+  * **Fluconazole**: For maintenance or in renal dysfunction
+{: .notice--info}
+
+### Viral Meningitis / ウイルス性髄膜炎
+
+* **Overview**
+  * Viral infection of meninges, mainly by enteroviruses
+  * Common in children
+* **Presentation**
+  * **Fever, headache, vomiting (within 1 week)**: Meningeal inflammation
+  * **Mild neck stiffness, photophobia**: Meningeal irritation
+* **Examination**
+  * **[CSF] Pressure↑, lymphocytes↑, protein↑, glucose→**: Viral inflammation
+  * **[CSF] Negative stain and culture, PCR, antibody titer**: Rules out bacterial infection, Identify viral pathogen
+* **Management**
+  * **Bed rest**: Self-limiting
+  * **Anti-edema drugs**: If increased intracranial pressure
+  * **Acyclovir**: For HSV or VZV infections
+{: .notice--info}
+
+### Brain Abscess / 脳膿瘍
+
+* **Overview**
+  * Pus collection in brain parenchyma, commonly in fronto-temporal lobes
+  * Secondary to adjacent infections (middle ear, sinuses) or hematogenous spread (heart infection)
+* **Presentation**
+  * **Fever, headache**: Infection and increased intracranial pressure
+  * **Seizures, focal neurological deficits**: Local brain tissue damage
+* **Examination**
+  * **[Blood] WBC↑, ESR↑, CRP↑**: Infection and inflammation
+  * **[CT/MRI] Ring-enhancing lesion with low-density center**: Pus surrounded by capsule
+* **Management**
+  * **High-dose systemic antibiotics + metronidazole**: Target aerobic and anaerobic bacteria
+  * **Anti-edema drugs (corticosteroids, glycerol)**: Reduce brain swelling
+  * **Surgical drainage**: For large (>2cm) or expanding abscesses
+{: .notice--info}
+
+### Herpes Simplex Encephalitis / 単純ヘルペス脳炎
+
+* **Overview**
+  * Most common sporadic encephalitis caused by HSV, predilection for temporal lobe, poor prognosis and often with sequela
+* **Presentation**
+  * **Fever, headache, vomiting, neck stiffness**: Meningeal irritation
+  * **Mental symptoms, memory disturbance**: Temporal lobe involvement
+  * **Consciousness disturbance, seizures**: Severe brain inflammation
+* **Examination**
+  * **[CSF] Pressure↑, lymphocytes↑, protein↑, glucose→**: Viral inflammation
+  * **[MRI] High signal in temporal lobe on T2/FLAIR**: Brain inflammation and edema
+  * **[EEG] Periodic lateralized epileptiform discharges (PLEDs)**: Abnormal brain activity
+  * **[CSV] HSV-DNA detection, anti-HSV antibody↑**: Confirmatory tests
+* **Management**
+  * **Antiviral drugs (acyclovir, vidarabine)**: Antiviral therapy
+  * **Anti-edema drugs (glycerol)**: Reduce brain edema
+  * **Antiepileptic drugs (diazepam, phenobarbital)**: Control seizures
+  * **Corticosteroids**: Reduce inflammation
+{: .notice--info}
+
+### Influenza-Associated Encephalopathy / インフルエンザ脳症
+
+* **Overview**
+  * Acute encephalopathy due to influenza infection, with rapid progression and poor prognosis
+  * Primarily affects children under 5 years
+* **Presentation**
+  * **Rapid onset of consciousness disturbance**: Primary manifestation
+  * **Seizures, abnormal behavior**: Brain dysfunction
+* **Examination**
+  * **[CT/MRI] Various patterns of brain edema**: Brain damage
+* **Management**
+  * **Oxygen, fluid therapy, temperature control**: Maintain vital functions
+  * **Antiepileptic drugs (diazepam, midazolam)**: Control seizures
+  * **Anti-edema drugs (D-mannitol)**: Reduce brain edema
+  * **Antiviral drugs (oseltamivir, zanamivir)**: Target influenza virus
+  * **Steroid pulse therapy, high-dose γ-globulin therapy**: Reduce inflammation
+{: .notice--info}
+
+### Reye Syndrome / Reye症候群
+
+* **Overview**
+  * Acute encephalopathy with diffuse microvesicular fatty liver
+  * Primarily affects children and adolescents
+* **Presentation**
+  * **Vomiting, consciousness disturbances, seizures**: Brain damage
+* **Examination**
+  * **[Blood] AST↑, ALT↑, ammonia↑**: Impaired liver dysfunction
+* **Management**
+  * **D-mannitol**: Reduce brain edema
+  * **Glucose infusion**: Correct hypoglycemia
+  * **Aspirin contraindicated**: May cause Reye syndrome in children with viral infections
+{: .notice--info}
+
+### Subacute Sclerosing Panencephalitis / 亜急性硬化性全脳炎
+
+* **Overview**
+  * Progressive CNS disease occurring years after measles infection or vaccination
+  * Commonly affects children with measles/vaccination history before age 1
+* **Presentation**
+  * **Cognitive decline, personality changes**: Progressive brain degeneration
+  * **Myoclonus, seizures**: Neurological manifestation of brain inflammation
+  * **Akinetic mutism**: Terminal stage of disease
+* **Examination**
+  * **[CSF] Elevated IgG, oligoclonal bands, high measles antibody titer**: Immune response to measles virus
+  * **[EEG] Periodic synchronous discharge with high-amplitude slow waves**: Characteristic finding
+* **Management**
+  * **Inosine pranobex (oral), interferon or ribavirin (intrathecal)**: Antiviral and immunomodulatory effect
+  * **Anticonvulsants**: Control myoclonus and seizures
+  * **Poor prognosis**: Death within few years
+{: .notice--info}
+
+### Progressive Multifocal Leukoencephalopathy / 進行性多巣性白質脳症
+
+* **Overview**
+  * Demyelinating CNS disease caused by JC virus reactivation in immunocompromised patients
+* **Presentation**
+  * **Cognitive dysfunction, hemiplegia, aphasia**: Demyelinating diseases of brain
+  * **Akinetic mutism**: Terminal stage of disease
+* **Examination**
+  * **[MRI] Multiple demyelinating lesions in white matter**: Characteristic finding
+  * **[CSF] JC virus PCR positive**: Confirms diagnosis
+* **Management**
+  * **No curative treatment**: Supportive care only
+  * **Poor prognosis**: Fatal within months of onset
+{: .notice--info}
+
+### Creutzfeldt-Jakob Disease / Creutzfeldt-Jakob病
+
+* **Overview**
+  * Caused by accumulation of abnormal prion protein (PrPSc) in brain
+  * More common in elderly adults, usually sporadic but can be hereditary or acquired
+* **Presentation**
+  * **Gait disturbance, visual problems**: Early neurological manifestations
+  * **Rapidly progressive dementia, myoclonus**: Progressive brain degeneration
+  * **Akinetic mutism**: Terminal stage of disease
+* **Examination**
+  * **[MRI] Progressive cerebral atrophy, high signals in DWI**: Brain tissue changes
+  * **[EEG] Periodic synchronous discharge with high-amplitude sharp waves**: Characteristic finding
+  * **[CSF] Elevated neuron-specific enolase, 14-3-3 protein, total tau protein**: Markers of neuronal damage
+* **Management**
+  * **No currative treatment**: Supportive care only
+  * **Poor prognosis**: Death within 1-2 years
+{: .notice--info}
+
 ## Functional Disease / 機能性疾患
 
 ## Neurocutaneous Syndrome / 母斑症
