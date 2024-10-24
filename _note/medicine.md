@@ -3904,7 +3904,7 @@ More common in middle age women (autoimmune)
   * **Good prognosis**: 95% remission rate
 {: .notice--info}
 
- ### Juvenile Myoclonic Epilepsy / 若年ミオクロニーてんかん
+### Juvenile Myoclonic Epilepsy / 若年ミオクロニーてんかん
 
 * **Overview**
   * Idiopathic generalized epilepsy characterized by myoclonic seizures
