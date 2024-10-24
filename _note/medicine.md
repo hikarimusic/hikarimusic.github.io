@@ -3810,6 +3810,205 @@ More common in middle age women (autoimmune)
 
 ## Functional Disease / 機能性疾患
 
+### Migraine / 片頭痛
+
+* **Overview**
+  * Moderate to severe throbbing headache mainly in temporal region, related to trigeminal nerve excitation and cerebral vasodilation
+  * Common in women aged 20-40s
+* **Presentation**
+  * **Visual aura**: Precedes headache
+  * **Throbbing temporal headache (1-5 attacks per month)**: Due to cerebral vasodilation, worsens with daily activities
+  * **Photophobia, phonophobia, osmophobia, nausea, vomiting**: Associated symptoms due to sensory hypersensitivity
+* **Examination**
+  * **Clinical diagnosis**
+* **Management**
+  * **[Attack] Triptans, NSAIDs, acetaminophen, rest in dark**: Vasoconstriction, pain relief (triptans contraindicated in MI/stroke)
+  * **[Prevention] Ca channel blockers, antiepileptics, antidepressants, β-blockers, lifestyle modification**: Reduce frequency and severity of attacks
+{: .notice--info}
+
+### Tension-type Headache / 緊張型頭痛
+
+* **Overview**
+  * Mild to moderate non-throbbing headache mainly in neck and occipital regions, due to muscle tension
+  * Most common primary headache
+* **Presentation**
+  * **Band-like pressure or heavy sensation around head**: Non-pulsatile, bilateral pain due to muscle tension
+  * **No photophobia, phonophobia, nausea, vomiting, not aggravated by activity**: Distinguishes from migraine
+* **Examination**
+  * **Clinical diagnosis**
+  * **[Physical] Tenderness around skull**: Due to muscle tension
+* **Management**
+  * **Stretching, head exercises, cognitive behavioral therapy**: Reduce muscle tension and stress
+  * **NSAIDs, antidepressants**: Pain relief, attack prevention
+{: .notice--info}
+
+### Cluster Headache / 群発頭痛
+
+* **Overview**
+  * Severe unilateral pain in orbital and temporal region
+  * More common in men aged 20-40s
+* **Presentation**
+  * **Sudden severe unilateral orbital pain (at night, ~1 hour)**: Unknown cause
+  * **Attacks occur at same time daily (clustering ~1 month)**: Circadian rhythm involvement
+  * **Lacrimation, conjunctival injection, nasal congestion/discharge, Horner syndrome**: Autonomic symptoms
+* **Examination**
+  * **Clinical diagnosis**
+* **Management**
+  * **[Attack] Subcutaneous triptan injection, 100% oxygen inhalation**: Rapid pain relief
+  * **[Prevention] Calcium channel blockers (verapamil)**: Reduce frequency of attacks
+{: .notice--info}
+
+### Rolandic Epilepsy / ローランドてんかん
+
+* **Overview**
+  * Childhood partial epilepsy characterized by centrotemporal spikes
+  * Common in boys aged 2-12 years, spontaneous remission in adolescence
+* **Presentation**
+  * **Facial and limb convulsions during sleep**: Simple partial seizures
+  * **Speech arrest and drooling during awakening**: Focal seizures without impairment of consciousness
+* **Examination**
+  * **[EEG] High-amplitude centrotemporal spikes during interictal period**: Characteristic finding for diagnosis
+* **Management**
+  * **Observation**: For seizures not affecting daily life
+  * **Carbamazepine**: For seizure needing control
+{: .notice--info}
+
+### Temporal Lobe Epilepsy / 側頭葉てんかん
+
+* **Overview**
+  * Symptomatic partial epilepsy originating in temporal lobe, commonly caused by hippocampal sclerosis
+  * One of the most common epilepsy
+* **Presentation**
+  * **Epigastric discomfort, déjà vu/jamais vu, anxiety, phantom smells**: Simple partial seizures with autonomic and psychic symptoms
+  * **Staring, lip smacking, chewing movements, wandering, loss of consciousness**: Complex partial seizures with automatisms
+* **Examination**
+  * **[EEG] Unilateral anterior temporal spikes during interictal period**: Localizes epileptic focus
+  * **[MRI] Hippocampal sclerosis**: Common structural cause
+* **Management**
+  * **Ccarbamazepine, lamotrigine, levetiracetam**: For partial epilepsy
+  * **Amygdalohippocampectomy, temporal lobectomy, vagus nerve stimulation**: For drug-resistant cases
+{: .notice--info}
+
+### Childhood Absence Epilepsy / 小児欠神てんかん
+
+* **Overview**
+  * Idiopathic generalized epilepsy characterized by absence seizures
+  * More common in girls aged 4-10 years
+* **Presentation**
+  * **Brief interruption of activity and consciousness (~10 seconds per episode, multiple episodes per day)**: Absence seizures
+* **Examination**
+  * **[EEG] 3 Hz spike-and-wave complexes during ictal and interictal periods**: Diagnostic finding
+* **Management**
+  * **Valproic acid**: First-line treatment
+  * **Ethosuximide, lamotrigine**: Second-line treatment
+  * **Good prognosis**: 95% remission rate
+{: .notice--info}
+
+ ### Juvenile Myoclonic Epilepsy / 若年ミオクロニーてんかん
+
+* **Overview**
+  * Idiopathic generalized epilepsy characterized by myoclonic seizures
+  * More common in adolescence
+* **Presentation**
+  * **Sudden bilateral upper limb jerks**: Myoclonic seizures
+  * **Generalized tonic-clonic seizures**: Present in almost all cases
+  * **Photosensitivity**: Sensory hypersensitivity
+* **Examination**
+  * **[EEG] Polyspike-wave complexes during ictal and interictal periods**: Diagnostic finding
+* **Management**
+  * **Valproic acid**: First-line treatment
+  * **Levetiracetam, lamotrigine, topiramate, clonazepam**: Second-line treatments
+  * **Generally good prognosis**
+{: .notice--info}
+
+### West Syndrome / West症候群
+
+* **Overview**
+  * Generalized epilepsy in infants, mostly due to perinatal problems, congenital malformations, metabolic disorders, or tuberous sclerosis
+  * More common in infants under 1 year 
+* **Presentation**
+  * **Head drops, sudden limb elevation**: Epileptic spasms occurring in clusters
+  * **Developmental delay or regression**: Impact on psychomotor development
+* **Examination**
+  * **[EEG] Chaotic high-amplitude slow waves with spikes during interictal period**: Characteristic hypsarrhythmia
+* **Management**
+  * **ACTH therapy**: First-line treatment
+  * **Vigabatrin**: Second-line treatment
+  * **Poor prognosis**: 10-50% progress to Lennox-Gastaut syndrome
+{: .notice--info}
+
+### Lennox-Gastaut Syndrome / Lennox-Gastaut症候群
+
+* **Overview**
+  * Symptomatic generalized epilepsy in early childhood, may develop from West syndrome or organic brain disorders
+  * More common in children 1-8 years
+* **Presentation**
+  * **Neck/trunk flexion, atypical absence, sudden falls**: Multiple seizure types
+  * **Developmental delay**: Impact on psychomotor development
+* **Examination**
+  * **[EEG] Slow spike-wave complexes during interictal period**: Diagnostic finding
+* **Management**
+  * **Valproic acid, lamotrigine, clonazepam, rufinamide**: Multiple antiepileptic drugs
+  * **Ketogenic diet, corpus callosotomy**: Alternative treatments
+  * **Poor prognosis**: <20% remission rate
+{: .notice--info}
+
+### Dravet Syndrome / Dravet症候群
+
+* **Overview**
+  * Severe epilepsy caused by ion channel gene mutations
+  * Onset in infancy
+* **Presentation**
+  * **Generalized tonic-clonic seizures**: Triggered by fever or bathing
+  * **Multiple seizure types develop**: Treatment-resistant epilepsy
+* **Examination**
+  * **[Genetic testing] SCN1A gene mutation**: Common finding
+* **Management**
+  * **Multiple antiepileptic drugs**: Often refractory to treatment
+  * **Poor prognosis**: High mortality in early childhood
+{: .notice--info}
+
+### Febrile Seizures / 熱性けいれん
+
+* **Overview**
+  * Seizures occurring with fever ≥38°C, due to increased brain excitability during fever
+  * Common in infants/toddlers 6 months-6 years
+* **Presentation**
+  * **Symmetric tonic-clonic seizures (1-2 minutes)**: Brief episodes
+* **Examination**
+  * **Clinical diagnosis**
+* **Management**
+  * **Temperature control, observation**: Mostly self-limiting
+ {: .notice--info}
+
+### Status Epilepticus / てんかん重積
+
+* **Overview**
+  * Continuous or recurring seizures without recovery, can cause irreversible brain damage after 30 minutes
+  * Various causes: epilepsy, stroke, head trauma, encephalitis, toxicity
+* **Presentation**
+  * **Generalized tonic-clonic seizures**: Convulsive status epilepticus
+  * **Impaired consciousness, automatisms**: Non-convulsive status epilepticus
+* **Examination**
+  * **Seizures >5 minutes**: Key diagnostic criterion
+* **Management**
+  * **Immediate airway management, oxygen**: Basic life support
+  * **IV diazepam**: First-line emergency treatment
+{: .notice--info}
+
+### Cerebral Palsy / 脳性麻痺
+
+* **Overview**
+  * Non-progressive brain damage during developmental period, commonly due to perinatal injury (premature birth, asphyxia)
+* **Presentation**
+  * **Abnormal posture, increased/decreased muscle tone**: Impaired coordination between flexor and extensor muscles
+  * **Developmental delay, epilepsy, joint contracture**: Complication during development
+* **Examination**
+  * **Clinical diagnosis**
+* **Management**
+  * **Rehabilitation**: Improve motor function
+{: .notice--info}
+
 ## Neurocutaneous Syndrome / 母斑症
 
 ### Tuberous Sclerosis / 結節性硬化症
