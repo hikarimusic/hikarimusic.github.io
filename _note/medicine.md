@@ -3090,6 +3090,214 @@ of urate
 
 ## Cerebrovascular Disorder / 脳血管障害
 
+### Atherothrombotic Infarction / アテローム血栓性脳梗塞
+
+* **Overview**
+  * Cerebral infarction caused by atherosclerosis in intra/extracranial major arteries, leading to cerebral ischemia and necrosis
+  * Common in middle-aged and elderly, risk factors include hypertension, diabetes, dyslipidemia, smoking, heavy drinking
+* **Presentation**
+  * **Transient weakness, hemiplegia, numbness, amaurosis fugax**: TIA as prodromal symptoms
+  * **Progressive hemiplegia, dysarthria**: Gradual onset during rest due to progressive vessel occlusion
+* **Examination**
+  * **[CT] Normal or early CT sign (hyperacute), low-density area (acute to chronic)**: Infarct evolution
+  * **[MRI] DWI high intensity (hyperacute), T1 low/T2 & FLAIR high intensity (acute to chronic)**: Infarct evolution
+  * **[CTA, MRA, Angiography] Arterial stenosis/occlusion**: Atherosclerotic changes
+* **Management**
+  * **[Acute] rt-PA (within 4.5h), mechanical thrombectomy (within 8h)**: Recanalization
+  * **[Acute] Edaravone, antiplatelet drugs, anticoagulants, glycerol**: Neuroprotection and antithrombotic
+  * **[Chronic] Risk factor management, antiplatelet therapy**: Prevention of recurrence
+{: .notice--info}
+
+### Cardioembolic Infarction / 心原性脳塞栓症
+
+* **Overview**
+  * Cerebral infarction caused by embolism from cardiac thrombus, leading to cerebral ischemia and necrosis
+  * Common in patients with atrial fibrillation, recent myocardial infarction, valvular disease, infectious endocarditis
+* **Presentation**
+  * **Sudden hemiplegia, dysarthria, aphasia, consciousness disturbance**: Abrupt onset during daytime activity
+* **Examination**
+  * **[CT] Normal or early CT sign (hyperacute), low-density area (acute to chronic)**: Infarct evolution
+  * **[MRI] DWI high intensity (hyperacute), T1 low/T2 & FLAIR high intensity (acute to chronic)**: Infarct evolution
+  * **[CTA, MRA, Angiography] Vessel occlusion without significant atherosclerosis**: Embolic nature
+  * **[Echocardiography] Cardiac thrombus**: Source of embolism
+* **Management**
+  * **[Acute] rt-PA (within 4.5h), mechanical thrombectomy (within 8h)**: Recanalization
+  * **[Acute] Edaravone, glycerol, heparin**: Neuroprotection and anticoagulation
+  * **[Chronic] DOACs or warfarin**: Prevention of recurrence
+{: .notice--info}
+
+### Lacunar Infarction / ラクナ梗塞
+
+* **Overview**
+  * Small infarction in penetrating arteries of brain, leading to cerebral ischemia and necrosis
+  * Common in elderly with hypertension
+* **Presentation**
+  * **Mild motor weakness, sensory disturbance, dysarthria**: Small vessel occlusion in penetrating artery territory
+* **Examination**
+  * **[CT] Small low-density area**: Small infarct in penetrating artery territory
+  * **[MRI] Small DWI high intensity (hyperacute), T1 low/T2 & FLAIR high intensity (acute to chronic)**: Small infarct in penetrating artery territory
+* **Management**
+  * **[Acute] rt-PA (within 4.5h), edaravone, antiplatelet drugs**: Early treatment
+  * **[Chronic] Antiplatelet therapy, blood pressure control**: Prevention of recurrence
+{: .notice--info}
+
+### Transient Ischemic Attack / 一過性脳虚血発作
+
+* **Overview**
+  * Temporary neurological symptoms due to focal brain ischemia without infarction, important warning sign for future stroke
+  * Common in patients with atherosclerosis risk factors or cardiac diseases
+* **Presentation**
+  * **Sudden amaurosis fugax, weakness, hemiplegia, numbness, aphasia, dizziness (resolve in 2-15 minutes)**: Temporary brain or retinal ischemia
+* **Examination**
+  * **[CT, MRI] No acute infarction**: Differentiates from stroke
+* **Management**
+  * **Antiplatelet therapy, anticooagulation**: Prevention of atherothrombotic events or cardiac embolism
+  * **Risk factor management**: Prevent recurrence
+{: .notice--info}
+
+### Wallenberg Syndrome / Wallenberg症候群
+
+* **Overview**
+  * Lateral medullary infarction due to vertebrobasilar artery occlusion
+  * Common in patients with atherosclerosis risk factors or cardiac diseases
+* **Presentation**
+  * **Nystagmus, vertigo, ataxia**: Vestibular and cerebellar involvement
+  * **Ipsilateral facial sensory loss, dysphagia, hoarseness, Horner's syndrome**: Cranial nerve and sympathetic pathway involvement
+  * **Contralateral body temperature and pain sensory loss**: Lateral spinothalamic tract involvement
+  * **No motor weakness or deep sensory loss**: Sparing of pyramidal tract and dorsal column
+* **Examination**
+  * **[CT, MRI] Stroke lesion in lateral medulla**: Lateral medullary infarction
+* **Management**
+  * **Treatments of atherothrombotic or cardioembolic stroke**: Based on underlying cause
+{: .notice--info}
+
+### Cerebellar Infarction / 小脳梗塞
+
+* **Overview**
+  * Infarction in cerebellar territory (mainly PICA)
+  * Common in patients with atherosclerosis risk factors or cardiac diseases
+* **Presentation**
+  * **Sudden vertigo, nausea, vomiting, ataxia, dysarthria**: Cerebellar dysfunction
+  * **Consciousness disturbance**: Indicates brain stem compression
+* **Examination**
+  * **[CT, MRI] Stroke lesion in cerebellar region**: Cerebellar infarction
+* **Management**
+  * **[No compression] Conservative treatment**: Standard stroke care
+  * **[Hydrocephalus] Ventricular drainage**: Relieve CSF pressure
+  * **[Brain stem compression] Decompressive surgery**: Prevent herniation
+{: .notice--info}
+
+### Carotid Artery Stenosis / 頸動脈狭窄症
+
+* **Overview**
+  * Atherosclerotic stenosis of carotid artery, risk for cerebral infarction
+  * Risk factors include hypertension, diabetes, dyslipidemia, smoking, heavy drinking
+* **Presentation**
+  * **Asymptomatic**: Incidental finding
+  * **Transient motor weakness, amaurosis fugax, hemiplegia**: TIA symptoms
+* **Examination**
+  * **[Ultrasound, MRI/MRA, CTA, Angiography] Carotid artery stenosis**: Confirm diagnosis and assess severity
+* **Management**
+  * **Risk factor control, antiplatelet drugs**: Prevent strokes
+  * **Carotid endarterectomy (CEA), carotid artery stenting (CAS)**: Based on symptoms and stenosis severity
+{: .notice--info}
+
+### Cerebral Artery Dissection / 脳動脈解離
+
+* **Overview**
+  * Bleeding within walls of cerebral artery, most common in intracranial vertebral artery
+  * Important cause of stroke in 40-50s
+* **Presentation**
+  * **Sudden posterior neck/occipital pain**: Characteristic initial symptom
+  * **Stroke symptoms**: Due to ischemia or subarachnoid hemorrhage
+* **Examination**
+  * **[MRI/MRA, DSA] Pearl and string sign, double lumen, intimal flap**: Confirms diagnosis
+* **Management**
+  * **[Ischemic] Anticoagulation or antiplatelet therapy**: Recanalization
+  * **[Hemorrhagic] Trapping, proximal clipping, coil embolization**: Prevent rebleeding
+{: .notice--info}
+
+### Putaminal Hemorrhage / 被殻出血
+
+* **Overview**
+  * Rupture and bleeding of lenticulostriate arteries
+  * Common in patients with hypertension history
+* **Presentation**
+  * **Sudden headache, consciousness disturbance**: Increased intracranial pressure
+  * **Contralateral hemiplegia, sensory disturbance**: Damage to adjacent internal capsule
+  * **Conjugate deviation towards lesion side**: Damage to PPRF
+* **Examination**
+  * **[CT] High-density area in putamen**: Blood in putamen
+* **Management**
+  * **Conservative treatment**: For hematoma ≤30mL
+  * **Hematoma removal surgery**: For hematoma >30mL
+{: .notice--info}
+
+### Thalamic Hemorrhage / 視床出血
+
+* **Overview**
+  * Rupture and bleeding of thalamoperforating and thalamogeniculate arteries, poor prognosis in severe cases
+  * Common in patients with hypertension history
+* **Presentation**
+  * **Sudden headache, consciousness disturbance**: Increased intracranial pressure
+  * **Hemiplegia, sensory disturbance**: Damage to thalamus and internal capsule
+  * **Downward and medial deviation of eyes**: Damage to superior colliculus 
+* **Examination**
+  * **[CT] High-density area in thalamus**: Blood in thalamus
+* **Management**
+  * **Conservative treatment**: Surgical intervention contraindicated due to critical location
+  * **Ventricular drainage**: For intraventricular hemorrhage with impending herniation
+{: .notice--info}
+
+### Pontine Hemorrhage / 橋出血
+
+* **Overview**
+  * Rupture and bleeding of pontine arteries, poor prognosis in severe cases
+  * Common in patients with hypertension history
+* **Presentation**
+  * **Consciousness disturbance, respiratory disturbance**: Direct brainstem compression
+  * **Quadriplegia, bilateral decerebrate rigidity**: Damage to motor pathways
+  * **Fixed midline gaze, pinpoint pupils**: Damage to PPRF and sympathetic tract
+* **Examination**
+  * **[CT] High-density area in pons**: Blood in pons
+* **Management**
+  * **Conservative treatment**: Surgical intervention contraindicated due to critical location
+{: .notice--info}
+
+### Cerebellar Hemorrhage / 小脳出血
+
+* **Overview**
+  * Rupture and bleeding of cerebellar artery (mainly SCA)
+  * Common in patients with hypertension history
+* **Presentation**
+  * **Sudden severe occipital headache**: Direct cerebellar compression
+  * **Rotatory vertigo, repeated vomiting , nystagmus**: Damage to cerebellar vestibular system
+  * **Gait disturbance without quadriplegia**: Cerebellar ataxia
+* **Examination**
+  * **[CT] High-density area in cerebellum**: Blood in cerebellum
+* **Management**
+  * **Conservative treatment**: For hematoma ≤30mL
+  * **Hematoma removal surgery**: For hematoma >30mL
+{: .notice--info}
+
+### Subcortical Hemorrhage / 皮質下出血
+
+* **Overview**
+  * Rupture and bleeding of cortical branches of cerebral arteries
+  * Common in patients with arteriovenous malformation (young) or cerebral amyloid angiopathy (elderly)
+* **Presentation**
+  * **Sudden headache, seizures**: Increased intracranial pressure
+  * **Contralateral sensory disturbance**: Damage to parietal lobe
+  * **Homonymous hemianopia**: Damage to occipital lobe
+  * **Sensory aphasia, visual field defect**: Damage to temporal lobe
+  * **Contralateral motor paralysis**: Damage to frontal lobe
+* **Examination**
+  * **[CT] High-density area in subcortical region**: Blood in affected lobe
+* **Management**
+  * **Conservative treatment**: For hematoma with depth >1cm from surface
+  * **Hematoma removal surgery**: For hematoma with depth ≤1cm from surface
+{: .notice--info}
+
 <!-- ### Cerebral Infarction / 脳梗塞
 
 * **Overview**
