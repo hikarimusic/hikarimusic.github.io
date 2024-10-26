@@ -3298,6 +3298,75 @@ of urate
   * **Hematoma removal surgery**: For hematoma with depth ≤1cm from surface
 {: .notice--info}
 
+### Cerebral Aneurysm / 脳動脈瘤
+
+* **Overview**
+  * Bulging of cerebral arteries due to medial defects and acquired factors, causes subarachnoid hemorrhage when ruptured
+  * More common in 40-60 years adults
+* **Presentation**
+  * **Asymptomatic**: Found incidentally
+  * **Pupil dilation, diplopia, ptosis**: IC-PC aneurysm compressing cranial nerve III
+  * **Visual disturbance**: IC-Oph aneurysm compressing cranial nerve II
+* **Examination**
+  * **[MRA, 3D-CTA, DSA] Visible aneurysm**: Confirms diagnosis and location
+* **Management**
+  * **Surgical neck clipping, endovascular coil embolization**: For symptomatic or high risk aneurysm
+  * **Observation, blood pressure control, lifestyle modification**: For asymptomatic and small aneurysm 
+{: .notice--info}
+
+### Subarachnoid Hemorrhage / くも膜下出血
+
+* **Overview**
+  * Bleeding into subarachnoid space from ruptured cerebral aneurysm or AVM, rapid progression and high mortality
+  * More common in 40-60 years adults
+* **Presentation**
+  * **Thunderclap headache**: Rupture of cerebral aneurysm
+  * **Nausea, vomiting, altered consciousness, seizures**: Increased intracranial pressure
+  * **Neck stiffness, Kernig's sign**: Meningeal irritation
+* **Examination**
+  * **[CT] Starfish-shaped high density in suprasellar region**: Bleeding in subarachnoid space
+  * **[MRI] FLAIR high signal in subarachnoid space**: When CT is negative
+  * **[CSF] Bloody or xanthochromic**: When CT, MRI are negative
+  * **[DSA, 3D-CTA, MRA] Identify bleeding source**: Pre-surgical planning
+* **Management**
+  * **[Pre-op] Blood pressure control, anti-edema drugs, sedation, anticonvulsants**: Prevent rebleeding and herniation
+  * **[Definitive] Surgical neck clipping, endovascular coil embolization**: Repair ruptured cerebral arteries
+  * **[Post-op] Fasudil, ozagrel sodium, Triple-H therapy**: Prevent/treat vasospasm
+{: .notice--info}
+
+### Arteriovenous Malformation / 脳動静脈奇形
+
+* **Overview**
+  * Congenital vascular malformation with direct arteriovenous shunting and abnormal vessel cluster (nidus)
+  * More common children and young adults
+* **Presentation**
+  * **Headache, seizures, progressive hemiparesis**: Cerebral ischemia due to steal phenomenon
+  * **Sudden headache, hemiparesis, altered consciousness**: Intracerebral hemorrhage
+  * **Neck stiffness, Kernig's sign**: Subarachnoid hemorrhage
+* **Examination**
+  * **[DSA, MRA] Dilated and tortuous vessels with nidus**: Abnormal vascular connections
+  * **[MRI] Multiple flow voids**: Rapid flow rate in nidus
+* **Management**
+  * **Surgical excision, endovascular embolization, stereotactic radiosurgery**: For hemorrhagic or progressive cases
+  * **Conservative treatment**: For non-hemorrhagic or inoperable cases
+{: .notice--info}
+
+### Moyamoya Disease / もやもや病
+
+* **Overview**
+  * Progressive stenosis/occlusion of bilateral ICA terminus, causing formation of fragile collateral vessels
+  * Common in children <10y and adults 30-40y
+* **Presentation**
+  * **Transient hemiparesis, altered consciousness, speech disturbance after hyperventilation (in children)**: Cerebral ischemia
+  * **Focal neurological deficits (in adults)**: Intracerebral hemorrhage or ischemia
+* **Examination**
+  * **[MRA, DSA] Bilateral stenosis of ICA terminus and proximal ACA/MCA, abnormal vessel network**: Characteristic moyamoya vessels
+  * **[MRI] Flow voids in bilateral basal ganglia**: Rapid flow rate in collateral vessels
+* **Management**
+  * **STA-MCA anastomosis, EMS, EDAS**: Improve blood flow by direct and indirect bypass
+  * **Antiplatelet drugs, anticonvulsants**: Conservative treatment
+{: .notice--info}
+
 <!-- ### Cerebral Infarction / 脳梗塞
 
 * **Overview**
