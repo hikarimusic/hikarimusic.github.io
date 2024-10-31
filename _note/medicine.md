@@ -3367,6 +3367,34 @@ of urate
   * **Antiplatelet drugs, anticonvulsants**: Conservative treatment
 {: .notice--info}
 
+### Carotid-Cavernous Fistula / 内頸動脈-海綿静脈洞瘻
+
+* **Overview**
+  * Abnormal connection between internal carotid artery and cavernous sinus
+  * Due to trauma or aneurysm rupture
+* **Presentation**
+  * **Pulsatile exophthalmos, conjunctival congestion/edema, orbital bruit**: High pressure in cavernous sinus causing venous congestion
+  * **Diplopia, visual disturbance**: Extraocular muscle palsy due to cranial nerve compression
+* **Examination**
+  * **[DSA] Early visualization of cavernous sinus in arterial phase**: Direct arteriovenous shunting
+* **Management**
+  * **Endovascular surgery**: Close fistula
+{: .notice--info}
+
+### Normal Pressure Hydrocephalus / 正常圧水頭症
+
+* **Overview**
+  * Chronic hydrocephalus with normal CSF pressure due to circulation disturbance in subarachnoid space
+  * Idiopathic (60-70s) or secondary to SAH, trauma, meningitis 
+* **Presentation**
+  * **Gait disturbance, cognitive decline, urinary incontinence**: Due to enlarged ventricles compressing brain tissue
+* **Examination**
+  * **[CT/MRI] Symmetrical ventricular enlargement, dilated Sylvian fissures and basal cisterns**: Hydrocephalus involving ventricles and subarachnoid space
+  * **[Lumbar puncture] Normal CSF pressure**: Distinguishes from other types of hydrocephalus
+* **Management**
+  * **Lumboperitoneal (L-P) or ventriculoperitoneal (V-P) shunt**: Divert excess CSF
+{: .notice--info}
+
 <!-- ### Cerebral Infarction / 脳梗塞
 
 * **Overview**
