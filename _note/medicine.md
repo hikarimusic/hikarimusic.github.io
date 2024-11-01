@@ -4069,6 +4069,131 @@ More common in middle age women (autoimmune)
 
 ## Peripheral Nerve Disorder / 末梢神経障害
 
+### Guillain-Barré Syndrome / Guillain-Barré症候群
+
+* **Overview**
+  * Acute immune-mediated polyneuropathy affecting myelin/axons of peripheral nerves, generally self-limiting but can be severe
+  * Usually preceded by respiratory or gastrointestinal infection
+* **Presentation**
+  * **Ascending symmetric flaccid paralysis, respiratory difficulty (severe cases)**: Lower motor neuron damage
+  * **Sensory disturbances in limbs, decreased tendon reflexes**: Peripheral nerve dysfunction
+  * **Facial paralysis, bulbar palsy, diplopia**: Cranial nerve involvement
+* **Examination**
+  * **[Blood] Anti-ganglioside antibodies (anti-GM1)**: Autoimmune nature
+  * **[CSF] Protein↑, cell→**: Inflammation but no infection
+  * **[Nerve conduction] Decreased conduction velocity, conduction block**: Demyelination/axonal damage
+* **Management**
+  * **[Mild] Conservative treatment**: Self-limiting nature
+  * **[Moderate] IV immunoglobulin, plasma exchange**: Modulate immune response
+  * **[Severe] Respiratory support**: For respiratory muscle paralysis
+{: .notice--info}
+
+### Chronic Inflammatory Demyelinating Polyradiculoneuropathy / 慢性炎症性脱髄性多発根ニューロパチー
+
+* **Overview**
+  * Chronic autoimmune demyelinating peripheral neuropathy
+  * Progress over >2 months, 	no preceding infection
+* **Presentation**
+  * **Progressive weakness and sensory disturbances in limbs, decreased tendon reflexes**: Demyelination of peripheral nerves
+* **Examination**
+  * **[Nerve conduction] Decreased conduction velocity, conduction block**: Demyelination
+  * **[CSF] Protein↑, cell→**: Inflammation but no infection
+  * **[MRI] Thickening and enhancement of nerve roots and plexus**: Chronic inflammation of nerve roots
+  * **[Nerve biopsy] Demyelination, remyelination, inflammatory cell infiltration**: Confirms diagnosis
+* **Management**
+  * **Corticosteroids, IV immunoglobulin, plasma exchange**: Modulate immune response
+{: .notice--info}
+
+### Charcot-Marie-Tooth Disease / Charcot-Marie-Tooth病
+
+* **Overview**
+  * Hereditary progressive peripheral neuropathy caused by mutations in myelin-related genes 
+  * Autosomal dominant inheritance, onset in 10-30s
+* **Presentation**
+  * **Distal leg weakness, calf atrophy (drop foot), gait disturbance (steppage gait)**: Progressive motor neuropathy
+  * **Mild sensory disturbance, decreased tendon reflexes**: Peripheral nerve dysfunction
+* **Examination**
+  * **[Nerve conduction] Decreased conduction velocity**: Demyelination
+  * **[Genetic testing] Myelin-related genes mutation**: Confirms diagnosis
+  * **[Nerve biopsy] Onion bulb formation**: Chronic demyelination and remyelination
+* **Management**
+  * **Supportive care**: No specific treatment available
+  * **Good life prognosis**: Very slow progression
+{: .notice--info}
+
+### Familial Amyloid Polyneuropathy / 家族性アミロイドポリニューロパチー
+
+* **Overview**
+  * Hereditary amyloid deposition in multiple organs, caused by mutant transthyretin produced in liver
+  * Autosomal dominant inheritance, onset in 20-40s
+* **Presentation**
+  * **Progressive sensory disturbances**: Sensory nerve involvement
+  * **Diarrhea, constipation, erectile dysfunction, orthostatic hypotension**: Autonomic nerve involvement
+  * **Progressive muscle weakness and atrophy**: Motor nerve involvement
+  * **Heart failure, arrhythmia, kidney dysfunction, eye dysfunction**: Systemic amyloid deposition
+* **Examination**
+  * **[Blood] Abnormal transthyretin**: Genetic mutation
+  * **[Nerve conduction] Decreased amplitude, reduced conduction velocity**: Axonal and myelin damage
+  * **[Biopsy] Congo red positive amyloid deposits**: Confirmation of amyloid
+  * **[Genetic testing] Transthyretin gene mutation**: Definitive diagnosis
+* **Management**
+  * **Liver transplantation**: Limited indication
+  * **Poor prognosis**
+{: .notice--info}
+
+### Diabetic Neuropathy / 糖尿病性ニューロパチー
+
+* **Overview**
+  * Complication of diabetes, caused by metabolic disorders and vascular damage to nerves
+  * Usually occurs after 5-10 years of diabetes
+* **Presentation**
+  * **Symmetric glove-stocking sensory disturbance, decreased vibration sense, absent Achilles reflex**: Sensory nerve involvement
+  * **Orthostatic hypotension, urinary dysfunction, erectile dysfunction, GI symptoms**: Autonomic nerve involvement
+  * **Eye movement disorders, carpal tunnel syndrome, proximal muscle atrophy**: Mononeuropathy
+* **Examination**
+  * **[Clinical] History of diabetes**: Essential for diagnosis
+* **Management**
+  * **Blood glucose control**: Prevent disease progression
+  * **NSAIDs, antidepressants, pregabalin**: Pain control
+  * **Aldose reductase inhibitors, vitamin B12**: Metabolic improvement
+{: .notice--info}
+
+### Trigeminal Neuralgia / 三叉神経痛
+
+* **Overview**
+  * Paroxysmal severe pain along trigeminal nerve distribution, mainly caused by vascular compression
+  * Common in middle-aged females
+* **Presentation**
+  * **Sudden severe stabbing pain in unilateral face (seconds to minutes)**: Compressed trigeminal nerve irritation
+  * **Pain triggered by touching or moving face**: Hypersensitivity of affected nerve
+* **Examination**
+  * **[MRI] Vascular compression of trigeminal nerve**: Cause of idiopathic trigeminal neuralgia
+* **Management**
+  * **Anticonvulsants (carbamazepine, pheytoin, valproic acid), pregabalin**: Stabilize neuronal activity
+  * **Trigeminal nerve block, microvascular decompression surgery**: For medication-resistant cases
+{: .notice--info}
+
+### Bell's Palsy and Ramsay Hunt Syndrome / Bell麻痺・Ramsay Hunt症候群
+
+* **Overview**
+  * **[Bell's Palsy]** HSV-1 reactivation causing CN VII inflammation, good prognosis (95% recovery)
+  * **[Ramsay Hunt]** VZV reactivation causing CN VII/VIII inflammation, worse prognosis (60-70% recovery)
+  * Common in 50s adults (Bell), 20s and 50s adults (Ramsay Hunt)
+* **Presentation**
+  * **Unable to close eye, wrinkle forehead, raise mouth (sudden unilateral facial weakness)**: CN VII Motor component involvement
+  * **Ear pain, hyperacusis, decreased taste, decreased tear/saliva production**: CN VII sensory and autonomic component involvement
+  * **[Ramsay Hunt] Painful vesicles in ear/oral cavity**: VZV reactivation
+  * **[Ramsay Hunt] Hearing loss, tinnitus, vertigo**: CN VIII involvement
+* **Examination**
+  * **[Bell's] Exclusion of other causes**: Diagnosis of exclusion
+  * **[Ramsay Hunt] Vesicles in ear/oral cavity**: Herpes zoster
+* **Management**
+  * **Corticosteroids**: Reduce inflammation and edema
+  * **Antiviral drugs (acyclovir)**: Suppress viral replication
+  * **Vitamin B**: Promote nerve regeneration
+  * **Facial nerve decompression**: For severe cases
+{: .notice--info}
+
 ## Muscular Disorder / 筋疾患
 
 ## Infectious Disorder / 感染性疾患
