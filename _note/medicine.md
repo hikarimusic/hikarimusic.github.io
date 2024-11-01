@@ -3845,7 +3845,158 @@ Autosomal dominant inheritance, due to abnormal expansion of CAG repeats
   * **[Don’t] Folic acid administration alone is contraindicated**: Mask the neurological symptoms and further consume Vitamin B12
 {: .notice--info} -->
 
-## Demyelinating Disorder / 脱髄性疾患
+## Miscellaneous CNS Disorder / その他の中枢神経疾患
+
+### Multiple Sclerosis / 多発性硬化症
+
+* **Overview**
+  * Autoimmune demyelinating disease affecting central nervous system white matter
+  * Multiple lesions occur in space and time with relapsing-remitting course
+  * Common in women aged 15-50
+* **Presentation**
+  * **Sudden visual impairment, central scotoma**: Retrobulbar optic neuritis
+  * **Double vision, MLF syndrome**: Brainstem involvement
+  * **Muscle weakness, hyperreflexia, Babinski sign**: Pyramidal tract involvement
+  * **Numbness, trigeminal neuralgia, Lhermitte's sign**: Sensory tract involvement
+  * **Ataxia, tremor, nystagmus, dysarthria**: Cerebellar involvement
+  * **Neurogenic bladder**: Autonomic system involvement
+  * **Euphoria, depression**: Mental symptoms
+* **Examination**
+  * **[MRI] Multiple white matter lesions**: Spatial dissemination
+  * **[CSF] IgG↑, oligoclonal bands, MBP↑**: Psychiatric destruction
+* **Management**
+  * **[Acute] Steroid pulse therapy, plasmapheresis**: Reduce inflammation
+  * **[Prevention] IFN-β, glatiramer acetate, fingolimod, natalizumab**: Prevent relapses
+  * **[Symptomatic] Gabapentin/pregabalin (pain), carbamazepine (spasm), baclofen (spasticity)**: Manage symptoms
+{: .notice--info}
+
+### Neuromyelitis Optica / 視神経脊髄炎
+
+* **Overview**
+  * Autoimmune disease with antibodies against aquaporin-4 (AQP4) in astrocytes
+  * Common in 30s women, often associated with other autoimmune diseases
+* **Presentation**
+  * **Visual loss, blindness, horizontal hemianopia**: Severe optic neuritis
+  * **Quadriparesis, sensory disturbance, bladder/bowel dysfunction**: Transverse myelitis
+* **Examination**
+  * **[MRI] Extensive spinal cord lesions (≥3 vertebral segments)**: Extensive transverse myelitis
+  * **[Blood] Anti-AQP4 antibody positive**: Confirms diagnosis
+  * **[CSF] Oligoclonal bands usually negative**: Differentiate from MS
+* **Management**
+  * **[Acute] Steroid pulse therapy, plasmapheresis**: Reduce inflammation
+  * **[Prevention] Steroids, immunosuppressants, rituximab**: Prevent relapses
+{: .notice--info}
+
+### Acute Disseminated Encephalomyelitis / 急性散在性脳脊髄炎
+
+* **Overview**
+  * Inflammatory demyelinating disease of central nervous system, similar to MS but with rapid onset and remission
+  * Common in children, triggered by viral infections or vaccines
+* **Presentation**
+  * **Sudden onset of headache, vomiting, consciousness disturbances, seizures**: Acute disseminated demyelination of central nervous system
+* **Examination**
+  * **[MRI] Multiple demyelinating lesions**: Similar to MS but typically monophasic
+* **Management**
+  * **High-dose steroids, immunoglobulin**: Reduce inflammation
+  * **Good prognosis**: Usually monophasic
+{: .notice--info}
+
+### Wernicke's Encephalopathy / Wernicke脳症
+
+* **Overview**
+  * Acute/subacute inflammation and necrosis in periventricular areas due to vitamin B1 deficiency
+  * Often seen in alcoholism, post-gastrointestinal surgery, hyperemesis gravidarum
+* **Presentation**
+  * **Altered consciousness, delirium, confusion**: Thalamus involvement
+  * **Eye movement disorders, nystagmus**: Brainstem involvement
+  * **Trunk ataxia, unsteady gait**: Cerebellar dysfunction
+* **Examination**
+  * **[MRI] T2/FLAIR high signal in periventricular areas**: Periventricular inflammation and necrosis
+  * **[Blood] Low vitamin B1, lactic acidosis**: Thiamine deficiency and metabolic derangement
+* **Management**
+  * **Immediate high-dose IV thiamine (before glucose administration)**: Replace deficiency
+  * **May progress to Korsakoff syndrome**: Amnesia, disorientation, confabulation
+{: .notice--info}
+
+### Subacute Combined Degeneration of Spinal Cord / 亜急性脊髄連合変性症
+
+* **Overview**
+  * Vitamin B12 deficiency causing degeneration of peripheral and central nervous system
+  * Common after total gastrectomy due to malabsorption of B12
+* **Presentation**
+  * **Macrocytic anemia, Hunter glossitis**: Vitamin B12 deficiency
+  * **Romberg sign, impaired proprioception**: Posterior column damage
+  * **Hyperreflexia, Babinski sign, spastic paralysis**: Lateral column (pyramidal tract) damage
+  * **Numbness and weakness in extremities**: Peripheral nerve damage
+* **Examination**
+  * **[Blood] Vitamin B12↓, methylmalonic acid↑, homocysteine↑**: B12 deficiency disrupts folate and fatty acid metabolism
+  * **[Urine] Methylmalonic acid excretion↑**: Same
+* **Management**
+  * **Intramuscular vitamin B12**: Replace deficiency
+  * **Avoid folic acid alone**: Can worsen neurological symptoms
+{: .notice--info}
+
+### Spinal Cord Infarction / 脊髄梗塞
+
+* **Overview**
+  * Infarction of anterior 2/3 of spinal cord due to anterior spinal artery occlusion
+  * Common causes: Aortic dissection, aortic surgery, atherosclerosis
+* **Presentation**
+  * **Motor weakness, sensory loss (pain, temperature)**: Anterior and lateral columns involvement
+  * **Preserved position/vibration sense**: Posterior column sparing
+* **Examination**
+  * **[MRI] T2 high signal in anterior spinal cord**: Anterior spinal cord infarction
+* **Management**
+  * **Edaravone, anti-edema drugs, corticosteroids**: Neuroprotection
+{: .notice--info}
+
+### Spinal Arteriovenous Malformation / 脊髄動静脈奇形
+
+* **Overview**
+  * Abnormal arteriovenous shunts in spinal cord vasculature, classified as intramedullary AVM, perimedullary AVF, dural AVF
+* **Presentation**
+  * **Acute motor and sensory disturbances, headache, vomiting, consciousness disturbances**: Acute intramedullary or subarachnoid hemorrhage
+  * **Gradual motor and sensory disturbances**: Venous hypertension causes congestion and edema in spinal cord
+* **Examination**
+  * **[MRI] Flow void lesions of nidus or shunt, T2 high signal in spinal cord**: Arteriovenous malformation, spinal edema
+  * **[Angiography] Nidus, shunt**: Definitive diagnosis
+* **Management**
+  * **[Surgical treatment]**: Direct removal of AVM/AVF
+  * **[Endovascular treatment]**: Catheter-based embolization
+{: .notice--info}
+
+### Syringomyelia / 脊髄空洞症
+
+* **Overview**
+  * Fluid-filled cavity formation within spinal cord causing neurological deficits
+  * Common in 20-40s, often associated with Chiari malformation
+* **Presentation**
+  * **Upper limb temperature and pain sensory loss (unilateral first and bilateral cape-like later)**: Damage to spinothalamic tract (central spinal cord)
+  * **Upper limb muscle atrophy, lower limb spastic paralysis**: Progress to involve anterior horn and lateral column
+  * **Bulbar palsy, Horner’s syndrome**: Progress to involve upper and lower levels of spinal cord
+* **Examination**
+  * **[MRI] Cavity formation within spinal cord**: Confirm diagnosis
+* **Management**
+  * **Foramen magnum decompression**: Primary treatment for Chiari-associated cases
+  * **Syrinx-subarachnoid shunt**: Direct treatment of syrinx
+{: .notice--info} 
+
+### Brown-Séquard Syndrome / Brown-Séquard症候群
+
+* **Overview**
+  * Hemisection of spinal cord resulting in distinct neurological deficits
+  * Causes include trauma, tumor, infection
+* **Presentation**
+  * **[At level of injury] Ipsilateral all sensory loss**: Damage to dorsal root entry
+  * **[At level of injury] Ipsilateral muscle weakness**: Damage to anterior horn exit
+  * **[Below level of injury] Ipsilateral proprioceptive loss**: Damage to dorsal column before crossing
+  * **[Below level of injury] Ipsilateral spastic paralysis**: Damage to pyramidal tract after crossing
+  * **[Below level of injury] Contralateral pain and temperature loss**: Damage to lateral spinothalamic tract after crossing
+* **Examination**
+  * **[Physical] Characteristic sensory and motor loss**
+* **Management**
+  * **Treat underlying cause**
+{: .notice--info} 
 
 <!-- ### Multiple Sclerosis / 多発性硬化症
 
