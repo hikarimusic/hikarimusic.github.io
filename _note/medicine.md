@@ -4196,6 +4196,113 @@ More common in middle age women (autoimmune)
 
 ## Muscular Disorder / 筋疾患
 
+### Duchenne and Becker Muscular Dystrophy / Duchenne型・Becker型筋ジストロフィー
+
+* **Overview**
+  * Congenital progressive muscle weakness due to deficiency of dystrophin protein, Duchenne is severe form and Becker is milder form
+  * X-linked recessive inheritance, mainly affects boys
+* **Presentation**
+  * **Delayed walking, abnormal gait (waddling)**: Progressive muscle weakness
+  * **Gowers' sign, calf pseudohypertrophy**: Proximal muscle weakness
+* **Examination**
+  * **[Blood] CK↑, aldolase↑, AST↑, ALT↑, LDH↑**: Muscle cell damage
+  * **[Urine] Creatine/creatinine ratio↑**: Decreased utilization of creatine by muscle cells
+  * **[EMG] Myogenic changes**: Muscle fiber degeneration
+  * **[Genetic test] Dystrophin gene mutation**: Confirms diagnosis
+* **Management**
+  * **Corticosteroids**: Slow disease progression
+  * **Physical therapy**: Maintain function
+  * **Ventilatory support**: For respiratory failure
+ {: .notice--info}
+
+### Myotonic Dystrophy / 筋強直性ジストロフィー
+
+* **Overview**
+  * Hereditary myopathy with delayed muscle relaxation and muscle weakness
+  * Autosomal dominant disorder, common in 20-30s adults
+* **Presentation**
+  * **Grip myotonia, tongue deformation**: Delayed muscle relaxation
+  * **Distal muscle weakness and atrophy, dysphagia, dysarthria**: Progressive muscle degeneration
+  * **Hatchet face**: Facial, temporal, and masseter muscle atrophy
+  * **Frontal baldness, cataracts, diabetes, cardiac conduction defects**: Multi-system involvement
+* **Examination**
+  * **[Blood] CK↑, IgG↓**: Muscle damage and immune changes
+  * **[EMG] Myotonic discharge (dive bomber sound)**: Characteristic electrical activity
+  * **[Genetic test] Abnormal expansion in DMPK gene**: Confirms diagnosis
+* **Management**
+  * **Supportive care**: No definitive treatment
+  * **Phenytoin**: For severe myotonia
+{: .notice--info}
+
+### Mitochondrial Encephalomyopathy (MELAS) / ミトコンドリア脳筋症
+
+* **Overview**
+  * CNS and muscular disorder caused by mitochondrial DNA mutations
+  * Maternal inheritance, common in 5-15 years old
+* **Presentation**
+  * **Headache, vomiting, seizures, altered consciousness, hemiparesis**: Characteristic of MELAS
+  * **Cognitive decline, sensorineural hearing loss, muscle weakness, fatigue**: Mitochondrial dysfunction
+  * **Short stature, diabetes, cardiomyopathy**: Multi-system involvement
+* **Examination**
+  * **[Blood/CSF] Lactate↑, pyruvate↑, L/P ratio↑**: Impaired mitochondrial energy production
+  * **[Muscle biopsy] Ragged-red fibers**: Abnormal mitochondrial accumulation
+  * **[Genetic test] Mitochondrial DNA mutation**: Confirms diagnosis
+* **Management**
+  * **Vitamins, Coenzyme Q, L-arginine, pyruvate**: Support mitochondrial function and metabolism
+{: .notice--info}
+
+### Periodic Paralysis / 周期性四肢麻痺
+
+* **Overview**
+  * Periodic episodes of flaccid paralysis due to serum potassium abnormalities
+  * Common in children to 30s males, often secondary to hyperthyroidism or primary aldosteronism
+* **Presentation**
+  * **Flaccid paralysis of limbs, often after intense exercise**: Hypokalemia causes flaccid paralysis
+  * **Episodes fully reversible but often relapse**: Recurrent potassium imbalance
+* **Examination**
+  * **[Blood] K↓ or ↑ during attacks**: Hypokalemia or hyperkalemia
+  * **[Blood] Thyroid hormone↑, aldosterone↑**: Hyperthyroidism or primary aldosteronism
+* **Management**
+  * **Potassium correction, avoid triggers**: Prevent episode
+  * **Treat underlying condition**: Especially thyroid disease
+{: .notice--info}
+
+### Myasthenia Gravis / 重症筋無力症
+
+* **Overview**
+  * Autoimmune disease affecting neuromuscular junction with anti-AChR (acetylcholine receptor) antibodies
+  * Common in children, women 20-40s, men 50-60s
+* **Presentation**
+  * **Ptosis, diplopia**: Early symptoms due to external ocular muscle weakness
+  * **Muscle weakness worsening throughout day**: Neuromuscular junction fatigue without muscle atrophy
+  * **Dysarthria, dysphagia, tongue weakness**: Bulbar symptoms in generalized type
+* **Examination**
+  * **[Edrophonium test] Temporary improvement**: ACh increases in neuromuscular junction
+  * **[EMG] Waning phenomenon**: Decremental response to repetitive nerve stimulation
+  * **[Blood] Anti-AChR antibodies or anti-MuSK antibodies (+)**: Autoimmune nature
+  * **[Chest X-ray, CT] Thymoma or thymic hyperplasia**: Associated thymic abnormalities
+* **Management**
+  * **[Ocular type] Anticholinesterase drugs, steroids**: Symptomatic treatment
+  * **[Generalized type] Extended thymectomy, steroids, immunosuppressants**: Radical treatment
+  * **[Myasthenic crisis] Plasmapheresis**: Emergency treatment
+{: .notice--info}
+
+### Lambert-Eaton Myasthenic Syndrome / Lambert-Eaton症候群
+
+* **Overview**
+  * Autoimmune disease affecting neuromuscular junction with anti-VGCC (voltage-gated calcium channel) antibodies
+  * Paraneoplastic syndrome, commonly in middle-aged men with small cell lung cancer
+* **Presentation**
+  * **Muscle weakness (predominantly proximal lower limbs), decreased reflexes**: Reduced acetylcholine release
+  * **Diurnal variation in muscle weakness, temporary improvement with repetitive movement**: Variation in Ca2+ in muscle cells
+* **Examination**
+  * **[EMG] Waxing phenomenon**: Increased response with repeated stimulation
+  * **[Blood] Anti-VGCC antibodies**: Autoimmune nature
+* **Management**
+  * **[With malignancy] Treatment of underlying cancer**: Primary treatment
+  * **[Without malignancy] Steroids, immunosuppressants, anticholinesterase drugs, plasmapheresis**: Symptomatic treatment
+{: .notice--info}
+
 ## Infectious Disorder / 感染性疾患
 
 ### Bacterial Meningitis / 細菌性髄膜炎
