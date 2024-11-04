@@ -3655,6 +3655,179 @@ Pathology shows Lewy bodies
 
 ## Neurodegenerative Disorder / 神経変性疾患
 
+### Parkinson's Disease / Parkinson病
+
+* **Overview**
+  * Neurodegenerative disorder due to loss of dopamine-producing cells in substantia nigra
+  * Common in middle-aged and elderly
+* **Presentation**
+  * **Resting tremor (4-6 Hz)**: Reduced dopamine transmission
+  * **Bradykinesia, micrographia, mask-like face**: Impaired movement initiation
+  * **Muscle rigidity (cogwheel or lead-pipe)**: Increased muscle tone
+  * **Postural instability, forward-leaning posture**: Impaired balance control
+  * **Freezing gait, small steps, festination**: Combined effect of bradykinesia and postural instability
+  * **Constipation, urinary dysfunction, orthostatic hypotension, seborrhea**: Autonomic dysfunction
+* **Examination**
+  * **[MIBG myocardial scintigraphy] Reduced MIBG uptake**: Sympathetic denervation
+  * **[DAT-SPECT] Reduced striatal uptake**: Loss of dopaminergic neurons
+* **Management**
+  * **L-dopa**: Replaces dopamine
+  * **Dopamine agonists**: Stimulates dopamine receptors
+  * **Anticholinergics, amantadine, MAO-B inhibitors, COMT inhibitors**: Various mechanisms to improve dopamine function
+  * **Deep brain stimulation**: For medication-resistant cases
+{: .notice--info}
+
+### Progressive Supranuclear Palsy / 進行性核上性麻痺
+
+* **Overview**
+  * Progressive neurodegenerative disease with tau protein accumulation in basal ganglia and brainstem
+  * Common in males aged 50-70 years
+* **Presentation**
+  * **Vertical gaze palsy (especially downward)**: Supranuclear impairment of vertical eye movements
+  * **Early falls, postural instability, neck extension**: Increased axial muscle tone
+  * **Bradykinesia, masked face, small voice, freezing gait**: Parkinsonism (rare resting tremor)
+  * **Dysarthria, dysphagia**: Pseudobulbar palsy
+  * **Subcortical dementia**: Cognitive decline
+* **Examination**
+  * **[CT/MRI] Midbrain tegmentum atrophy (hummingbird sign)**: Characteristic neurodegeneration pattern
+* **Management**
+  * **Supportive care**: No established treatment
+  * **Levodopa, other antiparkinsonian drugs**: Limited effectiveness
+ {: .notice--info}
+
+### Corticobasal Degeneration / 大脳皮質基底核変性症
+
+* **Overview**
+  * Progressive neurodegenerative disease with tau protein accumulation in cerebral cortex and basal ganglia
+  * Common in ages 50-70 years
+* **Presentation**
+  * **Limb-kinetic apraxia, ideomotor apraxia, alien hand syndrome , cortical sensory loss**: Cortical symptoms
+  * **Rigidity, bradykinesia, postural instability**: Parkinsonism (rare resting tremor)
+  * **Myoclonus, dystonia, cognitive decline**: Other brain involvement
+  * **Symptoms show marked asymmetry**: Characteristic feature
+* **Examination**
+  * **[CT/MRI] Asymmetric cerebral atrophy**: Underlying neurodegeneration
+* **Management**
+  * **Supportive care**: No established treatment
+  * **Levodopa, other antiparkinsonian drugs**: Limited effectiveness
+{: .notice--info}
+
+### Huntington’s Disease / Huntington病
+
+* **Overview**
+  * Progressive neurodegenerative disease due to CAG repeat expansion in Huntington gene
+  * Autosomal dominant , onset typically 30-50 years
+* **Presentation**
+  * **Quick, dance-like involuntary movements of limbs**: Chorea due to striatal degeneration
+  * **Personality changes, dementia, delusions, hallucinations**: Progressive psychiatric symptoms
+* **Examination**
+  * **[CT/MRI] Caudate nucleus atrophy, enlarged anterior horn of lateral ventricles**: Characteristic brain changes
+  * **[Genetic test] CAG repeat expansion in Huntington gene**: Confirms diagnosis
+* **Management**
+  * **Haloperidol, tiapride, tetrabenazine**: Control chorea (levodopa worsens symptoms)
+  * **Haloperidol, chlorpromazine**: Manage psychiatric symptoms
+{: .notice--info}
+
+### MSA-C / 多系統萎縮症小脳型
+
+* **Overview**
+  * Progressive degeneration of inferior olive nucleus, pons, and cerebellum
+  * Common in middle-aged and elderly, non-hereditary
+* **Presentation**
+  * **Truncal ataxia, drunken gait, limb incoordination, dysarthria**: Cerebellar dysfunction (initial symptoms)
+  * **Abnormal finger-nose, heel-knee, diadochokinesis tests**: Cerebellar dysfunction
+  * **Parkinsonism, autonomic symptoms, pyramidal signs**: Disease progression affecting multiple systems
+* **Examination**
+  * **[CT/MRI] Cerebellar and brainstem atrophy**: Neurodegeneration
+  * **[MRI T2] Hot cross bun sign in ventral pons**: Characteristic finding of MSA-C
+* **Management**
+  * **TRH/TRH derivatives**: For cerebellar symptoms
+  * **Levodopa**: For parkinsonism
+  * **Droxidopa, midodrine, α-blockers**: For autonomic symptoms (orthostatic hypotension, urinary dysfunction)
+{: .notice--info}
+
+### MSA-P / 多系統萎縮症パーキンソン型
+
+* **Overview**
+  * Progressive degeneration of striatum and substantia nigra
+  * Common in middle-aged and elderly, non-hereditary
+* **Presentation**
+  * **Akinesia, rigidity, small-step gait**: Parkinsonian symptoms (rare resting tremor)
+  * **Cerebellar symptoms, autonomic symptoms, pyramidal signs**: Disease progression affecting multiple systems
+* **Examination**
+  * **[MRI] Putaminal atrophy**: Striatal degeneration
+  * **[MRI T2/FLAIR] Linear hyperintensity in lateral putamen**: Characteristic finding of MSA-P
+* **Management**
+  * **Levodopa**: For parkinsonism
+  * **TRH/TRH derivatives**: For cerebellar symptoms
+  * **Droxidopa, midodrine, α-blockers**: For autonomic symptoms (orthostatic hypotension, urinary dysfunction)
+{: .notice--info}
+
+### Shy-Drager Syndrome / Shy-Drager症候群
+
+* **Overview**
+  * Part of multiple system atrophy characterized by primary autonomic dysfunction
+  * Common in middle-aged and elderly, non-hereditary
+* **Presentation**
+  * **Orthostatic hypotension, postprandial hypotension, urinary dysfunction, constipation, erectile dysfunction, anhidrosis, Horner's syndrome**: Autonomic dysfunction
+  * **Cerebellar symptoms, parkinsonism, pyramidal signs**: Disease progression affecting multiple systems
+* **Examination**
+  * **[CT/MRI] Various combinations of MSA-C and MSA-P findings**: Multiple system involvement
+* **Management**
+  * **Droxidopa, midodrine, α-blockers**: For autonomic symptoms (orthostatic hypotension, urinary dysfunction)
+  * **TRH/TRH derivatives**: For cerebellar symptoms
+  * **Levodopa**: For parkinsonism
+{: .notice--info}
+
+### Amyotrophic Lateral Sclerosis / 筋萎縮性側索硬化症
+
+* **Overview**
+  * Progressive degeneration of both upper and lower motor neurons leads to muscle atrophy
+  * Common in 60-70s, mainly sporadic but some familial
+* **Presentation**
+  * **Muscle weakness, atrophy, fasciculation (mainly upper limbs)**: Lower motor neuron damage
+  * **Hyperreflexia, Babinski sign (mainly lower limbs)**: Upper motor neuron damage
+  * **Dysphagia, dysarthria, tongue atrophy**: Bulbar palsy
+  * **No eye movement disorder, sensory disturbance, bladder/bowel dysfunction, pressure sores**: Four negative symptoms characteristic of ALS
+* **Examination**
+  * **[EMG] Denervation potentials at rest, high amplitude potentials during voluntary contraction**: Neurogenic changes
+  * **[Muscle ultrasound] Fasciculation**: Lower motor neuron damage
+* **Management**
+  * **Supportive care, rehabilitation**: No curative treatment , mean survival 3-5 years
+  * **Riluzole, edaravone**: Limited effectiveness
+{: .notice--info}
+
+### Spinal Muscular Atrophy / 脊髄性筋萎縮症
+
+* **Overview**
+  * Degeneration of lower motor neurons due to SMN gene deletion/mutation, four types based on age of onset and severity
+* **Presentation**
+  * **[Type I] Severe hypotonia (floppy infant)**: Onset at birth
+  * **[Type II] Intermediate severity**: Onset by age 2
+  * **[Type III] Proximal muscle weakness, Gowers' sign**: Onset age 2-18
+  * **[Type IV] Very slow progression**: Adult onset
+  * **Normal intelligence**: Only motor function affected
+* **Examination**
+  * **[Genetic testing] SMN gene deletion/mutation**: Confirms diagnosis in many cases
+* **Management**
+  * **Supportive care**: No curative treatment, variable progression based on types
+{: .notice--info}
+
+### Bulbospinal Muscular Atrophy / 球脊髄性筋萎縮症
+
+* **Overview**
+  * Degeneration of lower motor neurons due to CAG repeat expansion in androgen receptor gene
+  * X-linked recessive, common in  20-50 years males
+* **Presentation**
+  * **Bulbar palsy, widespread fasciculations**: Lower motor neuron degeneration
+  * **Gynecomastia, hypogonadism**: Androgen receptor dysfunction
+  * **Normal intelligence**: Only motor and endocrine systems affected
+* **Examination**
+  * **[Genetic testing] CAG repeat expansion in androgen receptor gene**: Definitive diagnosis
+* **Management**
+  * **Supportive care**: No curative treatment, slow progression
+{: .notice--info}
+
 <!-- ### Parkinson’s Disease / Parkinson病
 
 * **Overview**
