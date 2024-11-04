@@ -3591,6 +3591,77 @@ of urate
 
 ## Dementia / 認知症
 
+### Alzheimer's Disease / Alzheimer型認知症
+
+* **Overview**
+  * Most common type of dementia, neurodegenerative disease characterized by brain atrophy and presence of senile plaques and neurofibrillary tangles
+  * Common in elderly 
+* **Presentation**
+  * **Memory loss, disorientation, impaired judgment**: Hippocampal and temporal lobe atrophy
+  * **Apraxia, agnosia, aphasia, executive dysfunction**: Parietal lobe atrophy
+  * **Delusions (theft), behavioral changes**: Progressive cognitive decline
+* **Examination**
+  * **[CT/MRI] Cortical atrophy (hippocampus), enlarged sulci and ventricles**: General brain atrophy
+  * **[SPECT/PET] Decreased blood flow in parietal and temporal lobes**: Reduced brain function
+  * **[Cognitive tests] Decline in memory and cognitive function**: Progressive cognitive decline
+* **Management**
+  * **Cholinesterase inhibitors (donepezil), NMDA receptor antagonist (memantine)**: Improve cognitive function or reduce cognitive decline
+  * **Atypical antipsychotics, yokukansan**: Manage psychiatric symptoms
+  * **Exercise, reminiscence therapy, recreation, music therapy**: Non-pharmacological therapy
+{: .notice--info}
+
+### Dementia with Lewy Bodies / Lewy小体型認知症
+
+* **Overview**
+  * Neurodegenerative disease characterized by cognitive impairment, visual hallucinations, and parkinsonism
+  * Common in elderly
+* **Presentation**
+  * **Fluctuating cognitive impairment**: Progressive neurodegeneration
+  * **Recurrent visual hallucinations**: May due to occipital lobe dysfunction
+  * **Parkinsonism**: Due to dopaminergic neuron loss
+  * **REM sleep behavior disorder**: Disruption of muscle tone in sleep
+* **Examination**
+  * **[SPECT/PET] Decreased occipital blood flow**: Reduced brain function
+  * **[MIBG myocardial scintigraphy] Decreased MIBG uptake**: Sympathetic denervation
+  * **[DAT-SPECT] Reduced striatal uptake**: Loss of dopaminergic neurons
+* **Management**
+  * **Cholinesterase inhibitors (donepezil)**: Improve cognitive function
+  * **Yokukansan, atypical antipsychotics**: Manage hallucinations (antipsychotics may worsen parkinsonism)
+  * **L-dopa**: Treat parkinsonism
+  * **Clonazepam**: Treat REM sleep behavior disorder
+{: .notice--info}
+
+### Frontotemporal Dementia / 前頭側頭型認知症
+
+* **Overview**
+  * Neurodegenerative disease characterized by personality changes and behavioral abnormalities
+  * Common in middle-aged adults (40-60s)
+* **Presentation**
+  * **Decreased initiative, emotional blunting**: Frontal lobe atrophy
+  * **Disinhibition, stereotypical behaviors, lack of disease awareness**: Behavioral changes
+* **Examination**
+  * **[CT/MRI] Frontal and temporal lobe atrophy**: Localized brain degeneration
+  * **[SPECT/PET] Decreased blood flow in frontal and temporal lobes**: Reduced brain function
+* **Management**
+  * **Symptomatic treatment**: No curative treatment
+{: .notice--info}
+
+### Vascular Dementia / 血管性認知症
+
+* **Overview**
+  * Second most common type of dementia, caused by cerebrovascular disorders including infarctions and hemorrhages
+  * Risk factors: hypertension, diabetes, dyslipidemia, atrial fibrillation, smoking
+* **Presentation**
+  * **Depression, reduced spontaneity, executive dysfunction, delirium, emotional incontinence**: Damage to various brain regions
+  * **Patchy cognitive decline**: Specific cognitive decline based on lesion area
+  * **Motor/sensory deficits, pseudobulbar palsy, parkinsonian gait**: Focal neurological symptoms based on lesion area
+* **Examination**
+  * **[CT/MRI] Infarcts, hemorrhages**: Evidence of cerebrovascular disease
+* **Management**
+  * **Blood pressure control, antiplatelet/anticoagulation therapy**: Prevent stroke recurrence
+  * **Rehabilitation, lifestyle modification**: Improve functional status
+{: .notice--info}
+
 <!-- ### Alzheimer’s Dementia / Alzheimer型認知症
 
 * **Overview**
