@@ -4740,7 +4740,7 @@ More common in middle age women (autoimmune)
   * **Poor prognosis**: Death within 1-2 years
 {: .notice--info}
 
-## Functional Disease / 機能性疾患
+## Functional Disorder / 機能性疾患
 
 ### Migraine / 片頭痛
 
