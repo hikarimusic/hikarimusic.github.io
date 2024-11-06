@@ -5267,9 +5267,96 @@ More common in middle age women (autoimmune)
   * **Surgery**: For large and accessible single lesions
 {: .notice--info}
 
+## Congenital Anomaly / 先天奇形
+
 ## Head Injury / 頭部外傷
 
-## Congenital Anomaly / 先天奇形
+### Skull Fracture / 頭蓋骨骨折
+
+* **Overview**
+  * Fracture of skull, classified by location (vault/base) and type (open/closed)
+* **Presentation**
+  * **[Vault] Variable symptoms**: Depends on open/closed status
+  * **[Anterior Base] Raccoon eyes, CSF rhinorrhea, anosmia, visual disturbance**: Injury to frontal base and CN I/II
+  * **[Middle Base] Battle's sign, CSF otorrhea, facial paralysis, hearing loss**: Injury to temporal bone and CN VII/VIII
+  * **[Posterior Base] Dysphasia, dysarthria, respiratory inhibitions**: Injury to occipital bone and CN IX~XII/brainstem
+* **Examination**
+  * **[X-ray, CT] Linear or depressed fracture lines**: Direct visualization of bone injury
+  * **[CT] Pneumocephalus**: Indicates communication with exterior
+* **Management**
+  * **[Closed fracture] Conservative treatment**: Observation
+  * **[Open fracture] Emergency surgery**: Debridement and closure
+  * **[CSF leak] Head elevation, antibiotics**: Prevent infection
+{: .notice--info}
+
+### Acute Epidural Hematoma / 急性硬膜外血腫
+
+* **Overview**
+  * Bleeding between skull and dura mater due to skull fracture, most commonly from middle meningeal artery (temporal region)
+* **Presentation**
+  * **Trauma followed by lucid interval**: Time before blood accumulates
+  * **Sudden deterioration of consciousness**: Increased intracranial pressure from expanding hematoma
+* **Examination**
+  * **[X-ray] Skull fracture**: Trauma
+  * **[CT] Lens-shaped high-density area (at trauma site)**: Blood collection between skull and dura
+  * **[CT] Compressed ventricles, midline shift**: Mass effect from expanding hematoma
+* **Management**
+  * **Emergency craniotomy**: Remove hematoma and achieve hemostasis
+{: .notice--info}
+
+### Acute Subdural Hematoma / 急性硬膜下血腫
+
+* **Overview**
+  * Bleeding in subdural space due to head trauma, most commonly from cortical vessels or bridging veins
+* **Presentation**
+  * **Trauma followed by immediate loss of consciousness**: Severe brain injury with contusion
+* **Examination**
+  * **[CT] Crescent-shaped high-density area (at opposite site)**: Blood collection in subdural space
+* **Management**
+  * **Emergency craniotomy**: Remove hematoma and achieve hemostasis
+  * **Poor prognosis**: High mortality even with early surgery
+{: .notice--info}
+
+### Cerebral Contusion / 脳挫傷
+
+* **Overview**
+  * Brain tissue damage with localized contusion, small hemorrhages, and edema from head trauma
+* **Presentation**
+  * **Trauma followed by progressive deterioration of consciousness**: Due to increasing edema and mass effect
+* **Examination**
+  * **[CT] High density spots**: Punctate hemorrhages
+  * **[CT] Low-density areas around hemorrhage**: Surrounding edema
+* **Management**
+  * **Conservative or surgical treatment**: Based on mass effect severity
+{: .notice--info}
+
+### Chronic Subdural Hematoma / 慢性硬膜下血腫
+
+* **Overview**
+  * Gradual expansion of encapsulated blood in subdural space, develops 2-3 months after minor head trauma
+  * Common in elderly and alcoholics
+* **Presentation**
+  * **Headache, cognitive decline, gait disturbance, hemiparesis**: Gradual brain compression
+* **Examination**
+  * **[CT] Crescent-shaped low to high-density area**: Varying blood density due to chronicity
+  * **[MRI] High signal on T1 and T2**: Chronic blood products
+* **Management**
+  * **Burr hole drainage**: Remove hematoma
+{: .notice--info}
+
+### Diffuse Axonal Injury / びまん性軸索損傷
+
+* **Overview**
+  * Widespread axonal damage due to rotational acceleration forces
+* **Presentation**
+  * **Trauma followed by prolonged unconsciousness**: Due to widespread neural damage
+  * **Higher brain dysfunction**: Due to extensive white matter damage
+* **Examination**
+  * **[CT] No significant findings**: Microscopic nature of damage
+  * **[MRI] High signal areas at tissue boundaries**: Displacement between tissues during acceleration
+* **Management**
+  * **Conservative treatment**: No direct treatment
+{: .notice--info}
 
 <!-- ## Cerebral Infarction / 脳梗塞
 
