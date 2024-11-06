@@ -5269,6 +5269,108 @@ More common in middle age women (autoimmune)
 
 ## Congenital Anomaly / 先天奇形
 
+### Myelomeningocele / 脊髄髄膜瘤
+
+* **Overview**
+  * Severe form of spinal bifida with exposed spinal cord, due to failure of caudal neural tube closure
+  * Often associated with Chiari II malformation and hydrocephalus
+* **Presentation**
+  * **Skin defect, exposed spinal cord (in lumbosacral region)**: Failed neural tube closure
+  * **Lower limb motor/sensory disorders, deformities, bladder/bowel dysfunction**: Spinal cord dysfunction
+* **Examination**
+  * **[Prenatal] Maternal serum AFP↑, amniotic fluid AFP↑**: Neural tube defect
+  * **[Prenatal US/MRI] Ventricle enlargement, lumbosacral mass**: Hydrocephalus and spinal defect
+  * **[MRI] Herniation of medulla/cerebellar vermis/fourth ventricle, enlarged ventricles**: Chiari II malformation, hydrocephalus
+* **Management**
+  * **Early closure surgery (within 48h after birth)**: Prevent CSF infection and spinal cord degeneration
+  * **Post-operative care**: Management of urinary dysfunction, limb deformities
+{: .notice--info}
+
+### Spina Bifida Occulta / 潜在性二分脊椎
+
+* **Overview**
+  * Hidden form of spina bifida often with spinal lipoma, can develop tethered cord syndrome with growth
+  * More common in females
+* **Presentation**
+  * **Subcutaneous mass, dimpling, nevus, localized hypertrichosis (in lumbosacral region)**: Associated skin findings
+  * **Lower limb motor/sensory disorders, deformities, scoliosis, bladder/bowel dysfunction (with growth)**: Due to tethered spinal cord
+* **Examination**
+  * **[MRI] Spinal lipoma, tethered spinal cord**: Confirms diagnosis
+* **Management**
+  * **Surgical untethering**: Removal of lipoma
+{: .notice--info}
+
+### Cranium Bifidum / 二分頭蓋
+
+* **Overview**
+  * Defect in cranial midline due to failure of rostral neural pore closure, complete failure leads to anencephaly (incompatible with life)
+* **Presentation**
+  * **Midline cranial swelling**: Herniation of intracranial contents through skull defect
+* **Examination**
+  * **[MRI] Herniation of meninges (+ brain tissue)**: Meningocele, encephalomeningocele
+* **Management**
+  * **Surgical repair**: Removal of herniated sac and closure of skull defect
+{: .notice--info}
+
+### Chiari Malformation Type I / Chiari I 型奇形
+
+* **Overview**
+  * Herniation of cerebellar tonsils into spinal canal, often associated with syringomyelia
+  * Can occur in adults and children
+* **Presentation**
+  * **Headache, neck and shoulder pain (worsen with coughing)**: Pressure from herniated cerebellar tonsils
+* **Examination**
+  * **[MRI] Herniated cerebellar tonsils into spinal canal**: Confirms diagnosis
+  * **[MRI] Syringomyelia**: Common associated finding
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **Foramen magnum decompression**: Removal of occipital bone and C1 lamina
+{: .notice--info}
+
+### Chiari Malformation Type II / Chiari II 型奇形
+
+* **Overview**
+  * Herniation of lower brainstem, fourth ventricle, and cerebellar vermis into spinal canal
+  * Associated with myelomeningocele and hydrocephalus
+* **Presentation**
+  * **Myelomeningocele, hydrocephalus**: Present at birth
+  * **Inspiratory stridor, apnea, dysphagia**: Brainstem compression
+* **Examination**
+  * **[MRI] Herniated medulla, fourth ventricle, cerebellar vermis**: Confirms diagnosis
+  * **[MRI] Enlarged ventricles**: Associated hydrocephalus
+* **Management**
+  * **[0-2 days] Myelomeningocele closure**: Primary repair
+  * **[1-2 weeks] CSF drainage or VP shunt**: Treat hydrocephalus
+  * **[1-2 months] Foramen magnum decompression**: For brainstem symptoms
+{: .notice--info}
+
+### Dandy-Walker Syndrome / Dandy-Walker症候群
+
+* **Overview**
+  * Malformation characterized by cerebellar vermis hypoplasia and cystic dilation of fourth ventricle
+  * Often associated with multiple congenital anomalies (corpus callosum agenesis, occipital encephalocele, VSD, PDA)
+* **Presentation**
+  * **Hydrocephalus symptoms**: Increased intracranial pressure
+  * **Developmental delay**: Brain malformation effects
+* **Examination**
+  * **[MRI] Hypoplastic cerebellar vermis, cystic dilation of fourth ventricle**: Primary findings
+* **Management**
+  * **Ventriculoperitoneal (VP) shunt, cystoperitoneal (CP) shunt**: Treat hydrocephalus and fourth ventricle cyst
+{: .notice--info}
+
+### Craniosynostosis / 頭蓋縫合早期癒合症
+
+* **Overview**
+  * Premature fusion of cranial sutures causing skull deformity and restriction
+* **Presentation**
+  * **Skull and facial deformity, bony ridge at suture**: Abnormal growth due to premature suture fusion
+  * **Signs of increased intracranial pressure**: Compression of brain tissue
+* **Examination**
+  * **[X-ray, 3D-CT] Absent suture lines, skull deformity, thickened/sclerotic bone at fusion site, copper-beaten appearance**: Confirms diagnosis
+* **Management**
+  * **Fronto-orbital advancement, cranial vault remodeling**: Relieve brain compression, correct cosmetic deformity
+{: .notice--info}
+
 ## Head Injury / 頭部外傷
 
 ### Skull Fracture / 頭蓋骨骨折
