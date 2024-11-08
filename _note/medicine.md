@@ -1563,6 +1563,164 @@ Essences of clinical medicine.
 
 ## Stomach Disorder / 胃疾患
 
+### Functional Dyspepsia / 機能性ディスペプシア
+
+* **Overview**
+  * Functional gastrointestinal disorder without organic, systemic, or metabolic causes, associated with stress
+* **Presentation**
+  * **Postprandial fullness, early satiety**: Postprandial distress syndrome
+  * **Epigastric pain, burning**: Epigastric pain syndrome
+* **Examination**
+  * **[Endoscopy, blood tests] Normal**: Rules out organic or systemic disease
+* **Management**
+  * **Patient education, lifestyle modification, cognitive behavior therapy**: Stress management, regular meals
+  * **Prokinetics (acotiamide), acid suppressants**: Improve gastric motility, reduce acid secretion
+{: .notice--info}
+
+### Acute Gastric Mucosal Lesion / 急性胃粘膜病変
+
+* **Overview**
+  * Acute epigastric pain with multiple erosions and bleeding in gastric mucosa
+  * Causes: NSAIDs, alcohol, stress, H. pylori, Anisakis infection
+* **Presentation**
+  * **Sudden epigastric pain, nausea, vomiting, hematemesis**: Acute mucosal inflammation
+* **Examination**
+  * **[Endoscopy] Multiple erosions, ulcers, edema, bleeding in gastric mucosa**: Acute mucosal damage
+* **Management**
+  * **Remove causative factors**: Stop NSAIDs, remove Anisakis
+  * **Acid suppressants (PPI, H2-receptor antagonist)**: Reduce acid secretion
+  * **Endoscopic hemostasis (clipping, injection therapy)**: For bleeding cases
+{: .notice--info}
+
+### H. pylori Gastritis / H. pylori感染胃炎
+
+* **Overview**
+  * Chronic gastritis caused by H. pylori infection, may progress to intestinal metaplasia and gastric cancer
+* **Presentation**
+  * **Epigastric pain, bloating, nausea, vomiting, loss of appetite**: Chronic gastritis
+* **Examination**
+  * **[Endoscopy] Atrophic changes, diffuse redness, enlarged folds**: Chronic inflammation
+  * **[Endoscopy] Nodular gastritis, xanthoma, intestinal metaplasia**: Advanced changes
+  * **[H. pylori tests] Rapid urease test, urea breath test**: Detect active infection
+  * **[Biopsy] Inflammatory cell infiltration, atrophic changes**: Histological confirmation
+* **Management**
+  * **PPI/P-CAB + Amoxicillin + Clarithromycin (or metronidazole)**: Eradication of H. pylori
+{: .notice--info}
+
+### Gastroduodenal Ulcer / 胃・十二指腸潰瘍
+
+* **Overview**
+  * Deep mucosal defect extending beyond muscularis mucosae
+  * Causes: H. pylori infection, NSAIDs use
+* **Presentation**
+  * **Epigastric pain, bloating, nausea, vomiting, loss of appetite**: Chronic mucosal damage
+  * **Coffee-ground vomiting, melena, anemia, shock (severe cases)**: Gastrointestinal bleeding
+* **Examination**
+  * **[Endoscopy] Smooth-edged ulcer**: Direct visualization of ulcer
+  * **[Upper GI series] Niche sign, converging folds**: Radiological signs of ulcer
+* **Management**
+  * **H. pylori eradication, discontinue NSAIDs**: Remove underlying cause
+  * **PPI/P-CAB, H2-blockers, mucosal protective agents, anticholinergics**: Acid suppression, enhance mucosal defense
+  * **[Bleeding] Stabilize vital signs (if shock) , endoscopic hemostasis (clipping, injection therapy)**: Emergent hemostasis
+  * **[Stenosis] Endoscopic balloon dilation, surgery**: Resolve stenosis
+{: .notice--info}
+
+### Perforated Gastroduodenal Ulcer / 胃・十二指腸潰瘍穿孔
+
+* **Overview**
+  * Deep ulcer penetrating through stomach/duodenal wall into peritoneal cavity, leads to peritonitis and requires urgent treatment
+  * Common in patients with gastroduodenal ulcer history
+* **Presentation**
+  * **Sudden severe epigastric pain, muscle guarding, rebound tenderness**: Peritoneal irritation from gastric contents
+  * **Decreased bowel sounds, loss of liver dullness**: Paralytic ileus, free air
+* **Examination**
+  * **[Chest/Abdominal X-ray] Free air under diaphragm**: Perforation sign
+  * **[CT] Free air around liver surface**: Perforation sign
+* **Management**
+  * **[Mild] NPO, IV fluids, antibiotics, acid suppression, nasogastric tube**: Conservative treatment
+  * **[Severe] Laparoscopic surgery (peritoneal lavage and drainage, perforation repair, omental patch)**: Repair surgery
+{: .notice--info}
+
+### Gastric Polyps / 胃ポリープ
+
+* **Overview**
+  * Localized mucosal protrusions into gastric lumen excluding tumors
+  * Classified as fundic gland polyps (associated with PPI use) and hyperplastic polyps (associated with H. pylori)
+* **Presentation**
+  * **Asymptomatic**: Mostly
+  * **Anemia**: Due to polyp bleeding
+* **Examination**
+  * **[Endoscopy] Mucosal color polyp in fundic gland area**: Fundic gland polyps
+  * **[Endoscopy] Reddish color polyp in atrophic mucosa**: Hyperplastic polyps
+* **Management**
+  * **Remove causative factors**: Reduce PPI use, H. pylori eradication
+{: .notice--info}
+
+### Gastric Adenoma / 胃腺腫
+
+* **Overview**
+  * Benign epithelial tumor of stomach with risk of malignant transformation, associated with H. pylori infection
+* **Presentation**
+  * **Asymptomatic**: Mostly
+  * **Anemia**: Due to bleeding
+* **Examination**
+  * **[Endoscopy] Whitish elevated lesion with uniform granular surface**: Differentiates from early gastric cancer
+* **Management**
+  * **Endoscopic resection**: For lesions showing growth or >2cm
+{: .notice--info}
+
+### Gastrointestinal Stromal Tumor / 消化管間質腫瘍
+
+* **Overview**
+  * Mesenchymal tumor from interstitial cells of Cajal, with c-kit gene mutation and KIT constitutive activation
+  * Common in 50-60s
+* **Presentation**
+  * **Asymptomatic**: Mostly
+  * **Abdominal discomfort, pain, palpable mass**: Tumor growth
+  * **Melena, anemia**: Tumor bleeding
+* **Examination**
+  * **[Endoscopy, GI series, EUS] Smooth submucosal elevation, bridging fold, delle**: Submucosal tumor features
+  * **[Pathology] KIT(+), CD34(+), DOG1(+)**: Confirms Cajal cell origin
+* **Management**
+  * **Surgical resection**: Risk of malignant transformation
+  * **Imatinib, sunitinib, regorafenib**: For unresectable or recurrent cases
+{: .notice--info}
+
+### Gastric Cancer / 胃癌
+
+* **Overview**
+  * Malignant tumor of gastric mucosa ,mostly adenocarcinoma
+  * Risk factors: H. pylori infection, atrophic gastritis, high salt intake, smoking
+* **Presentation**
+  * **Asymptomatic**: Found during screening
+  * **Epigastric discomfort, weight loss, appetite loss, nausea**: Tumor growth
+  * **Black stool, fatigue**: Gastrointestinal bleeding
+* **Examination**
+  * **[Endoscopy, Upper GI series, EUS] Irregular depressed lesions, converging folds**: Early gastric cancer (≤submucosal invasion)
+  * **[Endoscopy, Upper GI series, EUS] Irregular ulcers with raised margins**: Advanced gastric cancer (≥muscularis propria invasion)
+* **Management**
+  * **[Early] EMR, ESD, partial gastrectomy + lymph node dissection**: Endoscopic or limited surgery
+  * **[Advanced] Extended gastrectomy + lymph node dissection**: Standard surgery
+  * **[Unresectable] S-1 + cisplatin, capecitabine + cisplatin + trastuzumab**: Various combination of chemotherapy 
+{: .notice--info}
+
+### Dumping Syndrome / ダンピング症候群
+
+* **Overview**
+  * Post-gastrectomy condition with food rapidly entering small intestine
+  * Classified as early (within 30 min) and late (2-3 hours after meals)
+* **Presentation**
+  * **[Early] Abdominal pain, diarrhea, nausea**: Rapid intestinal distension
+  * **[Early] Palpitations, sweating, dizziness, syncope**: Vasomotor symptoms
+  * **[Late] Palpitations, cold sweat, tremor, weakness**: Reactive hypoglycemia
+* **Examination**
+  * **Clinical**
+* **Management**
+  * **Dietary modification**: Small frequent meals, high protein/fat and low carb diet
+  * **[Early] Antihistamines, antiserotonin drugs**: Relieve vasomotor symptoms
+  * **[Late] α-glucosidase inhibitors**: Prevent postprandial hyperglycemia
+{: .notice--info}
+
 ## Intestine Disorder / 腸疾患
 
 ## Anus Disorder / 肛門疾患
