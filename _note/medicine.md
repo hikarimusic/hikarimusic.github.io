@@ -1431,6 +1431,96 @@ Essences of clinical medicine.
 
 ## Lung Tumor / 肺腫瘍
 
+### Pulmonary Hamartoma / 肺過誤腫
+
+* **Overview**
+  * Benign tumor with abnormal proliferation of normal lung tissue components
+* **Presentation**
+  * **Asymptomatic**: Incidental finding
+  * **Obstructive pneumonia**: Due to bronchial obstruction
+* **Examination**
+  * **[CT] Well-defined shadow, popcorn-like calcification**: Characteristic radiological finding
+  * **[Biopsy] Mixed mesenchymal and epithelial components**: Hamartoma nature
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **Surgical resection**: Rule out malignancy
+{: .notice--info}
+
+### Squamous Cell Carcinoma / 扁平上皮癌
+
+* **Overview**
+  * Type of non-small cell lung cancer showing keratinization and intercellular bridges
+  * Common in males over 50 with smoking history
+* **Presentation**
+  * **Cough, sputum, hemoptysis**: Due to bronchial invasion
+  * **Clubbing**: Paraneoplastic manifestation
+  * **Hypercalcemia**: Due to PTHrP production
+* **Examination**
+  * **[Chest X-ray, CT] Mass shadow, atelectasis**: Due to airway obstruction
+  * **[Sputum cytology] Orange-stained cells on Papanicolaou stain**: Shows keratinized cancer cells
+  * **[Blood] Elevated SCC antigen, CYFRA, CEA**: Tumor markers
+  * **[Biopsy] Keratinization, intercellular bridges**: Diagnostic features
+* **Management**
+  * **Surgery + adjuvant chemotherapy**: Stage IA-IIIA
+  * **Radiation therapy alone**: Stage I-III (inoperable)
+  * **Chemoradiotherapy**: Stage IIIB-IIIC
+  * **Systemic therapy**: Stage III (inoperable), Stage IV (metastatic)
+{: .notice--info}
+
+### Adenocarcinoma / 腺癌
+
+* **Overview**
+  * Type of non-small cell lung cancer showing glandular differentiation
+  * Common in both genders including non-smokers
+* **Presentation**
+  * **Asymptomatic**: Peripheral location of tumor
+  * **Chest pain, cough, sputum**: Due to tumor growth and invasion
+* **Examination**
+  * **[Chest X-ray, CT] Spicula, vessel convergence, pleural indentation**: Due to fibrosis and contraction of tumor
+  * **[Sputum cytology] Clusters of abnormal cells**: Shows adenocarcinoma cells
+  * **[Blood] Elevated CEA, SLX**: Tumor markers
+  * **[Biopsy] Glandular differentiation, mucin production**: Diagnostic features
+* **Management**
+  * **Surgery + adjuvant chemotherapy**: Stage IA-IIIA
+  * **Radiation therapy alone**: Stage I-III (inoperable)
+  * **Chemoradiotherapy**: Stage IIIB-IIIC
+  * **Systemic therapy**: Stage III (inoperable), Stage IV (metastatic)
+{: .notice--info}
+
+### Small Cell Lung Cancer / 小細胞肺癌
+
+* **Overview**
+  * Malignant neuroendocrine tumor with small cancer cells, rapid progression and poor prognosis
+  * Common in male with smoking history
+* **Presentation**
+  * **Cough, sputum, hemoptysis**: Due to bronchial invasion
+  * **SIADH, Cushing syndrome, Lambert-Eaton syndrome**: Paraneoplastic syndromes due to hormone production
+* **Examination**
+  * **[Chest X-ray, CT] Hilar mass, lymphadenopathy**: Central location with lymph node metastasis
+  * **[Sputum cytology] Small cells with scant cytoplasm**: Characteristic appearance
+  * **[Blood] Elevated NSE, Pro-GRP**: Tumor markers
+  * **[Biopsy] Small undifferentiated cells, neuroendocrine markers**: Diagnostic features
+* **Management**
+  * **Chemoradiotherapy**: Limited Disease
+  * **Systemic therapy**: Extensive Disease
+  * **Prophylactic cranial irradiation**: Prevent brain metastasis
+{: .notice--info}
+
+### Metastatic Lung Tumor / 転移性肺腫瘍
+
+* **Overview**
+  * Malignant tumors from other organs metastasizing to lungs
+* **Presentation**
+  * **Symptoms of primary tumor**: Varies by origin
+* **Examination**
+  * **[Chest X-ray, CT] Single or multiple nodules**: Various radiological patterns
+  * **[Biopsy] Histology matching primary tumor**: Confirms diagnosis and origin
+* **Management**
+  * **Systemic therapy**: Based on primary tumor sensitivity
+  * **Radiation therapy**: For symptom palliation
+  * **Surgery**: Selected cases with controlled primary and resectable metastases
+{: .notice--info}
+
 ## Pulmonary Circulation Disorder / 肺循環障害
 
 ## Functional Respiratory Disorder / 機能的呼吸障害
