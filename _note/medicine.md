@@ -1561,6 +1561,133 @@ Essences of clinical medicine.
 
 ## Esophagus Disorder / 食道疾患
 
+### Esophageal Achalasia / 食道アカラシア
+
+* **Overview**
+  * Functional disease due to degeneration of Auerbach's plexus in lower esophageal muscle layer
+  * Common in 20-60s adults
+* **Presentation**
+  * **Dysphagia, chest pain, food regurgitation**: Impaired esophageal peristalsis and lower esophageal sphincter relaxation
+* **Examination**
+  * **[Barium swallow] Beak-like narrowing of lower esophagus, dilated proximal esophagus**: Impaired LES relaxation and esophageal motility
+  * **[Endoscopy] Fluid/food retention, dilated esophagus, wrap-around at cardia**: Impaired esophageal emptying
+  * **[Manometry] Elevated LES pressure, absent esophageal peristalsis**: Confirms diagnosis
+* **Management**
+  * **Calcium channel blockers, nitrates**: Relax LES
+  * **Balloon dilation**: Extend LES
+  * **Per-Oral Endoscopic Myotomy (POEM), Heller-Dor procedure**: Endoscopic or laparoscopic myotomy
+{: .notice--info}
+
+### Mallory-Weiss Syndrome / Mallory-Weiss症候群
+
+* **Overview**
+  * Mucosal tear at gastroesophageal junction due to sudden increase in intra-abdominal pressure (vomiting)
+  * Common causes: Excessive alcohol intake, hyperemesis gravidarum, chemotherapy, endoscopy
+* **Presentation**
+  * **Hematemesis after forceful vomiting**: Bleeding from mucosal tear
+* **Examination**
+  * **[Endoscopy] Longitudinal mucosal tear at gastroesophageal junction**: Confirms diagnosis
+* **Management**
+  * **Conservative treatment (NPO, IV fluids, hemostatic drugs)**: If bleeding stopped
+  * **Endoscopic hemostasis (clipping, hemostatic forceps, injection therapy)**: If active bleeding
+{: .notice--info}
+
+### Spontaneous Esophageal Rupture / 特発性食道破裂
+
+* **Overview**
+  * Full-thickness rupture of esophageal wall due to sudden increase in intra-abdominal pressure (vomiting)
+* **Presentation**
+  * **Severe chest pain, dyspnea, shock**: Full-thickness rupture with mediastinal involvement
+* **Examination**
+  * **[X-ray, CT] Pleural effusion, mediastinal emphysema, pneumothorax**: Air and fluid in mediastinum
+  * **[Contrast CT] Contrast leakage into mediastinum**: Confirm diagnosis
+* **Management**
+  * **Emergency surgery**: Surgical closure and drainage
+ {: .notice--info}
+
+### Esophageal Hiatal Hernia / 食道裂孔ヘルニア
+
+* **Overview**
+  * Protrusion of stomach through esophageal hiatus into mediastinum
+  * Common in obese middle-aged men and elderly women
+* **Presentation**
+  * **Heartburn, chest pain, epigastric pain, dysphagia**: Due to associated GERD
+* **Examination**
+  * **[Barium swallow] Protrusion of stomach into mediastinum**: Confirm diagnosis
+  * **[Endoscopy] Gastric mucosa extending above diaphragm**: Confirm diagnosis
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **Weight loss, elevation of upper body during sleep, acid suppressants**: For GERD cases
+  * **Surgical repair (Nissen fundoplication)**: For incarceration cases
+{: .notice--info}
+
+### Gastroesophageal Reflux Disease / 胃食道逆流症
+
+* **Overview**
+  * Reflux of gastric contents into esophagus causing symptoms, risk factor for Barrett's esophagus and adenocarcinoma
+* **Presentation**
+  * **Heartburn, acid regurgitation (worse after meals, at night, bending forward)**: Typical symptoms from acid reflux
+  * **Chest pain, cough, wheezing, throat discomfort, ear pain, hoarseness**: Extra-esophageal symptoms
+* **Examination**
+  * **[Endoscopy] Mucosal redness, erosions, ulcers**: Erosive GERD
+  * **[Endoscopy, 24h pH monitoring] No visible lesions + abnormal acid exposure**: Non-erosive GERD (NERD)
+* **Management**
+  * **Lifestyle modifications**: Avoid late meals, elevate head of bed, weight loss, discontinue causative drugs
+  * **PPI/P-CAB, H2RAs, antacids, prokinetics**: Reduce acid secretion, improve gastric motility
+  * **Endoscopic or surgical treatment (Nissen fundoplication)**: For refractory cases
+{: .notice--info}
+
+### Esophageal Cancer / 食道癌
+
+* **Overview**
+  * Malignant epithelial tumor of esophagus, mainly squamous cell carcinoma but also adenocarcinoma
+  * Common in 60-70s men, risk factors include alcohol, smoking, achalasia, Barrett's esophagus (adenocarcinoma)
+* **Presentation**
+  * **[Early] Asymptomatic, mild burning sensation during swallowing**: Early mucosal changes
+  * **[Advanced] Dysphagia, weight loss, chest discomfort, hoarseness, cough**: Local invasion and obstruction
+* **Examination**
+  * **[Endoscopy] Subtle redness, elevation/depression, iodine-unstained areas, brownish areas on NBI**: Mucosal changes in early stage
+  * **[Endoscopy] Irregular ulcers, masses, strictures**: Tumor growth in advanced stage
+* **Management**
+  * **[Stage 0] EMR, ESD**: Remove early mucosal lesions
+  * **[Stage I-III] Surgery, lymph node dissection, reconstruction**: Curative resection
+  * **[Stage IV] Chemotherapy (5-FU + cisplatin), radiation**: For unresectable cases
+  * **[Palliative] Stenting, bypass surgery, gastrostomy**: Relieve obstruction and fistulas
+{: .notice--info}
+
+### Esophagogastric Varices / 食道・胃静脈瘤
+
+* **Overview**
+  * Dilated submucosal veins in esophagus and stomach due to portal hypertension, asymptomatic but life-threatening if ruptured
+  * Common in liver cirrhosis
+* **Presentation**
+  * **Asymptomatic**: Found during screening
+* **Examination**
+  * **[Endoscopy, esophagogram] Dilated submucosal veins**: Assess risk of bleeding
+  * **[Contrast CT] Dilated vessels in esophagus and stomach**: Confirm diagnosis and extent
+* **Management**
+  * **[Endoscopic] Endoscopic injection sclerotherapy (EIS), endoscopic variceal ligation (EVL)**: First choice for esophageal varices
+  * **[Interventional] B-RTO, TIPS**: For gastric varices resistant to endoscopic treatment
+  * **[Medical] β-blockers, nitrates**: Prevent bleeding and recurrence
+  * **[Surgical] Hassab operation, esophageal transection**: Less common
+{: .notice--info}
+
+### Rupture of Esophagogastric Varices / 食道・胃静脈瘤破裂
+
+* **Overview**
+  * Life-threatening bleeding from esophagogastric varices
+* **Presentation**
+  * **Sudden hematemesis, melena**: Massive bleeding from ruptured varices
+  * **Shock**: Blood loss leading to circulatory failure
+* **Examination**
+  * **[Physical] Vital signs**: Assess severity
+* **Management**
+  * **[Initial] IV fluids, blood transfusion**: Stabilize hemodynamics
+  * **[Endoscopic] Endoscopic variceal ligation (EVL), cyanoacrylate injection (CA)**: Hemostasis of esophageal or gastric bleeding
+  * **[Temporary] Balloon tamponade (SB tube)**: Hemostasis when endoscopic treatment fails
+  * **[Medical] Vasopressin, nitroglycerin**: Reduce portal pressure
+{: .notice--info}
+
 ## Stomach Disorder / 胃疾患
 
 ### Functional Dyspepsia / 機能性ディスペプシア
