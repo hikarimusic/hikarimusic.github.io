@@ -13,8 +13,6 @@ Essences of clinical medicine.
 
 # Cardiology / 循環器科
 
-## Introduction / 総論
-
 ## Ischemic Heart Disease and Heart Failure / 虚血性心疾患・心不全
 
 ### Effort Angina / 労作性狭心症
@@ -1419,8 +1417,6 @@ Essences of clinical medicine.
 
 # Pulmonology/ 呼吸器科
 
-## Introduction / 総論
-
 ## Infectious Disorder / 感染性疾患
 
 ## Immune and Allergic Disorder / 免疫・アレルギー性疾患
@@ -1646,8 +1642,6 @@ Essences of clinical medicine.
 ### Germ Cell Tumor / 胚細胞腫瘍 -->
 
 # Gastroenterology / 消化器科
-
-## Introduction / 総論
 
 ## Esophagus Disorder / 食道疾患
 
@@ -2078,8 +2072,6 @@ Essences of clinical medicine.
 
 # Endocrinology / 内分泌科
 
-## Introduction / 総論
-
 ## Pituitary Gland Disorder / 下垂体疾患
 
 ## Thyroid Gland Disorder / 甲状腺疾患
@@ -2425,8 +2417,6 @@ Essences of clinical medicine.
 
 # Nephrology / 腎臓科
 
-## Introduction / 総論
-
 ## Electrolytes Metabolism Disorder / 電解質代謝異常
 
 ## Glomerular Disorder / 糸球体疾患
@@ -2543,9 +2533,7 @@ Essences of clinical medicine.
 ### Dialysis Amyloidosis / 透析アミロイドーシス
 ### Renal Anemia / 腎性貧血 -->
 
-# Hematology / 血液科
-
-## Introduction / 総論
+# Hematology / 血液
 
 ## Hemostasis Disorder (Primary) / 止血の異常（一次）
 
@@ -2786,8 +2774,6 @@ Essences of clinical medicine.
 
 # Rheumatology / リウマチ科
 
-## Introduction / 総論
-
 ## Immunodeficiency / 免疫不全
 
 ## Allergy / アレルギー
@@ -2972,8 +2958,6 @@ of urate
 ### IgA Vasculitis / IgA血管炎 -->
 
 # Infectious Diseases / 感染症科
-
-## Introduction / 総論
 
 ## Gram-Positive Bacteria Infection / グラム陽性菌感染症
 
@@ -3359,8 +3343,6 @@ of urate
 -->
 
 # Neurology / 神経科
-
-## Introduction / 総論
 
 ## Cerebrovascular Disorder / 脳血管障害
 
@@ -5900,8 +5882,6 @@ More common in middle age women (autoimmune)
 
 # Psychiatry / 精神科
 
-## Introduction / 総論
-
 ## Schizophrenia / 統合失調症
 
 ## Mood Disorder / 気分障害
@@ -5919,8 +5899,6 @@ More common in middle age women (autoimmune)
 ## Substance Related Disorder / 物質関連障害
 
 # Ophthalmology / 眼科
-
-## Introduction / 総論
 
 ## Functional Disorder / 機能障害
 
@@ -5943,8 +5921,6 @@ More common in middle age women (autoimmune)
 ## Miscellaneous Ophthalmic Disorder / その他の眼科疾患
 
 # Otolaryngology / 耳鼻咽喉科
-
-## Introduction / 総論
 
 ## External and Middle Ear Disorder / 外耳・中耳疾患
 
@@ -5978,8 +5954,6 @@ More common in middle age women (autoimmune)
 {: .notice--info} -->
 
 # Dermatology / 皮膚科
-
-## Introduction / 総論
 
 ## Eczema / 湿疹
 
@@ -6177,8 +6151,6 @@ More common in middle age women (autoimmune)
 
 # Orthopedic Surgery / 整形外科
 
-## Introduction / 総論
-
 ## Upper Limb Disorder / 上肢疾患
 
 ## Lower Limb Disorder / 下肢疾患
@@ -6198,8 +6170,6 @@ More common in middle age women (autoimmune)
 ## Bone Tumor / 骨腫瘍
 
 # Urology / 泌尿器科
-
-## Introduction / 総論
 
 ## Urinary Tract Infection and Stone / 尿路感染症・結石
 
@@ -6280,8 +6250,6 @@ More common in middle age women (autoimmune)
 
 # Gynecology / 婦人科
 
-## Introduction / 総論
-
 ## Sexuel Development Disorder / 性分化疾患
 
 ## Endocrine Disorder / 内分泌の異常
@@ -6332,8 +6300,6 @@ More common in middle age women (autoimmune)
 
 # Obstetrics / 産科
 
-## Introduction / 総論
-
 ## Early Pregnancy Disorder / 妊娠初期の異常
 
 ## Later Pregnancy Disorder / 妊娠中・後期の異常
@@ -6347,8 +6313,6 @@ More common in middle age women (autoimmune)
 ## Puerperium Disorder / 産褥の異常
 
 # Pediatrics / 小児科
-
-## Introduction / 総論
 
 ## Neonate Disorder / 新生児疾患
 
