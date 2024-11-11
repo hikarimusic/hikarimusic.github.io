@@ -2533,7 +2533,7 @@ Essences of clinical medicine.
 ### Dialysis Amyloidosis / 透析アミロイドーシス
 ### Renal Anemia / 腎性貧血 -->
 
-# Hematology / 血液
+# Hematology / 血液科
 
 ## Hemostasis Disorder (Primary) / 止血の異常（一次）
 
