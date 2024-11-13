@@ -4401,6 +4401,24 @@ Autosomal dominant inheritance, due to abnormal expansion of CAG repeats
   * **Good prognosis**: Usually monophasic
 {: .notice--info}
 
+### Anti-NMDA Receptor Encephalitis / 抗NMDA受容体抗体脳炎
+
+* **Overview**
+  * Autoimmune encephalitis mainly affecting limbic system through anti-NMDA receptor antibodies
+  * Common in young females, associated with tumors especially ovarian teratoma
+* **Presentation**
+  * **Fever, headache**: Prodromal phase
+  * **Agitation, hallucinations, delusions**: Psychiatric phase
+  * **Decreased consciousness, reduced movement, respiratory depression**: Unresponsive phase
+  * **Dystonia, orofacial dyskinesia, myoclonus, seizures**: Movement disorder phase
+* **Examination**
+  * **[Blood/CSF] Anti-NMDA receptor antibodies**: Confirms diagnosis
+  * **[MRI] Abnormal signals in limbic system**: Inflammation in limbic system
+* **Management**
+  * **Tumor removal**: If present
+  * **Steroid pulse therapy, IVIg, plasmapheresis**: Suppress immune response
+{: .notice--info}
+
 ### Wernicke's Encephalopathy / Wernicke脳症
 
 * **Overview**
