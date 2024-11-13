@@ -3637,6 +3637,21 @@ of urate
   * **Endovascular surgery**: Close fistula
 {: .notice--info}
 
+### Cerebral Venous Sinus Thrombosis / 脳静脈洞血栓症
+
+* **Overview**
+  * Thrombosis in cerebral venous sinuses leading to venous congestion
+  * Associated with pregnancy/puerperium, oral contraceptives, autoimmune diseases, blood disorders, infections
+* **Presentation**
+  * **Severe headache, vomiting**: Increased intracranial pressure
+  * **Seizures, weakness, paralysis, altered consciousness**: Brain edema or hemorrhage
+* **Examination**
+  * **[MRI] Brain hemorrhage, edema**: Due to venous congestion
+  * **[MRV] Venous sinus occlusion**: Direct visualization of thrombus
+* **Management**
+  * **Heparin**: Prevent thrombus progression
+{: .notice--info}
+
 ### Normal Pressure Hydrocephalus / 正常圧水頭症
 
 * **Overview**
