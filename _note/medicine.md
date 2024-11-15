@@ -4675,7 +4675,7 @@ Autosomal dominant inheritance, due to abnormal expansion of CAG repeats
   * **[Don’t] Folic acid administration alone is contraindicated**: Mask the neurological symptoms and further consume Vitamin B12
 {: .notice--info} -->
 
-## Miscellaneous CNS Disorder / その他の中枢神経疾患
+## Demyelinating Disorder / 脱髄性疾患
 
 ### Multiple Sclerosis / 多発性硬化症
 
@@ -4730,6 +4730,8 @@ Autosomal dominant inheritance, due to abnormal expansion of CAG repeats
   * **High-dose steroids, immunoglobulin**: Reduce inflammation
   * **Good prognosis**: Usually monophasic
 {: .notice--info}
+
+## Miscellaneous CNS Disorder / その他の中枢神経疾患
 
 ### Anti-NMDA Receptor Encephalitis / 抗NMDA受容体抗体脳炎
 
