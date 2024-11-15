@@ -1419,6 +1419,321 @@ Essences of clinical medicine.
 
 ## Infectious Disorder / 感染性疾患
 
+### Common Cold Syndrome / かぜ症候群
+
+* **Overview**
+  * Most common respiratory infection affecting upper respiratory tract mucosa, mostly caused by viruses
+  * Transmitted through droplets and contact
+* **Presentation**
+  * **Rhinorrhea, nasal congestion, sneezing**: Nasal inflammation
+  * **Sore throat, dry throat, hoarseness**: Upper respiratory tract inflammation
+  * **Cough, sputum**: Lower respiratory tract inflammation
+  * **Mild fever, headache, fatigue**: Systemic inflammatory response
+* **Examination**
+  * **Clinical**
+* **Management**
+  * **Rest, warmth, gargling, hand washing**: Supportive care
+  * **Traditional medicines (Kakkonto, Maoto), acetaminophen, NSAID, antihistamine**: Symptom relief
+{: .notice--info}
+
+### Acute Bronchiolitis / 急性細気管支炎
+
+* **Overview**
+  * Acute inflammation of bronchioles causing airway narrowing and obstruction, mainly caused by RSV and parainfluenza virus
+  * Most common in infants under 1 year
+* **Presentation**
+  * **Fever, cough, rhinorrhea**: Initial cold-like symptoms
+  * **Expiratory wheezing**: Bronchiolar narrowing
+  * **Nasal flaring, chest retractions, tachypnea**: Respiratory distress
+* **Examination**
+  * **[Antigen test] Positive for RSV**: Confirm diagnosis
+* **Management**
+  * **Oxygen therapy, nebulizer humidification, IV fluids**: Supportive care
+{: .notice--info}
+
+### Influenza / インフルエンザ
+
+* **Overview**
+  * Infectious disease with seasonal epidemic caused by influenza virus, more severe than common cold and can be fatal
+  * Transmitted through droplets and contact, common in winter to spring
+* **Presentation**
+  * **High fever (>38°C), chills, headache, muscle/joint pain, fatigue**: Rapid onset systemic symptoms
+  * **Cough, sore throat, rhinorrhea**: Respiratory symptoms
+* **Examination**
+  * **[Antigen test]] Positive for influenza virus**: Confirm diagnosis
+* **Management**
+  * **Neuraminidase inhibitor (Oseltamivir, Zanamivir), RNA polymerase inhibitor (Favipiravir)**: Shorten fever duration, prevent severe complications
+{: .notice--info}
+
+### COVID-19 / 新型コロナウイルス感染症
+
+* **Overview**
+  * Novel infectious disease caused by SARS-CoV-2, can be severe and fatal especially in elderly or immunocompromised patients
+  * Transmitted through droplets and contact 
+* **Presentation**
+  * **Fever, fatigue, dry cough, shortness of breath**: Systemic and respiratory symptoms
+  * **Loss of smell/taste**: Characteristic symptoms
+  * **Acute respiratory distress syndrome, thrombotic events, shock, organ failure**: Complications in severe cases
+* **Examination**
+  * **[PCR, Antigen test] Positive for SARS-CoV-2**: Confirm diagnosis
+  * **[Blood] Lymphopenia**: Indicates disease severity
+  * **[Blood] D-dimer elevation**: Suggests thromboembolism/DIC
+* **Management**
+  * **Remdesivir, Molnupiravir, Nirmatrelvir, Ritonavir**: Antiviral treatment
+  * **Dexamethasone, Baricitinib, Tocilizumab (severe case)**: Anti-inflammatory treatment
+  * **Mechanical ventilation (severe case)**: Respiratory support
+{: .notice--info}
+
+### Bacterial Pneumonia / 細菌性肺炎
+
+* **Overview**
+  * Acute purulent inflammation of lung caused by bacterial infection
+  * [Streptococcus pneumoniae] 1st common
+  * [Haemophilus influenzae] 2nd common
+  * [Klebsiella pneumoniae] Often serious in underlying diseases
+  * [Staphylococcus aureus] Often with local destruction
+  * [Moraxella catarrhalis] Often cause deterioration of COPD
+  * [Pseudomonas aeruginosa] Often in immunocompromised or ventilator-associated 
+* **Presentation**
+  * **Cough, purulent sputum, chest pain, dyspnea**: Local inflammation of lung
+  * **Fever, fatigue, loss of appetite**: Systemic inflammatory response
+* **Examination**
+  * **[Physical] Dullness on percussion, decreased breath sounds, coarse crackles**: Consolidation of lung tissue
+  * **[Blood] WBC↑, CRP↑, ESR↑, hypoxemia**: Inflammatory response
+  * **[Chest X-ray, CT] Infiltrative shadows, air bronchogram**: Alveolar filling
+  * **[Sputum] Gram stain, culture, rapid antigen test**: Identify causative bacteria
+* **Management**
+  * **Antibiotics based on pathogen**: Target causative bacteria
+  * **Rest, temperature/fluid/electrolyte control**: Supportive care
+  * **Oxygen therapy, mechanical ventilation**: Treat respiratory failure
+{: .notice--info}
+
+### Aspiration Pneumonia / 誤嚥性肺炎
+
+* **Overview**
+  * Pneumonia caused by aspiration due to swallowing dysfunction, aspiration often silent
+  * Common in elderly, major cause of healthcare-associated pneumonia
+* **Presentation**
+  * **Decreased ADL, appetite loss, incontinence**: Atypical symptoms in elderly
+  * **Less fever, cough, or sputum**: May lack typical pneumonia symptoms
+* **Examination**
+  * **[Physical] Respiratory rate↑, SpO2↓**: Impaired gas exchange
+  * **[Blood] WBC↑, CRP↑, ESR↑**: Inflammatory response
+  * **[Chest X-ray] Infiltrative shadows**: Alveolar filling
+* **Management**
+  * **Empiric antibiotics**: Cover anaerobes and streptococci
+  * **Prevention**: Swallowing rehabilitation, oral care, proper positioning
+{: .notice--info}
+
+### Chlamydial Pneumonia / クラミジア肺炎
+
+* **Overview**
+  * Atypical pneumonia caused by C. pneumoniae, C. trachomatis, C. psittaci (psittacosis)
+  * Common in young adults and elderly, bird exposure (psittacosis)
+* **Presentation**
+  * **Persistent dry cough, mild fever**: Atypical pneumonia pattern
+  * **[Psittacosis] Dry cough, high fever >39℃, headache, relative bradycardia, hepatosplenomegaly**: More severe systemic symptoms
+* **Examination**
+  * **[Clinical] No response to β-lactams**: Characteristic of atypical bacteria
+  * **[Antibody/Gene test] Positive for chlamydia**: Confirm diagnosis
+* **Management**
+  * **Tetracyclines, macrolides, fluoroquinolones**: Target atypical bacteria
+{: .notice--info}
+
+### Mycoplasma Pneumonia / マイコプラズマ肺炎
+
+* **Overview**
+  * Atypical pneumonia caused by Mycoplasma pneumoniae, transmitted by contact/droplets
+  * Common in healthy young people
+* **Presentation**
+  * **Persistent dry cough, minimal physical findings**: Atypical pneumonia pattern
+  * **Fever, headache, fatigue**: Systemic symptoms
+* **Examination**
+  * **[Clinical] No response to β-lactams**: Characteristic of atypical bacteria
+  * **[Blood] WBC→, ESR↑, CRP↑, cold agglutinin(+)**: Non-specific inflammation
+  * **[Antibody/Gene test] Positive for mycoplasma**: Confirm diagnosis
+* **Management**
+  * **Macrolides, tetracyclines, fluoroquinolones**: Target atypical bacteria
+{: .notice--info}
+
+### Legionella Pneumonia / レジオネラ肺炎
+
+* **Overview**
+  * Pneumonia caused by inhaling aerosols containing Legionella
+  * Common in middle-aged adults with exposure to water systems (hot springs, circulating baths)
+* **Presentation**
+  * **High fever, cough, chest pain**: Inflammation of lungs
+  * **Relative bradycardia, neuropsychiatric symptoms, diarrhea**: Characteristic of Legionella pneumonia
+* **Examination**
+  * **[Blood] Na↓, CK↑**: Characteristic laboratory findings
+  * **[Chest X-ray] Infiltrates, pleural effusion**: Lung involvement
+  * **[Clinical] No response to β-lactams**: Characteristic of atypical bacteria
+  * **[Urine antigen] Positive for Legionella**: Rapid diagnosis
+  * **[Sputum] Culture on BCYEα agar**: Confirmatory tests
+* **Management**
+  * **Fluoroquinolones, macrolides (IV)**: First-line treatment
+  * **Rifampicin, tetracyclines**: Alternative options
+{: .notice--info} 
+
+### Cytomegalovirus Pneumonia / サイトメガロウイルス肺炎
+
+* **Overview**
+  * CMV acquired in childhood and remains latent, reactivates in immunocompromised patients
+  * Common in patients on steroids/immunosuppressants, malignancy, HIV/AIDS
+* **Presentation**
+  * **Fever, dyspnea, dry cough**: Inflammation of lungs
+* **Examination**
+  * **[Chest X-ray] Bilateral diffuse ground-glass opacities**: Interstitial pneumonia
+  * **[Sputum, Lung biopsy] Giant cells with nuclear inclusions**: Characteristic finding
+  * **[Gene/Antigen test] Positive for CMV**: Confirmatory test
+* **Management**
+  * **Ganciclovir, valganciclovir**: First-line antiviral treatment
+  * **Foscarnet**: For drug-resistant cases
+{: .notice--info} 
+
+### Lung Abscess / 肺膿瘍
+
+* **Overview**
+  * Severe complication of pneumonia with destruction of lung tissue forming pus-filled cavity
+  * Common in alcoholics, diabetics
+* **Presentation**
+  * **Fever, cough, foul-smelling sputum, hemoptysis**: Purulent inflammation and tissue destruction
+  * **Chest pain**: When lesion reaches pleura
+* **Examination**
+  * **[Blood] WBC↑, CRP↑**: Infection
+  * **[CT] Well-defined mass, air-fluid level (niveau)**: Abscess formation
+* **Management**
+  * **Combination antibiotics**: Target multiple bacterial species
+  * **Drainage**: For persistent cases
+{: .notice--info}
+
+### Pulmonary Tuberculosis / 肺結核症
+
+* **Overview**
+  * Respiratory infection caused by Mycobacterium tuberculosis, classified as primary (initial infection) and secondary (reactivation)
+* **Presentation**
+  * **Cough >2 weeks, sputum, hemoptysis**: Active infection in airways
+  * **Fever, fatigue, night sweat**: Systemic inflammatory response
+* **Examination**
+  * **[Chest X-ray] Hilar lymphadenopathy, nodular shadows, cavitary lesions**: Different stages of infection
+  * **[CT] Bronchiolar nodules (tree-in-bud sign)**: Bronchiolar spread of infection
+  * **[Sputum smear] Fluorescent or red-stained bacilli with Ziehl-Neelsen stain**: Acid-fast bacteria
+  * **[Culture, PCR] Identification of M. tuberculosis**: Confirmatory test
+* **Management**
+  * **Multi-drug therapy with RFP, INH, PZA, EB/SM**: Different mechanisms to prevent drug resistance
+{: .notice--info}
+
+### Miliary Tuberculosis / 粟粒結核
+
+* **Overview**
+  * Hematogenous spread of tuberculosis forming multiple tubercles in various organs
+  * Common in children, elderly, immunocompromised patients
+* **Presentation**
+  * **Persistent high fever, headache, fatigue**: Systemic infection
+* **Examination**
+  * **[Blood] ESR↑, CRP↑**: Systemic inflammation
+  * **[Tuberculin test] Sometimes negative**: Anergic state due to overwhelming infection
+  * **[Chest X-ray] Diffuse miliary nodules in both lungs**: Disseminated infection
+  * **[Biopsy, Culture] Identification of M. tuberculosis**: Confirmatory test
+* **Management**
+  * **Multi-drug therapy with RFP, INH, PZA, EB/SM**: Different mechanisms to prevent drug resistance
+{: .notice--info}
+
+### MAC Disease / 非結核性抗酸菌症
+
+* **Overview**
+  * Caused by Mycobacterium avium complex, environmental organism without human-to-human transmission
+  * Common in patients without underlying disease (nodular/bronchiectatic), patients with previous TB or COPD (fibrocavitary), younger patients (hypersensitivity)
+* **Presentation**
+  * **Cough, sputum, hemoptysis**: Airway infection
+* **Examination**
+  * **[Chest X-ray, CT] Multiple nodules with bronchiectasis, upper lobe cavities, diffuse ground-glass opacities**: Nodular/bronchiectatic, fibrocavitary, or hypersensitivity type
+  * **[Sputum culture] Positive MAC cultures**: Confirmatory test
+* **Management**
+  * **Multi-drug therapy with CAM, RFP, EB**: Different mechanisms to prevent drug resistance
+  * **Lobectomy**: Surgical option for localized disease
+{: .notice--info}
+
+### Simple Pulmonary Aspergilloma / 単純性肺アスペルギローマ
+
+* **Overview**
+  * Aspergillus colonization in pre-existing lung cavity forming fungus ball
+  * Common in patients with previous tuberculosis, fibrosis, emphysema
+* **Presentation**
+  * **Asymptomatic**
+  * **Fever, cough, hemoptysis**: Local inflammation
+* **Examination**
+  * **[Chest X-ray, CT] Fungus ball, meniscus sign, thickened cavity wall and pleura**: Characteristic findings
+  * **[Blood] Anti-aspergillus precipitating antibodies (+)**: Immune response to infection
+  * **[Sputum, BALF, TBLB] Fungal hyphae, positive culture**: Confirms diagnosis
+* **Management**
+  * **Surgical resection**: Curative treatment
+  * **Voriconazole, itraconazole**: For inoperable cases
+{: .notice--info}
+
+### Chronic Progressive Pulmonary Aspergillosis / 慢性進行性肺アスペルギルス症
+
+* **Overview**
+  * Progressive Aspergillus infection with cavity expansion and infiltrates
+  * Common in patients with pre-existing lung cavities or immunocompromised states
+* **Presentation**
+  * **Persistent cough, sputum/hemoptysis, fever, weight loss**: Chronic inflammation
+* **Examination**
+  * **[Chest X-ray] New/expanding cavities, thickened cavity walls, air-fluid levels**: Progressive nature of disease
+  * **[Blood] WBC↑, CRP↑, ESR↑**: Chronic inflammation
+  * **[Blood] Anti-aspergillus precipitating antibodies (+), galactomannan antigen (+)**: Fungal infection markers
+  * **[Sputum, BALF, TBLB] Fungal hyphae, positive culture**: Confirms diagnosis
+* **Management**
+  * **Micafungin, voriconazole, caspofungin, amphotericin B**: Target fungal cells
+{: .notice--info}
+
+### Invasive Pulmonary Aspergillosis / 侵襲性肺アスペルギルス症
+
+* **Overview**
+  * Severe Aspergillus infection with tissue invasion
+  * Common in immunocompromised patients (neutropenia, leukemia, GVHD, steroid, immunosuppressant)
+* **Presentation**
+  * **Sudden fever, cough, hemoptysis**: Aggressive fungal invasion
+* **Examination**
+  * **[Chest X-ray] Rapidly progressing wedge-shaped shadows**: Vascular invasion
+  * **[CT] Halo sign, air crescent sign**: Characteristic findings
+  * **[Blood] β-D-glucan↑, galactomannan antigen (+)**: Fungal infection markers
+  * **[Sputum, BALF, TBLB] Fungal hyphae, positive culture**: Confirms diagnosis
+* **Management**
+  * **Voriconazole, amphotericin B, itraconazole, micafungin, caspofungin** Target fungal cell
+{: .notice--info}
+
+### Pulmonary Cryptococcosis / 肺クリプトコックス症
+
+* **Overview**
+  * Infection by Cryptococcus neoformans through inhalation from soil contaminated with bird droppings
+  * Occurs in both immunocompetent and immunocompromised patients
+* **Presentation**
+  * **[Immunocompetent] Asymptomatic, mild fever, cough**: Limited immune response
+  * **[Immunocompromised] Fever, fatigue, chest pain, dyspnea,  cough, hemoptysis**: More severe symptoms due to poor immune function
+* **Examination**
+  * **[Chest X-ray, CT] Solitary/multiple nodules, cavitation, infiltrates**: Different patterns based on immune status
+  * **[Blood] GXM antigen (+)**: Confirms diagnosis
+* **Management**
+  * **Fluconazole ,itraconazole, voriconazole, amphotericin B,**:  Target fungal cells
+{: .notice--info}
+
+### Pneumocystis Pneumonia / ニューモシスチス肺炎
+
+* **Overview**
+  * Severe pneumonia caused by Pneumocystis jirovecii in immunocompromised patients
+  * Common in patents with AIDS, malignancy, autoimmune disease, steroid, immunosuppressant
+* **Presentation**
+  * **Sudden fever, dry cough, dyspnea**: Acute inflammatory response
+* **Examination**
+  * **[Blood] LDH↑, KL-6↑, β-D-glucan↑, PaO2↓**: Lung damage and fungal infection markers
+  * **[Chest X-ray, CT] Diffuse ground-glass opacity, multiple cystic shadows**: Characteristic radiological findings
+  * **[Sputum, BALF, TBLB] Detection of pneumocystis**: Confirms diagnosis
+* **Management**
+  * **Trimethoprim-sulfamethoxazole, pentamidine, atovaquone**: Target fungal cells
+  * **Steroids**: For severe respiratory compromise
+{: .notice--info}
+
 ## Immune and Allergic Disorder / 免疫・アレルギー性疾患
 
 ## Interstitial Lung Disease / 間質性肺疾患
