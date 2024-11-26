@@ -1736,6 +1736,209 @@ Essences of clinical medicine.
 
 ## Immune and Allergic Disorder / 免疫・アレルギー性疾患
 
+### Bronchial Asthma / 気管支喘息
+
+* **Overview**
+  * Chronic airway inflammation causing variable obstructive ventilatory impairment
+* **Presentation**
+  * **Recurrent dyspnea, wheezing, cough (often nocturnal or early morning)**: Bronchial narrowing
+* **Examination**
+  * **[Auscultation] Wheezes**: High-pitched sounds from narrowed airways
+  * **[Spirometry] Decreased FEV1 and FEV1%, obstructive pattern on flow-volume curve**: Airway obstruction
+  * **[Bronchial test] FEV1 increase after β2-agonist, FEV1 decrease after bronchoconstrictor**: Airflow limitation reversibility
+  * **[Blood, Sputum] Eosinophils↑, ECP↑**: Eosinophilic inflammation
+* **Management**
+  * **[Long-term control] Inhaled corticosteroids (ICS), leukotriene receptor antagonists (LTRA), sustained-release theophylline (SRT), long-acting β2-agonists (LABA) , long-acting muscarinic antagonists (LAMA)**: Suppress airway inflammation and bronchodilation
+  * **[Long-term control] Bronchial thermoplasty**: Reduce bronchial smooth muscle
+  * **[Acute exacerbation] Short-acting β2-agonists (SABA), systemic steroids, aminophylline, epinephrine, short-acting muscarinic antagonists (SAMA)**: Rapid bronchodilation
+  * **[Acute exacerbation] Oxygen therapy, intubation**: For life-threatening cases
+{: .notice--info}
+
+### Aspirin-Exacerbated Respiratory Disease / アスピリン喘息
+
+* **Overview**
+  * Asthma triggered by NSAIDs with COX-1 inhibitory action
+  * Common in non-atopic refractory asthma
+* **Presentation**
+  * **Nasal congestion, dyspnea, wheezing, cough after NSAIDs intake**: Bronchial constriction triggered by COX-1 inhibition
+  * **Chronic rhinosinusitis with nasal polyps**: Associated upper airway inflammation
+* **Examination**
+  * **[Spirometry] Decreased FEV1, reversible airway obstruction**: Confirms asthma
+* **Management**
+  * **Inhaled β2 agonists, IV aminophylline, SC epinephrine**: Rapid bronchodilation
+  * **Intubation, oxygen, mechanical ventilation**: For life-threatening cases
+{: .notice--info}
+
+### Acute Eosinophilic Pneumonia / 急性好酸球性肺炎
+
+* **Overview**
+  * Rapidly progressive diffuse eosinophilic lung infiltration
+  * Common in young males within 1 month of starting smoking
+* **Presentation**
+  * **Fever, dyspnea, dry cough, chest pain**: Acute inflammatory response and lung infiltration
+  * **Severe hypoxemia**: Rapid onset respiratory failure
+* **Examination**
+  * **[Chest X-ray] Diffuse ground-glass opacity/infiltrates, Kerley B lines, pleural effusion**: Lung inflammation and edema
+  * **[Blood] CRP↑**: Acute inflammation
+  * **[BALF] Eosinophils↑**: Diagnostic criteria
+* **Management**
+  * **High-dose steroids**: Good prognosis
+{: .notice--info}
+
+### Chronic Eosinophilic Pneumonia / 慢性好酸球性肺炎
+
+* **Overview**
+  * Subacute to chronic eosinophilic lung infiltration
+  * Common in middle-aged women with allergic history
+* **Presentation**
+  * **Fever, cough, sputum, dyspnea,**: Chronic inflammatory response and lung infiltration
+  * **Weight loss, general fatigue**: Chronic inflammatory condition
+* **Examination**
+  * **[Chest X-ray] Migratory peripheral infiltrates**: Characteristic findings
+  * **[Blood] Eosinophils↑, CRP↑**: Eosinophilic inflammation
+  * **[BALF, Lung biopsy] Eosinophils↑**: Confirms diagnosis
+* **Management**
+  * **High-dose steroids followed by gradual reduction**: Good prognosis but high relapse rate
+{: .notice--info}
+
+### Allergic Bronchopulmonary Aspergillosis / アレルギー性気管支肺アスペルギルス症
+
+* **Overview**
+  * Allergic respiratory disease caused by Aspergillus species
+  * Common in patients with atopic predisposition
+* **Presentation**
+  * **Fever, cough, paroxysmal dyspnea**: Allergic bronchial response
+  * **Thick brownish sputum**: Mucoid impaction
+* **Examination**
+  * **[Blood] Eosinophils↑, IgE↑, specific IgE to Aspergillus**: Allergic response
+  * **[PFT] FEV1%↓, %VC→or↓**: Obstructive or mixed ventilatory disorder
+  * **[Chest X-ray, CT] Recurrent transient infiltrates, central bronchiectasis, mucoid plugging**: Characteristic findings
+  * **[Skin test] Immediate reaction to Aspergillus antigen**: Type I allergy
+* **Management**
+  * **Systemic steroids**: Control asthma
+  * **Itraconazole**: Antifungal therapy
+{: .notice--info}
+
+### Hypersensitivity Pneumonitis / 過敏性肺臓炎
+
+* **Overview**
+  * Diffuse granulomatous interstitial pneumonia caused by repeated inhalation of antigens
+  * Commonly improves with environment change but relapses with re-exposure
+* **Presentation**
+  * **Fever, dry cough, dyspnea on exertion, fine crackles**: Interstitial inflammation
+* **Examination**
+  * **[Blood] WBC↑, ESR↑, CRP↑, IgE→, eosinophils→, specific antibody**: Inflammatory response
+  * **[PFT] %VC↓, FEV1%→, PaO2↓, DLCO↓**: Restrictive ventilatory disorder with diffusion impairment
+  * **[Chest X-ray, HRCT] Bilateral diffuse ground-glass opacities, nodular shadows**: Interstitial inflammation
+  * **[BALF] T-cells↑, CD4/CD8 ratio varies by type**: Immunological abnormality
+  * **[Inhalation test] Positive inhalation challenge test**: Confirm diagnosis
+* **Management**
+  * **Antigen avoidance**: Primary treatment
+  * **Corticosteroids**: For severe or persistent cases
+{: .notice--info}
+
+### Sarcoidosis / サルコイドーシス
+
+* **Overview**
+  * Non-caseating epithelioid granulomatous disease involving multiple organs
+  * Common in young adults and middle-aged women
+* **Presentation**
+  * **Fatigue, fever, joint pain**: Systemic inflammation
+  * **Cough, exertional dyspnea**: Pulmonary involvement
+  * **Visual disturbance, photophobia, floaters**: Ocular involvement
+  * **Erythema nodosum, scar infiltration**: Cutaneous involvement
+  * **Facial nerve palsy, diabetes insipidus**: Neurological involvement
+  * **Advanced AV block**: Cardiac involvement
+  * **Hypercalcemia**: Renal involvement
+* **Examination**
+  * **[Chest X-ray] Bilateral hilar lymphadenopathy, Ga-67 increased uptake**: Active inflammation
+  * **[Blood] Lymphocytes↓, γ-globulin↑, ACE↑, Ca↑**: Systemic inflammation
+  * **[BALF] Lymphocytes↑, CD4/CD8 ratio↑**: Local inflammation
+  * **[Tuberculin test] Negative conversion**: Decreased cellular immunity
+  * **[Biopsy] Non-caseating epithelioid granuloma**: Diagnostic finding
+* **Management**
+  * **Observation**: Often resolve spontaneously
+  * **Corticosteroids**: For serious cases
+{: .notice--info}
+
+### Microscopic Polyangiitis / 顕微鏡的多発血管炎
+
+* **Overview**
+  * Necrotizing vasculitis affecting lungs and kidneys
+  * Common in 50-70s
+* **Presentation**
+  * **Alveolar hemorrhage, interstitial pneumonia**: Pulmonary involvement
+  * **Hematuria, proteinuria, casts, rapidly progressive glomerulonephritis**: Renal involvement
+  * **Fever, weight loss, fatigue, myalgia, arthralgia**: Systemic inflammation
+  * **Purpura, GI bleeding, mononeuritis multiplex**: Multi-organ involvement
+* **Examination**
+  * **[Blood] CRP↑, WBC↑, MPO-ACNA(+)**: Systemic inflammation
+  * **[Blood] BUN↑, Cr↑**: Renal damage
+* **Management**
+  * **Steroids, high-dose steroids + cyclophosphamide pulse**: Induction therapy
+  * **Low-dose steroids + immunosuppressants**: Maintenance therapy
+{: .notice--info}
+
+### Eosinophilic Granulomatosis with Polyangiitis / 好酸球性多発血管炎性肉芽腫症
+
+* **Overview**
+  * Granulomatous necrotizing vasculitis with eosinophilic infiltration affecting upper airways and peripheral nerves
+  * Common in 40-60s
+* **Presentation**
+  * **Asthma, eosinophilic sinusitis**: Respiratory tract involvement
+  * **Numbness, muscle weakness**: Neurological involvement
+  * **Fever, weight loss**: Systemic inflammation
+  * **GI bleeding, purpura, arthralgia, myalgia**: Multi-organ involvement
+* **Examination**
+  * **[Blood] CRP↑, WBC↑ (eosinophilia), platelets↑, IgE↑, RF(+), MPO-ANCA(+)**: Systemic inflammation
+  * **[Chest X-ray] Migratory infiltrates**: Eosinophilic pneumonia
+  * **[Biopsy] Granulomatous necrotizing vasculitis with eosinophilic infiltration**: Confirms diagnosis
+* **Management**
+  * **Moderate-dose steroids**: Control inflammation
+  * **High-dose steroids + cyclophosphamide pulse, IVIG, anti-IL-5**: For severe or resistant cases
+{: .notice--info}
+
+### Granulomatosis with Polyangiitis / 多発血管炎性肉芽腫症
+
+* **Overview**
+  * Necrotizing granulomatous vasculitis affecting upper airways, lungs, and kidneys
+  * Common in 40-50s
+* **Presentation**
+  * **Otitis media, chronic sinusitis, oral ulcers, exophthalmos**: Upper airway involvement
+  * **Hemoptysis, cough, dyspnea**: Pulmonary involvement
+  * **Hematuria, proteinuria, edema, hypertension**: Renal involvement
+  * **Fever, weight loss**: Systemic inflammation
+  * **Purpura, arthritis, episcleritis, mononeuritis multiplex**: Multi-organ involvement
+* **Examination**
+  * **[Blood] CRP↑, WBC↑, PR3-ANCA or MPO-ANCA(+)**: Systemic inflammation
+  * **[Blood] BUN↑, Cr↑**: Renal damage
+  * **[Chest X-ray/CT] Multiple nodules with cavitation**: Granulomatous inflammation
+  * **[Biopsy] Necrotizing granulomas with giant cells**: Confirms diagnosis
+* **Management**
+  * **High-dose steroids + cyclophosphamide pulse**: Induction therapy
+  * **Low-dose steroids + immunosuppressants**: Maintenance therapy
+{: .notice--info}
+
+### Goodpasture Syndrome / Goodpasture症候群
+
+* **Overview**
+  * Autoimmune disease caused by anti-GBM antibodies targeting basement membranes in lungs and kidneys
+* **Presentation**
+  * **Cough, hemoptysis, dyspnea**: Pulmonary involvement
+  * **Hematuria, proteinuria, oliguria/anuria**: Renal involvement
+* **Examination**
+  * **[Sputum] Hemosiderin-laden macrophages**: Alveolar hemorrhage
+  * **[Chest X-ray] Diffuse reticulonodular infiltrates**: Alveolar damage
+  * **[PFT] Restrictive pattern, DLCO↑**: Alveolar damage
+  * **[Urine] Proteinuria, hematuria**: Glomerular damage
+  * **[Blood] Anti-GBM antibodies(+)**: Confirms diagnosis
+  * **[Biopsy] Linear IgG deposits along basement membranes**: Definitive diagnosis
+* **Management**
+  * **High-dose steroids + immunosuppressants**: Control inflammation
+  * **Plasma exchange**: Remove anti-GBM antibodies
+  * **Dialysis**: For severe renal dysfunction
+{: .notice--info}
+
 ## Interstitial Lung Disease / 間質性肺疾患
 
 ## Obstructive Lung Disease / 閉塞性肺疾患
