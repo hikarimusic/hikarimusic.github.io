@@ -1941,6 +1941,87 @@ Essences of clinical medicine.
 
 ## Interstitial Lung Disease / 間質性肺疾患
 
+### Idiopathic Pulmonary Fibrosis / 特発性肺線維症
+
+* **Overview**
+  * Progressive lung fibrosis and honeycomb formation
+  * Common in male smokers over 50
+* **Presentation**
+  * **Dry cough, exertional dyspnea, fine crackles**: Progressive lung fibrosis
+  * **Clubbing**: Chronic hypoxemia
+* **Examination**
+  * **[Blood] LDH↑, ESR↑, CRP↑, WBC↑, IgG↑, KL-6↑, SP-A↑, SP-D↑**: Inflammation and tissue damage
+  * **[PFT] VC↓, DLCO↓, PaO2↓, A-aDO2↑**: Restrictive ventilatory disorder and diffusion impairment
+  * **[HRCT, X-ray] Honeycomb pattern with reticular shadows**: Characteristic fibrotic changes
+* **Management**
+  * **Pirfenidone, nintedanib**: Anti-fibrotic effect
+  * **N-acetylcysteine inhalation**: Antioxidant effect
+  * **Steroids, immunosuppressants**: For acute exacerbations
+{: .notice--info}
+
+### Pneumoconiosis / じん肺
+
+* **Overview**
+  * Fibroproliferative lung disease caused by inhalation of dust particles
+  * Common in patients with history of long-term dust inhalation
+* **Presentation**
+  * **Dry cough, dyspnea, fine crackles**: Progressive lung fibrosis
+* **Examination**
+  * **[PFT] %VC↓, DLCO↓**: Restrictive ventilatory disorder and diffusion impairment
+  * **[X-ray, CT] Diffuse or merged nodular shadows**: Silicosis
+  * **[X-ray, CT] Reticular shadows, pleural plaques**: Asbestosis
+  * **[Pathology] Silicotic nodules**: Silicosis
+  * **[Pathology] Asbestos bodies**: Asbestosis
+* **Management**
+  * **Antitussives, expectorants**: Symptomatic treatment
+  * **Smoking cessation, respiratory rehabilitation**: Preservation of remaining lung function
+{: .notice--info}
+
+### Radiation Pneumonitis / 放射線肺炎
+
+* **Overview**
+  * Interstitial lung disease caused by radiation therapy
+  * Common complication of chest radiation for lung or breast cancer
+* **Presentation**
+  * **Dry cough, dyspnea**: Focal lung fibrosis
+* **Examination**
+  * **[CT] Infiltrates corresponding to radiation field**: Characteristic radiation-induced changes
+* **Management**
+  * **Supportive care**: For mild cases
+  * **Corticosteroids**: For severe cases
+{: .notice--info}
+
+### Drug-induced Lung Injury / 薬剤性肺障害
+
+* **Overview**
+  * Interstitial lung disease caused by drugs
+  * Causative drugs include chemotherapy or immunosuppressive drugs
+* **Presentation**
+  * **Dry cough, dyspnea**: Lung fibrosis
+* **Examination**
+  * **[CT] Infiltrates, irregular shadows**: Interstitial pneumonitis and fibrosis 
+* **Management**
+  * **Discontinuation of suspected drug**: Primary treatment
+  * **Corticosteroids**: For severe cases
+{: .notice--info}
+
+### Pulmonary Langerhans Cell Histiocytosis / 肺Langerhans細胞組織球症
+
+* **Overview**
+  * Proliferation and infiltration of Langerhans cells in lungs
+  * Common 20-40s smokers
+* **Presentation**
+  * **Asymptomatic**: 10-20% cases
+  * **Dry cough, exertional dyspnea, sputum**: Lung infiltration
+  * **Chest pain, pneumothorax**: Cyst rupture
+* **Examination**
+  * **[CT] Multiple nodules and cysts**: Disease progression pattern
+  * **[Pathology] Langerhans cell infiltration with eosinophils**: Diagnostic finding
+* **Management**
+  * **Smoking cessation**: Primary treatment for smokers
+  * **Corticosteroids**: For progressive or symptomatic cases
+{: .notice--info}
+
 ## Obstructive Lung Disease / 閉塞性肺疾患
 
 ## Lung Tumor / 肺腫瘍
