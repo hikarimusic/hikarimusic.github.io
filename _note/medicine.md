@@ -1736,39 +1736,6 @@ Essences of clinical medicine.
 
 ## Immune and Allergic Disorder / 免疫・アレルギー性疾患
 
-### Bronchial Asthma / 気管支喘息
-
-* **Overview**
-  * Chronic airway inflammation causing variable obstructive ventilatory impairment
-* **Presentation**
-  * **Recurrent dyspnea, wheezing, cough (often nocturnal or early morning)**: Bronchial narrowing
-* **Examination**
-  * **[Auscultation] Wheezes**: High-pitched sounds from narrowed airways
-  * **[Spirometry] Decreased FEV1 and FEV1%, obstructive pattern on flow-volume curve**: Airway obstruction
-  * **[Bronchial test] FEV1 increase after β2-agonist, FEV1 decrease after bronchoconstrictor**: Airflow limitation reversibility
-  * **[Blood, Sputum] Eosinophils↑, ECP↑**: Eosinophilic inflammation
-* **Management**
-  * **[Long-term control] Inhaled corticosteroids (ICS), leukotriene receptor antagonists (LTRA), sustained-release theophylline (SRT), long-acting β2-agonists (LABA) , long-acting muscarinic antagonists (LAMA)**: Suppress airway inflammation and bronchodilation
-  * **[Long-term control] Bronchial thermoplasty**: Reduce bronchial smooth muscle
-  * **[Acute exacerbation] Short-acting β2-agonists (SABA), systemic steroids, aminophylline, epinephrine, short-acting muscarinic antagonists (SAMA)**: Rapid bronchodilation
-  * **[Acute exacerbation] Oxygen therapy, intubation**: For life-threatening cases
-{: .notice--info}
-
-### Aspirin-Exacerbated Respiratory Disease / アスピリン喘息
-
-* **Overview**
-  * Asthma triggered by NSAIDs with COX-1 inhibitory action
-  * Common in non-atopic refractory asthma
-* **Presentation**
-  * **Nasal congestion, dyspnea, wheezing, cough after NSAIDs intake**: Bronchial constriction triggered by COX-1 inhibition
-  * **Chronic rhinosinusitis with nasal polyps**: Associated upper airway inflammation
-* **Examination**
-  * **[Spirometry] Decreased FEV1, reversible airway obstruction**: Confirms asthma
-* **Management**
-  * **Inhaled β2 agonists, IV aminophylline, SC epinephrine**: Rapid bronchodilation
-  * **Intubation, oxygen, mechanical ventilation**: For life-threatening cases
-{: .notice--info}
-
 ### Acute Eosinophilic Pneumonia / 急性好酸球性肺炎
 
 * **Overview**
@@ -2023,6 +1990,72 @@ Essences of clinical medicine.
 {: .notice--info}
 
 ## Obstructive Lung Disease / 閉塞性肺疾患
+
+### Bronchial Asthma / 気管支喘息
+
+* **Overview**
+  * Chronic airway inflammation causing variable obstructive ventilatory impairment
+* **Presentation**
+  * **Recurrent dyspnea, wheezing, cough (often nocturnal or early morning)**: Bronchial narrowing
+* **Examination**
+  * **[Auscultation] Wheezes**: High-pitched sounds from narrowed airways
+  * **[Spirometry] Decreased FEV1 and FEV1%, obstructive pattern on flow-volume curve**: Airway obstruction
+  * **[Bronchial test] FEV1 increase after β2-agonist, FEV1 decrease after bronchoconstrictor**: Airflow limitation reversibility
+  * **[Blood, Sputum] Eosinophils↑, ECP↑**: Eosinophilic inflammation
+* **Management**
+  * **[Long-term control] Inhaled corticosteroids (ICS), leukotriene receptor antagonists (LTRA), sustained-release theophylline (SRT), long-acting β2-agonists (LABA) , long-acting muscarinic antagonists (LAMA)**: Suppress airway inflammation and bronchodilation
+  * **[Long-term control] Bronchial thermoplasty**: Reduce bronchial smooth muscle
+  * **[Acute exacerbation] Short-acting β2-agonists (SABA), systemic steroids, aminophylline, epinephrine, short-acting muscarinic antagonists (SAMA)**: Rapid bronchodilation
+  * **[Acute exacerbation] Oxygen therapy, intubation**: For life-threatening cases
+{: .notice--info}
+
+### Aspirin-Exacerbated Respiratory Disease / アスピリン喘息
+
+* **Overview**
+  * Asthma triggered by NSAIDs with COX-1 inhibitory action
+  * Common in non-atopic refractory asthma
+* **Presentation**
+  * **Nasal congestion, dyspnea, wheezing, cough after NSAIDs intake**: Bronchial constriction triggered by COX-1 inhibition
+  * **Chronic rhinosinusitis with nasal polyps**: Associated upper airway inflammation
+* **Examination**
+  * **[Spirometry] Decreased FEV1, reversible airway obstruction**: Confirms asthma
+* **Management**
+  * **Inhaled β2 agonists, IV aminophylline, SC epinephrine**: Rapid bronchodilation
+  * **Intubation, oxygen, mechanical ventilation**: For life-threatening cases
+{: .notice--info}
+
+### Chronic Obstructive Pulmonary Disease / 慢性閉塞性肺疾患
+
+* **Overview**
+  * Irreversible airflow limitation due to long-term exposure to harmful substances mainly tobacco
+  * Common in smokers >40s
+* **Presentation**
+  * **Chronic cough, sputum production, exertional dyspnea**: Airway inflammation and obstruction
+* **Examination**
+  * **[Spirometry] Post-bronchodilator FEV1% < 70%**: Irreversible obstructive ventilatory impairment
+  * **[Chest X-ray, CT] Hyperinflation, emphysematous changes**: Air trapping and tissue destruction
+* **Management**
+  * **[Stable] Smoking cessation, vaccinations, pulmonary rehabilitation**: Conservative treatment
+  * **[Stable] Bronchodilators (anticholinergics, β2-agonists, methylxanthines), inhaled steroids**: Reduce airway obstruction
+  * **[Exacerbation] Antibiotics, bronchodilators, corticosteroids**: Treat infection and inflammation
+  * **[Exacerbation] Oxygen therapy, ventilation support**: Manage respiratory failure
+{: .notice--info}
+
+### Diffuse Panbronchiolitis / びまん性汎細気管支炎
+
+* **Overview**
+  * Chronic inflammation of respiratory bronchioles in both lungs
+  * Common in patients with chronic sinusitis, associated with HLA-B54
+* **Presentation**
+  * **Chronic purulent sputum, cough, exertional dyspnea**: Airway inflammation and obstruction
+  * **Coarse crackles**: Sputum retention in airways
+* **Examination**
+  * **[Chest X-ray] Diffuse nodular shadows, hyperinflation**: Bronchiolar inflammation and remodeling
+  * **[Chest CT] Centrilobular nodules, bronchiectasis**: Bronchiolar inflammation and remodeling
+  * **[Spirometry] FEV1% < 70%**: Obstructive ventilatory impairment
+* **Management**
+  * **Low-dose long-term erythromycin**: Immunomodulatory effects
+{: .notice--info}
 
 ## Lung Tumor / 肺腫瘍
 
