@@ -2149,9 +2149,117 @@ Essences of clinical medicine.
   * **Surgery**: Selected cases with controlled primary and resectable metastases
 {: .notice--info}
 
-## Pulmonary Circulation Disorder / 肺循環障害
+## Circulatory Disorder / 循環障害
 
-## Functional Respiratory Disorder / 機能的呼吸障害
+### Idiopathic Pulmonary Arterial Hypertension / 特発性肺動脈性肺高血圧症
+
+* **Overview**
+  * Elevated pulmonary arterial pressure due to narrowing of small pulmonary arteries without identifiable cause
+  * Common in women aged 20-40s
+* **Presentation**
+  * **Exertional dyspnea, fatigue, chest pain, cyanosis, syncope**: Reduced pulmonary blood flow and cardiac output
+  * **Jugular vein distention, leg edema, hepatomegaly**: Right heart failure
+* **Examination**
+  * **[Physical] Accentuated P2, Graham Steell murmur**: Pulmonary hypertension
+  * **[ECG] Right axis deviation, right ventricular hypertrophy, P pulmonale**: Right heart strain
+  * **[Chest X-ray, CT] Enlarged pulmonary trunk, right heart enlargement**: Pulmonary hypertension
+  * **[Echocardiogram] Right heart dilation, septal flattening**: Right ventricular pressure overload
+  * **[Right heart catheterization] PAP ≥25mmHg, PAWP ≤15mmHg**: Confirms diagnosis
+* **Management**
+  * **Prostacyclin derivatives, endothelin antagonists, PDE5 inhibitors, continuous IV prostacyclin**:  Relax pulmonary arteries
+  * **Anticoagulation**: Prevent thrombosis
+  * **Oxygen therapy, diuretics**: For right heart failure
+  * **Lung transplantation**: For refractory cases
+{: .notice--info}
+
+### Cardiogenic Pulmonary Edema / 心原性肺水腫
+
+* **Overview**
+  * Pulmonary edema due to left heart failure
+  * Common causes: Myocardial infarction, valvular disease, cardiomyopathy, hypertensive heart disease
+* **Presentation**
+  * **Exertional dyspnea, orthopnea, paroxysmal nocturnal dyspnea, cyanosis, pink frothy sputum**: Pulmonary congestion due to left heart failure
+* **Examination**
+  * **[Physical] Bilateral coarse crackles**: Fluid in alveoli
+  * **[Blood gas] PaO2↓, PaCO2↓**: Type I respiratory failure
+  * **[Blood] BNP↑**: Heart failure
+  * **[Chest X-ray] Enlarged cardiac silhouette, butterfly shadow, Kerley lines, vanishing tumor**: Pulmonary edema
+  * **[Echocardiogram] Left ventricular enlargement, reduced wall motion**: Left heart failure
+* **Management**
+  * **Oxygen therapy**: Treat hypoxemia
+  * **Diuretics, inotropes, vasodilators, morphine**: Treat heart failure
+{: .notice--info}
+
+### Acute Respiratory Distress Syndrome / 急性呼吸窮迫症候群
+
+* **Overview**
+  * Acute onset of increased permeability pulmonary edema with severe hypoxemia
+  * Common causes: Sepsis, trauma, severe burns, pneumonia, aspiration
+* **Presentation**
+  * **Rapidly progressive dyspnea, tachypnea, cyanosis**: Acute respiratory failure
+* **Examination**
+  * **[Physical] Bilateral coarse crackles**: Pulmonary edema
+  * **[Blood gas] PaO2↓, PaCO2↓, A-aDO2↑**: Type I respiratory failure
+  * **[Chest X-ray] Bilateral infiltrates**: Pulmonary edema
+  * **[Echocardiogram] Normal cardiac function**: Rules out cardiogenic pulmonary edema
+* **Management**
+  * **Oxygen therapy, mechanical ventilation**: Treat hypoxemia
+  * **Antibiotics, diuretics**: Treat sepsis/pneumonia, prevent fluid overload
+{: .notice--info}
+
+### Acute Pulmonary Thromboembolism / 急性肺血栓塞栓症
+
+* **Overview**
+  * Acute blockage of pulmonary arteries by blood clots from deep vein thrombosis
+  * Common after surgery, prolonged bed rest, long flights
+* **Presentation**
+  * **Sudden dyspnea, tachypnea, chest pain**: Acute pulmonary arterial obstruction
+* **Examination**
+  * **[Blood gas] PaO2↓, PaCO2↓, A-aDO2↑**: Type I respiratory failure
+  * **[Blood] D-dimer↑, FDP↑**: Evidence of thrombosis
+  * **[Chest X-ray] Enlarged cardiac silhouette, dilated pulmonary arteries**: Pulmonary hypertension
+  * **[Echocardiogram] Right ventricular dilation and dysfunction**: Right ventricular pressure overload
+  * **[Leg ultrasound] Deep vein thrombosis**: Source of embolism
+  * **[Contrast CT] Filling defects in pulmonary arteries**: Confirms diagnosis
+* **Management**
+  * **Oxygen therapy**: Treat hypoxemia
+  * **Heparin followed by warfarin/DOAC**: Remove and prevent thrombosis
+  * **Thrombolysis, catheter thrombectomy**: For severe or refractory cases
+{: .notice--info}
+
+### Chronic Thromboembolic Pulmonary Hypertension / 慢性血栓塞栓性肺高血圧症
+
+* **Overview**
+  * Pulmonary hypertension caused by organized thrombi in pulmonary arteries
+* **Presentation**
+  * **Exertional dyspnea**: Reduced pulmonary blood flow
+  * **Leg edema**: Right heart failure
+* **Examination**
+  * **[Right heart catheterization] Elevated pulmonary arterial pressure**: Confirms pulmonary hypertension
+  * **[V/Q scan] Mismatched perfusion defects**: Characteristic finding
+* **Management**
+  * **Pulmonary endarterectomy**: Remove thrombi
+  * **Balloon pulmonary angioplasty, pulmonary vasodilators**: Relax pulmonary arteries
+  * **Lung transplantation**: For severe cases
+{: .notice--info}
+
+### Pulmonary Arteriovenous Fistula / 肺動静脈瘻
+
+* **Overview**
+  * Vascular malformation with direct shunt between pulmonary artery and vein
+* **Presentation**
+  * **Exertional dyspnea, cyanosis, clubbing**: Reduced gas exchange efficiency
+  * **Polycythemia (RBC↑, Hb↑, Ht↑)**: Compensatory response to chronic hypoxemia
+* **Examination**
+  * **[Blood gas] PaO2↓**: Type I respiratory failure
+  * **[Chest X-ray] Well-defined nodular shadow**: Vascular malformation
+  * **[Contrast CT] Homogeneously enhanced nodule**: Diagnostic finding
+* **Management**
+  * **Transcatheter embolization**: Treat fistula
+  * **Surgical resection**: Alternative option
+{: .notice--info}
+
+## Functional Disorder / 機能障害
 
 ## Pleural Disorder / 胸膜疾患
 
