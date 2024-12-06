@@ -2261,6 +2261,49 @@ Essences of clinical medicine.
 
 ## Functional Disorder / 機能障害
 
+### Obstructive Sleep Apnea Syndrome / 閉塞性睡眠時無呼吸症候群
+
+* **Overview**
+  * Recurrent upper airway obstruction during sleep leading to apnea or hypopnea
+  * Common in middle-aged obese men and postmenopausal women
+* **Presentation**
+  * **Snoring, breathing pauses during sleep**: Upper airway obstruction
+  * **Daytime sleepiness, reduced concentration**: Sleep fragmentation
+* **Examination**
+  * **[Polysomnography] Obstructive apnea, AHI ≥5**: Confirms diagnosis
+* **Management**
+  * **Weight reduction**: Lifestyle modification
+  * **Nasal CPAP**: Maintains airway patency
+{: .notice--info}
+
+### Hyperventilation Syndrome / 過換気症候群
+
+* **Overview**
+  * Episodic hyperventilation triggered by psychological factors
+  * Common in young women
+* **Presentation**
+  * **Tachypnea, dyspnea, palpitations, chest pain**: Triggered by stress or anxiety
+  * **Dizziness, altered consciousness, numbness, spasm**: Respiratory alkalosis and hypocalcemia
+* **Examination**
+  * **[Blood gas] PaCO2↓, pH↑**: Respiratory alkalosis
+* **Management**
+  * **Calm patient, guide slow breathing**: Normalize respiratory rate
+{: .notice--info}
+
+### CO2 Narcosis / CO2ナルコーシス
+
+* **Overview**
+  * Severe accumulation of CO2 leading to central nervous system dysfunction
+* **Presentation**
+  * **Drowsiness, confusion, coma**: High CO2 levels affecting brain function
+  * **Decreased respiratory rate**: Respiratory center depression
+* **Examination**
+  * **[Blood gas] PaCO2↑, HCO3-↑**: Severe CO2 retention
+* **Management**
+  * **Reduce O2 concentration**: High-concentration O2 suppress respiration
+  * **NPPV, intubation**: For persistent hypoxemia
+{: .notice--info}
+
 ## Pleural Disorder / 胸膜疾患
 
 ## Mediastinal Disorder / 縦隔疾患
