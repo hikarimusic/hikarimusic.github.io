@@ -2304,11 +2304,128 @@ Essences of clinical medicine.
   * **NPPV, intubation**: For persistent hypoxemia
 {: .notice--info}
 
+## Miscellaneous Respiratory Disorder / その他の呼吸器疾患
+
+### Bronchiectasis / 気管支拡張症
+
+* **Overview**
+  * Irreversible dilation of peripheral airways due to recurrent infection or inflammation
+* **Presentation**
+  * **Chronic cough, substantial sputum, hemoptysis, recurrent fever**: Chronic airway infection
+* **Examination**
+  * **[Physical] Coarse crackles**: Airway secretions
+  * **[Chest X-ray] Tram lines**: Thickened bronchial walls
+  * **[Chest CT] Dilated bronchi**: Confirms diagnosis
+* **Management**
+  * **Postural drainage, respiratory rehabilitation, expectorants**: Remove airway secretions
+  * **Long-term low-dose macrolide**: Anti-inflammatory effect
+  * **Hemostatic drugs, bronchoscopic hemostasis, bronchial artery embolization**: Treat hemoptysis
+  * **Antibiotics**: Treat secondary bacterial infection during acute exacerbation
+{: .notice--info}
+
+### Pulmonary Sequestration / 肺分画症
+
+* **Overview**
+  * Abnormal lung tissue receiving blood supply directly from aorta without normal airway connection, classified as intralobar or extralobar
+  * Common in young adults (intralobar) and infants (extralobar)
+* **Presentation**
+  * **[Intralobar] Cough, sputum, fever**: Recurrent infection
+  * **[Extralobar] Dyspnea, cyanosis**: Developmental abnormality
+* **Examination**
+  * **[Chest X-ray] Mass or cystic shadow in left lower lung**: Abnormal lung tissue
+  * **[CTA, MRA] Aberrant artery from descending aorta**: Diagnostic finding
+* **Management**
+  * **Surgical resection**: Prevent infection
+{: .notice--info}
+
+### Pulmonary Cyst Disease / 肺囊胞症
+
+* **Overview**
+  * Formation of sac-like structures in lungs, including bullae/blebs (air-filled) and bronchogenic cysts (mucus-filled)
+* **Presentation**
+  * **[Bullae/Blebs] Asymptomatic, occasionally pneumothorax**: Rupture of subpleural bullae/blebs
+  * **[Bronchogenic cysts] Asymptomatic, occasionally dyspnea**: Airway compression
+* **Examination**
+  * **[Bullae/Blebs, CT] Air-filled spaces in subpleural region**: Confirm bullae/blebs
+  * **[Bronchogenic cysts, CT] Mucus-filled cyst in middle mediastinum**: Confirm bronchogenic cysts
+* **Management**
+  * **[Bullae/Blebs] Surgical resection**: For recurrent pneumothorax
+  * **[Bronchogenic cysts] Surgical resection**: For symptomatic cases
+{: .notice--info}
+
+### Autoimmune Pulmonary Alveolar Proteinosis / 自己免疫性肺胞蛋白症
+
+* **Overview**
+  * Abnormal accumulation of surfactant-derived lipoprotein in alveoli and terminal bronchioles, mostly associated with anti-GM-CSF antibodies
+  * Common in 30-50s smoking males
+* **Presentation**
+  * **Cough, exertional dyspnea**: Accumulation of surfactant material
+* **Examination**
+  * **[Blood] LDH↑, KL-6↑, CEA↑, SP-A↑, SP-D↑**: Markers of alveolar damage and surfactant accumulation
+  * **[Chest X-ray] Bilateral ground-glass opacities**: Surfactant accumulation
+  * **[CT] Crazy-paving pattern**: Combined ground-glass and septal thickening
+  * **[BAL] Milky-white lavage fluid**: Surfactant accumulation
+  * **[Blood] Anti-GM-CSF antibody positive**: Confirms autoimmune nature
+* **Management**
+  * **Whole lung or segmental lavage**: Remove accumulated material
+{: .notice--info}
+
+### Lymphangioleiomyomatosis / リンパ脈管筋腫症
+
+* **Overview**
+  * Proliferation of smooth muscle-like cells (LAM cells) in lungs, kidneys, and lymphatics, associated with tuberous sclerosis
+  * Common in 20-40s women
+* **Presentation**
+  * **Exertional dyspnea, cough, bloody sputum**: Lung destruction 
+  * **Recurrent pneumothorax**: Rupture of lung cysts
+* **Examination**
+  * **[Blood] VEGF-D↑**: Marker for LAM
+  * **[PFT] Diffusion impairment, obstructive pattern**: Airway obstruction and parenchymal destruction
+  * **[Chest X-ray] Reticular shadows, hyperinflation**: Formation of multiple cysts
+  * **[CT] Multiple thin-walled cysts**: Characteristic finding
+  * **[Biopsy] LAM cell proliferation**: Confirms diagnosis
+* **Management**
+  * **Sirolimus (mTor inhibitors)**: Inhibit LAM cells proliferation
+  * **Bronchodilators**: For obstructive symptoms
+  * **Surgery**: For recurrent pneumothorax
+  * **Oxygen therapy, lung transplantation**: For respiratory failure
+{: .notice--info}
+
+### Airway Foreign Bodies / 気道異物
+
+* **Overview**
+  * Foreign objects obstructing or narrowing airways
+  * Common in children and elderly with history of aspiration 
+* **Presentation**
+  * **Cough, wheezing, dyspnea, cyanosis**: Airway obstruction
+* **Examination**
+  * **[Chest X-ray] Visible foreign body, Holzknecht sign**: Identify foreign body
+* **Management**
+  * **Heimlich maneuver**: Immediate intervention for complete obstruction
+  * **Bronchoscopic removal**: For accessible foreign bodies
+{: .notice--info}
+
+### Flail Chest / フレイルチェスト
+
+* **Overview**
+  * Multiple rib fractures cause chest wall segment to lose continuity
+  * Commonly due to severe chest trauma
+* **Presentation**
+  * **Paradoxical chest wall movement**: Affected segment moves inward during inspiration, outward during expiration
+* **Examination**
+  * **[Physical] Chest wall instability on palpation**: Loss of normal thoracic cage rigidity
+  * **[Imaging] Multiple rib fractures**: Confirms diagnosis
+* **Management**
+  * **Chest tube drainage**: For pneumothorax or hemothorax
+  * **Positive pressure ventilation**: For respiratory failure
+  * **Analgesics**: Pain control
+  * **Surgical fixation**: For refractory cases
+{: .notice--info}
+
 ## Pleural Disorder / 胸膜疾患
 
 ## Mediastinal Disorder / 縦隔疾患
 
-## Miscellaneous Respiratory Disorder / その他の呼吸器疾患
 
 <!-- ### Inferior Respiratory Tract / 下気道
 
