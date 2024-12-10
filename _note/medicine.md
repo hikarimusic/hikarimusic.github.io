@@ -2304,6 +2304,143 @@ Essences of clinical medicine.
   * **NPPV, intubation**: For persistent hypoxemia
 {: .notice--info}
 
+## Pleural Disorder / 胸膜疾患
+
+### Pleuritis / 胸膜炎
+
+* **Overview**
+  * Inflammation of pleura due to malignancy or infection
+* **Presentation**
+  * **Chest pain (worsening with deep breathing or coughing), dyspnea**: Inflammation of pleural membrane
+  * **Cough, fever**: Underlying infection or inflammation
+* **Examination**
+  * **[Physical] Dullness to percussion, pleural friction rub, decreased breath sounds, egophony**: Pleural effusion
+  * **[Chest X-ray] Blunting of costophrenic angle, band-like opacity**: Pleural effusion
+  * **[Pleural fluid] Exudative effusion**: Identify malignant, tuberculous, or parapneumonic causes
+* **Management**
+  * **Treat underlying cause**: Primary management
+  * **Thoracentesis, chest tube drainage**: Remove pleural fluid
+{: .notice--info}
+
+### Empyema / 膿胸
+
+* **Overview**
+  * Collection of purulent fluid in pleural space due to infection, classified into acute or chronic forms
+* **Presentation**
+  * **Chest pain, dyspnea, fever**: Infection and inflammation of pleural space
+* **Examination**
+  * **[Chest X-ray] Pleural opacity, possible air-fluid level**: Purulent effusion
+  * **[Pleural fluid] Purulent fluid, bacterial culture positive**: Confirms diagnosis
+* **Management**
+  * **[Acute] Antibiotics, chest tube drainage**: Treat infection and remove pus
+  * **[Chronic] Decortication**: Remove thickened pleura
+{: .notice--info}
+
+### Spontaneous Pneumothorax / 自然気胸
+
+* **Overview**
+  * Air in pleural space without obvious cause
+  * Common in males (20s, tall, thin) and patients with underlying lung diseases (COPD, interstitial pneumonia, tuberculosis)
+* **Presentation**
+  * **Sudden onset dyspnea, chest pain**: Lung collapse due to air entrance
+* **Examination**
+  * **[Physical] Hyperresonance to percussion, decreased breath sounds**: Air in pleural space
+  * **[Chest X-ray] Transparency without lung markings, collapsed lung**: Pneumothorax with lung collapse
+* **Management**
+  * **Observation, needle aspiration**: For small pneumothorax
+  * **Chest tube drainage**: For larger pneumothorax
+{: .notice--info}
+
+### Tension Pneumothorax / 緊張性気胸
+
+* **Overview**
+  * Air continuously enters pleural space, medical emergency due to rapid respiratory and circulatory deterioration
+  * Occurs in spontaneous pneumothorax, chest trauma, or mechanical ventilation
+* **Presentation**
+  * **Chest pain, dry cough, tachypnea, dyspnea, cyanosis**: Ventilation impairment
+  * **Sudden hypotension, tachycardia, jugular vein distention**: Circulatory shock due to mediastinal compression
+* **Examination**
+  * **[Physical] Hyperresonance to percussion, decreased breath sounds**: Air in pleural space
+  * **[Chest X-ray] Severe lung collapse, mediastinal shift to opposite side, depressed hemidiaphragm**: High pressure pneumothorax
+* **Management**
+  * **Immediate needle decompression, chest tube drainage**: Emergent treatment
+{: .notice--info}
+
+### Pleural Mesothelioma / 胸膜中皮腫
+
+* **Overview**
+  * Malignant tumor arising from pleural mesothelial cells
+  * Strong association with asbestos exposure, 20-40 years latency period
+* **Presentation**
+  * **Chest pain, exertional dyspnea**: Tumor invasion and pleural effusion
+* **Examination**
+  * **[Chest X-ray, CT] Pleural masses, irregular pleural thickening, pleural effusion**: Tumor invasion and pleural effusion
+  * **[Pleural fluid] Elevated hyaluronic acid**: Characteristic finding
+  * **[Biopsy] Pleural malignant cells**: Confirm diagnosis
+* **Management**
+  * **Extrapleural pneumonectomy, pleurectomy**: For resectable cases
+  * **Chemotherapy, radiation therapy**: Combined or palliative treatment
+{: .notice--info}
+
+## Mediastinal Disorder / 縦隔疾患
+
+### Mediastinitis / 縦隔炎
+
+* **Overview**
+  * Inflammation of mediastinum due to descending infection, trauma, or esophageal perforation
+* **Presentation**
+  * **Fever, chest pain, dyspnea, neck swelling**: Severe inflammation in mediastinum
+* **Examination**
+  * **[Blood] WBC↑, CRP↑**: Active inflammation
+  * **[Chest X-ray] Widened mediastinum**: Inflammatory changes and edema
+* **Management**
+  * **Antibiotics, drainage**: Control infection
+{: .notice--info}
+
+### Thymoma / 胸腺腫
+
+* **Overview**
+  * Mediastinal tumor arising from thymic epithelial cells, commonly in anterior mediastinum
+ * Common in adults over 40s
+* **Presentation**
+  * **Asymptomatic, chest pressure, dyspnea, cough**: Mass effect in mediastinum
+  * **Muscle weakness, ptosis, diplopia**: Associated myasthenia gravis
+* **Examination**
+  * **[Chest X-ray, CT, MRI] Mass in anterior mediastinum**: Evaluate tumor extent and characteristics
+  * **[Biopsy] Proliferation of epithelial cells and lymphocytes**: Confirm diagnosis
+* **Management**
+  * **Thymectomy, radiation therapy**: Complete resection
+  * **Chemotherapy**: For metastatic cases
+{: .notice--info}
+
+### Germ Cell Tumor / 胚細胞性腫瘍
+
+* **Overview**
+  * Mediastinal tumor derived from primitive germ cells, commonly in anterior mediastinum
+  * Common in young adults
+* **Presentation**
+  * **Asymptomatic, chest pain, dyspnea**: Mass effect in mediastinum
+* **Examination**
+  * **[Chest X-ray, CT, MRI] Mass in anterior mediastinum**: Evaluate tumor extent and characteristics
+  * **[Biopsy] Teratoma, seminoma, nonseminoma**: Confirm diagnosis
+* **Management**
+  * **[Mature teratoma] Surgery**: Complete resection
+  * **[Seminoma, non-seminoma] Chemotherapy, combined with other therapies**: Multimodal therapy
+{: .notice--info}
+
+### Neurogenic Tumor / 神経原性腫瘍
+
+* **Overview**
+  * Mediastinal tumor derived from peripheral nerve tissues, commonly in posterior mediastinum
+* **Presentation**
+  * **Asymptomatic, Horner's syndrome**: Tumor compressing adjacent nerves
+* **Examination**
+  * **[Chest X-ray, CT, MRI] Mass in posterior mediastinum**: Evaluate tumor extent and characteristics
+  * **[Pathology] Diagnosis after resection**: Difficult location for biopsy
+* **Management**
+  * **Surgical resection**: Complete resection
+{: .notice--info}
+
 ## Miscellaneous Respiratory Disorder / その他の呼吸器疾患
 
 ### Bronchiectasis / 気管支拡張症
@@ -2421,10 +2558,6 @@ Essences of clinical medicine.
   * **Analgesics**: Pain control
   * **Surgical fixation**: For refractory cases
 {: .notice--info}
-
-## Pleural Disorder / 胸膜疾患
-
-## Mediastinal Disorder / 縦隔疾患
 
 
 <!-- ### Inferior Respiratory Tract / 下気道
