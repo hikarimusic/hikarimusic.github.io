@@ -2967,9 +2967,415 @@ Essences of clinical medicine.
 
 ## Intestine Disorder / 腸疾患
 
-## Anus Disorder / 肛門疾患
+### Irritable Bowel Syndrome / 過敏性腸症候群
+
+* **Overview**
+  * Functional gastrointestinal disorder with chronic abdominal symptoms, stress-related but exact cause unknown
+  * Common disease in adults
+* **Presentation**
+  * **Abdominal pain/discomfort, diarrhea, constipation**: Chronic symptoms lasting several months
+  * **No alarm symptoms (fever, bloody stool, weight loss)**: Distinguishes from organic diseases
+* **Examination**
+  * **[Endoscopy] Normal**: Distinguishes from organic diseases
+* **Management**
+  * **Patient education, lifestyle modification, relaxation, cognitive behavioral therapy**: Benign nature of condition
+  * **Probiotics, polycarboxylate calcium, trimebutine**: Improve gut function
+  * **Lubiprostone, linaclotide, mosapride**: For constipation-predominant cases
+  * **Ramosetron, loperamide**: For diarrhea-predominant cases
+{: .notice--info}
+
+### Simple Intestinal Obstruction / 単純性腸閉塞
+
+* **Overview**
+  * Mechanical bowel obstruction without vascular compromise
+  * Most commonly due to postoperative adhesions, also due to colon cancer
+* **Presentation**
+  * **Intermittent abdominal pain, distension, vomiting, absence of defecation**: Gradual progression of obstruction
+* **Examination**
+  * **[Physical] Increased bowel sounds, metallic sounds, tympanic sound, visible peristalsis**: Signs of obstruction
+  * **[Blood] Hemoconcentration, metabolic alkalosis**: Due to dehydration and vomiting
+  * **[X-ray] Dilated bowel loops, niveau**: Gas and fluid accumulation in lumen
+* **Management**
+  * **NPO, IV fluids**: Correct dehydration and electrolyte imbalance
+  * **Nasogastric/ileus tube**: Decompress bowel
+  * **Antibiotics**: Prevent sepsis from bacterial overgrowth
+  * **Surgery**: For resistant cases
+{: .notice--info}
+
+### Complex Intestinal Obstruction / 複雑性腸閉塞
+
+* **Overview**
+  * Mechanical bowel obstruction with vascular compromise
+  * Causes include adhesions, intussusception, volvulus, incarcerated hernia
+* **Presentation**
+  * **Sudden onset severe abdominal pain, vomiting, distension, shock**: Rapid progression
+* **Examination**
+  * **[Physical] Severe tenderness, decreased bowel sounds, muscle guarding, rebound tenderness**: Peritoneal irritation
+  * **[Blood] Hemoconcentration, WBC↑, CK↑, LDH↑, metabolic acidosis**: Indicates bowel necrosis
+  * **[X-ray] Gasless abdomen, niveau**: Fluid accumulation in lumen
+  * **[Contrast CT] Severe bowel wall edema, poor enhancement, ascites**: Confirms strangulation
+* **Management**
+  * **IV fluids, antibiotics**: Initial stabilization
+  * **Surgery (release strangulation, resect necrotic bowel)**: Emergency surgery
+{: .notice--info}
+
+### Paralytic Ileus / 麻痺性イレウス
+
+* **Overview**
+  * Functional ileus due to impaired intestinal nerve and muscle function
+  * Causes include post-surgery, acute peritonitis, acute mesenteric artery occlusion, diabetes, medications
+* **Presentation**
+  * **Minimal pain, abdominal distension**: Due to intestinal paralysis
+* **Examination**
+  * **[Physical] Decreased bowel sounds**: Intestinal paralysis
+  * **[X-ray] Dilated bowel loops, air-fluid levels**: Gas and fluid accumulation in lumen
+* **Management**
+  * **Treat underlying cause**: Primary treatment
+  * **Metoclopramide, neostigmine**: Improve intestinal motility
+  * **Nasogastric/ileus tube**: Decompress bowel
+{: .notice--info}
+
+### Superior Mesenteric Artery Syndrome / 上腸間膜動脈症候群
+
+* **Overview**
+  * Compression of horizontal part of duodenum between superior mesenteric artery and aorta/vertebrae
+  * Common in thin females
+* **Presentation**
+  * **Nausea, vomiting, loss of appetite, upper abdominal pain**: Due to duodenal obstruction
+* **Examination**
+  * **[Upper GI series] Dilated proximal duodenum, cutoff at SMA crossing**: Duodenal compression
+  * **[CT] Narrow aortomesenteric angle**: Confirms diagnosis
+* **Management**
+  * **Weight gain, positional changes**: Conservative treatment
+  * **Duodenojejunostomy**: For resistant cases
+{: .notice--info}
+
+### Crohn's Disease / Crohn病
+
+* **Overview**
+  * Granulomatous inflammatory disease with skip lesions affecting all layers of digestive tract wall
+  * Common in 10-20s adults
+* **Presentation**
+  * **Abdominal pain, diarrhea**: Transmural inflammation of intestinal wall
+  * **Fever, weight loss**: Systemic inflammation
+  * **Perianal abscess/fistula, oral aphthae, arthritis**: Extra-intestinal manifestations
+* **Examination**
+  * **[Blood] Anemia, WBC↑, CRP↑, ESR↑, hypoproteinemia**: Chronic inflammation
+  * **[Endoscopy] Skip lesions, longitudinal ulcers, cobblestone appearance, strictures, fistulas**: Non-continuous inflammation
+  * **[Biopsy] Non-caseating epithelioid granulomas**: Chronic granulomatous inflammation
+* **Management**
+  * **Nutritional therapy (enteral nutrition, TPN)**: Rest bowel and eliminate dietary allergens
+  * **Corticosteroids, 5-ASA (mesalazine, sulfasalazine)**: Anti-inflammatory drugs for remission induction
+  * **5-ASA, biologics (anti-TNF-α, anti-IL-12/23, anti-integrin), immunomodulators (azathioprine, mercaptopurine)**: Anti-inflammatory drugs for remission maintenance
+  * **Surgery**: For strictures, fistula, bleeding
+{: .notice--info}
+
+### Ulcerative Colitis / 潰瘍性大腸炎
+
+* **Overview**
+  * Diffuse inflammatory disease with continuous lesions affecting colonic mucosa
+  * Common in 10-30s adults
+* **Presentation**
+  * **Bloody diarrhea, abdominal pain, tenesmus**: Mucosal inflammation and ulceration
+  * **Fever, weight loss**: Systemic inflammation
+* **Examination**
+  * **[Blood] Anemia, CRP↑, ESR↑, hypoproteinemia**: Chronic inflammation
+  * **[Endoscopy] Continuous lesions, loss of vascular pattern, erosions/ulcers, pseudopolyps, loss of haustra**: Continuous inflammation from rectum
+  * **[Biopsy] Diffuse inflammatory cell infiltration, crypt abscess, reduced goblet cells**: Chronic mucosal inflammation
+* **Management**
+  * **5-ASA (mesalazine, sulfasalazine), corticosteroids, calcineurin inhibitors (tacrolimus, cyclosporine)**: Anti-inflammatory drugs for remission induction
+  * **5-ASA, immunomodulators (azathioprine, mercaptopurine) , biologics (anti-TNF-α, anti-integrin), JAK inhibitors**: Anti-inflammatory drugs for remission maintenance
+  * **Surgery (total colectomy)**: For refractory cases, cancer, toxic megacolon
+{: .notice--info}
+
+### Intestinal Tuberculosis / 腸結核
+
+* **Overview**
+  * Tuberculosis infection of intestinal tract causing ulcers and scarring
+* **Presentation**
+  * **Abdominal pain, diarrhea, bloody stool**: Intestinal inflammation and ulceration
+  * **Fever, weight loss**: Systemic effects of TB infection
+* **Examination**
+  * **[Endoscopy] Deformed ileocecal valve, ulcers**: Characteristic TB changes
+  * **[Biopsy] Granulomas, caseous necrosis**: Confirms TB infection
+* **Management**
+  * **Anti-tuberculosis drugs**: Standard TB treatment
+{: .notice--info}
+
+### Pseudomembranous Colitis / 偽膜性大腸炎
+
+* **Overview**
+  * Caused by Clostridioides difficile overgrowth after antibiotic use
+  * Common in elderly and patients with underlying diseases
+* **Presentation**
+  * **Watery diarrhea, abdominal pain, fever (after antibiotic use)**: CD toxin damage colonic mucosa
+* **Examination**
+  * **[Blood] WBC↑, CRP↑**: Inflammatory response
+  * **[Stool] CD toxin A/B positive, GDH antigen positive, culture positive**: Confirms C. difficile infection
+  * **[Endoscopy] Multiple yellow-white pseudomembranes**: Lesions due to CD toxin
+* **Management**
+  * **Discontinue causative antibiotics**: Primary intervention
+  * **Metronidazole, vancomycin**: Treat C. difficile infection
+  * **Fidaxomicin, anti-toxin B antibody, fecal transplantation**: For refractory cases
+{: .notice--info}
+
+### Ischemic Colitis / 虚血性大腸炎
+
+* **Overview**
+  * Small vessel ischemia leading to localized mucosal damage in colon
+  * Common in elderly with atherosclerotic risk factors
+* **Presentation**
+  * **Sudden left lower abdominal pain**: Ischemia primarily affects left colon
+  * **Diarrhea, bloody stool**: Mucosal damage and inflammation
+* **Examination**
+  * **[Endoscopy] Mucosal edema, erosions, submucosal hemorrhage, longitudinal ulcers**: Mucosal damage in left colon
+  * **[Barium enema] Thumb printing sign, longitudinal ulcers**: Mucosal edema in left colon
+* **Management**
+  * **Rest, fasting, fluid therapy**: Conservative treatment
+  * **Balloon dilation, emergency surgery**: For stricture or gangrenous type
+{: .notice--info} 
+
+### Acute Mesenteric Artery Occlusion / 急性腸間膜動脈閉塞症
+
+* **Overview**
+  * Acute occlusion of mesenteric artery (mainly SMA) leading to bowel necrosis, peritonitis, and sepsis
+  * Common in patients with atrial fibrillation, valvular diseases, or atherosclerosis
+* **Presentation**
+  * **Sudden severe abdominal pain, nausea, vomiting**: Visceral ischemia
+  * **Peritoneal signs, paralytic ileus, shock**: Bowel necrosis and peritonitis
+* **Examination**
+  * **[Contrast CT] Filling defect in SMA, poor bowel wall enhancement**: Arterial occlusion and bowel ischemia
+* **Management**
+  * **Emergency laparotomy**: Remove thrombus and resect necrotic bowel
+  * **Thrombolytic, vasodilator drugs**: Catheter infusion before surgery
+{: .notice--info}
+
+### Acute Appendicitis / 急性虫垂炎
+
+* **Overview**
+  * Acute inflammation of appendix due to obstruction by fecalith, food debris, or lymphoid hyperplasia
+  * Common in 10-20s children and adults
+* **Presentation**
+  * **Initial epigastric/periumbilical pain, anorexia, nausea, vomiting**: Visceral pain from appendiceal distention
+  * **Later right lower quadrant pain, low-grade fever**: Somatic pain due to peritoneal inflammation
+* **Examination**
+  * **[Physical] McBurney's point tenderness, rebound tenderness (Blumberg sign), muscle guarding**: Peritoneal irritation
+  * **[Blood] WBC↑, CRP↑**: Acute inflammation
+  * **[Ultrasound, CT] Enlarged appendix, fecalith, surrounding exudate**: Confirms appendiceal inflammation
+* **Management**
+  * **Appendectomy**: Remove inflamed appendix
+  * **Antibiotics, fasting**: Conservative treatment
+{: .notice--info}
+
+### Colonic Diverticulitis / 大腸憩室炎
+
+* **Overview**
+  * Inflammation of colonic diverticula due to fecal impaction and bacterial overgrowth
+  * Common in middle-aged to elderly adults with chronic constipation
+* **Presentation**
+  * **Lower abdominal pain and tenderness, low-grade fever**: Local inflammation around diverticulum
+* **Examination**
+  * **[Blood] WBC↑, CRP↑**: Acute inflammation
+  * **[CT] Thickened bowel wall, surrounding inflammation**: Inflammation around diverticulum
+  * **[Colonoscopy, Barium enema] Diverticula at tender points**: Visualization of diverticulum
+* **Management**
+  * **Fasting, IV fluids, antibiotics**: Conservative treatment
+  * **Abscess drainage, colectomy**: For abscess or perforation
+{: .notice--info}
+
+### Colonic Diverticular Hemorrhage / 大腸憩室出血
+
+* **Overview**
+  * Bleeding of colonic diverticula
+  * Common in elderly
+* **Presentation**
+  * **Painless bleeding, bloody stool**: Direct bleeding from diverticular vessels
+* **Examination**
+  * **[Endoscopy] Active bleeding from diverticula**: Confirms diagnosis
+  * **[Contrast CT] Identifies bleeding site**: Localization of bleeding
+* **Management**
+  * **Rest, fasting, IV fluids**: Conservative treatment
+  * **Endoscopic hemostasis (clipping, ligation)**: For active bleeding with identified source
+  * **Transcatheter arterial embolization (TAE)**: For massive bleeding
+{: .notice--info}
+
+### Gastrointestinal Neuroendocrine Neoplasm / 消化管神経内分泌腫瘍
+
+* **Overview**
+  * Slow-growing but malignant submucosal tumors, classified as well-differentiated NET or poorly-differentiated NEC
+* **Presentation**
+  * **Asymptomatic, GI bleeding, abdominal pain**: Due to local tumor growth
+  * **Flushing, wheezing, diarrhea**: Carcinoid syndrome due to hormone secretion
+* **Examination**
+  * **[Endoscopy] Smooth elevated lesion, bridging fold, delle**: Submucosal tumor
+  * **[Urine, Blood] 5-HIAA↑, Serotonin↑**: Hormone production by tumor
+  * **[Biopsy] Small uniform cells in cord/ribbon/rosette pattern, chromogranin A(+), silver stain(+)**: Confirms diagnosis
+* **Management**
+  * **Surgical resection, EMR**: For resectable cases
+  * **Octreotide, lanreotide, everolimus, streptozocin**: For unresectable cases and carcinoid syndrome
+{: .notice--info}
+
+### Colonic Polyps / 大腸ポリープ
+
+* **Overview**
+  * Protruding lesions from colonic mucosa into lumen, most commonly adenomas (neoplastic) or hyperplastic polyps (non-neoplastic)
+* **Presentation**
+  * **Asymptomatic, positive fecal occult blood test**: Found during screening
+  * **Bloody stool**: With larger polyps
+* **Examination**
+  * **[Endoscopy] Protruding lesions, pit pattern analysis**: Determines polyp type and risk
+  * **[Pathology] Adenoma, hyperplastic, serrated lesions**: Confirm polyp type
+* **Management**
+  * **Observation**: Small hyperplastic polyps
+  * **Polypectomy, EMR**: For large symptomatic polyps or suspected cancer
+{: .notice--info}
+
+### Colorectal Cancer / 大腸癌
+
+* **Overview**
+  * Malignant tumor arising from colon/rectal mucosa, mostly adenocarcinoma
+  * Common in 50-70s adults
+* **Presentation**
+  * **Asymptomatic, positive fecal occult blood test**: Found during screening
+  * **Constipation, diarrhea, bloody stool, thin stools, abdominal pain**: Due to tumor growth and obstruction
+* **Examination**
+  * **[Endoscopy] Elevated or depressed lesions, pit pattern analysis**: Early colorectal cancer (≤submucosal invasion)
+  * **[Endoscopy] Ulcerative lesions with raised edges**: Advanced colorectal cancer (≥muscularis propria invasion)
+  * **[Barium enema] Irregular filling defects, apple core sign**: Tumor causing luminal narrowing
+  * **[Blood] Anemia, CEA↑, CA19-9↑**: Tumor markers (especially with liver metastasis)
+  * **[CT] Multiple low-density areas in liver**: Common site of metastasis
+* **Management**
+  * **[Early] Polypectomy, EMR, ESD**: For early tumor
+  * **[Advanced] Surgical resection + lymph node dissection**: For advanced tumor
+  * **[Metastasis] Chemotherapy (FOLFOX/FOLFIRI), surgical resection**: For metastatic tumor
+{: .notice--info}
+
+### Familial Adenomatous Polyposis / 家族性大腸腺腫症
+
+* **Overview**
+  * Multiple adenomatous polyps throughout colon with risk of developing cancer, autosomal dominant disorder caused by APC gene mutation
+  * Common in 15-40s adults with familial history
+* **Presentation**
+  * **Bloody stools, diarrhea, abdominal pain**: Due to numerous polyps
+* **Examination**
+  * **[Endoscopy, Barium enema] Numerous polyps throughout colon**
+  * **[Biopsy] Adenomatous polyps**: Confirm polyps type
+  * **[Genetic testing] APC gene mutation**: Confirms diagnosis
+* **Management**
+  * **Total colectomy**: Prevent development of colon cancer
+  * **Endoscopic polypectomy, aspirin**: For cases with fewer polyps
+{: .notice--info}
+
+### Peutz-Jeghers Syndrome / Peutz-Jeghers症候群
+
+* **Overview**
+  * Multiple hamartomatous polyps throughout GI tract, autosomal dominant disorder caused by STK11/LKB1 gene mutation
+* **Presentation**
+  * **Mucocutaneous pigmentation around lips**: Resembling freckles/moles
+  * **Abdominal pain, bloody stools**: GI symptoms due to polyps
+* **Examination**
+  * **[Endoscopy] Hamartomatous polyps**: Confirm polyps type
+  * **[Genetic testing] STK11/LKB1 mutation**: Confirms diagnosis
+* **Management**
+  * **Endoscopic polypectomy**: For symptomatic or large polyps
+{: .notice--info}
 
 ## Peritoneum Disorder / 腹膜疾患
+
+### Acute Peritonitis / 急性腹膜炎
+
+* **Overview**
+  * Acute inflammation of peritoneum, may progress to septic shock or SIRS
+  * Commonly secondary to GI perforation or appendicitis
+* **Presentation**
+  * **Severe abdominal pain, nausea, vomiting**: Peritoneal inflammation
+  * **Fever, shallow breathing, tachycardia**: Systemic response
+* **Examination**
+  * **[Physical] Tenderness, muscle guarding, rebound tenderness, rigidity, reduced bowel sounds**: Peritoneal irritation
+  * **[Blood] WBC↑, CRP↑**: Inflammatory response
+  * **[X-ray, CT, Ultrasound] Free fluid, free air, abscess**: Identify cause and complications
+  * **[Paracentesis] Fluid analysis**: Determine nature of inflammation
+* **Management**
+  * **IV fluids, antibiotics**: Stabilization and infection control
+  * **Emergency surgery**: Treat underlying cause
+{: .notice--info}
+
+### Pseudomyxoma Peritonei / 腹膜偽粘液腫
+
+* **Overview**
+  * Low-grade mucin-producing tumors spreading in peritoneal cavity, usually originates from appendix or ovary
+* **Presentation**
+  * **Asymptomatic, abdominal distension, abdominal pain**: Accumulation of mucinous material
+* **Examination**
+  * **[CT] Jelly-like masses, septated fluid collections**: Mucinous deposits in peritoneal cavity
+  * **[Pathology] Low-grade epithelial cells in mucin pools**: Characteristic finding
+* **Management**
+  * **Cytoreductive surgery**: Remove tumor and mucinous deposits
+{: .notice--info}
+
+### Inguinal Hernia / 鼠径部ヘルニア
+
+* **Overview**
+  * Protrusion of abdominal contents through defects in inguinal area, divided into indirect inguinal (most common), direct inguinal, and femoral hernias
+* **Presentation**
+  * **[Indirect inguinal] Bulge above inguinal ligament, lateral to inferior epigastric vessels**: Common in male infants and adults
+  * **[Direct inguinal] Bulge above inguinal ligament, medial to inferior epigastric vessels**: Common in middle-aged obese men
+  * **[Femoral] Bulge below inguinal ligament**: Common in middle-aged women
+* **Examination**
+  * **[Physical] Location of bulge**: Distinguishes between types
+  * **[Physical] Tenderness, redness**: Signs of incarceration
+* **Management**
+  * **[Children] High ligation of hernia sac**: Remove hernia sac
+  * **[Adults] Mesh repair**: Strengthen weakened area
+  * **[Incarcerated hernia] Manual reduction, emergency surgery**: Prevent complications
+{: .notice--info}
+
+## Anus Disorder / 肛門疾患
+
+### Hemorrhoids / 痔核
+
+* **Overview**
+  * Enlargement of anal cushions due to weakening of supporting tissue and venous congestion, classified as grade I to IV
+* **Presentation**
+  * **Prolapse, bleeding during defecation**: Enlargement and congestion of hemorrhoidal tissue
+  * **Severe pain in acute state**: Incarcerated internal hemorrhoids, thrombosed external hemorrhoids
+* **Examination**
+  * **[Physical] Digital rectal exam, anoscopy**: Assess location and severity
+* **Management**
+  * **Suppositories, ointments**: Conservative treatment
+  * **ALTA injection**: Sclerotherapy for internal hemorrhoids
+  * **Surgical ligation and excision**: For Grade III-IV hemorrhoids
+{: .notice--info}
+
+### Perianal Abscess and Anal Fistula / 肛門周囲膿瘍・痔瘻
+
+* **Overview**
+  * Bacterial infection of anal glands leads to perianal abscess, can develop into chronic fistula
+  * Common in males aged 30-40s, associated with Crohn's disease
+* **Presentation**
+  * **[Perianal Abscess] Severe anal pain, fever, perianal mass and redness**: Acute bacterial infection
+  * **[Anal Fistula] Persistent pus drainage, intermittent swelling and tenderness**: Chronic infection with fistula formation
+* **Examination**
+  * **[Physical] Primary and secondary opening**: Identifies fistula
+* **Management**
+  * **[Perianal Abscess] Drainage, antibiotics**: Treat acute infection
+  * **[Anal Fistula] Surgery**: Open fistula
+{: .notice--info}
+
+### Anal Fissure / 裂肛
+
+* **Overview**
+  * Linear tear in anal canal epithelium caused by passage of hard stools
+  * Common in young women, associated with constipation
+* **Presentation**
+  * **Pain during and after defecation, bleeding**: Tear in anal canal
+  * **Anal stenosis**: Chronic inflammation and scarring
+* **Examination**
+  * **[Physical] Tear, sentinel pile, polyp**: Chronic inflammation leads to tissue changes
+* **Management**
+  * **Conservative treatment**: Primary treatment
+  * **Surgery**: For severe cases
+{: .notice--info}
 
 ## Liver Disorder / 肝疾患
 
