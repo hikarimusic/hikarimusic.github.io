@@ -435,7 +435,7 @@ int query(int l, int r, int n) {
 
 ## Graph Traversal / グラフ探索
 
-### DFS / 深さ優先探索
+### Depth First Search / 深さ優先探索
 ```cpp
 vector<vector<int>> adj(N);
 vector<int> vis(N), dis(N, INF), par(N, -1);
@@ -452,7 +452,7 @@ void dfs(int v, int d, int p) {
 }
 ```
 
-### BFS / 幅優先探索
+### Breadth First Search / 幅優先探索
 ```cpp
 vector<vector<int>> adj(N);
 vector<int> vis(N), dis(N, INF), par(N, -1);
