@@ -543,12 +543,12 @@ void dijkstra(int s) {
         if (d_v!=dis[v])
             continue;
         for (pii e : adj[v]) {
-            int to = e.first;
-            int len = e.second;
-            if (dis[v]+len<dis[to]) {
-                dis[to] = dis[v] + len;
-                par[to] = v;
-                q.push({dis[to], to});
+            int u = e.first;
+            int w = e.second;
+            if (dis[v]+w<dis[u]) {
+                dis[u] = dis[v] + w;
+                par[u] = v;
+                q.push({dis[u], u});
             }
         }
     }
