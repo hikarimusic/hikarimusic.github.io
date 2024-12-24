@@ -268,7 +268,7 @@ void union_set(int a, int b) {
     a = find_set(a);
     b = find_set(b);
     if (a != b) {
-        if (a < b)
+        if (siz[a] < siz[b])
             swap(a, b);
         par[b] = a;
         siz[a] += siz[b];
