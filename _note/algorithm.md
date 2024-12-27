@@ -209,6 +209,7 @@ int rec(int S, int v, int n) {
 ```cpp
 void binary_heap() {
     priority_queue<int> q;
+    // priority_queue<int, vector<int>, greater<int>> q;
     q.push("<value>");
     q.pop();
     int "<value>" = q.top();
