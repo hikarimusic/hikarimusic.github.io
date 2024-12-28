@@ -3379,6 +3379,326 @@ Essences of clinical medicine.
 
 ## Liver Disorder / 肝疾患
 
+### Acute Viral Hepatitis / 急性ウイルス性肝炎
+
+* **Overview**
+  * Acute liver inflammation caused by hepatitis viruses (A-E), generally self-limiting but risk of fulminant hepatitis or chronicity
+  * Transmitted through fecal-oral route (HAV, HEV) or blood/body fluids (HBV, HCV, HDV)
+* **Presentation**
+  * **Fatigue, anorexia, nausea, vomiting, fever, muscle pain**: Systemic inflammatory response
+  * **Jaundice, dark urine, hepatomegaly, abdominal pain**: Liver inflammation and dysfunction
+* **Examination**
+  * **[Blood] AST↑, ALT↑, bilirubin↑, PT prolonged**: Hepatocyte damage and liver dysfunction
+  * **[Blood] IgM-HA-Ab, HBs-Ag, IgM-HBc-Ab, HCV-RNA, HCV-Ab**: Acute viral infection
+* **Management**
+  * **Bed rest**: Increase hepatic blood flow
+  * **Diet therapy**: Carbohydrate-rich diet, protein restriction
+  * **[HBV] Lamivudine**: For HBV severe cases
+  * **[HCV] Direct-acting antivirals**: For HCV chronic cases
+{: .notice--info}
+
+### Chronic Viral Hepatitis / 慢性肝炎
+
+* **Overview**
+  * Chronic liver inflammation >6 months, can progress to liver cirrhosis and hepatocellular carcinoma
+  * Mainly caused by chronic infection of HBV or HCV
+* **Presentation**
+  * **Asymptomatic, general fatigue, poor appetite**: Chronic liver inflammation
+* **Examination**
+  * **[Blood] AST↑, ALT↑**: Liver cell damage
+  * **[Blood] HBs-Ag , IgG-HBc-Ab, HCV-RNA, HCV-Ab**: Chronic viral infection
+  * **[Liver biopsy] Bridging fibrosis, piecemeal necrosis**: Chronic inflammation and fibrosis
+* **Management**
+  * **[HBV] Pegylated interferon, entecavir, tenofovir**: Suppress HBV replication
+  * **[HCV] Direct acting antivirals**: Suppress HCV replication
+  * **UDCA, glycyrrhizin**: Liver protection
+{: .notice--info}
+
+### Fulminant Hepatitis / 劇症肝炎
+
+* **Overview**
+  * Acute liver failure with hepatic encephalopathy within 8 weeks of symptom onset
+  * Commonly after acute hepatitis (viral, metabolic, autoimmune)
+* **Presentation**
+  * **High fever, tachycardia, anorexia, nausea, vomiting**: Systemic inflammatory response
+  * **Jaundice, ascites, edema**: Liver dysfunction
+  * **Hepatic encephalopathy**: Ammonia toxicity and cerebral edema
+* **Examination**
+  * **[Blood] AST↑, ALT↑, bilirubin↑, LDH↑**: Severe hepatocellular damage
+  * **[Blood] PT<40%, INR>1.5, albumin↓, ChE↓**: Impaired liver synthesis
+  * **[Blood] Fischer ratio↓, NH3↑**: Impaired liver metabolism
+  * **[Imaging] Liver atrophy, ascites**: Advanced liver damage
+* **Management**
+  * **Glucose-based fluids, respiratory control, antibiotics**: Support vital functions
+  * **Hemodiafiltration + plasma exchange**: Remove toxins artificially
+  * **Lactulose (hepatic encephalopathy), mannitol (cerebral edema), FFP (coagulation dysfunction)**: Treat complications
+  * **Antiviral therapy (HBV), steroids (autoimmune)**: Treat underlying cause
+  * **Liver transplantation**: Definitive treatment
+{: .notice--info}
+
+### Liver Cirrhosis / 肝硬変
+
+* **Overview**
+  * End-stage liver disease with fibrosis and regenerative nodules, leading to liver failure and hepatocellular carcinoma
+  * Common in chronic viral hepatitis or alcoholism
+* **Presentation**
+  * **Asymptomatic, fatigue, anorexia, ascites, edema, jaundice**: Liver dysfunction
+  * **Spider angiomas, palmar erythema, gynecomastia**: Estrogen excess due to impaired metabolism
+  * **Esophageal varices, GI bleeding**: Portal hypertension
+  * **Altered consciousness, flapping tremor**: Hepatic encephalopathy
+  * **Fever, abdominal pain, peritoneal irritation**: Spontaneous bacterial peritonitis
+* **Examination**
+  * **[Blood] Pancytopenia (especially platelets)**: Hypersplenism
+  * **[Blood] AST↑, bilirubin↑, γ-GT↑, ALP↑**: Liver damage and cholestasis
+  * **[Blood] PT prolonged, albumin↓, ChE↓**: Decreased synthetic function
+  * **[Blood] Type IV collagen↑, hyaluronic acid↑**: Fibrosis markers
+  * **[Imaging] Irregular liver surface, blunt edge, splenomegaly, ascites**: Chronic liver disease
+* **Management**
+  * **Direct-acting antivirals, nucleoside analogues**: Treat underlying cause
+  * **High-energy low-salt diet, glycyrrhizin, UDCA**: Liver protection
+  * **[Ascites] Salt restriction, diuretics, albumin**: Manage fluid
+  * **[Varices] Endoscopic treatment**: Prevent bleeding
+  * **[Encephalopathy] Low-protein diet, lactulose, branched-chain amino acids**: Maintain consciousness 
+  * **[Peritonitis] Antibiotics**: Control infection
+  * **Liver transplantation**: Ultimate treatment
+{: .notice--info}
+
+### Liver Abscess / 肝膿瘍
+
+* **Overview**
+  * Infectious collection in liver caused by bacteria (gram-negative rods) or amebae
+  * Infection routes include biliary tract, portal vein, hepatic artery, direct spread
+* **Presentation**
+  * **Fever, general fatigue**: Systemic inflammatory response
+  * **RUQ pain, hepatomegaly, liver tenderness**: Enlarged inflamed liver
+* **Examination**
+  * **[Blood] WBC↑, ESR↑, CRP↑**: Infection
+  * **[Blood] ALP↑, γ-GT↑**: Cholestasis
+  * **[Ultrasound] Heterogeneous hypoechoic lesion**: Abscess formation
+  * **[CT] Ring-enhancing hypodense lesion**: Confirms abscess
+  * **[Aspiration] Yellow malodorous pus (bacterial) or chocolate-colored viscous pus (amebic)**: Identifies causative pathogen
+* **Management**
+  * **[Bacterial] Antibiotics, percutaneous drainage**: Treat infection and remove pus
+  * **[Amebic] Metronidazole**: Eliminate amebae
+  * **Surgical drainage**: For failed percutaneous drainage or rupture
+{: .notice--info}
+
+### Fatty Liver / 脂肪肝
+
+* **Overview**
+  * Abnormal accumulation of triglycerides in liver
+  * Major causes include alcohol, obesity, diabetes mellitus
+* **Presentation**
+  * **Asymptomatic, RUQ heaviness/pain**: Enlarged liver
+* **Examination**
+  * **[Ultrasound] Bright liver, increased hepatorenal contrast, deep echo attenuation, blurred vessels**: Fat accumulation
+  * **[CT] Low density liver**: Fat accumulation
+  * **[Liver biopsy] Fat deposits**: Confirms diagnosis
+* **Management**
+  * **Alcohol cessation**: Treat alcoholism 
+  * **Calorie restriction, diet modification, exercise**: Treat obesity
+{: .notice--info}
+
+### Alcoholic Hepatitis / アルコール性肝炎
+
+* **Overview**
+  * Acute alcoholic liver injury triggered by sudden increase in alcohol consumption
+  * Common in chronic heavy drinkers
+* **Presentation**
+  * **Abdominal pain, fever, vomiting, diarrhea**: Acute liver inflammation
+  * **Jaundice, altered consciousness, hepatomegaly**: Liver dysfunction
+* **Examination**
+  * **[Blood] AST↑ (AST>ALT), WBC↑, γ-GT↑, ALP↑**: Liver damage and cholestasis
+  * **[Liver biopsy] Hepatocyte ballooning, Mallory-Denk bodies, neutrophil infiltration**: Confirms diagnosis
+* **Management**
+  * **Alcohol cessation**: Treat alcoholism
+  * **Vitamin B1, hydration, balanced diet**: Nutritional support
+  * **Glycyrrhizin, UDCA**: Liver protection
+  * **Corticosteroids, plasma exchange, hemodiafiltration**: Treatment for severe inflammation
+{: .notice--info}
+
+### Non-alcoholic Steatohepatitis / 非アルコール性脂肪肝炎
+
+* **Overview**
+  * Advanced non-alcoholic fatty liver disease with hepatocyte inflammation
+  * Common in obesity, diabetes mellitus, hypertension
+* **Presentation**
+  * **Fatigue, insomnia, hepatomegaly**: Liver dysfunction
+* **Examination**
+  * **[Blood] AST↑, γ-GT↑, platelets↓, hyaluronic acid↑, ferritin↑, TG↑, T.Cho↑**: Liver dysfunction with metabolic abnormalities
+  * **[Ultrasound] Bright liver, increased hepatorenal contrast, deep echo attenuation**: Fat accumulation
+  * **[CT] Low liver density**: Fat accumulation
+  * **[Liver biopsy] Steatosis, hepatocyte ballooning, inflammation**: Confirms diagnosis
+* **Management**
+  * **Diet, exercise therapy**: Treat obesity
+  * **Pioglitazone (diabetes), statins (hyperlipidemia), ARBs (hypertension)**: Treat underlying disease
+  * **Vitamin E**: Liver protection
+{: .notice--info}
+
+### Drug-Induced Liver Injury / 薬物性肝障害
+
+* **Overview**
+  * Hepatocellular injury or cholestasis due to drug toxicity
+  * Common causes include antibiotics, antipyretic analgesics, herbal medicines, supplements
+* **Presentation**
+  * **Asymptomatic, fatigue, fever, rash, jaundice, pruritus**: Liver injury with various severity
+* **Examination**
+  * **[Blood]ALT↑, AST↑**: Liver cell damage
+  * **[Blood] ALP↑, γ-GT↑, T.Bil↑**: Bile stasis
+  * **[Blood] Eosinophils↑**: Allergic reaction
+* **Management**
+  * **Drug discontinuation**: Improvement in most cases
+  * **Glycyrrhizin, UDCA, corticosteroids**: Liver protection
+  * **N-acetylcysteine**: For acetaminophen toxicity
+{: .notice--info}
+
+### Autoimmune Hepatitis / 自己免疫性肝炎
+
+* **Overview**
+  * Chronic progressive liver disease of autoimmune origin
+  * Common in middle-aged women, often associated with other autoimmune diseases
+* **Presentation**
+  * **Asymptomatic, fatigue, jaundice, poor appetite**: Chronic liver inflammation
+  * **Fever, joint pain, rash**: Systemic autoimmune manifestations
+* **Examination**
+  * **[Blood] ALT↑ (ALT>AST), bilirubin↑**: Liver cell damage
+  * **[Blood] γ-globulin↑, IgG↑, ESR↑, CRP↑**: Inflammatory response
+  * **[Blood] ANA(+), anti-smooth muscle antibody(+)**: Autoimmune nature
+  * **[Liver biopsy] Interface hepatitis, liver cell necrosis**: Confirms diagnosis
+* **Management**
+  * **Corticosteroids, azathioprine**: Anti-inflammatory and immunosuppressive
+  * **UDCA**: Liver protection
+  * **Liver transplantation**: For advanced cases
+{: .notice--info}
+
+### Primary Biliary Cholangitis / 原発性胆汁性胆管炎
+
+* **Overview**
+  * Chronic intrahepatic cholestasis characterized by chronic nonsuppurative destructive cholangitis
+  * Common in middle-aged women, often associated with other autoimmune diseases
+* **Presentation**
+  * **Asymptomatic, pruritus, jaundice**: Bile stasis
+* **Examination**
+  * **[Blood] ALP↑, γ-GT↑, T.Cho↑, bilirubin↑**: Cholestasis
+  * **[Blood] Eosinophils↑, ESR↑, IgM↑**: Inflammatory response
+  * **[Blood] Anti-mitochondrial antibody(+)**: Autoimmune nature
+  * **[Liver biopsy] Chronic nonsuppurative destructive cholangitis**: Confirms diagnosis
+* **Management**
+  * **UDCA, bezafibrate**: Improve bile flow
+  * **Cholestyramine, antihistamines**: For pruritus
+  * **Liver transplantation**: For advanced cases
+{: .notice--info}
+
+### Idiopathic Portal Hypertension / 特発性門脈圧亢進症
+
+* **Overview**
+  * Portal hypertension without cirrhosis or portal/hepatic vein obstruction
+  * Common in middle-aged women, often associated with autoimmune diseases
+* **Presentation**
+  * **Esophageal varices, splenomegaly, pancytopenia**: Due to portal hypertension
+* **Examination**
+  * **[Blood] γ-globulin↑, autoantibodies**: Suggests autoimmune background
+* **Management**
+  * **Endoscopic treatment**: For esophageal varices
+  * **Partial splenic embolization, splenectomy**: For hypersplenism
+{: .notice--info}
+
+### Budd-Chiari Syndrome / Budd-Chiari症候群
+
+* **Overview**
+  * Obstruction/stenosis of hepatic veins or inferior vena cava, causing post-hepatic portal hypertension
+  * Primary (coagulation disorders, myeloproliferative disorders) or secondary (liver cancer, thrombosis, heart failure)
+* **Presentation**
+  * **[Acute] Abdominal pain, ascites, fever**: Rapid development of hepatic congestion
+  * **[Chronic] Asymptomatic, progressive portal hypertension**: Gradual hepatic congestion
+* **Examination**
+  * **[Blood] AST↑, ALT↑**: Liver cell damage
+  * **[Imaging] Obstruction/stenosis of hepatic veins or IVC**: Direct visualization of blockage
+* **Management**
+  * **Balloon angioplasty, surgical shunting**: Widen or bypass obstructed vessels
+{: .notice--info}
+
+### Hepatic Cyst / 肝囊胞
+
+* **Overview**
+  * Fluid-filled sacs in liver, mostly benign but can be polycystic liver disease or echinococcus
+* **Presentation**
+  * **Asymptomatic**: In most cases
+  * **Abdominal discomfort , obstructive jaundice**: In large cysts
+* **Examination**
+  * **[Ultrasound] Anechoic lesion, posterior acoustic enhancement**: Fluid-filled cyst
+  * **[CT, MRI] Well-defined fluid-density lesion**: Confirms cyst
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **Aspiration, surgical resection**: For symptomatic cases
+{: .notice--info}
+
+### Hepatic Hemangioma / 肝血管腫
+
+* **Overview**
+  * Most common benign primary liver tumor
+  * Common in middle-aged women
+* **Presentation**
+  * **Asymptomatic**: In most cases
+  * **Abdominal discomfort, bleeding tendency**: In large tumors or consumption coagulopathy
+* **Examination**
+  * **[Ultrasound] Hyperechoic lesion**: Endothelium-rich tumor
+  * **[CT, MRI] Peripheral nodular enhancement, centripetal filling**: Characteristic vascular pattern
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **Surgical resection**: For symptomatic cases
+{: .notice--info}
+
+### Hepatocellular Carcinoma / 肝細胞癌
+
+* **Overview**
+  * Malignant tumor from hepatocytes, characterized by multistep and multicentric carcinogenesis
+  * Common in patients with chronic liver diseases (viral hepatitis B/C, NASH)
+* **Presentation**
+  * **Asymptomatic**: Often found during screening
+* **Examination**
+  * **[Blood] AFP↑, PIVKA-II↑, AFP-L3↑**: Tumor markers
+  * **[Ultrasound] Well-defined nodule with halo, mosaic pattern**: Tumor with capsule and septum
+  * **[Contrast CT/MRI] Hyperenhancement in arterial phase, washout in portal/delayed phase**: Hypervascular tumor
+* **Management**
+  * **[Child-Pugh A/B, local] Resection, ablation, chemoembolization**: For local compensated tumor
+  * **[Child-Pugh A/B, metastatic] Targeted therapy**: For metastatic compensated tumor
+  * **[Child-Pugh C] Liver transplantation, palliative care**: For uncompensated tumor
+{: .notice--info}
+
+### Intrahepatic Cholangiocarcinoma / 肝内胆管癌
+
+* **Overview**
+  * Malignant tumor from intrahepatic bile duct epithelium
+* **Presentation**
+  * **Asymptomatic, obstructive jaundice**: Depend on hilar or peripheral types
+* **Examination**
+  * **[Blood] ALP↑, γ-GT↑, bilirubin↑**: Bile duct obstruction
+  * **[Blood] CA19-9↑, CEA↑**: Tumor markers
+  * **[CT/MRI] Delayed enhancement, bile duct dilatation**: Differentiate from HCC
+* **Management**
+  * **Surgical resection**: For local tumor
+  * **Gemcitabine + Cisplatin**: For metastatic tumor
+{: .notice--info}
+
+### Metastatic Liver Cancer / 転移性肝癌
+
+* **Overview**
+  * Metastatic tumor from other organ, more common than primary liver cancer
+  * Common primary sites: colorectal, pancreatic, gastric, biliary tract, lung, breast, ovarian cancer
+* **Presentation**
+  * **Asymptomatic**: Often found during screening
+  * **Abdominal distension, jaundice, ascites, anorexia**: Liver dysfunction in advanced disease
+* **Examination**
+  * **[Blood] CEA↑ (colorectal), CA19-9↑ (pancreatic/biliary)**: Primary tumor markers
+  * **[Blood] ALP↑, γ-GT↑, LDH↑**: Cholestasis
+  * **[Ultrasound] Bull's eye sign**: Tumor with capsule and central necrosis
+  * **[CT] Ring enhancement of hypodense lesions**: Tumor with capsule and central necrosis
+* **Management**
+  * **Surgical resection**: For colorectal cancer and GIST
+  * **Chemotherapy**: For most cancer
+{: .notice--info}
+
 ## Biliary Tract Disorder / 胆道疾患
 
 ## Pancreas Disorder / 膵疾患
