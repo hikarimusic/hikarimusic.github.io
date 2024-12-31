@@ -3703,6 +3703,140 @@ Essences of clinical medicine.
 
 ## Pancreas Disorder / 膵疾患
 
+### Acute Pancreatitis / 急性膵炎
+
+* **Overview**
+  * Self-digestion of pancreas by activated pancreatic enzymes, leading to multi-organ failure in severe cases
+  * Common causes include alcohol and gallstones
+* **Presentation**
+  * **Epigastric/back pain, fever, nausea, vomiting**: Pancreatic inflammation, improves in knee-chest position
+  * **Abdominal tenderness, muscle guarding, decreased bowel sounds**: Peritoneal irritation
+  * **Shock, respiratory failure, oliguria, altered consciousness**: Cytokine storm due to pancreas self-digestion in severe cases
+* **Examination**
+  * **[Blood] Amylase↑, lipase↑**: Pancreatic enzyme activation
+  * **[Blood] Platelets↓, Ca↓, CRP↑, BUN↑, Cr↑, coagulation disorders**: Multi-organ dysfunction in severe cases
+  * **[CT/MRI/US] Pancreatic swelling, blurred outline, fluid collection**: Pancreatic self-digestion
+* **Management**
+  * **NPO, IV fluids, pain control**: Conservative treatment in mild cases
+  * **Antibiotics, protease inhibitors, enteral nutrition**: Prevent complications in severe cases
+  * **ERCP, EST**: Resolve obstruction if gallstone present
+  * **Drainage, necrosectomy**: Remove necrotic tissue
+{: .notice--info}
+
+### Chronic Pancreatitis / 慢性膵炎
+
+* **Overview**
+  * Progressive and irreversible pancreatic damage with fibrosis and calcification
+  * Common in middle-aged men with long-term alcohol use
+* **Presentation**
+  * **Recurrent epigastric/back pain**: Pancreatic inflammation, worsens with alcohol/fat intake
+  * **Steatorrhea, diarrhea**: Exocrine insufficiency in decompensated stage
+  * **Diabetes symptoms, weight loss**: Endocrine insufficiency in decompensated stage
+* **Examination**
+  * **[Blood] Amylase/lipase↑ or ↓**: Compensated or decompensated pancreatic function
+  * **[US/CT] Pancreatic duct dilation, pancreatic stones**: Pancreatic duct obstruction by stones
+  * **[MRCP/ERCP] Pancreatic duct dilation, filling defects**: Pancreatic duct obstruction by stones
+  * **[BT-PABA test] PABA excretion↓**: Exocrine insufficiency
+* **Management**
+  * **Alcohol/smoking cessation, low-fat diet**: Prevent progression
+  * **NSAIDs, anticholinergics, enzyme inhibitors**: Relieve symptoms
+  * **ESWL, endoscopic treatment**: Remove stones
+  * **Pancreatic enzymes, insulin**: For exocrine and endocrine insufficiency
+{: .notice--info}
+
+### Autoimmune Pancreatitis / 自己免疫性膵炎
+
+* **Overview**
+  * Chronic progressive pancreatitis with autoimmune nature
+  * Common in elderly males
+* **Presentation**
+  * **Jaundice, epigastric discomfort**: Pancreatic inflammation
+  * **Diabetes mellitus**: Pancreatic endocrine dysfunction
+* **Examination**
+  * **[Blood] γ-globulin↑, IgG↑, IgG4↑, ANA(+), RF(+)**: Autoimmune nature
+  * **[Blood] Amylase↑, lipase↑, γ-GT↑, ALP↑**: Pancreatic inflammation and biliary obstruction
+  * **[CT/MRI/US] Pancreatic enlargement**: Pancreatic inflammation
+  * **[ERCP/MRCP] Pancreatic duct narrowing**: Pancreas chronic inflammation
+  * **[Biopsy] IgG4-positive plasma cell infiltration, fibrosis**: Confirms diagnosis
+* **Management**
+  * **Corticosteroids**: Suppress inflammation
+{: .notice--info}
+
+### Pancreatic Cancer / 膵癌
+
+* **Overview**
+  * Malignant tumor arising from pancreatic ductal epithelium, poor prognosis due to late detection
+  * Common in elderly, risk factors include chronic pancreatitis, diabetes, smoking
+* **Presentation**
+  * **Abdominal/back pain**: Local tumor invasion
+  * **Jaundice**: Biliary tract obstruction
+  * **Weight loss, indigestion, diabetes**: Impaired pancreatic function
+* **Examination**
+  * **[Blood] Amylase↑, lipase↑**: Pancreatic damage
+  * **[Blood] CA19-9↑, SPAN-1↑, DUPAN-2↑, CEA↑**: Tumor markers
+  * **[CT, US] Hypovascular pancreatic mass, dilated pancreatic duct**: Tumor obstruction
+  * **[MRCP, ERCP] Stenosis/obstruction of pancreatic/bile duct**: Tumor obstruction
+  * **[EUS-FNA] Malignant ductal cells**: Confirmatory diagnosis
+* **Management**
+  * **[Resectable] Pancreaticoduodenectomy, distal pancreatectomy (with/without neoadjuvant/adjuvant therapy)**: For tumors without major vessel invasion
+  * **[Unresectable] Chemotherapy (FOLFIRINOX, gemcitabine+nab-paclitaxel)**: For tumor with major vessel invasion or metastasis
+  * **[Paliative] Biliary stenting, gastric bypass, pain control**: Symptom management
+{: .notice--info}
+
+### Pancreatic Pseudocyst / 膵仮性囊胞
+
+* **Overview**
+  * Non-epithelial-lined pancreatic cyst formed by encapsulation of leaked pancreatic fluid and necrotic material
+  * Commonly from pancreatitis or trauma
+* **Presentation**
+  * **Asymptomatic, abdominal discomfort, nausea, vomiting**: Compression by cysts
+* **Examination**
+  * **[CT, US] Unilocular cyst**: Confirms diagnosis
+* **Management**
+  * **Observation**: May resolve spontaneously
+  * **Drainage (endoscopic, percutaneous, surgical)**: For persistent symptoms or complications
+{: .notice--info}
+
+### Intraductal Papillary Mucinous Neoplasm / 膵管内乳頭粘液性腫瘍
+
+* **Overview**
+  * Papillary tumor growing within pancreatic ducts with mucin production, may progress to malignant tumor
+  * Common in elderly males, mostly in pancreatic head
+* **Presentation**
+  * **Asymptomatic, abdominal discomfort, acute pancreatitis**: Tumor compression and duct obstruction
+* **Examination**
+  * **[US/CT/MRI] Dilated pancreatic duct (main duct type), grape-like multicystic lesions (branch duct type)**: Different patterns of ductal involvement
+* **Management**
+  * **Observation**: For low malignant risk cases
+  * **Pancreaticoduodenectomy**: For high malignant risk cases
+{: .notice--info}
+
+### Mucinous Cystic Neoplasm / 粘液性囊胞腫瘍
+
+* **Overview**
+  * Cystic tumor with mucin-producing epithelium and ovarian-like stroma, may be malignant
+  * Common in middle-aged women, mostly in pancreatic body/tail
+* **Presentation**
+  * **Asymptomatic, abdominal discomfort**: Tumor compression
+* **Examination**
+  * **[US/CT/MRI] Huge multilocular cyst**: Orange-like appearance
+* **Management**
+  * **Distal pancreatectomy**: Due to malignant potential
+{: .notice--info}
+
+### Serous Cystic Neoplasm / 漿液性囊胞腫瘍
+
+* **Overview**
+  * Cystic tumor with serous fluid-filled cysts, mostly benign
+  * Common in elderly women, mostly in pancreatic body/tail
+* **Presentation**
+  * **Asymptomatic**: Smaller tumor
+* **Examination**
+  * **[US/CT/MRI] Clustered microcysts**: Honeycomb appearance
+* **Management**
+  * **Observation**: Due to low malignant potential
+{: .notice--info}
+
 <!-- 
 ## Esophageal Disease / 食道疾患
 
