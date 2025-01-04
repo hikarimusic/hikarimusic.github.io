@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am 董宇光, a medical student studying at the School of Medicine, National Taiwan University. I had been learning physics in high school and am currently studying medicine and algorithms. I am interested in the application of computational physics in drug discovery.
+I am 董宇光, a medical student studying at the School of Medicine, National Taiwan University. I had been learning physics in high school and am currently studying medicine and algorithms. I am interested in cancer genomics and structural biology.
 
 * International Physics Olympiad: Silver Medal
 * 東京大学一般選抜：理一プラス４３点理三落ち
