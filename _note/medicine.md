@@ -3701,6 +3701,197 @@ Essences of clinical medicine.
 
 ## Biliary Tract Disorder / 胆道疾患
 
+### Cholelithiasis / 胆石症
+
+* **Overview**
+  * Stones in biliary system (gallbladder, common bile duct, intrahepatic)
+  * Common in middle-aged and older adults
+* **Presentation**
+  * **Asymptomatic, RUQ/epigastric pain after meals, radiate to right shoulder/back, nausea, vomiting**: Gallstone temporarily obstructs bile duct
+* **Examination**
+  * **[Blood] γ-GT↑, ALP↑, bilirubin↑**: Biliary obstruction
+  * **[Ultrasound] High-echoic image, acoustic shadow**: Stone reflects sound waves
+  * **[CT] High-density stone**: Visualize stones
+  * **[MRCP, ERCP] Filling defects**: Visualize stones
+* **Management**
+  * **[Gallbladder stone] Observation, (asymptomatic), laparoscopic/open cholecystectomy (symptomatic), NSAID/anticholinergics**: Remove gallbladder with stones and control pain
+  * **[CBD stone] Endoscopic sphincterotomy (EST), endoscopic papillary balloon dilatation (EPBD)**: Remove CBD stones
+  * **[Intrahepatic stone] Percutaneous transhepatic cholangioscopy (PTCS), hepatectomy (atrophy, cancer)**: Remove intrahepatic stones or liver
+{: .notice--info}
+
+### Acute Cholecystitis / 急性胆囊炎
+
+* **Overview**
+  * Acute inflammation of gallbladder caused by gallstones impaction and bacterial infection
+  * Common in middle-aged and older adults with gallstone history
+* **Presentation**
+  * **RUQ pain, fever, nausea, vomiting**: Gallbladder infection
+  * **Tenderness, muscle guarding, Murphy's sign**: Local peritoneal irritation
+* **Examination**
+  * **[Blood] WBC↑, CRP↑**: Active infection
+  * **[Blood] ALP↑, γ-GT↑, bilirubin↑**: Biliary obstruction
+  * **[Ultrasound, CT] Gallbladder wall thickening, enlargement, debris, impacted stones, sonographic Murphy’s sign**: Gallbladder inflammation
+* **Management**
+  * **Fasting, IV fluids, antibiotics, analgesics**: Treat infection and pain
+  * **Percutaneous transhepatic gallbladder drainage/aspiration (PTGBD)**: Reduce gallbladder pressure if unstable
+  * **Laparoscopic cholecystectomy**: Remove gallbladder if stable
+{: .notice--info}
+
+### Acute Cholangitis / 急性胆管炎
+
+* **Overview**
+  * Acute inflammation of bile ducts caused by obstruction and bacterial infection, leading to sepsis in severe cases
+  * Common in middle-aged and older adults with gallstone history
+* **Presentation**
+  * **Abdominal pain, fever with chills, jaundice (Charcot's triad)**: Bile duct infection and obstruction
+  * **Shock, altered consciousness (Reynolds' pentad)**: Endotoxin and bacteria enter bloodstream in severe cases
+* **Examination**
+  * **[Blood] WBC↑, CRP↑**: Active infection
+  * **[Blood] ALP↑, γ-GT↑, bilirubin↑**: Biliary obstruction
+  * **[Blood] AST↑, ALT↑**: Liver damage
+  * **[Ultrasound, CT] Dilated bile ducts, CBD stones**: CBD obstruction
+* **Management**
+  * **Fasting, IV fluids, antibiotics, analgesics**: Treat infection and pain
+  * **Endoscopic biliary drainage (EBD), percutaneous transhepatic biliary drainage (PTBD)**: Reduce biliary tract pressure if unstable
+  * **Endoscopic sphincterotomy (EST), endoscopic papillary balloon dilatation (EPBD)**: Remove stones if stable
+{: .notice--info}
+
+### Primary Sclerosing Cholangitis / 原発性硬化性胆管炎
+
+* **Overview**
+  * Progressive chronic inflammation of intra/extrahepatic bile ducts causing fibrous stenosis
+  * Common in 20s and 60s adults, often associated with ulcerative colitis
+* **Presentation**
+  * **Asymptomatic, fluctuating jaundice, pruritus**: Cholestasis
+* **Examination**
+  * **[Blood] γ-GT↑, ALP↑, bilirubin↑**: Biliary obstruction
+  * **[Blood] AST↑, ALT↑**: Liver damage
+  * **[Blood] P-ANCA(+)**: Autoimmune nature
+  * **[ERCP, MRCP] Intra/extrahepatic bile duct strictures (beaded appearance)**: Bile duct stenosis
+* **Management**
+  * **UDCA, bezafibrate, cholestyramine, antihistamines**: Improve bile flow and relieve pruritus
+  * **Biliary drainage**: Control cholangitis and reduce jaundice
+  * **Liver transplantation**: Only curative treatment for advanced cases
+{: .notice--info}
+
+### Congenital Biliary Dilatation / 先天性胆道拡張症
+
+* **Overview**
+  * Congenital malformation with localized dilatation of extrahepatic bile ducts and pancreaticobiliary maljunction, high risk of biliary tract cancer
+  * Common in children and young adults
+* **Presentation**
+  * **Asymptomatic, abdominal pain, jaundice, abdominal mass**: Biliary dilatation and bile stasis
+* **Examination**
+  * **[Blood] γ-GT↑, ALP↑, amylase↑**: Bile stasis and pancreatic enzyme reflux
+  * **[CT, Ultrasound] Dilatation of CBD**: Biliary dilatation
+  * **[MRCP, ERCP] Cystic/fusiform dilatation of CBD**: Biliary dilatation
+  * **[MRCP, ERCP] Abnormal junction of pancreatic duct and CBD outside duodenal wall**: Pancreaticobiliary maljunction
+* **Management**
+  * **Extrahepatic bile duct resection, cholecystectomy, biliary reconstruction**: Prevent biliary tract cancer
+{: .notice--info}
+
+### Biliary Atresia / 胆道閉鎖症
+
+* **Overview**
+  * Congenital obstruction of extrahepatic bile ducts
+  * Common in female infants
+* **Presentation**
+  * **Prolonged jaundice, clay-colored stool**: Bile duct obstruction
+  * **Bleeding tendency, bone abnormalities**: Fat-soluble vitamin malabsorption
+* **Examination**
+  * **[Blood] γ-GT↑, ALP↑, bilirubin↑**: Bile duct obstruction
+  * **[CT, Ultrasound] Absent gallbladder or bile ducts**: Biliary atresia
+* **Management**
+  * **Kasai portoenterostomy**: Bypass biliary atresia
+  * **Liver transplantation**: If Kasai procedure fails
+{: .notice--info}
+
+### Gallbladder Polyp / 胆囊ポリープ
+
+* **Overview**
+  * Localized protruding lesions on gallbladder mucosa
+* **Presentation**
+  * **Asymptomatic**: Most cases
+* **Examination**
+  * **[Ultrasound] Protruding lesion in gallbladder**: Often found during screening
+* **Management**
+  * **Observation**: For typical polyps
+  * **Cholecystectomy**: For polyp with cancer risk (>10mmm, broad-based)
+{: .notice--info}
+
+### Gallbladder Adenomyomatosis / 胆囊腺筋腫症
+
+* **Overview**
+  * Excessive proliferation of Rokitansky-Aschoff sinuses, hyperplasia of gallbladder epithelium and smooth muscle
+* **Presentation**
+  * **Asymptomatic**: Most cases
+* **Examination**
+  * **[Ultrasound] Thickened gallbladder wall, comet-like echo**: Proliferated Rokitansky-Aschoff sinuses
+  * **[MRCP] Pearl necklace appearance**: Proliferated Rokitansky-Aschoff sinuses
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **Laparoscopic cholecystectomy**: For symptomatic cases or lesion with cancer risk
+{: .notice--info}
+
+### Gallbladder Cancer / 胆囊癌
+
+* **Overview**
+  * Malignant tumor arising in gallbladder, poor prognosis due to late detection
+  * Common in elderly females, risk factors include pancreaticobiliary maljunction and gallbladder dysplasia
+* **Presentation**
+  * **Asymptomatic, RUQ pain, nausea, vomiting, weight loss**: Local tumor effects
+  * **Jaundice, pruritus**: Bile duct obstruction in advanced tumor
+* **Examination**
+  * **[Blood] ALP↑, γ-GT↑**: Bile duct obstruction
+  * **[Blood] CA19-9↑, CEA↑**: Tumor markers
+  * **[Ultrasound] Irregular mass, wall thickening**: Suspicious lesions 
+  * **[EUS, CT, MRCP, ERCP] Mass lesion, filling defect**: Assess extent of disease
+* **Management**
+  * **[Resectable] Cholecystectomy + gallbladder bed resection + lymph node dissection**: For local tumor 
+  * **[Unresectable] Gemcitabine + cisplatin/S-1**: For metastatic tumor
+  * **[Symptomatic] Biliary drainage (ENBD, stent)**: Relieve obstructive jaundice
+{: .notice--info}
+
+### Cholangiocarcinoma / 胆管癌
+
+* **Overview**
+  * Malignant tumor arising in extrehepatic bile duct, poor prognosis due to late detection
+  * Common in elderly males, risk factors include pancreaticobiliary maljunction and primary sclerosing cholangitis
+* **Presentation**
+  * **Jaundice, pruritus, painless gallbladder enlargement (Courvoisier's sign)**: Bile duct obstruction
+  * **Upper abdominal pain, weight loss, fever**: Local tumor effects
+* **Examination**
+  * **[Blood] ALP↑, γ-GT↑**: Bile duct obstruction
+  * **[Blood] CA19-9↑, CEA↑**: Tumor markers
+  * **[Ultrasound] Dilated bile ducts, mass lesion**: Tumor obstruction
+  * **[EUS, CT, MRCP, ERCP] Mass lesion, filling defect**: Assess extent of disease
+* **Management**
+  * **[Resectable] Hepatectomy + bile duct resection + lymph node dissection**: For local tumor in hilar region
+  * **[Resectable] Pancreaticoduodenectomy + lymph node dissection**: For local tumor in distal region
+  * **[Unresectable] Gemcitabine + cisplatin/S-1**: For metastatic tumor
+  * **[Symptomatic] Biliary drainage (ENBD, stent, PTBD)**: Relieve obstructive jaundice
+{: .notice--info}
+
+### Peripapillary Carcinoma / 乳頭部癌
+
+* **Overview**
+  * Malignant tumor arising in ampulla of Vater
+  * Common in 60s males
+* **Presentation**
+  * **Fluctuating jaundice, dark urine, painless gallbladder enlargement (Courvoisier's sign)**: Bile duct obstruction
+  * **Fever, abdominal pain**: Local tumor effects
+* **Examination**
+  * **[Blood] ALP↑, γ-GT↑**: Bile duct obstruction
+  * **[Blood] CA19-9↑, CEA↑**: Tumor markers
+  * **[Ultrasound] Dilated pancreatic and bile ducts, mass lesion**: Tumor obstruction
+  * **[Endoscopy] Irregular mass at duodenal papilla**: Direct visualization
+  * **[EUS, CT, MRCP] Mass lesion, filling defect**: Assess extent of disease
+* **Management**
+  * **[Resectable] Pancreaticoduodenectomy + lymph node dissection**: For local tumor
+  * **[Unresectable] Chemotherapy**: For metastatic tumor
+  * **[Symptomatic] Biliary drainage (ENBD, stent, PTBD)**: Relieve obstructive jaundice
+{: .notice--info}
+
 ## Pancreas Disorder / 膵疾患
 
 ### Acute Pancreatitis / 急性膵炎
