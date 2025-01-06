@@ -128,6 +128,25 @@ int search(int n) {
     return l;
 }
 ```
+```cpp
+void search() {
+    vector<int> v;
+    vector<int>::iterator it1 = lower_bound(v.begin(), v.end(), t); // first >= t
+    vector<int>::iterator it2 = upper_bound(v.begin(), v.end(), t); // first > t
+}
+
+void search2() {
+    set<int> s;
+    set<int>::iterator it1 = s.lower_bound(t); // first >= t
+    set<int>::iterator it2 = s.upper_bound(t); // first > t
+}
+
+// it!=v.end(): check
+// *it: value
+// distance(v.begin(), it): position
+// prev(it): previous
+// next(it): next
+```
 
 ### Divide and Conquer / 分割統治法
 ```cpp
