@@ -712,10 +712,12 @@ int prim(int s) {
         vis[v] = 1;
         wt += dis[v];
         for (pii e : adj[v]) {
-            if (!vis[e.first] && e.second<dis[e.first]) {
-                dis[e.first] = e.second;
-                par[e.first] = v;
-                q.push({dis[e.first], e.first});
+            int u = e.first;
+            int w = e.second;
+            if (!vis[u] && w<dis[u]) {
+                dis[u] = w;
+                par[u] = v;
+                q.push({dis[u], u});
             }
         }
     }
