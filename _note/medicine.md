@@ -4158,6 +4158,159 @@ Essences of clinical medicine.
 
 ## Pituitary Gland Disorder / 下垂体疾患
 
+### Acromegaly & Pituitary Gigantism / 先端巨大症・下垂体性巨人症
+
+* **Overview**
+  * Excess growth hormone secretion from pituitary adenoma
+* **Presentation**
+  * **Prominent brow, enlarged nose/lips, protruding jaw, enlarged hands/feet, macroglossia**: High GH causes bone and soft tissue overgrowth
+  * **Headache, visual disturbance**: Pituitary tumor compressing optic chiasm
+* **Examination**
+  * **[Blood] GH↑ (not suppressed by glucose load), IGF-1↑**: Excess GH secretion
+  * **[MRI/CT] Pituitary adenoma**: Identify tumor
+  * **[X-ray] Sella turcica ballooning/double floor, enlarged sinuses, cauliflower-like terminal phalanges, enlarged sesamoid bones, thick heel pad**: Bone and soft tissue overgrowth
+* **Management**
+  * **Transsphenoidal surgery**: Remove pituitary adenoma
+  * **Somatostatin analogs (octreotide, lanreotide, pasireotide), GH receptor antagonist (pegvisomant)**: Suppress GH secretion/action
+  * **Radiation therapy**: For recurrent or inoperable cases
+{: .notice--info}
+
+### Hyperprolactinemia / 高プロラクチン血症
+
+* **Overview**
+  * Excessive prolactin secretion from pituitary adenoma or due to medication
+* **Presentation**
+  * **Galactorrhea, menstrual irregularities, infertility (women)**: High prolactin suppresses LH/FSH
+  * **Decreased libido, penile atrophy (men)**: High prolactin suppresses testosterone
+  * **Headache, visual disturbance**: Pituitary tumor compressing optic chiasm
+* **Examination**
+  * **[Blood] Prolactin↑, FT4↓ (in some cases)**: Excess prolactin secretion
+  * **[MRI/CT] Pituitary/hypothalamic lesions**: Identify tumor
+* **Management**
+  * **Dopamine agonists (bromocriptine, cabergoline)**: Suppress prolactin secretion
+  * **Transsphenoidal surgery**: Remove pituitary adenoma or hypothalamic lesions
+  * **Radiation therapy**: For recurrent or inoperable cases
+  * **Discontinue causative medication, thyroid hormone replacement**: Treat other possible causes 
+{: .notice--info}
+
+### Cushing's Disease / Cushing病
+
+* **Overview**
+  * Excessive ACTH secretion from pituitary adenoma
+* **Presentation**
+  * **Moon face, central obesity, buffalo hump, purple striae, thin skin**: High cortisol causes abnormal fat distribution and skin
+  * **Hypertension, edema, glucose intolerance, osteoporosis, easy bruising**: High cortisol causes metabolic effects
+  * **Acne, menstrual irregularities, hirsutism**: High androgens causes reproductive effects
+* **Examination**
+  * **[Blood] ACTH↑, cortisol↑, DHEA-S↑**: ACTH-dependent hypercortisolism
+  * **[Blood] Na↑, K↓, pH↑**: Mineralocorticoid effects
+  * **[Endocrine tests] Cortisol circadian rhythm loss, absence low-dose dexamethasone suppression**: Autonomous ACTH secretion
+  * **[MRI/CT] Pituitary adenoma**: Identify tumor
+  * **[Inferior petrosal sinus sampling] ACTH↑**: Confirm pituitary source
+* **Management**
+  * **Transsphenoidal surgery**: Remove pituitary adenoma
+  * **Pasireotide, cabergoline, metyrapone, trilostane, mitotane**: Suppress ACTH/cortisol secretion
+  * **Radiation therapy**: For recurrent or inoperable cases
+{: .notice--info}
+
+### Panhypopituitarism / 汎下垂体機能低下症
+
+* **Overview**
+  * Deficiency of multiple anterior pituitary hormones
+  * Causes include supresellar/pituitary tumor, lymphocytic hypophysitis, Sheehan syndrome
+* **Presentation**
+  * **Amenorrhea, breast/genital atrophy (women), decreased libido, testicular atrophy (men)**: LH/FSH deficiency
+  * **Decreased muscle mass, increased body fat**: GH deficiency
+  * **Cold intolerance, dry skin, constipation, bradycardia**: TSH deficiency
+  * **Fatigue, anorexia, hypotension, hypoglycemia**: ACTH deficiency
+* **Examination**
+  * **[Blood] Hormone levels↓ (LH/FSH, GH, TSH, ACTH)**: Pituitary dysfunction
+  * **[Blood] Target organ hormones↓ (sex hormones , IGF-I, FT4/FT3, cortisol)**: End-organ hormone deficiency
+  * **[CT/MRI] Pituitary/hypothalamic lesions**: Identify causes
+* **Management**
+  * **Sex hormones, levothyroxine, hydrocortisone**: Hormone replacement
+  * **Surgery, medication, radiation**: Treatment of underlying cause
+{: .notice--info}
+
+### Growth Hormone Deficiency / 成長ホルモン分泌不全性低身長症
+
+* **Overview**
+  * Insufficient GH secretion leading to decreased growth velocity
+  * Causes include idiopathic (peripartum events) or tumor
+* **Presentation**
+  * **Height < -2.0 SD, growth velocity < -1.5 SD, proportionate stature**: Decreased growth velocity
+  * **Hypoglycemia in infants**: Due to GH deficiency
+  * **Other pituitary hormone deficiency**: In cases of combined deficiency
+* **Examination**
+  * **[Stimulation tests] GH peak↓ with insulin/arginine/L-dopa/clonidine/glucagon/GHRP-2**: Confirms GH deficiency
+  * **[CT/MRI] Pituitary hypoplasia or tumor**: Identify organic causes
+* **Management**
+  * **GH replacement**: Hormone replacement therapy
+{: .notice--info}
+
+### Hypogonadotropic Hypogonadism / ゴナドトロピン単独欠損症
+
+* **Overview**
+  * Insufficient LH/FSH secretion leading to decreased gonadal function
+  * Causes include congenital (Kallmann syndrome, Laurence-Moon-Biedl syndrome, Prader-Willi syndrome) or acquired (tumor, inflammation)
+* **Presentation**
+  * **Genital atrophy, absent secondary sexual development**: Incomplete sexual development
+  * **Amenorrhea, decreased libido, infertility**: Decreased gonadal function
+  * **[Kallmann syndrome] Anosmia**: Olfactory nerve hypoplasia
+  * **[Prader-Willi syndrome] Hypotonia, hypogonadism, hypomentia, obesity**: Chromosomal loss or inactivation
+* **Examination**
+  * **[Blood] LH/FSH↓, androgens/estrogens↓**: Confirms gonadotropin deficiency
+* **Management**
+  * **Testosterone/estrogen replacement**: For secondary sexual development
+  * **Gonadotropin therapy, Holmstrom/Kaufmann therapy**: For fertility treatment
+{: .notice--info}
+
+### Isolated ACTH Deficiency / ACTH単独欠損症
+
+* **Overview**
+  * Insufficient ACTH secretion leading to adrenal insufficiency
+  * Causes include autoimmune or immune checkpoint inhibitors
+* **Presentation**
+  * **Fatigue, weight loss, anorexia, hypotension, hypoglycemia, hyponatremia**: Cortisol deficiency
+* **Examination**
+  * **[Blood] ACTH↓, cortisol↓**: Confirms ACTH deficiency
+* **Management**
+  * **Hydrocortisone replacement**: Hormone replacement therapy
+{: .notice--info}
+
+### SIADH / バソプレシン分泌過剰症
+
+* **Overview**
+  * Water retention and hyponatremia due to inappropriate continuous AVP secretion
+  * Causes include malignancies (SCLC), medications (vincristine), CNS diseases, thoracic diseases
+* **Presentation**
+  * **Fatigue, decreased appetite, altered consciousness**: Brain edema due to dilutional hyponatremia
+* **Examination**
+  * **[Blood] AVP↑**: Inappropriate AVP secretion
+  * **[Blood] Osmolality↓, Na↓, BUN↓, uric acid↓**: Water retention and increased GFR
+  * **[Urine] Osmolality↑, Na↑**: Highly-concentrated urine
+* **Management**
+  * **[Mild] Water restriction, salt supplementation**: Correct hyponatremia
+  * **[Severe] Furosemide + 3% saline**: Rapid correction of severe hyponatremia
+  * **[Ectopic] V2 receptor antagonist (mozavaptan), demeclocycline**: Block AVP effect
+  * **Treat underlying disease**: Address primary cause
+{: .notice--info}
+
+### Diabetes Insipidus / 尿崩症
+
+* **Overview**
+  * Excessive dilute urine due to insufficient secretion of AVP (central DI) or kidney resistance to AVP (nephrogenic DI)
+* **Presentation**
+  * **Polyuria, thirst, polydipsia**: Inability to concentrate urine
+* **Examination**
+  * **[Urine] Osmolality↓, specific gravity↓**: Impaired water reabsorption
+  * **[Diagnostic test] No response to hypertonic saline test / water deprivation test**: Differentiate DI from psychogenic polydipsia
+  * **[DDAVP test] Response to vasopressin**: Differentiate central DI from nephrogenic DI
+* **Management**
+  * **[Central] Desmopressin acetate (DDAVP)**: Replaces AVP
+  * **[Nephrogenic DI] Thiazide diuretics**: Reduces urine output
+{: .notice--info}
+
 ## Thyroid Gland Disorder / 甲状腺疾患
 
 ## Parathyroid Gland Disorder / 副甲状腺疾患
