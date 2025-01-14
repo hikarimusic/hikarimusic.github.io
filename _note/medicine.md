@@ -3974,6 +3974,26 @@ Essences of clinical medicine.
   * **[Paliative] Biliary stenting, gastric bypass, pain control**: Symptom management
 {: .notice--info}
 
+### Pancreatic Neuroendocrine Neoplasm / 膵神経内分泌腫瘍
+
+* **Overview**
+  * Malignant tumor (except insulinoma) from pancreatic neuroendocrine cells, may secrete gastrointestinal hormones
+* **Presentation**
+  * **Asymptomatic**: Non-functional tumor
+  * **[Insulinoma] Hypoglycemia**: Insulin excess
+  * **[Gastrinoma] Refractory peptic ulcer**: Gastrin excess
+  * **[Glucagonoma] Hyperglycemia**: Glucagon excess
+  * **[Somatostatinoma] Asymptomatic, cholelithiasis**: Somatostatin excess
+  * **[VIPoma] Watery diarrhea, hypokalemia, achlorhydria**: VIP excess
+* **Examination**
+  * **[Blood] Elevated hormone levels**: Confirms hormone excess
+  * **[CT] Strong arterial enhancement**: Characteristic of pancreatic NEN
+  * **[Biopsy] Small uniform cells in cords, chromogranin A(+)**: Confirm diagnosis
+* **Management**
+  * **Surgical resection**: For resectable cases
+  * **Everolimus, sunitinib, streptozocin, lanreotide**: For unresectable cases
+{: .notice--info}
+
 ### Pancreatic Pseudocyst / 膵仮性囊胞
 
 * **Overview**
