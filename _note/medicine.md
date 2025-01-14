@@ -4313,6 +4313,198 @@ Essences of clinical medicine.
 
 ## Thyroid Gland Disorder / 甲状腺疾患
 
+### Graves' Disease / Basedow病
+
+* **Overview**
+  * Diffuse goiter and hyperthyroidism due to TSH receptor antibodies
+  * Common in women aged 20-40 years
+* **Presentation**
+  * **Diffuse goiter, exophthalmos**: Antibodies attack thyroid gland and retrobulbar fat
+  * **Tachycardia, palpitations, dyspnea, systolic hypertension**: Cardiovascular system activation
+  * **Increased appetite, weight loss, fatigue, frequent bowel movements**: Increased metabolism
+  * **Tremor, sweating**: Sympathetic nervous system activation
+* **Examination**
+  * **[Blood] FT4↑, FT3↑, TSH↓**: Thyroid hormone excess
+  * **[Blood] TRAb/TSAb positive**: Autoimmune nature
+  * **[Ultrasound] Diffuse thyroid enlargement**: Thyroid inflammation
+  * **[Scintigraphy] Radioiodine/technetium uptake↑**: Hyperactive thyroid
+* **Management**
+  * **Thiamazole, propylthiouracil**: Inhibit thyroid hormone synthesis (stop if agranulocytosis)
+  * **β blockers**: Control tachycardia
+  * **Thyroidectomy, radioactive iodine**: For refractory cases
+{: .notice--info}
+
+### Plummer's Disease / Plummer病
+
+* **Overview**
+  * Hyperthyroidism due to functioning thyroid nodule
+* **Presentation**
+  * **Hyperthyroidism symptoms, no exophthalmos**: Excess thyroid hormone without autoimmune nature
+* **Examination**
+  * **[Blood] FT3↑, FT4↑, TSH↓**: Thyroid hormone excess
+  * **[Blood] TRAb negative**: Without autoimmune nature
+  * **[Scintigraphy] Radioiodine/technetium uptake↑ (hot nodule)**: Autonomous nodule produces hormone
+* **Management**
+  * **Surgical removal, radioactive iodine therapy**: Remove autonomous nodule
+{: .notice--info}
+
+### Subacute Thyroiditis / 亜急性甲状腺炎
+
+* **Overview**
+  * Follicular destruction and transient thyrotoxicosis with unknown cause (likely viral infection)
+  * Common in women aged 30-50
+* **Presentation**
+  * **Upper respiratory infection-like symptoms**: Viral infection
+  * **Painful thyroid swelling**: Thyroid inflammation
+  * **High fever, fatigue, palpitations, sweating, tremor, weight loss**: Thyrotoxicosis due to excessive hormone release
+* **Examination**
+  * **[Blood] ESR↑, CRP↑**: Thyroid inflammation
+  * **[Blood] FT4↑, TSH↓**: Thyrotoxicosis
+  * **[Ultresound] Ill-defined hypoechoic areas**: Thyroid inflammation
+  * **[Scintigraphy] Radioiodine/technetium uptake↓**: Destroyed follicular cells
+* **Management**
+  * **NSAIDs**: Mostly self-limiting
+  * **Corticosteroids**: For severe inflammation
+  * **Beta blockers**: For thyrotoxicosis symptoms
+{: .notice--info}
+
+### Painless Thyroiditis / 無痛性甲状腺炎
+
+* **Overview**
+  * Follicular destruction and transient thyrotoxicosis, often developing from chronic thyroiditis
+  * Common in women aged 20-40 with chronic thyroiditis
+* **Presentation**
+  * **Palpitations, tachycardia, sweating, tremor, fatigue, weight loss**: Thyrotoxicosis due to excessive hormone release
+  * **No thyroid pain or fever**: Distinguishes from subacute thyroiditis
+* **Examination**
+  * **[Blood] FT4↑, TSH↓**: Thyrotoxicosis
+  * **[Ultrasound] Decreased thyroid blood flow**: Distinguishes from Graves' disease
+  * **[Scintigraphy] Radioiodine/technetium uptake↓**: Destroyed follicular cells
+* **Management**
+  * **Observation**: Mostly self-limiting
+  * **Beta blockers**: For thyrotoxicosis symptoms
+{: .notice--info}
+
+### Chronic Thyroiditis / 慢性甲状腺炎（橋本病）
+
+* **Overview**
+  * Chronic thyroiditis and hypothyroidism due to auto-antibodies
+  * Common in middle-aged women
+* **Presentation**
+  * **Cold intolerance, dry skin, reduced sweating, non-pitting edema, weight gain, muscle weakness**: Decreased metabolism due to hypothyroidism
+  * **Cardiomegaly, bradycardia, hypotension, pericardial effusion**: Cardiovascular effects of hypothyroidism
+  * **Constipation, somnolence, slow movement, hoarseness, menorrhagia**: Multiple system effects of hypothyroidism
+  * **Delayed tendon reflexes**: Especially delayed Achilles tendon relaxation phase
+* **Examination**
+  * **[Blood] FT4↓, TC↑**: Hypothyroidism
+  * **[Blood] Anti-Tg antibody(+), Anti-TPO antibody(+)**: Autoimmune nature
+  * **[Ultrasound] Diffuse thyroid enlargement**: Thyroid inflammation
+  * **[FNA] Lymphocytic infiltration**: Confirms diagnosis
+* **Management**
+  * **Observation**: For euthyroid cases
+  * **T4 replacement**: For hypothyroid cases
+{: .notice--info}
+
+### Adenomatous Nodule or Goiter / 腺腫様結節・甲状腺腫
+
+* **Overview**
+  * Hyperplastic lesions of thyroid gland with single or multiple nodules
+* **Presentation**
+  * **Palpable thyroid nodules**: Nodular enlargement of thyroid gland
+* **Examination**
+  * **[Ultrasound] Multiple nodules and cysts**: Hyperplastic changes
+* **Management**
+  * **Observation**: If no suspicious features
+{: .notice--info}
+
+### Follicular Adenoma / 濾胞腺腫
+
+* **Overview**
+  * Benign tumor from thyroid follicular epithelium, without capsular/vascular invasion or metastasis
+* **Presentation**
+  * **Asymptomatic, thyroid nodule**: Nodular enlargement of thyroid gland
+* **Examination**
+  * **[FNA] Follicular cell clusters**: Cannot differentiate from follicular carcinoma
+  * **[Pathology] No capsular/vascular invasion**: Definitive diagnosis after lobectomy
+* **Management**
+  * **Thyroid lobectomy**: For both diagnosis and treatment
+{: .notice--info}
+
+### Papillary Thyroid Carcinoma / 甲状腺乳頭癌
+
+* **Overview**
+  * Malignant tumor from thyroid follicular epithelium, good prognosis
+  * Commonly in 30-50 years old females
+* **Presentation**
+  * **Asymptomatic, neck lymph node swelling**: Commonly lymphatic spread
+* **Examination**
+  * **[Ultrasound] Ill-defined irregular mass, microcalcification**: Characteristic imaging findings
+  * **[Pathology, FNA] Papillary structure, ground glass nuclei, nuclear grooves, intranuclear inclusions**: Definite diagnosis
+  * **[Blood] Thyroglobulin↑**: Can be used as tumor marker
+* **Management**
+  * **Lobectomy, total thyroidectomy**: Primary treatment
+  * **Radioactive iodine therapy**: For distant metastasis
+{: .notice--info}
+
+### Follicular Thyroid Carcinoma / 甲状腺濾胞癌
+
+* **Overview**
+  * Malignant tumor from thyroid follicular epithelium, good prognosis
+  * Commonly in 30-50 years old females
+* **Presentation**
+  * **Asymptomatic, distant metastasis**: Commonly hematogenous spread
+* **Examination**
+  * **[Pathology, FNA] Follicular structure, capsular/vascular invasion**: Definitive diagnosis requires surgical specimen
+  * **[Blood] Thyroglobulin↑**: Can be used as tumor marker
+* **Management**
+  * **Lobectomy, total thyroidectomy**: Primary treatment
+  * **Radioactive iodine therapy**: For distant metastasis
+{: .notice--info}
+
+### Anaplastic Thyroid Carcinoma / 甲状腺未分化癌
+
+* **Overview**
+  * Malignant tumor transformed from highly-differentiated thyroid cancer, worse prognosis
+* **Presentation**
+  * **Rapidly growing neck mass, fever, pain**: Aggressive growth with inflammation
+  * **Hoarseness, dyspnea, dysphagia**: Invasion of surrounding tissues
+* **Examination**
+  * **[Blood] WBC↑, ESR↑, CRP↑**: Marked inflammation
+  * **[Pathology, FNA] Large atypical cells, giant/multiple nuclei**: Definite diagnosis
+* **Management**
+  * **Radiation therapy, chemotherapy, targeted therapy**: Primary treatment
+{: .notice--info}
+
+### Medullary Thyroid Carcinoma / 甲状腺髄様癌
+
+* **Overview**
+  * Malignant tumor from thyroid parafollicular C-cells
+  * Commonly hereditary and associated with MEN2
+* **Presentation**
+  * **Thyroid mass**: Common in upper thyroid
+  * **Pheochromocytoma, hyperparathyroidism**: In MEN2 cases
+* **Examination**
+  * **[Pathology, FNA] Amyloid deposits, medullary structure**: Definite diagnosis
+  * **[Blood] CEA↑, calcitonin↑**: Diagnostic and useful as tumor markers
+  * **[Genetic testing] RET mutation**: For hereditary (MEN2) cases
+* **Management**
+  * **Lobectomy, total thyroidectomy**: Primary treatment
+  * **Remove pheochromocytoma first**: For MEN2 cases
+{: .notice--info}
+
+### Malignant Lymphoma / 悪性リンパ腫
+
+* **Overview**
+  * Malignant lymphoma develops in elderly patients with Hashimoto's thyroiditis
+* **Presentation**
+  * **Rapidly growing neck mass**: May mimic anaplastic carcinoma
+  * **Local compression symptoms**: Often without B symptoms
+* **Examination**
+  * **[Pathology, FNA] Diffuse large cell proliferation (DLBCL), diffuse/nodular growth with mixed B-cells (MALT)**: Definitive diagnosis
+* **Management**
+  * **Radiation therapy, chemotherapy (R-CHOP)**: Primary treatment
+{: .notice--info}
+
 ## Parathyroid Gland Disorder / 副甲状腺疾患
 
 ## Adrenal Gland Disorder / 副腎疾患
