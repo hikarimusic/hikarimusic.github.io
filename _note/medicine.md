@@ -4348,6 +4348,24 @@ Essences of clinical medicine.
   * **Surgical removal, radioactive iodine therapy**: Remove autonomous nodule
 {: .notice--info}
 
+### Thyrotoxic Crisis / 甲状腺クリーゼ
+
+* **Overview**
+  * Life-threatening condition due to uncompensated hyperthyroidism, triggered by stress in patients with poorly controlled thyroid disease
+* **Presentation**
+  * **CNS symptoms (agitation, delirium, drowsiness)**: Abnormal brain function
+  * **High fever, tachycardia, heart failure**: Hypermetabolic state
+  * **Vomiting, diarrhea, jaundice**: Multi-organ dysfunction
+* **Examination**
+  * **[Blood] FT3↑, FT4↑**: Confirms thyrotoxicosis
+* **Management**
+  * **High-dose antithyroid drugs**: Inhibit thyroid hormone synthesis
+  * **Inorganic iodine**: Inhibit thyroid hormone release
+  * **Corticosteroids**: Inhibit T4 to T3 conversion
+  * **Beta blockers**: Control tachycardia
+  * **IV fluids, oxygen, cooling, antibiotics**: Supportive care
+{: .notice--info}
+
 ### Subacute Thyroiditis / 亜急性甲状腺炎
 
 * **Overview**
