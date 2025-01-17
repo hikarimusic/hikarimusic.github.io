@@ -4545,9 +4545,238 @@ Essences of clinical medicine.
 
 ## Parathyroid Gland Disorder / 副甲状腺疾患
 
+### Primary Hyperparathyroidism / 原発性副甲状腺機能亢進症
+
+* **Overview**
+  * Excessive PTH production due to parathyroid adenoma, hyperplasia, or cancer
+* **Presentation**
+  * **Nausea, vomiting, anorexia**: Gastrointestinal effects of hypercalcemia
+  * **Thirst, polyuria, urinary stones**: Renal effects of hypercalcemia
+  * **Muscle weakness, emotional instability, fatigue**: Neurological and muscular effects of hypercalcemia
+  * **Joint pain, bone pain, pathological fractures**: Bone demineralization
+* **Examination**
+  * **[Blood] Ca↑, P↓, acidosis**: PTH effects on electrolyte balance
+  * **[Blood] PTH↑, ALP↑**: Excess PTH and bone demineralization
+  * **[X-ray] Subperiosteal resorption, salt-and-pepper skull, decreased bone density**: Bone demineralization
+  * **[Ultrasound, 99mTc-MIBI scan] Parathyroid adenoma/hyperplasia**: Localization of lesion
+* **Management**
+  * **Tumor resection**: For parathyroid adenoma
+  * **Total parathyroidectomy + autotransplantation**: For parathyroid hyperplasia
+  * **IV saline, loop diuretics, bisphosphonates**: For hypercalcemia
+{: .notice--info}
+
+### Renal Hyperparathyroidism / 腎性副甲状腺機能亢進症
+
+* **Overview**
+  * Excessive PTH production in chronic kidney disease, due to phosphate retention and impaired vitamin D activation
+* **Presentation**
+  * **Tetany, QT prolongation**: Hypocalcemia effects
+  * **Ectopic calcification, bone pain, pathological fractures**: Calcium-phosphate deposition and bone demineralization
+* **Examination**
+  * **[Blood] P↑, Ca↓ (~), 1,25(OH)2D3↓**: Phosphate retention and impaired vitamin D activation
+  * **[Blood] PTH↑, ALP↑**: Excess PTH and bone demineralization
+  * **[X-ray] Subperiosteal resorption, salt-and-pepper skull, decreased bone density**: Bone demineralization
+  * **[Ultrasound] Enlarged parathyroid glands**: Compensatory parathyroid hyperplasia
+* **Management**
+  * **Phosphate restriction, active vitamin D**: Correct phosphate and calcium levels
+  * **Calcimimetics (cinacalcet, etelcalcetide)**: Reduce PTH production
+  * **Parathyroidectomy + autotransplantation**: Reduce PTH production in refractory cases
+{: .notice--info}
+
+### Idiopathic Hypoparathyroidism / 特発性副甲状腺機能低下症
+
+* **Overview**
+  * Decreased PTH secretion due to autoimmune disorders or congenital malformation
+* **Presentation**
+  * **Seizures, tetany, sensory disturbances**: Neurological effects of hypocalcemia
+  * **Anxiety, depression, cognitive impairment**: Neuropsychiatric effects of hypocalcemia
+  * **Dry skin, pigmentation, eczema, cataracts, dental abnormalities**: Systemic effects of hypocalcemia
+* **Examination**
+  * **[Blood] Ca↓, P↑, PTH↓**: Hypocalcemia due to low PTH
+  * **[CT] Calcification in basal ganglia**: Chronic calcium dysregulation
+* **Management**
+  * **Active vitamin D3, IV calcium**: Correct hypocalcemia
+{: .notice--info}
+
+### Pseudohypoparathyroidism / 偽性副甲状腺機能低下症
+
+* **Overview**
+  * Congenital resistance to PTH in target organs despite normal PTH secretion
+* **Presentation**
+  * **Seizures, tetany, sensory disturbances**: Neurological effects of hypocalcemia
+  * **Anxiety, depression, cognitive impairment**: Neuropsychiatric effects of hypocalcemia
+  * **Dry skin, pigmentation, eczema, cataracts, dental abnormalities**: Systemic effects of hypocalcemia
+  * **Round face, short stature, shortened metacarpals**: Albright hereditary osteodystrophy
+* **Examination**
+  * **[Blood] Ca↓, P↑, PTH↑**: Hypocalcemia due to PTH resistance
+  * **[Genetic] GNAS gene mutation**: Confirm diagnosis
+* **Management**
+  * **Active vitamin D3**: Correct hypocalcemia
+{: .notice--info}
+
 ## Adrenal Gland Disorder / 副腎疾患
 
+### Cushing's Syndrome / Cushing症候群
+
+* **Overview**
+  * Excessive cortisol secretion due to adrenal adenoma/carcinoma/hyperplasia, pituitary adenoma, or ACTH-producing tumor
+  * Common in 40-50s females
+* **Presentation**
+  * **Moon face, central obesity, buffalo hump, skin striae, thin skin**: Excessive cortisol effects on fat distribution and skin
+  * **Hypertension, edema, hyperglycemia, osteoporosis, easy bruising, muscle weakness**: Excessive cortisol effects on metabolism
+  * **Acne, menstrual irregularities, hirsutism**: Excessive androgen effects
+* **Examination**
+  * **[Blood] Cortisol↑, loss of diurnal variation**: Excessive cortisol secretion
+  * **[Blood] Na↑, K↓, WBC↑**: Mineralocorticoid and glucocorticoid effects
+  * **[Dexamethasone] No suppression on low-dose test**: Loss of feedback inhibition
+  * **[CT/MRI] Adrenal/pituitary tumor**: Localization of tumor
+* **Management**
+  * **Tumor resection**: For adrenal adenoma/carcinoma
+  * **Bilateral adrenalectomy + hormone replacement**: For adrenal hyperplasia
+  * **Trans-sphenoidal surgery, gamma knife**: For pituitary adenoma
+  * **Resection of primary tumor**: For ACTH-producing tumor
+  * **Metyrapone, trilostane**: Cortisol synthesis inhibitors for inoperable cases
+{: .notice--info}
+
+### Primary Aldosteronism / 原発性アルドステロン症
+
+* **Overview**
+  * Excessive aldosterone secretion due to adrenal adenoma or hyperplasia
+* **Presentation**
+  * **Hypertension**: Sodium and water retention
+  * **Muscle weakness, paralysis, tetany**: Hypokalemia
+* **Examination**
+  * **[Blood] Aldosterone↑, renin↓, ARR↑**: Excessive aldosterone secretion
+  * **[Blood] K↓, metabolic alkalosis**: Mineralocorticoid effects
+  * **[ECG] ST depression, flat T wave, U wave**: Effects of hypokalemia
+  * **[Adrenal vein sampling] Unilateral or bilateral aldosterone↑**: Differentiates adenoma from hyperplasia
+* **Management**
+  * **Laparoscopic adrenalectomy**: For adrenal adenoma
+  * **Aldosterone antagonists (spironolactone, eplerenone)**: For adrenal hyperplasia
+  * **Calcium channel blockers, potassium supplements**: Correct hypertension and hypokalemia
+{: .notice--info}
+
+### Addison's Disease / Addison病
+
+* **Overview**
+  * Chronic bilateral adrenal dysfunction leading to insufficient adrenocortical hormone secretion, mainly caused by autoimmune adrenalitis or tuberculosis
+* **Presentation**
+  * **Weight loss, hypoglycemia, fatigue, nausea, vomiting**: Glucocorticoid deficiency
+  * **Hypotension, metabolic acidosis**: Mineralocorticoid deficiency
+  * **Loss of pubic/axillary hair in women**: Androgen deficiency
+  * **Skin hyperpigmentation (face, neck, gums, nails, joints)**: ACTH deposition
+* **Examination**
+  * **[Blood] Cortisol↓, ACTH↑**: Glucocorticoid deficiency
+  * **[Blood] Aldosterone↓, renin↑**: Mineralocorticoid deficiency
+  * **[Rapid ACTH test] Peak cortisol↓**: Confirms diagnosis
+  * **[CT] Adrenal gland atrophy (autoimmune) or calcification (tuberculosis)**: Characteristic image findings
+* **Management**
+  * **Hydrocortisone replacement**: Replace both glucocorticoid and mineralocorticoid functions
+{: .notice--info}
+
+### Acute Adrenal Insufficiency / 急性副腎不全
+
+* **Overview**
+  * Sudden bilateral adrenal dysfunction, usually due to adrenal insufficiency complicated by stress (infection, surgery)
+* **Presentation**
+  * **Fatigue, fever, nausea, vomiting, abdominal pain**: Glucocorticoid deficiency leading to hypoglycemia
+  * **Shock, altered consciousness**: Mineralocorticoid deficiency leading to circulatory shock
+* **Examination**
+  * **[Blood] Cortisol↓, ACTH↑**: Adrenal insufficiency
+  * **[Blood] Na↓, K↑, glucose↓**: Mineralocorticoid and glucocorticoid deficiency
+* **Management**
+  * **High-dose hydrocortisone (IV)**: Emergency glucocorticoid replacement
+  * **IV fluids, vasopressors**: Stabilize circulation 
+{: .notice--info}
+
+### Congenital Adrenal Hyperplasia / 先天性副腎皮質過形成
+
+* **Overview**
+  * Deficiency of adrenal steroid synthesis enzymes (mainly 21-hydroxylase), leading to adrenal hyperplasia and disorder of sex development
+  * Commonly found in newborn, autosomal recessive
+* **Presentation**
+  * **Poor feeding, vomiting, poor weight gain**: Cortisol deficiency
+  * **Hypotension, dehydration, shock**: Aldosterone deficiency
+  * **Skin hyperpigmentation**: Excessive ACTH
+  * **[Female] Virilization at birth (clitoral enlargement)**: Androgen excess
+  * **[Male] Early puberty (penile enlargement, pubic hair)**: Androgen excess
+* **Examination**
+  * **[Blood] Na↓, K↑, acidosis, ACTH↑**: Aldosterone and glucocorticoid deficiency
+  * **[Newborn screening] 17-OHP↑**: Diagnostic marker
+* **Management**
+  * **Glucocorticoid and mineralocorticoid replacement**: Replace deficient hormone
+  * **Reconstructive surgery**: Correct virilized genitalia
+{: .notice--info}
+
+### Pheochromocytoma & Paraganglioma / 褐色細胞腫・パラガングリオーマ
+
+* **Overview**
+  * Catecholamine-producing tumors from adrenal medulla or extra-adrenal paraganglia
+* **Presentation**
+  * **Hypertension, headache, hyperhidrosis**: Sympathetic overactivity
+  * **Hypermetabolism (tachycardia, weight loss), hyperglycemia**: Increased metabolism
+* **Examination**
+  * **[Urine/Blood] Metanephrine↑, normetanephrine↑, catecholamines↑**: Tumor hormone production
+  * **[CT/MRI/MIBG/PET] Adrenal or extra-adrenal masses**: Localization of lesion
+* **Management**
+  * **Laparoscopic/open surgery**: Tumor resection
+  * **α1-blockers, β-blockers**: Treat hypertension and tachycardia
+{: .notice--info}
+
 ## Neuroendocrine Tumor / 神経内分泌腫瘍
+
+### Insulinoma / インスリノーマ
+
+* **Overview**
+  * Insulin-producing tumor in pancreas, mostly benign
+* **Presentation**
+  * **Loss of consciousness during fasting/exercise, improve with food/glucose intake**: Hypoglycemia episodes due to excess insulin
+  * **Palpitations, sweating, abnormal behavior**: Autonomic symptoms of hypoglycemia
+  * **Obesity**: Anabolic effects of excess insulin
+* **Examination**
+  * **[Blood, 72-hour fasting test] Insulin↑, not suppressed by fasting**: Confirms autonomous insulin secretion
+  * **[Contrast CT, SACI test] Vascularized tumor**: Confirm location of tumor
+* **Management**
+  * **Surgical enucleation, distal pancreatectomy**: For benign tumor
+  * **Medical therapy**: For inoperable cases
+  * **Glucose and potassium administration**: For hypoglycemic episodes
+{: .notice--info}
+
+### Gastrinoma / ガストリノーマ
+
+* **Overview**
+  * Gastrin-producing tumor in pancreas or duodenum, mostly malignant
+* **Presentation**
+  * **Heartburn, recurrent epigastric pain**: Refractory peptic ulcers due to excess gastrin
+  * **Chronic watery diarrhea/steatorrhea**: Acid inactivation of pancreatic enzymes
+* **Examination**
+  * **[Blood] Gastrin↑**: Confirms autonomous gastrin secretion
+  * **[Gastric analysis] Basal acid output↑**: Increased acid secretion
+  * **[CT, SACI test] Vascularized tumor**: Confirm location of tumor
+* **Management**
+  * **Pancreatic/duodenal resection**: Remove tumor
+  * **H2 blockers, PPIs**: Reduct gastric acid production
+  * **Somatostatin analogs, mTOR inhibitors**: Anti-tumor therapy
+{: .notice--info}
+
+### Multiple Endocrine Neoplasia / 多発性内分泌腫瘍症
+
+* **Overview**
+  * Autosomal dominant syndrome causing tumors in multiple endocrine glands, due to MEN1 gene (MEN1) or RET gene (MEN2) mutation
+* **Presentation**
+  * **[MEN1] Pituitary adenoma, hyperparathyroidism, pancreatic/GI neuroendocrine tumor**: Characteristic combination
+  * **[MEN2A] Medullary thyroid carcinoma, hyperparathyroidism, pheochromocytoma**: Characteristic combination
+  * **[MEN2B] Medullary thyroid carcinoma, mucosal neuroma, pheochromocytoma**: Characteristic combination
+* **Examination**
+  * **[Imaging] Multiple/bilateral tumors**: Multiple endocrine neoplasia
+  * **[Genetic testing] MEN1/RET gene mutation**: Confirms diagnosis
+* **Management**
+  * **Transsphenoidal surgery, dopamine agonist**: For pituitary adenoma
+  * **Total thyroidectomy**: For medullary thyroid carcinoma
+  * **Total parathyroidectomy**: For hyperparathyroidism
+  * **Adrenalectomy, BP control**: For pheochromocytoma
+  * **Pancreatectomy**: For pancreatic/GI neuroendocrine tumor
+{: .notice--info}
 
 ## Carbohydrate and Lipid Metabolism Disorder / 糖・脂質代謝異常
 
