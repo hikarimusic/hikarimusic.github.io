@@ -2190,3 +2190,24 @@ void solve(int n, int w, int h) {
     }
 }
 ```
+
+### Ternary Search / 三分探索
+```cpp
+vector<int> arr(N);
+
+int search(int l, int r) {
+    while (r-l>2) {
+        int m1 = l + (r-l)/3;
+        int m2 = r - (r-l)/3;
+        if (arr[m1]<arr[m2])
+            l = m1;
+        else
+            r = m2;
+    }
+    for (int i=l+1; i<=r; ++i) {
+        if (arr[i]>arr[l])
+            l = i;
+    }
+    return l;
+}
+```
