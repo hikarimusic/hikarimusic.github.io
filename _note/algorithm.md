@@ -481,6 +481,23 @@ void dfs(int v, int d, int p) {
     }
 }
 ```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> col(N), tmi(N), tmo(N);
+int tmr;
+
+void dfs(int v) {
+    col[v] = 1;
+    tmi[v] = tmr++;
+    for (int u : adj[v]) {
+        if (col[u]==0) {
+            dfs(u);
+        }
+    }
+    col[v] = 2;
+    tmo[v] = tmr++;
+}
+```
 
 ### Breadth First Search / 幅優先探索
 ```cpp
