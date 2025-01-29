@@ -1,5 +1,5 @@
 ---
-title: 'Algorithm 🍊⭐'
+title: 'Algorithm'
 date: 2023-01-01
 permalink: /note/algorithm
 tags:
