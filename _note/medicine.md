@@ -4778,9 +4778,13 @@ Essences of clinical medicine.
   * **Pancreatectomy**: For pancreatic/GI neuroendocrine tumor
 {: .notice--info}
 
-## Carbohydrate and Lipid Metabolism Disorder / 糖・脂質代謝異常
+## Carbohydrate Metabolism Disorder / 糖代謝異常
 
-## Uric Acid and Bone Metabolism Disorder / 尿酸・骨代謝異常
+## Lipid Metabolism Disorder / 脂質代謝異常
+
+## Uric Acid Metabolism Disorder / 尿酸代謝異常
+
+## Bone Metabolism Disorder / 骨代謝異常
 
 ## Congenital Metabolism Disorder / 先天代謝異常
 
