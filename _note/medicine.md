@@ -4790,6 +4790,176 @@ Essences of clinical medicine.
 
 ## Nutritional Disorder / 栄養異常
 
+### Vitamin A Deficiency / ビタミンA欠乏症
+
+* **Overview**
+  * Vitamin essential for vision and epithelial integrity, deficiency commonly in developing countries with malnutrition
+* **Presentation**
+  * **Night blindness**: Impaired rhodopsin synthesis
+  * **Xerophthalmia (Bitot’s spot), dry skin, follicular hyperkeratosis**: Abnormal epithelial differentiation
+* **Examination**
+  * **[Blood] Retinol↓**: Vitamin A deficiency
+* **Management**
+  * **Vitamin A supplementation**: Restore vitamin A levels
+{: .notice--info}
+
+### Vitamin D Deficiency / ビタミンD欠乏症
+
+* **Overview**
+  * Vitamin essential for calcium homeostasis, deficiency commonly in infants or elderly with limited sun exposure
+* **Presentation**
+  * **Rickets (children), osteomalacia (adults)**: Impaired bone mineralization
+* **Examination**
+  * **[Blood] 25(OH)D↓, Ca↓, P↓, PTH↑**: Vitamin D deficiency
+* **Management**
+  * **Vitamin D supplementation**: Restore vitamin D levels
+{: .notice--info}
+
+### Vitamin E Deficiency / ビタミンE欠乏症
+
+* **Overview**
+  * Vitamin with antioxidant effects, deficiency commonly due to fat malabsorption disorders
+* **Presentation**
+  * **Hemolytic anemia, neuropathy, retinopathy**: Oxidative damage
+* **Examination**
+  * **[Blood] α-tocopherol↓**: Vitamin E deficiency
+* **Management**
+  * **Vitamin E supplementation**: Restore vitamin E levels
+{: .notice--info}
+
+### Vitamin K Deficiency / ビタミンK欠乏症
+
+* **Overview**
+  * Vitamin essential for blood clotting, deficiency commonly in newborns and patient on antibiotics
+* **Presentation**
+  * **Easy bruising/bleeding, newborn intracranial hemorrhage**: Impaired clotting factor synthesis
+* **Examination**
+  * **[Blood] PT↑, INR↑**: Impaired blood clotting
+* **Management**
+  * **Vitamin K injection**: Restore vitamin K levels
+  * **Prophylactic vitamin K at birth**: Prevent hemorrhagic disease
+{: .notice--info}
+
+### Vitamin B1 Deficiency / ビタミンB1欠乏症
+
+* **Overview**
+  * Vitamin essential for glucose metabolism and nerve function (thiamine), deficiency commonly in alcoholics or malnutrition
+* **Presentation**
+  * **[Dry beriberi] Peripheral neuropathy, muscle weakness**: Impaired nerve conduction
+  * **[Wet beriberi] Heart failure, edema**: Cardiovascular dysfunction
+  * **[Wernicke] Confusion, ataxia, ophthalmoplegia**: Brain dysfunction
+  * **[Korsakoff] Memory loss, confabulation**: Chronic brain damage
+* **Examination**
+  * **[Blood] Thiamine↓**: Vitamin B1 deficiency
+* **Management**
+  * **Thiamine supplementation**: Restore thiamine levels
+{: .notice--info}
+
+### Vitamin B2 Deficiency / ビタミンB2欠乏症
+
+* **Overview**
+  * Vitamin essential for energy metabolism (ribofavin), deficiency commonly in developed countries
+* **Presentation**
+  * **Stomatitis, cheilosis, glossitis, seborrheic dermatitis**: Mucosal and skin inflammation
+* **Examination**
+  * **[Blood] Riboflavin↓**: Vitamin B2 deficiency
+* **Management**
+  * **Riboflavin supplementation**: Restore riboflavin levels
+{: .notice--info}
+
+### Vitamin B3 Deficiency / ビタミンB3欠乏症
+
+* **Overview**
+  * Vitamin essential for oxidation–reduction reactions (niacin), deficiency commonly in alcoholics or malnutrition
+* **Presentation**
+  * **Dermatitis, diarrhea, dementia**: Skin, gastrointestinal, neurological dysfunction 
+* **Examination**
+  * **[Blood] Niacin↓**: Vitamin B3 deficiency
+* **Management**
+  * **Niacin supplementation**: Restore niacin levels
+{: .notice--info}
+
+### Vitamin B6 Deficiency / ビタミンB6欠乏症
+
+* **Overview**
+  * Vitamin essential for amino acid metabolism (pyridoxine), deficiency commonly drug-induced (isoniazid)
+* **Presentation**
+  * **Peripheral neuropathy, stomatitis**: Impaired nerve and mucosal function
+  * **Microcytic anemia**: Impaired hemoglobin synthesis
+* **Examination**
+  * **[Blood] Pyridoxal phosphate↓**: Vitamin B6 deficiency
+* **Management**
+  * **Pyridoxine supplementation**: Restore pyridoxine levels
+  * **Medication adjustment**: For drug-incuced
+{: .notice--info}
+
+### Vitamin B12 Deficiency / ビタミンB12欠乏症
+
+* **Overview**
+  * Vitamin essential for DNA synthesis and myelin formation (cobalamin), deficiency commonly with pernicious anemia, gastrectomy, and vegetarians
+* **Presentation**
+  * **Megaloblastic anemia, glossitis**: Impaired DNA synthesis
+  * **Peripheral neuropathy, subacute combined degeneration**: Demyelination of peripheral and central nervous system
+* **Examination**
+  * **[Blood] Vitamin B12↓, methylmalonic acid↑, homocysteine↑**: Vitamin B12 deficiency
+  * **[Blood] Anti-intrinsic factor antibodies**: In pernicious anemia
+* **Management**
+  * **Cobalamin injection/supplementation**: Restore cobalamin levels
+{: .notice--info}
+
+### Vitamin C Deficiency / ビタミンC欠乏症
+
+* **Overview**
+  * Vitamin essential for collagen synthesis and antioxidant functions (ascorbic acid), deficiency commonly with long voyage or malnutrition
+* **Presentation**
+  * **Easy bruising, bleeding gums**: Weakened blood vessels
+  * **Poor wound healing, fatigue**: Impaired collagen formation
+* **Examination**
+  * **[Blood] Vitamin C↓**: Vitamin C deficiency
+* **Management**
+  * **Vitamin C supplementation**: Restore vitamin C levels
+{: .notice--info}
+
+### Folate Deficiency / 葉酸欠乏症
+
+* **Overview**
+  * Vitamin essential for DNA synthesis, deficiency commonly in pregnancy or malnutrition
+* **Presentation**
+  * **Megaloblastic anemia, glossitis**: Impaired DNA synthesis
+  * **[Pregnancy] Neural tube defects**: Impaired fetal development
+* **Examination**
+  * **[Blood] Folate↓**: Folate deficiency
+* **Management**
+  * **Folate supplementation**: Restore folate levels
+  * **[Pregnancy] Prophylactic supplementation**: Prevent neural tube defects
+{: .notice--info}
+
+### Biotin Deficiency / ビオチン欠乏症
+
+* **Overview**
+  * Vitamin essential for carboxylase enzymes, deficiency commonly from excessive raw egg consumption
+* **Presentation**
+  * **Hair loss, dermatitis**: Impaired fatty acid metabolism
+* **Examination**
+  * **[Blood] Biotin↓**: Biotin deficiency
+* **Management**
+  * **Biotin supplementation**: Restore biotin levels
+  * **Avoid raw egg consumption**: Contains avidin binding biotin
+{: .notice--info}
+
+### Zinc Deficiency / 亜鉛欠乏症
+
+* **Overview**
+  * Trace element essential for protein synthesis, deficiency commonly in malnutrition or malabsorption
+* **Presentation**
+  * **Acral dermatitis, alopecia**: Skin dysfunction
+  * **Growth retardation, delayed wound healing**: Impaired protein synthesis
+* **Examination**
+  * **[Blood] Zn↓**: Zinc deficiency
+* **Management**
+  * **Zinc supplementation**: Restore zinc levels
+{: .notice--info}
+
 <!-- ### Endocrine Organ / 内分泌器
 
 * **Pituitary gland**
