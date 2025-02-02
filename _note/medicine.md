@@ -4780,6 +4780,165 @@ Essences of clinical medicine.
 
 ## Carbohydrate Metabolism Disorder / 糖代謝異常
 
+### Type 1 Diabetes Mellitus / 1型糖尿病
+
+* **Overview**
+  * Autoimmune destruction of pancreatic β cells leading to irreversible insulin deficiency
+  * Common in children and adolescent
+* **Presentation**
+  * **Polyuria, polydipsia**: Insulin deficiency leads to hyperglycemia and osmotic diuresis
+  * **Weight loss**: Insulin deficiency leads to decreased anabolism
+  * **Diabetic ketoacidosis, coma**: Severe insulin deficiency leads to ketogenesis
+* **Examination**
+  * **[Blood] Glucose↑, HbA1c↑**: Hyperglycemia
+  * **[Blood/Urine] C-peptide↓**: Insulin deficiency
+  * **[Blood/Urine] Ketones↑**: Diabetic ketoacidosis
+  * **[Blood] GAD antibodies, islet cell antibodies, insulin autoantibodies**: Autoimmune nature
+* **Management**
+  * **Multiple daily insulin injection**: Replace basal and bolus insulin
+  * **Continuous subcutaneous insulin infusion**: Alternative insulin delivery method
+  * **Diet therapy, exercise therapy**: Support glucose control
+{: .notice--info}
+
+### Type 2 Diabetes Mellitus / 2型糖尿病
+
+* **Overview**
+  * Combination of insulin secretion defect and insulin resistance, caused by genetic factors plus environmental factors
+  * Common in middle-aged to elderly adults with poor lifestyle
+* **Presentation**
+  * **Asymptomatic, mild to severe obesity**: Insulin resistance or secretion defect without manifestations 
+  * **Polyuria, polydipsia, weight loss**: Osmotic diuresis and decreased anabolism in advanced stage
+* **Examination**
+  * **[Blood] Fasting glucose ≥126 mg/dL, OGTT 2 hours ≥200 mg/dL**: Diagnostic criteria
+  * **[Blood] HbA1c ≥6.5%**: Diagnostic criteria
+* **Management**
+  * **Diet therapy, exercise therapy**: First-line treatment
+  * **Biguanides, Thiazolidinediones**: Improve insulin resistance
+  * **Sulfonylureas, Glinides, DPP-4 inhibitors, GLP-1 receptor agonists**: Enhance insulin secretion
+  * **α-glucosidase inhibitors, SGLT2 inhibitors**: Decreased glucose absorption/reabsorption
+  * **Insulin injection**: Insulin replacement therapy
+{: .notice--info}
+
+### Diabetic Ketoacidosis / 糖尿病ケトアシドーシス
+
+* **Overview**
+  * Extreme insulin deficiency and increased counter-regulatory hormone lead to ketoacidosis and dehydration
+  * Common in type 1 diabetes during interruption of insulin therapy, infection, stress
+* **Presentation**
+  * **Altered consciousness, coma, kussmaul breadthing**: Severe metabolic acidosis
+  * **Polyuria, polydipsia, hypotension, tachycardia**: Effects of hyperglycemia and dehydration
+  * **Vomiting, abdominal pain, acetone breath**: Ketone accumulation
+* **Examination**
+  * **[Blood] Glucose↑, ketones↑**: Impaired glucose utilization and increased lipolysis
+  * **[Blood] pH↓, HCO3-↓, anion gap↑**: Metabolic acidosis
+* **Management**
+  * **IV normal saline**: Correct dehydration
+  * **Continuous IV insulin**: Reverse ketogenesis
+  * **Electrolyte correction**: Maintain homeostasis as needed
+{: .notice--info}
+
+### Hyperosmolar Hyperglycemic Syndrome / 高浸透圧高血糖症候群
+
+* **Overview**
+  * Insulin resistance and increased counter-regulatory hormones lead to severe hyperglycemia and dehydration
+  * Common in type 2 diabetes during infection, stress, dehydration
+* **Presentation**
+  * **Dry skin and mucosa, hypotension, tachycardia**: Severe dehydration
+  * **Seizures, altered consciousness**: Cellular dehydration in central nervous system
+* **Examination**
+  * **[Blood] Glucose↑↑, osmolality↑**: Severe hyperglycemia and dehydration
+* **Management**
+  * **IV normal saline**: Correct severe dehydration
+  * **Continuous IV insulin**: Control hyperglycemia
+  * **Electrolyte correction**: Maintain homeostasis as needed
+{: .notice--info}
+
+### Hypoglycemia / 低血糖症
+
+* **Overview**
+  * Blood glucose falls below physiological range
+  * Common in diabetic patients due to inappropriate medication, diet, exercise
+* **Presentation**
+  * **Tachycardia, cold sweats, tremors, pallor**: Sympathetic nervous system activation
+  * **Seizures, headache, abnormal behavior, altered consciousness**: Central nervous system dysfunction
+* **Examination**
+  * **[Blood] Glucose↓**: Confirms diagnosis
+* **Management**
+  * **Oral glucose, buccal sugar application**: Emergency treatment by patient or family
+  * **IV 50% glucose**: Restore and maintain glucose levels
+{: .notice--info}
+
+### Diabetic Neuropathy / 糖尿病神経障害
+
+* **Overview**
+  * Neurological dysfunction caused by neural and vascular damage due to hyperglycemia
+  * One of three major diabetic complications
+* **Presentation**
+  * **Bilateral numbness, sensory loss, pain, muscle cramps**: Sensory and motor nerve dysfunction
+  * **Orthostatic hypotension, diarrhea or constipation, sweating abnormalities, neurogenic bladder, erectile dysfunction**: Autonomic nerve dysfunction
+  * **Extraocular nerve palsy, facial nerve palsy, peroneal nerve palsy**: Occasional mononeuropathy
+* **Examination**
+  * **[Physical] Decreased/absent bilateral Achilles reflex, reduced vibration sense**: Peripheral nerve dysfunction
+* **Management**
+  * **Blood glucose control, lifestyle modification**: Prevent disease progression
+  * **Pregabalin, duloxetine, mexiletine, anticonvulsants**: Manage pain
+  * **Aldose reductase inhibitors, vitamin B12**: Address metabolic dysfunction
+{: .notice--info}
+
+### Diabetic Retinopathy / 糖尿病網膜症
+
+* **Overview**
+  * Retinal dysfunction caused by vascular damage due to hyperglycemia 
+  * One of three major diabetic complications
+* **Presentation**
+  * **Asymptomatic, floaters, black curtain vision**: Vitreous hemorrhage
+  * **Decreased visual acuity**: If macula is involved
+* **Examination**
+  * **[Fundoscopy] Retinal hemorrhage, retinal ischemia, exudate**: Simple and pre-proliferative retinopathy
+  * **[Fundoscopy] Fibrovascular proliferation, vitreous hemorrhage, tractional retinal detachment**: Proliferative retinopathy
+* **Management**
+  * **Blood glucose control, photocoagulation**: Prevent disease progression
+  * **Vitreous surgery**: Treat vitreous hemorrhage and proliferative membrane
+{: .notice--info}
+
+### Diabetic Nephropathy / 糖尿病腎症
+
+* **Overview**
+  * Renal dysfunction caused by vascular damage due to hyperglycemia
+  * One of three major diabetic complications
+* **Presentation**
+  * **Asymptomatic**: In early stages
+  * **Nephrotic syndrome, renal failure**: In advanced stages
+* **Examination**
+  * **[Urine] Microalbuminuria, albuminuria**: Progressive kidney damage
+  * **[Blood] GFR↓**: Progressive kidney damage
+  * **[Kidney biopsy] Diffuse/nodular/exudative lesions**: Characteristic finding
+* **Management**
+  * **Blood glucose control, blood pressure control**: Prevent disease progression
+  * **Protein, salt, potassium restriction**: Reduce kidney loading
+  * **Dialysis, kidney transplant**: For end-stage renal disease
+{: .notice--info}
+
+### Diabetic Foot / 糖尿病足病変
+
+* **Overview**
+  * Complex foot pathology caused by neurological and vascular dysfunction due to hyperglycemia
+  * One of diabetic complications
+* **Presentation**
+  * **Calluses, onychomycosis, foot deformities**:  Initial symptoms of diabetic foot
+  * **Infection, ulcers, gangrene**: Combined neuropathy, vascular insufficiency, and trauma
+* **Examination**
+  * **[Physical] Decreased touch/vibration/temperature sensation**: Peripheral neuropathy
+  * **[Physical] Decreased lower limb pulses, reduced ABI**: Peripheral arterial disease
+* **Management**
+  * **Blood glucose control**: Prevent disease progression
+  * **Debridement, dressing**: Remove necrotic tissue and promote healing
+  * **Off-loading**: Reduce pressure on affected areas
+  * **Vasodilators, antiplatelet drugs, anticoagulants, revascularization**: Improve blood flow
+  * **Antibiotics**: Treat infections
+  * **Amputation**: Last resort for severe cases
+{: .notice--info}
+
 ## Lipid Metabolism Disorder / 脂質代謝異常
 
 ## Uric Acid Metabolism Disorder / 尿酸代謝異常
