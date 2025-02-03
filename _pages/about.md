@@ -11,7 +11,7 @@ redirect_from:
 I am 董宇光, a medical student studying at National Taiwan University. As an amateur researcher, I enjoy writing papers. As an amateur engineer, I enjoy developing software. As an amateur composer, I enjoy creating music. As a professional student, I enjoy learning medicine, physics, and algorithms. If you have any hobbies in common, I would be happy to have some discussions with you.
 
 * 2020: National Taiwan University School of Medicine
-* 2018: International Physics Olympiad Silver Medal
+* 2019: International Physics Olympiad Silver Medal
 
 ## Paper
 
