@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am 董宇光, a medical student studying at the School of Medicine, National Taiwan University. I had been learning physics in high school and am currently studying medicine and algorithms. I am interested in cancer genomics and structural biology.
+I am 董宇光, a medical student studying at National Taiwan University. As an amateur researcher, I enjoy writing papers. As an amateur engineer, I enjoy developing software. As an amateur composer, I enjoy creating music. As a professional student, I enjoy learning medicine, physics, and algorithms. If you have any hobbies in common, I would be happy to have some discussions with you.
 
-* International Physics Olympiad: Silver Medal
-* 東京大学一般選抜：理一プラス４３点理三落ち
+* 2020: National Taiwan University School of Medicine
+* 2018: International Physics Olympiad Silver Medal
 
 ## Paper
 
