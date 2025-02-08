@@ -5063,6 +5063,72 @@ Essences of clinical medicine.
 
 ## Bone Metabolism Disorder / 骨代謝異常
 
+### Osteoporosis / 骨粗鬆症
+
+* **Overview**
+  * Decreased bone strength leading to increased fracture risk
+  * Common in postmenopausal women
+* **Presentation**
+  * **Low back pain, height loss**: Vertebral compression fractures
+  * **Easy fracturing of extremities**: Decreased bone strength
+* **Examination**
+  * **[Blood] Normal Ca, P, ALP**: Differentiate from other bone diseases
+  * **[X-ray] Increased bone transparency, decreased trabeculae, vertebral compression fractures**: Reduced bone mass
+  * **[DXA] Decreased bone mineral density**: Confirm diagnosis
+* **Management**
+  * **Diet therapy, exercise therapy**: Lifestyle modification
+  * **Bisphosphonates, anti-RANKL antibody, SERM**: Inhibit bone resorption
+  * **Active vitamin D3, PTH preparations, anti-sclerostin antibody**: Promote bone formation
+{: .notice--info}
+
+### Rickets and Osteomalacia / くる病・骨軟化症
+
+* **Overview**
+  * Impaired bone mineralization due to low Ca or P of various causes
+  * Including rickets (before growth plate closure) and osteomalacia (after growth plate closure)
+* **Presentation**
+  * **[Rickets] Growth disturbance, bone deformities, Harrison's groove, rachitic rosary**: Impaired mineralization at growth plates
+  * **[Osteomalacia] Bone pain, muscle weakness**: Impaired mineralization of mature bone
+* **Examination**
+  * **[Blood] Ca↓ (in vitamin D deficiency), P↓, ALP↑**: Impaired mineralization
+  * **[X-ray, rickets] Cupping and flaring at growth plates**: Growth plate mineralization defect
+  * **[X-ray, osteomalacia] Looser's zones**: Radiolucent lines crossing cortical bone
+* **Management**
+  * **[Vitamin D deficiency] Vitamin D supplementation**: Replace deficient vitamin D
+  * **[Hypophosphatemia] Vitamin D supplementation + Phosphate supplementation**: Correct phosphate deficiency
+{: .notice--info}
+
+### Osteopetrosis / 大理石骨病
+
+* **Overview**
+  * Systemic bone sclerosis due to impaired bone resorption from osteoclast dysfunction
+* **Presentation**
+  * **Pathological fractures**: Increased hardened but brittle bones
+  * **Anemia, increased infection, bleeding tendency**: Bone marrow dysfunction due to narrowed marrow cavity
+* **Examination**
+  * **[X-ray] Increased bone density, sandwich vertebrae**: Excessive bone sclerosis
+* **Management**
+  * **Intramedullary nail fixation**: Treatment for fractures
+  * **Blood transfusion, splenectomy**: Treatment for anemia
+{: .notice--info}
+
+### Paget's Disease of Bone / 骨Paget病
+
+* **Overview**
+  * Localized disorder of increased bone resorption and formation
+* **Presentation**
+  * **Asymptomatic, pain and deformity at affected sites**: Abnormal bone remodeling
+  * **Neurological symptoms**: Nerve compression from enlarged bones
+* **Examination**
+  * **[Blood] ALP↑**: Increased bone turnover
+  * **[X-ray] Mixed osteolytic and sclerotic lesions**: Abnormal bone remodeling
+  * **[Bone scintigraphy] Increased uptake in affected areas**: Increased bone turnover
+* **Management**
+  * **Bisphosphonates**: Suppress abnormal bone metabolism
+  * **Analgesics**: Relieve pain
+  * **Orthopedic surgery**: For fractures and severe deformities
+{: .notice--info}
+
 ## Congenital Metabolism Disorder / 先天代謝異常
 
 ## Nutritional Disorder / 栄養異常
