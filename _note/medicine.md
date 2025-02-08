@@ -5012,6 +5012,55 @@ Essences of clinical medicine.
 
 ## Uric Acid Metabolism Disorder / 尿酸代謝異常
 
+### Hyperuricemia / 高尿酸血症
+
+* **Overview**
+  * Excessive serum uric acid due to overproduction or underexcretion
+  * Common in males
+* **Presentation**
+  * **Asymptomatic**
+  * **Gout arthritis, tophi, kidney stones, renal dysfunction**: Complication of hyperuricema
+* **Examination**
+  * **[Blood] Uric acid >7.0 mg/dL**: Hyperuricemia
+* **Management**
+  * **Diet therapy (limit purines and alcohol), exercise therapy**: First-line treatment
+  * **Benzbromarone, probenecid**: Promote uric acid excretion
+  * **Allopurinol, febuxostat**: Suppress uric acid production
+{: .notice--info}
+
+### Gout / 痛風
+
+* **Overview**
+  * Acute joint inflammation caused by uric acid crystal deposition
+  * Common in overweight men with hyperuricemia
+* **Presentation**
+  * **Severe pain, redness, swelling of lower extremity joints (especially 1st MTP)**: Crystal-induced inflammation
+* **Examination**
+  * **[Joint fluid] Uric acid crystals**: Definitive diagnosis
+  * **[Ultrasound] Crystal deposits on cartilage surface**: Characteristic findings
+  * **[Blood] Uric acid↑**: Underlying hyperuricemia
+* **Management**
+  * **[Acute] NSAIDs, colchicine, glucocorticoids**: Reduce inflammation
+  * **[Interictal] Allopurinol, febuxostat**: Xanthine oxidase inhibitors  for overproduction type
+  * **[Interictal] Benzbromarone, probenecid**:  Uricosuric agents for underexcretion type
+  * **Citrate**: Prevent crystal formation
+{: .notice--info}
+
+### Pseudogout / 偽痛風
+
+* **Overview**
+  * Acute joint inflammation caused by calcium pyrophosphate dihydrate (CPPD) deposition
+  * Common in elderly adults
+* **Presentation**
+  * **Acute pain and swelling of joint (often knee)**: Crystal-induced inflammation
+  * **Sudden neck pain (crowned dens syndrome)**: Pseudogout at atlantoaxial joint
+* **Examination**
+  * **[Joint fluid] CPPD crystals**: Definitive diagnosis
+  * **[Ultrasound] Crystal deposits in cartilage and bone surface**: Distinguishes from gout
+* **Management**
+  * **NSAIDs, glucocorticoids**: Reduce inflammation
+{: .notice--info}
+
 ## Bone Metabolism Disorder / 骨代謝異常
 
 ## Congenital Metabolism Disorder / 先天代謝異常
