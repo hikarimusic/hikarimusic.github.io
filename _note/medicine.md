@@ -4941,6 +4941,75 @@ Essences of clinical medicine.
 
 ## Lipid Metabolism Disorder / 脂質代謝異常
 
+### Dyslipidemia / 脂質異常症
+
+* **Overview**
+  * Abnormal blood lipid levels (high LDL, low HDL, high triglycerides), major risk factor for atherosclerotic diseases
+* **Presentation**
+  * **Asymptomatic, coronary artery disease, stroke**: Silent progression of atherosclerosis
+  * **Pancreatitis, hepatosplenomegaly**: Complication of hypertriglyceridemia
+  * **Xanthomas, retinal lipemia**: Skin manifestation of hypertriglyceridemia
+* **Examination**
+  * **[Blood] LDL-C↑**: Hyper-LDL-cholesterolemia
+  * **[Blood] HDL-C↓**: Hypo-LDL-cholesterolemia
+  * **[Blood] Triglycerides↑**: Hypertriglyceridemia
+* **Management**
+  * **Diet therapy, exercise therapy**: First-line treatment
+  * **Statins, ezetimibe, resin, PCSK9 inhibitor**: Reduce cholesterol synthesis, reduce cholesterol or bile acid absorption, reduce LDL receptor degradation
+  * **Fibrates, ω3 fatty acid, nicotinic acid derivative**: Reduce triglycerides synthesis, increase triglycerides degradation
+{: .notice--info}
+
+### Familial Hypercholesterolemia / 家族性高コレステロール血症
+
+* **Overview**
+  * Autosomal dominant disorder of hyper-LDL-cholesterolemia due to LDL receptor abnormality
+  * Presents from childhood to adulthood
+* **Presentation**
+  * **Tendon xanthomas, skin xanthomas, early corneal arcus**: Cholesterol deposits in tissues
+  * **Early-onset coronary artery disease symptoms**: Early progression of atherosclerosis
+  * **Family history**:  Autosomal dominant disorder
+* **Examination**
+  * **[Blood] High LDL-C, high total cholesterol**: Impaired LDL clearance
+  * **[Genetic testing] LDL receptor gene mutations**: Confirms diagnosis
+* **Management**
+  * **Diet therapy**: Basic treatment for all patients
+  * **[Heterozygous FH] Statins (with ezetimibe, resins, PCSK9 inhibitors)**: Reduce cholesterol synthesis
+  * **[Homozygous FH] LDL apheresis**: Remove LDL from blood
+{: .notice--info}
+
+### Obesity Disease / 肥満症
+
+* **Overview**
+  * Excessive accumulation of body fat, classified as visceral fat obesity and subcutaneous fat obesity
+* **Presentation**
+  * **Increased body weight (BMI ≥25)**: Excess caloric intake relative to expenditure
+  * **Increased waist circumference (men ≥85cm, women ≥90cm)**: Indicates visceral fat accumulation
+  * **Diabetes, dyslipidemia, hypertension**: Complications of obesity
+* **Examination**
+  * **[CT] Visceral fat area ≥100cm2**: Confirms visceral obesity
+  * **[Blood] Blood glucose↑, lipids↑, BP↑**: Obesity-related complications
+* **Management**
+  * **Diet therapy, exercise therapy, behavioral therapy**: First-line treatment
+  * **Medications**: When lifestyle changes insufficient
+  * **Sleeve gastrectomy**: For sever obesity cases
+{: .notice--info}
+
+### Metabolic Syndrome / メタボリックシンドローム
+
+* **Overview**
+  * Cluster of cardiovascular risk factors due to visceral fat accumulation
+* **Presentation**
+  * **Central obesity**: Visceral fat accumulation
+  * **Dyslipidemia, glucose intolerance, hypertension**: Complex metabolic and endocrine abnormalities due to visceral fat accumulation
+* **Examination**
+  * **[Waist circumference] ≥85cm (men), ≥90cm (women)**: Essential criteria
+  * **[Blood] Triglycerides ≥150 mg/dL, HDL-C <40 mg/dL**: Dyslipidemia
+  * **[Blood] Fasting glucose ≥110 mg/dL**: Insulin resistance
+  * **[Blood pressure] ≥130/85 mmHg**: Hypertension
+* **Management**
+  * **Diet therapy, exercise therapy**: First-line treatment
+{: .notice--info}
+
 ## Uric Acid Metabolism Disorder / 尿酸代謝異常
 
 ## Bone Metabolism Disorder / 骨代謝異常
