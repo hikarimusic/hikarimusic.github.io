@@ -5131,6 +5131,347 @@ Essences of clinical medicine.
 
 ## Congenital Metabolism Disorder / 先天代謝異常
 
+### Phenylketonuria / フェニルケトン尿症
+
+* **Overview**
+  * Deficiency of phenylalanine hydroxylase, autosomal recessive inheritance
+* **Presentation**
+  * **Light skin, hair, eyes**: Reduced melanin synthesis due to tyrosine deficiency
+  * **Developmental delay, intellectual disability**: Neurotoxicity
+  * **Musty odor in urine**: Phenylacetic acid excretion
+* **Examination**
+  * **[Blood] Phenylalanine↑**: Phenylalanine accumulation
+  * **[Urine] Phenylketones↑**: Phenylketones excretion
+* **Management**
+  * **Phenylalanine-restricted diet**: Prevent accumulation
+  * **Tetrahydrobiopterin (BH4)**: Responsive in some cases
+{: .notice--info}
+
+### Maple Syrup Urine Disease / メープルシロップ尿症
+
+* **Overview**
+  * Deficiency of branched-chain α-keto acid dehydrogenase (valine, leucine, isoleucine), autosomal recessive inheritance
+* **Presentation**
+  * **Poor feeding, lethargy**: Metabolic crisis
+  * **Seizures, coma**: Neurotoxicity
+  * **Maple syrup odor in urine**: Branched-chain α-keto acid  accumulation
+* **Examination**
+  * **[Blood] Branched-chain amino acids↑**: Branched-chain amino acids accumulation
+  * **[Urine] Branched-chain α-keto acids↑**: Branched-chain α-keto acid excretion
+* **Management**
+  * **Protein-restricted diet**: Prevent accumulation
+  * **Vitamin B1**: Responsive in some cases
+{: .notice--info}
+
+### Homocystinuria / ホモシスチン尿症
+
+* **Overview**
+  * Deficiency of cystathionine β-synthase, autosomal recessive inheritance
+* **Presentation**
+  * **Marfanoid habitus, lens dislocation**: Connective tissue disorder
+  * **Thromboembolism**: Hypercoagulable state
+  * **Intellectual disability**: Neurotoxicity
+* **Examination**
+  * **[Blood] Homocysteine↑, methionine↑**: Homocysteine accumulation
+  * **[Urine] Homocystine↑**: Homocystine excretion
+* **Management**
+  * **Methionine-restricted diet**: Prevent accumulation
+  * **Vitamin B6, B12, folate**: Cofactors for homocysteine metabolism
+  * **Betaine**: Alternative pathway activation
+{: .notice--info}
+
+### OTC Deficiency / OTC欠損症
+
+* **Overview**
+  * Deficiency of ornithine transcarbamylase in urea cycle, X-linked recessive inheritance
+* **Presentation**
+  * **Lethargy, vomiting**: Hyperammonemia
+  * **Seizures, coma**: Ammonia neurotoxicity
+* **Examination**
+  * **[Blood] Ammonia↑, citrulline↓**: Blocked urea cycle
+  * **[Urine] Orotic acidic↑**: Alternative pathway product
+* **Management**
+  * **Protein restriction**: Reduce ammonia production
+  * **Sodium benzoate, phenylbutyrate**: Alternative ammonia excretion
+  * **Liver transplantation**: Definitive treatment
+{: .notice--info}
+
+### Lesch-Nyhan Syndrome / Lesch-Nyhan症候群
+
+* **Overview**
+  * Deficiency of hypoxanthine-guanine phosphoribosyltransferase in salvage pathway, X-linked inheritance
+* **Presentation**
+  * **Intellectual disability, dystonia, spasticity**: Neurological damage
+  * **Self-mutilation**: Characteristic finding
+  * **Gout**: Uric acid accumulation
+* **Examination**
+  * **[Blood] Uric acid↑**: Increased purine synthesis due to blocked salvage pathway
+  * **[Urine] Uric acid↑**: Increased purine synthesis due to blocked salvage pathway
+* **Management**
+  * **Allopurinol**: Reduce uric acid production
+  * **Physical restraints, behavioral therapy**: Prevent self-injury
+{: .notice--info}
+
+### Gaucher Disease / Gaucher病
+
+* **Overview**
+  * Deficiency of glucocerebrosidase leading to glucocerebroside accumulation in lysosomes, autosomal recessive inheritance
+* **Presentation**
+  * **Neurological symptoms**: CNS involvement
+  * **Hepatosplenomegaly**: Storage cells accumulation
+  * **Bone pain, pathological fractures, pancytopenia**: Bone marrow infiltration
+* **Examination**
+  * **[Biopsy] Gaucher cells in bone marrow**: Storage cells
+  * **[Enzyme] Glucocerebrosidase activity↓**: Confirm diagnosis
+* **Management**
+  * **Enzyme replacement therapy**: Replace enzyme function
+  * **Substrate reduction therapy**: Reduce substrate production
+  * **Bone marrow transplantation**: For severe cases
+{: .notice--info}
+
+### Niemann-Pick Disease / Niemann-Pick病
+
+* **Overview**
+  * Deficiency of sphingomyelinase leading to sphingomyelin accumulation in lysosomes, autosomal recessive inheritance
+* **Presentation**
+  * **Progressive neurological deterioration**: CNS involvement
+  * **Hepatosplenomegaly**: Storage cell accumulation
+  * **Pulmonary infiltrates**: Lung involvement
+* **Examination**
+  * **[Biopsy] Foam cells in tissue**: Storage cells
+  * **[Enzyme] Sphingomyelinase activity↓**: Confirm diagnosis
+* **Management**
+  * **Enzyme replacement therapy**: Replace enzyme function
+  * **Substrate reduction therapy**: Reduce substrate production
+{: .notice--info}
+
+### Tay-Sachs Disease / Tay-Sachs病
+
+* **Overview**
+  * Deficiency of hexosaminidase A leading to GM2 ganglioside accumulation in lysosomes, autosomal recessive inheritance
+* **Presentation**
+  * **Seizures, developmental regression**: CNS involvement
+  * **Progressive weakness**: Neurodegeneration
+* **Examination**
+  * **[Eye] Cherry-red spot in macula**: Characteristic findings
+  * **[Enzyme] Hexosaminidase A activity↓**: Confirm diagnosis
+* **Management**
+  * **Supportive care**: No specific treatment
+{: .notice--info}
+
+### Metachromatic Leukodystrophy / 異染性白質ジストロフィー
+
+* **Overview**
+  * Deficiency of arylsulfatase A leading to sulfatide accumulation in lysosomes, autosomal recessive inheritance
+* **Presentation**
+  * **Cognitive decline**: CNS involvement
+  * **Progressive motor dysfunction**: Demyelination
+* **Examination**
+  * **[MRI] White matter changes**: Demyelination
+  * **[Enzyme] Arylsulfatase A activity↓**: Confirm diagnosis
+* **Management**
+  * **Supportive care**: Symptomatic treatment
+{: .notice--info}
+
+### Fabry Disease / Fabry病
+
+* **Overview**
+  * Deficiency of α-galactosidase A leading to globotriaosylceramide accumulation in lysosomes, X-linked recessive inheritance
+* **Presentation**
+  * **Acroparesthesias**: Neuropathic pain
+  * **Angiokeratomas**: Skin manifestation
+  * **Renal failure**: Kidney involvement
+  * **Cardiac problems**: Heart involvement
+* **Examination**
+  * **[Biopsy] Storage material in tissues**: Diagnostic
+  * **[Enzyme] α-galactosidase A activity↓**: Confirm diagnosis
+* **Management**
+  * **Enzyme replacement therapy**: Replace enzyme function
+  * **Pain management**: Symptomatic relief
+{: .notice--info}
+
+### Hurler Syndrome / Hurler症候群
+
+* **Overview**
+  * Deficiency of α-L-iduronidase leading to GAG accumulation in lysosomes, autosomal recessive inheritance
+* **Presentation**
+  * **Coarse facial features**: GAG deposition
+  * **Skeletal abnormalities**: Dysostosis multiplex
+  * **Mental retardation**: CNS involvement
+  * **Corneal clouding**: Eye involvement
+* **Examination**
+  * **[Urine] Increased GAGs**: GAG accumulation
+  * **[Enzyme] α-L-iduronidase activity↓**: Confirm diagnosis
+* **Management**
+  * **Enzyme replacement therapy**: Replace enzyme function
+{: .notice--info}
+
+### Hunter Syndrome / Hunter症候群
+
+* **Overview**
+  * Deficiency of iduronate-2-sulfatase leading to GAG accumulation in lysosomes, X-linked recessive inheritance
+* **Presentation**
+  * **Coarse facial features**: GAG deposition
+  * **Skeletal abnormalities**: Dysostosis multiplex
+  * **Mental retardation**: CNS involvement
+  * **No corneal clouding**: Distinguishing feature
+* **Examination**
+  * **[Urine] Increased GAGs**: GAG accumulation
+  * **[Enzyme] Iduronate-2-sulfatase↓**: Confirm diagnosis
+* **Management**
+  * **Enzyme replacement therapy**: Replace enzyme function
+{: .notice--info}
+
+### Adrenoleukodystrophy / 副腎白質ジストロフィー
+
+* **Overview**
+  * Disorder of peroxisomal very long-chain fatty acid (VLCFA) metabolism,  X-linked recessive inheritance
+* **Presentation**
+  * **Behavioral changes, cognitive decline**: Progressive demyelination
+  * **Visual disturbances, hearing loss**: Progressive demyelination
+  * **Spastic paralysis**: Progressive demyelination
+  * **Adrenal insufficiency**: Adrenal insufficiency
+* **Examination**
+  * **[Blood] VLCFA↑**: VLCFA accumulation
+  * **[Blood] Cortisol↓**: Adrenal insufficiency
+  * **[MRI] White matter lesions**: Demyelination
+* **Management**
+  * **Lorenzo's oil**: May prevent onset in presymptomatic cases
+  * **Steroid replacement**: For adrenal insufficiency
+  * **Stem cell transplantation**: For early-stage cases
+{: .notice--info}
+
+### von Gierke Disease / von Gierke病
+
+* **Overview**
+  * Deficiency of glucose-6-phosphatase leading to glycogen accumulation, autosomal recessive inheritance
+* **Presentation**
+  * **Hepatomegaly**: Glycogen accumulation in liver
+  * **Hypoglycemia, lactic acidosis**: Impaired glucose production
+  * **Growth retardation**: Metabolic derangement
+  * **Bleeding tendency**: Platelet dysfunction
+* **Examination**
+  * **[Blood] Glucose↓, lactic acidosis**: Impaired glucose production
+  * **[Blood] Uric acid↑, triglycerides↑**: Secondary metabolic effects
+  * **[Liver biopsy] Glycogen accumulation**: Glycogen accumulation
+  * **[Genetic testing] Glucose-6-phosphatase mutations**: Confirm diagnosis
+* **Management**
+  * **Frequent feeding, cornstarch**: Prevent hypoglycemia
+  * **Dietary restrictions**: Control metabolic complications
+{: .notice--info}
+
+### Pompe Disease / Pompe病
+
+* **Overview**
+  * Deficiency of acid α-glucosidase (GAA) leading to glycogen accumulation, autosomal recessive inheritance
+* **Presentation**
+  * **Cardiomegaly**: Glycogen accumulation in heart
+  * **Progressive muscle weakness**: Glycogen accumulation in muscle
+  * **Respiratory failure**: Major cause of death
+* **Examination**
+  * **[Blood] CK↑**: Muscle damage
+  * **[Muscle biopsy] Vacuolar myopathy**: Glycogen accumulation
+  * **[Genetic testing] GAA mutations**: Confirm diagnosis
+* **Management**
+  * **Enzyme replacement therapy**: Replace enzyme function
+  * **Physical therapy, respiratory support**: Maintain function
+{: .notice--info}
+
+### Galactosemia / ガラクトース血症
+
+* **Overview**
+  * Deficiency of galactose-1-phosphate uridyltransferase, autosomal recessive inheritance
+* **Presentation**
+  * **Poor feeding, vomiting**: Early symptoms
+  * **Jaundice, hepatomegaly**: Liver dysfunction
+  * **Cataracts**: Galactitol accumulation in lens
+* **Examination**
+  * **[Blood] Galactose↑**: Galactose accumulation 
+  * **[Urine] Galactitol↑**: Galactitol excretion
+* **Management**
+  * **Galactose-restricted diet**: Prevent accumulation
+{: .notice--info}
+
+### Wilson Disease / Wilson病
+
+* **Overview**
+  * Defective copper transport protein ATP7B leading to copper accumulation, autosomal recessive inheritance
+* **Presentation**
+  * **Hepatitis, cirrhosis**: Copper accumulation in liver
+  * **Movement disorders, tremor, dysarthria**: Copper accumulation in brain
+  * **Kayser-Fleischer rings**: Copper deposits in cornea
+* **Examination**
+  * **[Blood] Free copper↑, ceruloplasmin↓**: Impaired copper binding
+  * **[Urine] Copper excretion↑**: Excessive free copper
+  * **[Liver biopsy] Copper deposits**: Confirms diagnosis
+* **Management**
+  * **D-penicillamine, trientine**: Copper chelation
+  * **Zinc acetate, copper-restricted diet**: Reduces copper absorption
+  * **Liver transplantation**: For severe cases
+{: .notice--info}
+
+### Menkes Disease / Menkes病
+
+* **Overview**
+  * Defective copper transport protein ATP7A leading to copper deficiency, X-linked recessive inheritance
+* **Presentation**
+  * **Kinky, sparse, depigmented hair**: Defective keratin formation
+  * **Neurological deterioration**: Impaired neurotransmitter function
+  * **Arterial tortuosity**: Defective collagen formation
+* **Examination**
+  * **[Blood] Copper↓, ceruloplasmin↓**: Impaired copper absorption
+* **Management**
+  * **Copper histidine injections**: Treat copper deficiency
+  * **Supportive care**: Poor prognosis
+{: .notice--info}
+
+### Hereditary Hemochromatosis / 遺伝性ヘモクロマトーシス
+
+* **Overview**
+  * Excessive iron absorption and deposition in organs, autosomal recessive inheritance
+* **Presentation**
+  * **Bronze skin**: Iron deposition in skin
+  * **Liver cirrhosis**: Iron accumulation in liver
+  * **Diabetes mellitus**: Iron accumulation in pancreas
+  * **Cardiac problems**: Heart involvement
+* **Examination**
+  * **[Blood] Iron↑, ferritin↑, transferrin saturation↑**: Iron overload
+  * **[Liver biopsy] Iron deposits**: Confirms diagnosis
+* **Management**
+  * **Phlebotomy, iron chelation**: Remove excess iron
+  * **Insulin**: For diabetes
+{: .notice--info}
+
+### Acute Intermittent Porphyria / 急性間欠性ポルフィリン症
+
+* **Overview**
+  * Deficiency of porphobilinogen deaminase in heme synthesis, autosomal dominant inheritance
+* **Presentation**
+  * **Abdominal pain**: Autonomic dysfunction
+  * **Psychiatric symptoms**: Neurotoxicity
+  * **Motor neuropathy**: Neurotoxicity
+* **Examination**
+  * **[Urine] ALA↑, PBG↑, dark red on standing**: Porphobilinogen excretion
+* **Management**
+  * **Glucose/hemin infusion**: Acute attack treatment
+  * **Avoid trigger factors**: Prevention of attack
+{: .notice--info}
+
+### Porphyria Cutanea Tarda / 晩発性皮膚ポルフィリン症
+
+* **Overview**
+  * Deficiency of uroporphyrinogen decarboxylase in heme synthesis, autosomal dominant inheritance
+* **Presentation**
+  * **Photosensitivity, blisters, hyperpigmentation**: Uroporphyrin toxicity when sun-exposed 
+  * **Hirsutism**: Hormone effects
+* **Examination**
+  * **[Urine] Uroporphyrin↑, Pink-red fluorescence**: Uroporphyrin excretion
+* **Management**
+  * **Sun protection**: Prevent skin damage
+  * **Avoid trigger factors**: Prevention of attack
+  * **Phlebotomy**: If iron overload present
+{: .notice--info}
+
 ## Nutritional Disorder / 栄養異常
 
 ### Vitamin A Deficiency / ビタミンA欠乏症
