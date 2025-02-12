@@ -2401,7 +2401,7 @@ Essences of clinical medicine.
 
 * **Overview**
   * Mediastinal tumor arising from thymic epithelial cells, commonly in anterior mediastinum
- * Common in adults over 40s
+  * Common in adults over 40s
 * **Presentation**
   * **Asymptomatic, chest pressure, dyspnea, cough**: Mass effect in mediastinum
   * **Muscle weakness, ptosis, diplopia**: Associated myasthenia gravis
