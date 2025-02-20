@@ -9847,9 +9847,148 @@ More common in middle age women (autoimmune)
 
 ## Genital Infection / 性器感染症
 
-## Valvar and Vaginal Disorder / 外陰・腟疾患
-
 ## Uterine Disorder / 子宮疾患
+
+### Endometriosis / 子宮内膜症
+
+* **Overview**
+  * Presence of endometrial-like tissue outside uterine cavity (Douglas pouch, ovaries, peritoneum), estrogen-dependent disease
+  * Common in women of reproductive age
+* **Presentation**
+  * **Progressive dysmenorrhea, chronic pelvic pain, dyspareunia, painful defecation**: Cyclic inflammation and bleeding of ectopic endometrial tissue
+  * **Infertility**: Distorted pelvic anatomy and inflammation
+* **Examination**
+  * **[Pelvic exam] Retroflexed uterus, limited uterine mobility, tender nodules in Douglas pouch**: Douglas pouch endometriosis
+  * **[Ultrasound, MRI] Ovarian enlargement (chocolate cysts)**: Ovarian endometriosis
+  * **[Laparoscopy] Red, black, or white lesion on peritoneum**: Peritoneal endometriosis
+  * **[Blood] CA125↑**: Inflammatory marker
+* **Management**
+  * **Low-dose estrogen-progestin combinations, progestins**: Hormonal suppression
+  * **GnRH agonists, danazol**: Strong hormonal suppression
+  * **Laparoscopic lesion removal and adhesiolysis**: Conservative surgery
+  * **Total hysterectomy with bilateral salpingo-oophorectomy**: Definitive treatment
+{: .notice--info}
+
+### Uterine Adenomyosis / 子宮腺筋症
+
+* **Overview**
+  * Invasion of endometrial-like tissue into myometrium, estrogen-dependent disease
+  * Common in women with history of uterine surgery
+* **Presentation**
+  * **Progressive dysmenorrhea, menorrhagia, prolonged menstruation**: Cyclic inflammation and bleeding of ectopic endometrial tissue in myometrium
+* **Examination**
+  * **[Pelvic exam] Diffusely enlarged and elastic uterus**: Infiltration of endometrial tissue
+  * **[Ultrasound] Thickened myometrium**: Infiltration of endometrial tissue
+  * **[MRI] Ill-defined low signal areas in myometrium**: Infiltration of endometrial tissue
+  * **[Blood] CA125↑**: Inflammatory marker
+* **Management**
+  * **Low-dose estrogen-progestin combinations, progestins**: Hormonal suppression
+  * **GnRH agonists, danazol**: Strong hormonal suppression
+  * **Adenomyomectomy**: Conservative surgery
+  * **Hysterectomy**: Definitive treatment
+{: .notice--info}
+
+### Uterine Myoma / 子宮筋腫
+
+* **Overview**
+  * Benign tumor (leiomyoma) arising from uterine smooth muscle, estrogen-dependent disease
+  * Common in women of reproductive age
+* **Presentation**
+  * **Iron deficiency anemia, menorrhagia, abnormal vaginal bleeding**: Increased endometrial surface area and vascularity
+  * **Lower abdominal mass, pelvic pain, frequent urination**: Mass effect of enlarged uterus
+  * **Dysmenorrhea, infertility**: Distorted uterine anatomy
+* **Examination**
+  * **[Pelvic exam] Hard and irregularly enlarged uterus**: Tumor growth
+  * **[Ultrasound, MRI, Hysteroscopy] Solid pelvic mass**: Tumor growth
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **GnRH agonists**: Hormonal suppression
+  * **Myomectomy**: Surgical removal of myomas
+  * **Total hysterectomy**: Definitive treatment
+{: .notice--info}
+
+### Uterine Cervical Cancer / 子宮頸癌
+
+* **Overview**
+  * Malignant tumor of uterine cervix caused by HPV infection
+  * Common in 30s-60s multiparous women
+* **Presentation**
+  * **Abnormal vaginal bleeding, contact bleeding**: Tumor vascularity and friability
+* **Examination**
+  * **[Pap smear] Abnormal cells (ASC-US or worse)**: Cellular changes due to HPV infection
+  * **[Colposcopy] Abnormal transformation zone (red dots, mosaic pattern)**: Visual changes in cervical epithelium
+  * **[Biopsy] Squamous cell carcinoma / adenocarcinoma**: Histological confirmation
+* **Management**
+  * **[Early] Conization**: For early tumor
+  * **[Advanced] Hysterectomy + pelvic lymph node dissection**: For advanced tumor
+  * **[Unresectable] Concurrent chemoradiotherapy (cisplatin-based)**: For metastatic tumor
+{: .notice--info}
+
+### Endometrial Hyperplasia / 子宮内膜増殖症
+
+* **Overview**
+  * Excessive proliferation of endometrial glands with typical or atypical morphology, may progress to endometrial cancer
+  * Common in 40s women
+* **Presentation**
+  * **Abnormal uterine bleeding, anovulatory cycles**: Hormonal imbalance leads to irregular endometrial growth
+* **Examination**
+  * **[Ultrasound] Thickened endometrium**: Endometrial hyperplasia
+  * **[Biopsy] Excessive proliferation of endometrial glands**: Confirms diagnosis
+* **Management**
+  * **[Typical] Observation, medroxyprogesterone acetate**: Often regress spontaneously
+  * **[Atypical] Hysterectomy with bilateral salpingo-oophorectomy**: Prevent progression to cancer
+  * **[Atypical] Dilatation and Curettage + high-dose MPA**: If fertility preservation desired
+{: .notice--info}
+
+### Uterine Corpus Cancer / 子宮体癌
+
+* **Overview**
+  * Malignant tumor of uterine endometrium, mostly adenocarcinoma
+  * Common in 40-60s women with obesity, nulliparity, infertility, hypertension, diabetes, PCOS
+* **Presentation**
+  * **Abnormal uterine bleeding, lower abdominal pain**: Tumor vascularity and tissue friability
+* **Examination**
+  * **[Cytology] Abnormal endometrial cells**: Cellular changes
+  * **[Ultrasound] Thickened endometrium**: Endometrial tumor
+  * **[Biopsy] Endometrioid adenocarcinoma**: Confirms diagnosis
+* **Management**
+  * **[Early] Hysterectomy**: For early tumor
+  * **[Advanced] Hysterectomy + chemotherapy/radiation**: For advanced tumor
+{: .notice--info}
+
+### Hydatidiform Mole / 胞状奇胎
+
+* **Overview**
+  * Abnormal pregnancy with hydropic swelling of villi due to trophoblast proliferation, classified as complete (androgenetic) and partial (triploid)
+  * Common in pregnancies over 40 years old
+* **Presentation**
+  * **Vaginal bleeding, hyperemesis**: Abnormal trophoblastic growth and hormonal changes
+  * **Enlarged and soft uterus for gestational age**: Excessive tissue growth and edema
+* **Examination**
+  * **[Blood/Urine] hCG↑↑**: Excessive trophoblastic growth
+  * **[Ultrasound] Vesicular pattern, lutein cysts**: Characteristic grape-like appearance
+  * **[Histology] Abnormal villi, trophoblast proliferation**: Confirms diagnosis
+* **Management**
+  * **Uterine evacuation**: Remove molar tissue
+  * **Post-molar hCG monitoring**: Prevent invasive mole or choriocarcinoma
+{: .notice--info}
+
+### Choriocarcinoma / 絨毛癌
+
+* **Overview**
+  * Malignant tumor from atypical trophoblastic cells without villous formation
+  * Commonly after pregnancy or moles
+* **Presentation**
+  * **Persistent vaginal bleeding after delivery/abortion**: Abnormal trophoblastic growth
+  * **Cough, hemoptysis**: Lung metastasis
+  * **Altered consciousness, cerebral hemorrhage**: Brain metastasis
+* **Examination**
+  * **[Blood] hCG↑ after pregnancy or moles**: Excessive trophoblastic growth
+  * **[Ultrasound, MRI] Hypervascular mass in uterus, lung metastases**: Primary and metastatic tumor
+  * **[Histology] Atypical trophoblasts without villi**: Confirms diagnosis
+* **Management**
+  * **EMA/CO therapy or MEA therapy**: Multi-drug regimen
+{: .notice--info}
 
 ## Ovarian Disorder / 卵巣疾患
 
