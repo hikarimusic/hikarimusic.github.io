@@ -9839,9 +9839,159 @@ More common in middle age women (autoimmune)
 
 # Gynecology / 婦人科
 
-## Sexuel Development Disorder / 性分化疾患
-
 ## Endocrine Disorder / 内分泌の異常
+
+### Anovulatory Cycle / 無排卵周期症
+
+* **Overview**
+  * Menstrual-like bleeding without ovulation
+* **Presentation**
+  * **Abnormal menstrual cycles (frequent/infrequent, heavy/light, prolonged/short)**: Withdrawal bleeding due to hormonal imbalance
+  * **Infertility**: Lack of normal ovulatory cycle
+* **Examination**
+  * **[Basal temperature] Monophasic low temperature pattern**: Lack of ovulation
+* **Management**
+  * **[Fertility] Clomiphene therapy, gonadotropin therapy**: Stimulates ovulation
+  * **[Others] Holmstrom therapy (progestogen), Kaufmann therapy (estrogen + progestogen)**: Regulates menstrual cycle
+{: .notice--info}
+
+### Luteal Insufficiency / 黄体機能不全
+
+* **Overview**
+  * Insufficient progesterone secretion from corpus luteum
+* **Presentation**
+  * **Infertility, recurrent miscarriage**: Inadequate endometrial development
+  * **Irregular menstruation**: Hormonal imbalance
+* **Examination**
+  * **[Basal body temperature] Short luteal phase, slow temperature rise**: Insufficient progesterone effects
+  * **[Blood] Progesterone↓ (mid-luteal phase)**: Confirms diagnosis
+* **Management**
+  * **Clomiphene therapy, gonadotropin therapy**: Ovulation induction
+  * **hCG, progesterone**: Luteal support
+{: .notice--info}
+
+### Premenstrual Syndrome / 月経前症候群
+
+* **Overview**
+  * Physical and psychological symptoms occurring 3-10 days before menstruation, diminish with onset of menstruation
+* **Presentation**
+  * **Irritability, anger, depression**: Psychological symptoms due to hormonal changes
+  * **Breast pain, headache, water retention**: Physical manifestations of hormonal changes
+* **Examination**
+  * **[Clinical] Symptoms appear 3-10 days before menstruation**
+* **Management**
+  * **Regular exercise and sleep**: Lifestyle modification
+  * **NSAIDs, acetaminophen, diuretics**: Symptom relief
+  * **Estrogen-progestin combinations**: Hormonal regulation
+  * **SSRIs**: Mood regulation
+{: .notice--info}
+
+### Dysmenorrhea / 月経困難症
+
+* **Overview**
+  * Pathological symptoms accompanying menstruation that interfere with daily life
+* **Presentation**
+  * **Lower abdominal pain, back pain**: Uterine contractions and prostaglandin release
+  * **Abdominal bloating, nausea, headache**: Associated symptoms
+* **Examination**
+  * **[Clinical] Symptoms coincide with menstruation**
+* **Management**
+  * **[Functional] NSAIDs, acetaminophen**: Pain relief
+  * **[Functional] LEP, levonorgestrel-releasing IUS**: Hormonal treatment
+  * **[Organic] Treat underlying condition**: Such as endometriosis or uterine myoma
+{: .notice--info}
+
+### Hyperprolactinemia / 高プロラクチン血症
+
+* **Overview**
+  * Excessive prolactin secretion from anterior pituitary
+  * Mainly caused by pituitary adenoma, but also hypothalamic dysfunction and medications
+* **Presentation**
+  * **Galactorrhea**: Direct effects of high prolactin
+  * **Amenorrhea, infertility, decreased libido**: Indirect effects of low gonadotropin
+  * **Headache, bitemporal hemianopsia**: Compression by pituitary tumor
+* **Examination**
+  * **[Blood] Prolactin↑**: Excessive prolactin secretion
+  * **[MRI] Pituitary tumor**: Pituitary adenoma
+* **Management**
+  * **[Prolactinoma] Dopamine agonists (cabergoline, bromocriptine)**: Suppress prolactin secretion
+  * **[Prolactinoma] Hardy surgery, gamma knife**: Remove pituitary adenoma
+  * **[Drug-induced] Medication adjustment**: Remove causative drug
+  * **[Hypothyroidism] Thyroid hormone replacement**: Treat underlying cause
+{: .notice--info}
+
+### Anorexia Nervosa / 神経性やせ症
+
+* **Overview**
+  * Psychosomatic disorder with excessive dietary restriction, may lead to amenorrhea
+  * Common in adolescent females
+* **Presentation**
+  * **Weight loss (>20% below standard weight)**: Core symptom
+  * **Food restriction, binge-purge behavior**: Disturbed eating patterns
+  * **Intense fear of weight gain, body image distortion**: Cognitive disturbance
+  * **Secondary (or primary) amenorrhea**: Low estrogen and progesterone
+* **Examination**
+  * **[Vital signs] Bradycardia, hypotension, hypothermia**: Low metabolic state
+  * **[Blood] T3↓, hypoglycemia, dyslipidemia, pancytopenia, liver dysfunction**: Starvation state
+* **Management**
+  * **Nutritional support**: Restore weight
+  * **Psychotherapy**: Address psychological factors
+  * **Kaufmann therapy**: For amenorrhea if needed
+{: .notice--info}
+
+### Weight Loss-Induced Amenorrhea / 単純性体重減少性無月経
+
+* **Overview**
+  * Secondary amenorrhea due to rapid weight loss
+  * Common in young females
+* **Presentation**
+  * **Weight loss (>15% below standard weight)**: Core symptom
+  * **Secondary (or primary) amenorrhea**: Low estrogen and progesterone
+* **Examination**
+  * **[General] No organic disease**: Exclusion diagnosis
+* **Management**
+  * **Proper diet and exercise**: Restore weight
+  * **Hormone replacement therapy**: For prolonged low estrogen state
+  * **Ovulation induction**: For fertility
+{: .notice--info}
+
+### Sheehan's Syndrome / Sheehan症候群
+
+* **Overview**
+  * Anterior pituitary dysfunction due to ischemic necrosis from massive postpartum hemorrhage
+* **Presentation**
+  * **Secondary amenorrhea, genital or breast atrophy, galactorrhea failure, hair loss**: Gonadotropin deficiency
+  * **Fatigue, hypoglycemia**: Cortisol deficiency
+  * **History of severe postpartum hemorrhage**: Key diagnostic clue
+* **Examination**
+  * **[Blood] ACTH↓, TSH↓, LH↓, FSH↓, GH↓, PRL↓**: Anterior pituitary failure
+  * **[Blood] Hyponatremia, hypoglycemia, high cholesterol, anemia**: Effects of hormone deficiencies
+  * **[MRI] Empty sella**: Necrosis of pituitary
+* **Management**
+  * **Thyroxine replacement**: For thyroid deficiency
+  * **Hydrocortisone replacement**: For cortisol deficiency
+  * **Kaufmann therapy**: For amenorrhea and menopausal symptoms
+  * **hMG therapy**: For fertility treatment if desired
+{: .notice--info}
+
+### Polycystic Ovary Syndrome / 多囊胞性卵巣症候群
+
+* **Overview**
+  * Endocrine disorder characterized by bilateral polycystic ovaries with menstrual irregularities or infertility
+* **Presentation**
+  * **Menstrual irregularities (amenorrhea, oligomenorrhea), infertility**: Ovulatory dysfunction
+  * **Hirsutism, acne, voice deepening, clitoral enlargement**: Hyperandrogenism
+  * **Obesity**: Insulin resistance
+* **Examination**
+  * **[Blood] LH↑, FSH→, E1↑, E2→, testosterone↑**: Hormonal imbalance
+  * **[Ultrasound] Multiple small follicles**: Polycystic morphology
+* **Management**
+  * **Weight reduction**: Primary treatment
+  * **[Fertility] Clomiphene, gonadotropin therapy, laparoscopic ovarian drilling**: Induce ovulation
+  * **[Others] Holmstrom therapy, low-dose estrogen-progestin**: For menstrual irregularities and hirsutism
+{: .notice--info}
+
+## Sexuel Development Disorder / 性分化疾患
 
 ## Aging-Related Disorder / 加齢による疾患
 
