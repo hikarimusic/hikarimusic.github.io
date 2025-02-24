@@ -9992,6 +9992,181 @@ More common in middle age women (autoimmune)
 
 ## Ovarian Disorder / 卵巣疾患
 
+### Serous Carcinoma / 漿液性癌
+
+* **Overview**
+  * Malignant tumor derived from ovarian surface epithelium with cells resembling fallopian tube epithelium
+  * Common in women aged 40-60s
+* **Presentation**
+  * **Abdominal distension, increased abdominal circumference, frequent urination**: Due to tumor mass effect and ascites
+* **Examination**
+  * **[Ultrasound] Unilateral or bilateral unilocular cyst, irregular wall thickening, papillary solid components, ascites**: Typical tumor characteristics
+  * **[Blood] CA125↑**: Tumor marker elevation
+* **Management**
+  * **[Resectable] Staging laparotomy, primary debulking surgery**: Determine stage and remove tumor
+  * **[Post-surgery] TC therapy (Paclitaxel + Carboplatin) ± Bevacizumab**: Chemotherapy
+  * **[Unresectable] Neoadjuvant chemotherapy + interval debulking surgery**: Reduce tumor size before surgery
+{: .notice--info}
+
+### Mucinous Carcinoma / 粘液性癌
+
+* **Overview**
+  * Malignant tumor derived from ovarian surface epithelium with cells resembling gastrointestinal epithelium
+  * Common in women aged 40-60s
+* **Presentation**
+  * **Abdominal distension, increased abdominal circumference, frequent urination**: Due to tumor mass effect and ascites
+* **Examination**
+  * **[Ultrasound] Unilateral giant multilocular cyst, irregular wall and septal thickening, solid components, ascites**: Typical tumor characteristics
+  * **[Blood] CEA↑, CA19-9↑**: Tumor marker elevation
+* **Management**
+  * **[Resectable] Staging laparotomy, primary debulking surgery**: Determine stage and remove tumor
+  * **[Post-surgery] TC therapy (Paclitaxel + Carboplatin) ± Bevacizumab**: Chemotherapy
+  * **[Unresectable] Neoadjuvant chemotherapy + interval debulking surgery**: Reduce tumor size before surgery
+{: .notice--info}
+
+### Clear Cell Carcinoma / 明細胞癌
+
+* **Overview**
+  * Malignant tumor derived from ovarian surface epithelium resembling gestational endometrium
+  * Common in women aged 40-60s, associated with endometriosis
+* **Presentation**
+  * **History of ovarian endometriosis**: Malignant transformation of endometriosis
+* **Examination**
+  * **[Ultrasound] Enlarged ovary, solid components within cyst, ascites**: Typical tumor characteristics
+  * **[Blood] CA125↑, CA19-9↑**: Tumor marker elevation
+  * **[Pathology] Clear cytoplasm, hobnail cells**: Diagnostic features
+* **Management**
+  * **[Resectable] Staging laparotomy, primary debulking surgery**: Determine stage and remove tumor
+  * **[Post-surgery] TC therapy (Paclitaxel + Carboplatin) ± Bevacizumab**: Chemotherapy
+  * **[Unresectable] Neoadjuvant chemotherapy + interval debulking surgery**: Reduce tumor size before surgery
+{: .notice--info}
+
+### Endometrioid Carcinoma / 類内膜癌
+
+* **Overview**
+  * Malignant tumor derived from ovarian surface epithelium resembling non-pregnant proliferative endometrium
+  * Common in women aged 40-60s, associated with endometriosis
+* **Presentation**
+  * **History of ovarian endometriosis**: Malignant transformation of endometriosis
+* **Examination**
+  * **[Ultrasound] Enlarged ovary, solid components or mass within cyst, ascites**: Typical tumor characteristics
+  * **[Blood] CA125↑, CA19-9↑**: Tumor marker elevation
+  * **[Pathology] Endometrial cancer-like cells**: Diagnostic features
+* **Management**
+  * **[Resectable] Staging laparotomy, primary debulking surgery**: Determine stage and remove tumor
+  * **[Post-surgery] TC therapy (Paclitaxel + Carboplatin) ± Bevacizumab**: Chemotherapy
+  * **[Unresectable] Neoadjuvant chemotherapy + interval debulking surgery**: Reduce tumor size before surgery
+{: .notice--info}
+
+### Granulosa Cell Tumor / 顆粒膜細胞腫
+
+* **Overview**
+  * Borderline malignant tumor derived from ovarian sex cord or stroma
+  * Common in 45-55s women or prepubertal girls
+* **Presentation**
+  * **[Adult type] Abnormal uterine bleeding, breast/genital re-enlargement, increased skin collagen**: Estrogen excess causing refeminization in postmenopausal women
+  * **[Juvenile type] Early menstruation, breast development, pubic and axillary hair growth**: Estrogen excess causing precocious puberty
+* **Examination**
+  * **[Blood] Estrogen↑**: Tumor hormone production
+  * **[Ultrasound] Solid ovarian mass**: Tumor mass
+* **Management**
+  * **Staging laparotomy, primary debulking surgery**: Main treatment
+  * **BEP chemotherapy, radiation**: Adjuvant therapy for advanced stage
+  * **Fertility-preserving surgery**: Option for eligible cases
+{: .notice--info}
+
+### Sertoli-Leydig Cell Tumor / セルトリ・ライディッヒ細胞腫
+
+* **Overview**
+  * Benign to malignant tumor derived from ovarian sex cord or stroma
+  * Most common in 20-30s women
+* **Presentation**
+  * **Oligomenorrhea or amenorrhea, atrophy of genitalia and breasts**: Androgen excess causing defeminization
+  * **Masculine body habitus, clitoromegaly, hirsutism, voice deepening**: Androgen excess causing virilization
+* **Examination**
+  * **[Blood] Androgen↑**: Tumor hormone production
+  * **[Ultrasound] Solid ovarian mass**: Tumor mass
+* **Management**
+  * **Staging laparotomy, primary debulking surgery**: Main treatment
+  * **BEP chemotherapy, radiation**: Adjuvant therapy for advanced stage
+  * **Fertility-preserving surgery**: Option for eligible cases
+{: .notice--info}
+
+### Mature Teratoma / 成熟奇形腫
+
+* **Overview**
+  * Benign tumor derived from ovarian germ cells, contains mature tissue from 2-3 germ layers
+  * Can undergo malignant transformation in postmenopausal women
+  * Common in 10-30s women
+* **Presentation**
+  * **[Benign] Asymptomatic**
+  * **[Malignant] Abdominal distension, increased abdominal circumference, frequent urination**: Due to large ovarian mass
+* **Examination**
+  * **[Ultrasound] High-echo areas, hair ball**: Fat tissue and hair content
+  * **[X-ray, CT] Calcification**: Mature tissue components
+  * **[MRI] Fat signal, fluid-fat interface, hair ball**: Characteristic teratoma components
+  * **[Blood (Malignant)] SCC↑, CA125↑, CA19-9↑**: Tumor markers indicating malignant transformation
+* **Management**
+  * **[Benign] Ovarian tumor enucleation**: Preserves ovarian tissue
+  * **[Malignant] Surgical removal**: Complete excision of transformed tumor
+{: .notice--info}
+
+### Malignant Germ Cell Tumor / 悪性胚細胞腫瘍
+
+* **Overview**
+  * Malignant tumor derived from ovarian germ cells, including dysgerminoma, yolk sac tumor, immature teratoma, mixed germ cell tumors
+  * Common in 10-20s females
+* **Presentation**
+  * **Palpable abdominal mass, abdominal pain**: Large unilateral ovarian tumor
+* **Examination**
+  * **[Imaging] Large solid tumor replacing unilateral ovary**: Tumor mass
+  * **[Blood] AFP↑, hCG↑, LDH↑**: Tumor markers specific to germ cell components
+* **Management**
+  * **Fertility-preserving surgery**: Standard treatment due to young age of patients
+  * **BEP chemotherapy**: Highly effective post-surgical treatment
+{: .notice--info}
+
+### Metastatic Ovarian Tumor / 転移性卵巣腫瘍
+
+* **Overview**
+  * Common site for metastasis from various organs (stomach, colon, breast, uterus, lung)
+* **Presentation**
+  * **Bilateral ovarian masses**: Most cases affect both ovaries
+* **Examination**
+  * **[Imaging] Ovarian tumor, primary tumor**: Metastatic and primary tumor
+  * **[Pathology] Signet ring cells**: Especially in Krukenberg tumor
+* **Management**
+  * **Cancer therapy**: Treatment depends on primary tumor
+{: .notice--info}
+
+### Corpus Luteum Cyst / 黄体囊胞
+
+* **Overview**
+  * Hyperplasia of theca lutein cells due to excessive hCG stimulation
+  * Commonly caused by pregnancy
+* **Presentation**
+  * **Asymptomatic, unilateral cyst in pregnancy**: Hyperplasia of theca lutein cells
+* **Examination**
+  * **[Ultrasound] Thin-walled cyst without solid components**: Simple cystic structure
+* **Management**
+  * **Observation**: Most cases resolve spontaneously
+{: .notice--info}
+
+### Ovarian Torsion / 卵巣茎捻転
+
+* **Overview**
+  * Twisting of ovary and fallopian tube around vascular pedicle
+  * Common in benign ovarian tumors (often teratoma)
+* **Presentation**
+  * **Sudden severe lower abdominal pain, nausea, vomiting**: Sudden vascular compromise of ovary
+* **Examination**
+  * **[Ultrasound] Enlarged ovary, reduced or absent blood flow**: Compromised blood supply
+  * **[CT, MRI] Enlarged ovary, twisted pedicle**: Ovarian torsion
+* **Management**
+  * **Analgesics**: Initial pain control
+  * **Emergency surgery**: Prevent ovarian necrosis and peritonitis
+{: .notice--info}
+
 ## Breast Disorder / 乳腺疾患
 
 ## Infertility / 不妊症
