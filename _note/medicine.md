@@ -9993,6 +9993,84 @@ More common in middle age women (autoimmune)
 
 ## Sexuel Development Disorder / 性分化疾患
 
+### Congenital Adrenocortical Hyperplasia / 先天性副腎皮質過形成
+
+* **Overview**
+  * Enzyme deficiency in adrenal cortex hormone biosynthesis (mostly 21-hydroxylase), autosomal recessive inheritance
+* **Presentation**
+  * **Poor feeding, vomiting in newborns**: Cortisol deficiency
+  * **Hypotension, dehydration, shock**: Aldosterone deficiency
+  * **[Female] Virilization at birth (enlarged clitoris)**: Androgen excess
+  * **[Male] Precocious puberty (enlarged penis, pubic hair)**: Androgen excess
+  * **Skin hyperpigmentation**: ACTH excess
+* **Examination**
+  * **[Newborn screening] 17-OHP↑**: Accumulation of precursors
+  * **[Blood] Na↓, K↑, acidosis, cortisol↓, ACTH↑**: Mineralocorticoid and glucocorticoid deficiency
+* **Management**
+  * **Glucocorticoid and mineralocorticoid replacement**: Lifelong hormone therapy
+  * **Surgical genital reconstruction**: Correct virilized genitalia
+{: .notice--info}
+
+### Androgen Insensitivity Syndrome / アンドロゲン不応症
+
+* **Overview**
+  * 46,XY karyotype with female phenotype due to androgen receptor abnormalities
+* **Presentation**
+  * **Primary amenorrhea, short and blind vagina**: Due to male genotype
+  * **Female external genitalia and breast, sparse pubic and axillary hair**: Due to androgen resistance
+* **Examination**
+  * **[Ultrasound] Absence of ovaries and uterus**: Male internal genitalia development
+  * **[Physical] Palpable masses in inguinal regions**: Undescended testes
+  * **[Blood] Testosterone↑ (male level), estradiol↑, LH↑, FSH↑**: Abnormal hormonal profile
+  * **[Karyotype] 46,XY**: Male genetic sex
+* **Management**
+  * **Orchiectomy**: Due to malignancy risk
+  * **Estrogen replacement therapy**: Maintain secondary sexual characteristics
+{: .notice--info}
+
+### Turner Syndrome / Turner症候群
+
+* **Overview**
+  * Female sex chromosomal abnormality with gonadal dysfunction
+* **Presentation**
+  * **Primary amenorrhea**: Abnormal ovary development
+  * **Short stature, webbed neck, cubitus valgus, infantile external genitalia**: Classic physical features
+* **Examination**
+  * **[Blood] Estrogen↓, LH↑, FSH↑ (exaggerated in GnRH test)**: Hypergonadotropic hypogonadism
+  * **[Karyotype] 45,XO**: Diagnostic finding
+* **Management**
+  * **Growth hormone therapy (before puberty)**: Increase final height
+  * **Estrogen replacement therapy (after puberty)**: Induce secondary sexual characteristics
+  * **Kaufmann therapy**: Induce menstrual cycle
+{: .notice--info}
+
+### Klinefelter Syndrome / Klinefelter症候群
+
+* **Overview**
+  * Male sex chromosome abnormality with gonadal dysfunction
+* **Presentation**
+  * **Infertility**: Abnormal testes development
+  * **Small testes, tall stature with long extremities, gynecomastia**: Characteristic physical findings
+* **Examination**
+  * **[Blood] Testosterone↓, LH↑, FSH↑**: Hypergonadotropic hypogonadism
+  * **[Karyotype] 47,XXY**: Diagnostic finding
+* **Management**
+  * **Testosterone replacement therapy**: Promote masculinization
+{: .notice--info}
+
+### Uterine Anomalies / 子宮奇形
+
+* **Overview**
+  * Various morphological abnormalities of uterus, including arcuate uterus, septate uterus, bicornuate uterus, unicornuate uterus
+* **Presentation**
+  * **Asymptomatic, infertility, recurrent pregnancy loss**: Poor implantation in septal tissue
+* **Examination**
+  * **[Hysterosalpingograpy, MRI, Ultrasound] Abnormal uterine structure**: Direct visualization of abnormalities
+* **Management**
+  * **Observation**: For asymptomatic cases
+  * **Hysteroscopic metroplasty, surgical hysteroplasty**: Correct structural anomalies
+{: .notice--info}
+
 ## Aging-Related Disorder / 加齢による疾患
 
 ## Genital Infection / 性器感染症
