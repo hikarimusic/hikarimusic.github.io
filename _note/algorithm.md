@@ -1309,6 +1309,17 @@ vector<int> divisor(int n) {
     return res;
 }
 ```
+```cpp
+vector<vector<int>> res(N);
+
+void divisors(int n) {
+    for (int i=1; i<=n; ++i) {
+        for (int j=i; j<=n; j+=i) {
+            res[j].push_back(i);
+        }
+    }
+}
+```
 
 ### Prime Factorization / 素因数分解
 ```cpp
