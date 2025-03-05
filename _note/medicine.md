@@ -10075,6 +10075,119 @@ More common in middle age women (autoimmune)
 
 ## Genital Infection / 性器感染症
 
+### Vulvovaginitis / 外陰腟炎
+
+* **Overview**
+  * Infection of vulva and vagina due to non-specific or specific infection
+* **Presentation**
+  * **Genital itching, burning sensation, erythema**: Inflammation of vulva and vagina
+  * **Abnormal vaginal discharge**: Altered vaginal flora or infection
+* **Examination**
+  * **[Culture] Growth of specific organisms**: Confirmation of infectious etiology
+* **Management**
+  * **Antibiotics**: Target specific bacterial pathogens
+{: .notice--info}
+
+### Pelvic Inflammatory Disease / 骨盤内炎症性疾患
+
+* **Overview**
+  * Infection of pelvic organs (uterus, fallopian tubes, pelvic peritoneum), mainly via ascending infection
+* **Presentation**
+  * **Lower abdominal pain or tenderness**: Inflammation of pelvic organs
+  * **Fever**: Systemic inflammatory response
+* **Examination**
+  * **[Blood] WBC↑, CRP↑**: Systemic inflammatory response
+  * **[Imaging] Tubal occlusion, fluid collection**: In cases of pyosalpinx
+* **Management**
+  * **Broad-spectrum antibiotics**: Target multiple pathogens
+  * **Surgical intervention**: For severe cases or complications
+{: .notice--info}
+
+### Genital Chlamydial Infection / 性器クラミジア感染症
+
+* **Overview**
+  * Sexually transmitted infection caused by Chlamydia trachomatis
+* **Presentation**
+  * **Asymptomatic, serous vaginal discharge, abnormal genital bleeding, lower abdominal pain**: Mild inflammation of vagina and pelvic organs
+  * **Infertility, ectopic pregnancy**: Tubal adhesions and impaired transport function
+  * **Severe upper abdominal pain**: Perihepatitis in Fitz-Hugh-Curtis syndrome
+* **Examination**
+  * **[Laboratory] Antigen detection**: Definitive diagnosis
+* **Management**
+  * **Bacrolides, quinolones, tetracyclines**: Target atypical bacteria
+{: .notice--info}
+
+### Gonococcal Infection / 淋菌感染症
+
+* **Overview**
+  * Sexually transmitted infection caused by Neisseria gonorrhoeae
+* **Presentation**
+  * **Purulent discharge, vulvar itching, abnormal bleeding**: Inflammation of cervix
+  * **Dysuria, urethral purulent discharge**: Inflammation of urethra
+  * **Fever, lower abdominal pain, peritoneal irritation**: Inflammation of pelvic organs
+  * **Infertility, ectopic pregnancy**: Tubal adhesions and impaired transport function
+* **Examination**
+  * **[Laboratory] Antigen detection, culture**: Definitive diagnosis
+* **Management**
+  * **Ceftriaxone (IV), spectinomycin (IM)**: First-line treatment
+  * **Azithromycin (oral)**: Alternative treatment
+{: .notice--info}
+
+### Genital Herpes / 性器ヘルペス
+
+* **Overview**
+  * Sexually transmitted infection caused by herpes simplex virus types 1 and 2, establish latent infection in sensory ganglia
+* **Presentation**
+  * **Painful vesicular or ulcerative lesions on genitals, fever**: Primary infection after sexual contact
+  * **Urinary or defecation difficulties, meningeal irritation symptoms**: Neurological manifestations
+  * **Recurrent episodes**: Reactivation of virus during immune suppression
+* **Examination**
+  * **[Cytology] Multinucleated giant cells, intranuclear inclusions**: Characteristic cellular changes
+  * **[Laboratory] Antigen detection**: Definitive diagnosis
+* **Management**
+  * **Valacyclovir, acyclovir, famciclovir**: Target herpes virus
+{: .notice--info}
+
+### Condyloma Acuminatum / 尖圭コンジローマ
+
+* **Overview**
+  * Sexually transmitted infection caused by human papillomavirus types 6 or 11
+* **Presentation**
+  * **Pointed painless (sometimes itching) warts on external genitalia, perineum, perianal region**: HPV-induced epithelial proliferation
+* **Examination**
+  * **[Pathology] Abnormal keratinization, koilocytosis**: Characteristic cellular changes
+  * **[Laboratory] Nucleic acid detection, serum antibody detection**: Definitive diagnosis
+* **Management**
+  * **Imiquimod 5% cream**: Topical treatment
+  * **Excision, cryotherapy, electrocautery, laser vaporization**: Remove proliferative tissue
+{: .notice--info}
+
+### Vaginal Trichomoniasis / 腟トリコモナス症
+
+* **Overview**
+  * Sexually transmitted infection caused by Trichomonas vaginalis
+* **Presentation**
+  * **Vulvar itching, malodorous yellow to gray foamy discharge, vaginal wall redness**: Vaginal inflammation after sexual contact
+* **Examination**
+  * **[Microscopy] Trichomonas in vaginal secretions**: Definitive diagnosis
+* **Management**
+  * **Metronidazole, tinidazole**: Eradicate parasitic infection
+{: .notice--info}
+
+### Genital Candidiasis / カンジダ外陰腟炎
+
+* **Overview**
+  * Sexually transmitted infection or endogenous overgrowth of Candida species
+  * Common in women with pregnancy, diabetes, steroid use, antibiotic use
+* **Presentation**
+  * **Vulvar itching, redness, swelling, white discharge**: Inflammation of vulva and vagina
+* **Examination**
+  * **[Microscopy] Candida in vaginal secretions**: Definitive diagnosis
+* **Management**
+  * **Removal of predisposing factors, vaginal irrigation**: Underlying conditions management
+  * **Fluconazole (oral), clotrimazole (topical)**: Eradicate fungal infection
+{: .notice--info}
+
 ## Uterine Disorder / 子宮疾患
 
 ### Endometriosis / 子宮内膜症
