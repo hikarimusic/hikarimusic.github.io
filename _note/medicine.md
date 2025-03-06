@@ -10510,6 +10510,112 @@ More common in middle age women (autoimmune)
 
 ## Breast Disorder / 乳腺疾患
 
+### Fibroadenoma / 線維腺腫
+
+* **Overview**
+  * Benign tumor from excessive growth of breast connective tissue and epithelial components
+  * Commonly in 20-30s women
+* **Presentation**
+  * **Palpable smooth, well-defined, highly mobile breast mass**: Benign nodular lesion
+* **Examination**
+  * **[Ultrasound, mammography] Well-defined mass, homogeneous internal echoes**: Benign nodular lesion
+* **Management**
+  * **Observation**: Minimal malignant potential
+{: .notice--info}
+
+### Mastopathy / 乳腺症
+
+* **Overview**
+  * Breast tissue changes (proliferation, metaplasia, regression) forming breast indurations and cysts
+  * Common in late 30s to perimenopausal women
+* **Presentation**
+  * **Breast pain, tenderness, swelling**: Hormonal influence on breast tissue
+  * **Symptoms worsen before menstruation, improve after menstruation**: Response to cyclical hormonal changes
+  * **Breast mass or induration, abnormal nipple discharge**: Tissue changes and duct involvement
+* **Examination**
+  * **[Physical] Palpable breast masses or indurations**: Fibrocystic changes in breast tissue
+* **Management**
+  * **Observation**: Mostly resolve after menopause
+  * **Danazol**: For severe breast pain
+{: .notice--info}
+
+### Breast Cancer / 乳癌
+
+* **Overview**
+  * Malignant tumor originating from breast ductal (IDC) or lobular (ILC) epithelium
+  * Common in 40-60s women
+* **Presentation**
+  * **Nipple retraction, nipple discharge, nipple or areola erosion**: Tumor invasion of ductal system
+  * **Skin changes (peau d'orange), dimpling sign**: Lymphatic obstruction, Cooper's ligament retraction
+  * **Palpable breast mass**: Often in upper outer quadrant
+* **Examination**
+  * **[Mammography] Heterogeneous mass, spiculated margins, microcalcifications**: Characteristic malignant features
+  * **[Ultrasound] Irregular mass, posterior acoustic shadowing**: Tumor density and infiltration
+  * **[Pathology] Irregular invading nests (IDC), single-file pattern (ILC)**: Confirm diagnosis
+* **Management**
+  * **Breast-conserving surgery + radiotherapy, mastectomy (+ breast reconstruction)**: For local tumor
+  * **Axillary lymph node dissection**: If sentinel lymph node biopsy positive
+  * **Hormone therapy (tamoxifen, GnRH agonist, aromatase inhibitors, fulvestrant)**: (Neo)adjuvant or palliative therapy for ER+ tumors
+  * **Anti-HER2 therapy (trastuzumab, lapatinib)**: (Neo)adjuvant or palliative therapy for HER2+ tumors
+  * **Chemotherapy**: (Neo)adjuvant or palliative therapy
+{: .notice--info}
+
+### Mammary Paget Disease / 乳房Paget病
+
+* **Overview**
+  * Breast cancer characterized by intraepidermal invasion of nipple or areola with ductal extension
+  * Common in middle-aged to elderly women
+* **Presentation**
+  * **Redness, erosion, crusting of nipple or areola**: Chronic eczematous changes due to intraepidermal cancer cells
+  * **No palpable breast mass**: Limited invasive component
+* **Examination**
+  * **[Cytology] Paget cells (large cells with clear foamy cytoplasm and prominent nuclei)**: Confirm diagnosis
+* **Management**
+  * **Mastectomy**: Mostly non-invasive tumor
+{: .notice--info}
+
+### Hereditary Breast and Ovarian Cancer Syndrome / 遺伝性乳癌卵巣癌症候群
+
+* **Overview**
+  * Hereditary cancer syndrome caused by germline BRCA1 or BRCA2 mutation
+* **Presentation**
+  * **Higher risk of breast and ovarian cancer**: Defective DNA repair mechanisms
+  * **Male breast cancer risk**: Also increase risk in male carriers
+  * **Family history with multiple cases of breast or ovarian cancer, early-onset cancers**: Autosomal dominant inheritance
+* **Examination**
+  * **[Genetic] BRCA1 or BRCA2 pathogenic variants**: Confirms diagnosis
+* **Management**
+  * **Increased surveillance**: Regular breast and gynecological examinations
+  * **Risk-reducing surgery**: Prophylactic mastectomy or salpingo-oophorectomy
+  * **PARP inhibitors**: Target therapy for BRCA mutation
+{: .notice--info}
+
+### Phyllodes Tumor / 葉状腫瘍
+
+* **Overview**
+  * Abnormal proliferation of breast stromal tissue, mostly benign but can be malignant
+  * Common in 30-50s women
+* **Presentation**
+  * **Rapidly enlarging breast mass**: Aggressive stromal growth
+* **Examination**
+  * **[Histology] Leaf-like stromal pattern with epithelial elements**: Confirms diagnosis
+* **Management**
+  * **Surgical excision**: Primary treatment
+{: .notice--info}
+
+### Intraductal Papilloma / 乳管内乳頭腫
+
+* **Overview**
+  * Benign tumor growing in a papillary pattern within milk ducts
+* **Presentation**
+  * **Bloody or serous nipple discharge**: Tumor erosion of ductal lining
+* **Examination**
+  * **[Ductography] Filling defect within duct**: Visualizes the papillary mass
+* **Management**
+  * **Observation**: Minimal malignant potential
+  * **Tumor excision**: If malignancy cannot be ruled out
+{: .notice--info}
+
 ## Infertility / 不妊症
 
 <!-- ## Endocrine Disorder / 内分泌の異常
