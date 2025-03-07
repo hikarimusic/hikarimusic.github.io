@@ -10618,6 +10618,68 @@ More common in middle age women (autoimmune)
 
 ## Infertility / 不妊症
 
+### Infertility / 不妊症
+
+* **Overview**
+  * Inability to achieve pregnancy after one year of regular sexual intercourse
+* **Presentation**
+  * **Endocrine/ovulation factors**: PCOS, premature ovarian failure, luteal phase defect
+  * **Tubal factors**: Infections (chlamydia), endometriosis, surgical history
+  * **Uterine factors**: Uterine fibroids, uterine anomalies, Asherman syndrome
+  * **Cervical/immunological factors**: Cervical mucus production deficiency, cervicitis, anti-sperm antibodies, anti-zona pellucida antibodies
+  * **Male factors**: Spermatogenesis dysfunction, sperm transport obstruction, sexual dysfunction, inflammation of internal genitalia
+* **Examination**
+  * **[Physical] Basal body temperature measurement**: Confirms ovulation
+  * **[Physical] Cervical mucus examination**: Evaluates hormonal status
+  * **[Imaging] Transvaginal ultrasound**: Monitors follicular development
+  * **[Imaging] Hysterosalpingography**: Evaluate tubal patency
+  * **[Blood] Hormone measurements**: Assesses endocrine function
+  * **[Lab] Semen analysis**: Evaluates male fertility factors
+* **Management**
+  * **Timed intercourse guidance**: Optimizes natural conception chances
+  * **Artificial insemination**: Places prepared sperm directly into uterus
+  * **Assisted reproductive technology**: Ovarian stimulation, transvaginal egg retrieval, in vitro fertilization or intracytoplasmic sperm injection, embryo cryopreservation, embryo transfer, luteal phase support
+  * **Surgical interventions**: Adhesiolysis, tubal recanalization, varicocele ligation
+{: .notice--info}
+
+### Ovarian Hyperstimulation Syndrome / 卵巣過剰刺激症候群
+
+* **Overview**
+  * Iatrogenic condition from ovulation induction therapy (hMG/FSH-hCG therapy)
+  * More common in patients with Polycystic Ovary Syndrome
+* **Presentation**
+  * **Abdominal distension, nausea, vomiting, oliguria, dyspnea**: Fluid accumulation due to increased vascular permeability
+  * **Acute abdominal pain**: In case of ovarian torsion due to enlarged ovary
+* **Examination**
+  * **[Ultrasound] Enlarged ovaries, ascites, pleural effusion**: Excessive ovarian stimulation
+  * **[Blood] Hemoconcentration, hypoproteinemia, hypercoagulability, hyponatremia, hyperkalemia**: Increased vascular permeability
+* **Management**
+  * **IV fluid, albumin administration**: Correct hemoconcentration and maintain oncotic pressure
+  * **Low-dose dopamine infusion**: Improve renal perfusion
+  * **Thoracentesis**: For severe respiratory distress
+{: .notice--info}
+
+### Recurrent Pregnancy Loss / 不育症
+
+* **Overview**
+  * Condition where multiple miscarriages or stillbirths occur
+* **Presentation**
+  * **Antiphospholipid antibody syndrome**: Placental infarction due to thrombosis and chorionic development impairment
+  * **Chromosomal abnormalities**: Fetal chromosomal abnormalities (sporadic), parental chromosomal abnormalities (reciprocal translocation, Robertson translocation)
+  * **Uterine anomalies**: Septate uterus, bicornuate uterus, arcuate uterus
+  * **Endocrine disorders**: Thyroid dysfunction, diabetes
+* **Examination**
+  * **[Blood] Antiphospholipid antibody test**: Detects lupus anticoagulant, anticardiolipin antibodies
+  * **[Genetic] Karyotype analysis**: Identifies chromosomal abnormalities in parents or children
+  * **[Imaging] Hysterosalpingography, MRI**: Detects uterine structural abnormalities
+  * **[Blood] Thyroid function tests, glucose tolerance test**: Evaluates endocrine disorders
+* **Management**
+  * **[APS] Low-dose aspirin + heparin**: Prevents thrombosis and improves placental development
+  * **[Chromosomal] Genetic counseling, preimplantation genetic testing**: Identifies viable embryos
+  * **[Uterine] Hysteroscopic surgery**: Corrects uterine structural abnormalities
+  * **[Endocrine] Thyroid hormone replacement, diabetes management**: Normalizes hormonal environment
+{: .notice--info}
+
 <!-- ## Endocrine Disorder / 内分泌の異常
 
 ### Anovulatory Cycle / 無排卵周期症
