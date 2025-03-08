@@ -10073,6 +10073,96 @@ More common in middle age women (autoimmune)
 
 ## Aging-Related Disorder / 加齢による疾患
 
+### Premature Ovarian Failure / 早発卵巣不全
+
+* **Overview**
+  * Menopausal-like state before age 40
+* **Presentation**
+  * **Secondary amenorrhea**: Cessation of ovarian function
+  * **Infertility**: Difficult to induce ovulation
+* **Examination**
+  * **[Blood] Estrogen↓, FSH↑, LH↑**: Diminished ovarian function, lack of negative feedback
+* **Management**
+  * **[Fertility] Kaufmann therapy + ovulation induction (hMG-hCG)**: Restore menstrual cycle and fertility
+  * **[Others] Hormone replacement therapy**: Supplement estrogen
+{: .notice--info}
+
+### Climacteric Disturbance / 更年期障害
+
+* **Overview**
+  * Syndrome occurs around menopausal transition without organic disease
+* **Presentation**
+  * **Menstrual irregularities**: Declining ovarian function
+  * **Hot flashes, sweating, palpitations**: Autonomic nervous system dysregulation due to estrogen decline
+  * **Fatigue, depression, irritability, insomnia**: Psychoneurological symptoms
+  * **Low back pain, shoulder stiffness, digestive symptoms**: Various non-specific complaints
+* **Examination**
+  * **[Blood] Estrogen↓, LH↑, FSH↑**: Ovarian function decline, lack of negative feedback
+* **Management**
+  * **Hormone replacement therapy**: Supplement estrogen and progesterone
+  * **Antidepressants, anti-anxiety drugs, cognitive behavioral therapy**: Psychological therapy
+{: .notice--info}
+
+### Atrophic Vaginitis / 萎縮性腟炎
+
+* **Overview**
+  * Non-specific vaginitis occurring in elderly women or after ovarian removal
+* **Presentation**
+  * **Vaginal or vulvar itching, dyspareunia, contact bleeding, vaginal punctate erythema**: Thinning of vaginal epithelium due to estrogen deficiency
+  * **Yellow malodorous purulent discharge**: Secondary infection in atrophic tissue
+* **Examination**
+  * **[Clinical]**
+* **Management**
+  * **Vaginal estrogen therapy**: Restore vaginal epithelium
+{: .notice--info}
+
+### Stress Urinary Incontinence / 腹圧性尿失禁
+
+* **Overview**
+  * Urinary incontinence due to weakening of pelvic floor muscles
+  * Common in multiparous women and elderly women
+* **Presentation**
+  * **Urine leakage during coughing, sneezing, lifting heavy objects**: Increased intra-abdominal pressure exceeds urethral closure pressure
+* **Examination**
+  * **[Physical] Stress test (+), pad test (+), Q-tip test (+)**: Urine leakage and urethral hypermobility
+  * **[Cystourethrography, Ultrasound] Widened bladder-urethral angle, abnormal bladder neck position**: Descent of bladder base and urethra
+* **Management**
+  * **Pelvic floor muscle training (Kegel exercises)**: Strengthens pelvic floor muscles
+  * **Transvaginal bladder neck support devices**: Provides mechanical support
+  * **Medication (estrogen, β2-agonists)**: Improves urethral tone
+  * **Urethral sling procedures (TVT, TOT)**: For cases unresponsive to conservative therapy
+{: .notice--info}
+
+### Urge Urinary Incontinence / 切迫性尿失禁
+
+* **Overview**
+  * Urinary incontinence due to involuntary bladder detrusor contractions
+  * Common in elderly patients and patients with CNS disorders
+* **Presentation**
+  * **Sudden intense urge to urinate, involuntary urine leakage**: Involuntary detrusor contractions overcome urethral resistance
+* **Examination**
+  * **[Cystometry] Involuntary bladder contractions during filling phase**: Confirms overactive bladder
+* **Management**
+  * **Bladder training, scheduled voiding**: Improves bladder control
+  * **Anticholinergics, β3-agonists**: Inhibits bladder contractions
+{: .notice--info}
+
+### Pelvic Organ Prolapse / 骨盤臓器脱
+
+* **Overview**
+  * Complex condition (uterine prolapse, cystocele, enterocele, rectocele) caused by weakened pelvic support tissues
+  * Common in elderly multiparous women
+* **Presentation**
+  * **Protrusion of uterus and other organs**: Pelvic organ prolapse
+  * **Difficulty urinating, urinary incontinence and urgency, fecal incontinence**: Disruption of normal pelvic organ positioning
+* **Examination**
+  * **[Clinical] Staging with POP-Q system**: Quantifies degree of organ descent
+* **Management**
+  * **Pelvic floor muscle training (Kegel exercises)**: Strengthens pelvic floor muscles
+  * **Pessary insertion**: Provides mechanical support
+  * **Surgical treatment**: For cases with damaged support tissues
+{: .notice--info}
+
 ## Genital Infection / 性器感染症
 
 ### Vulvovaginitis / 外陰腟炎
