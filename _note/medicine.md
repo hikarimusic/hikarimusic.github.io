@@ -10204,7 +10204,7 @@ More common in middle age women (autoimmune)
 * **Examination**
   * **[Laboratory] Antigen detection**: Definitive diagnosis
 * **Management**
-  * **Bacrolides, quinolones, tetracyclines**: Target atypical bacteria
+  * **Macrolides, quinolones, tetracyclines**: Target atypical bacteria
 {: .notice--info}
 
 ### Gonococcal Infection / 淋菌感染症
