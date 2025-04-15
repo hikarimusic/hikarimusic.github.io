@@ -6040,7 +6040,7 @@ Essences of clinical medicine.
 
 * **Overview**
   * Serum potassium concentration exceeding 5.0 mEq/L
-  * Common causes include decreased renal excretion (renal failure, ACEi, ARBs, K+-sparing diuretics), transcellular shifts (massive tissue breakdown, acidosis)
+  * Common causes include decreased renal excretion (renal failure, adrenal insufficiency, ACEi/ARBs, K+-sparing diuretics), transcellular shifts (massive tissue breakdown, acidosis)
 * **Presentation**
   * **Muscular weakness, paralysis**: Altered membrane excitability due to potassium-induced depolarization
   * **Nausea, diarrhea**: Effects on gastrointestinal smooth muscle
