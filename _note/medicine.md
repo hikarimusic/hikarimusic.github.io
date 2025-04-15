@@ -5971,7 +5971,263 @@ Essences of clinical medicine.
 
 # Nephrology / 腎臓科
 
-## Electrolytes Metabolism Disorder / 電解質代謝異常
+## Electrolyte Disorder / 電解質の異常
+
+### Hyponatremia / 低ナトリウム血症
+
+* **Overview**
+  * Serum sodium concentration below 135 mEq/L
+  * Common causes include sodium loss (GI losses, diuretics, adrenal insufficiency), water retention (SIADH, heart failure, cirrhosis, renal failure), and dilution (psychogenic polydipsia, iatrogenic IV fluids)
+* **Presentation**
+  * **Headache, nausea, vomiting, confusion**: Cerebral edema due to water movement into brain cells
+  * **Seizures, coma**: Severe cerebral edema in acute or profound hyponatremia
+  * **Muscle cramps, weakness, fatigue**: Altered cellular membrane potentials
+* **Examination**
+  * **[Blood] Serum sodium <135 mEq/L**: Defining laboratory finding
+  * **[Serum osmolality] Low (<280 mOsm/kg)**: Hypotonic hyponatremia
+  * **[Urine] High sodium (>20 mEq/L) in SIADH, adrenal insufficiency; Low sodium (<20 mEq/L) in volume depletion, heart failure, cirrhosis**: Differentiates renal from extrarenal sodium handling
+  * **[Volume] Hypovolemic in GI losses, diuretics; Euvolemic in SIADH, hypothyroidism; Hypervolemic in heart failure, cirrhosis, renal failure**: Critical for identifying underlying mechanism
+* **Management**
+  * **Fluid restriction**: Primary treatment for euvolemic hyponatremia
+  * **Hypertonic saline (3%)**: For severe or symptomatic cases
+  * **Vasopressin receptor antagonists**: For SIADH or hypervolemic hyponatremia
+  * **Careful correction rate**: Avoid rapid correction to prevent osmotic demyelination syndrome
+  * **Treatment of underlying cause**: Heart failure, cirrhosis, adrenal insufficiency
+{: .notice--info}
+
+### Hypernatremia / 高ナトリウム血症
+
+* **Overview**
+  * Serum sodium concentration exceeding 145 mEq/L
+  * Common causes include inadequate water intake (altered mental status, infants, elderly), excessive water loss (diabetes insipidus, diarrhea), or excessive sodium intake (sodium bicarbonate therapy)
+* **Presentation**
+  * **Thirst, dry mucous membranes**: Water deficit leading to dehydration
+  * **Altered mental status, confusion, lethargy, irritability**: Neuronal cell shrinkage due to hyperosmolality
+  * **Seizures, coma**: Severe cerebral dehydration and brain cell shrinkage
+  * **Muscle weakness, hyperreflexia**: Altered neuromuscular excitability
+* **Examination**
+  * **[Blood] Serum sodium >145 mEq/L**: Defining laboratory feature
+  * **[Blood] Increased serum osmolality (>295 mOsm/kg)**: Result of elevated sodium concentration
+* **Management**
+  * **Free water replacement (oral or IV hypotonic fluids, 5% dextrose, 0.45% saline)**: Restore water balance gradually
+  * ** Careful correction rate**: Avoid rapid correction to prevent cerebral edema from rapid correction
+  * **Treat underlying cause**: Address diabetes insipidus, excessive water loss, or sodium gain
+{: .notice--info}
+
+### Hypokalemia / 低カリウム血症
+
+* **Overview**
+  * Serum potassium concentration below 3.5 mEq/L
+  * Common causes include GI losses (diarrhea, vomiting), renal losses (diuretics, hyperaldosteronism, Bartter/Gitelman syndrome), intracellular shifts (insulin, β-agonists, alkalosis)
+* **Presentation**
+  * **Muscle weakness, fatigue, cramps**: Altered muscle membrane excitability due to hyperpolarization
+  * **Cardiac arrhythmias, ECG changes**: Disruption of cardiac electrical conduction
+  * **Constipation, ileus**: Impaired smooth muscle function
+  * **Polyuria, polydipsia**: Renal tubular dysfunction and resistance to ADH
+* **Examination**
+  * **[Blood] Serum K+ < 3.5 mEq/L**: Diagnostic criterion
+  * **[ECG] U waves, ST depression, T wave flattening**: Altered cardiac repolarization
+  * **[Urine] Increased urinary potassium (in renal causes)**: Inappropriate renal potassium wasting
+  * **[Blood] Metabolic alkalosis (often)**: Compensatory mechanism and/or underlying cause
+* **Management**
+  * **Potassium supplementation (oral or IV)**: Replace deficiency
+  * **Magnesium replacement**: Often necessary as hypomagnesemia can cause refractory hypokalemia
+  * **Potassium-sparing diuretics**: For cases due to renal potassium wasting
+  * **Treat underlying cause**: Diuretic adjustment, hormone therapy, correction of acid-base disturbances
+{: .notice--info}
+
+### Hyperkalemia / 高カリウム血症
+
+* **Overview**
+  * Serum potassium concentration exceeding 5.0 mEq/L
+  * Common in renal failure, adrenal insufficiency, medications (ACEi, ARBs, K+-sparing diuretics), massive tissue breakdown
+* **Presentation**
+  * **Muscular weakness, paralysis**: Altered membrane excitability due to potassium-induced depolarization
+  * **Nausea, diarrhea**: Effects on gastrointestinal smooth muscle
+  * **Palpitations, bradycardia**: Cardiac conduction abnormalities
+* **Examination**
+  * **[ECG] Tall T waves, widened QRS complex, prolonged PR interval, flattened P waves**: Progressive cardiac conduction abnormalities
+  * **[Blood] Elevated serum potassium level (>5.0 mEq/L)**: Confirms diagnosis
+* **Management**
+  * **Calcium gluconate/chloride (IV)**: Cardioprotective effect by stabilizing myocardial cell membranes
+  * **Insulin with glucose (IV)**: Shifts potassium into cells
+  * **Sodium bicarbonate (IV)**: Shifts potassium into cells in acidotic patients
+  * **Cation exchange resins (oral/rectal)**: Removes potassium from body
+  * **Dialysis**: Removes potassium from body in severe or refractory cases
+  * **Treatment of underlying cause**: Stop offending medications, manage renal failure, treat adrenal insufficiency
+{: .notice--info}
+
+### Hypocalcemia / 低カルシウム血症
+
+* **Overview**
+  * Serum calcium concentration below 8.5 mg/dL
+  * Common causes include hypoparathyroidism, vitamin D deficiency, and chronic kidney disease
+* **Presentation**
+  * **Paresthesia, muscle cramps, carpopedal spasm**: Increased neuromuscular excitability due to low ionized calcium
+  * **Tetany, seizures, Chvostek's and Trousseau's signs**: Neuronal hyperexcitability and neuromuscular irritability
+  * **QT prolongation, arrhythmias**: Cardiac conduction abnormalities
+* **Examination**
+  * **[Blood] Calcium <8.5 mg/dL (<2.1 mmol/L)**: Direct measurement of deficiency
+  * **[Blood] PTH↑ or ↓, Vitamin D↓**: Depends on etiology (↑ in secondary causes, ↓ in hypoparathyroidism)
+  * **[ECG] Prolonged QT interval**: Due to calcium's role in cardiac conduction
+* **Management**
+  * **IV calcium gluconate**: Rapid correction in severe symptomatic hypocalcemia
+  * **Oral calcium supplements**: Long-term supplementation
+  * **Vitamin D supplements**: Enhances calcium absorption
+  * **Treatment of underlying cause**: Address hypoparathyroidism, kidney disease
+{: .notice--info}
+
+### Hypercalcemia / 高カルシウム血症
+
+* **Overview**
+  * Serum calcium concentration above 10.5 mg/dL
+  * Common causes include primary hyperparathyroidism, PTHrP-secreting malignancies, osteolytic metastases, vitamin D excess, and medications (thiazides, lithium)
+* **Presentation**
+  * **Fatigue, weakness, lethargy**: Direct effects on neuromuscular function
+  * **Nausea, vomiting, constipation, abdominal pain**: Gastrointestinal hypomotility and inflammation
+  * **Polyuria, polydipsia, dehydration**: Renal concentrating defect and impaired sodium reabsorption
+* **Examination**
+  * **[Blood] Calcium >10.5 mg/dL, phosphate low**: Primary finding and compensatory changes
+  * **[Blood] PTH↑ (in hyperparathyroidism), PTH↓ (in malignancy)**: Helps determine etiology
+  * **[ECG] Shortened QT interval**: Effect of calcium on cardiac conduction
+* **Management**
+  * **Intravenous fluids**: Rehydration and increased calcium excretion
+  * **Loop diuretics**: Enhance calcium excretion
+  * **Bisphosphonates, calcitonin**: Inhibit bone resorption
+  * **Glucocorticoids**: Reduce calcium absorption in vitamin D-mediated hypercalcemia
+  * **Treatment of underlying cause**: Parathyroidectomy (for hyperparathyroidism), anti-cancer therapy (for malignancy)
+{: .notice--info}
+
+### Hypophosphatemia / 低リン血症
+
+* **Overview**
+  * Serum phosphate level below 2.5 mg/dL
+  * Common in hospitalized patients, alcoholics, and malnutrition
+* **Presentation**
+  * **Muscle weakness, rhabdomyolysis**: ATP depletion in muscle cells
+  * **Respiratory failure**: Diaphragmatic weakness
+  * **Confusion, seizures**: Impaired neuronal function
+* **Examination**
+  * **[Blood] Phosphate <2.5 mg/dL**: Definitive finding
+  * **[Blood] Elevated CK, LDH**: Muscle damage
+* **Management**
+  * **Phosphate supplementation (oral or IV)**: Replace phosphate stores
+  * **Treat underlying cause**: Refeeding, alcohol withdrawal, vitamin D deficiency
+{: .notice--info}
+
+### Hyperphosphatemia / 高リン血症
+
+* **Overview**
+  * Serum phosphate level above 5.0 mg/dL
+  * Common in chronic kidney disease
+* **Presentation**
+  * **Asymptomatic**: Most common presentation
+* **Examination**
+  * **[Blood] Phosphate >5.0 mg/dL, decreased calcium**: Inverse relationship due to calcium-phosphate product
+  * **[Imaging] Soft tissue/vascular calcifications**: Calcium-phosphate precipitation in tissues
+* **Management**
+  * **Dietary phosphate restriction**: Limit phosphate intake
+  * **Phosphate binders**: Calcium-based or non-calcium based agents that bind phosphate in gut
+  * **Dialysis**: Removes excess phosphate in end-stage renal disease
+  * **Treat underlying cause**: Address primary conditions
+{: .notice--info}
+
+### Hypomagnesemia / 低マグネシウム血症
+
+* **Overview**
+  * Serum magnesium concentration below 1.8 mg/dL
+  * Common in hospitalized patients and alcoholics
+* **Presentation**
+  * **Neuromuscular irritability, tremors, tetany**: Increased neuronal excitability
+* **Examination**
+  * **[Blood] Mg²⁺ < 1.8 mg/dL**: Defining laboratory finding
+  * **[Blood] Often coexisting K⁺↓, Ca²⁺↓**: Related electrolyte disturbances
+* **Management**
+  * **Magnesium supplementation (oral or IV)**: Replace deficient magnesium
+  * **Treatment of underlying cause**: Address GI losses or nutritional deficiencies
+{: .notice--info}
+
+### Hypermagnesemia / 高マグネシウム血症
+
+* **Overview**
+  * Serum magnesium concentration above 3.0 mg/dL
+  * Primarily occurs in renal failure patients or with excessive magnesium intake
+* **Presentation**
+  * **Lethargy, weakness, drowsiness**: CNS depression
+  * **Hypotension, bradycardia**: Vasodilation and cardiac suppression
+  * **Reduced deep tendon reflexes**: Neuromuscular blockade
+* **Examination**
+  * **[Blood] Mg²⁺ > 3.0 mg/dL**: Confirms diagnosis
+  * **[ECG] Prolonged PR interval, widened QRS complex**: Cardiac conduction delay
+* **Management**
+  * **Discontinue magnesium-containing medications**: Remove source
+  * **IV calcium gluconate**: Temporarily antagonizes magnesium effects
+  * **Hemodialysis**: For severe cases or renal failure
+{: .notice--info}
+
+## Acid-Base Disorder / 酸塩基の異常
+
+### Metabolic Acidosis / 代謝性アシドーシス
+
+* **Overview**
+  * Primary decrease in serum bicarbonate leading to decreased blood pH
+  * Common causes include HCO₃⁻ loss (diarrhea, renal tubular acidosis), H⁺ accumulation (lactic acidosis, diabetic ketoacidosis, toxin ingestion)
+* **Presentation**
+  * **Hyperventilation (Kussmaul breathing)**: Respiratory compensation to eliminate CO₂
+  * **Nausea, vomiting, fatigue, confusion**: Systemic effects of acidemia
+* **Examination**
+  * **[Blood gas] pH↓, HCO₃⁻↓, pCO₂↓ (with compensation)**: Primary metabolic acidosis with respiratory compensation
+  * **[Anion gap] Elevated (lactic acidosis, ketoacidosis, toxins) or normal (diarrhea, RTA)**: Helps differentiate causes
+* **Management**
+  * **Treat underlying cause**: Address primary disorder (e.g., insulin for DKA, fluid resuscitation for lactic acidosis)
+  * **Sodium bicarbonate**: Reserved for severe acidosis (pH < 7.1) or specific indications
+{: .notice--info}
+
+### Metabolic Alkalosis / 代謝性アルカローシス
+
+* **Overview**
+  * Primary increase in serum bicarbonate or decrease in hydrogen ions leading to increased blood pH
+  * Common causes include H+ loss (vomiting, nasogastric suction), HCO3- retention (diuretic use, hyperaldosteronism)
+* **Presentation**
+  * **Muscle cramps, tetany, paresthesias**: Decreased ionized calcium due to alkalosis
+  * **Confusion, seizures, cardiac arrhythmias**: Cerebral effects and altered electrolyte balance
+* **Examination**
+  * **[Blood gas] pH↑, HCO3-↑, pCO2↑ (with compensation)**: Primary metabolic alkalosis with respiratory compensation
+* **Management**
+  * **Volume repletion with normal saline**: For chloride-responsive alkalosis
+  * **Treatment of underlying cause**: Stop diuretics, correct hormonal disorders, treat vomiting
+{: .notice--info}
+
+### Respiratory Acidosis / 呼吸性アシドーシス
+
+* **Overview**
+  * Primary increase in PaCO₂ due to alveolar hypoventilation leading to decreased blood pH
+  * Common causes include COPD, CNS depression, neuromuscular disorders, severe restrictive lung disease
+* **Presentation**
+  * **Hypersomnolence, confusion, headache**: Cerebral vasodilation from hypercapnia
+  * **Asterixis, tremors**: Neurological effects of elevated CO₂
+* **Examination**
+  * **[Blood gas] pH↓, PaCO₂↑, HCO₃⁻ normal (acute) or ↑ (chronic)**: Primary respiratory acidosis with renal compensation in chronic cases
+* **Management**
+  * **Treat underlying cause**: Bronchodilators for COPD, reversal agents for drug-induced depression
+  * **Oxygen therapy and mechanical ventilation**: Support respiratory function and correct hypoxemia
+{: .notice--info}
+
+### Respiratory Alkalosis / 呼吸性アルカローシス
+
+* **Overview**
+  * Primary decrease in arterial PCO₂ due to alveolar hyperventilation leading to increased blood pH
+  * Common causes include anxiety, high altitude, and sepsis
+* **Presentation**
+  * **Lightheadedness, dizziness, paresthesias**: Cerebral vasoconstriction and decreased ionized calcium
+  * **Carpopedal spasms, tetany**: Decreased ionized calcium affecting neuromuscular excitability
+* **Examination**
+  * **[Blood gas] pH↑, PCO₂↓, HCO₃⁻ normal (acute) or ↓ (chronic)**: Primary respiratory alkalosis with renal compensation
+* **Management**
+  * **Treat underlying cause**: Address anxiety, infection, or other primary disorders
+  * **Breathing techniques**: Paper bag rebreathing for acute hyperventilation
+  * **Sedation or mechanical ventilation**: For severe cases where needed
+{: .notice--info}
 
 ## Glomerular Disorder / 糸球体疾患
 
