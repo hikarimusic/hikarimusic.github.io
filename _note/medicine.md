@@ -5977,7 +5977,7 @@ Essences of clinical medicine.
 
 * **Overview**
   * Serum sodium concentration below 135 mEq/L
-  * Common causes include sodium loss (GI losses, diuretics, adrenal insufficiency), water retention (SIADH, heart failure, cirrhosis, renal failure), and dilution (psychogenic polydipsia, iatrogenic IV fluids)
+  * Common causes include sodium loss (GI losses, diuretics, adrenal insufficiency), water retention (SIADH, heart failure, cirrhosis, nephrotic syndrome), and dilution (psychogenic polydipsia, iatrogenic IV fluids)
 * **Presentation**
   * **Headache, nausea, vomiting, confusion**: Cerebral edema due to water movement into brain cells
   * **Seizures, coma**: Severe cerebral edema in acute or profound hyponatremia
@@ -6040,7 +6040,7 @@ Essences of clinical medicine.
 
 * **Overview**
   * Serum potassium concentration exceeding 5.0 mEq/L
-  * Common in renal failure, adrenal insufficiency, medications (ACEi, ARBs, K+-sparing diuretics), massive tissue breakdown
+  * Common causes include decreased renal excretion (renal failure, ACEi, ARBs, K+-sparing diuretics), transcellular shifts (massive tissue breakdown, acidosis)
 * **Presentation**
   * **Muscular weakness, paralysis**: Altered membrane excitability due to potassium-induced depolarization
   * **Nausea, diarrhea**: Effects on gastrointestinal smooth muscle
