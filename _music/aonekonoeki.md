@@ -1,13 +1,14 @@
 ---
-title: '【オリジナル曲】青猫の駅'
+title: '青猫の駅'
 date: 2020-12-19
-permalink: /other/2020_12_19_aonekonoeki
+permalink: /music/aonekonoeki
 tags:
-  - オリジナル
-  - 曲
+  - music
 ---
 
-十八歳のときに初めて作った曲です。いろいろ大変だったが、よければどぞ聞いてください！
+**Artist:** AIきりたん / **Song:** HiKARi / **Lyrics:** HiKARi\\
+**About:** 
+「新詞を賦せんが為に強いて愁いを説く」という言葉があるように、18歳のとき曲を作ろうと思うばかりに、ありもしない感情を無理やり絞り出して作った歌詞を、今再び見て苦々しい限りです。ただ、青春は一度きりということだけは間違いないと思います。初めて作った曲なので、いろいろ大変でしたが、よければどうぞ聴いてください！
 
 ## 青猫の駅
 
@@ -18,9 +19,8 @@ tags:
 ## About
 
 * ボーカル：AIきりたん
-* 作曲・作詞・編曲・絵・動画：Hikari
-* [Music Download](https://drive.google.com/file/d/1fKhjIVwsEmY96lbSODlEu6PCToSl6JVd/view?usp=sharing)
-* [Off Vocal Download](https://drive.google.com/file/d/1REyiaOR7ab2gCNkniBqbYVO8cAk-PnPj/view?usp=sharing)
+* 作曲・作詞・編曲：Hikari
+* イラスト・動画：Hikari
 
 ## 歌詞
 
