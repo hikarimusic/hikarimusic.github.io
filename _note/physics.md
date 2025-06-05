@@ -885,13 +885,20 @@ $$
 ### Lorentz Transformation / Lorentz変換
 
 $$
-g_{\mu \nu} dx^{\mu} dx^{\nu} = \text{const.} \\
-\begin{aligned}
-t' &= \frac{t - \frac{v}{c^2} x}{\sqrt{1 - \frac{v^2}{c^2}}} \\
-x' &= \frac{x - vt}{\sqrt{1 - \frac{v^2}{c^2}}} \\
-y' &= y \\
-z' &= z
-\end{aligned}
+c^2 dt^2 - dx^2 - dy^2 - dz^2 = \text{const.} \\
+X' = LX \\
+L = \begin{pmatrix}
+\frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} & \frac{-\frac{v}{c}}{\sqrt{1 - \frac{v^2}{c^2}}} & 0 & 0 \\
+\frac{-\frac{v}{c}}{\sqrt{1 - \frac{v^2}{c^2}}} & \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{pmatrix} \quad
+X = \begin{pmatrix}
+ct \\
+x \\
+y \\
+z
+\end{pmatrix}
 $$
 {: .notice--info}
 
@@ -908,7 +915,7 @@ x \\
 y \\
 z
 \end{pmatrix} \\
-X' = L X \\
+(dX)^T g (dX) = const. \\
 (dX')^T g (dX') = (L dX)^T g (L dX) = (dX)^T g (dX) \\
 L^T g L = g \\
 L = \begin{pmatrix}
@@ -964,7 +971,7 @@ $$
 ### Relativistic Dynamics / 相対論的力学
 
 $$
-\delta S = \delta \int -mc \sqrt{g_{\mu \nu} dx^{\mu} dx^{\nu}} = 0 \\
+\delta S = \delta \int -mc \sqrt{c^2 dt^2 - dx^2 - dy^2 - dz^2} = 0 \\
 \begin{aligned}
 \mathbf{p} &= \frac{m\mathbf{v}}{\sqrt{1 - \frac{v^2}{c^2}}} \\
 E &= \frac{mc^2}{\sqrt{1 - \frac{v^2}{c^2}}} = \sqrt{p^2 c^2 + m^2 c^4}
@@ -1016,21 +1023,135 @@ $$
 
 ## Maxwell's Equation / Maxwell方程式
 
-## Electromagnetic Potential / 電磁ポテンシャル
-
 ## Electrostatics / 静電場
 
 ## Magnetostatics / 静磁場
 
-## Electromagnetic Induction / 電磁誘導
+## Electromagnetism in Matter / 物質中の電磁気学
 
 ## Electromagnetic Wave / 電磁波
 
 ## Radiation / 放射
 
-## Waveguide / 導波管
-
 ## Electrical Circuit / 電気回路
+
+## Relativistic Electrodynamics / 相対論的電気力学
+
+### Relativistic Current / 相対論的電流
+
+$$
+J^\mu = \left( c\rho, J_x, J_y, J_z \right) \\
+\bar{J}^{\mu} = \Lambda^{\mu}_{\nu} J^{\nu} \\
+\frac{\partial J^{\mu}}{\partial x^{\mu}} = 0
+$$
+{: .notice--info}
+
+$$
+c\rho = \frac{\rho_0}{\sqrt{1 - \frac{u^2}{c^2}}} = \rho_0 \frac{c}{\sqrt{1 - \frac{u^2}{c^2}}} \\
+\mathbf{J} = \rho \mathbf{v} = \rho_0 \frac{\mathbf{v}}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+\frac{\partial J^{\mu}}{\partial x^{\mu}} = \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = 0
+$$
+{: .notice--primary}
+
+### Relativistic Field / 相対論的場
+
+$$
+F^{\mu \nu} =
+\begin{pmatrix}
+0 & \frac{E_x}{c} & \frac{E_y}{c} & \frac{E_z}{c} \\
+-\frac{E_x}{c} & 0 & B_z & -B_y \\
+-\frac{E_y}{c} & -B_z & 0 & B_x \\
+-\frac{E_z}{c} & B_y & -B_x & 0
+\end{pmatrix}
+\quad
+G^{\mu \nu} =
+\begin{pmatrix}
+0 & B_x & B_y & B_z \\
+-B_x & 0 & -\frac{E_z}{c} & \frac{E_y}{c} \\
+-B_y & \frac{E_z}{c} & 0 & -\frac{E_x}{c} \\
+-B_z & -\frac{E_y}{c} & \frac{E_x}{c} & 0
+\end{pmatrix} \\
+\bar{F}^{\mu \nu} = \Lambda^\mu_{\lambda} \Lambda^\nu_{\sigma} F^{\lambda \sigma}
+\quad
+\bar{G}^{\mu \nu} = \Lambda^\mu_{\lambda} \Lambda^\nu_{\sigma} G^{\lambda \sigma} \\
+\frac{\partial F^{\mu \nu}}{\partial x^\nu} = \mu_0 J^\mu
+\quad
+\frac{\partial G^{\mu \nu}}{\partial x^\nu} = 0 \\
+\left( \frac{F}{\sqrt{1 - \frac{v^2}{c^2}}} \right)^\mu = q \left( \frac{v}{\sqrt{1 - \frac{v^2}{c^2}}} \right)_\nu F^{\mu \nu}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\frac{\partial F^{0\nu}}{\partial x^\nu}
+&= \frac{1}{c} \frac{\partial E_x}{\partial x}
++ \frac{1}{c} \frac{\partial E_y}{\partial y}
++ \frac{1}{c} \frac{\partial E_z}{\partial z}
+= \frac{1}{c} (\nabla \cdot \mathbf{E})
+= \mu_0 c \rho \\
+\frac{\partial F^{1\nu}}{\partial x^\nu}
+&= -\frac{1}{c^2} \frac{\partial E_x}{\partial t}
++ \frac{\partial B_z}{\partial y}
+- \frac{\partial B_y}{\partial z}
+= \left( -\frac{1}{c^2} \frac{\partial \mathbf{E}}{\partial t}
++ \nabla \times \mathbf{B} \right)_x
+= \mu_0 J_x \\
+\frac{\partial G^{0\nu}}{\partial x^\nu}
+&= \frac{\partial B_x}{\partial x}
++ \frac{\partial B_y}{\partial y}
++ \frac{\partial B_z}{\partial z}
+= \nabla \cdot \mathbf{B} = 0 \\
+\frac{\partial G^{1\nu}}{\partial x^\nu}
+&= -\frac{1}{c} \frac{\partial B_x}{\partial t}
+- \frac{1}{c} \frac{\partial E_z}{\partial y}
++ \frac{1}{c} \frac{\partial E_y}{\partial z}
+= -\frac{1}{c} \left( \frac{\partial \mathbf{B}}{\partial t}
++ \nabla \times \mathbf{E} \right)_x
+= 0 \\
+\end{aligned} \\
+\begin{aligned}
+\frac{F_x}{\sqrt{1 - \frac{v^2}{c^2}}}
+&= q \left[
+\frac{-c}{\sqrt{1 - \frac{v^2}{c^2}}}
+\left( \frac{-E_x}{c} \right)
++ \frac{v_y}{\sqrt{1 - \frac{v^2}{c^2}}} B_z
+- \frac{v_z}{\sqrt{1 - \frac{v^2}{c^2}}} B_y
+\right] \\
+&= \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
+\left( q \mathbf{E} + q \mathbf{v} \times \mathbf{B} \right)_x
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Relativistic Potential / 相対論的ポテンシャル
+
+$$
+A^\mu = \left( \frac{V}{c}, A_x, A_y, A_z \right) \\
+\bar{A}^\mu = \Lambda^\mu_{\nu} A^\nu \\
+\frac{\partial}{\partial x_\nu} \frac{\partial}{\partial x^\nu} A^\mu = -\mu_0 J^\mu \\
+F^{\mu \nu} = \frac{\partial A^\nu}{\partial x_\mu} - \frac{\partial A^\mu}{\partial x_\nu}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\left( -\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2 \right) \frac{V}{c}
+&= -\mu_0 c \rho \\
+\left( -\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2 \right) \mathbf{A}
+&= -\mu_0 \mathbf{J} \\
+\end{aligned} \\
+\begin{aligned}
+F^{01} &= -\frac{1}{c} \frac{\partial A_x}{\partial t}
+- \frac{1}{c} \frac{\partial V}{\partial x}
+= -\frac{1}{c} \left( \frac{\partial \mathbf{A}}{\partial t}
++ \nabla V \right)_x
+= \frac{E_x}{c} \\
+F^{12} &= \frac{\partial A_y}{\partial x}
+- \frac{\partial A_x}{\partial y}
+= (\nabla \times \mathbf{A})_z = B_z
+\end{aligned}
+$$
+{: .notice--primary}
 
 # Statistical Mechanics / 統計力学
 
