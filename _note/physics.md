@@ -1128,18 +1128,12 @@ $$
 $$
 A^\mu = \left( \frac{V}{c}, A_x, A_y, A_z \right) \\
 \bar{A}^\mu = \Lambda^\mu_{\nu} A^\nu \\
-\frac{\partial}{\partial x_\nu} \frac{\partial}{\partial x^\nu} A^\mu = -\mu_0 J^\mu \\
-F^{\mu \nu} = \frac{\partial A^\nu}{\partial x_\mu} - \frac{\partial A^\mu}{\partial x_\nu}
+F^{\mu \nu} = \frac{\partial A^\nu}{\partial x_\mu} - \frac{\partial A^\mu}{\partial x_\nu} \\
+\frac{\partial}{\partial x_\nu} \frac{\partial}{\partial x^\nu} A^\mu = -\mu_0 J^\mu 
 $$
 {: .notice--info}
 
 $$
-\begin{aligned}
-\left( -\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2 \right) \frac{V}{c}
-&= -\mu_0 c \rho \\
-\left( -\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2 \right) \mathbf{A}
-&= -\mu_0 \mathbf{J} \\
-\end{aligned} \\
 \begin{aligned}
 F^{01} &= -\frac{1}{c} \frac{\partial A_x}{\partial t}
 - \frac{1}{c} \frac{\partial V}{\partial x}
@@ -1149,6 +1143,12 @@ F^{01} &= -\frac{1}{c} \frac{\partial A_x}{\partial t}
 F^{12} &= \frac{\partial A_y}{\partial x}
 - \frac{\partial A_x}{\partial y}
 = (\nabla \times \mathbf{A})_z = B_z
+\end{aligned} \\
+\begin{aligned}
+\left( -\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2 \right) \frac{V}{c}
+&= -\mu_0 c \rho \\
+\left( -\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2 \right) \mathbf{A}
+&= -\mu_0 \mathbf{J} \\
 \end{aligned}
 $$
 {: .notice--primary}
