@@ -1023,17 +1023,146 @@ $$
 
 ## Maxwell's Equation / Maxwell方程式
 
+### Charge and Current / 電荷と電流
+
+$$
+\rho = \frac{dq}{d\tau} \quad \mathbf{J} = \rho \mathbf{v} \\
+\frac{\partial \rho}{\partial t} = -\nabla \cdot \mathbf{J}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\frac{d q}{d t} &= \frac{d}{d t} \int_V \rho \, d\tau = \int_V \left(\frac{\partial \rho}{\partial t}\right) d\tau \\
+&= -\oint_S \mathbf{J} \cdot d\mathbf{a} = \int_V (-\nabla \cdot \mathbf{J}) \, d\tau \\
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Electromagnetic Field / 電磁場
+
+$$
+\nabla \cdot \mathbf{E} = \frac{1}{\varepsilon_0} \rho \\
+\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \\
+\nabla \cdot \mathbf{B} = 0 \\
+\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \\
+\mathbf{F} = q\mathbf{E} + q\mathbf{v} \times \mathbf{B}
+$$
+{: .notice--info}
+
+### Electromagnetic Potential / 電磁ポテンシャル
+
+$$
+\begin{aligned}
+\mathbf{E} &= -\nabla V - \frac{\partial \mathbf{A}}{\partial t} \\
+\mathbf{B} &= \nabla \times \mathbf{A}
+\end{aligned} \\
+\begin{aligned}
+\nabla^2 V - \mu_0 \varepsilon_0 \frac{\partial V}{\partial t} &= -\frac{1}{\varepsilon_0} \rho \\
+\nabla^2 \mathbf{A} - \mu_0 \varepsilon_0 \frac{\partial \mathbf{A}}{\partial t} &= -\mu_0 \mathbf{J}
+\end{aligned} \\
+\frac{d}{d t}(\mathbf{p} + q \mathbf{A}) = -\nabla (q V - q \mathbf{v} \cdot \mathbf{A})
+$$
+{: .notice--info}
+
+$$
+\nabla \cdot \mathbf{B} = 0 \\
+\mathbf{B} = \nabla \times \mathbf{A} \\
+\nabla \times \mathbf{E} + \frac{\partial \mathbf{B}}{\partial t} = \nabla \times \left(\mathbf{E} + \frac{\partial \mathbf{A}}{\partial t}\right) = 0 \\
+\mathbf{E} + \frac{\partial \mathbf{A}}{\partial t} = -\nabla V \\
+\nabla \cdot \mathbf{E} = -\nabla^2 V - \nabla \cdot \left(\frac{\partial \mathbf{A}}{\partial t}\right) = \frac{1}{\varepsilon_0} \rho \\
+\nabla^2 V + \frac{\partial}{\partial t}(\nabla \cdot \mathbf{A}) = -\frac{1}{\varepsilon_0} \rho \\
+\nabla \times \mathbf{B} - \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} = \nabla \times (\nabla \times \mathbf{A}) + \mu_0 \varepsilon_0 \frac{\partial}{\partial t} \left(\nabla V\right) + \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{A}}{\partial t^2} = \mu_0 \mathbf{J} \\
+\left(\nabla^2 \mathbf{A} - \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{A}}{\partial t^2}\right) - \nabla \left(\nabla \cdot \mathbf{A} + \mu_0 \varepsilon_0 \frac{\partial V}{\partial t}\right) = -\mu_0 \mathbf{J} \\
+\mathbf{A}' = \mathbf{A} + \nabla \lambda \quad V' = V - \frac{\partial \lambda}{\partial t} \\
+\mathbf{B}' = \nabla \times \mathbf{A}' + \nabla \times \nabla \lambda = \nabla \times \mathbf{A} = \mathbf{B} \\
+\mathbf{E}' = -\nabla V + \nabla \left(\frac{\partial \lambda}{\partial t}\right) - \frac{\partial \mathbf{A}}{\partial t} - \frac{\partial}{\partial t}(\nabla \lambda) = -\nabla V - \frac{\partial \mathbf{A}}{\partial t} = \mathbf{E} \\
+\nabla^2 \lambda - \mu_0 \varepsilon_0 \frac{\partial^2 \lambda}{\partial t^2} = -\nabla \cdot \mathbf{A} - \mu_0 \varepsilon_0 \frac{\partial V}{\partial t} \\
+\nabla \cdot (\mathbf{A} + \nabla \lambda) = -\mu_0 \varepsilon_0 \frac{\partial}{\partial t}\left(V - \frac{\partial \lambda}{\partial t}\right) \\
+\nabla \cdot \mathbf{A}' = -\mu_0 \varepsilon_0 \frac{\partial V'}{\partial t} \\
+\begin{aligned}
+\nabla^2 V - \mu_0 \varepsilon_0 \frac{\partial V}{\partial t} &= -\frac{1}{\varepsilon_0} \rho \\
+\nabla^2 \mathbf{A} - \mu_0 \varepsilon_0 \frac{\partial \mathbf{A}}{\partial t} &= -\mu_0 \mathbf{J}
+\end{aligned} \\
+\begin{aligned}
+\mathbf{F} = \frac{d \mathbf{p}}{d t} &= q(\mathbf{E} + \mathbf{v} \times \mathbf{B}) \\
+&= q \left[-\nabla V - \frac{\partial \mathbf{A}}{\partial t} + \mathbf{v} \times (\nabla \times \mathbf{A})\right] \\
+&= q \left[-\frac{\partial \mathbf{A}}{\partial t} - (\mathbf{v} \cdot \nabla)\mathbf{A} - \nabla V + \nabla(\mathbf{v} \cdot \mathbf{A})\right] \\
+&= q \left[-\frac{d \mathbf{A}}{d t} - \nabla(V - \mathbf{v} \cdot \mathbf{A})\right]
+\end{aligned} \\
+\frac{d}{d t}(\mathbf{p} + q \mathbf{A}) = -\nabla(q V - q \mathbf{v} \cdot \mathbf{A})
+$$
+{: .notice--primary}
+
+### Energy Conservation / エネルギー保存
+
+$$
+E_{\text{em}} = \int_V \left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) d\tau \\
+\mathbf{S} = \frac{1}{\mu_0} \mathbf{E} \times \mathbf{B} \\
+\frac{d}{dt}(E_{\text{mech}} + E_{\text{em}}) = -\oint_S \mathbf{S} \cdot d\mathbf{a}
+$$
+{: .notice--info}
+
+$$
+\mathbf{F} \cdot d\mathbf{l} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B}) \cdot \mathbf{v} \,dt = \mathbf{E} \cdot (q\mathbf{v}) \,dt \\
+\frac{dE_{\text{mech}}}{dt} = \int_V \mathbf{E} \cdot \mathbf{J} \, d\tau \\
+\begin{aligned}
+\mathbf{E} \cdot \mathbf{J} &= \frac{1}{\mu_0} \mathbf{E} \cdot (\nabla \times \mathbf{B}) - \varepsilon_0 \mathbf{E} \cdot \frac{\partial \mathbf{E}}{\partial t} \\
+&= \frac{1}{\mu_0} [\mathbf{B} \cdot (\nabla \times \mathbf{E}) - \nabla \cdot (\mathbf{E} \times \mathbf{B})] - \varepsilon_0 \mathbf{E} \cdot \frac{\partial \mathbf{E}}{\partial t} \\
+&= -\varepsilon_0 \mathbf{E} \cdot \frac{\partial \mathbf{E}}{\partial t} - \frac{1}{\mu_0} \mathbf{B} \cdot \frac{\partial \mathbf{B}}{\partial t} - \frac{1}{\mu_0} \nabla \cdot (\mathbf{E} \times \mathbf{B}) \\
+&= -\frac{\partial}{\partial t}\left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) - \frac{1}{\mu_0} \nabla \cdot (\mathbf{E} \times \mathbf{B}) \\
+\end{aligned} \\
+\begin{aligned}
+\frac{dE_{\text{mech}}}{dt} &= - \int_V \frac{\partial}{\partial t} \left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) d\tau - \int_V \frac{1}{\mu_0} \nabla \cdot (\mathbf{E} \times \mathbf{B}) d\tau \\
+&= -\frac{d}{d t} \int_V \left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) d\tau - \oint_S \frac{1}{\mu_0} (\mathbf{E} \times \mathbf{B}) \cdot d\mathbf{a} \\
+&= -\frac{dE_{\text{em}}}{dt} - \oint_S \mathbf{S} \cdot d\mathbf{a}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Momentum Conservation / 運動量保存
+
+$$
+\mathbf{P}_{\text{em}} = \int_V \varepsilon_0 \mathbf{E} \times \mathbf{B} \, d\tau \\
+T_{ij} = \varepsilon_0\left(E_i E_j - \frac{1}{2} \delta_{ij} E^2\right) + \frac{1}{\mu_0}\left(B_i B_j - \frac{1}{2} \delta_{ij} B^2\right) \\
+\frac{d}{dt}(\mathbf{P}_{\text{mech}} + \mathbf{P}_{\text{em}}) = \oint_S \mathbf{T} \cdot d\mathbf{a}
+$$
+{: .notice--info}
+
+$$
+\mathbf{F} = q\mathbf{E} + q\mathbf{v} \times \mathbf{B} \\
+\frac{d\mathbf{P}_{\text{mech}}}{dt} = \int_V (\rho\mathbf{E} + \mathbf{J} \times \mathbf{B}) \, d\tau \\
+\begin{aligned}
+& \rho\mathbf{E} + \mathbf{J} \times \mathbf{B} \\
+=& \varepsilon_0(\nabla \cdot \mathbf{E})\mathbf{E} + \left(\frac{1}{\mu_0}\nabla \times \mathbf{B} - \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right) \times \mathbf{B} \\
+=& \varepsilon_0(\nabla \cdot \mathbf{E})\mathbf{E} - \frac{1}{\mu_0} \mathbf{B} \times (\nabla \times \mathbf{B}) - \varepsilon_0 \mathbf{E} \times (\nabla \times \mathbf{E}) - \varepsilon_0 \frac{\partial}{\partial t} (\mathbf{E} \times \mathbf{B}) \\
+=& \varepsilon_0(\nabla \cdot \mathbf{E})\mathbf{E} - \frac{1}{2\mu_0} \nabla(B^2) + \frac{1}{\mu_0} (\mathbf{B} \cdot \nabla)\mathbf{B} - \frac{\varepsilon_0}{2}\nabla(E^2) + \varepsilon_0(\mathbf{E} \cdot \nabla)\mathbf{E} - \varepsilon_0 \frac{\partial}{\partial t} (\mathbf{E} \times \mathbf{B}) \\
+=& \varepsilon_0\left[(\nabla \cdot \mathbf{E})\mathbf{E} + (\mathbf{E} \cdot \nabla)\mathbf{E}\right] + \frac{1}{\mu_0}\left[(\nabla \cdot \mathbf{B})\mathbf{B} + (\mathbf{B} \cdot \nabla)\mathbf{B}\right] \\
+&- \nabla\left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) - \varepsilon_0 \frac{\partial}{\partial t} (\mathbf{E} \times \mathbf{B}) \\
+=& \nabla \cdot \overleftrightarrow{T} - \frac{\partial}{\partial t} (\varepsilon_0 \mathbf{E} \times \mathbf{B}) \\
+\end{aligned} \\
+\begin{aligned}
+\frac{d\mathbf{P}_{\text{mech}}}{dt} &= - \int_V \frac{\partial}{\partial t} (\varepsilon_0 \mathbf{E} \times \mathbf{B}) d\tau + \int_V \nabla \cdot \overleftrightarrow{T} d\tau \\
+&= -\frac{d}{d t} \int_V \varepsilon_0 \mathbf{E} \times \mathbf{B} d\tau + \oint_S \overleftrightarrow{T} \cdot d\mathbf{a} \\
+&= -\frac{d\mathbf{P}_{\text{em}}}{dt} + \oint_S \overleftrightarrow{T} \cdot d\mathbf{a}
+\end{aligned}
+$$
+{: .notice--primary}
+
+
 ## Electrostatics / 静電場
 
 ## Magnetostatics / 静磁場
 
+## Electrical Circuit / 電気回路
+
 ## Electromagnetism in Matter / 物質中の電磁気学
+
+## Electrodynamics / 電気力学
 
 ## Electromagnetic Wave / 電磁波
 
 ## Radiation / 放射
-
-## Electrical Circuit / 電気回路
 
 ## Relativistic Electrodynamics / 相対論的電気力学
 
