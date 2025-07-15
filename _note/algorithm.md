@@ -1508,6 +1508,44 @@ int mod_binom(int n, int k, int m) {
 }
 ```
 
+### Mod Library / MODライブラリ
+```cpp
+ll madd(ll a, ll b) {
+    return (a % MOD + b % MOD) % MOD;
+}
+
+ll mmin(ll a, ll b) {
+    return ((a % MOD - b % MOD) + MOD) % MOD;
+}
+
+ll mmul(ll a, ll b) {
+    return ((a % MOD) * (b % MOD)) % MOD;
+}
+
+ll extgcd(ll a, ll b, ll& x, ll& y) {
+    if (b == 0) {
+        x = 1;
+        y = 0;
+        return a;
+    }
+    ll g, x1, y1;
+    g = extgcd(b, a % b, x1, y1);
+    x = y1;
+    y = x1 - y1 * (a / b);
+    return g;
+}
+
+ll minv(ll a) {
+    ll x, y;
+    extgcd(a%MOD, MOD, x, y);
+    return ((x % MOD) + MOD) % MOD;
+}
+
+ll mdiv(ll a, ll b) {
+    return mmul(a%MOD, minv(b%MOD));
+}
+```
+
 ## Linear Algebra / 線型代数
 
 ### Linear Congruence Equation / 線形合同式
