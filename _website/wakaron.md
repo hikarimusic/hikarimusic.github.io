@@ -11,35 +11,35 @@ toc: true
 
 ## ホーム
 
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/home1.jpg" width=300>
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/home2.jpg" width=300>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/home1.jpg" width=380>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/home2.jpg" width=380>
 
 ## 文章
 
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/article1.jpg" width=300>
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/article2.jpg" width=300>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/article1.jpg" width=380>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/article2.jpg" width=380>
 
 ## 一覧
 
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/list1.jpg" width=300>
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/list2.jpg" width=300>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/list1.jpg" width=380>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/list2.jpg" width=380>
 
 ## 掲示板
 
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/board1.jpg" width=300>
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/board2.jpg" width=300>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/board1.jpg" width=380>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/board2.jpg" width=380>
 
 ## 履歴
 
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/history1.jpg" width=300>
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/history2.jpg" width=300>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/history1.jpg" width=380>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/history2.jpg" width=380>
 
 ## ログイン
 
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/login1.jpg" width=300>
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/login2.jpg" width=300>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/login1.jpg" width=380>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/login2.jpg" width=380>
 
 ## ワカロンについて
 
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/about1.jpg" width=300>
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/about2.jpg" width=300>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/about1.jpg" width=380>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/about2.jpg" width=380>
