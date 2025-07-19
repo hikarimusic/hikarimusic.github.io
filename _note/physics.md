@@ -1042,10 +1042,12 @@ $$
 ### Electromagnetic Field / 電磁場
 
 $$
-\nabla \cdot \mathbf{E} = \frac{1}{\varepsilon_0} \rho \\
-\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \\
-\nabla \cdot \mathbf{B} = 0 \\
-\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \\
+\begin{aligned}
+& \nabla \cdot \mathbf{E} = \frac{1}{\varepsilon_0} \rho \\
+& \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \\
+& \nabla \cdot \mathbf{B} = 0 \\
+& \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} 
+\end{aligned} \\
 \mathbf{F} = q\mathbf{E} + q\mathbf{v} \times \mathbf{B}
 $$
 {: .notice--info}
