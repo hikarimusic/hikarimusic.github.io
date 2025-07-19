@@ -11,5 +11,5 @@ toc: true
 
 # トップ
 
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/docs/images/wakaron/home1.jpg" width=500>
-<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/docs/images/wakaron/home2.jpg" width=500>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/home1.jpg" width=500>
+<img src="https://github.com/hikarimusic/hikarimusic.github.io/raw/main/images/wakaron/home2.jpg" width=500>
