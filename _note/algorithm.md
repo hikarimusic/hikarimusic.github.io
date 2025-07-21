@@ -1510,39 +1510,50 @@ int mod_binom(int n, int k, int m) {
 
 ### Mod Library / MODライブラリ
 ```cpp
-ll madd(ll a, ll b) {
+long long madd(long long a, long long b) {
     return (a % MOD + b % MOD) % MOD;
 }
 
-ll mmin(ll a, ll b) {
+long long mmin(long long a, long long b) {
     return ((a % MOD - b % MOD) + MOD) % MOD;
 }
 
-ll mmul(ll a, ll b) {
+long long mmul(long long a, long long b) {
     return ((a % MOD) * (b % MOD)) % MOD;
 }
 
-ll extgcd(ll a, ll b, ll& x, ll& y) {
+long long extgcd(long long a, long long b, long long& x, long long& y) {
     if (b == 0) {
         x = 1;
         y = 0;
         return a;
     }
-    ll g, x1, y1;
+    long long g, x1, y1;
     g = extgcd(b, a % b, x1, y1);
     x = y1;
     y = x1 - y1 * (a / b);
     return g;
 }
 
-ll minv(ll a) {
-    ll x, y;
+long long minv(long long a) {
+    long long x, y;
     extgcd(a%MOD, MOD, x, y);
     return ((x % MOD) + MOD) % MOD;
 }
 
-ll mdiv(ll a, ll b) {
+long long mdiv(long long a, long long b) {
     return mmul(a%MOD, minv(b%MOD));
+}
+
+long long mpow(long long x, long long n) {
+    long long res = 1;
+    while (n>0) {
+        if (n&1)
+            res = res * x % MOD;
+        x = x * x % MOD;
+        n >>= 1;
+    }
+    return res;
 }
 ```
 
