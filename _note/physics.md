@@ -1138,7 +1138,8 @@ $$
 & \rho\mathbf{E} + \mathbf{J} \times \mathbf{B} \\
 =& \varepsilon_0(\nabla \cdot \mathbf{E})\mathbf{E} + \left(\frac{1}{\mu_0}\nabla \times \mathbf{B} - \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right) \times \mathbf{B} \\
 =& \varepsilon_0(\nabla \cdot \mathbf{E})\mathbf{E} - \frac{1}{\mu_0} \mathbf{B} \times (\nabla \times \mathbf{B}) - \varepsilon_0 \mathbf{E} \times (\nabla \times \mathbf{E}) - \varepsilon_0 \frac{\partial}{\partial t} (\mathbf{E} \times \mathbf{B}) \\
-=& \varepsilon_0(\nabla \cdot \mathbf{E})\mathbf{E} - \frac{1}{2\mu_0} \nabla(B^2) + \frac{1}{\mu_0} (\mathbf{B} \cdot \nabla)\mathbf{B} - \frac{\varepsilon_0}{2}\nabla(E^2) + \varepsilon_0(\mathbf{E} \cdot \nabla)\mathbf{E} - \varepsilon_0 \frac{\partial}{\partial t} (\mathbf{E} \times \mathbf{B}) \\
+=& \varepsilon_0(\nabla \cdot \mathbf{E})\mathbf{E} - \frac{1}{2\mu_0} \nabla(B^2) + \frac{1}{\mu_0} (\mathbf{B} \cdot \nabla)\mathbf{B} \\
+&- \frac{\varepsilon_0}{2}\nabla(E^2) + \varepsilon_0(\mathbf{E} \cdot \nabla)\mathbf{E} - \varepsilon_0 \frac{\partial}{\partial t} (\mathbf{E} \times \mathbf{B}) \\
 =& \varepsilon_0\left[(\nabla \cdot \mathbf{E})\mathbf{E} + (\mathbf{E} \cdot \nabla)\mathbf{E}\right] + \frac{1}{\mu_0}\left[(\nabla \cdot \mathbf{B})\mathbf{B} + (\mathbf{B} \cdot \nabla)\mathbf{B}\right] \\
 &- \nabla\left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) - \varepsilon_0 \frac{\partial}{\partial t} (\mathbf{E} \times \mathbf{B}) \\
 =& \nabla \cdot \overleftrightarrow{T} - \frac{\partial}{\partial t} (\varepsilon_0 \mathbf{E} \times \mathbf{B}) \\
@@ -1178,8 +1179,9 @@ $$
 {: .notice--info}
 
 $$
-c\rho = \frac{\rho_0}{\sqrt{1 - \frac{u^2}{c^2}}} = \rho_0 \frac{c}{\sqrt{1 - \frac{u^2}{c^2}}} \\
+c\rho = \rho_0 \frac{c}{\sqrt{1 - \frac{u^2}{c^2}}} \\
 \mathbf{J} = \rho \mathbf{v} = \rho_0 \frac{\mathbf{v}}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+J^{\mu} = \rho_0 v^{\mu} \\
 \frac{\partial J^{\mu}}{\partial x^{\mu}} = \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = 0
 $$
 {: .notice--primary}
@@ -1193,8 +1195,7 @@ F^{\mu \nu} =
 -\frac{E_x}{c} & 0 & B_z & -B_y \\
 -\frac{E_y}{c} & -B_z & 0 & B_x \\
 -\frac{E_z}{c} & B_y & -B_x & 0
-\end{pmatrix}
-\quad
+\end{pmatrix} \\
 G^{\mu \nu} =
 \begin{pmatrix}
 0 & B_x & B_y & B_z \\
@@ -1241,15 +1242,14 @@ $$
 = 0 \\
 \end{aligned} \\
 \begin{aligned}
-\frac{F_x}{\sqrt{1 - \frac{v^2}{c^2}}}
+\frac{F_x}{\sqrt{1 - \frac{v^2}{c^2}}} &= \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
+\left( q \mathbf{E} + q \mathbf{v} \times \mathbf{B} \right)_x \\
 &= q \left[
 \frac{-c}{\sqrt{1 - \frac{v^2}{c^2}}}
 \left( \frac{-E_x}{c} \right)
 + \frac{v_y}{\sqrt{1 - \frac{v^2}{c^2}}} B_z
 - \frac{v_z}{\sqrt{1 - \frac{v^2}{c^2}}} B_y
-\right] \\
-&= \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
-\left( q \mathbf{E} + q \mathbf{v} \times \mathbf{B} \right)_x
+\right]
 \end{aligned}
 $$
 {: .notice--primary}
@@ -1266,14 +1266,8 @@ $$
 
 $$
 \begin{aligned}
-F^{01} &= -\frac{1}{c} \frac{\partial A_x}{\partial t}
-- \frac{1}{c} \frac{\partial V}{\partial x}
-= -\frac{1}{c} \left( \frac{\partial \mathbf{A}}{\partial t}
-+ \nabla V \right)_x
-= \frac{E_x}{c} \\
-F^{12} &= \frac{\partial A_y}{\partial x}
-- \frac{\partial A_x}{\partial y}
-= (\nabla \times \mathbf{A})_z = B_z
+F^{01} &= \frac{E_x}{c} = -\frac{1}{c} \left( \frac{\partial \mathbf{A}}{\partial t} + \nabla V \right)_x = -\frac{1}{c} \frac{\partial A_x}{\partial t} - \frac{1}{c} \frac{\partial V}{\partial x} \\
+F^{12} &= B_z = (\nabla \times \mathbf{A})_z = \frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}
 \end{aligned} \\
 \begin{aligned}
 \left( -\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2 \right) \frac{V}{c}

@@ -1508,7 +1508,7 @@ int mod_binom(int n, int k, int m) {
 }
 ```
 
-### Mod Library / MODライブラリ
+### Mod Library / Modライブラリ
 ```cpp
 long long madd(long long a, long long b) {
     return (a % MOD + b % MOD) % MOD;
