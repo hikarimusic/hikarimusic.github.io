@@ -11,7 +11,7 @@ Equations of fundamental physics.
 
 {% include toc %}
 
-# Analytical Mechanics / 解析力学
+# Classical Mechanics / 古典力学
 
 ## Newtonian Mechanics / Newton力学
 
@@ -1152,14 +1152,153 @@ $$
 $$
 {: .notice--primary}
 
-
 ## Electrostatics / 静電場
+
+### Electric Field / 電場
+
+$$
+\begin{aligned}
+& \nabla \cdot \mathbf{E} = \frac{1}{\varepsilon_0} \rho && \oint_S \mathbf{E} \cdot d\mathbf{a} = \frac{1}{\varepsilon_0} Q \\
+& \nabla \times \mathbf{E} = 0 && \oint_C \mathbf{E} \cdot d\mathbf{l} = 0 \\
+\end{aligned} \\
+\mathbf{E}(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0} \int_V \frac{\rho(\mathbf{r}')\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \, d\tau'
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\nabla \cdot \mathbf{E}(\mathbf{r}) &= \frac{1}{4\pi\varepsilon_0} \int_V \nabla \cdot \left(\frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2}\right) \rho(\mathbf{r}') \, d\tau' \\
+&= \frac{1}{4\pi\varepsilon_0} \int_V 4\pi\delta^3(\mathbf{r}-\mathbf{r}') \rho(\mathbf{r}') \, d\tau' \\
+&= \frac{1}{\varepsilon_0} \rho(\mathbf{r})
+\end{aligned} \\
+\begin{aligned}
+\nabla \times \mathbf{E}(\mathbf{r}) &= \frac{1}{4\pi\varepsilon_0} \int_V \nabla \times \left(\frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2}\right) \rho(\mathbf{r}') \, d\tau' \\
+&= 0
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Electric Potential / 電位
+
+$$
+\mathbf{E} = -\nabla V \\
+\nabla^2 V = -\frac{1}{\varepsilon_0} \rho \\
+V(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0} \int_V \frac{\rho(\mathbf{r}')}{\vec{r}} d\tau'
+$$
+{: .notice--info}
+
+$$
+\nabla \times \mathbf{E} = -\nabla \times \nabla V = 0 \\
+\nabla \cdot \mathbf{E} = -\nabla^2 V = \frac{1}{\varepsilon_0} \rho \\
+\begin{aligned}
+\nabla^2 V(\mathbf{r}) &= \frac{1}{4\pi\varepsilon_0} \int_V \nabla^2 \left(\frac{1}{\vec{r}}\right) \rho(\mathbf{r}') d\tau' \\
+&= \frac{1}{4\pi\varepsilon_0} \int_V -4\pi \delta^3(\mathbf{r}-\mathbf{r}') \rho(\mathbf{r}') d\tau' \\
+&= -\frac{1}{\varepsilon_0} \rho(\mathbf{r})
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Electric Energy / 電気エネルギー
+
+$$
+\begin{aligned}
+\Delta W &= q \Delta V \\
+W &= \frac{1}{2} \int_V \rho V \, d\tau \\
+W &= \frac{\varepsilon_0}{2} \int_V E^2 \, d\tau
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\Delta W = \int_a^b \mathbf{F} \cdot d\mathbf{l} = \int_a^b q\mathbf{E} \cdot d\mathbf{l} = q \Delta V \\
+\begin{aligned}
+W &= \sum_i \sum_{j<i} q_i V_{ij} \\
+&= \frac{1}{2} \sum_i \sum_j q_i V_{ij} \\
+&= \frac{1}{2} \sum_i q_i V_i \\
+&= \frac{1}{2} \int_V \rho V \, d\tau \\
+&= \frac{\varepsilon_0}{2} \int_V (\nabla \cdot \mathbf{E}) V \, d\tau \\
+&= \frac{\varepsilon_0}{2} \left[ \oint_S (\mathbf{E}V) \cdot d\mathbf{a} - \int_V \mathbf{E} \cdot (\nabla V) \, d\tau \right] \\
+&= \frac{\varepsilon_0}{2} \int_V E^2 \, d\tau
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Electric Dipole / 電気双極子
+
+$$
+V(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0} \sum_{n=0}^{\infty} \frac{1}{r^{n+1}} \int_V (\mathbf{r}')^n P_n(\cos\alpha) \rho(\mathbf{r}') d\tau' \\
+p = qd \\
+V_{\text{dip}} = \frac{1}{4\pi\varepsilon_0} \frac{p\cos\theta}{r^2} \\
+\mathbf{E}_{\text{dip}} = \frac{1}{4\pi\varepsilon_0} \frac{p(2\cos\theta \hat{\mathbf{r}} + \sin\theta \hat{\boldsymbol{\theta}})}{r^3}
+$$
+{: .notice--info}
+
+$$
+\frac{1}{\vec{r}} = \frac{1}{\sqrt{r^2 + (r')^2 - 2rr'\cos\alpha}} = \frac{1}{r} \sum_{n=0}^{\infty} \left(\frac{r'}{r}\right)^n P_n(\cos\alpha) \\
+\begin{aligned}
+V(\mathbf{r}) &= \frac{1}{4\pi\varepsilon_0} \int_V \frac{\rho(\mathbf{r}')}{\vec{r}} d\tau' \\
+&= \frac{1}{4\pi\varepsilon_0} \int_V \sum_{n=0}^{\infty} \frac{(r')^n}{r^{n+1}} P_n(\cos\alpha) \rho(\mathbf{r}') d\tau' \\
+&= \frac{1}{4\pi\varepsilon_0} \sum_{n=0}^{\infty} \frac{1}{r^{n+1}} \int_V (r')^n P_n(\cos\alpha) \rho(\mathbf{r}') d\tau'
+\end{aligned} \\
+\begin{aligned}
+V_{\text{dip}} &= \frac{1}{4\pi\varepsilon_0} \frac{1}{r^2} \int_V r' (\cos\alpha) \rho(\mathbf{r}') d\tau' \\
+&= \frac{1}{4\pi\varepsilon_0} \frac{1}{r^2} \int_V (\mathbf{r}' \cdot \hat{\mathbf{r}}) \rho(\mathbf{r}') d\tau' \\
+&= \frac{1}{4\pi\varepsilon_0} \frac{q}{r^2} \mathbf{d} \cdot \hat{\mathbf{r}} \\
+&= \frac{1}{4\pi\varepsilon_0} \frac{qd\cos\theta}{r^2}
+\end{aligned} \\
+\begin{aligned}
+\mathbf{E}_{\text{dip}} &= -\nabla V_{\text{dip}} \\
+&= \frac{1}{4\pi\varepsilon_0} \frac{qd(2\cos\theta \hat{\mathbf{r}} + \sin\theta \hat{\boldsymbol{\theta}})}{r^3}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Uniqueness Theorem / 一意性定理
+
+$$
+\begin{aligned}
+&\rho_1^{\text{volume}} = \rho_2^{\text{volume}}, && V_1^{\text{boundary}} = V_2^{\text{boundary}} \rightarrow &&V_1^{\text{volume}} = V_2^{\text{volume}} \\
+& \rho_1^{\text{volume}} = \rho_2^{\text{volume}}, && Q_1^{\text{boundary}} = Q_2^{\text{boundary}} \rightarrow &&\mathbf{E}_1^{\text{volume}} = \mathbf{E}_2^{\text{volume}}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\nabla^2 V_3 = \nabla^2 V_1 - \nabla^2 V_2 = -\frac{\rho_1}{\varepsilon_0} + \frac{\rho_2}{\varepsilon_0} = 0 \\
+V_3^\Sigma = V_1^\Sigma - V_2^\Sigma = 0 \\
+V_3 = 0 \rightarrow V_1 = V_2 \\
+\nabla \cdot \mathbf{E}_3 = \nabla \cdot \mathbf{E}_1 - \nabla \cdot \mathbf{E}_2 = \frac{\rho_1}{\varepsilon_0} - \frac{\rho_2}{\varepsilon_0} = 0 \\
+\oint_S \mathbf{E}_3 \cdot d\mathbf{a} = \oint_S \mathbf{E}_1 \cdot d\mathbf{a} - \oint_S \mathbf{E}_2 \cdot d\mathbf{a} = \frac{Q_1}{\varepsilon_0} - \frac{Q_2}{\varepsilon_0} = 0 \\
+\nabla \cdot (V_3 \mathbf{E}_3) = (\nabla V_3) \cdot \mathbf{E}_3 + V_3 (\nabla \cdot \mathbf{E}_3) = -{E_3}^2 \\
+\begin{aligned}
+\int_V \nabla \cdot (V_3 \mathbf{E}_3) d\tau &= \oint_S V_3 \mathbf{E}_3 \cdot d\mathbf{a} = \sum V_3 \oint_S \mathbf{E}_3 \cdot d\mathbf{a} \\
+&= 0 = -\int_V {E_3}^2 d\tau 
+\end{aligned}\\
+\mathbf{E}_3 = 0 \rightarrow \mathbf{E}_1 = \mathbf{E}_2
+$$
+{: .notice--primary}
+
+### Capacitor / コンデンサー
+
+$$
+Q = CV \\
+I = C \frac{dV}{dt} \\
+W = \frac{1}{2}CV^2 \\
+$$
+{: .notice--info}
+
+$$
+I = \frac{dQ}{dt} = C \frac{dV}{dt} \\
+dW = dQ \cdot V = CV \, dV \\
+W = \frac{1}{2}CV^2
+$$
+{: .notice--primary}
 
 ## Magnetostatics / 静磁場
 
-## Electrical Circuit / 電気回路
-
 ## Electromagnetism in Matter / 物質中の電磁気学
+
+## Electrical Circuit / 電気回路
 
 ## Electrodynamics / 電気力学
 
@@ -1278,7 +1417,7 @@ F^{12} &= B_z = (\nabla \times \mathbf{A})_z = \frac{\partial A_y}{\partial x} -
 $$
 {: .notice--primary}
 
-# Statistical Mechanics / 統計力学
+# Thermodynamics / 熱力学
 
 ## First Law of Thermodynamics / 熱力学第一法則
 
