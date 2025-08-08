@@ -407,7 +407,7 @@ Essences of clinical medicine.
   * **[Chest X-ray] Blunting of costophrenic angles, meniscus sign**: Fluid layering in dependent portions of pleural space
   * **[CT] Fluid collection, underlying pathology**: Better visualization of fluid distribution and causative lesions
   * **[Ultrasound] Anechoic fluid collection**: Real-time visualization, guides thoracentesis
-  * **[Pleural fluid analysis] Light's criteria, cell count, culture, cytology**: Differentiate transudative vs exudative causes
+  * **[Pleural fluid analysis] Light's criteria (protein, LDH), cell count, culture, cytology**: Differentiate transudative vs exudative causes
 * **Management**
   * **Thoracentesis**: Diagnostic sampling and symptomatic relief by fluid removal
   * **Chest tube drainage**: For large effusions or empyema to achieve complete drainage
