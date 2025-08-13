@@ -3650,20 +3650,31 @@ Essences of clinical medicine.
 {: .notice--info}
 
 ### Hepatocellular Carcinoma / 肝細胞癌
+<!-- 2025/08/13 -->
 
 * **Overview**
-  * Malignant tumor from hepatocytes, characterized by multistep and multicentric carcinogenesis
-  * Common in patients with chronic liver diseases (viral hepatitis B/C, NASH)
+  * Malignant tumor arising from hepatocytes, commonly develops in setting of cirrhosis
+  * Major risk factors include chronic hepatitis B/C, alcoholic liver disease, NAFLD, aflatoxin exposure
+  * Silent until advanced stages, present with liver decompensation or mass effect, poor prognosis
 * **Presentation**
   * **Asymptomatic**: Often found during screening
+  * **RUQ pain, abdominal fullness**: Mass effect of tumor and hepatomegaly
+  * **Weight loss, fatigue, anorexia**: Cancer cachexia and metabolic dysfunction
+  * **Jaundice**: Liver dysfunction or bile duct compression/invasion by tumor
+  * **Ascites, peripheral edema**: Portal hypertension and hypoalbuminemia due to liver dysfunction
 * **Examination**
-  * **[Blood] AFP↑, PIVKA-II↑, AFP-L3↑**: Tumor markers
-  * **[Ultrasound] Well-defined nodule with halo, mosaic pattern**: Tumor with capsule and septum
-  * **[Contrast CT/MRI] Hyperenhancement in arterial phase, washout in portal/delayed phase**: Hypervascular tumor
+  * **[Blood] AFP↑, PIVKA-II↑, AFP-L3↑**: Tumor markers produced by malignant hepatocytes
+  * **[Blood] AST↑, ALT↑, bilirubin↑, albumin↓, PT prolonged**: Underlying liver dysfunction
+  * **[Ultrasound] Well-defined nodule with halo, mosaic pattern**: Tumor characteristics
+  * **[CT/MRI] Arterial enhancement, portal/delayed washout**: Hypervascular tumor
+  * **[Biopsy] Malignant hepatocytes, trabecular pattern**: Hepatocellular Carcinoma
 * **Management**
-  * **[Child-Pugh A/B, local] Resection, ablation, chemoembolization**: For local compensated tumor
-  * **[Child-Pugh A/B, metastatic] Targeted therapy**: For metastatic compensated tumor
-  * **[Child-Pugh C] Liver transplantation, palliative care**: For uncompensated tumor
+  * **[Early] Surgical resection**: Complete removal of tumor
+  * **[Early] Liver transplantation**: Curative treatment for patients meeting criteria
+  * **[Small] Radiofrequency ablation, microwave ablation**: Local destruction of tumor tissue using thermal energy
+  * **[Intermediate] Transarterial chemoembolization**: Selective delivery of chemotherapy and embolic agents to tumor via hepatic artery
+  * **[Advanced] Target therapy (sorafenib, lenvatinib), immune therpay (atezolizumab + bevacizumab)**: Target tumor growth pathways and enhance immune response
+  * **[Supportive] Management of cirrhosis complications, palliative care**: Treat underlying liver disease and symptoms
 {: .notice--info}
 
 ### Intrahepatic Cholangiocarcinoma / 肝内胆管癌
