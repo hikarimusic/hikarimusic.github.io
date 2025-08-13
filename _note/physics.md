@@ -1296,6 +1296,36 @@ $$
 
 ## Magnetostatics / 静磁場
 
+### Magnetic Field / 磁場
+
+$$
+\begin{aligned}
+& \nabla \cdot \mathbf{B} = 0 && \oint_S \mathbf{B} \cdot d\mathbf{a} = 0 \\
+& \nabla \times \mathbf{B} = \mu_0 \mathbf{J} && \oint_C \mathbf{B} \cdot d\mathbf{l} = \mu_0 I
+\end{aligned} \\
+\mathbf{B}(\mathbf{r}) = \frac{\mu_0}{4\pi} \int_V \frac{\mathbf{J}(\mathbf{r}') \times \hat{\mathbf{\vec{r}}}}{\vec{r}^2} \, d\tau'
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\nabla \cdot \mathbf{B}(\mathbf{r}) 
+&= \frac{\mu_0}{4\pi} \int_V \nabla \cdot \left[ \mathbf{J}(\mathbf{r}') \times \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \right] \, d\tau' \\
+&= \frac{\mu_0}{4\pi} \int_V -\mathbf{J}(\mathbf{r}') \cdot \left( \nabla \times \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \right) \, d\tau' \\
+&= 0
+\end{aligned} \\
+\begin{aligned}
+\nabla \times \mathbf{B}(\mathbf{r}) 
+&= \frac{\mu_0}{4\pi} \int_V \nabla \times \left[ \mathbf{J}(\mathbf{r}') \times \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \right] \, d\tau' \\
+&= \frac{\mu_0}{4\pi} \int_V \left[ \mathbf{J}(\mathbf{r}') (\nabla \cdot \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2}) - (\mathbf{J}(\mathbf{r}') \cdot \nabla) \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \right] \, d\tau' \\
+&= \frac{\mu_0}{4\pi} \int_V \mathbf{J}(\mathbf{r}') 4\pi \delta^3(\mathbf{r} - \mathbf{r}') \, d\tau' 
++ \frac{\mu_0}{4\pi} \int_V (\mathbf{J}(\mathbf{r}') \cdot \nabla') \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \, d\tau' \\ &= \mu_0 \mathbf{J}(\mathbf{r}) + \frac{\mu_0}{4\pi} \int_V \left[ \nabla'_2 \cdot \left( \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \otimes \mathbf{J}(\mathbf{r}') \right) - \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \left( \nabla' \cdot \mathbf{J}(\mathbf{r}') \right) \right] \, d\tau' \\
+&= \mu_0 \mathbf{J}(\mathbf{r}) + \frac{\mu_0}{4\pi} \oint_S \left(\frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \otimes \mathbf{J}(\mathbf{r}')\right) \cdot d\mathbf{a}' + \frac{\mu_0}{4\pi} \int_V \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \frac{\partial \rho(\mathbf{r}')}{\partial t} \, d\tau' \\
+&= \mu_0 \mathbf{J}(\mathbf{r})
+\end{aligned}
+$$
+{: .notice--primary}
+
 ## Electromagnetism in Matter / 物質中の電磁気学
 
 ## Electrical Circuit / 電気回路
