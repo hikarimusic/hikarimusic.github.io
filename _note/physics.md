@@ -1326,6 +1326,34 @@ $$
 $$
 {: .notice--primary}
 
+### Magnetic Potential / 磁位
+
+$$
+\mathbf{B} = \nabla \times \mathbf{A} \\
+\nabla^2 \mathbf{A} = -\mu_0 \mathbf{J} \\
+\mathbf{A}(\mathbf{r}) = \frac{\mu_0}{4\pi} \int_V \frac{\mathbf{J}(\mathbf{r}')}{\vec{r}} \, d\tau'
+$$
+{: .notice--info}
+
+$$
+\nabla \cdot \mathbf{B} = \nabla \cdot (\nabla \times \mathbf{A}) = 0 \\
+\nabla \times \mathbf{B} = \nabla \times (\nabla \times \mathbf{A}) 
+= \nabla(\nabla \cdot \mathbf{A}) - \nabla^2 \mathbf{A} \\
+\mathbf{A} = \mathbf{A}_0 + \nabla \lambda \\
+\mathbf{B} = \nabla \times \mathbf{A}_0 + \nabla \times \nabla \lambda 
+= \nabla \times \mathbf{A}_0 = \mathbf{B}_0 \\
+\nabla^2 \lambda = -\nabla \cdot \mathbf{A}_0 \\
+\nabla \cdot \mathbf{A} = \nabla \cdot \mathbf{A}_0 + \nabla^2 \lambda = 0 \\
+\nabla \times \mathbf{B} = -\nabla^2 \mathbf{A} = \mu_0 \mathbf{J} \\
+\begin{aligned}
+\nabla^2 \mathbf{A}(\mathbf{r}) 
+&= \frac{\mu_0}{4\pi} \int_V \nabla^2 \left( \frac{1}{\vec{r}} \right) \mathbf{J}(\mathbf{r}') \, d\tau' \\
+&= \frac{\mu_0}{4\pi} \int_V -4\pi \delta^3(\mathbf{r} - \mathbf{r}') \mathbf{J}(\mathbf{r}') \, d\tau' \\
+&= -\mu_0 \mathbf{J}(\mathbf{r})
+\end{aligned}
+$$
+{: .notice--primary}
+
 ## Electromagnetism in Matter / 物質中の電磁気学
 
 ## Electrical Circuit / 電気回路
