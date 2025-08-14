@@ -1447,7 +1447,6 @@ $$
 & W = \frac{1}{2} L I^2
 \end{aligned}
 $$
-
 {: .notice--info}
 
 $$
