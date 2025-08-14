@@ -1213,7 +1213,7 @@ $$
 \Delta W = \int_a^b \mathbf{F} \cdot d\mathbf{l} = \int_a^b q\mathbf{E} \cdot d\mathbf{l} = q \Delta V \\
 \begin{aligned}
 W &= \sum_i \sum_{j<i} q_i V_{ij} \\
-&= \frac{1}{2} \sum_i \sum_j q_i V_{ij} \\
+&= \frac{1}{2} \sum_i \sum_{j \neq i} q_i V_{ij} \\
 &= \frac{1}{2} \sum_i q_i V_i \\
 &= \frac{1}{2} \int_V \rho V \, d\tau \\
 &= \frac{\varepsilon_0}{2} \int_V (\nabla \cdot \mathbf{E}) V \, d\tau \\
@@ -1353,6 +1353,37 @@ $$
 \end{aligned}
 $$
 {: .notice--primary}
+
+### Magnetic Energy / 磁気エネルギー
+
+$$
+W = \frac{1}{2} \int_V \mathbf{J} \cdot \mathbf{A} \, d\tau \\
+W = \frac{1}{2\mu_0} \int_V B^2 \, d\tau
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\delta W &= - \delta q \oint_C \mathbf{E} \cdot d\mathbf{l} \\
+&= - \delta q \oint_S (\nabla \times \mathbf{E}) \cdot d\mathbf{a} \\
+&= I \delta t \oint_S \frac{\partial \mathbf{B}}{\partial t} \cdot d\mathbf{a} \\
+&= I \oint_S \delta \mathbf{B} \cdot d\mathbf{a} \\
+&= I \oint_S (\nabla \times \delta \mathbf{A}) \cdot d\mathbf{a} \\
+&= I \oint_C \delta \mathbf{A} \cdot d\mathbf{l} \\
+&= \int_C \mathbf{I} \cdot \delta \mathbf{A} \, dl \\
+&= \int_V \mathbf{J} \cdot \delta \mathbf{A} \, d\tau \\
+&= \int_V \frac{1}{2} \delta (\mathbf{J} \cdot \mathbf{A}) \, d\tau
+\end{aligned} \\
+\begin{aligned}
+W &= \frac{1}{2} \int_V \mathbf{J} \cdot \mathbf{A} \, d\tau \\
+&= \frac{1}{2\mu_0} \int_V (\nabla \times \mathbf{B}) \cdot \mathbf{A} \, d\tau \\
+&= \frac{1}{2\mu_0} \left[ \int_V \mathbf{B} \cdot (\nabla \times \mathbf{A}) \, d\tau - \int_V \nabla \cdot (\mathbf{A} \times \mathbf{B}) \, d\tau \right] \\
+&= \frac{1}{2\mu_0} \int_V B^2 \, d\tau - \frac{1}{2\mu_0} \oint_S (\mathbf{A} \times \mathbf{B}) \cdot d\mathbf{a} \\
+&= \frac{1}{2\mu_0} \int_V B^2 \, d\tau
+\end{aligned}
+$$
+{: .notice--primary}
+
 
 ## Electromagnetism in Matter / 物質中の電磁気学
 
