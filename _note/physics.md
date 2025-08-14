@@ -1226,10 +1226,10 @@ $$
 ### Electric Dipole / 電気双極子
 
 $$
-V(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0} \sum_{n=0}^{\infty} \frac{1}{r^{n+1}} \int_V (\mathbf{r}')^n P_n(\cos\alpha) \rho(\mathbf{r}') d\tau' \\
+V(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0} \sum_{n=0}^{\infty} \frac{1}{r^{n+1}} \int_V (r')^n P_n(\cos\alpha) \rho(\mathbf{r}') d\tau' \\
 p = qd \\
 V_{\text{dip}} = \frac{1}{4\pi\varepsilon_0} \frac{p\cos\theta}{r^2} \\
-\mathbf{E}_{\text{dip}} = \frac{1}{4\pi\varepsilon_0} \frac{p(2\cos\theta \hat{\mathbf{r}} + \sin\theta \hat{\boldsymbol{\theta}})}{r^3}
+\mathbf{E}_{\text{dip}} = \frac{1}{4\pi\varepsilon_0} \frac{p(2\cos\theta \,\hat{\mathbf{r}} + \sin\theta \,\hat{\boldsymbol{\theta}})}{r^3}
 $$
 {: .notice--info}
 
@@ -1243,12 +1243,12 @@ V(\mathbf{r}) &= \frac{1}{4\pi\varepsilon_0} \int_V \frac{\rho(\mathbf{r}')}{\ve
 \begin{aligned}
 V_{\text{dip}} &= \frac{1}{4\pi\varepsilon_0} \frac{1}{r^2} \int_V r' (\cos\alpha) \rho(\mathbf{r}') d\tau' \\
 &= \frac{1}{4\pi\varepsilon_0} \frac{1}{r^2} \int_V (\mathbf{r}' \cdot \hat{\mathbf{r}}) \rho(\mathbf{r}') d\tau' \\
-&= \frac{1}{4\pi\varepsilon_0} \frac{q}{r^2} \mathbf{d} \cdot \hat{\mathbf{r}} \\
+&= \frac{1}{4\pi\varepsilon_0} \frac{q \mathbf{d} \cdot \hat{\mathbf{r}}}{r^2} \\
 &= \frac{1}{4\pi\varepsilon_0} \frac{qd\cos\theta}{r^2}
 \end{aligned} \\
 \begin{aligned}
 \mathbf{E}_{\text{dip}} &= -\nabla V_{\text{dip}} \\
-&= \frac{1}{4\pi\varepsilon_0} \frac{qd(2\cos\theta \hat{\mathbf{r}} + \sin\theta \hat{\boldsymbol{\theta}})}{r^3}
+&= \frac{1}{4\pi\varepsilon_0} \frac{qd(2\cos\theta \,\hat{\mathbf{r}} + \sin\theta \,\hat{\boldsymbol{\theta}})}{r^3}
 \end{aligned}
 $$
 {: .notice--primary}
@@ -1271,7 +1271,7 @@ V_3 = 0 \rightarrow V_1 = V_2 \\
 \oint_S \mathbf{E}_3 \cdot d\mathbf{a} = \oint_S \mathbf{E}_1 \cdot d\mathbf{a} - \oint_S \mathbf{E}_2 \cdot d\mathbf{a} = \frac{Q_1}{\varepsilon_0} - \frac{Q_2}{\varepsilon_0} = 0 \\
 \nabla \cdot (V_3 \mathbf{E}_3) = (\nabla V_3) \cdot \mathbf{E}_3 + V_3 (\nabla \cdot \mathbf{E}_3) = -{E_3}^2 \\
 \begin{aligned}
-\int_V \nabla \cdot (V_3 \mathbf{E}_3) d\tau &= \oint_S V_3 \mathbf{E}_3 \cdot d\mathbf{a} = \sum V_3 \oint_S \mathbf{E}_3 \cdot d\mathbf{a} \\
+\int_V \nabla \cdot (V_3 \mathbf{E}_3) d\tau &= \oint_S (V_3 \mathbf{E}_3) \cdot d\mathbf{a} = \sum V_3 \oint_S \mathbf{E}_3 \cdot d\mathbf{a} \\
 &= 0 = -\int_V {E_3}^2 d\tau 
 \end{aligned}\\
 \mathbf{E}_3 = 0 \rightarrow \mathbf{E}_1 = \mathbf{E}_2
@@ -1281,9 +1281,11 @@ $$
 ### Capacitor / コンデンサー
 
 $$
-Q = CV \\
-I = C \frac{dV}{dt} \\
-W = \frac{1}{2}CV^2 \\
+\begin{aligned}
+Q &= CV \\
+I &= C \frac{dV}{dt} \\
+W &= \frac{1}{2}CV^2 \\
+\end{aligned}
 $$
 {: .notice--info}
 
@@ -1384,6 +1386,78 @@ W &= \frac{1}{2} \int_V \mathbf{J} \cdot \mathbf{A} \, d\tau \\
 $$
 {: .notice--primary}
 
+### Magnetic Dipole / 磁気双極子
+
+$$
+\mathbf{A}(\mathbf{r}) = \frac{\mu_0}{4\pi} \sum_{n=0}^{\infty} \frac{1}{r^{n+1}} \int_V (r')^n P_n(\cos\alpha) \mathbf{J}(\mathbf{r}') \, d\tau' \\
+m = I a \\
+\mathbf{A}_{\text{dip}} = \frac{\mu_0}{4\pi} \frac{m \sin\theta \, \hat{\boldsymbol{\phi}}}{r^2} \\
+\mathbf{B}_{\text{dip}} = \frac{\mu_0}{4\pi} \frac{m( 2\cos\theta \, \hat{\mathbf{r}} + \sin\theta \, \hat{\boldsymbol{\theta}} )}{r^3}
+$$
+{: .notice--info}
+
+$$
+\frac{1}{\vec{r}} = \frac{1}{\sqrt{r^2 + (r')^2 - 2rr'\cos\alpha}} = \frac{1}{r} \sum_{n=0}^{\infty} \left(\frac{r'}{r}\right)^n P_n(\cos\alpha) \\
+\begin{aligned}
+\mathbf{A}(\mathbf{r}) &= \frac{\mu_0}{4\pi} \int_V \frac{\mathbf{J}(\mathbf{r}')}{\vec{r}} \, d\tau' \\
+&= \frac{\mu_0}{4\pi} \int_V \sum_{n=0}^{\infty} \frac{(r')^n}{r^{n+1}} P_n(\cos\alpha) \mathbf{J}(\mathbf{r}') \, d\tau' \\
+&= \frac{\mu_0}{4\pi} \sum_{n=0}^{\infty} \frac{1}{r^{n+1}} \int_V (r')^n P_n(\cos\alpha) \mathbf{J}(\mathbf{r}') \, d\tau'
+\end{aligned} \\
+\begin{aligned}
+\mathbf{A}_{\text{dip}} &= \frac{\mu_0}{4\pi} \frac{1}{r^2} \oint_C r' (\cos\alpha)  I \,d\mathbf{l}' \\
+&= \frac{\mu_0}{4\pi} \frac{I}{r^2} \oint_C \mathbf{r}' \cdot \hat{\mathbf{r}} \,d\mathbf{l}' \\
+&= \frac{\mu_0}{4\pi} \frac{I\mathbf{a} \times \hat{\mathbf{r}}}{r^2} \\
+&= \frac{\mu_0}{4\pi} \frac{I a \sin\theta \, \hat{\boldsymbol{\phi}}}{r^2}
+\end{aligned} \\
+\begin{aligned}
+\mathbf{B}_{\text{dip}} &= \nabla \times \mathbf{A}_{\text{dip}} \\
+&= \frac{\mu_0}{4\pi} \frac{I a ( 2\cos\theta \, \hat{\mathbf{r}} + \sin\theta \, \hat{\boldsymbol{\theta}} )}{r^3}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Electromagnetic Induction / 電磁誘導
+
+$$
+\begin{aligned}
+& \mathcal{E} = \int_C (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l} \\
+& \mathcal{E} = - \frac{d}{dt} \int_S \mathbf{B} \cdot d\mathbf{a}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\mathcal{E} &= \frac{1}{q} \int_C q \, (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l} \\
+&= \int_C (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l} \\
+\mathcal{E} &= \frac{1}{q} \oint_C q\mathbf{E} \cdot d\mathbf{l} \\
+&= \int_S (\nabla \times \mathbf{E}) \cdot d\mathbf{a} \\
+&= \int_S -\frac{\partial \mathbf{B}}{\partial t} \cdot d\mathbf{a} \\
+&= - \frac{d}{dt} \int_S \mathbf{B} \cdot d\mathbf{a}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Inductor / インダクタ
+
+$$
+\begin{aligned}
+& \Phi = L I \\
+& V = L \frac{dI}{dt} \\
+& W = \frac{1}{2} L I^2
+\end{aligned}
+$$
+
+{: .notice--info}
+
+$$
+\begin{aligned}
+V &= \frac{d\Phi}{dt} = L \frac{dI}{dt} \\
+dW &=I\,dt \cdot L \frac{dI}{dt} = L I \, dI \\
+W &= \frac{1}{2} L I^2
+\end{aligned}
+$$
+{: .notice--primary}
 
 ## Electromagnetism in Matter / 物質中の電磁気学
 
