@@ -131,3 +131,5 @@ tags:
 そして君は 青い猫のように 
 
 こっそりと 抜け出して 行く
+
+**Download**: [青猫の駅.m4a](https://drive.google.com/file/d/1z9jBHFxOcODuW8vlmA5eB6NbMCyRTMpH/view?usp=sharing)
