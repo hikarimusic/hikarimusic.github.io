@@ -1458,6 +1458,8 @@ W &= \frac{1}{2} L I^2
 $$
 {: .notice--primary}
 
+## Electromagnetism in Matter / 物質中の電磁気学
+
 ### Polarization / 分極
 
 $$
