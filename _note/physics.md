@@ -1458,15 +1458,185 @@ W &= \frac{1}{2} L I^2
 $$
 {: .notice--primary}
 
-## Electromagnetism in Matter / 物質中の電磁気学
+### Polarization / 分極
 
-## Electrical Circuit / 電気回路
+$$
+\begin{aligned}
+\mathbf{N} &= \mathbf{p} \times \mathbf{E} \\
+\mathbf{F} &= \nabla (\mathbf{p} \cdot \mathbf{E})
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\mathbf{N} &= \int_V \mathbf{r}' \times \left( \rho(\mathbf{r}') \, d\tau' \mathbf{E} \right) \\
+&= \left( \int_V \mathbf{r}' \rho(\mathbf{r}') \, d\tau' \right) \times \mathbf{E}
+\end{aligned} \\
+\begin{aligned}
+\mathbf{F} &= \int_V \rho(\mathbf{r}') \, d\tau' \, \mathbf{E} \\
+&= \int_V \rho(\mathbf{r}') \, d\tau' \left[ \mathbf{E}_0 + \mathbf{r}' \cdot (\nabla \mathbf{E})_0 \right] \\
+&= \left( \int_V \rho(\mathbf{r}') \, d\tau' \right) \mathbf{E}_0 
++ \left( \int_V \mathbf{r}' \rho(\mathbf{r}') \, d\tau' \right) \cdot \nabla \mathbf{E} \\
+&= \nabla \left[ \left( \int_V \mathbf{r}' \rho(\mathbf{r}') \, d\tau' \right) \cdot \mathbf{E} \right]
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Electric Displacement / 電束密度
+
+$$
+\rho_b = -\nabla \cdot \mathbf{P} \quad 
+ \sigma_b = \mathbf{P} \cdot \hat{\mathbf{n}} \\
+\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P} = \varepsilon \mathbf{E} \\
+ \nabla \cdot \mathbf{D} = \rho_f
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+V &= \frac{1}{4\pi \varepsilon_0} \int_V \frac{\mathbf{P}(\mathbf{r}') \cdot \hat{\mathbf{\vec{r}}}}{\vec{r}^2} \, d\tau' \\
+&= \frac{1}{4\pi \varepsilon_0} \int_V \mathbf{P}(\mathbf{r}') \cdot \nabla' \left(\frac{1}{\vec{r}}\right) \, d\tau' \\
+&= \frac{1}{4\pi \varepsilon_0} \int_V \left[-\frac{1}{\vec{r}}\nabla' \cdot \mathbf{P}(\mathbf{r}') + \nabla' \cdot \left(\frac{\mathbf{P}(\mathbf{r}')}{\vec{r}}\right)\right] d\tau' \\
+&= \frac{1}{4\pi \varepsilon_0} \int_V \frac{-\nabla' \cdot \mathbf{P}(\mathbf{r}')}{\vec{r}} \, d\tau' 
++ \frac{1}{4\pi \varepsilon_0} \oint_S \frac{\mathbf{P}(\mathbf{r}')}{\vec{r}} \cdot d\mathbf{a}' \\
+&= \frac{1}{4\pi \varepsilon_0} \int_V \frac{\rho_b(\mathbf{r}')}{\vec{r}} \, d\tau' 
++ \frac{1}{4\pi \varepsilon_0} \oint_S \frac{\sigma_b(\mathbf{r}')}{\vec{r}} \, da'
+\end{aligned} \\
+\nabla \cdot \mathbf{E} = \frac{1}{\varepsilon_0} \left(\rho_f - \nabla \cdot \mathbf{P}\right) \\
+\nabla \cdot \left(\varepsilon_0 \mathbf{E} + \mathbf{P}\right) = \rho_f
+$$
+{: .notice--primary}
+
+### Magnetization / 磁化
+
+$$
+\begin{aligned}
+\mathbf{N} &= \mathbf{m} \times \mathbf{B} \\
+\mathbf{F} &= \nabla (\mathbf{m} \cdot \mathbf{B})
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\mathbf{N} 
+&= \oint_C \mathbf{r}' \times \left( I \, d\mathbf{l}' \times \mathbf{B} \right) \\
+&= I \oint_C d\mathbf{l}' \left( \mathbf{r}' \cdot \mathbf{B} \right) - I \oint_C \mathbf{B} \left( \mathbf{r}' \cdot d\mathbf{l}' \right) \\
+&= (I \, \mathbf{a}) \times \mathbf{B}
+\end{aligned} \\
+\begin{aligned}
+\mathbf{F} 
+&= \oint_C I \, d\mathbf{l}' \times \mathbf{B} \\
+&= I \oint_C d\mathbf{l}' \times \left[ \mathbf{B}_0 + \mathbf{r}' \cdot (\nabla \mathbf{B})_0 \right] \\
+&= \left( I \oint_C d\mathbf{l}' \right) \times \mathbf{B}_0 
++ I \oint_C d\mathbf{l}' \times \left[ \mathbf{r}' \cdot (\nabla \mathbf{B})_0 \right] \\
+&= \nabla \left[ \left(I \, \mathbf{a} \right) \cdot \mathbf{B} \right]
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Auxiliary Field / 補助磁場
+
+$$
+\mathbf{J}_b = \nabla \times \mathbf{M} \quad 
+ \mathbf{K}_b = \mathbf{M} \times \hat{\mathbf{n}} \\
+\mathbf{H} = \frac{1}{\mu_0} \mathbf{B} - \mathbf{M} = \frac{1}{\mu} \mathbf{B} \\ 
+\nabla \times \mathbf{H} = \mathbf{J}_f
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\mathbf{A}(\mathbf{r}) 
+&= \frac{\mu_0}{4\pi} \int_V \frac{\mathbf{M}(\mathbf{r}') \times \hat{\mathbf{\vec{r}}}}{\vec{r}^2} \, d\tau' \\
+&= \frac{\mu_0}{4\pi} \int_V \mathbf{M}(\mathbf{r}') \times \nabla' \left(\frac{1}{\vec{r}}\right) d\tau' \\
+&= \frac{\mu_0}{4\pi} \int_V \left[ \frac{1}{\vec{r}}\nabla' \times \mathbf{M}(\mathbf{r}') - \nabla' \times \left(\frac{\mathbf{M}(\mathbf{r}')}{\vec{r}}\right) \right] d\tau' \\
+&= \frac{\mu_0}{4\pi} \int_V \frac{\nabla' \times \mathbf{M}(\mathbf{r}')}{\vec{r}} \, d\tau' 
++ \frac{\mu_0}{4\pi} \oint_S \frac{\mathbf{M}(\mathbf{r}')}{\vec{r}} \times d\mathbf{a}' \\
+&= \frac{\mu_0}{4\pi} \int_V \frac{\mathbf{J}_b(\mathbf{r}')}{\vec{r}} \, d\tau' 
++ \frac{\mu_0}{4\pi} \oint_S \frac{\mathbf{K}_b(\mathbf{r}')}{\vec{r}} \, da
+\end{aligned} \\
+\nabla \times \mathbf{B} = \mu_0 (\mathbf{J}_f + \nabla \times \mathbf{M}) \\
+\nabla \times \left(\frac{1}{\mu_0} \mathbf{B} - \mathbf{M}\right) = \mathbf{J}_f
+$$
+{: .notice--primary}
+
+### Maxwell's Equations in Matter / 物質中のMaxwell方程式
+
+$$
+\begin{aligned}
+& \nabla \cdot \mathbf{D} = \rho_f \\
+& \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \\
+& \nabla \cdot \mathbf{B} = 0 \\
+& \nabla \times \mathbf{H} = \mathbf{J}_f + \frac{\partial \mathbf{D}}{\partial t}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\rho &= \rho_f + \rho_b \\
+&= \rho_f - \nabla \cdot \mathbf{P}
+\end{aligned} \\
+\begin{aligned}
+\mathbf{J} &= \mathbf{J}_f + \mathbf{J}_b + \mathbf{J}_p \\
+&= \mathbf{J}_f + \nabla \times \mathbf{M} + \frac{\partial \mathbf{P}}{\partial t}
+\end{aligned} \\
+\nabla \cdot \mathbf{E} = \frac{1}{\varepsilon_0} \left( \rho_f - \nabla \cdot \mathbf{P} \right) \\
+\nabla \cdot \left( \varepsilon_0 \mathbf{E} + \mathbf{P} \right) = \rho_f \\
+\nabla \times \mathbf{B} 
+= \mu_0 \left( \mathbf{J}_f + \nabla \times \mathbf{M} + \frac{\partial \mathbf{P}}{\partial t} \right) 
++ \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \\
+\nabla \times \left( \frac{1}{\mu_0} \mathbf{B} - \mathbf{M} \right) 
+= \mathbf{J}_f + \frac{\partial}{\partial t} \left( \varepsilon_0 \mathbf{E} + \mathbf{P} \right)
+$$
+{: .notice--primary}
+
+### Boundary Conditions / 境界条件
+
+$$
+\begin{aligned}
+& \mathbf{D}_{1n} - \mathbf{D}_{2n} = \sigma_f \,\hat{\mathbf{n}} \\
+& \mathbf{E}_{1t} - \mathbf{E}_{2t} = 0 \\
+& \mathbf{B}_{1n} - \mathbf{B}_{2n} = 0 \\
+& \mathbf{H}_{1t} - \mathbf{H}_{2t} = \mathbf{K}_f \times \hat{\mathbf{n}}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}
+\oint_S \mathbf{D} \cdot d\mathbf{a} 
+&= \mathbf{D}_{1n}\cdot \mathbf{a} - \mathbf{D}_{2n}\cdot \mathbf{a} \\
+&= \sigma_f \,\hat{\mathbf{n}}\cdot \mathbf{a}
+\end{aligned} \\
+\begin{aligned}
+\oint_C \mathbf{E} \cdot d\mathbf{l} 
+&= \mathbf{E}_{1t}\cdot \mathbf{l} - \mathbf{E}_{2t}\cdot \mathbf{l} \\
+&= 0
+\end{aligned} \\
+\begin{aligned}
+\oint_S \mathbf{B} \cdot d\mathbf{a} 
+&= \mathbf{B}_{1n}\cdot \mathbf{a} - \mathbf{B}_{2n}\cdot \mathbf{a} \\
+&= 0
+\end{aligned} \\
+\begin{aligned}
+\oint_C \mathbf{H} \cdot d\mathbf{l} 
+&= \mathbf{H}_{1t}\cdot \mathbf{l} - \mathbf{H}_{2t}\cdot \mathbf{l} \\
+&= \mathbf{K}_f \cdot (\hat{\mathbf{n}}\times \mathbf{l}) \\
+&= (\mathbf{K}_f \times \hat{\mathbf{n}}) \cdot \mathbf{l}
+\end{aligned}
+$$
+{: .notice--primary}
 
 ## Electrodynamics / 電気力学
 
 ## Electromagnetic Wave / 電磁波
 
 ## Radiation / 放射
+
+## Electrical Circuit / 電気回路
 
 ## Relativistic Electrodynamics / 相対論的電気力学
 
