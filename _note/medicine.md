@@ -9752,6 +9752,33 @@ More common in middle age women (autoimmune)
 
 ## Organic Mental Disorder / 器質性精神障害
 
+### Delirium / せん妄
+<!-- 2025/08/25 -->
+
+* **Overview**
+  * Acute confusional state with altered consciousness, inattention, and cognitive dysfunction due to underlying medical condition, medication, or substance use
+  * Common in hospitalized elderly patients (10-30%), ICU patients (up to 80%), and those with predisposing factors (advanced age, dementia, multiple comorbidities)
+  * Acute onset (hours to days) with fluctuating course throughout the day, potentially reversible with proper treatment
+* **Presentation**
+  * **Altered level of consciousness, inattention, disorientation**: Disruption of arousal and attention networks in brain
+  * **Cognitive dysfunction (memory impairment, language disturbance, perceptual disturbance)**: Global cerebral dysfunction affecting multiple cognitive domains
+  * **Fluctuating symptoms, worse at night**: Circadian rhythm disruption and reduced environmental cues
+  * **Hyperactive type: agitation, restlessness, hypervigilance**: Increased dopaminergic activity and sympathetic stimulation
+  * **Hypoactive type: lethargy, reduced motor activity, withdrawal**: Decreased cholinergic activity and general CNS depression
+* **Examination**
+  * **[Mental Status] CAM-ICU positive, MMSE low, clock drawing test abnormal**: Standardized assessment tools detect core features of delirium
+  * **[Blood] Electrolyte imbalance, glucose abnormalities, BUN/Cr↑, liver enzymes↑**: Metabolic causes of delirium
+  * **[Blood] WBC↑, CRP↑, procalcitonin↑**: Infectious causes of delirium
+  * **[Blood] B12, folate, thiamine levels**: Nutritional deficiencies causing delirium
+  * **[Neuroimaging] Rule out stroke, hemorrhage, mass lesions**: Structural brain abnormalities
+  * **[EEG] Generalized slowing**: Non-specific finding of global brain dysfunction
+* **Management**
+  * **Non-pharmacological interventions (reorientation, sleep hygiene, mobility, family presence)**: Address environmental factors and provide cognitive/sensory support
+  * **Identify and treat underlying causes (infection, metabolic disturbance, medication review)**: Address precipitating factors to reverse delirium
+  * **Haloperidol (low dose), atypical antipsychotics**: Reduce agitation and psychotic symptoms through dopamine receptor blockade (use cautiously in elderly)
+  * **Avoid benzodiazepines (except alcohol/sedative withdrawal)**: May worsen delirium due to GABA enhancement and anticholinergic effects
+{: .notice--info}
+
 ## Substance Related Disorder / 物質関連障害
 
 # Ophthalmology / 眼科
