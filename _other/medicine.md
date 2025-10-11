@@ -784,6 +784,8 @@ Essences of clinical medicine.
 
 ## Dermatologic Disease / 皮膚疾患
 
+### Ichthyosis / 魚鱗癬
+
 * **Subjective**
   * Fish-like scale and dry skin, often since birth
 * **Objective**
