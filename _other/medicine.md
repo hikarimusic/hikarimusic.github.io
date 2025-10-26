@@ -780,39 +780,517 @@ Essences of clinical medicine.
 
 # Obstetrics / 産科
 
-# Pediatrics / 小児科
+## Abnormal Early Pregnancy / 妊娠初期の異常
 
-## Dermatologic Disease / 皮膚疾患
+### Spontaneous Abortion / 自然流産
 
-### Ichthyosis / 魚鱗癬
-
+* **Overview**
+  * Pregnancy loss before 22 gestational week due to fetal (early) or maternal (late) factors
+  * Fetal chromosomal anomaly: Aneuploidy, polypoidy, translocation
+  * Uterine physical defect: Leiomyoma, polyp, malformation
+  * Maternal systemic disorder: Luteal-phase defect, diabetes, hypertension, APS, coagulopathy
+  * Infection: Toxoplasma, Mycoplasma, Listeria
 * **Subjective**
-  * Fish-like scale and dry skin, often since birth
+  * Few vaginal bleeding, mild abdominal pain, closed cervical os: Threatened miscarriage
+  * Vaginal bleeding, labor-like abdominal pain, open cervical os: Progressive miscarriage
 * **Objective**
-  * [Patho] Buildup of compacted stratum corneum
+  * [Ultrasound] Gestational sac without embryo/fetus: Missed miscarriage
+* **Plan**
+  * Tocolytics: For threatened miscarriage
+  * Curettage: For progressive/missed miscarriage
+{: .notice--info}
+
+### Ectopic Pregnancy / 異所性妊娠
+
+* **Overview**
+  * Extrauterine implantation of fertilized egg (mostly fallopian tube, also peritoneum/ovary/cervix)
+  * Predisposing: Pelvic inflammatory disease, surgery history, intrauterine contraceptive device, assisted reproductive technology
+* **Subjective**
+  * Amenorrhea, abdominal pain, vaginal bleeding
+  * Acute abdominal pain, hemorrhagic shock: Tubal rupture
+* **Objective**
+  * [Blood] hCG↑
+  * [Ultrasound] Extrauterine gestational sac, intraperitoneal hemorrhage
+  * [Patho] Chorionic villi in fallopian tube
+* **Plan**
+  * Observation: Monitor hCG change
+  * Methotrexate (local, systemic)
+  * Salpingostomy, tubal resection
+{: .notice--info}
+
+### Hyperemesis Gravidarum / 妊娠悪阻
+
+* **Overview**
+  * Unresolved nausea/vomiting during pregnancy, related to endocrine changes
+* **Subjective**
+  * Nausea, vomiting: Not resolved after middle pregnancy
+  * Weight loss
+* **Objective**
+  * [Urine] Ketone (+)
+* **Plan**
+  * Eat small amounts frequently
+  * IV fluid with glucose, vitamin B1
+{: .notice--info}
+
+## Abnormal Late Pregnancy / 妊娠後期の異常
+
+### Placenta Previa / 前置胎盤
+
+* **Overview**
+  * Placenta implants in lower uterus near/over internal os, related to previous cesarean section and intrauterine surgery
+* **Subjective**
+  * [Pregnancy] Vaginal bleeding
+  * [Delivery] Massive hemorrhage
+* **Objective**
+  * [Ultrasound] Placenta covering internal os
 * **Assessment**
-  * [Type] Ichthyosis vulgaris: Filaggrin gene mutation lead to impaired water retention
-  * [Type] X-linked ichthyosis: Steroid sulfatase deficiency lead to excessive adherence of keratinocytes
-  * [Type] Congenital ichthyosiform erythroderma: Erythema without blister
-  * [Type] Epidermolytic ichthyosis: Erythema with blister
-  * [Type] Lamellar ichthyosis
+  * [Related] Vasa previa: Vessels lie across internal os, cause fetal distress during delivery
 * **Plan**
-  * Moisturizer: For dry skin
-  * Salicylic acid: Soften and remove scales
+  * Cesarean section
 {: .notice--info}
 
-### Keratosis Follicularis / 毛包性角化症
+### Placenta Accreta / 癒着胎盤
 
-* **Pathology**
-  * Chronic keratotic papules due to ATP2A2 mutation
-  * Also called Darier’s disease
+* **Overview**
+  * Placental villi penetrate decidua and invade myometrium, related to placenta previa and previous cesarean section
 * **Subjective**
-  * Dark-brown keratotic papules in seborrheic/intertriginous part, onset in adolescence
-  * With pruritus, exacerbated by sweat and sunlight
+  * Difficult placenta separation, severe postpartum bleeding
 * **Objective**
-  * [Patho] Hyperkeratosis, acantholysis
+  * [Ultrasound, MRI] Absent sonolucent zone, thinning of myometrium
+* **Assessment**
+  * [Type] Placenta accreta: Villi attach to myometrium
+  * [Type] Placenta increta: Villi invade into myometrium
+  * [Type] Placenta percreta: Villi penetrate through myometrium
 * **Plan**
-  * Retinoid
+  * Hemostasis: Uterotonic agents, compression sutures, arterial ligation, arterial balloon occlusion
+  * Hysterectomy: If failed placental separation or hemostasis
 {: .notice--info}
 
+### Placental Abruption / 常位胎盤早期剝離
+
+* **Overview**
+  * Separation of placenta from uterine wall before delivery, related to HDP, CAM, trauma
+* **Subjective**
+  * Abdominal pain, board-like uterine wall
+  * Hemorrhagic shock, DIC: Severe case
+* **Objective**
+  * [CTG] Late deceleration
+  * [Ultrasound] Retroplacental hematoma
+  * [Blood] FDP↑, D-dimer↑
+* **Plan**
+  * Emergent cesarean section
+{: .notice--info}
+
+### Chorioamnionitis / 絨毛膜羊膜炎
+
+* **Overview**
+  * Ascending infection of chorion-amnion by bacteria
+* **Subjective**
+  * Fever, tachycardia, uterine tenderness, foul vaginal discharge
+  * Preterm delivery: Due to cervical maturation, premature rupture of membrane, premature labor pain
+* **Objective**
+  * [Vaginal discharge] Lactobacillus↓, Bacteroides/Gardnerella↑, pH>4.5, granulotic elastase↑
+  * [Blood] WBC↑
+  * [Patho] Neutrophilic infiltrate of chorion-amnion, cloudy amniotic fluid
+* **Assessment**
+  * [Stage] Bacterial vaginosis: Lactobacillus replaced by anaerobics (Bacteroides/Gardnerella)
+  * [Stage] Subclinical chorioamnionitis: Vaginal discharge findings
+  * [Stage] Clinical chorioamnionitis: Maternal infection symptoms
+* **Plan**
+  * Tocolytics, corticosteroids: Subclinical chorioamnionitis
+  * Labor induction, cesarean section: Clinical chorioamnionitis
+{: .notice--info}
+
+### Cervical Insufficiency / 頸管無力症
+
+* **Overview**
+  * Cervix weakening and dilation in middle pregnancy
+* **Subjective**
+  * Miscarriage, preterm birth
+* **Objective**
+  * [Pelvic exam] Cervical effacement
+  * [Ultrasound] Cervical shortening, internal os dilation
+* **Plan**
+  * Cervical cerclage
+{: .notice--info}
+
+### Premature Delivery / 早産
+
+* **Overview**
+  * Birth in gestational week <37, causes include chorioamnionitis, cervical insufficiency, multiple pregnancy
+* **Subjective**
+  * Regular uterine contraction, vaginal bleeding: Threatened premature delivery
+  * Watery vaginal discharge, visible fetal presenting part: Premature rupture of membranes
+* **Objective**
+  * [Ultrasound] Cervical dilation and shortening: Threatened premature delivery
+  * [Vaginal discharge] pH>7, AFP(+), IGFBP-1(+), fFN(+): Premature rupture of membranes
+* **Assessment**
+  * [Condition] Threatened premature delivery: Labor onset before 37 weeks
+  * [Condition] Premature rupture of membranes: Amniotic sac rupture before labor onset
+  * [Complication] Intraventricular hemorrhage, retinopathy of prematurity, respiratory distress syndrome, patent ductus arteriosus, hyperbilirubinemia: Due to incomplete development
+  * [Complication] Cerebral palsy, sepsis, chronic lung disease, necrotizing enterocolitis: Due to fetal inflammatory response syndrome
+* **Plan**
+  * Tocolytics, corticosteroids: <34 weeks
+  * Labor induction, cesarean section: >34 weeks, or intrauterine infection or fetal distress
+{: .notice--info}
+
+### Post-term Pregnancy / 過期産
+
+* **Overview**
+  * Birth in gestational week >41
+* **Assessment**
+  * [Complication] Non-reassuring fetal status: Due to oligohydramnios
+  * [Complication] Meconium aspiration syndrome: Due to meconium staining
+  * [Complication] Shoulder dystocia: Due to excessively large infant
+* **Plan**
+  * Labor induction
+{: .notice--info}
+
+## Abnormal Fetal Status / 胎児の異常
+
+### Twin Pregnancy / 双胎妊娠
+
+* **Overview**
+  * Fertilization of two ova (dizygotic) or division of one fertilized ovum (monozygotic)
+* **Objective**
+  * [Ultrasound] Two gestational sac: Dichorionic
+  * [Ultrasound] One gestational sac, two embryos: Monochorionic
+* **Assessment**
+  * [Type] Dichorionic diamnionic: Dizytotic or monozygotic (early division)
+  * [Type] Monochorionic diamnionic: Monozygotic (intermediate division)
+  * [Type] Monochorionic monoamnionic: Monozygotic (late division)
+  * [Complication] Spontaneous abortion, premature delivery, anemia, hypertensive disorders of pregnancy
+  * [Complication] Twin-to-twin transfusion syndrome: Shunt between monochorionic twin lead to unbalanced blood flow and heart failure (recipient) or fetal growth restriction (donor)
+{: .notice--info}
+
+### Fetal Growth Restriction / 胎児発育不全
+
+* **Overview**
+  * Small-for-gestational-age fetus (weight <-1.5 SD)
+  * [Fetal] Chromosomal abnormality, congenital anomaly, fetal infection
+  * [Maternal] Preeclampsia, multiple pregnancy, alcohol, cigarette
+  * [Placental] Placental infarction, placenta previa, umbilical vascular anomalies, 
+* **Subjective**
+  * Symmetric growth restriction: Fetal factor
+  * Asymmetric growth restriction (sparing of brain): Placental or maternal factor
+{: .notice--info}
+
+### Fetal Hydrops / 胎児水腫
+
+* **Overview**
+  * Accumulation of fluid in fetus
+  * [Immune] Rh(-) mother immunized by previous RH(+) fetus RBC, IgG destruct subsequent RH(+) fetus RBC, hemolytic anemia, cardiac decompensation
+  * [Nonimmune] Cardiovascular defect (malformation, arrhythmia), chromosomal anomaly (45X, trisomy), fetal anemia (homozygous α-thalassemia, B19 infection)
+* **Subjective**
+  * Generalized edema (hydrops fetalis)
+  * Pleural fluid, peritoneal fluid, postnuchal fluid (cystic hydroma)
+  * Jaundice, kernicterus: Immune hydrops
+* **Objective**
+  * [Ultrasound] MCA peak velocity↑: Compensation for anemia
+  * [Blood] Indirect Coombs test (+): Presence of antibody
+* **Assessment**
+  * [Type] Immune hydrops
+  * [Type] Nonimmune hydrops
+* **Plan**
+  * Intrauterine fetal transfusion: For severe fetal anemia or hydrops
+  * Anti-D antibody: For maternal isoimmunization
+{: .notice--info}
+
+### Polyhydramnios / 羊水過多症
+
+* **Overview**
+  * Excessive amniotic fluid (>800mL)
+  * Causes: Idiopathic, gestational diabetes, gastrointestinal atresia (esophageal, duodenal), CNS anomaly (ancephaly, spina bifida)
+* **Subjective**
+  * [Maternal] Abdominal distension, shortness of breath
+* **Objective**
+  * [Ultrasound] AFP >8cm, AFI >24cm
+{: .notice--info}
+
+### Oligohydramnios / 羊水過少症
+
+* **Overview**
+  * Insufficient amniotic fluid (<100mL)
+  * Causes: Premature rupture of membranes, renal agenesis (Potter syndrome)
+* **Subjective**
+  * [Fetal] Pulmonary hypoplasia, limb deformity
+* **Objective**
+  * [Ultrasound] AFP <2cm, AFI <5cm
+{: .notice--info}
+
+## Complicated Pregnancy / 合併症妊娠
+
+### Gestational Diabetes Mellitus / 妊娠糖尿病
+
+* **Overview**
+  * Pregnancy complicated with preexisting (pregestational) or newly-onset (gestational) diabetes
+  * Due to insulin resistance resulting from hormonal change  (hPL)
+* **Subjective**
+  * [Fetal] Macrosomnia, hypoglycemia, malformation, stillbirth: At birth
+  * [Fetal] Obesity, diabetes: Long term
+* **Objective**
+  * [Blood] Fasting glucose ≥ 92, OGTT 1hr ≥ 180, OGTT 2hr ≥ 153: Gestational DM
+  * [Blood] Fasting glucose ≥ 126, OGTT 2hr ≥ 200, HbA1c ≥ 6.5%: Overt DM in pregnancy
+* **Assessment**
+  * [Type] Pregestational DM: DM diagnosed before pregnancy
+  * [Type] Gestational DM: Elevated glucose during pregnancy
+  * [Type] Overt DM in pregnancy: DM diagnosed during pregnancy
+  * [Course] Usually resolve after delivery, often develop DM years later
+* **Plan**
+  * Diet therapy
+  * Insulin therapy
+{: .notice--info}
+
+### Hypertensive Disorders of Pregnancy / 妊娠高血圧症候群
+
+* **Overview**
+  * Pregnancy complicated with hypertension with/without organ dysfunction, related to aging and obesity
+  * 1. Abnormal trophoblastic implantation, vascular remodeling failure
+  * 2. Placental hypoxia, release of sFlt1 (antagonize VEGF/PGI2) and endoglin (antagonize TGFβ/NO)
+  * 3. Vasoconstriction, hyperpermeability, hypercoagulability
+  * 4. Hypertension, kidney damage (preeclampsia), brain damage (eclampsia), liver damage (HELLP)
+* **Subjective**
+  * Hypertension, edema, proteinuria: Preeclampsia
+  * Headache, visual disturbance, convulsions: Eclampsia
+  * Acute abdominal pain, fatigue, nausea: HELLP
+  * Fetal growth restriction, non-reassuring fetal status
+* **Objective**
+  * [Urine] Protein (+), P/C ratio↑: Preeclampsia
+  * [MRI] Cerebral edema (posterior reversible encephalopathy syndrome): Eclampsia
+  * [Blood] Bilirubin/LDH↑, AST/ALT↑, platelet↓: HELLP
+  * [Patho, placenta] Decidual vasculopathy, villous infarction, syncytial knots 
+  * [Patho, organs] Endothelial swelling, fibrin deposition, intraparenchymal hemorrhage
+* **Assessment**
+  * [Type] Preeclampsia: Proteinuria
+  * [Type] Eclampsia: Convulsion
+  * [Type] HELLP syndrome: Hemolysis, elevated liver enzyme, low platelet
+  * [Course] Usually resolve after delivery
+* **Plan**
+  * Delivery: If possible
+  * Antihypertensive, MgSO4: Control hypertension/convulsion
+  * Airway, oxygen: For convulsion episode
+{: .notice--info}
+
+### Transplacental Infection / 経胎盤感染
+
+* **Overview**
+  * Transplacental infection from mother to fetus by virus/bacteria/parasite
+* **Subjective**
+  * [Rubella] Cataract, cardiac anomaly (PDA), hearing loss
+  * [CMV] Microcephaly, intracranial calcification, hepatosplenomegaly, jaundice, petechiae, hearing loss, chorioretinitis
+  * [B19] Hydrops fetalis, spontaneous abortion, stillbirth
+  * [Zika] Microcephaly, intracranial calcification, arthrogryposis, ocular abnormality
+  * [Treponema] Hepatosplenomegaly, rash, osteochondritis, rhinitis (snuffles), saddle nose, Hutchinson teeth, saber shins
+  * [Toxoplasma] Chorioretinitis, hydrocephalus, intracranial calcification, seizure, hepatosplenomegaly
+* **Assessment**
+  * [Pathogen] Rubella virus
+  * [Pathogen] Cytomegalovirus
+  * [Pathogen] Parvovirus B19
+  * [Pathogen] Zika virus
+  * [Pathogen] Treponema pallidum
+  * [Pathogen] Toxoplasma gondii
+{: .notice--info}
+
+### Intrapartum Infection / 産道感染
+
+* **Overview**
+  * Intrapartum infection from mother to fetus by virus/bacteria/fungus
+* **Subjective**
+  * [HSV] Neonatal herpes, mortality
+  * [VZV] Neonatal varicella, mortality
+  * [HPV] Laryngeal papilloma
+  * [HBV] Carrier, chronic hepatitis
+  * [HCV] Carrier, chronic hepatitis
+  * [HIV] Carier, AIDS
+  * [GBS] Pneumonia, meningitis, sepsis
+  * [Gonococcus] Suppurative conjunctivitis
+  * [Chlamydia] Conjunctivitis, pneumonitis
+  * [Candida] Oral thrush
+* **Assessment**
+  * [Pathogen] Herpes simplex virus
+  * [Pathogen] Varicella-zoster virus
+  * [Pathogen] Human papilloma virus (6, 11)
+  * [Pathogen] Hepatitis B virus
+  * [Pathogen] Hepatitis C virus
+  * [Pathogen] Human immunodeficiency virus
+  * [Pathogen] Group B streptococcus
+  * [Pathogen] Neisseria gonorrhea
+  * [Pathogen] Chlamydia trachomatis
+  * [Pathogen] Candida albicans
+{: .notice--info}
+
+## Abnormal Labor / 分娩の異常
+
+### Abnormal Labor Mechanism / 分娩機転の異常
+
+* **Overview**
+  * Abnormality of uterine contraction, fetal presentation, fetal attitude, fetal rotation, and others
+* **Assessment**
+  * [Contraction] Weak: Interval >6min, duration <40sec
+  * [Contraction] Strong: Interval <1min, duration >120sec
+  * [Presentation] Breech: Head up
+  * [Presentation] Transverse: Head lateral
+  * [Attitude] Vertex: Anterior + posterior fontanelle presenting
+  * [Attitude] Bregmatic: Anterior fontanelle presenting
+  * [Attitude] Brow: Forehead presenting
+  * [Attitude] Face: Eye/nose presenting
+  * [Rotation] High sagittal: Sagittal suture in longitudinal axis at high position
+  * [Rotation] Deep transverse: Sagittal suture in transverse axis at low position
+  * [Rotation] Occiput posterior: Occiput facing posterior direction
+  * [Entering] Anterior parietal: Sagittal suture displaced posteriorly 
+  * [Entering] Posterior parietal: Sagittal suture displaced anteriorly  
+  * [Canal] Cephalopelvic disproportion: Head - pelvis mismatch
+  * [Canal] Shoulder dystocia: Shoulder - pubic symphysis mismatch
+  * [Umbilical] Forelying: Cord lying below fetus
+  * [Umbilical] Prolapse: Cord prolapse out
+* **Plan**
+  * Cesarean section
+  * Labor induction
+{: .notice--info}
+
+### Non-Reassuring Fetal Status / 胎児機能不全
+
+* **Overview**
+  * Abnormality of fetal evaluation results, may indicate fetal hypoxia and acidosis
+* **Objective**
+  * [CTG] Baseline variability decrease/absence, sinusoidal pattern, bradycardia, late/variable/prolonged deceleration
+* **Assessment**
+  * [Complication] Hypoxic ischemic encephalopathy (cerebral palsy)
+* **Plan**
+  * Lateral position
+  * Adjust uterotonics, tocolysis agents
+  * Oxygen, IV fluids
+  * Labor induction: If cervix opened and head descended
+  * Cesarean section: Otherwise
+{: .notice--info}
+
+### Postpartum Hemorrhage / 分娩後異常出血
+
+* **Overview**
+  * Massive bleeding during/after delivery, due to placental separation, birth canal injury, DIC
+* **Subjective**
+  * Massive bleeding
+  * Pallor, perspiration, cyanosis, hypotension, tachycardia, tachypnea
+  * Highly-positioned and soft uterus: Atonic bleeding
+  * Sudden severe abdominal pain: Uterine rupture
+* **Objective**
+  * [Blood] Platelets↓, FDP↑, D-dimer↑: DIC
+* **Assessments**
+  * [Causes] Atonic bleeding: Poor uterine contraction due to myometrium fatigue or placenta retention
+  * [Causes] Perineal laceration: Tears involving skin (1), muscle (2), anal sphincter (3), rectal mucosa (4)
+  * [Causes] Cervical laceration: Tears involving cervix
+  * [Causes] Uterine rupture: Rupture of uterus due to surgical history or excessive uterotonics
+  * [Causes] Uterine inversion: Inversion of uterus
+  * [Causes] Placenta accreta: Difficult separation of placenta
+  * [Causes] Placental abruption: Lead to DIC due to tissue factor entering
+  * [Causes] Amniotic fluid embolism: Lead to DIC due to tissue factor entering
+* **Plan**
+  * Blood transfusion: RBC, platelets, FFP, antithrombin (if DIC)
+  * Non-surgical hemostasis: Astriction (hand, balloon), suture, uterotonics, TAE, arterial balloon catheter
+  * Surgical hemostasis: Arterial ligation, compression suture, hysterectomy
+  * Shock management: Airway, oxygen, fluid, vasopressor
+  * Autologous blood donation: Preventive
+{: .notice--info}
+
+### Amniotic Fluid Embolism / 羊水塞栓症
+
+* **Overview**
+  * Amniotic fluid entering maternal bloodstream, lead to cardiopulmonary collapse (physical embolism) and DIC (anaphylaxis-like)
+* **Subjective**
+  * Acute chest pain, dyspnea, shock, respiratory arrest, cardiac arrest: Cardiopulmonary collapse
+  * Massive hemorrhage and shock: DIC
+* **Objective**
+  * [Patho] Fetal components (mucin, ZnCP-1, STN) in pulmonary artery
+* **Plan**
+  * CPR, anti-shock therapy, anti-DIC therapy
+{: .notice--info}
+
+## Abnormal Puerperium / 産褥の異常
+
+### Subinvolution of Uterus / 子宮復古不全
+
+* **Overview**
+  * Delayed involution of uterus, often due to retention of placental tissue
+* **Subjective**
+  * Large soft uterus
+  * Persistent lochia rubra
+* **Plan**
+  * Uterotonic agent, uterine curettage
+{: .notice--info}
+
+### Puerperal Fever / 産褥熱
+
+* **Overview**
+  * Postpartum fever, often due to infection of of uterus/pelvis
+* **Subjective**
+  * Fever: ≥ 2 days
+  * Lower abdominal pain, foul-smelling lochia
+* **Plan**
+  * Antibiotics, uterine curettage
+{: .notice--info}
+
+### Venous Thromboembolism / 静脈血栓塞栓症
+
+* **Overview**
+  * Venous thromboembolism during/after pregnancy, related to obesity and cesarean section
+* **Subjective**
+  * [DVT] Pain and swelling in one leg
+  * [PTE] Acute chest pain, dyspnea
+* **Objective**
+  * [Ultrasound, DVT] Deep vein thrombus, absent blood flow
+  * [Blood, PTE]  PaO2↓, PaCO2↓
+  * [CT, PTE] Pulmonary artery thrombus, absent blood flow
+* **Assessment**
+  * [Condition] Deep vein thrombosis
+  * [Condition] Pulmonary thromboembolism
+* **Plan**
+  * Anticoagulation, thrombolytics
+  * Oxygen therapy, catheter embolectory: Pulmonary embolism
+  * Early ambulation, elastic stockings: Prevention
+{: .notice--info}
+
+## Trophoblastic Disease / 絨毛性疾患
+
+### Hydatidiform Mole / 胞状奇胎
+
+* **Overview**
+  * Abnormal proliferation of chorionic villi
+  * [Complete] Fertilization of empty ovum with one sperm + duplication (or two sperm)
+  * [Partial] Fertilization of normal ovum with two sperm
+* **Subjective**
+  * Abnormal vaginal bleeding, hyperemesis
+  * Spontaneous abortion, uterine enlargement
+* **Objective**
+  * [Blood] hCG↑
+  * [Ultrasound] Vesicular pattern, luteal cyst
+  * [Patho] Grapelike mass, villous edema, trophoblastic proliferation
+* **Assessment**
+  * [Type] Complete mole: 46XX / 46XY, without fetal tissue, higher malignancy risk
+  * [Type] Partial mole: 69XXX / 69XXY, with fetal tissue, lower malignancy risk
+  * [Type] Invasive mole: Invasion into myometrium
+* **Plan**
+  * Curettage, monitor hCG
+  * Chemotherapy: For invasive mole
+{: .notice--info}
+
+### Choriocarcinoma / 絨毛癌
+
+* **Overview**
+  * Malignant neoplasm of trophoblastic cells
+  * Following complete mole, abortion, normal pregnancy
+* **Subjective**
+  * Abnormal vaginal bleeding
+  * Cough, bloody sputum: Lung metastasis
+* **Objective**
+  * [Blood] hCG↑
+  * [Ultrasound] Hypervascular tumor
+  * [Patho] Proliferating trophoblasts without villi, invading myometrium
+* **Assessment**
+  * [Related] Placental site trophoblastic tumor: Neoplasm of intermediate trophoblasts, good prognosis
+* **Plan**
+  * Chemotherapy (etoposide, methotrexate, dactinomycin, cyclophosphamide, vincristine): Good respond
+{: .notice--info}
+
+
+# Pediatrics / 小児科
 
