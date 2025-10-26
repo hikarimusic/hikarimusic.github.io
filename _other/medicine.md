@@ -1249,7 +1249,7 @@ Essences of clinical medicine.
   * Early ambulation, elastic stockings: Prevention
 {: .notice--info}
 
-## Trophoblastic Disease / 絨毛性疾患
+## Trophoblastic Disorder / 絨毛性疾患
 
 ### Hydatidiform Mole / 胞状奇胎
 
