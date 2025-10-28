@@ -1045,10 +1045,10 @@ Essences of clinical medicine.
 
 * **Overview**
   * Pregnancy complicated with hypertension with/without organ dysfunction, related to aging and obesity
-  * 1. Abnormal trophoblastic implantation, vascular remodeling failure
-  * 2. Placental hypoxia, release of sFlt1 (antagonize VEGF/PGI2) and endoglin (antagonize TGFβ/NO)
-  * 3. Vasoconstriction, hyperpermeability, hypercoagulability
-  * 4. Hypertension, kidney damage (preeclampsia), brain damage (eclampsia), liver damage (HELLP)
+  * [Mechanism] Abnormal trophoblastic implantation, vascular remodeling failure
+  * [Mechanism] Placental hypoxia, release of sFlt1 (antagonize VEGF/PGI2) and endoglin (antagonize TGFβ/NO)
+  * [Mechanism] Vasoconstriction, hyperpermeability, hypercoagulability
+  * [Mechanism] Hypertension, kidney damage (preeclampsia), brain damage (eclampsia), liver damage (HELLP)
 * **Subjective**
   * Hypertension, edema, proteinuria: Preeclampsia
   * Headache, visual disturbance, convulsions: Eclampsia
