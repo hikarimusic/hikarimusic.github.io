@@ -778,6 +778,796 @@ Essences of clinical medicine.
 
 # Gynecology / 婦人科
 
+## Vulva Disorder / 外陰疾患
+
+### Bartholin Cyst / Bartholin腺嚢胞
+
+* **Overview**
+  * Infection of Bartholin gland due to obstruction of duct
+* **Subjective**
+  * Cyst, pain
+* **Plan**
+  * Excision, marsupialization
+{: .notice--info}
+
+### Lichen Sclerosus / 硬化性苔癬
+
+* **Overview**
+  * Chronic skin lesion, related to autoimmune
+* **Subjective**
+  * Smooth white patch/plaque, mostly on genitalia
+* **Objective**
+  * [Pathology] Thinning of epidermis, sclerosis of superficial dermis, bandlike lymphocyte infiltrate in dermis
+{: .notice--info}
+
+### Lichen Simplex Chronicus / 慢性単純性苔癬
+
+* **Overview**
+  * Chronic skin lesion, related to rubbing/scratching (squamous cell hyperplasia)
+* **Subjective**
+  * Thickened scaly plaque
+* **Objective**
+  * [Pathology] Acanthosis, hyperkeratosis
+{: .notice--info}
+
+### Vulvar Intraepithelial Neoplasia & Carcinoma / 外陰上皮内腫瘍・癌
+
+* **Overview**
+  * Premalignant and malignant neoplasm of vulvar epithelium, related or unrelated to high-risk HPV (16/18)
+* **Subjective**
+  * Gray-while papule/plaque: Vulvar intraepithelial neoplasia
+  * Exophytic or ulcerated lesion: Vulvar carcinoma
+* **Objective**
+  * [Pathology] Immature basaloid cells within epidermis: Classic vulvar intraepithelial neoplasia
+  * [Pathology] Immature basaloid cells invading dermis: Basaloid carcinoma
+  * [Pathology] Atypical but mature basal/squamous cells within epidermis: Differentiated vulvar intraepithelial neoplasia
+  * [Pathology] Atypical but mature keratinizing squamous cells invading dermis: Keratinizing squamous cell carcinoma
+* **Assessment**
+  * [Type, HPV] Classic vulvar intraepithelial neoplasia: Due to HPV infection
+  * [Type, HPV] Basaloid and warty carcinoma: From classic VIN, younger age
+  * [Type, non-HPV] Differentiated vulvar intraepithelial neoplasia: Due to long-standing lichen sclerosus or lichen simplex chronicus
+  * [Type, non-HPV] Keratinizing squamous cell carcinoma: From differentiated VIN, older age
+* **Plan**
+  * Excision, vulvectomy
+{: .notice--info}
+
+### Papillary Hidradenoma / 乳頭状汗腺腫
+
+* **Overview**
+  * Benign neoplasm of modified apocrine sweat gland
+* **Subjective**
+  * Subcutaneous nodules on labia majora or interlabial fold
+* **Objective**
+  * [Pathology] Papillary projections, columnar secretary cells and myoepithelial cells
+{: .notice--info}
+
+### Extramammary Paget Disease / 乳房外Paget病
+
+* **Overview**
+  * Malignant neoplasm of modified apocrine sweat gland within epidermis
+* **Subjective**
+  * Pruritic red patch on labia majora
+* **Objective**
+  * [Pathology] Large cells with pale cytoplasm (mucopolysaccharide), cytokeratin 7 (+)
+* **Plan**
+  * Wide excision
+{: .notice--info}
+
+## Vagina Disorder / 腟疾患
+
+### Vaginal Adenosis / 腟腺症
+
+* **Overview**
+  * Residual glandular epithelium in vagina, related to DES exposure in utero
+* **Objective**
+  * [Pathology] Columnar mutinous epithelium
+* **Assessment**
+  * [Association] Clear cell carcinoma
+{: .notice--info}
+
+### Gartner Duct Cyst / Gartner管嚢胞
+
+* **Overview**
+  * Benign cyst from residual Wolffian duct
+* **Subjective**
+  * Fluid-filled submucosal cysts in vagina lateral wall
+* **Assessment**
+  * [Related] Müllerian cyst: Mucus cyst from müllerian duct
+{: .notice--info}
+
+### Vaginal Intraepithelial Neoplasia & Carcinoma / 膣上皮内腫瘍・癌
+
+* **Overview**
+  * Premalignant or malignant neoplasm of vagina, due to high-risk HPV (16/18) infection
+* **Subjective**
+  * Vaginal bleeding
+{: .notice--info}
+
+### Embryonal Rhabdomyosarcoma / 胎児型横紋筋肉腫
+
+* **Overview**
+  * Malignant neoplasm of embryonal rhabdomyoblast (sarcoma botryoides)
+* **Subjective**
+  * Polypoid grapelike mass in vagina of infants/children
+* **Objective**
+  * [Pathology] Small round to spindle cells, crowded (superficial) or in edematous stroma (deep)
+* **Plan**
+  * Surgery + chemotherapy
+{: .notice--info}
+
+## Cervix Disorder / 子宮頸疾患
+
+### Cervicitis / 子宮頸管炎
+
+* **Overview**
+  * Acute or chronic inflammation of cervix, due to vaginal environment change (reduced lactobacilli) or infection
+  * Environment change: Bleeding, sexual intercourse, vaginal douching, antibiotics
+  * Infection: Gonococci, chlamydiae, HSV
+* **Assessment**
+  * [Type] Acute cervicitis
+  * [Type] Chronic cervicitis
+{: .notice--info}
+
+### Endocervical Polyp / 子宮頸管ポリープ
+
+* **Overview**
+  * Benign exophytic growth in endocervical canal
+* **Subjective**
+  * Sessile or polypoid mass in endocervical canal
+* **Objective**
+  * [Pathology] Fibrous stroma covered by mucus-secreting glands
+* **Plan**
+  * Curettage
+{: .notice--info}
+
+### Cervical Intraepithelial Neoplasia & Carcinoma / 子宮頸部上皮内腫瘍・癌
+
+* **Overview**
+  * Premalignant and malignant neoplasm of cervical epithelium, due to high risk HPV (16/18) infection
+  * HPV Infect immature squamous cells at squamocolumnar junction
+  * HPV replicate in mature squamous cell and establish persistent infection
+  * E6 inactivate p53 and and E7 inactivates RB
+  * Viral DNA integrates into host cell genome
+* **Subjective**
+  * Abnormal vaginal bleeding
+* **Objective**
+  * [Pap smear] Enlarged nuclei (N/C ratio↑), koilocytosis, HPV-DNA (+)
+  * [Colposcopy] Aceto-white area
+  * [Pathology] Nuclear atypia (enlargement, hyperchromasia, pleomorphism), koilocytic atypia (perinuclear halo)
+  * [Pathology] HPV-DNA (upper), Ki-67 (basal>upper), p16 (whole)
+  * [Pathology, LSIL] Nuclear atypia in lower 1/3 epithelium
+  * [Pathology, HSIL] Nuclear atypia in lower 2/3 to full epithelium
+  * [Pathology, squamous] Nests of malignant squamous cells invading stroma
+  * [Pathology, adeno] Glandular epithelium with large hyperchromatic nuclei invading stroma
+* **Assessment**
+  * [Type] LSIL (CIN I): 60% regress, 30% persist, 10% to HSIL
+  * [Type] HSIL (CIN II/III): 30% regress, 60% persist, 10% to carcinoma 
+  * [Type] Squamous cell carcinoma: 80%
+  * [Type] Adenocarcinoma: 15%
+  * [Type] Adenosquamous carcinoma: <5%
+  * [Type] Neuroendocrine carcinoma: <5%
+  * [Stage] Stage 0: Carcinoma in situ
+  * [Stage] Stage I: Carcinoma confined to cervix
+  * [Stage] Stage II: Carcinoma beyond cervix
+  * [Stage] Stage III: Carcinoma to lower 1/3 vagina or pelvic wall
+  * [Stage] Stage IV: Carcinoma to bladder/rectum mucosa, beyond true pelvis, metastasis
+* **Plan**
+  * Observation: LSIL
+  * Conization: HSIL
+  * Hysterectomy, lymph node dissection: Cancer
+  * Radiotherapy, chemotherapy: Advanced
+  * [Prevention] HPV vaccine
+{: .notice--info}
+
+## Uterus Disorder / 子宮疾患
+
+### Uterine Anomaly / 子宮奇形
+
+* **Overview**
+  * Abnormal uterus development from Mullerian duct
+* **Subjective**
+  * Infertility, recurrent pregnancy loss
+  * Menstrual molimen
+* **Objective**
+   * [Hysterosalpingography] Uterine anomaly
+* **Assessment**
+  * [Type] Unicornuate uterus
+  * [Type] Double uterus
+  * [Type] Bicornuate uterus
+  * [Type] Septate uterus
+  * [Type] Arcuate uterus
+  * [Type] Imperforate hymen
+* **Plan**
+  * Hysteroplasty
+{: .notice--info}
+
+### Dysfunctional Uterine Bleeding / 機能性子宮出血
+
+* **Overview**
+  * Abnormal/absent uterine bleeding due to hormonal disturbances
+  * [DUB] Causes include puberty, perimenopausal, weight loss, stress, hyperprolactinemia, PCOS
+  * [Amenorrhea] Causes include anorexia nervosa, Sheehan syndrome, premature ovarian failure, Turner syndrome
+* **Subjective**
+  * Polymenorrhea, oligomenorrhea, menorrhagia, hypomenorrhea
+  * Amenorrhea
+  * Infertility
+* **Objective**
+  * [Pathology] Stromal condensation without secretory changes (subnuclear vacuoles, predecidual changes)
+* **Assessment**
+  * [Condition] Anovulatory cycle: Failure of ovulation causes excessive estrogen stimulation unopposed by progesterone
+  * [Condition] Luteal insufficiency: Shortened luteal phase due to insufficient secretion of progesterone
+  * [Condition] Amenorrhea: Absent estrogen/progesterone stimulation due to hypothalamus/pituitary/ovary lesion
+* **Plan**
+  * Progestogen, estrogen-progestogen: For bleeding
+  * Clomiphene, gonadotropin: For infertility
+{: .notice--info}
+
+### Endometritis / 子宮内膜炎
+
+* **Overview**
+  * Acute or chronic inflammation of endometrium
+* **Subjective**
+  * Pelvic pain, abnormal bleeding
+* **Assessment**
+  * [Type] Acute endometritis: Due to retained conception products after delivery/miscarriage
+  * [Type] Chronic endometritis: Due to chronic PID, retained gestational tissue, intrauterine contraceptive devices, tuberculosis
+* **Plan**
+  * Curettage
+  * Antibiotics
+{: .notice--info}
+
+### Endometriosis / 子宮内膜症
+
+* **Overview**
+  * Ectopic endometrial tissue outside of uterus, theories include regurgitation, metastasis, metaplasia, stem cell
+  * Common sites: Douglas pouch, ovary, peritoneum
+  * Additional alteration: Release of proinflammatory and angiogenic factors, increased estrogen and retinoic acid production, mutation in tumor suppressor genes and oncogenes
+* **Subjective**
+  * Dysmenorrhea, dyspareunia, pelvic pain: In reproductive female
+  * Infertility: Due to adhesion
+  * [Adenomyosis] Menometrorrhagia
+* **Objective**
+  * [Pelvic exam] Retroverted uterus, restricted mobility
+  * [Ultrasound, MRI] Ovarian cyst, myometrium thickening (adenomyosis)
+  * [Laparoscopy] Red/black/white peritoneum lesion
+  * [Blood] CA125↑
+  * [Pathology, gross] Bleeding, fibrous adhesions, chocolate cyst
+  * [Pathology, micro] Endometrial gland and stroma, atypical features (cytologic atypia, glandular crowding) 
+* **Assessment**
+  * [Related] Adenomyosis: Endometrial tissue in myometrium
+  * [Association] Ovarian cancer (endometriosis, clear cell)
+* **Plan**
+  * Hormone: LEP, progestin, GNRH agonist, danazol
+  * Surgery: Ablation, excision, adhesiolysis, hysterectomy
+{: .notice--info}
+
+### Endometrial Polyp / 子宮内膜ポリープ
+
+* **Overview**
+  * Benign exophytic growth of endometrium, responsive to estrogen (related to tamoxifen)
+* **Subjective**
+  * Sessile or polypoid mass
+{: .notice--info}
+
+### Endometrial Hyperplasia / 子宮内膜増殖症
+
+* **Overview**
+  * Benign or premalignant proliferation of endometrial gland, due to prolonged estrogen stimulation of endometrium
+  * Causes: Prolonged estrogen administration, obesity, PCOS, granulosa cell tumor
+  * Often with PTEN inactivating mutation (same as endometrial carcinoma)
+* **Subjective**
+  * Abnormal vaginal bleeding
+* **Objective**
+  * [Ultrasound] Endometrium thickening
+  * [Pathology] Increased gland-to-stroma ratio, retained intervening stroma: Typical hyperplasia
+  * [Pathology] Nuclear atypia (vesicular nuclei, prominent nucleoli), back-to-back gland crowding: Atypical hyperplasia
+* **Assessment**
+  * [Type] Typical hyperplasia: Rarely progress to carcinoma
+  * [Type] Atypical hyperplasia: Often progress to carcinoma
+* **Plan**
+  * Observation: Typical hyperplasia
+  * Hysterectomy: Atypical hyperplasia
+  * Curettage + progestin: Atypical hyperplasia but desire birth
+{: .notice--info}
+
+### Endometrial Carcinoma / 子宮内膜癌
+
+* **Overview**
+  * Malignant neoplasm of endometrial gland
+  * Type I: Due to unopposed estrogen (obesity, nulliparity, PCOS), mutations include PTEN, PIK3CA, KRAS, ARID1A, also MSI, POLE, TP53
+  * Type II: Due to endometrial atrophy, mutations include TP53, also chromosomal instability
+  * MMMT: Due to sarcomatous transformation, mutations include PTEN, TP53, PIK3CA, 
+* **Subjective**
+  * Abnormal vaginal bleeding: Irregular, postmenopausal
+  * Hypogastric pain
+* **Objective**
+  * [Hysteroscopy] Exophytic mass, atypical vessels
+  * [Ultrasound] Endometrium thickening
+  * [MRI] Junctional zone defect
+  * [Pathology, endometrioid] Well-formed glands, solid sheets: Well-differentiated (gland only), moderately-differentiated (solid <50%), poorly differentiated (solid >50%)
+  * [Pathology, serous] Papillary growth, cytologic atypia
+  * [Pathology, carcinosarcoma] Mixed epithelial and stromal components (metastasis only epithelial)
+* **Assessment**
+  * [Type] Type I (endometrioid): More, younger, better prognosis
+  * [Type] Type II (serous): Less, older, poorer prognosis
+  * [Type] MMMT (carcinosarcoma): Least, similar to type II
+  * [Grade] Grade 1~3: Endometrioid
+  * [Grade] Grade 3: Serous
+  * [Stage] Stage I: Carcinoma confined to corpus uteri
+  * [Stage] Stage II: Carcinoma to cervix
+  * [Stage] Stage III: Carcinoma to outside of uterus
+  * [Stage] Stage IV: Carcinoma to bladder/rectum mucosa, beyond true pelvis, metastasis
+* **Plan**
+  * Hysterectomy
+  * Adjuvant radiotherapy/chemotherapy
+{: .notice--info}
+
+### Adenosarcoma / 腺肉腫
+
+* **Overview**
+  * Neoplasm with malignant endometrial stroma and benign endometrial gland
+* **Objective**
+  * [Pathology] Biphasic pattern of malignant stroma and benign glands
+{: .notice--info}
+
+### Stromal Tumor / 間質性腫瘍
+
+* **Overview**
+  * Benign or malignant neoplasm of endometrial stroma, often due to translocation including JAZF1-SUZ12, YWHAE-NUTM2A/B
+* **Assessment**
+  * [Type] Stromal nodule: Benign
+  * [Type] Low-grade stromal sarcoma: JAZF1-SUZ12 fusion
+  * [Type] High-grade stromal sarcoma: YWHAE-NUTM2A/B fusion
+{: .notice--info}
+
+### Leiomyoma / 子宮筋腫
+
+* **Overview**
+  * Benign neoplasm of smooth muscle cell, related to estrogen, alteration include HMGIC/HMGIY rearrangement and MED12 mutation
+* **Subjective**
+  * Abnormal vaginal bleeding, menorrhagia, dysmenorrhea
+  * Hypogastric pain, low back pain, frequent urination
+  * Infertility, increased spontaneous abortion
+* **Objective**
+  * [Echo, MRI, hysteroscopy] Solid pelvic mass
+  * [Pathology] Circumscribed round firm gray-white tumors: At intramural, submucosal, subserosal
+  * [Pathology] Uniform spindle cell, low mitotic index
+* **Assessment**
+  * Malignant transformation is extremely rare
+* **Plan**
+  * Observation
+  * GnRH agonist
+  * Myomectomy, hysterectomy
+{: .notice--info}
+
+### Leiomyosarcoma / 平滑筋肉腫
+
+* **Overview**
+  * Malignant neoplasm of smooth muscle cell, alteration include complex karyotype and MED12 mutation
+* **Objective**
+  * [Pathology] Nuclear atypia, mitotic index
+* **Plan**
+  * Hysterectomy
+{: .notice--info}
+
+## Fallopian Tube Disorder / 卵管疾患
+
+### Salpingitis / 卵管炎
+
+* **Overview**
+  * Inflammation of Fallopian tube
+* **Assessment**
+  * [Type] Suppurative salpingitis: Gonococcus or Chlamydiae infection
+  * [Type] Tuberculous salpingitis: Mycobacterium infection
+{: .notice--info}
+
+### Paratubal Cyst / 傍卵管嚢腫
+
+* **Overview**
+  * Benign fluid-filled cyst adjacent to fallopian tube, remnant of mullerian duct
+* **Objective**
+  * [Pathology] Cyst lined by benign serous epithelium
+{: .notice--info}
+
+### Fallopian Tube Carcinoma / 卵管癌
+
+* **Overview**
+  * Malignant neoplasm of fallopian tube epithelium
+  * May be origin of serous ovarian cancer
+{: .notice--info}
+
+## Ovary Disorder / 卵巣疾患
+
+### Functional Cyst / 機能性嚢胞
+
+* **Overview**
+  * Unruptured follicles (or ruptured and immediately sealed)
+* **Objective**
+  * [Ultrasound] Hypoechoic cyst
+  * [Pathology] Fluid-filled cyst lined by granulosa cell
+* **Assessment**
+  * [Type] Follicle cyst: Spontaneous regress
+  * [Type] Luteal cyst: Often in pregnancy
+{: .notice--info}
+
+### Epithelial Tumor / 上皮性腫瘍
+
+* **Overview**
+  * Neoplasm from mullerian epithelial cell (ovarian/tubal epithelium, endometriosis)
+  * [Serous] Related to nulliparity (increased ovulation) and BRCA1/2 germline mutation, derived from benign/borderline tumor (low-grade, KRAS/BRAF mutation) or inclusion cyst of fallopian epithelium (high-grade or BRCA-related, TP53 mutation, genomic imbalance)
+  * [Mucinous] KRAS mutation
+  * [Endometrioid] Related to endometriosis, similar to endometrial cancer (PTEN/PIK3CA/ARID1A/KRAS mutation)
+  * [Clear cell] Related to endometrioisis, similar to endometrial cancer (PTEN/PIK3CA/ARID1A/KRAS mutation)
+* **Subjective**
+  * Abdominal distention or pain
+  * Urinary symptoms, gastrointestinal symptoms: Tumor compression
+  * Ascites: Peritoneal seeding
+* **Objective**
+  * [Blood] CA125↑ (serous, endometrioid, clear cell), CEA↑ (mucinous), CA19-9↑ (mucinous)
+  * [Ultrasound] Unilocular (serous) or multilocular (mucinous) cyst, irregular wall thickening, papillary solid component
+  * [Pathology, Serous]  Columnar epithelium (benign), increased complexity (borderline), micropapillary (low-grade), nuclear atypia and stromal invasion (high-grade)
+  * [Pathology, Mucinous] Columnar epithelium with mucin (benign), increased complexity (borderline), confluent glandular growth (malignant)
+  * [Pathology, Endometrioid] Endometrium-like tubular gland
+  * [Pathology, Clear cell] Gestational endometrium-like clear cell, hobnail cell
+  * [Pathology, Transitional cell] Urothelium-like nests, ovarian stroma
+* **Assessment**
+  * [Type] Serous: Benign (60%, cystadenoma/cystadenofibroma), borderline, malignant (low-grade/high-grade), often bilateral
+  * [Type] Mucinous: Benign (80%) (cystadenoma/cystadenofibroma), borderline, malignant
+  * [Type] Endometrioid: Benign, borderline, malignant (mostly)
+  * [Type] Clear cell: Benign, borderline, malignant (mostly)
+  * [Type] Transitional cell (Brenner): Benign (mostly), borderline, malignant
+  * [Stage] Stage I: Carcinoma confined to ovary
+  * [Stage] Stage II: Carcinoma to pelvic organ
+  * [Stage] Stage III: Carcinoma to retroperitoneal lymph node or extrapelvic peritoneum
+  * [Stage] Stage IV: Metastasis
+* **Plan**
+  * Cystectomy: For benign tumor
+  * Unilateral salpingo-oophorectomy: For early malignant tumor
+  * Bilateral salpingo-oophorectomy + hysterectomy + omentectomy: For malignant tumor (staging and debulking)
+  * Neoadjuvant chemotherapy + debulking surgery + adjuvant chemotherapy (paclitaxel + carboplatin): For advanced malignant tumor
+  * Prophylactic salpingo-oophorectomy: For germline BRCA1/2 mutation
+{: .notice--info}
+
+### Sex Cord-Stromal Tumor / 性索間質性腫瘍
+
+* **Overview**
+  * Neoplasm from stromal cell (derived from sex cord)
+  * [Granulosa cell tumor] Granulosa cell differentiation, FOXL2 mutation
+  * [Sertoli-Leydig cell tumor] Sertoli or Leydig cell differentiation, DICER1 mutation
+  * [Fibroma/Thecoma] Stromal fibroblast or theca cell differentiation
+* **Subjective**
+  * Abnormal genital bleeding (endometrial hyperplasia/carcinoma), proliferative breast disease: Granulosa cell tumor (adult)
+  * Precocious puberty: Granulosa cell tumor (juvenile)
+  * Amenorrhea, breast atrophy, hirsutism, clitoris hypertrophy, voice deepening: Sertoli-Leydig cell tumor
+  * Pelvic mass/pain, ascites, hydrothorax: Fibroma/Thecoma (Meigs syndrome)
+* **Objective**
+  * [Blood] Estrogen↑ (granulosa), androgen↑ (Sertoli-Leydig), inhibin↑ (both)
+  * [Ultrasound] Solid tumor
+  * [Pathology, Granulosa cell tumor] Small cuboidal/polygonal cells in cords/sheets, follicle-like structure (Call-Exner body)
+  * [Pathology, Sertoli-Leydig cell tumor] Tubules composed of Sertoli/Leydig cells
+  * [Pathology, Fibroma/Thecoma] Well-differentiated fibroblast, scant collagenous stroma
+* **Assessment**
+  * [Type] Granulosa cell tumor: Malignant (low-grade)
+  * [Type] Sertoli-Leydig cell tumor: Malignant (low-grade)
+  * [Type] Fibroma/Thecoma: Benign
+* **Plan**
+  * Unilateral salpingo-oophorectomy
+  * Bilateral salpingo-oophorectomy + hysterectomy + omentectomy
+  {: .notice--info}
+ 
+### Germ Cell Tumor / 胚細胞腫瘍
+
+* **Overview**
+  * Neoplasm from germ cell
+  * [Teratoma]  Embryonic differentiation
+  * [Yolk sac tumor] Extraembryonic differentiation
+  * [Choriocarcinoma] Extraembryonic differentiation
+  * [Dysgerminoma] No specific differentiation, KIT mutation
+* **Subjective**
+  * Abdominal mass/pain
+  * Acute pelvic pain: Ovarian torsion (often in teratoma)
+* **Objective**
+  * [Blood] AFP↑ (yolk sac tumor), hCG↑ (choriocarcinoma), LDH↑ (dysgerminoma)
+  * [Ultrasound, CT, MRI] Heterogenous cyst (hair ball, fat, tooth) (teratoma), solid tumor
+  * [Pathology, Mature teratoma] Ectoderm (squamous epithelium, hair follicles, sebaceous gland, neural tissue), mesoderm (fat, bone, cartilage, thyroid) 
+  * [Pathology, Monodermal teratoma] Mature thyroid tissue (struma ovarii)
+  * [Pathology, Immature teratoma] Immature neuroepithelium, ectoderm, mesoderm
+  * [Pathology, Yolk sac tumor] Central vessel enveloped by tumor cells (Schiller-Duval body)
+  * [Pathology, Choriocarcinoma] Proliferating syncytiotrophoblast and cytotrophoblast
+  * [Pathology, Dysgerminoma] Nests of large cells with clear cytoplasm, in fibrous stroma with lymphocyte infiltration 
+* **Assessment**
+  * [Type] Mature teratoma (dermoid cyst): Benign (rarely transform to SCC), associated with inflammatory limbic encephalitis
+  * [Type] Monodermal teratoma: Benign (struma ovarii, carcinoid)
+  * [Type] Immature teratoma: Malignant
+  * [Type] Yolk sac tumor: Malignant
+  * [Type] Choriocarcinoma: Malignant
+  * [Type] Dysgerminoma: Malignant (counterpart of testicular seminoma), associated with pseudohermaphroditism
+* **Plan**
+  * Cystectomy: For teratoma
+  * Unilateral salpingo-oophorectomy + adjuvant chemotherapy (bleomycin + etoposide + cisplatin): For malignant tumor
+{: .notice--info}
+
+### Metastatic Tumor / 転移性腫瘍
+
+* **Overview**
+  * From uterus, fallopian tube, contralateral ovary, breast, colon, stomach, often bilateral
+* **Objective**
+  * [Pathology] Mucin-producing signet ring cell (Krukenberg tumor): Often from signet ring gastric cancer
+{: .notice--info}
+
+### Polycystic Ovarian Syndrome / 多囊胞性卵巣症候群
+
+* **Overview**
+  * Endocrine disorder related to excessive androgen production and metabolic disorder
+* **Subjective**
+  * Menstrual abnormality, chronic anovulation, infertility: Endocrine disturbance
+  * Hirsutism, acne, voice deepening: Hyperandrogenism
+  * Obesity, diabetes mellitus, premature atherosclerosis: Metabolic disorder
+* **Objective**
+  * [Blood] LH↑, FSH→, androgen↑, estrogen↑
+  * [Ultrasound] Polycystic ovary
+* **Assessment**
+  * [Related] Stromal hyperthecosis: Proliferated and luteinized stromal cells, similar symptoms with PCOS
+* **Plan**
+  * Weight loss
+  * Progestogen, estrogen-progestogen: For menstrual abnormality
+  * Clomiphene, gonadotropin, ovarian drilling: For infertility
+{: .notice--info}
+
+### Premature Ovarian Failure / 早発卵巣不全
+
+* **Overview**
+  * Premature loss of ovarian function before 40
+* **Subjective**
+  * Amenorrhea, infertility
+  * [Climacteric] Menstrual irregularity, hot flash, flushing, sweating, depression, irritability, insomnia, joint stiffness
+* **Objective**
+  * [Blood] Estrogen↓, GnRH↑
+* **Assessment**
+  * [Related] Climacteric disturbance: Functional disorders during menopausal period
+* **Plan**
+  * Hormone replacement therapy
+{: .notice--info}
+
+### Ovarian Hyperstimulation Syndrome / 卵巣過剰刺激症候群
+
+* **Overview**
+  * Ovulation induction therapy (particularly hMG-hCG) lead to multiple follicle ovulation and increased vascular permeability, often in PCOS patients
+* **Subjective**
+  * Abdominal distension, nausea/vomiting: Ascites
+  * Dyspnea: Pleural effusion
+  * Oliguria: Hemoconcentration
+* **Objective**
+  * [Ultrasound] Ovary enlargement with multiple cysts, ascites, pleural effusion
+  * [Blood] Hemoconcentration, hypoproteinemia
+* **Plan**
+  * IV fluid, albumin
+  * Dopamine
+{: .notice--info}
+
+## Sexually Transmitted Infection / 性感染症
+
+### Genital Herpes / 性器ヘルペス
+
+* **Overview**
+  * Infection of external genitalia caused by HSV2/1 with primary and latent infection
+  * Latent in lumbosacral nerve ganglia, reactivate under decreased immune function
+* **Subjective**
+  * External genitalia pain/vesicles/ulcer (kissing ulcer)
+  * Fever, lymphadenopathy
+* **Objective**
+  * [Cytology] Multinucleated giant cell, intranuclear inclusion body
+  * [Smear] Culture (+), antigen (+), PCR (+)
+* **Plan**
+  * Valacyclovir, acyclovir
+{: .notice--info}
+
+### Condyloma Acuminatum / 尖圭コンジローマ
+
+* **Overview**
+  * Infection of external genitalia caused by HPV6/11
+* **Subjective**
+  * Painless exophytic warts on vulvar/perineal/perianal region (less often vagina/cervix)
+* **Objective**
+  * [Smear] PCR (+)
+  * [Pathology] Papillary exophytic growth, koilocytic atypia (nuclear enlargement, perinuclear halo)
+* **Plan**
+  * Topical imiquimod, cryotherapy
+  * [Prevention] HPV vaccine
+{: .notice--info}
+
+### Chlamydial Infection / クラミジア感染症
+
+* **Overview**
+  * Infection of lower/upper genital tract caused by Chlamydia trachomatis
+* **Subjective**
+  * Asymptomatic
+  * Serous vaginal discharge, abnormal bleeding: Cervicitis
+  * Infertility, ectopic pregnancy: Pelvic inflammatory disease
+* **Objective**
+  * [Smear] PCR (+)
+* **Plan**
+  * Macrolide, fluoroquinolone, tetracycline
+{: .notice--info}
+
+### Gonococcal Infection / 淋菌感染症
+
+* **Overview**
+  * Infection of lower/upper genital tract caused by Neisseria gonorrhoeae
+* **Subjective**
+  * Purulent vaginal discharge, abnormal bleeding: Cervicitis
+  * Dysuria, urethral discharge: Urethritis
+  * Pelvic pain, adnexal tenderness, fever: Pelvic inflammatory disease
+  * Infertility, ectopic pregnancy: Pelvic inflammatory disease
+* **Objective**
+  * [Smear] PCR (+)
+  * [Pathology] Inflammatory exudate with gram-negative diplococci: Cervicitis
+  * [Pathology] Dilated tube lumen and edematous tubal plicae (acute), scarring and fusing tubal plicae (chronic): Salpingitis
+  * [Pathology] Collection of pus in tube/ovary: Pyosalpinx, tubo-ovarian abscess
+* **Plan**
+  * IV ceftriaxone
+  * Surgery: For tubo-ovarian abscess
+{: .notice--info}
+
+### Bacterial Vaginosis / 細菌性膣症
+
+* **Overview**
+  * Infection of lower genital tract caused by mainly Gardnerella vaginalis
+* **Subjective**
+  * Green-gray fishy vaginal discharge
+  * Premature labor
+* **Objective**
+  * [Smear] Squamous cells covered with coccobacilli
+{: .notice--info}
+
+### Genital Candidiasis / カンジダ外陰腟炎
+
+* **Overview**
+  * Infection of lower genital tract caused by Candida, exogenous or endogenous (DM, antibiotics, pregnancy)
+* **Subjective**
+  * Pruritus, erythema, swelling, curdlike discharge
+* **Objective**
+  * [KOH] Pseudospores, hyphae
+* **Plan**
+  * Fluconazole (symptomatic case only)
+{: .notice--info}
+
+### Vaginal Trichomoniasis / 腟トリコモナス症
+
+* **Overview**
+  * Infection of lower genital tract caused by Trichomonas vaginalis
+* **Subjective**
+  * Pruritus, frothy yellow vaginal discharge, dysuria, dyspareunia
+  * Red cervical/vaginal mucosa: Strawberry cervix
+* **Objective**
+  * [Smear] Flagellated ovoid protozoan
+* **Plan**
+  * Metronidazole
+{: .notice--info}
+
+## Breast Disorder / 乳房疾患
+
+### Breast Inflammatory Disorder / 乳房炎症性疾患
+
+* **Overview**
+  * Inflammation of breast due to various causes
+* **Subjective**
+  * [Acute mastitis] Breast erythema and pain, fever
+  * [Squamous metaplasia] Painful erythematous subaerolar abscess, fistula opening on edge of areola
+  * [Duct ectasia] Palpable periareolar mass, white nipple secretion
+  * [Fat necrosis] Painless palpable mass
+  * [Lymphocytic mastopathy] Palpable mass
+* **Objective**
+  * [Pathology, squamous metaplasia] Squamous metaplasia of lactiferous duct, keratin plug and duct rupture, chronic granulomatous inflammation
+  * [Pathology, duct ectasia] Ectatic duct filled lipid-laden macrophage, periductal inflammation and fibrosis
+  * [Pathology, fat necrosis] Chalky-white nodules, necrotic adipose tissue, chronic inflammatory cells
+  * [Pathology, lymphocytic mastopathy] Collagenized stroma, atrophic ducts, lymphocytic infiltrate
+  * [Pathology, granulomatous mastitis] Lobulocentric granulomatous inflammation
+* **Assessment**
+  * [Type] Acute mastitis: Acute bacterial infection of breast during breastfeeding, mostly due to staphylococcus aureus
+  * [Type] Squamous metaplasia of lactiferous ducts: Metaplasia of lactiferous duct leading to recurrent subareolar abscess, related to smoking
+  * [Type] Duct ectasia: Ectasia of lactiferous duct leading to periductal inflammation and fibrosis
+  * [Type] Fat necrosis: Fat necrosis of breast, related to trauma or surgery
+  * [Type] Lymphocytic mastopathy: Inflammation of lactiferous duct, related to autoimmune disease (type 1 DM, thyroid disease)
+  * [Type] Granulomatous mastitis: Granulomatous inflammation of mammary lobules, localized or systemic (GPA, sarcoidosis, TB)
+* **Plan**
+  * [Acute mastitis] Antibiotics, continue lactation
+  * [Squamous metaplasia] Drainage, surgical removal of involved duct
+  * [Granulomatous mastitis] Antibiotics, steroid
+{: .notice--info}
+
+### Nonproliferative Breast Change / 非増殖性乳腺変化
+
+* **Overview**
+  * Benign nonproliferative changes in breast ductal/acinar epithelium (fibrocystic change)
+* **Subjective**
+  * Breast pain/tenderness/swelling: Cyclic change with menstruation
+* **Objective**
+  * [Ultrasound] Heterogenous echogenicity
+  * [Mammograph] Dense breast with cysts
+  * [Pathology] Cyst, fibrosis, adenosis, apocrine metaplasia
+{: .notice--info}
+
+### Proliferative Breast Disease / 増殖性乳腺疾患
+
+* **Overview**
+  * Benign proliferation of breast ductal/acinar epithelium (with or without atypia), increased risk of carcinoma
+* **Subjective**
+  * Breast mass/induration
+  * Nipple discharge (bloody/serous): Intraductal papilloma
+  * Gynecomastia: Often in puberty or cirrhosis
+* **Objective**
+  * [Mammograph] Density, calcification
+  * [Pathology, typical] Epithelial hyperplasia, sclerosing adenosis, radial sclerosing lesion, intraductal papilloma
+  * [Pathology, atypical] Atypical ductal hyperplasia, atypical lobular hyperplasia: Resembling DCIS/LCIS, partially involved duct/lobule
+{: .notice--info}
+
+### Breast Cancer / 乳癌
+
+* **Overview**
+  * Malignant neoplasm of breast ductal/acinar epithelium, related to estrogen exposure and genetic inheritance
+  * [Somatic] Estrogen-dependent proliferation (luminal), PIK3CA mutation (luminal), HER2 amplification (HER2), TP53 mutation (TNBC)
+  * [Germline] BRCA1 (TNBC), BRCA2 (luminal), TP53 (HER2), PTEN, STK11, CDH1, PALPB2, ATM, CHEK2 mutations
+  * [Lobular] CDH1 mutation, loss of cohesion
+* **Subjective**
+  * Palpable mass
+  * Nipple retraction/discharge/erosion, dimpling sign
+  * Erythematous pruritic eruption with crust: Paget disease due to intra-epidermal spread
+  * Orange peel-like skin: Inflammatory carcinoma due to dermal lymphatics involvement
+  * Male breast cancer: Often BRCA2 germline mutation
+* **Objective**
+  * [Ultrasound] Posterior attenuation, irregular border
+  * [Mammography] Density, spicula, microcalcification
+  * [Pathology, DCIS] Proliferation limited to ducts/lobules, comedo (central necrosis/calcification), cribriform, micropapillary, papillary, Paget disease (clear cell in epidermis)
+  * [Pathology, LCIS] Loosely cohesive rounded cells, signet ring cells
+  * [Pathology, IDC] Tubules, solid nests, ragged sheets, stromal desmoplasia
+  * [Pathology, ILC] Decohesive infiltrating tumor cells without tubules, signet ring cells
+  * [Pathology, others] Mucin lake (mucinous), well-formed tubules (tubular), papillae (papillary), abundant cytoplasm (apocrine), intercellular fluid (micropapillary), solid sheets (medullary), spindle cell (metaplastic), eosinophilic material (secretory)
+* **Assessment**
+  * [Molecular type] Luminal A: ER (+), HER2 (-), low proliferation (Ki67↓)
+  * [Molecular type] Luminal B: ER (+), HER2 (-), high proliferation (Ki67↑)
+  * [Molecular type] HER2-enriched: HER2 (+)
+  * [Molecular type] Basal-like (TNBC): ER (-), HER2 (-)
+  * [Histologic type] Ductal carcinoma in situ (DCIS): Intraductal spreading, resembling ducts
+  * [Histologic type] Lobular carcinoma in situ (LCIS): Intraductal spreading, resembling lobules
+  * [Histologic type] Invasive ductal carcinoma (IDC): Stromal invasion, resembling ducts
+  * [Histologic type] Invasive lobular carcinoma (ILC): Stromal invasion, resembling lobules
+  * [Histologic type] Lobular/mucinous/tubular/papillary carcinoma (luminal), apocrine/micropapillary carcinoma (HER2), medullary/metaplastic/secretory carcinoma (TNBC)
+  * [Prognostic factor] Lymph node metastases, distant metastasis, tumor size, locally advanced disease, lymphovascular invasion, inflammatory carcinoma, molecular subtype
+* **Plan**
+  * Breast-conserving surgery + radiotherapy: For most cases
+  * Modified radical mastectomy (+ reconstruction): For locally advanced cases
+  * Axillary lymph node dissection: If sentinel lymph node biopsy (+)
+  * Chemotherapy (neoadjuvant/adjuvant): For highly proliferative tumors (luminal/HER2/TNBC)  
+  * Hormone therapy (tamoxifen, GnRH agonist, aromatase inhibitor): For ER-positive tumors (luminal/HER2)
+  * Target therapy (trastuzumab, lapatinib): For HER2-amplified tumors (HER2)
+{: .notice--info}
+
+### Fibroadenoma / 線維腺腫
+
+* **Overview**
+  * Benign neoplasm of intralobular stroma, due to MED12 mutation
+* **Subjective**
+  * Well-defined mobile mass
+* **Objective**
+  * [Ultrasound] Well-defined homogeneous mass
+  * [Mammograph] Well-defined shadow
+  * [Pathology] Proliferated intralobular stroma, compressed epithelium
+{: .notice--info}
+
+### Phyllodes Tumor / 葉状腫瘍
+
+* **Overview**
+  * Benign (occasionally malignant) neoplasm of intralobular stroma, due to MED12 mutation (TERT if malignant)
+* **Subjective**
+  * Rapidly enlarging mass
+* **Objective**
+  * [Pathology] Proliferated stroma covered by epithelium (leaf-like), variable cellularity and mitotic rate
+* **Plan**
+  * Surgical excision
+{: .notice--info}
+
+
 # Obstetrics / 産科
 
 ## Abnormal Early Pregnancy / 妊娠初期の異常
