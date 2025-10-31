@@ -1253,8 +1253,8 @@ Essences of clinical medicine.
 * **Plan**
   * Unilateral salpingo-oophorectomy
   * Bilateral salpingo-oophorectomy + hysterectomy + omentectomy
-  {: .notice--info}
- 
+{: .notice--info}
+
 ### Germ Cell Tumor / 胚細胞腫瘍
 
 * **Overview**
