@@ -37,17 +37,17 @@ Essences of clinical medicine.
 
 # Dermatology / 皮膚科
 
-## Pigmentation Disease / 色素疾患
+## Pigmentation Disorder / 色素疾患
 
 ### Freckle / 雀卵斑
 
 * **Overview**
   * Enhanced pigment production/transfer of melanocytes
 * **Subjective**
-  * Small brown macules on face
-  * Darken/Fade in summer/winter: Degree of pigmentation depends on sunlight
+  * Small brown macules on face, darken/fade in summer/winter
 * **Assessment**
-  * Suspect neurofibromatosis if >=6 larger macules (cafe-au-lait spot)
+  * [Related] Melasma: Tan discolorization on face, often in reproductive woman
+  * [Association] Suspect neurofibromatosis: If >=6 larger macules (cafe-au-lait spot)
 {: .notice--info}
 
 ### Lentigo / 黒子
@@ -58,6 +58,8 @@ Essences of clinical medicine.
   * Oval tan-brown macule/patch
 * **Objective**
   * [Pathology] Linear melanocytic hyperplasia above basement membrane
+* **Assessment**
+  * [Related] Senile lentigo: Hyperpigmentation due to aging
 {: .notice--info}
 
 ### Melanocytic Nevus / 色素性母斑
@@ -73,17 +75,20 @@ Essences of clinical medicine.
   * [Variant] Congenital nevus: Large variants have increased melanoma risk
   * [Variant] Blue nevus: Black-blue nodule
   * [Variant] Spitz nevus: Red-pink nodule
-  * [Variant] Halo nevus: Immune response against nevus cells
+  * [Variant] Halo nevus: Depigmentation of nevus due to Immune response against nevus cells
   * [Variant] Dysplastic nevus: Potential marker or precursor of melanoma
-  * [Related] Nevus of Ota: Blue discoloration in periorbital region
+  * [Related] Nevus of Ota: Blue discoloration in periorbital region from birth
   * [Related] Mongolian spot: Blue discoloration in lumbosacral region from birth
+* **Plan**
+  * Observation
+  * Surgical excision: If malignant risk
 {: .notice--info}
 
 ### Melanoma / 悪性黒色腫
 
 * **Overview**
   * Malignant neoplasm of melanocytes, related to UV light
-  * Driver mutations in CDKN2A, RAF/RAS, TERT promoter
+  * Mutations include CDKN2A, RAF/RAS, TERT promoter
 * **Subjective**
   * Macules characterized by "ABCDE": Asymmetry, Border irregularity, Color variegation, Diameter enlargement, Evolution
 * **Objective**
@@ -94,11 +99,12 @@ Essences of clinical medicine.
   * [Type] Superficial spreading melanoma: Related to sun exposure, most common in Western world
   * [Type] Nodular melanoma: Vertical growth
   * [Type] Lentigo maligna melanoma: indolent growth over decades
-  * [Staging] T: By tumor thickness
+  * [Staging] T1: < 1mm, T2: <2mm, T3: <4mm, T4: >4mm
+  * [Related] Merkel cell carcinoma: Malignant neoplasm from Merkel cell (sensory cell from neural crest)
 * **Plan**
-  * Surgical resection, sentinel lymph node biopsy, lymph node dissection: Before metastasis
-  * [Immune checkpoint inhibitor] Anti-CTLA4, anti-PD1: Melanoma is inherently immunogenic
-  * [Target therapy] BRAF inhibitor, MEK inhibitor: Inhibit RAS signaling pathway
+  * Surgical resection, sentinel lymph node biopsy, lymph node dissection
+  * Anti-CTLA4, anti-PD1: Melanoma is inherently immunogenic
+  * BRAF inhibitor, MEK inhibitor: Inhibit RAS signaling pathway
 {: .notice--info}
 
 ### Vitiligo Vulgaris / 尋常性白斑
@@ -120,15 +126,16 @@ Essences of clinical medicine.
 ### Seborrheic Keratosis / 脂漏性角化症
 
 * **Overview**
-  * Benign proliferation of keratinocytes (basal cell, squamous cell)
-  * Frequent in middle-aged or older individuals
+  * Benign proliferation of keratinocytes, frequent in older individuals
   * Often due to activating mutation in FGFR3
 * **Subjective**
   * Well-demarcated, tan to dark brown plaque with granular surface
 * **Objective**
   * [Pathology] Basaloid cells with melanin pigmentation, keratin-filled cyst (horn cyst)
 * **Assessment**
-  * Suspect gastrointestinal malignancy if suddenly appear in large numbers (Leser-Trelat sign)
+  * [Association] Suspect gastrointestinal malignancy: If suddenly appear in large numbers (Leser-Trelat sign)
+  * [Related] Porokeratosis: Keratinocyte proliferation with annular ridge
+  * [Related] Epidermal nevus: Keratinocyte proliferation from birth
 {: .notice--info}
 
 ### Acanthosis Nigricans / 黒色表皮腫
@@ -153,13 +160,13 @@ Essences of clinical medicine.
   * [Pathology] Fibrovascular core covered by benign epithelium
 {: .notice--info}
 
-### Epithelial Cyst / 表皮囊腫
+### Epidermal Cyst / 表皮囊腫
 
 * **Overview**
   * Invagination and cystic expansion of epidermis or hair follicle
 * **Subjective**
   * Skin-colored, dome-shaped nodule
-  * Painful if inflammed
+  * Painful if inflamed
 * **Objective**
   * [Pathology] Keratin-filled cyst with epidermal wall
 {: .notice--info}
@@ -168,13 +175,14 @@ Essences of clinical medicine.
 
 * **Overview**
   * Neoplasm arising from or differentiating toward skin appendage, mostly benign
-* **Objective**
-  * [Pathology] Pilomatrixoma: Resembling germinal portion of hair bulb
-  * [Pathology] Trichoepithelioma: Resembling primitive hair follicle
-  * [Pathology] Syringoma, eccrine poroma: Resembling eccrine gland
-  * [Pathology] Apocrine carcinoma: Resembling apocrine gland
-  * [Pathology] Cylindroma: Resembling eccrine/apocrine duct
-  * [Pathology] Sebaceous adenoma: Resembling sebaceous gland
+* **Assessment**
+  * [Type] Pilomatrixoma: Resembling germinal portion of hair bulb
+  * [Type] Trichoepithelioma: Resembling primitive hair follicle
+  * [Type] Syringoma, eccrine poroma: Resembling eccrine gland
+  * [Type] Apocrine carcinoma: Resembling apocrine gland
+  * [Type] Cylindroma: Resembling eccrine/apocrine duct
+  * [Type] Sebaceous adenoma: Resembling sebaceous gland
+  * [Related] Sebaceous nevus: Sebaceous gland proliferation from birth
 {: .notice--info}
 
 ## Malignant Epithelial Tumor / 悪性上皮腫瘍
@@ -184,9 +192,11 @@ Essences of clinical medicine.
 * **Overview**
   * Precancerous neoplasm of keratinocytes due to UV light, may progress to SCC
 * **Subjective**
-  * Tan-brown or red macule with scale or horn
+  * Tan-brown to red macule with scale/horn
 * **Objective**
   * [Pathology] Hyperplasia of atypical basal cell, parakeratosis, elastosis
+* **Assessment**
+  * [Related] Bowen disease: Full-thickness atypia, not limited to sun-exposed sites
 * **Plan**
   * Surgical resection, freezing
   * Topical imiquimod: Activate TLR and innate immune response
@@ -197,9 +207,9 @@ Essences of clinical medicine.
 * **Overview**
   * Malignant neoplasm of Paget cell within epidermis (intraepidermal adenocarcinoma)
 * **Subjective**
-  * Large erythematous (and erosive) patch on external genitalia
+  * Large erythematous and erosive patch on external genitalia
 * **Objective**
-  * [Pathology] Large cell with clear cytoplasm within epidermis: Paget cell
+  * [Pathology] Large cell with clear cytoplasm (Paget cell) within epidermis
 * **Plan**
   * Wide excision
 {: .notice--info}
@@ -207,29 +217,31 @@ Essences of clinical medicine.
 ### Squamous Cell Carcinoma / 有棘細胞癌
 
 * **Overview**
-  * Malignant neoplasm of keratinocytes due to UV light (other causes: immunosuppression, chronic ulcer, burn scar)
-  * Mutation in TP53, and RAS and NOTCH signaling pathway
+  * Malignant neoplasm of keratinocytes due to UV light (and immunosuppression, chronic ulcer, burn scar)
+  * Mutation in TP53 and RAS/NOTCH signaling pathway
 * **Subjective**
-  * Red nodule/plaque with scale and/or ulceration
+  * Red nodule/plaque with scale, sometimes with ulceration
 * **Objective**
-  * [Pathology] Atypical cells with variable differentiation, involve full-thickness epidermis and invade dermis
+  * [Pathology] Atypical keratinocytes with variable differentiation, keratin pearl, dermal invasion
 * **Assessment**
   * [Variant] Keratoacanthoma: Dome-shaped tumor with central keratinous plug, well-differentiated SCC that often spontaneously regress
 * **Plan**
-  * Surgical resection, radiotherapy
+  * Surgical resection
+  * Radiotherapy
 {: .notice--info}
 
 ### Basal Cell Carcinoma / 基底細胞癌
 
 * **Overview**
   * Malignant neoplasm of basaloid cell, related to UV light
-  * Locally aggressive but slow growing and rarely metastasize
   * Due to mutation in Hedgehog signaling pathway (often PTCH)
 * **Subjective**
-  * Brown to black pearly papules/nodules, sometimes with ulcer
+  * Brown to black pearly papules/nodules, sometimes with ulceration
 * **Objective**
   * [Dermoscopy] Telangiectasias, multifocal or nodular growth
   * [Pathology] Nests of basaloid cells, peripheral palisading, artificial cleft
+* **Assessment**
+  * Locally aggressive but slow growing and rarely metastasize
 * **Plan**
   * Surgical resection
 {: .notice--info}
@@ -271,6 +283,8 @@ Essences of clinical medicine.
   * Brown ulcerated nodule: Tumor stage
 * **Objective**
   * [Pathology] CD4+ lymphocyte infiltration, band-like in dermis, Pautrier microabscess in epidermis
+* **Assessment**
+  * [Stage] Sezary syndrome: Advanced stage with diffuse erythroderma, lymphadenopathy, circulating atypical lymphocytes
 * **Plan**
   * Topical steroid, UV light: For early stage
   * Systemic chemotherapy: For advanced stage
@@ -283,14 +297,13 @@ Essences of clinical medicine.
   * Due to mutation in KIT (and also PDGFRA)
 * **Subjective**
   * Multiple red-brown patches/nodules, mainly in children
-  * Localized edema when lesion rubbed (Darier sign): Histamine release from mast cells
-  * Wheals, pruritus, flush triggered by food or temperature change: Histamine release from mast cells
+  * Localized edema when lesion rubbed (Darier sign): Histamine release
+  * Wheals/pruritus/flush triggered by food or temperature change: Histamine release
 * **Objective**
   * [Pathology] Proliferation of mast cells in dermis
 * **Assessment**
   * Spontaneous resolve in children
 {: .notice--info}
-
 
 ## Vascular Tumor / 血管腫瘍
 
@@ -299,9 +312,11 @@ Essences of clinical medicine.
 * **Overview**
   * Dilatations of capillaries/venules/arterioles, not neoplasm
 * **Subjective**
-  * [Nevus flammeus] Pink/purple patch on head/neck in infant, regress spontaneously (except port wine stain which persists)
-  * [Spider telangiectasia] Radial pulsatile lesion, associated with hyper-estrogenic state
+  * [Nevus flammeus] Pink/purple patch on head/neck in infant
+  * [Spider telangiectasia] Radial pulsatile lesion
 * **Assessment**
+  * [Type] Nevus flammeus: Regress spontaneously (except for port wine stain which persists)
+  * [Type] Spider telangiectasia: Associated with hyper-estrogenic state
   * [Association] Sturge-Weber syndrome: Vascular ectasia of face (port wine stain), leptomenings (intellectual disability, hemiplegia), choroid plexus (glaucoma), due to GNAS mutation
   * [Association] Hereditary hemorrhagic telangiectasia (Osler-Weber-Rendu disease): Multiple telangiectasias on skin/mucosa, causing recurrent epistaxis
 {: .notice--info}
@@ -313,10 +328,12 @@ Essences of clinical medicine.
 * **Subjective**
   * Blood-rich tumor on skin/mucosa or viscera
 * **Assessment**
-  * [Capillary hemangioma] Common, with thin-walled capillaries
-  * [Cavernous hemangioma] Infiltrative, with cavernous vascular space, associated with von Hippel-Lindau disease
-  * [Juvenile hemangioma] Common in newborn, mostly regress
-  * [Pyogenic granuloma] Rapidly growing pedunculated lesion, easily bleeding
+  * [Type] Capillary hemangioma: Common, with thin-walled capillaries
+  * [Type] Cavernous hemangioma: Infiltrative, with cavernous vascular space, associated with von Hippel-Lindau disease
+  * [Type] Juvenile hemangioma: Common in newborn, mostly regress
+  * [Type] Pyogenic granuloma: Rapidly growing pedunculated lesion, easily bleeding
+  * [Complication] Kasabach-Merritt syndrome: Thrombocytopenia or DIC due to hemorrhage in hemangioma
+  * [Related] Bacillary angiomatosis: Vascular proliferation in immunocompromised hosts due to Bartonella infection
 {: .notice--info}
 
 ### Lymphangioma / リンパ管腫
@@ -326,8 +343,8 @@ Essences of clinical medicine.
 * **Subjective**
   * Tumor on head/neck/axilla
 * **Assessment**
-  * [Capillary lymphangioma] 
-  * [Cavernous lymphangioma] Associated with Turner syndrome
+  * [Capillary lymphangioma] With thin-walled capillaries
+  * [Cavernous lymphangioma] With cavernous vascular space, associated with Turner syndrome
 {: .notice--info}
 
 ### Glomus Tumor / グロムス腫瘍
@@ -338,24 +355,16 @@ Essences of clinical medicine.
   * Painful tumor on distal digit (often under fingernails)
 {: .notice--info}
 
-### Bacillary Angiomatosis / 細菌性血管腫症
-
-* **Overview**
-  * Vascular proliferation in immunocompromised hosts due to Bartonella infection (produce HIF and induce vascular proliferation
-* **Subjective**
-  * Red papules/nodules
-{: .notice--info}
-
 ### Kaposi Sarcoma / Kaposi肉腫
 
 * **Overview**
   * Borderline neoplasm of endothelial cell, caused by HHV8 infection and immunosuppression (AIDS, transplant, aging)
   * HHV8 infect endothelial cell and stimulate growth
 * **Subjective**
-  * Red-purple patches → plaques → nodules
+  * Red-purple patches, plaques, nodules: Disease progression
 * **Objective**
-  * [Pathology] Irregular vascular space, plump spindle cells, interspersed erythrocytes and mononuclear cells
   * [PCR] HHV8 (+)
+  * [Pathology] Irregular vascular space, plump spindle cells, interspersed erythrocytes and mononuclear cells
 * **Assessment**
   * [Type] Classic KS: In older man, not HIV-related
   * [Type] Endemic African KS: In younger African, not HIV-related
@@ -379,7 +388,7 @@ Essences of clinical medicine.
   * Surgery, radiotherapy, chemotherapy
 {: .notice--info}
 
-## Acute Inflammatory Dermatosis / 急性炎症性皮膚疾患
+## Inflammatory Dermatosis / 炎症性皮膚疾患
 
 ### Urticaria / じんま疹
 
@@ -389,38 +398,55 @@ Essences of clinical medicine.
 * **Subjective**
   * Pruritic edematous plaques (wheals)
   * Develop and fade within hours, episode for days to months
+  * [Angioedema] Edema without pruritus for days, often on eyelid/lip
 * **Objective**
   * [Pathology] Edema and dilated vessels in superficial dermis
 * **Assessment**
   * [Related] Angioedema: Edema of deeper dermis and subcutaneous fat
   * [Related] C1 inhibitor deficiency: Hereditary angioedema due to excessive bradykinin production
 * **Plan**
-  * Antihistamine
   * Avoid causative agents
+  * Antihistamine
 {: .notice--info}
 
-### Acute Eczematous Dermatitis / 急性湿疹性皮膚炎
+### Eczematous Dermatitis / 湿疹性皮膚炎
 
 * **Overview**
-  * Acute inflammatory dermatosis, often due to immune reaction mediated by CD4+ T lymphocytes
+  * Acute inflammation of skin, often due to immune reaction mediated by CD4+ T lymphocytes
   * Causes include external antigen (plant, metal), internal antigen (food, drug), predisposition (atopy)
 * **Subjective**
   * Erythematous pruritic patch/plaque, sometimes with papules/vesicles/crusts/scales: Acute phase
   * Lichenification, pigmentation: Chronic phase
   * [Contact dermatitis] Lesion coincides with contact region
   * [Atopic dermatitis] Recurrent and chronic course, symmetrical distribution
+  * [Asteatotic eczema] Dry and itchy skin on extensor surface
+  * [Seborrheic dermatitis] Greasy lesions with scales/crusts on seborrheic area
+  * [Nummular eczema] Coin-like lesions on lower leg
+  * [Autosensitization dermatitis] Widespread pruritic lesions following worsening localized lesion
+  * [Stasis dermatitis] Purpura and atrophy on lower leg
+  * [Lichen Vidal] Pruritic plaque/lichenification
+  * [Pompholyx] Pruritic vesicles at palm/sole
 * **Objective**
-  * [Pathology] Spongiosis (epidermal edema), acanthosis, hyperkeratosis, inflammatory cell infiltration
   * [Contact dermatitis] Patch test positive
-  * [Atopic dermatitis] IgE↑, eosinophil↑
+  * [Atopic dermatitis] White dermographism, IgE↑, eosinophil↑
+  * [Pathology] Spongiosis (epidermal edema), inflammatory infiltration, acanthosis, hyperkeratosis
 * **Assessment**
-  * [Clinical] Contact dermatitis: Due to contact of causative agents (allergic/irritant)
-  * [Clinical] Atopic dermatitis: Due to atopy and impaired skin barrier function
+  * [Type] Contact dermatitis: Due to contact of causative agents (irritant/allergic)
+  * [Type] Atopic dermatitis: Due to atopy and impaired skin barrier function
+  * [Type] Asteatotic eczema: Due to decreased sebum secretion and impaired skin barrier function
+  * [Type] Seborrheic dermatitis: Due to sebum production and Malassezia colonization
+  * [Type] Nummular eczema: Characteristic coin-like lesions
+  * [Type] Autosensitization dermatitis: Due to generalized hypersensitivity reaction to worsening localized lesion
+  * [Type] Stasis dermatitis: Due to venous stasis of varicose veins
+  * [Type] Lichen Vidal: Due to chronic contact irritation
+  * [Type] Pompholyx: Characteristic pruritic vesicles on palm/sole
+  * [Related] Prurigo: Pruritic acute/chronic papules/nodules
 * **Plan**
   * Topical steroid
   * [Contact dermatitis] Avoid causative agents
-  * [Atopic dermatitis] Tacrolimus ointment (calcineurin inhibitor): Inhibit cytokine release from T cells
-  * [Atopic dermatitis] JAK inhibitor: Inhibit signal transduction in immune cells
+  * [Atopic dermatitis] Tacrolimus ointment, JAK inhibitor
+  * [Asteatotic eczema] Moisturizer
+  * [Seborrheic dermatitis] Antifungals
 {: .notice--info}
 
 ### Erythema Multiforme / 多形紅斑
@@ -429,33 +455,23 @@ Essences of clinical medicine.
   * Hypersensitivity reaction of skin, due to keratinocyte injury mediated by CD8+ T lymphocytes
   * Causes include infection (herpes, mycoplasma), drug (sulfonamide, carbamazepine), cancer, collagen disease
 * **Subjective**
-  * Multiple target-like erythematous macules/plaques
-  * [SJS] Extensive erythema with blister/erosion on skin/mucosa, febrile
-  * [TEN] Extensive erythema with necrosis/sloughing of skin/mucosa (burn-like), febrile
+  * Multiple target-like erythematous macules/patches
 * **Objective**
-  * [Pathology] Keratinocyte necrosis, lymphocyte infiltrates along dermoepidermal junction
-  * [Patho, SJS] Keratinocyte necrosis in cluster
-  * [Patho, TEN] Keratinocyte necrosis in layer
-* **Assessment**
-  * [Variant] Stevens-Johnson syndrome: Involvement < 10% BSA
-  * [Variant] Toxic epidermal necrolysis: Involvement > 10% BSA
-  * [Variant] Drug-induced hypersensitivity syndrome: With liver dysfunction, anti-HHV6 antibody↑
+  * [Pathology] Keratinocyte necrosis, lymphocytic infiltrates along dermoepidermal junction
 * **Plan**
   * Topical steroid, antihistamine
-  * [SJS, TEN] Terminate causative drug, systemic steroid
 {: .notice--info}
 
 ### Acute Febrile Neutrophilic Dermatosis / 急性熱性好中球性皮膚症
 
 * **Overview**
-  * Tender erythematous nodule with fever, related to hematologic or solid malignancy
-  * Also called Sweet’s disease
+  * Tender erythematous nodule with fever, related to hematologic/solid malignancy (Sweet’s disease)
 * **Subjective**
-  * Tender erythematous nodule/plaque, on face/upper-limbs
+  * Tender erythematous nodule/plaque: Often on face and upper limbs
   * Often with high fever, arthralgia
 * **Objective**
-  * [Pathology] Neutrophilic infiltration in dermis, edema of dermal papilla
   * [Blood] Neutrophil↑, CRP↑
+  * [Pathology] Neutrophilic infiltration in dermis, edema of dermal papilla
 * **Plan**
   * NSAID, corticosteroid
 {: .notice--info}
@@ -470,52 +486,81 @@ Essences of clinical medicine.
   * [Pathology] Neutrophilic infiltration in dermis
 {: .notice--info}
 
-## Chronic Inflammatory Dermatosis / 慢性炎症性皮膚疾患
-
-### Seborrheic Dermatitis / 脂漏性皮膚炎
+### Drug Eruption / 薬疹
 
 * **Overview**
-  * Chronic inflammatory dermatosis involving regions with high density of sebaceous glands
-  * Causes related to sebum production and Malassezia colonization
+  * Adverse drug reaction of skin, often due to type IV hypersensitivity
 * **Subjective**
-  * Erythematous greasy macules/patches with scales and crusts
+  * [Maculopapular] Widespread erythematous papules
+  * [Fixed] Erythematous patch at same place due to same drug
+  * [SJS] Extensive erythema with blister/erosion on skin/mucosa, fever
+  * [TEN] Extensive erythema with necrosis/sloughing of skin/mucosa, fever
+  * [DHIS] Extensive erythema, fever, lymphadenopathy
 * **Objective**
-  * [Pathology] Spongiosis, acanthosis, parakeratosis at hair follicle ostia
+  * [Pathology, SJS] Keratinocyte necrosis in cluster
+  * [Pathology, TEN] Keratinocyte necrosis in layer
+  * [Blood, DHIS] AST/ALT↑, eosinophil↑, anti-HHV6↑
+* **Assessment**
+  * [Type] Maculopapular rash: Most common drug eruption
+  * [Type] Fixed drug eruption: Same location due to same drug
+  * [Type] Stevens-Johnson syndrome: Severe reaction, life-threatening, involve < 10% BSA
+  * [Type] Toxic epidermal necrolysis: Severe reaction, high mortality, involve > 10% BSA
+  * [Type] Drug-induced hypersensitivity syndrome: Systemic reaction involving organs, due to HHV-6 reactivation
 * **Plan**
-  * Antifungal shampoo
-  * Corticosteroid cream
+  * Terminate causative drug
+  * Steroid, antihistamine
+  * IVIg, plasma exchange: For severe cases
 {: .notice--info}
+
+### Graft-Versus-Host Disease / 移植片対宿主病
+
+* **Overview**
+  * Host tissue attacked by graft lymphocyte after bone marrow transplantation
+* **Subjective**
+  * [Acute] Edematous erythema, papules, 
+  * [Chronic] Skin atrophy, sclerosis
+* **Objective**
+  * [Pathology, acute] Keratinocyte necrosis. lymphocytic infiltration
+  * [Pathology, chronic] Dermal collagen proliferation, bank-like lymphocytic infiltration
+* **Assessment**
+  * [Type] Acute GVHD: <100 days
+  * [Type] Chronic GVHD: >100 days
+* **Plan**
+  * Steroid
+{: .notice--info}
+
+## Keratosis / 角化症
 
 ### Psoriasis / 乾癬
 
 * **Overview**
-  * Chronic inflammatory dermatosis with autoimmune basis (environmental + genetic)
+  * Chronic inflammation of skin with autoimmune basis (environmental + genetic)
   * Result from T cell infiltration, cytokine secretion, keratinocyte proliferation
 * **Subjective**
-  * Multiple well-demarcated salmon-colored plaques with silver-white scale, often on elbow/knee/scalp
+  * Multiple well-demarcated salmon-colored plaques with silver-white scale: Often on elbow/knee/scalp
   * [Koebner phenomenon] New lesion induced by local trauma: Local inflammation becomes self-perpetuating
   * [Auspitz sign] Pinpoint bleeding when scales scraped off: Thinning of epidermis overlying dermal papillae
   * [Nail change] Pitting, onycholysis
-  * [Psoriatic arthritis] Pain, deformity, associated with HLA-B27
+  * [Psoriatic arthritis] Joint pain, deformity: Associated with HLA-B27
 * **Objective**
   * [Pathology] Acanthosis, elongated rete ridges, hyperkeratosis, parakeratosis: Increased keratinocyte turnover rate
   * [Pathology] Neutrophil aggregate in superficial epidermis (spongiform pustule) and stratum corneum (Munro microabscess): Local inflammation
 * **Assessment**
-  * [Type] Psoriasis vulgaris (most common): Erythematous plaques with white scale
+  * [Type] Psoriasis vulgaris (1st common): Erythematous plaques with white scale
   * [Type] Guttate psoriasis: Multiple small drop-shaped lesions
   * [Type] Pustular psoriasis: Localized or generalized lesions with pustules; including palmoplantar pustulosis
-  * [Type] Palmoplantar pustulosis: Pustules on palms and soles, related to metal allergy and smoking; associated with sternocostoclavicular hyperostosis
+  * [Type] Palmoplantar pustulosis: Pustules on palms and soles, related to metal allergy and smoking, associated with sternocostoclavicular hyperostosis
   * [Type] Psoriatic erythroderma: Generalized erythroderma and scaling
 * **Plan**
-  * Topical therapy: Steroid, vitamin D
-  * Light therapy: PUVA, UVB
-  * Biological agents: Anti-TNFα, anti-IL17, anti-IL23
+  * [Topical therapy] Steroid, vitamin D
+  * [Light therapy] PUVA, UVB
+  * [Biological agents] Anti-TNFα, anti-IL17, anti-IL23
 {: .notice--info}
 
 ### Lichen Planus / 扁平苔癬
 
 * **Overview**
-  * Chronic inflammatory dermatosis
+  * Chronic inflammation of skin
   * May be due to CD8+ T cells response elicited by altered antigen expressed in basal cell
 * **Subjective**
   * Multiple pruritic purple papule/plaque with white lines on skin/mucosa
@@ -529,27 +574,63 @@ Essences of clinical medicine.
   * Topical steroid
 {: .notice--info}
 
-## Blistering Disease / 水疱性疾患
+### Ichthyosis / 魚鱗癬
+
+* **Overview**
+  * Excessive keratin buildup due to defective desquamation, mostly inherited but also acquired
+* **Subjective**
+  * Fish-like scale, dry skin: Often since birth
+* **Objective**
+  * [Pathology] Buildup of compacted stratum corneum
+* **Assessment**
+  * [Type] Ichthyosis vulgaris: Filaggrin gene mutation lead to impaired water retention
+  * [Type] X-linked ichthyosis: Steroid sulfatase deficiency lead to excessive adherence of keratinocytes
+  * [Type] Congenital ichthyosiform erythroderma: Erythema without blister
+  * [Type] Epidermolytic ichthyosis: Erythema with blister
+  * [Type] Lamellar ichthyosis
+  * [Related] Palmoplantar keratoderma: Hyperkeratosis of palm/sole
+* **Plan**
+  * Moisturizer: For dry skin
+  * Salicylic acid: Soften and remove scales
+{: .notice--info}
+
+### Keratosis Follicularis / 毛包性角化症
+
+* **Overview**
+  * Chronic keratotic papules due to ATP2A2 mutation (Darier’s disease)
+* **Subjective**
+  * Keratotic papules in seborrheic/intertriginous part: Onset in adolescence
+  * Pruritus, foul smelling: Exacerbated by sweat and sunlight
+* **Objective**
+  * [Pathology] Hyperkeratosis, acantholysis
+* **Assessment**
+  * [Related] Keratosis pilaris: Noninflammatory keratotic papules on arms/legs, very common
+* **Plan**
+  * Retinoid
+{: .notice--info}
+
+## Blistering Disorder / 水疱性疾患
 
 ### Pemphigus / 天疱瘡
 
 * **Overview**
   * Blistering disease due to autoantibody against protein for adherence between keratinocytes (desmoglein)
 * **Subjective**
-  * Multiple flaccid bullae, rupture/erosion/erythema, in skin/mucosa: Dissolution of epidermis/epithelium
+  * Multiple flaccid bullae with rupture/erosion/erythema in skin/mucosa: Dissolution of epidermis/epithelium
+  * [Nikolsky sign] Skin peeling with gentle rubbing
 * **Objective**
+  * [Blood] Anti-Dsg3 IgG (+) (vulgaris), anti-Dsg1 IgG (+) (foliaceus)
   * [Pathology] Acantholysis in deep epidermis (suprabasal blister), row of tombstones: In pemphigus vulgaris/vegetans, anti-Dsg3 (deep)
   * [Pathology] Acantholysis in superficial epidermis (subcorneal blister): In pemphigus foliaceus/erythematosus, anti-Dsg1 (superficial)
   * [Pathology] Net-like IgG deposit (all-layer for vulgaris, superficial for foliaceus): Autoantibody against desmoglein (component of desmosome)
-  * [Serology] Anti-Dsg3 IgG (+) (vulgaris), anti-Dsg1 IgG (+) (foliaceus)
 * **Assessment**
-  * [Type] Pemphigus vulgaris (most common): Suprabasal blister, anti-Dsg3
+  * [Type] Pemphigus vulgaris (1st common): Suprabasal blister, anti-Dsg3
   * [Type] Pemphigus vegetans: Vegetating plaques, anti-Dsg3
-  * [Type] Pemphigus foliaceus (second common): Subcorneal blister, anti-Dsg1
+  * [Type] Pemphigus foliaceus (2nd common): Subcorneal blister, anti-Dsg1
   * [Type] Pemphigus erythematosus: Lupus-like erythema, anti-Dsg1
   * [Type] Paraneoplastic pemphigus: Often non-Hodgkin lymphoma
 * **Plan**
-  * Steroid, immunosuppressant
+  * Systemic steroid, immunosuppressant
 {: .notice--info}
 
 ### Bullous Pemphigoid / 水疱性類天疱瘡
@@ -557,11 +638,11 @@ Essences of clinical medicine.
 * **Overview**
   * Blistering disease due to autoantibody against protein for adherence of basal keratinocytes to basement membrane (BPAG2)
 * **Subjective**
-  * Multiple tense bullae, pruritic erythema, in skin/mucosa: Detachment of epidermis and dermis
+  * Multiple tense bullae with pruritic erythema in skin/mucosa: Detachment of epidermis and dermis
 * **Objective**
+  * [Blood] Anti-BPAG2 IgG (+)
   * [Pathology] Separation of basal keratinocytes and basement membrane (subepidermal blister), lymphocyte and eosinophil infiltrate: Due to anti-BPAG2
   * [Pathology] Linear IgG deposit at dermoepidermal junction: Autoantibody against BPAG2 (component of hemidesmosome)
-  * [Serology] Anti-BPAG2 IgG (+)
 * **Plan**
   * Topical steroid
   * Tetracycline
@@ -577,7 +658,7 @@ Essences of clinical medicine.
   * [Pathology] Separation of basement membrane and superficial dermis (subepidermal blister), neutrophil infiltrate at tip of dermal papillae
   * [Pathology] Granular IgA deposit at dermal papillae: Autoantibody against reticulin (anchoring fiber of basement membrane)
 * **Assessment**
-  * Often associated with celiac disease: IgA antibody cross-react to reticulin
+  * [Association] Celiac disease: IgA antibody cross-react to reticulin
 * **Plan**
   * Topical steroid
   * Gluten-free diet: If associated with celiac disease
@@ -587,6 +668,8 @@ Essences of clinical medicine.
 
 * **Overview**
   * Blistering disease due to inherited defect in structural protein of skin
+* **Subjective**
+  * Localized (simplex) or generalized (junctional, dystrophic) bullae
 * **Assessment**
   * [Type] Simplex: Blister in basal cell layer, due to mutation of keratin 14/5
   * [Type] Junctional: Blister in lamina lucida, due to mutation of laminin
@@ -598,7 +681,8 @@ Essences of clinical medicine.
 * **Overview**
   * Congenital (or acquired) disturbances of porphyrin metabolism
 * **Subjective**
-  * Urticaria and vesicles, exacerbated by sun exposure
+  * Urticaria and vesicles: Exacerbated by sun exposure
+  * Reddish urine: Under sun exposure
 * **Objective**
   * [Pathology] Subepidermal blister, abnormal vessel at superficial dermis
 * **Assessment**
@@ -608,7 +692,7 @@ Essences of clinical medicine.
   * [Type] Porphyria cutanea tarda
 {: .notice--info}
 
-## Skin Appendage Disease / 皮膚付属器疾患
+## Skin Appendage Disorder / 皮膚付属器疾患
 
 ### Acne Vulgaris / 尋常性痤瘡
 
@@ -629,9 +713,38 @@ Essences of clinical medicine.
 * **Overview**
   * Chronic inflammation around hair follicle, related to innate immune response
 * **Subjective**
-  * Persistent erythema/telangiectasia, papules/pustules, rhinophyma (nasal skin thickening)
+  * Persistent erythema/telangiectasia, papules/pustules, nasal skin thickening (rhinophyma)
 * **Objective**
-  * [Pathology] Perifollicular lymphocyte infiltrate, dermal edema and telangiectasia
+  * [Pathology] Perifollicular lymphocyte infiltrate, dermal edema/telangiectasia
+{: .notice--info}
+
+### Miliaria / 汗疹
+
+* **Overview**
+  * Sweat leakage to peripheral tissue due to obstruction of eccrine sweat gland duct
+* **Subjective**
+  * Multiple small blisters or papules
+* **Assessment**
+  * [Type] Miliaria crystallina: Bullae in corneum
+  * [Type] Miliaria rubra: Bullae in epidermis
+  * [Type] Miliaria profunda: Bullae in dermis
+* **Plan**
+  * Avoid sweating
+{: .notice--info}
+
+### Alopecia / 脱毛症
+
+* **Overview**
+  * Hair loss
+* **Subjective**
+  * [Androgenetic] M-shape receding hairline, vertex hair loss: Chronic progress
+  * [Areata] Hair loss in rounded patches: Acute onset
+* **Assessment**
+  * [Type] Androgenetic alopecia: Due to androgen (DHT)
+  * [Type] Alopecia areata: Related to autoimmune and stress
+* **Plan**
+  * 5α-reductase inhibitor
+  * Hair transplantation
 {: .notice--info}
 
 ## Panniculitis / 脂肪織炎
@@ -642,28 +755,29 @@ Essences of clinical medicine.
   * Inflammation of subcutaneous fat septa, related to delayed hypersensitivity reaction
   * Causes include infection, drug, sarcoidosis, IBD, malignancy
 * **Subjective**
-  * Poorly-defined erythematous tender patch/nodule
+  * Poorly-defined erythematous tender patch/nodule: Often on legs
 * **Objective**
-  * [Pathology] Edema, fibrin exudation, and infiltration of subcutaneous fat septa
+  * [Blood] WBC↑, CRP↑
+  * [Pathology] Edema/fibrin/infiltration of subcutaneous fat septa
 {: .notice--info}
 
 ### Erythema Induratum / 硬結性紅斑
 
 * **Overview**
-  * Inflammation of subcutaneous fat lobule, related to vasculitis
+  * Inflammation of subcutaneous fat lobule, related to vasculitis or tuberculosis
   * Vasculitis of deep vessels supplying subcutaneous fat leads to fat necrosis
 * **Subjective**
-  * Erythematous slightly-tender nodule, often ulcerated: In lower extremity
+  * Erythematous slightly-tender nodule, ulceration: Often on legs
 * **Objective**
-  * [Pathology] Granulomatous inflammation and caseous necrosis of subcutaneous fat lobule
+  * [Pathology] Caseating granulomatous inflammation of subcutaneous fat lobule
 {: .notice--info}
 
-## Infectious Disease / 感染症
+## Infectious Disorder / 感染症
 
 ### Herpes Simplex / 単純疱疹
 
 * **Overview**
-  * Viral infection caused by herpes simplex virus (HSV1/HSV2), primary or latent infection
+  * Viral infection caused by herpes simplex virus (HSV1/2), primary or latent infection
   * Latent infection in trigeminal ganglion (HSV1) or sacral ganglion (HSV2), reactivated in immunocompromised state (stress)
 * **Subjective**
   * [Labial] Painful vesicles on lips and perioral region
@@ -676,21 +790,22 @@ Essences of clinical medicine.
   * [Pathology] Intraepithelial vesicles
   * [Cytology] Giant cell, inclusion body
 * **Plan**
-  * Anti-herpes drugs: Acyclovir and derivatives
+  * Acyclovir and derivatives
 {: .notice--info}
 
 ### Herpes Zoster / 帯状疱疹
 
 * **Overview**
-  * Viral infection caused by varicella-zoster virus (VZV), latent infection (primary: chickenpox)
+  * Viral infection caused by varicella-zoster virus (VZV), latent infection (primary: varicella)
   * Latent infection in dorsal root ganglia, reactivated in immunocompromised state (aging, stress, malignancy, HIV, steroid)
 * **Subjective**
-  * Vesicles with erythema along dermatome (unilateral, band-like)
-  * Neuropathic pain, may cause persistent neuralgia
+  * Vesicles with erythema along dermatome (unilateral, band-like)             
+  * Neuropathic pain: May be persistent
 * **Assessment**
   * [Variant] Ramsay Hunt syndrome: Facial palsy due to involvement of CN VII geniculate ganglion
+  * [Related] Pityriasis rosea: Multiple erythema with scales due to HHV6/7 reactivation
 * **Plan**
-  * Anti-herpes drug: Acyclovir and derivatives
+  * Acyclovir and derivatives
   * NSAID: For acute pain
   * Pregabalin: For post-herpetic neuralgia
 {: .notice--info}
@@ -726,36 +841,86 @@ Essences of clinical medicine.
   * [Pathology] Cup-like epidermal hyperplasia, molluscum body (large cytoplasmic inclusion) in stratum granulosum/corneum
 {: .notice--info}
 
+### Folliculitis / 毛包炎
+
+* **Overview**
+  * Bacterial infection of hair follicle caused by staphylococcus aureus
+* **Subjective**
+  * Erythema, swelling, pustule: Around hair follicle
+* **Assessment**
+  * [Type] Folliculitis: Superficial infection of single follicle
+  * [Type] Furuncle: Deep infection of single follicle
+  * [Type] Carbuncle: Deep infection of multiple follicle
+  * [Related] Paronychia: Infection of skin around nail
+* **Plan**
+  * Antibiotics
+{: .notice--info}
 
 ### Impetigo / 膿痂疹
 
 * **Overview**
-  * Superficial bacterial infection caused by staphylococcus/streptococcus, highly contagious
-  * Local invasion result in serous exudate (crust), exfoliative toxin cleave desmoglein 1 (blister)
+  * Bacterial infection of epidermis caused by staphylococcus/streptococcus, highly contagious
+  * Local invasion result in serous exudate (crust)
+  * Exfoliative toxin cleave desmoglein1 (blister)
 * **Subjective**
   * Erythematous macule/patch with honey-colored crust (contagiosa) or blister/erosion (bullosa)
 * **Objective**
   * [Pathology] Neutrophil accumulation beneath stratum corneum
 * **Assessment**
-  * [Type] Impetigo contagiosa: Caused by β-hemolytic streptococcus (also S. aureus now)
-  * [Type] Impetigo bullosa: Caused by Staphylococcus aureus
-  * [Variant] Staphylococcal Scalded Skin Syndrome: Extensive shallow burn-like desquamation in infants due to release of staphylococcal exfoliative toxin into bloodstream
+  * [Type] Impetigo contagiosa: Caused by group A streptococcus (also staphylococcus now)
+  * [Type] Impetigo bullosa: Caused by staphylococcus aureus
+* **Plan**
+  * Antibiotics
+{: .notice--info}
+
+### Cellulitis / 蜂巣炎
+
+* **Overview**
+  * Bacterial infection of dermis and subcutaneous tissue caused by staphylococcus/streptococcus
+* **Subjective**
+  * Ill-defined painful edematous erythema: Rapidly enlarging
+  * Fever, chill
+* **Objective**
+  * [Blood] WBC↑, CRP↑
+* **Assessment**
+  * [Related] Erysipelas: Infection of dermis caused by group A streptococcus
+* **Plan**
+  * Antibiotics
+  * Drainage
+{: .notice--info}
+
+### Necrotizing Fasciitis / 壊死性筋膜炎
+
+* **Overview**
+  * Bacterial infection of subcutaneous tissue and fascia caused by streptococcus/staphylococcus
+* **Subjective**
+  * Ill-defined painful edematous erythema/purpura/blister/sloughing: Rapidly progress
+  * Fever, septic shock, multiorgan failure
+* **Objective**
+  * [Blood] WBC↑, CRP↑
+  * [CT] Subcutaneous edema
+* **Assessment**
+  * [Related] Gas gangrene: Muscle necrosis with gas production caused by clostridium perfringens
+* **Plan**
+  * Emergent debridement
+  * Antibiotics
 {: .notice--info}
 
 ### Tinea / 白癬
 
 * **Overview**
   * Superficial fungal infection caused by dermatophytes (mainly Trichophyton)
-* **Subjective**
-  * [Tinea capitis] Scalp, erythematous patch with hair loss
-  * [Tinea corporis] Various location, expanding round erythematous patch
-  * [Tinea cruris] Inguinal area, erythematous patch with scaly border
-  * [Tinea pedis] Sole, diffuse erythema and scaling (interdigital, vesicular, hyperkeratotic)
-  * [Tinea unguium] Nail, discoloration and thickening and deformity
-  * [Tinea versicolor] Trunk, discolored macule or patch, caused by Malassezia furfur instead of dermatophyte
+* **Assessment**
+  * [Type] Tinea capitis: Scalp, erythematous patch with hair loss
+  * [Type] Tinea corporis: Various location, expanding round erythematous patch
+  * [Type] Tinea cruris: Inguinal area, erythematous patch with scaly border
+  * [Type] Tinea pedis: Sole, diffuse erythema and scaling (interdigital, vesicular, hyperkeratotic)
+  * [Type] Tinea unguium: Nail, discoloration and thickening/deformity
+  * [Related] Tinea versicolor: Trunk, discolored macule or patch, caused by malassezia instead of dermatophyte
+  * [Related] Sporotrichosis: Deep fungal infection caused by sporothrix
 * **Objective**
-  * [Pathology] Red hyphae in stratum corneum under PAS stain
   * [KOH] Septate hyphae
+  * [Pathology] Red hyphae in stratum corneum under PAS stain
 * **Plan**
   * Topical azoles/allylamines
 {: .notice--info}
@@ -769,6 +934,100 @@ Essences of clinical medicine.
   * Track-like burrows (scabies burrow)
 * **Plan**
   * Topical phenothrin, oral ivermectin
+  * Environmental cleaning
+{: .notice--info}
+
+## Miscellaneous Skin Disorder / その他の皮膚疾患
+
+### Hypertrophic Scar & Keloid / 肥厚性瘢痕・ケロイド
+
+* **Overview**
+  * Excessive collagen production due to abnormal wound healing
+* **Subjective**
+  * Skin elevation at wound site
+* **Assessment**
+  * [Type] Hypertrophic scar: Stay within original boundary
+  * [Type] Keloid: Extend beyond original boundary
+* **Plan**
+  * Steroid injection
+  * Surgical excision
+{: .notice--info}
+
+### Clavus & Callus / 鶏眼・胼胝
+
+* **Overview**
+  * Noninflammatory keratosis due to chronic physical irritation
+* **Subjective**
+  * [Clavus] Skin hardening with tenderness
+  * [Callus] Skin thickening without tenderness
+* **Assessment**
+  * [Type] Clavus: Inward growth
+  * [Type] Callus: Outward growth
+* **Plan**
+  * Salicylic acid, excision
+{: .notice--info}
+
+### Pressure Ulcer / 褥瘡
+
+* **Overview**
+  * Skin damage due to long-term pressure causing skin hypoperfusion
+* **Subjective**
+  * Skin defect, erythema: Common in sacral area
+  * Black necrosis, yellow necrosis, red granulation, white scarring: Disease progress
+* **Assessment**
+  * [Stage] Stage I: Erythema
+  * [Stage] Stage II: Blister
+  * [Stage] Stage III: Fat
+  * [Stage] Stage IV: Bone
+* **Plan**
+  * Wet dressing, negative pressure
+  * Pressure redistribution: Preventive
+{: .notice--info}
+
+### Burn / 熱傷
+
+* **Overview**
+  * Skin damage due to high temperature
+* **Subjective**
+  * Erythema, edema: 1st-degree
+  * Blister, erosion: 2nd-degree
+  * White plaque, sensation loss: 3rd-degree
+  * Shock, sepsis: Impaired skin barrier
+* **Assessment**
+  * [Stage] First-degree burn: To epidermis
+  * [Stage] Second-degree burn: To dermis
+  * [Stage] Third-degree burn: To subcutaneous tissue
+  * [Evaluation] Rule of 9s
+* **Plan**
+  * Topical steroid: For 1st-degree burn
+  * Vaseline ointment: For 2nd-degree burn
+  * Debridement, skin grafting: For 3rd-degree burn
+  * IV fluid (parkland formula), antibiotics: For systemic disease
+  * Intubation: If airway burn
+{: .notice--info}
+
+### Solar Dermatitis / 日光皮膚炎
+
+* **Overview**
+  * Skin damage due to excessive sun exposure (UVB)
+* **Subjective**
+  * Erythema, edema, blister: Sunburn
+  * Pigmentation: Suntan
+* **Assessment**
+  * [Related] Photosensitive disorder: Chromophore in skin activated by sun and leading to toxic or allergic reaction
+* **Plan**
+  * Sunscreen: Preventive
+{: .notice--info}
+
+### Xeroderma Pigmentosum / 色素性乾皮症
+
+* **Overview**
+  * Hereditary disorder of photosensitivity due to defective DNA repair (nucleotide excision repair)
+* **Subjective**
+  * Severe sunburn, diffuse pigmentation, multiple skin malignancy
+  * Gait disturbance, hearing loss
+* **Plan**
+  * UV protection
 {: .notice--info}
 
 
