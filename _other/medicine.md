@@ -212,7 +212,7 @@ Essences of clinical medicine.
   * [Type] Melanoma
 {: .notice--info}
 
-## Corneal Disorder / 角膜
+## Corneal Disorder / 角膜疾患
 
 ### Viral Keratitis / ウイルス性角膜炎
 
