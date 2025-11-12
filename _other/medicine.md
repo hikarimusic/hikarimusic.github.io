@@ -33,6 +33,790 @@ Essences of clinical medicine.
 
 # Ophthalmology / 眼科
 
+## Functional Disorder / 機能障害
+
+### Myopia / 近視
+
+* **Overview**
+  * Light focus in front of retina
+* **Subjective**
+  * Blurred vision
+* **Objective**
+  * [Refractometry] Improve with concave lens
+  * [Fundoscopy] Tessellated fundus, conus: Simple myopia
+  * [Fundoscopy] Chorioretinal atrophy, neovascularization, Fuchs spot: Pathologic myopia
+* **Assessment**
+  * [Type] Axial myopia: Increased eyeball length, more common
+  * [Type] Refractive myopia: Excessive refractive power, less common
+* **Plan**
+  * Spherical concave lens
+  * Refractive surgery (LASIK)
+{: .notice--info}
+
+### Hyperopia / 遠視
+
+* **Overview**
+  * Light focus behind retina
+* **Subjective**
+  * Blurred vision, eye fatigue
+* **Objective**
+  * [Refractometry] Improve with convex lens
+* **Assessment**
+  * [Type] Axial hyperopia: Decreased eyeball length
+  * [Type] Refractive hyperopia: Insufficient refractive power
+  * [Complication] Angle-closure glaucoma
+* **Plan**
+  * Spherical convex lens
+{: .notice--info}
+
+### Astigmatism / 乱視
+
+* **Overview**
+  * Irregular curvature of cornea/lens
+* **Subjective**
+  * Blurred vision
+* **Objective**
+  * [Refractometry] Improve with cylindrical lens
+* **Assessment**
+  * [Type] Regular astigmatism: Symmetric distortion of cornea
+  * [Type] Irregular astigmatism: Asymmetric distortion of cornea
+* **Plan**
+  * Cylindrical lens
+{: .notice--info}
+
+### Presbyopia / 老視
+
+* **Overview**
+  * Loss of eye’s adjusting ability due to decreased lens elasticity
+* **Plan**
+  * Convex lens
+{: .notice--info}
+
+### Strabismus / 斜視
+
+* **Overview**
+  * Eyes misalign and do not point in same direction
+* **Subjective**
+  * Double vision
+* **Objective**
+  * [Cover test] Abnormal eye moving
+* **Assessment**
+  * [Type] Infantile esotropia: Congenital strabismus in infant
+  * [Type] Accommodative esotropia: Excessive convergence due to hyperopia
+  * [Type] Intermittent exotropia: Intermittent exotropia when looking distant object
+  * [Type] Paralytic strabismus: Strabismus due to extraocular muscle paralysis
+* **Plan**
+  * Strabismus surgery
+{: .notice--info}
+
+### Amblyopia / 弱視
+
+* **Overview**
+  * Abnormal visual development due to inadequate stimulation
+* **Assessment**
+  * [Type] Form deprivation amblyopia: Due to blockage of visual stimulation (congenital cataract)
+  * [Type] Strabismus amblyopia: Due to misalignment of eyes (infantile esotropia)
+  * [Type] Anisometropic amblyopia: Due to refractive difference between eyes (hyperopia)
+  * [Type] Due to uncorrected refractive error (hyperopia)
+* **Plan**
+  * Vision correction
+{: .notice--info}
+
+### Color Vision Deficiency / 色覚異常
+
+* **Overview**
+  * Inability to distinguish certain colors due to cone cell abnormalities
+* **Subjective**
+  * Cannot distinguish red/green or blue/yellow
+* **Objective**
+  * [Pseudoisochromatic plate] Failed
+* **Assessment**
+  * [Type] Red-green: Due to L/M cone abnormality, X-linked
+  * [Type] Blue-yellow: Due to S cone abnormality, autosomal
+  * [Related] Night blindness: Due to rod cell abnormalities
+{: .notice--info}
+
+## Conjunctiva Disorder / 結膜疾患
+
+### Viral Conjunctivitis / ウイルス性結膜炎
+
+* **Overview**
+  * Inflammation of conjunctiva caused by viral infection
+* **Subjective**
+  * Conjunctival injection, foreign body sensation
+  * Serous discharge, conjunctival follicle, preauricular lymphadenopathy
+  * [EKC] Subepithelial corneal infiltrates
+  * [PCF] Fever, pharyngitis
+  * [AHC] Subconjunctival hemorrhage
+* **Assessment**
+  * [Type] Epidemic keratoconjunctivitis: Adenovirus
+  * [Type] Pharyngoconjunctival fever: Adenovirus
+  * [Type] Acute hemorrhagic conjunctivitis: Enterovirus
+* **Plan**
+  * Antibiotics: Preventive
+{: .notice--info}
+
+### Bacterial Conjunctivitis / 細菌性結膜炎
+
+* **Overview**
+  * Inflammation of conjunctiva caused by bacterial infection
+* **Subjective**
+  * Conjunctival injection, foreign body sensation
+  * Purulent discharge
+  * [Atypical] Urethritis, neonatal conjunctivitis
+* **Assessment**
+  * [Type] Typical: Staphylococcus, pneumococcus, haemophilus
+  * [Type] Atypical: Gonococcus, chlamydia
+  * [Related] Trachoma: Due to recurrent infection of chlamydia, may lead to vision loss
+* **Plan**
+  * Antibiotics
+{: .notice--info}
+
+### Allergic Conjunctivitis / アレルギー性結膜炎
+
+* **Overview**
+  * Inflammation of conjunctiva caused by type 1 allergy
+* **Subjective**
+  * Conjunctival injection, foreign body sensation
+  * Pruritus, conjunctival papillae
+  * [VKC] Conjunctival proliferation, corneal lesion
+* **Objective**
+  * [Blood] Eosinophil↑, IgE↑
+* **Assessment**
+  * [Type] Allergic conjunctivitis: Allergy to pollen/dust
+  * [Type] Vernal keratoconjunctivitis: Severe form with proliferative changes
+  * [Related] Scleritis: Inflammation of sclera (often associated with rheumatic arthritis)
+* **Plan**
+  * Avoid allergen, antihistamine
+{: .notice--info}
+
+### Pterygium / 翼状片
+
+* **Overview**
+  * Submucosal growth of fibrovascular tissue in conjunctiva due to sun damage
+* **Subjective**
+  * Yellowish submucosal elevation on conjunctiva: Near limbus, often nasal side
+  * Preserved vision
+* **Assessment**
+  * [Type] Pinguecula: Only conjunctiva
+  * [Type] Pterygium: Invade cornea
+{: .notice--info}
+
+### Conjunctival Neoplasm / 結膜腫瘍
+
+* **Overview**
+  * Neoplasm of conjunctival epithelium
+* **Assessment**
+  * [Type] Squamous cell carcinoma
+  * [Type] Nevi
+  * [Type] Melanoma
+{: .notice--info}
+
+## Corneal Disorder / 角膜
+
+### Viral Keratitis / ウイルス性角膜炎
+
+* **Overview**
+  * Inflammation of cornea caused by viral infection, due to latent infection
+* **Subjective**
+  * Foreign body sensation, pain, blurred vision
+  * [Acute] Dendritic keratitis (HSV), pseudodendritic keratitis (VZV): Epithelial involvement
+  * [Chronic] Disciform keratitis, necrotizing keratitis: Stromal involvement
+  * Vision loss: If uncontrolled
+* **Assessment**
+  * [Pathogen] HSV, VZV, CMV
+* **Plan**
+  * Acyclovir
+  * Cornea transplant: If irreversible
+{: .notice--info}
+
+### Bacterial Keratitis / 細菌性角膜炎
+
+* **Overview**
+  * Inflammation of cornea caused by bacterial infection, due to injury or contact lens
+* **Subjective**
+  * Foreign body sensation, pain, blurred vision
+  * Corneal abscess/ulceration
+  * Vision loss: If uncontrolled
+* **Assessment**
+  * [Pathogen] Staphylococcus, pseudomonas, pneumococcus
+* **Plan**
+  * Antibiotics
+  * Cornea transplant: If irreversible
+{: .notice--info}
+
+### Acanthamoeba Keratitis / アカントアメーバ角膜炎
+
+* **Overview**
+  * Inflammation of cornea caused by acanthamoeba infection, due to contact lens
+* **Subjective**
+  * Foreign body sensation, pain, blurred vision
+  * Vision loss: If uncontrolled
+* **Plan**
+  * Cornea transplant: If irreversible
+{: .notice--info}
+
+### Corneal Degeneration / 角膜変性
+
+* **Overview**
+  * Corneal damage due to non-inherited causes
+* **Subjective**
+  * Corneal opacity
+  * [Band] Grayish corneal band
+  * [Bullous] Corneal edema
+* **Assessment**
+  * [Type] Band keratopathy: Due to calcium deposition (uveitis, renal failure, hyperparathyroidism)
+  * [Type] Bullous keratopathy: Due to decreased endothelial cells (cataract surgery, contact lens)
+* **Plan**
+  * Cornea transplant
+{: .notice--info}
+
+### Corneal Dystrophy / 角膜ジストロフィ
+
+* **Overview**
+  * Corneal damage due to inherited causes
+* **Subjective**
+  * Corneal opacity
+  * Progressive vision loss
+* **Assessment**
+  * [Type] Fuchs endothelial dystrophy: Due to loss of endothelial cells
+  * [Type] Granular/Lattice dystrophy: Due to hyaline/amyloid deposition in stroma
+* **Plan**
+  * Cornea transplant
+{: .notice--info}
+
+### Keratoconus / 円錐角膜
+
+* **Overview**
+  * Progressive thinning and ectasia of cornea
+* **Subjective**
+  * Cone-shaped cornea
+  * Astigmatism
+* **Objective**
+  * [Pathology] Thinning of cornea, break in Bowman layer
+* **Plan**
+  * Rigid contact
+  * Cornea transplant
+{: .notice--info}
+
+## Anterior Segment Disorder / 前眼部疾患
+
+### Cataract / 白内障
+
+* **Overview**
+  * Opacification of lens due to insolubilization of crystalline
+  * Related to systemic diseases (diabetes mellitus, atopic dermatitis), drugs (corticosteroids), injury (radiation, trauma), congenital (TORCH)
+* **Subjective**
+  * [Age-related] Blurred vision, glare
+  * [Congenital] White turbidity in pupil
+* **Objective**
+  * [Slit-lamp] Lens clouding
+  * [Red reflex test] Abnormal reflex
+* **Assessment**
+  * [Type] Cortical cataract: Most common
+  * [Type] Nuclear cataract: Diabetes
+  * [Type] Posterior subcapsular cataract: Steroids, diabetes
+  * [Type] Anterior subcapsular cataract: Atopic dermatitis
+  * [Complication] Aftercataract (post-surgical): Cataract due to lens epithelial cell proliferation
+  * [Complication] Bullous keratopathy (post-surgical): Corneal edema due to decreased endothelial cells
+* **Plan**
+  * Medication: Pirenoxine, glutathione
+  * Surgery: Phacoemulsification and aspiration, intraocular lens implantation
+{: .notice--info}
+
+### Glaucoma / 緑内障
+
+* **Overview**
+  * Degeneration of optic nerve head, mostly associated with elevated intraocular pressure
+  * [Primary] Due to increased outflow resistance (open-angle), blockage by peripheral iris (angle-closure), neuronal susceptibility (normal tension)
+  * [Secondary] Due to neovascularization (retinal vein occlusion, DM), trabecular meshwork deposits (steroids, uveitis), mechanical compression (cataract, surgery)
+* **Subjective**
+  * [Open-angle] Visual field defect (paracentral scotoma, arcuate scotoma, nasal step, concentric narrowing)
+  * [Angle-closure] Acute eye pain, headache, conjunctival injection, corneal edema
+  * [Congenital] Cornea enlargement
+  * Irreversible visual impairment: If untreated (especially PACG)
+* **Objective**
+  * [Tonometer] Intraocular pressure↑
+  * [Fundoscopy] Optic disc cup enlargement (C/D ratio↑), nerve fiber layer defects
+  * [OCT] Nerve fiber layer thinning
+  * [Pathology] Loss of ganglion cells, thinning of nerve fiber layer
+* **Assessment**
+  * [Type] Open-angle glaucoma: Open drainage angle, often idiopathic
+  * [Type] Normal tension glaucoma: Normal intraocular pressure (subtype of open-angle)
+  * [Type] Angle-closure glaucoma: Closed drainage angle, often in hyperopia
+* **Plan**
+  * [POAG, medication] Prostaglandin analogs, β-blocker
+  * [POAG, surgery] Trabeculectomy, laser trabeculoplasty
+  * [PACG, medication] Osmotic diuretics, miotic agents, carbonic anhydrase inhibitors
+  * [PACG, surgery] Laser iridotomy, laser gonioplasty
+{: .notice--info}
+
+## Uvea Disorder / ぶどう膜疾患
+
+### Sarcoidosis / サルコイドーシス
+
+* **Overview**
+  * Inflammation of uvea (uveitis) due to systemic granulomatous inflammation
+* **Subjective**
+  * Eye pain, conjunctival injection, photophobia: Anterior uveitis
+  * Vision loss, blurred vision, floater: Posterior uveitis
+  * Cough, dyspnea, erythema nodosum: Sarcoidosis
+* **Objective**
+  * [Ophthalmoscopy] Keratic precipitates (mutton-fat), iris nodule, vitreous opacity, retinal exudate (candle-wax)
+  * [X-ray] Bilateral hilar lymphadenopathy
+  * [Pathology] Noncaseating granulomatous inflammation
+* **Assessment**
+  * [Complication] Secondary glaucoma: Due to anterior synechiae
+  * [Compliication] Anterior subcapsular cataract: Due to posterior synechiae
+* **Plan**
+  * Steroid: Eyedrop
+{: .notice--info}
+
+### Vogt-Koyanagi-Harada Disease / Vogt-小柳-原田病
+
+* **Overview**
+  * Inflammation of uvea (uveitis) due to autoimmune destruction of melanocyte
+* **Subjective**
+  * Eye pain, conjunctival injection, photophobia: Anterior uveitis
+  * Vision loss, blurred vision, floater: Posterior uveitis
+  * [1st] Headache, meningeal sign: VKH involving meninges
+  * [2nd] Acute vision loss, hearing loss: VKH involving uvea and inner ear
+  * [3rd] Poliosis, hair loss, vitiligo: VKH involving hair root and skin
+* **Objective**
+  * [Ophthalmoscopy] Keratic precipitates (mutton-fat), vitreous opacity, retinal detachment (exudative)
+  * [Pathology] Noncaseating granulomatous inflammation
+* **Assessment**
+  * [Complication] Secondary glaucoma: Due to anterior synechiae
+  * [Complication] Anterior subcapsular cataract: Due to posterior synechiae
+* **Plan**
+  * Steroid: Pulse therapy
+{: .notice--info}
+
+### Behcet’s Disease / Bechet病
+
+* **Overview**
+  * Inflammation of uvea (uveitis) due to systemic autoimmune disease
+* **Subjective**
+  * Eye pain, conjunctival injection, photophobia: Anterior uveitis
+  * Vision loss, blurred vision, floater: Posterior uveitis
+  * Recurrent oral ulcer, genital ulcer: Behcet’s disease
+* **Objective**
+    * [Ophthalmoscopy] Keratic precipitates, hypopyon, vitreous opacity, retinal exudate
+  * [Genotyping] HLA-B51 (+)
+* **Assessment**
+  * [Complication] Secondary glaucoma: Due to anterior synechiae
+  * [Complication] Anterior subcapsular cataract: Due to posterior synechiae
+* **Plan**
+  * Steroid: Eyedrop
+{: .notice--info}
+
+### Infectious Uveitis / 感染性ぶどう膜炎
+
+* **Overview**
+  * Inflammation of uvea (uveitis) due to infection (endophthalmitis)
+* **Subjective**
+  * Eye pain, conjunctival injection, photophobia: Anterior uveitis
+  * Vision loss, blurred vision, floater: Posterior uveitis
+* **Objective**
+  * [Ophthalmoscopy] Keratic precipitates, hypopyon, retinal exudate
+* **Assessment**
+  * [Type] Viral: HSV, VZV, CMV, HTLV-1
+  * [Type] Bacterial: Exogenous/endogenous bacteria, tuberculosis, syphilis
+  * [Type] Fungal: Candida
+  * [Type] Parasitic: Toxoplasma
+{: .notice--info}
+
+### Uveal Melanoma / ぶどう膜黒色腫
+
+* **Overview**
+  * Malignant neoplasm of uveal melanocytes
+  * Related to GNAQ/GNA11 mutation and BAP1 deletion
+* **Objective**
+  * [Fundoscopy] Black tumor
+  * [Pathology] Spindle or epithelioid cells, slit-like space
+* **Assessment**
+  * [Related] Uveal nevus: Relatively common
+* **Plan**
+  * Radiotherapy
+  * Enucleation
+{: .notice--info}
+
+## Retina Disorder / 網膜疾患
+
+### Vitreous Detachment / 硝子体剝離
+
+* **Overview**
+  * Separation of posterior hyaloid membrane from retina, physiologic condition due to aging
+* **Subjective**
+  * Floater, photopsia: Due to degenerated vitreous fiber
+{: .notice--info}
+
+### Retinal Detachment / 網膜剝離
+
+* **Overview**
+  * Separation of neurosensory retina from retinal pigment epithelium
+  * [Rhegmatogenous] Due to aging, myopia
+  * [Nonrhegmatogenous] Due to uveitis (exudative), DM (tractional) 
+* **Subjective**
+  * Floater, photopsia: Retinal tear formation
+  * Visual field defect, vision loss: Retinal detachment
+* **Objective**
+  * [Fundoscopy] Horseshoe-shaped defect (aging), lattice degeneration (myopia): Rhegmatogenous
+  * [Fundoscopy] Detachment without tear, proliferative membrane (DM): Nonrhegmatogenous 
+* **Assessment**
+  * [Type] Rhegmatogenous retinal detachment: Liquefied vitreous humor leak through retinal defect to under retina
+  * [Type] Nonrhegmatogenous retinal detachment (exudative): Fluid exudate leak from choroidal circulation to under retina
+  * [Type] Nonrhegmatogenous retinal detachment (tractional): Vitreous collapse and exert traction on retina through proliferative membrane 
+* **Plan**
+  * Scleral buckling: For younger cases
+  * Vitrectomy: For older cases
+  * Laser photocoagulation: For tear without detachment
+{: .notice--info}
+
+### Hypertensive Retinopathy / 高血圧網膜症
+
+* **Overview**
+  * Retinal vascular disease of hypertension, due to vasospasm and arteriolosclerosis
+* **Objective**
+  * [Fundoscopy] Arterial narrowing, hemorrhage, soft exudate (cotton-wool spots): Vasospasm and nerve fiber edema
+  * [Fundoscopy] Copper-/silver-wire artery, arteriovenous crossing: Arteriolosclerosis and vein compression
+{: .notice--info}
+
+### Diabetic Retinopathy / 糖尿病網膜症
+
+* **Overview**
+  * Retinal vascular disease of diabetes mellitus, due to retinal microangiopathy
+* **Subjective**
+  * Blurred vision, floaters, vision loss
+* **Objective**
+  * [Fundoscopy, nonproliferative] Microaneurysm, hemorrhage, retinal edema, hard exudate: Vessel disrupt
+  * [Fundoscopy, preporliferative] Soft exudate, microvascular abnormality: Retinal ischemia
+  * [Fundoscopy, proliferative] Neovascularization, vitreous hemorrhage, proliferative membrane, retinal detachment: Neovascularization
+* **Assessment**
+  * [Stage] Nonproliferative diabetic retinopathy: Vessel disrupts
+  * [Stage] Preproliferative diabetic retinopathy: Retinal ischemia
+  * [Stage] Proliferative diabetic retinopathy: Neovascularization
+  * [Related] Sickle retinopathy: Similarly due to vascular occlusion
+* **Plan**
+  * Blood glucose control
+  * Panretinal photocoagulation: Inhibit neovascularization
+  * Vitrectomy: Remove proliferative membrane
+  * Anti-VEGF injection
+{: .notice--info}
+
+### Retinopathy of Prematurity / 未熟児網膜症
+
+* **Overview**
+  * Retinal vascular disease in premature infants treated with oxygen, due to constriction and ischemia of peripheral retinal vessels
+* **Subjective**
+  * Strabismus, leukocoria
+  * Vision loss
+* **Objective**
+  * [Fundoscopy] Neovascularization, demarcation line, proliferative changes, retinal detachment
+* **Plan**
+  * Photocoagulation
+{: .notice--info}
+
+### Retinal Artery Occlusion / 網膜動脈閉塞症
+
+* **Overview**
+  * Occlusion of central/branch retinal artery, due to thrombosis/embolism
+* **Subjective**
+  * Sudden unilateral vision loss, visual field defect
+* **Objective**
+  * [Fundoscopy] Retinal opacity, cherry-red spots: Retinal edema with fovea sparing
+* **Plan**
+  * Ocular massage, paper-bag rebreathing
+  * Thrombolytics
+{: .notice--info}
+
+### Retinal Vein Occlusion / 網膜静脈閉塞症
+
+* **Overview**
+  * Occlusion of central/branch retinal vein, due to compression from sclerotic arterioles
+* **Subjective**
+  * Sudden unilateral vision loss, visual field defect
+* **Objective**
+  * [Fundoscopy] Dilated and tortuous veins, flame-shaped hemorrhage, soft exudate
+* **Plan**
+  * Anti-VEGF injection
+  * Photocoagulation
+{: .notice--info}
+
+### Age-Related Macular Degeneration / 加齢黄斑変性
+
+* **Overview**
+  * Degeneration of macula due to choroidal neovascularization or retinal pigment epithelium atrophy
+* **Subjective**
+  * Distorted vision, central scotoma, vision loss
+* **Objective**
+  * [Fundoscopy] Macular hemorrhage, macular scar: Neovascular AMD
+  * [Fundoscopy] Deposits in Bruch membrane, atrophy of retinal pigment epithelium: Atrophic AMD
+  * [OCT] Choroidal neovascularization: Neovascular AMD
+* **Assessment**
+  * [Type] Neovascular macular degeneration: Choroidal neovascularization
+  * [Type] Atrophic macular degeneration: Retinal pigment epithelium atrophy
+  * [Related] Central serous chorioretinopathy: Subretinal serum accumulation, related to stress
+* **Plan**
+  * Anti-VEGF injection
+  * Photocoagulation
+{: .notice--info}
+
+### Retinitis Pigmentosa / 網膜色素変性
+
+* **Overview**
+  * Progressive dystrophy of outer retina, inherited disease due to mutations of photoreceptor/RPE genes
+* **Subjective**
+  * Night blindness, constricted visual field: Loss of rods
+  * Decreased visual acuity, vision loss: Loss of cones
+* **Objective**
+  * [Fundoscopy] Bone spicule-like pigmentation, optic nerve head atrophy
+  * [Electroretinogram] Decreased amplitude
+* **Plan**
+  * Vitamin A/E, UV protection
+{: .notice--info}
+
+### Retinoblastoma / 網膜芽細胞腫
+
+* **Overview**
+  * Malignant neoplasm of retinal progenitor, often due to RB mutation (germline + somatic)
+* **Subjective**
+  * Leukocoria (cat’s eye)
+* **Objective**
+  * [Fundoscopy] White tumor: Often bilateral in germline case
+  * [Pathology] Small round hyperchromatic cells, Flexner-Wintersteiner rosettes
+* **Plan**
+  * Laser, cryocoagulation, brachytherapy: Localized case
+  * Enucleation: Advanced case
+  * Chemotherapy: Adjuvant therapy
+{: .notice--info}
+
+### Retinal Lymphoma / 網膜リンパ腫
+
+* **Overview**
+  * Primary malignant lymphoma involving neurosensory retina and retinal pigment epithelium
+* **Objective**
+  * [Fundoscopy] Infiltrative white lesions
+  * [Pathology] Often DLBCL
+* **Plan**
+  * Chemotherapy, radiotherapy
+{: .notice--info}
+
+## Optic Nerve Disorder / 視神経疾患
+
+### Papilledema / うっ血乳頭
+
+* **Overview**
+  * Edema of optic nerve head due to elevated intracranial pressure (compressing optic nerve venous return)
+* **Subjective**
+  * Enlarged blind spot
+* **Objective**
+  * [Fundoscopy] Swollen and hyperemic optic nerve head
+{: .notice--info}
+
+### Optic Neuritis / 視神経炎
+
+* **Overview**
+  * Inflammation and demyelinization of optic nerve, due to idiopathic, multiple sclerosis, neuromyelitis optica
+* **Subjective**
+  * Visual field defect, vision loss
+* **Objective**
+  * [MRI] Hyperintense optic nerve
+{: .notice--info}
+
+### Ischemic Optic Neuropathy / 虚血性視神経症
+
+* **Overview**
+  * Ischemia or infarction of optic nerve due to inflammation (giant cell arteritis) or thromboembolism (atherosclerosis)
+* **Subjective**
+  * Visual field defect, vision loss
+* **Objective**
+  * [Fundoscopy] Swollen and pale optic nerve head
+{: .notice--info}
+
+### Leber Hereditary Optic Neuropathy / Leber遺伝性視神経症
+
+* **Overview**
+  * Hereditary optic nerve degeneration due to mitochondrial gene mutation
+* **Subjective**
+  * Vision clouding, vision loss: 
+* **Assessment**
+  * [Course] Mostly in males, subacute onset
+{: .notice--info}
+
+## Eyelid Disorder / 眼瞼疾患
+
+### Hordeolum / 麦粒腫
+
+* **Overview**
+  * Acute bacterial infection of Zeis gland (external) or Meibomian gland (internal), by Staphylococcus aureus/epidermidis
+* **Subjective**
+  * Eyelid redness, swelling, tenderness
+* **Plan**
+  * Antibiotics
+{: .notice--info}
+
+### Chalazion / 霰粒腫
+
+* **Overview**
+  * Chronic granulomatous inflammation of Meibomian gland due to gland obstruction and lipid accumulation
+* **Subjective**
+  * Eyelid mass, painless
+* **Plan**
+  * Steroids
+{: .notice--info}
+
+### Sebaceous Carcinoma / 脂腺癌
+
+* **Overview**
+  * Malignant neoplasm of sebaceous gland in eyelid
+* **Subjective**
+  * Eyelid mass: Mimics chalazion
+* **Objective**
+  * [Pathology] Foamy cytoplasm, stromal invasion
+{: .notice--info}
+
+## Lacrimal Apparatus Disorder / 涙器疾患
+
+### Dry Eye / ドライアイ
+
+* **Overview**
+  * Decrease in tear film stability (decreased tear quantity/quality, abnormality of cornea/eyelid)
+* **Subjective**
+  * Dry sensation, foreign body sensation, pain, fatigue
+* **Objective**
+  * [Tear film] Break-up time ≤ 5s
+* **Plan**
+  * Tear film oriented therapy (artificial tear, diquafosol sodium)
+  * Punctal plug
+{: .notice--info}
+
+### Dacryoadenitis / 涙腺炎
+
+* **Overview**
+  * Infection of lacrimal gland, mainly due to autoimmune disease
+* **Subjective**
+  * Dry eye, xerostomia
+* **Objective**
+  * [Blood] Anti SS-A/B (Sjogren), IgG4↑ (IgG4)
+* **Assessment**
+  * [Type] Sjogren syndrome: Autoimmune destruction of lacrimal gland
+  * [Type] IgG4-related ophthalmic disease: IgG4-positive plasma cell infiltration in lacrimal gland
+* **Plan**
+  * Artificial tear
+  * Steroid: For IgG4-related
+{: .notice--info}
+
+### Dacryocystitis / 涙囊炎
+
+* **Overview**
+  * Infection and inflammation of lacrimal sac due to nasolacrimal duct obstruction (acquired or congenital)
+* **Subjective**
+  * [Chronic] Pus when pressing
+  * [Acute] Redness, swelling, tenderness
+* **Assessment**
+  * [Type] Chronic dacryocystitis: Chronic obstruction and infection
+  * [Type] Acute dacryocystitis: Exacerbation of chronic dacryocystitis
+  * [Related] Canaliculitis: Inflammation of lacrimal canaliculus due to Actinomyces infection
+* **Plan**
+  * Pus drainage, antibiotics
+  * Endoscopic lacrimal duct intubation, dacryocystorhinostomy
+{: .notice--info}
+
+## Orbit Disorder / 眼窩疾患
+
+### Orbital Cellulitis / 眼窩蜂巣炎
+
+* **Overview**
+  * Bacterial infection of orbital soft tissue, due to exogenous or endogenous spreading
+* **Subjective**
+  * Eyelid redness, swelling, pain
+* **Objective**
+  * [CT] Abscess in orbit
+* **Plan**
+  * Antibiotics
+  * Drainage
+{: .notice--info}
+
+### Idiopathic Orbital Inflammation / 特発性眼窩炎症
+
+* **Overview**
+  * Chronic inflammation of orbital soft tissue without known causes (orbital pseudotumor)
+* **Subjective**
+  * Pain, swelling, proptosis
+* **Objective**
+  * [Pathology] Chronic inflammation/fibrosis of orbital fat
+* **Assessment**
+  * [Related] Superior orbital fissure syndrome: Nerve compression at superior orbital fissure
+  * [Related] Orbital apex syndrome: Nerve compression at orbital apex
+  * [Related] Tolosa-Hunt syndrome: Nerve compression at cavernous sinus
+* **Plan**
+  * Steroid
+{: .notice--info}
+
+### Thyroid Ophthalmopathy / 甲状腺眼症
+
+* **Overview**
+  * Extraocular muscle hypertrophy and intraorbital fat proliferation due to auto-antibodies
+* **Subjective**
+  * Lid retraction, eye protrusion
+  * Dry eye, corneal ulceration/infection
+* **Plan**
+  * Hyperthyroidism treatment
+  * Steroids
+{: .notice--info}
+
+## Eye Injury / 眼外傷
+
+### Blunt Trauma / 鈍的外傷
+
+* **Overview**
+  * Blunt trauma of eye
+* **Assessment**
+  * [Type] Hyphema: Blood in anterior chamber
+  * [Type] Lens (sub)luxation: Displacement of lens
+  * [Type] Commotio retinae: Retinal contusion/whitening
+  * [Type] Choroidal rupture: Break in choroid layer
+* **Plan**
+  * Observation
+  * Surgery: For lens luxation
+{: .notice--info}
+
+### Penetrating Trauma / 鋭的外傷
+
+* **Overview**
+  * Penetrating trauma of eye
+* **Assessment**
+  * [Type] Eyelid laceration
+  * [Type] Canaliculus laceration
+  * [Type] Conjunctival laceration
+  * [Type] Corneal laceration
+  * [Type] Scleral laceration
+  * [Complication] Sympathetic ophthalmia: Bilateral uveitis following unilateral penetrating trauma 
+{: .notice--info}
+
+### Orbital Blowout Fracture / 眼窩吹き抜け骨折
+
+* **Overview**
+  * Fracture of orbital wall bone due to external struck
+* **Subjective**
+  * Eyelid ecchymosis, subconjunctival hemorrhage, enophthalmos
+  * Ocular movement disturbance, diplopia: Due to muscle entrapment or nerve injury
+* **Objective**
+  * [CT] Entrapment of orbital contents
+{: .notice--info}
+
+### Optic Nerve Trauma / 外傷性視神経損傷
+
+* **Overview**
+  * Injury of optic nerve due to external struck (often with optic canal fracture)
+* **Subjective**
+  * Vision loss, visual field defect
+* **Objective**
+  * [CT] Optic nerve compression
+{: .notice--info}
+
+
 # Otolaryngology / 耳鼻咽喉科
 
 # Dermatology / 皮膚科
