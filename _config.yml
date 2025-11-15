@@ -184,13 +184,13 @@ collections:
   software:
     output: true
     permalink: /:collection/:path/
-  website:
+  others:
     output: true
     permalink: /:collection/:path/
   note:
     output: true
     permalink: /:collection/:path/
-  other:
+  temp:
     output: true
     permalink: /:collection/:path/
 
@@ -233,10 +233,10 @@ defaults:
       comments: true
       share: true
       related: true
-  # _website
+  # _others
   - scope:
       path: ""
-      type: website
+      type: others
     values:
       layout: single
       author_profile: true
@@ -253,10 +253,10 @@ defaults:
       comments: true
       share: true
       related: true
-  # _other
+  # _temp
   - scope:
       path: ""
-      type: other
+      type: temp
     values:
       layout: single
       author_profile: true

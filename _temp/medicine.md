@@ -1,9 +1,9 @@
 ---
 title: 'Medicine 🍊⭐'
 date: 2023-01-03
-permalink: /other/medicine
+permalink: /temp/medicine
 tags:
-  - other
+  - note
 toc: true
 ---
 

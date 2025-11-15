@@ -1,7 +1,7 @@
 ---
 title: 'Simulating Evolution of Multi-Particle System with GPU Acceleration in PyTorch'
 date: 2023-08-22
-permalink: /paper/simulating
+permalink: /temp/simulating
 tags:
   - paper
 ---

@@ -7,7 +7,7 @@ tags:
 toc: true
 ---
 
-Templates of competitive programming.
+Templates of Algorithm
 
 {% include toc %}
 

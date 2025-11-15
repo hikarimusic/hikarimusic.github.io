@@ -7,7 +7,7 @@ tags:
 toc: true
 ---
 
-Essences of clinical medicine.
+Essences of Medicine
 
 {% include toc %}
 

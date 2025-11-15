@@ -7,7 +7,7 @@ tags:
 toc: true
 ---
 
-Equations of fundamental physics.
+Equations of Physics
 
 {% include toc %}
 
