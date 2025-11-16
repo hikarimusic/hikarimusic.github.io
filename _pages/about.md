@@ -13,35 +13,12 @@ I am 董宇光, a medical student studying at National Taiwan University. As an 
 * 2020: National Taiwan University School of Medicine
 * 2019: International Physics Olympiad Silver Medal
 
-## Paper
+## News
 
 {% include base_path %}
+{% assign all_posts = site.paper | concat: site.software | concat: site.music | sort: 'date' %}
 {% capture written_year %}'None'{% endcapture %}
-{% for post in site.paper reversed %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
-
-## Software
-
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.software reversed %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
-
-## Music
-
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.music reversed %}
+{% for post in all_posts reversed %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
     {% capture written_year %}{{ year }}{% endcapture %}
