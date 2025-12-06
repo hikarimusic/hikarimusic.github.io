@@ -1,6 +1,6 @@
 ---
 title: 'Equation'
-date: 1000/01/01
+date: 2000/01/01
 permalink: /temp/equation
 tags:
   - note
