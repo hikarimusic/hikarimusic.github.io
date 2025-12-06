@@ -7,6 +7,10 @@ tags:
 toc: true
 ---
 
+Some random equations
+
+{% include toc %}
+
 # Quantum Mechanics
 
 ## Foundation
