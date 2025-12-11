@@ -45,7 +45,8 @@ $$
 
 $$
 \begin{aligned}
-& |\psi\rangle \in \mathcal{H} \quad \hat{A} = \hat{A}^\dagger \\
+& |\psi\rangle \in \mathcal{H} \\
+& \hat{A} = \hat{A}^\dagger \\
 & P(a_n) = |\langle a_n | \psi \rangle|^2 \\
 & i\hbar \frac{\partial}{\partial t} |\psi(t)\rangle = \hat{H}|\psi(t)\rangle
 \end{aligned}
