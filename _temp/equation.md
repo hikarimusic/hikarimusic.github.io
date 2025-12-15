@@ -58,9 +58,9 @@ $$
 
 $$
 \begin{aligned}
-& \langle m | n \rangle = \delta_{mn} \quad && \langle a | a' \rangle = \delta(a - a') \\
-& \sum_n |n\rangle\langle n| = \mathbb I \quad && \int |a\rangle\langle a| \, da = \mathbb I \\
-& |\psi\rangle = \sum_n |n\rangle\langle n|\psi\rangle \quad && |\psi\rangle = \int |a\rangle\langle a|\psi\rangle \, da
+& \langle m | n \rangle = \delta_{mn} && \langle a | a' \rangle = \delta(a - a') \\
+& \sum_n |n\rangle\langle n| = \mathbb I && \int |a\rangle\langle a| \, da = \mathbb I \\
+& |\psi\rangle = \sum_n |n\rangle\langle n|\psi\rangle && |\psi\rangle = \int |a\rangle\langle a|\psi\rangle \, da
 \end{aligned}
 $$
 
