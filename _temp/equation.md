@@ -90,7 +90,7 @@ $$
 \begin{aligned}
 & |\psi(t)\rangle = \hat U(t,t_0)\,|\psi(t_0)\rangle \\
 & \hat U^\dagger(t,t_0)\,\hat U(t,t_0) = \mathbb I \\
-& \hat U(t,t_0) = \exp\!\left[-\frac{i}{\hbar}\,\hat H\,\bigl(t-t_0\bigr)\right] \\
-& \hat U(t,t_0) = \mathcal T \exp\!\left[-\frac{i}{\hbar}\int_{t_0}^{t}\hat H(t')\,dt'\right] \\
+& \hat U(t,t_0) = \exp\left[-\frac{i}{\hbar}\,\hat H\,\bigl(t-t_0\bigr)\right] \\
+& \hat U(t,t_0) = \mathcal T \exp\left[-\frac{i}{\hbar}\int_{t_0}^{t}\hat H(t')\,dt'\right] \\
 \end{aligned}
 $$
