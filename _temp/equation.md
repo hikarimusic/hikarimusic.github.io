@@ -11,7 +11,7 @@ Some random equations
 
 {% include toc %}
 
-# Classical Mechanics
+# Classical Mechanics / 古典力学
 
 $$
 \begin{aligned}
@@ -20,7 +20,7 @@ $$
 \end{aligned}
 $$
 
-# Electrodynamics
+# Electromagnetism / 電磁気学
 
 $$
 \begin{aligned}
@@ -31,7 +31,7 @@ $$
 \end{aligned}
 $$
 
-# Statistical Mechanics
+# Statistical Mechanics / 統計力学
 
 $$
 \begin{aligned}
@@ -41,7 +41,7 @@ $$
 \end{aligned}
 $$
 
-# Quantum Mechanics
+# Quantum Mechanics / 量子力学
 
 $$
 \begin{aligned}
@@ -49,5 +49,48 @@ $$
 & \hat{A} = \hat{A}^\dagger \\
 & P(a_n) = |\langle a_n | \psi \rangle|^2 \\
 & i\hbar \frac{\partial}{\partial t} |\psi(t)\rangle = \hat{H}|\psi(t)\rangle
+\end{aligned}
+$$
+
+## Formulation / 定式化
+
+### State / 状態
+
+$$
+\begin{aligned}
+& \langle m | n \rangle = \delta_{mn} \quad && \langle a | a' \rangle = \delta(a - a') \\
+& \sum_n |n\rangle\langle n| = \mathbb I \quad && \int |a\rangle\langle a| \, da = \mathbb I \\
+& |\psi\rangle = \sum_n |n\rangle\langle n|\psi\rangle \quad && |\psi\rangle = \int |a\rangle\langle a|\psi\rangle \, da
+\end{aligned}
+$$
+
+### Observable / オブザーバブル
+
+$$
+\begin{aligned}
+& \hat{A}|a\rangle = a|a\rangle \quad \langle a | a \rangle = \mathbb I \\
+& a = a^* \quad \langle a_n | a_m \rangle = \delta_{nm} \\
+& \hat{A} = \sum_a a |a\rangle\langle a| \quad \hat{A} = \int a |a\rangle\langle a| \, da
+\end{aligned}
+$$
+
+### Measurement / 測定
+
+$$
+\begin{aligned}
+& p(a) = \langle \psi | \hat{P}_a | \psi \rangle \\
+& \langle \hat{A} \rangle = \langle \psi | \hat{A} | \psi \rangle \\
+& |\psi\rangle \to \frac{\hat{P}_a |\psi\rangle}{\sqrt{\langle \psi | \hat{P}_a | \psi \rangle}}
+\end{aligned}
+$$
+
+### Evolution / 発展
+
+$$
+\begin{aligned}
+& |\psi(t)\rangle = \hat U(t,t_0)\,|\psi(t_0)\rangle \\
+& \hat U^\dagger(t,t_0)\,\hat U(t,t_0) = \mathbb I \\
+& \hat U(t,t_0) = \exp\!\left[-\frac{i}{\hbar}\,\hat H\,\bigl(t-t_0\bigr)\right] \\
+& \hat U(t,t_0) = \mathcal T \exp\!\left[-\frac{i}{\hbar}\int_{t_0}^{t}\hat H(t')\,dt'\right] \\
 \end{aligned}
 $$
