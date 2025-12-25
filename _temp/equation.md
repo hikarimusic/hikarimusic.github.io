@@ -19,6 +19,7 @@ $$
 & \delta S = 0
 \end{aligned}
 $$
+{: .notice--info}
 
 # Electromagnetism / 電磁気学
 
@@ -30,6 +31,7 @@ $$
 &\nabla\times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0\varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}
 \end{aligned}
 $$
+{: .notice--info}
 
 # Statistical Mechanics / 統計力学
 
@@ -40,6 +42,7 @@ $$
 & dU = T\,dS - P\,dV + \mu\,dN
 \end{aligned}
 $$
+{: .notice--info}
 
 # Quantum Mechanics / 量子力学
 
@@ -51,6 +54,7 @@ $$
 & i\hbar \frac{\partial}{\partial t} |\psi(t)\rangle = \hat{H}|\psi(t)\rangle
 \end{aligned}
 $$
+{: .notice--info}
 
 ## Formulation / 定式化
 
@@ -63,6 +67,7 @@ $$
 & |\psi\rangle = \sum_n |n\rangle\langle n|\psi\rangle && |\psi\rangle = \int |a\rangle\langle a|\psi\rangle \, da
 \end{aligned}
 $$
+{: .notice--info}
 
 ### Observable / オブザーバブル
 
@@ -73,6 +78,7 @@ $$
 & \hat{A} = \sum_a a |a\rangle\langle a| \quad \hat{A} = \int a |a\rangle\langle a| \, da
 \end{aligned}
 $$
+{: .notice--info}
 
 ### Measurement / 測定
 
@@ -83,6 +89,7 @@ $$
 & |\psi\rangle \to \frac{\hat{P}_a |\psi\rangle}{\sqrt{\langle \psi | \hat{P}_a | \psi \rangle}}
 \end{aligned}
 $$
+{: .notice--info}
 
 ### Evolution / 発展
 
@@ -94,3 +101,68 @@ $$
 & \hat U(t,t_0) = \mathcal T \exp\left[-\frac{i}{\hbar}\int_{t_0}^{t}\hat H(t')\,dt'\right] \\
 \end{aligned}
 $$
+{: .notice--info}
+
+### Wave function / 波動関数
+
+$$
+\begin{aligned}
+& |\psi\rangle \to \psi \\
+& \hat{x} \to x \\
+& \hat{p} \to -i\hbar \frac{d}{dx}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Schrödinger equation / シュレーディンガー方程式
+
+$$
+\begin{aligned}
+& -\frac{\hbar^2}{2m} \frac{\partial^2\Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t} \\
+& -\frac{\hbar^2}{2m} \frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
+\end{aligned}
+$$
+{: .notice--info}
+
+### Change of basis / 基底変換
+
+$$
+\begin{aligned}
+& \langle x | x' \rangle = \delta(x - x') && \langle p | p' \rangle = \delta(p - p') \\
+& \langle x | p \rangle = \frac{1}{\sqrt{2\pi\hbar}} e^{\frac{i}{\hbar}px} && \langle p | x \rangle = \frac{1}{\sqrt{2\pi\hbar}} e^{-\frac{i}{\hbar}px} \\
+& \phi(p) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \psi(x) e^{-\frac{i}{\hbar}px} dx && \psi(x) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \phi(p) e^{\frac{i}{\hbar}px} dp
+\end{aligned}
+$$
+{: .notice--info}
+
+### Uncertainty principle / 不確定性原理
+
+$$
+\begin{aligned}
+& [\hat{x}, \hat{p}] = i\hbar \\
+& \Delta x \Delta p \geq \frac{\hbar}{2}
+\end{aligned} \\
+\psi(x) = \frac{1}{(2\pi\sigma^2)^{1/4}} \exp\left[-\frac{(x-x_0)^2}{4\sigma^2}\right] \exp\left[\frac{i}{\hbar}p_0(x-x_0)\right]
+$$
+{: .notice--info}
+
+### Probability current / 確率流密度
+
+$$
+\begin{aligned}
+& \frac{\partial |\Psi|^2}{\partial t} = -\nabla \cdot \mathbf{j} \\
+& \mathbf{j} = \frac{\hbar}{2mi} (\Psi^* \nabla \Psi - \Psi \nabla \Psi^*)
+\end{aligned}
+$$
+{: .notice--info}
+
+### Ehrenfest's theorem / エーレンフェストの定理
+
+$$
+\begin{aligned}
+& \frac{d}{dt} \langle \hat{A} \rangle = \frac{1}{i\hbar} \langle [\hat{A}, \hat{H}] \rangle \\
+& \frac{d}{dt} \langle \hat{x} \rangle = \left\langle \frac{\partial \hat{H}}{\partial \hat{p}} \right\rangle \\
+& \frac{d}{dt} \langle \hat{p} \rangle = \left\langle -\frac{\partial \hat{H}}{\partial \hat{x}} \right\rangle
+\end{aligned}
+$$
+{: .notice--info}
