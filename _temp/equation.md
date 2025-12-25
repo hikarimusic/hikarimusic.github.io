@@ -103,6 +103,8 @@ $$
 $$
 {: .notice--info}
 
+## Wave Mechanics / 波動力学
+
 ### Wave function / 波動関数
 
 $$
