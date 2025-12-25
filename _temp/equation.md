@@ -109,9 +109,10 @@ $$
 
 $$
 \begin{aligned}
-& |\psi\rangle \to \psi \\
-& \hat{x} \to x \\
-& \hat{p} \to -i\hbar \frac{d}{dx}
+& \langle x | \psi \rangle = \psi(x) \\
+& \langle \phi | \psi \rangle = \int_{-\infty}^{\infty} \phi^*(x) \psi(x) dx \\
+& \langle x | \hat{x} | \psi \rangle = x \psi(x) \\
+& \langle x | \hat{p} | \psi \rangle = -i\hbar \frac{\partial}{\partial x} \psi(x)
 \end{aligned}
 $$
 {: .notice--info}
