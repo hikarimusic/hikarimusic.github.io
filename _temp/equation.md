@@ -169,3 +169,60 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
+## One-Dimensional System / １次元系
+
+### Free Particle / 自由粒子
+
+$$
+\begin{aligned}
+& V(x) = 0 \\
+& \psi_k(x) = \frac{1}{\sqrt{2\pi}} e^{ikx} \\
+& E = \frac{\hbar^2 k^2}{2m}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Step Potential / 段差ポテンシャル
+
+$$
+\begin{aligned}
+& V(x) = \begin{cases} 0, & x < 0 \\ V_0, & x \geq 0 \end{cases} \\
+& \psi_{k_1}(x) = \begin{cases} \frac{1}{\sqrt{2\pi}} \left( e^{ik_1 x} + \frac{k_1 - k_2}{k_1 + k_2} e^{-ik_1 x} \right), & x < 0 \\ \frac{1}{\sqrt{2\pi}} \frac{2k_1}{k_1 + k_2} e^{ik_2 x}, & x \geq 0 \end{cases} \\
+& E = \frac{\hbar^2 k_1^2}{2m} = \frac{\hbar^2 k_2^2}{2m} + V_0
+\end{aligned}
+$$
+{: .notice--info}
+
+### Square Well / 井戸型ポテンシャル
+
+$$
+\begin{aligned}
+& V(x) = \begin{cases} 0, & |x| < \frac{L}{2} \\ \infty, & |x| \geq \frac{L}{2} \end{cases} \\
+& \psi_n(x) = \begin{cases} \sqrt{\frac{2}{L}} \cos\left(\frac{n\pi x}{L}\right), & n=1,3,5,\dots \\ \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right), & n=2,4,6,\dots \end{cases} \\
+& E_n = \frac{\hbar^2 \pi^2 n^2}{2mL^2}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Harmonic Oscillator / 調和振動子
+
+$$
+\begin{aligned}
+& V(x) = \frac{1}{2} m \omega^2 x^2 \\
+& \psi_n(x) = \frac{1}{\sqrt{2^n n!}} \left( \frac{m\omega}{\pi\hbar} \right)^{1/4} H_n \left( \sqrt{\frac{m\omega}{\hbar}} x \right) \exp\left( -\frac{m\omega x^2}{2\hbar} \right) \\
+& E_n = \hbar \omega \left( n + \frac{1}{2} \right)
+\end{aligned}
+$$
+{: .notice--info}
+
+### Ladder Operator / 昇降演算子
+
+$$
+\begin{aligned}
+& \hat{a} = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} + \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \quad \hat{a}^\dagger = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} - \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \\
+& \hat{a}|n\rangle = \sqrt{n}|n-1\rangle \quad \hat{a}^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle \\
+& \hat{H}|n\rangle = \hbar\omega\left( n + \frac{1}{2} \right)|n\rangle
+\end{aligned}
+$$
+{: .notice--info}
