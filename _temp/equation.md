@@ -170,7 +170,7 @@ $$
 $$
 {: .notice--info}
 
-## One-Dimensional System / １次元系
+## 1D System / １次元系
 
 ### Free Particle / 自由粒子
 
