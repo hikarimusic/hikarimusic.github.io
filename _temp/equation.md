@@ -211,7 +211,7 @@ $$
 \begin{aligned}
 & V(x) = \frac{1}{2} m \omega^2 x^2 \\
 & \psi_n(x) = \frac{1}{\sqrt{2^n n!}} \left( \frac{m\omega}{\pi\hbar} \right)^{1/4} H_n \left( \sqrt{\frac{m\omega}{\hbar}} x \right) \exp\left( -\frac{m\omega x^2}{2\hbar} \right) \\
-& E_n = \hbar \omega \left( n + \frac{1}{2} \right)
+& E_n = \hbar \omega \left( n + \frac{1}{2} \right), \quad n = 0, 1, 2, \dots
 \end{aligned}
 $$
 {: .notice--info}
