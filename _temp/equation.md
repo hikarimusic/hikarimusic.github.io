@@ -314,3 +314,64 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
+## 3D System / 3次元系
+
+### Radial Equation / 動径方程式
+
+$$
+\begin{aligned}
+& \psi(r,\theta,\phi) = R(r)Y_l^m(\theta,\phi) \\
+& u(r) = rR(r) \\
+& -\frac{\hbar^2}{2m}\frac{d^2u}{dr^2} + \left[V(r) + \frac{\hbar^2 l(l+1)}{2mr^2}\right]u = Eu
+\end{aligned}
+$$
+{: .notice--info}
+
+### Free Particle / 自由粒子
+
+$$
+\begin{aligned}
+& V(r) = 0 \\
+& \psi_{klm}(r,\theta,\phi) = j_l(kr)Y_l^m(\theta,\phi) \\
+& E = \frac{\hbar^2 k^2}{2m}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Hydrogen Atom / 水素原子
+
+$$
+\begin{aligned}
+& V(r) = -\frac{e^2}{4\pi\epsilon_0 r} \\
+& a_0 = \frac{4\pi\epsilon_0\hbar^2}{me^2} \quad \rho = \frac{2r}{na_0} \\
+& \psi_{nlm}(r,\theta,\phi) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n(n+l)!}} e^{-\rho/2} \rho^l L_{n-l-1}^{2l+1}(\rho) Y_l^m(\theta,\phi) \\
+& E_n = -\frac{e^2}{8\pi\epsilon_0 a_0}\frac{1}{n^2}, \quad n=1,2,3,\dots \\
+& L^2 = \hbar^2 l(l+1), \quad l=0,1,\dots,n-1 \\
+& L_z = \hbar m, \quad m=-l,-l+1,\dots,l
+\end{aligned}
+$$
+{: .notice--info}
+
+### Electromagnetic Field / 電磁場
+
+$$
+\begin{aligned}
+& \hat{H} = \frac{1}{2m}(\hat{\mathbf{p}} - q\mathbf{A})^2 + q\phi \\
+& \mathbf{A}' = \mathbf{A} + \nabla\chi, \quad \phi' = \phi - \frac{\partial\chi}{\partial t}, \quad \psi' = e^{\frac{i}{\hbar}q\chi}\psi \\
+& \hat{H}\psi = i\hbar\frac{\partial\psi}{\partial t} \to \hat{H}'\psi' = i\hbar\frac{\partial\psi'}{\partial t}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Charged Particle / 荷電粒子
+
+$$
+\begin{aligned}
+& E_{n,k_z} = \hbar\omega_c\left(n+\frac{1}{2}\right) + \frac{\hbar^2 k_z^2}{2m}, \quad n=0,1,2,\dots \\
+& \omega_c = \frac{|q|B}{m} \\
+& \psi = \psi_0 \exp\left(\frac{i}{\hbar}q\int_C \mathbf{A}\cdot d\mathbf{l}\right) \\
+& \Delta\varphi = \frac{q}{\hbar}\oint_S \mathbf{B}\cdot d\mathbf{S}
+\end{aligned}
+$$
+{: .notice--info}
