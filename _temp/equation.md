@@ -261,3 +261,56 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
+## Angular Momentum / 角運動量
+
+### Angular Momentum Operator / 角運動量演算子
+
+$$
+\begin{aligned}
+& [\hat{J}_i, \hat{J}_j] = i\hbar \epsilon_{ijk} \hat{J}_k \quad [\hat{\mathbf{J}}^2, \hat{J}_i] = 0 \\
+& \hat{J}_+ = \hat{J}_x + i\hat{J}_y \quad \hat{J}_- = \hat{J}_x - i\hat{J}_y \\
+& \hat{J}_{\pm}|j,m\rangle = \hbar\sqrt{(j \mp m)(j \pm m + 1)} |j, m \pm 1\rangle \\
+& \hat{\mathbf{J}}^2|j,m\rangle = \hbar^2 j(j+1)|j,m\rangle, \quad j=0, \frac{1}{2}, 1, \dots \\
+& \hat{J}_z|j,m\rangle = \hbar m|j,m\rangle, \quad m=-j, -j+1, \dots, j
+\end{aligned}
+$$
+{: .notice--info}
+
+### Orbital Angular Momentum / 軌道角運動量
+
+$$
+\begin{aligned}
+& \hat{\mathbf{L}}^2 = -\hbar^2 \left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] \\
+& \hat{L}_z = -i\hbar\frac{\partial}{\partial\phi} \\
+& \hat{\mathbf{L}}^2|l,m\rangle = \hbar^2 l(l+1)|l,m\rangle, \quad l=0, 1, 2, \dots \\
+& \hat{L}_z|l,m\rangle = \hbar m|l,m\rangle, \quad m=-l, -l+1, \dots, l \\
+& Y_l^m = (-1)^m \sqrt{\frac{(2l+1)}{4\pi}\frac{(l-m)!}{(l+m)!}} P_l^m(\cos\theta) e^{im\phi}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Spin Angular Momentum / スピン角運動量
+
+$$
+\begin{aligned}
+& \hat{S}_x = \frac{\hbar}{2} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \quad \hat{S}_y = \frac{\hbar}{2} \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix} \quad \hat{S}_z = \frac{\hbar}{2} \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \\
+& \hat{\mathbf{S}}^2|s,m\rangle = \hbar^2 s(s+1)|s,m\rangle, \quad s=\frac{1}{2} \\
+& \hat{S}_z|s,m\rangle = \hbar m|s,m\rangle, \quad m=-\frac{1}{2}, \frac{1}{2} \\
+& \hat{H} = -\gamma \hat{\mathbf{S}} \cdot \mathbf{B} \quad \omega_L = \gamma B
+\end{aligned}
+$$
+{: .notice--info}
+
+### Addition of Angular Momentum / 角運動量の合成
+
+$$
+\begin{aligned}
+& \hat{\mathbf{J}} = \hat{\mathbf{J}}_1 + \hat{\mathbf{J}}_2 \\
+& \hat{\mathbf{J}}^2|j,m\rangle = \hbar^2 j(j+1)|j,m\rangle, \quad j=|j_1-j_2|, |j_1-j_2|+1, \dots, j_1+j_2 \\
+& \hat{J}_z|j,m\rangle = \hbar m|j,m\rangle, \quad m=-j, -j+1, \dots, j \\
+& C_{j_1m_1j_2m_2}^{jm} \neq 0 \to m = m_1 + m_2 \\
+& \sum_{m_1,m_2} C_{j_1m_1j_2m_2}^{jm} C_{j_1m_1j_2m_2}^{j'm'} = \delta_{jj'}\delta_{mm'}
+\end{aligned}
+$$
+{: .notice--info}
