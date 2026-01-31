@@ -23,7 +23,7 @@ function updateNav() {
     breaks.push($vlinks.width());
 
     // Move item to the hidden list
-    $vlinks.children().last().prependTo($hlinks);
+    $vlinks.children().not(':first').prependTo($hlinks);
 
     // Show the dropdown btn
     if($btn.hasClass('hidden')) {
@@ -37,7 +37,7 @@ function updateNav() {
     if(availableSpace > breaks[breaks.length-1]) {
 
       // Move the item to the visible list
-      $hlinks.children().first().appendTo($vlinks);
+      $hlinks.children().appendTo($vlinks);
       breaks.pop();
     }
 
