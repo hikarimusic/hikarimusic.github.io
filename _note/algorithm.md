@@ -310,6 +310,10 @@ void union_set(int a, int b) {
 ```cpp
 vector<int> arr(N), tree(4*N);
 
+int merge(int a, int b) {
+    return "<merge a and b>";
+}
+
 void build(int v, int tl, int tr) {
     if (tl==tr) {
         tree[v] = arr[tl];
@@ -318,31 +322,33 @@ void build(int v, int tl, int tr) {
     int tm = (tl+tr)/2;
     build(v*2+1, tl, tm);
     build(v*2+2, tm+1, tr);
-    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
+    tree[v] = merge(tree[v*2+1], tree[v*2+2]);
 }
 
-void update(int v, int tl, int tr, int pos, int x) {
+void update(int v, int tl, int tr, int p, int x) {
     if (tl==tr) {
         tree[v] = x;
         return;
     }
     int tm = (tl+tr)/2;
-    if (pos<=tm)
-        update(v*2+1, tl, tm, pos, x);
+    if (p<=tm)
+        update(v*2+1, tl, tm, p, x);
     else
-        update(v*2+2, tm+1, tr, pos, x);
-    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
+        update(v*2+2, tm+1, tr, p, x);
+    tree[v] = merge(tree[v*2+1], tree[v*2+2]);
 }
 
 int query(int v, int tl, int tr, int l, int r) {
-    if (l>r)
-        return "<identity>";
     if (tl==l && tr==r)
         return tree[v];
     int tm = (tl+tr)/2;
-    int q1 = query(v*2+1, tl, tm, l, min(r, tm));
-    int q2 = query(v*2+2, tm+1, tr, max(l, tm+1), r);
-    return "<merge q1 and q2>";
+    if (r<=tm)
+        return query(v*2+1, tl, tm, l, r);
+    if (l>tm)
+        return query(v*2+2, tm+1, tr, l, r);
+    int q1 = query(v*2+1, tl, tm, l, tm);
+    int q2 = query(v*2+2, tm+1, tr, tm+1, r);
+    return merge(q1, q2);
 }
 ```
 ```cpp
