@@ -352,7 +352,20 @@ int query(int v, int tl, int tr, int l, int r) {
 }
 ```
 ```cpp
-vector<int> arr(N), tree(4*N), lazy(4*N), mark(4*N);
+vector<int> arr(N), tree(4*N), lazy(4*N);
+
+int merge(int a, int b) {
+    return "<merge a and b>";
+}
+
+void push(int v, int tl, int tr) {
+    int tm = (tl+tr)/2;
+    tree[v*2+1] = "<update with lazy[v]>";
+    tree[v*2+2] = "<update with lazy[v]>";
+    lazy[v*2+1] += lazy[v];
+    lazy[v*2+2] += lazy[v];
+    lazy[v] = 0;
+}
 
 void build(int v, int tl, int tr) {
     if (tl==tr) {
@@ -362,48 +375,40 @@ void build(int v, int tl, int tr) {
     int tm = (tl+tr)/2;
     build(v*2+1, tl, tm);
     build(v*2+2, tm+1, tr);
-    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
-}
-
-void push(int v, int tl, int tr) {
-    if (!mark[v])
-        return;
-    int tm = (tl+tr)/2;
-    tree[v*2+1] = "<update with lazy[v]>";
-    tree[v*2+2] = "<update with lazy[v]>";
-    lazy[v*2+1] = lazy[v];
-    lazy[v*2+2] = lazy[v];
-    mark[v*2+1] = 1;
-    mark[v*2+2] = 1;
-    mark[v] = 0;
+    tree[v] = merge(tree[v*2+1], tree[v*2+2]);
 }
 
 void update(int v, int tl, int tr, int l, int r, int x) {
-    if (l>r)
-        return;
     if (tl==l && tr==r) {
         tree[v] = "<update with x>";
-        lazy[v] = "<update with x>";
-        mark[v] = 1;
+        lazy[v] += x;
         return;
     }
     push(v, tl, tr);
     int tm = (tl+tr)/2;
-    update(v*2+1, tl, tm, l, min(r, tm), x);
-    update(v*2+2, tm+1, tr, max(l, tm+1), r, x);
-    tree[v] = "<merge tree[v*2+1] and tree[v*2+2]>";
+    if (r<=tm)
+        update(v*2+1, tl, tm, l, r, x);
+    else if (l>tm)
+        update(v*2+2, tm+1, tr, l, r, x);
+    else {
+        update(v*2+1, tl, tm, l, tm, x);
+        update(v*2+2, tm+1, tr, tm+1, r, x);
+    }
+    tree[v] = merge(tree[v*2+1], tree[v*2+2]);
 }
 
 int query(int v, int tl, int tr, int l, int r) {
-    if (l>r)
-        return "<identity>";
     if (tl==l && tr==r)
         return tree[v];
     push(v, tl, tr);
     int tm = (tl+tr)/2;
-    int q1 = query(v*2+1, tl, tm, l, min(r, tm));
-    int q2 = query(v*2+2, tm+1, tr, max(l, tm+1), r);
-    return "<merge q1 and q2>";
+    if (r<=tm)
+        return query(v*2+1, tl, tm, l, r);
+    if (l>tm)
+        return query(v*2+2, tm+1, tr, l, r);
+    int q1 = query(v*2+1, tl, tm, l, tm);
+    int q2 = query(v*2+2, tm+1, tr, tm+1, r);
+    return merge(q1, q2);
 }
 ```
 
