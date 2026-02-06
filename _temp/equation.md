@@ -234,7 +234,7 @@ $$
 $$
 \begin{aligned}
 & \hat{\mathbf{p}} = -i\hbar\nabla \\
-& \hat{U}(\mathbf{a}) = e^{-\frac{i}{\hbar}\hat{\mathbf{p}}\cdot\mathbf{a}} \to \hat{U}(\mathbf{a})|\mathbf{r}\rangle = |\mathbf{r}+\mathbf{a}\rangle \\
+& \hat{U}(\mathbf{a})|\mathbf{r}\rangle = |\mathbf{r}+\mathbf{a}\rangle \to \hat{U}(\mathbf{a}) = e^{-\frac{i}{\hbar}\hat{\mathbf{p}}\cdot\mathbf{a}} \\
 & \langle\psi_\mathbf{a}|\hat{H}|\psi_\mathbf{a}\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{\mathbf{p}}\rangle = 0
 \end{aligned}
 $$
@@ -245,7 +245,7 @@ $$
 $$
 \begin{aligned}
 & \hat{\mathbf{L}} = -i\hbar \mathbf{r} \times \nabla \\
-& \hat{U}(\boldsymbol{\theta}) = e^{-\frac{i}{\hbar}\hat{\mathbf{L}}\cdot\boldsymbol{\theta}} \to \hat{U}(\boldsymbol{\theta})|\mathbf{r}\rangle = |R(\boldsymbol{\theta})\mathbf{r}\rangle \\
+& \hat{U}(\boldsymbol{\theta})|\mathbf{r}\rangle = |R(\boldsymbol{\theta})\mathbf{r}\rangle \to \hat{U}(\boldsymbol{\theta}) = e^{-\frac{i}{\hbar}\hat{\mathbf{L}}\cdot\boldsymbol{\theta}} \\
 & \langle\psi_{\boldsymbol{\theta}}|\hat{H}|\psi_{\boldsymbol{\theta}}\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{\mathbf{L}}\rangle = 0
 \end{aligned}
 $$
@@ -256,7 +256,7 @@ $$
 $$
 \begin{aligned}
 & \hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r}) \\
-& \hat{U}(t) = e^{-\frac{i}{\hbar}\hat{H}t} \to \hat{U}(t)|\psi(t_0)\rangle = |\psi(t_0+t)\rangle \\
+& \hat{U}(t)|\psi(t_0)\rangle = |\psi(t_0+t)\rangle \to \hat{U}(t) = e^{-\frac{i}{\hbar}\hat{H}t} \\
 & \langle\psi_t|\hat{H}|\psi_t\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{H}\rangle = 0
 \end{aligned}
 $$
