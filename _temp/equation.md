@@ -255,9 +255,9 @@ $$
 
 $$
 \begin{aligned}
-& \hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r}) \\
-& \hat{U}(t)|\psi(t_0)\rangle = |\psi(t_0+t)\rangle \to \hat{U}(t) = e^{-\frac{i}{\hbar}\hat{H}t} \\
-& \langle\psi_t|\hat{H}|\psi_t\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{H}\rangle = 0
+& \hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r}, t) \\
+& \hat{U}(\tau)|\psi(t)\rangle = |\psi(t+\tau)\rangle \rightarrow \hat{U}(\tau) = e^{-\frac{i}{\hbar}\hat{H}\tau} \\
+& \frac{\partial \hat{H}}{\partial t} = 0 \rightarrow \frac{d}{dt}\langle \hat{H} \rangle = 0
 \end{aligned}
 $$
 {: .notice--info}
