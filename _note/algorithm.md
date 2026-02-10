@@ -11,7 +11,7 @@ Templates of Algorithm
 
 {% include toc %}
 
-# Basic / 基本
+# General / 一般
 
 ## Brute-Force / 全探索
 
@@ -83,82 +83,15 @@ bool search(int p, int n) {
 }
 ```
 
-## Basic Method / 基本的手法
+## Greedy Algorithm / 貪欲法
 
 ### Greedy Algorithm / 貪欲法
 ```cpp
 void solve() {
     "<preprocess>";
     for (int i=0; i<N; ++i) {
-        "<greedy>";
+        "<optimize>";
     }
-}
-```
-
-### Binary Search / 二分探索
-```cpp
-vector<int> arr(N);
-
-int search(int n, int t) {
-    int l=-1, r=n;
-    while (r-l>1) {
-        int m = (l+r)/2;
-        if (t<arr[m])
-            r = m;
-        else
-            l = m;
-    }
-    return l;
-}
-```
-```cpp
-bool check(int x) {
-    "<return true or false>";
-}
-
-int search(int n) {
-    int l=-1, r=n;
-    while (r-l>1) {
-        int m = (l+r)/2;
-        if (check(m))
-            r = m;
-        else
-            l = m;
-    }
-    return l;
-}
-```
-```cpp
-void search() {
-    vector<int> v;
-    vector<int>::iterator it1 = lower_bound(v.begin(), v.end(), t); // first >= t
-    vector<int>::iterator it2 = upper_bound(v.begin(), v.end(), t); // first > t
-}
-
-void search2() {
-    set<int> s;
-    set<int>::iterator it1 = s.lower_bound(t); // first >= t
-    set<int>::iterator it2 = s.upper_bound(t); // first > t
-}
-
-// it!=v.end(): check
-// *it: value
-// distance(v.begin(), it): position
-// prev(it): previous
-// next(it): next
-```
-
-### Divide and Conquer / 分割統治法
-```cpp
-vector<int> arr(N);
-
-void rec(int l, int r) {
-    int m = (l+r)/2;
-    if (l==r)
-        "<base case>";
-    rec(l, m);
-    rec(m+1, r);
-    "<combine>";
 }
 ```
 
@@ -232,9 +165,85 @@ int rec(int S, int v, int n) {
 }
 ```
 
+## Binary Search / 二分探索
+
+### Binary Search / 二分探索
+```cpp
+vector<int> arr(N);
+
+int search(int n, int t) {
+    int l=-1, r=n;
+    while (r-l>1) {
+        int m = (l+r)/2;
+        if (t<arr[m])
+            r = m;
+        else
+            l = m;
+    }
+    return l;
+}
+```
+```cpp
+bool check(int x) {
+    "<return true or false>";
+}
+
+int search(int n) {
+    int l=-1, r=n;
+    while (r-l>1) {
+        int m = (l+r)/2;
+        if (check(m))
+            r = m;
+        else
+            l = m;
+    }
+    return l;
+}
+```
+```cpp
+void search() {
+    vector<int> v;
+    vector<int>::iterator it1 = lower_bound(v.begin(), v.end(), t); // first >= t
+    vector<int>::iterator it2 = upper_bound(v.begin(), v.end(), t); // first > t
+}
+
+void search2() {
+    set<int> s;
+    set<int>::iterator it1 = s.lower_bound(t); // first >= t
+    set<int>::iterator it2 = s.upper_bound(t); // first > t
+}
+
+// it!=v.end(): check
+// *it: value
+// distance(v.begin(), it): position
+// prev(it): previous
+// next(it): next
+```
+
+### Ternary Search / 三分探索
+```cpp
+vector<int> arr(N);
+
+int search(int l, int r) {
+    while (r-l>2) {
+        int m1 = l + (r-l)/3;
+        int m2 = r - (r-l)/3;
+        if (arr[m1]<arr[m2])
+            l = m1;
+        else
+            r = m2;
+    }
+    for (int i=l+1; i<=r; ++i) {
+        if (arr[i]>arr[l])
+            l = i;
+    }
+    return l;
+}
+```
+
 ## Data Structure / データ構造
 
-### Basic Data Structure / 基本的データ構造
+### Standard Library / 標準ライブラリ
 ```cpp
 void binary_heap() {
     priority_queue<int> q;
@@ -279,6 +288,66 @@ void hash_table2() {
 }
 ```
 
+### Prefix Sum / 累積和
+```cpp
+vector<int> arr(N), sum(N);
+
+void build(int n) {
+    for (int i=0; i<n; ++i)
+        sum[i+1] = sum[i] + arr[i];
+}
+
+int query(int l, int r) {
+    return sum[r+1] - sum[l];
+}
+```
+```cpp
+vector<vector<int>> arr(N, vector<int>(N));
+vector<vector<int>> sum(N, vector<int>(N));
+
+void build(int nx, int ny) {
+    for (int i=0; i<nx; ++i) {
+        for (int j=0; j<ny; ++j) {
+            sum[i+1][j+1] = sum[i][j+1] + sum[i+1][j] - sum[i][j] + arr[i][j];
+        }
+    }
+}
+
+int query(int lx, int rx, int ly, int ry) {
+    return sum[rx+1][ry+1] - sum[lx][ry+1] - sum[rx+1][ly] + sum[lx][ly];
+}
+```
+
+### Graph / グラフ
+```cpp
+vector<vector<pii>> adj(N);
+
+void graph() {
+    for ("<edge between u & v with weight w>") {
+        adj[u].push_back({v, w});
+        adj[v].push_back({u, w});
+    }
+    for (pii e : adj[v]) {
+        "e.first: neighbor of v";
+    }
+}
+```
+```cpp
+vector<vector<int>> (N, vector<int>(N, INF));
+
+void graph() {
+    for ("<edge between u & v with weight w>") {
+        adj[u][v] = w;
+        adj[v][u] = w;
+    }
+    for (int i=0; i<N; ++i) {
+        if (adj[v][i]<INF) {
+            "<i: neighbor of v>";
+        }
+    }
+}
+```
+
 ### Disjoint Set Union / Union-Find木
 ```cpp
 vector<int> par(N), siz(N);
@@ -302,6 +371,36 @@ void union_set(int a, int b) {
             swap(a, b);
         par[b] = a;
         siz[a] += siz[b];
+    }
+}
+```
+
+### Binary Indexed Tree　/ フェニック木
+```cpp
+vector<int> arr(N), tree(N);
+
+void build(int n) {
+    for (int i=0; i<n; ++i) {
+        tree[i] = "<merge tree[i] and arr[i]>";
+        int r = i|(i+1);
+        if (r<n)
+            tree[r] = "<merge tree[r] and tree[i]>";
+    }
+}
+
+int query(int r) {
+    int s = 0;
+    while (r>=0) {
+        s = "<merge s and tree[r]>";
+        r = (r&(r+1))-1;
+    }
+    return s;
+}
+
+void update(int p, int x, int n) {
+    while (p<n) {
+        tree[p] = "<merge tree[p] and x>";
+        p = p|(p+1);
     }
 }
 ```
@@ -408,66 +507,6 @@ int query(int v, int tl, int tr, int l, int r) {
     int q1 = query(v*2+1, tl, tm, l, tm);
     int q2 = query(v*2+2, tm+1, tr, tm+1, r);
     return merge(q1, q2);
-}
-```
-
-### Binary Indexed Tree　/ フェニック木
-```cpp
-vector<int> arr(N), tree(N);
-
-void build(int n) {
-    for (int i=0; i<n; ++i) {
-        tree[i] = "<merge tree[i] and arr[i]>";
-        int r = i|(i+1);
-        if (r<n)
-            tree[r] = "<merge tree[r] and tree[i]>";
-    }
-}
-
-int query(int r) {
-    int s = 0;
-    while (r>=0) {
-        s = "<merge s and tree[r]>";
-        r = (r&(r+1))-1;
-    }
-    return s;
-}
-
-void update(int p, int x, int n) {
-    while (p<n) {
-        tree[p] = "<merge tree[p] and x>";
-        p = p|(p+1);
-    }
-}
-```
-
-### Sqrt Decomposition / 平方分割
-```cpp
-vector<int> arr(N), buc(N);
-
-void build(int n) {
-    int s = (int)ceil(sqrt(n));
-    for (int i=0; i<s; ++i) {
-        for (int j=i*s; j<(i+1)*s && j<n; ++j)
-            buc[i] = "<merge buc[i] and arr[j]>";
-    }
-}
-
-int query(int l, int r, int n) {
-    int s = (int)ceil(sqrt(n));
-    int q=0, bl=l/s, br=r/s;
-    if (bl==br) {
-        for (int i=l; i<=r; ++i)
-            q = "<merge q and arr[i]>";
-        return q;
-    }
-    for (int i=l; i<(bl+1)*s; ++i)
-        q = "<merge q and arr[i]>";
-    for (int i=bl+1; i<br; ++i)
-        q = "<merge q and buc[i]>";
-    for (int i=br*s; i<=r; ++i)
-        q = "<merge q and arr[i]>";
-    return q;
 }
 ```
 
@@ -2151,36 +2190,6 @@ void build(int x) {
 
 ## Technique / テクニック
 
-### Prefix Sum / 累積和
-```cpp
-vector<int> arr(N), sum(N);
-
-void build(int n) {
-    for (int i=0; i<n; ++i)
-        sum[i+1] = sum[i] + arr[i];
-}
-
-int query(int l, int r) {
-    return sum[r+1] - sum[l];
-}
-```
-```cpp
-vector<vector<int>> arr(N, vector<int>(N));
-vector<vector<int>> sum(N, vector<int>(N));
-
-void build(int nx, int ny) {
-    for (int i=0; i<nx; ++i) {
-        for (int j=0; j<ny; ++j) {
-            sum[i+1][j+1] = sum[i][j+1] + sum[i+1][j] - sum[i][j] + arr[i][j];
-        }
-    }
-}
-
-int query(int lx, int rx, int ly, int ry) {
-    return sum[rx+1][ry+1] - sum[lx][ry+1] - sum[rx+1][ly] + sum[lx][ly];
-}
-```
-
 ### Two Pointers / しゃくとり法
 ```cpp
 vector<int> arr(N);
@@ -2255,6 +2264,36 @@ int query(int p, int d) {
 }
 ```
 
+### Sqrt Decomposition / 平方分割
+```cpp
+vector<int> arr(N), buc(N);
+
+void build(int n) {
+    int s = (int)ceil(sqrt(n));
+    for (int i=0; i<s; ++i) {
+        for (int j=i*s; j<(i+1)*s && j<n; ++j)
+            buc[i] = "<merge buc[i] and arr[j]>";
+    }
+}
+
+int query(int l, int r, int n) {
+    int s = (int)ceil(sqrt(n));
+    int q=0, bl=l/s, br=r/s;
+    if (bl==br) {
+        for (int i=l; i<=r; ++i)
+            q = "<merge q and arr[i]>";
+        return q;
+    }
+    for (int i=l; i<(bl+1)*s; ++i)
+        q = "<merge q and arr[i]>";
+    for (int i=bl+1; i<br; ++i)
+        q = "<merge q and buc[i]>";
+    for (int i=br*s; i<=r; ++i)
+        q = "<merge q and arr[i]>";
+    return q;
+}
+```
+
 ### Imos Algorithm / いもす法
 ```cpp
 vector<vector<int>> G(W, vector<int>(H));
@@ -2275,26 +2314,5 @@ void solve(int n, int w, int h) {
         for (int i=1; i<=w; ++i)
             G[i][j] += G[i-1][j];
     }
-}
-```
-
-### Ternary Search / 三分探索
-```cpp
-vector<int> arr(N);
-
-int search(int l, int r) {
-    while (r-l>2) {
-        int m1 = l + (r-l)/3;
-        int m2 = r - (r-l)/3;
-        if (arr[m1]<arr[m2])
-            l = m1;
-        else
-            r = m2;
-    }
-    for (int i=l+1; i<=r; ++i) {
-        if (arr[i]>arr[l])
-            l = i;
-    }
-    return l;
 }
 ```
