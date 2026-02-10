@@ -359,7 +359,6 @@ int merge(int a, int b) {
 }
 
 void push(int v, int tl, int tr) {
-    int tm = (tl+tr)/2;
     tree[v*2+1] = "<update with lazy[v]>";
     tree[v*2+2] = "<update with lazy[v]>";
     lazy[v*2+1] += lazy[v];
