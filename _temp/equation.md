@@ -333,7 +333,7 @@ $$
 $$
 \begin{aligned}
 & V(r) = 0 \\
-& \psi_{klm}(r,\theta,\phi) = j_l(kr)Y_l^m(\theta,\phi) \\
+& \psi_{klm}(r, \theta, \phi) = \sqrt{\frac{2k^2}{\pi}} j_l(kr) Y_{l}^{m}(\theta, \phi) \\
 & E = \frac{\hbar^2 k^2}{2m}
 \end{aligned}
 $$
