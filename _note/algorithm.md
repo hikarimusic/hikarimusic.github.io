@@ -601,6 +601,32 @@ void topological_sort(int n) {
 
 ### Dijkstra's Algorithm / ダイクストラ法
 ```cpp
+vector<vector<pii>> adj(N);
+vector<int> dis(N, INF), par(N, -1);
+
+void dijkstra(int s) {
+    priority_queue<pii, vector<pii>, greater<pii>> q;
+    dis[s] = 0;
+    q.push({0, s});
+    while (!q.empty()) {
+        int v = q.top().second;
+        int d = q.top().first;
+        q.pop();
+        if (d==dis[v]) {
+            for (pii e : adj[v]) {
+                int u = e.first;
+                int w = e.second;
+                if (d+w<dis[u]) {
+                    dis[u] = d+w;
+                    par[u] = v;
+                    q.push({d+w, u});
+                }
+            }
+        }
+    }
+}
+```
+```cpp
 vector<vector<int>> adj(N, vector<int>(N, INF));
 vector<int> vis(N), dis(N, INF), par(N, -1);
 
@@ -623,33 +649,6 @@ void dijkstra(int s, int n) {
         }
     }
 }
-```
-```cpp
-vector<vector<pii>> adj(N);
-vector<int> dis(N, INF), par(N, -1);
-
-void dijkstra(int s) {
-    priority_queue<pii, vector<pii>, greater<pii>> q;
-    dis[s] = 0;
-    q.push({0, s});
-    while (!q.empty()) {
-        int v = q.top().second;
-        int d_v = q.top().first;
-        q.pop();
-        if (d_v!=dis[v])
-            continue;
-        for (pii e : adj[v]) {
-            int u = e.first;
-            int w = e.second;
-            if (dis[v]+w<dis[u]) {
-                dis[u] = dis[v] + w;
-                par[u] = v;
-                q.push({dis[u], u});
-            }
-        }
-    }
-}
-
 ```
 
 ### 0-1 BFS / 0-1 BFS
