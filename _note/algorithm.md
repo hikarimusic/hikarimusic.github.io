@@ -633,18 +633,19 @@ vector<int> vis(N), dis(N, INF), par(N, -1);
 void dijkstra(int s, int n) {
     dis[s] = 0;
     for (int i=0; i<n; ++i) {
-        int k = -1;
+        int v = -1;
         for (int j=0; j<n; ++j) {
-            if (!vis[j] && (k==-1 || dis[j]<dis[k]))
-                k = j;
+            if (!vis[j] && (v==-1 || dis[j]<dis[v]))
+                v = j;
         }
-        if (dis[k]==INF)
-            return;
-        vis[k] = 1;
-        for (int j=0; j<n; ++j) {
-            if (dis[k]+adj[k][j]<dis[j]) {
-                dis[j] = dis[k] + adj[k][j];
-                par[j] = k;
+        if (dis[v]<INF) {
+            vis[v] = 1;
+            for (int u=0; u<n; ++u) {
+                int w = adj[v][u];
+                if (w<INF && dis[v]+w<dis[u]) {
+                    dis[u] = dis[v]+w;
+                    par[u] = v;
+                }
             }
         }
     }
