@@ -573,6 +573,32 @@ void bfs(int v) {
     }
 }
 ```
+```cpp
+vector<vector<pii>> adj(N);
+vector<int> dis(N, INF), par(N, -1);
+
+void bfs(int v) {
+    deque<int> q;
+    dis[v] = 0;
+    q.push_front(v);
+    while (!q.empty()) {
+        int v = q.front();
+        q.pop_front();
+        for (pii e : adj[v]) {
+            int u = e.first;
+            int w = e.second;
+            if (dis[v]+w<dis[u]) {
+                dis[u] = dis[v] + w;
+                par[u] = v;
+                if (w==1)
+                    q.push_back(u);
+                else
+                    q.push_front(u);
+            }
+        }
+    }
+}
+```
 
 ### Topological Sort / トポロジカルソート
 ```cpp
@@ -646,35 +672,6 @@ void dijkstra(int s, int n) {
                     dis[u] = dis[v]+w;
                     par[u] = v;
                 }
-            }
-        }
-    }
-}
-```
-
-### 0-1 BFS / 0-1 BFS
-
-```cpp
-vector<vector<pii>> adj(N);
-vector<int> dis(N, INF), par(N, -1);
-
-void bfs(int v) {
-    deque<int> q;
-    dis[v] = 0;
-    q.push_front(v);
-    while (!q.empty()) {
-        int v = q.front();
-        q.pop_front();
-        for (pii e : adj[v]) {
-            int u = e.first;
-            int w = e.second;
-            if (dis[v]+w<dis[u]) {
-                dis[u] = dis[v] + w;
-                par[u] = v;
-                if (w==1)
-                    q.push_back(u);
-                else
-                    q.push_front(u);
             }
         }
     }
