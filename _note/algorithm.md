@@ -513,7 +513,7 @@ void dfs(int v, int d, int p) {
     dis[v] = d;
     par[v] = p;
     for (int u : adj[v]) {
-        if (!vis[u]) {
+        if (!vis[u]) { // tree: if (u!=p)
             dfs(u, d+1, v);
         }
     }
