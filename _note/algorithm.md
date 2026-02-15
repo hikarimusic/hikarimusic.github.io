@@ -516,6 +516,7 @@ void dfs(int v, int d, int p) {
         if (!vis[u]) { // tree: if (u!=p)
             dfs(u, d+1, v);
         }
+        // if (u!=p && vis[u]): cycle (undirected)
     }
 }
 ```
@@ -531,6 +532,7 @@ void dfs(int v) {
         if (col[u]==0) {
             dfs(u);
         }
+        // if (col[u]==1): cycle (directed)
     }
     col[v] = 2;
     tmo[v] = tmr++;
