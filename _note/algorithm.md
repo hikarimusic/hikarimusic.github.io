@@ -613,6 +613,29 @@ void topological_sort(int n) {
     reverse(ans.begin(), ans.end());
 }
 ```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> idg(N), ans;
+
+void topological_sort(int n) {
+    queue<int> q;
+    for (int i=0; i<n; ++i) {
+        if (idg[i]==0)
+            q.push(i);
+    }
+    while (!q.empty()) {
+        int v = q.front();
+        q.pop();
+        ans.push_back(v);
+        for (int u : adj[v]) {
+            idg[u] -= 1;
+            if (idg[u]==0)
+                q.push(u);
+        }
+    }
+    // if (ans.size()<n): cycle
+}
+```
 
 ## Shortest Path / 最短経路
 
