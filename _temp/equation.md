@@ -117,7 +117,7 @@ $$
 $$
 {: .notice--info}
 
-### Schrödinger equation / シュレーディンガー方程式
+### Schrödinger equation / Schrödinger方程式
 
 $$
 \begin{aligned}
@@ -159,7 +159,7 @@ $$
 $$
 {: .notice--info}
 
-### Ehrenfest's theorem / エーレンフェストの定理
+### Ehrenfest's theorem / Ehrenfestの定理
 
 $$
 \begin{aligned}
@@ -344,9 +344,9 @@ $$
 $$
 \begin{aligned}
 & V(r) = -\frac{e^2}{4\pi\epsilon_0 r} \\
-& a_0 = \frac{4\pi\epsilon_0\hbar^2}{me^2} \quad \rho = \frac{2r}{na_0} \\
-& \psi_{nlm}(r,\theta,\phi) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n(n+l)!}} e^{-\rho/2} \rho^l L_{n-l-1}^{2l+1}(\rho) Y_l^m(\theta,\phi) \\
-& E_n = -\frac{e^2}{8\pi\epsilon_0 a_0}\frac{1}{n^2}, \quad n=1,2,3,\dots \\
+& a_0 = \frac{4\pi\epsilon_0\hbar^2}{me^2} \quad \rho = \frac{r}{na_0} \\
+& \psi_{nlm}(r,\theta,\phi) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n(n+l)!}} e^{-\rho} (2\rho)^l L_{n-l-1}^{2l+1}(2\rho) Y_l^m(\theta,\phi) \\
+& E_n = -\frac{me^4}{32\pi^2\epsilon_0^2\hbar^2}\frac{1}{n^2}, \quad n=1,2,3,\dots \\
 & L^2 = \hbar^2 l(l+1), \quad l=0,1,\dots,n-1 \\
 & L_z = \hbar m, \quad m=-l,-l+1,\dots,l
 \end{aligned}
@@ -375,3 +375,15 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
+## Approximation Method / 近似法
+
+## Perturbation Theory / 摂動論
+
+## Scattering Theory / 散乱理論
+
+## Path Integral / 経路積分
+
+## Identical Particle / 同種粒子
+
+## Dirac Equation / Dirac方程式
