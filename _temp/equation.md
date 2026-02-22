@@ -73,9 +73,9 @@ $$
 
 $$
 \begin{aligned}
-& \hat{A}|a\rangle = a|a\rangle \quad \langle a | a \rangle = \mathbb I \\
-& a = a^* \quad \langle a_n | a_m \rangle = \delta_{nm} \\
-& \hat{A} = \sum_a a |a\rangle\langle a| \quad \hat{A} = \int a |a\rangle\langle a| \, da
+& \hat{A}|a\rangle = a|a\rangle && \langle a | a \rangle = \mathbb I \\
+& a = a^* && \langle a_n | a_m \rangle = \delta_{nm} \\
+& \hat{A} = \sum_a a |a\rangle\langle a| && \hat{A} = \int a |a\rangle\langle a| \, da
 \end{aligned}
 $$
 {: .notice--info}
