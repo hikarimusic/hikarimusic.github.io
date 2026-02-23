@@ -40,6 +40,42 @@ Some random diseases
 # Orthopedic Surgery / 整形外科
 
 
+## Metabolic Bone Disease / 代謝性骨疾患
+
+### Osteoporosis / 骨粗鬆症
+
+### Osteomalacia / 骨軟化症
+
+### Paget Disease of Bone / 骨のPaget病
+
+### Achondroplasia / 軟骨無形成症
+
+### Osteogenesis Imperfecta / 骨形成不全症
+	
+### Rickets / くる病
+
+### Osteopetrosis / 大理石骨病
+
+
+## Infectious Disease / 感染性疾患
+
+### Acute Osteomyelitis / 急性骨髄炎
+
+### Chronic Osteomyelitis / 慢性骨髄炎
+
+### Pyogenic Spondylitis / 化膿性脊椎炎
+
+### Tuberculous Spondylitis / 結核性脊椎炎
+
+### Septic Arthritis / 化膿性関節炎
+
+### Prosthetic Joint Infection / 人工関節感染症
+
+### Necrotizing Fasciitis / 壊死性筋膜炎
+
+### Gas Gangrene / ガス壊疽
+
+
 ## Bone Tumor / 骨腫瘍
 
 ### Osteochondroma / 骨軟骨腫
