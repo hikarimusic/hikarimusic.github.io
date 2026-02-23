@@ -40,7 +40,7 @@ Some random diseases
 # Orthopedic Surgery / 整形外科
 
 
-## Metabolic Bone Disease / 代謝性骨疾患
+## Metabolic Disease / 代謝性疾患
 
 ### Osteoporosis / 骨粗鬆症
 
