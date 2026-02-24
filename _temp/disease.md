@@ -31,6 +31,18 @@ Some random diseases
 
 # Psychiatry / 精神科
 
+
+## Psychotic Disorder / 精神症
+
+### Schizophrenia / 統合失調症
+
+### Schizoaffective Disorder / 統合失調感情症
+
+### Brief Psychotic Disorder / 短期精神症
+
+### Delusional Disorder / 妄想症
+
+
 # Ophthalmology / 眼科
 
 # Otolaryngology / 耳鼻咽喉科
