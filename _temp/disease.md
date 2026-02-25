@@ -43,6 +43,22 @@ Some random diseases
 ### Delusional Disorder / 妄想症
 
 
+## Mood Disorder (Bipolar) / 気分症（双極性）
+
+### Bipolar I Disorder / 双極症Ⅰ型
+
+### Bipolar II Disorder / 双極症Ⅱ型
+
+### Cyclothymic Disorder / 気分循環症
+
+
+## Mood Disorder (Depressive) / 気分症（抑うつ性）
+
+### Major Depressive Disorder / うつ病
+
+### Persistent Depressive Disorder / 持続性抑うつ症
+
+
 # Ophthalmology / 眼科
 
 # Otolaryngology / 耳鼻咽喉科
