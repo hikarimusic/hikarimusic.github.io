@@ -59,6 +59,34 @@ Some random diseases
 ### Persistent Depressive Disorder / 持続性抑うつ症
 
 
+## Anxiety Disorder / 不安症
+
+### Panic Disorder / パニック症
+
+### Agoraphobia / 広場恐怖症
+
+### Specific Phobia / 限局性恐怖症
+
+### Generalized Anxiety Disorder / 全般不安症
+
+### Social Anxiety Disorder / 社交不安症
+
+### Separation Anxiety Disorder / 分離不安症
+
+
+## Neurodevelopmental Disorder / 神経発達症
+
+### Attention Deficit Hyperactivity Disorder / 注意欠如多動症
+
+### Autism Spectrum Disorder / 自閉スペクトラム症
+
+### Intellectual Developmental Disorder / 知的発達症
+
+### Specific Learning Disorder / 限局性学習症
+
+### Tic Disorder / チック症
+
+
 # Ophthalmology / 眼科
 
 # Otolaryngology / 耳鼻咽喉科
