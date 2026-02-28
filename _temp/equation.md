@@ -56,7 +56,7 @@ $$
 $$
 {: .notice--info}
 
-## Formulation / 定式化
+## Formalism / 形式論
 
 ### State / 状態
 
@@ -69,7 +69,7 @@ $$
 $$
 {: .notice--info}
 
-### Observable / オブザーバブル
+### Observable / 物理量
 
 $$
 \begin{aligned}
@@ -95,9 +95,9 @@ $$
 
 $$
 \begin{aligned}
-& |\psi(t)\rangle = \hat U(t,t_0)\,|\psi(t_0)\rangle \quad \hat U^\dagger(t,t_0)\,\hat U(t,t_0) = \mathbb I \\
-& \hat U(t,t_0) = \exp\left[-\frac{i}{\hbar}\,\hat H\,\bigl(t-t_0\bigr)\right] \\
-& \hat U(t,t_0) = \mathcal T \exp\left[-\frac{i}{\hbar}\int_{t_0}^{t}\hat H(t')\,dt'\right] \\
+& |\psi(t)\rangle = \hat U(t)\,|\psi(0)\rangle \quad \hat U^\dagger(t)\,\hat U(t) = \mathbb I \\
+& \hat U(t) = \exp\left[-\frac{i}{\hbar}\hat H t\right] \\
+& \hat U(t) = \mathcal T \exp\left[-\frac{i}{\hbar}\int_{0}^{t}\hat H(t')\,dt'\right]
 \end{aligned}
 $$
 {: .notice--info}
