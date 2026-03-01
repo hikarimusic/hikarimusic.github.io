@@ -74,6 +74,50 @@ Some random diseases
 ### Separation Anxiety Disorder / 分離不安症
 
 
+## Obsessive-Compulsive Disorder / 強迫症
+
+### Obsessive-Compulsive Disorder / 強迫症
+
+### Body Dysmorphic Disorder / 身体醜形症
+
+### Hoarding Disorder / ため込み症
+
+### Trichotillomania / 抜毛症
+
+### Excoriation Disorder / 皮膚むしり症
+
+
+## Stressor-Related Disorder / ストレス因関連症
+
+### Posttraumatic Stress Disorder / 心的外傷後ストレス症
+
+### Acute Stress Disorder / 急性ストレス症
+
+### Adjustment Disorder / 適応反応症
+
+### Prolonged Grief Disorder / 遷延性悲嘆症
+
+
+## Dissociative Disorder / 解離症
+
+### Dissociative Identity Disorder / 解離性同一症
+
+### Dissociative Amnesia / 解離性健忘
+
+### Depersonalization/Derealization Disorder / 離人感・現実感消失症
+
+
+## Somatic Symptom Disorder / 身体症状症
+
+### Somatic Symptom Disorder / 身体症状症
+
+### Illness Anxiety Disorder / 病気不安症
+
+### Conversion Disorder / 変換症
+
+### Factitious Disorder / 作為症
+
+
 ## Neurodevelopmental Disorder / 神経発達症
 
 ### Attention Deficit Hyperactivity Disorder / 注意欠如多動症
