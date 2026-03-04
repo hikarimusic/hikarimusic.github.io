@@ -118,6 +118,34 @@ Some random diseases
 ### Factitious Disorder / 作為症
 
 
+## Eating Disorder / 摂食症
+
+### Anorexia Nervosa / 神経性やせ症
+
+### Bulimia Nervosa / 神経性過食症
+
+### Binge-Eating Disorder / むちゃ食い症
+
+### Avoidant/Restrictive Food Intake Disorder / 回避・制限性食物摂取症
+
+
+## Substance Use Disorder / 物質使用症
+
+### Opioid Use Disorder / オピオイド使用症
+
+### Stimulant Use Disorder / 刺激薬使用症
+
+### Cannabis Use Disorder / 大麻使用症
+
+### Alcohol Use Disorder / アルコール使用症
+
+### Tobacco Use Disorder / タバコ使用症
+
+### Sedative/Hypnotic/Anxiolytic Use Disorder / 鎮静薬・睡眠薬・抗不安薬使用症
+
+### Gambling Disorder / ギャンブル行動症
+
+
 ## Neurodevelopmental Disorder / 神経発達症
 
 ### Attention Deficit Hyperactivity Disorder / 注意欠如多動症
