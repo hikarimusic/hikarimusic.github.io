@@ -20,10 +20,10 @@ Templates of Algorithm
 vector<int> arr(N);
 
 void search(int n) {
-    for (int i=0; i<(1<<n); ++i) {
-        for (int j=0; j<n; ++j) {
-            if (i&(1<<j))
-                "<arr[j]...>";
+    for (int s=0; s<(1<<n); ++s) {
+        for (int i=0; i<n; ++i) {
+            if (s&(1<<i))
+                "<arr[i]...>";
         }
     }
 }
@@ -60,8 +60,6 @@ void search(int p, int n) {
     }
 }
 ```
-
-### Backtracking / バックトラッキング
 ```cpp
 vector<int> arr(N);
 
