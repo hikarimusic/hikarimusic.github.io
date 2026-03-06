@@ -168,6 +168,72 @@ Some random diseases
 # Orthopedic Surgery / 整形外科
 
 
+## Shoulder Disease / 肩疾患
+
+### Rotator Cuff Tear / 腱板断裂
+
+### Impingement Syndrome / インピンジメント症候群
+
+### Adhesive Capsulitis / 癒着性関節包炎
+
+
+## Elbow Disease / 肘疾患
+
+### Lateral Epicondylitis / 外側上顆炎
+
+### Medial Epicondylitis / 内側上顆炎
+
+### Cubital Tunnel Syndrome / 肘部管症候群
+
+
+## Hand Disease / 手疾患
+
+### De Quervain Tenosynovitis / de Quervain病
+
+### Trigger Finger / ばね指
+
+### Thumb CMC Arthritis / 母指CM関節症
+
+### Dupuytren Contracture / Dupuytren拘縮
+
+### Carpal Tunnel Syndrome / 手根管症候群
+
+
+## Hip Disease / 股関節疾患
+
+### Hip Osteoarthritis / 変形性股関節症
+
+### Avascular Necrosis of Femoral Head / 大腿骨頭壊死症
+
+### Femoroacetabular Impingement / 股関節インピンジメント
+
+
+## Knee Disease / 膝疾患
+
+### Anterior/Posterior Cruciate Ligament Tear / 前・後十字靭帯断裂
+
+### Medial/Lateral Collateral Ligament Tear / 内・外側側副靭帯断裂
+
+### Medial/Lateral Meniscus Tear / 内・外側半月板断裂
+
+### Knee Osteoarthritis / 変形性膝関節症
+
+### Osteochondritis Dissecans / 離断性骨軟骨炎
+
+
+## Foot Disease / 足疾患
+
+### Lateral Ankle Ligament Sprain / 足関節外側靭帯損傷
+
+### Achilles Tendon Rupture / アキレス腱断裂
+
+### Ankle Osteoarthritis / 変形性足関節症
+
+### Plantar Fasciitis / 足底腱膜炎
+
+### Hallux Valgus / 外反母趾
+
+
 ## Metabolic Disease / 代謝性疾患
 
 ### Osteoporosis / 骨粗鬆症
