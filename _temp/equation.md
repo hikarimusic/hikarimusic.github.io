@@ -153,7 +153,7 @@ $$
 $$
 \begin{aligned}
 & \frac{\partial |\Psi|^2}{\partial t} = -\nabla \cdot \mathbf{j} \\
-& \mathbf{j} = \frac{\hbar}{2mi} (\Psi^* \nabla \Psi - \Psi \nabla \Psi^*)
+& \mathbf{j} = \frac{i\hbar}{2m} (\Psi \nabla \Psi^* - \Psi^* \nabla \Psi)
 \end{aligned}
 $$
 {: .notice--info}
