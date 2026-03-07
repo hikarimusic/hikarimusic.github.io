@@ -148,7 +148,7 @@ $$
 $$
 {: .notice--info}
 
-### Probability current / 確率流密度
+### Probability current / 確率流
 
 $$
 \begin{aligned}
@@ -162,7 +162,7 @@ $$
 
 $$
 \begin{aligned}
-& \frac{d}{dt} \langle \hat{A} \rangle = \frac{1}{i\hbar} \langle [\hat{A}, \hat{H}] \rangle \\
+& \frac{d}{dt} \langle \hat{A} \rangle = -\frac{i}{\hbar} \langle [\hat{A}, \hat{H}] \rangle \\
 & \frac{d}{dt} \langle \hat{x} \rangle = \left\langle \frac{\partial \hat{H}}{\partial \hat{p}} \right\rangle \\
 & \frac{d}{dt} \langle \hat{p} \rangle = \left\langle -\frac{\partial \hat{H}}{\partial \hat{x}} \right\rangle
 \end{aligned}
