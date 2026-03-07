@@ -176,8 +176,8 @@ $$
 $$
 \begin{aligned}
 & V(x) = 0 \\
-& \psi_k(x) = \frac{1}{\sqrt{2\pi}} e^{ikx} \\
-& E = \frac{\hbar^2 k^2}{2m}
+& \psi(x) = A e^{ikx} + B e^{-ikx} \\
+& k = \frac{\sqrt{2mE}}{\hbar}
 \end{aligned}
 $$
 {: .notice--info}
@@ -187,8 +187,23 @@ $$
 $$
 \begin{aligned}
 & V(x) = \begin{cases} 0, & x < 0 \\ V_0, & x \geq 0 \end{cases} \\
-& \psi_{k_1}(x) = \begin{cases} \frac{1}{\sqrt{2\pi}} \left( e^{ik_1 x} + \frac{k_1 - k_2}{k_1 + k_2} e^{-ik_1 x} \right), & x < 0 \\ \frac{1}{\sqrt{2\pi}} \frac{2k_1}{k_1 + k_2} e^{ik_2 x}, & x \geq 0 \end{cases} \\
-& E = \frac{\hbar^2 k_1^2}{2m} = \frac{\hbar^2 k_2^2}{2m} + V_0
+& \psi(x) = \begin{cases} A e^{ik_1 x} + B e^{-ik_1 x}, & x < 0 \\ C e^{ik_2 x}, & x \geq 0 \end{cases} \\
+& k_1 = \frac{\sqrt{2mE}}{\hbar}, \quad k_2 = \frac{\sqrt{2m(E-V_0)}}{\hbar} \\
+& R = \left| \frac{B}{A} \right|^2 = \left( \frac{k_1 - k_2}{k_1 + k_2} \right)^2 \\
+& T = \frac{k_2}{k_1} \left| \frac{C}{A} \right|^2 = \frac{4k_1 k_2}{(k_1 + k_2)^2}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Potential Barrier / ポテンシャル障壁
+
+$$
+\begin{aligned}
+& V(x) = \begin{cases} V_0, & |x| \leq \frac{a}{2} \\ 0, & |x| > \frac{a}{2} \end{cases} \\
+& \psi(x) = \begin{cases} A e^{ikx} + B e^{-ikx}, & x < -\frac{a}{2} \\ C e^{\kappa x} + D e^{-\kappa x}, & -\frac{a}{2} \leq x \leq \frac{a}{2} \\ F e^{ikx}, & x > \frac{a}{2} \end{cases} \\
+& k = \frac{\sqrt{2mE}}{\hbar}, \quad \kappa = \frac{\sqrt{2m(V_0-E)}}{\hbar} \\
+& R = \left| \frac{B}{A} \right|^2 = \left[ 1 + \frac{4E(V_0-E)}{V_0^2 \sinh^2(\kappa a)} \right]^{-1} \\
+& T = \left| \frac{F}{A} \right|^2 = \left[ 1 + \frac{V_0^2 \sinh^2(\kappa a)}{4E(V_0-E)} \right]^{-1}
 \end{aligned}
 $$
 {: .notice--info}
