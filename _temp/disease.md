@@ -210,11 +210,11 @@ Some random diseases
 
 ## Knee Disease / 膝疾患
 
-### Anterior/Posterior Cruciate Ligament Tear / 前・後十字靭帯断裂
+### Anterior & Posterior Cruciate Ligament Tear / 前・後十字靭帯断裂
 
-### Medial/Lateral Collateral Ligament Tear / 内・外側側副靭帯断裂
+### Medial & Lateral Collateral Ligament Tear / 内・外側側副靭帯断裂
 
-### Medial/Lateral Meniscus Tear / 内・外側半月板断裂
+### Medial & Lateral Meniscus Tear / 内・外側半月板断裂
 
 ### Knee Osteoarthritis / 変形性膝関節症
 
@@ -232,6 +232,44 @@ Some random diseases
 ### Plantar Fasciitis / 足底腱膜炎
 
 ### Hallux Valgus / 外反母趾
+
+
+## Spine Disease / 脊椎疾患
+
+### Cervical Disc Herniation / 頸椎椎間板ヘルニア
+
+### Cervical Spondylotic Myelopathy / 頸椎症性脊髄症
+
+### Cervical Spondylotic Radiculopathy / 頸椎症性神経根症
+
+### Lumbar Disc Herniation / 腰椎椎間板ヘルニア
+
+### Lumbar Spinal Stenosis / 腰部脊柱管狭窄症
+
+### Lumbar Spondylolysis / 腰椎分離症
+
+### Lumbar Spondylolisthesis / 腰椎すべり症
+
+### Ossification of Posterior Longitudinal Ligament / 後縦靱帯骨化症
+
+### Ossification of Ligamentum Flavum / 黄色靱帯骨化症
+
+
+## Pediatric Orthopedics / 小児整形外科
+
+### Developmental Dysplasia of Hip / 発育性股関節形成不全
+
+### Legg-Calvé-Perthes Disease / Perthes病
+
+### Slipped Capital Femoral Epiphysis / 大腿骨頭すべり症
+
+### Osgood-Schlatter Disease / Osgood-Schlatter病
+
+### Polydactyly & Syndactyly / 多指症・合指症
+
+### Clubfoot / 先天性内反足
+
+### Adolescent Idiopathic Scoliosis / 思春期特発性側弯症
 
 
 ## Metabolic Disease / 代謝性疾患
