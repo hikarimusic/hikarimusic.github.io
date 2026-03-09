@@ -165,7 +165,83 @@ Some random diseases
 
 # Dermatology / 皮膚科
 
+
 # Orthopedic Surgery / 整形外科
+
+## Fracture / 骨折
+
+### Clavicle Fracture / 鎖骨骨折
+
+### Proximal Humerus Fracture / 上腕骨近位端骨折
+
+### Humeral Shaft Fracture / 上腕骨骨幹部骨折
+
+### Supracondylar Humerus Fracture / 上腕骨顆上骨折
+
+### Monteggia Fracture-Dislocation / Monteggia骨折脱臼
+
+### Galeazzi Fracture-Dislocation / Galeazzi骨折脱臼
+
+### Distal Radius Fracture / 橈骨遠位端骨折
+
+### Scaphoid Fracture / 舟状骨骨折
+
+### Bennett Fracture / Bennett骨折
+
+### Boxer's Fracture / ボクサー骨折
+
+### Pelvic Ring Fracture / 骨盤輪骨折
+
+### Acetabular Fracture / 寛骨臼骨折
+
+### Femoral Neck Fracture / 大腿骨頸部骨折
+
+### Trochanteric Fracture / 大腿骨転子部骨折
+
+### Femoral Shaft Fracture / 大腿骨骨幹部骨折
+
+### Distal Femur Fracture / 大腿骨遠位端骨折
+
+### Patella Fracture / 膝蓋骨骨折
+
+### Tibial Plateau Fracture / 脛骨高原骨折
+
+### Tibial Shaft Fracture / 脛骨骨幹部骨折
+
+### Pilon Fracture / Pilon骨折
+
+### Malleolar Fracture / 果部骨折
+
+### Talus Fracture / 距骨骨折
+
+### Calcaneus Fracture / 踵骨骨折
+
+### Jones Fracture / Jones骨折
+
+
+## Dislocation / 脱臼
+
+### Sternoclavicular Dislocation / 胸鎖関節脱臼
+
+### Acromioclavicular Dislocation / 肩鎖関節脱臼
+
+### Shoulder Dislocation / 肩関節脱臼
+
+### Elbow Dislocation / 肘関節脱臼
+
+### Radial Head Subluxation / 肘内障
+
+### Lunate & Perilunate Dislocation / 月状骨・月状骨周囲脱臼
+
+### Hip Dislocation / 股関節脱臼
+
+### Patellar Dislocation / 膝蓋骨脱臼
+
+### Knee Dislocation / 膝関節脱臼
+
+### Subtalar Dislocation / 距骨下関節脱臼
+
+### Atlantoaxial Subluxation / 環軸椎亜脱臼
 
 
 ## Shoulder Disease / 肩疾患
