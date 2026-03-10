@@ -159,6 +159,43 @@ Some random diseases
 ### Tic Disorder / チック症
 
 
+## Neurocognitive Disorder
+
+### Delirium
+
+### Major Neurocognitive Disorder
+
+### Minor Neurocognitive Disorder
+
+
+## Personality Disorder
+
+### Borderline Personality Disorder
+
+### Antisocial Personality Disorder
+
+### Narcissistic Personality Disorder
+
+### Avoidant Personality Disorder
+
+### Dependent Personality Disorder
+
+### Obsessive-Compulsive Personality Disorder
+
+### Paranoid Personality Disorder
+
+### Schizotypal Personality Disorder
+
+### Histrionic Personality Disorder
+
+
+## Sleep-Wake Disorder
+
+### Insomnia Disorder
+
+### Narcolepsy
+
+
 # Ophthalmology / 眼科
 
 # Otolaryngology / 耳鼻咽喉科
