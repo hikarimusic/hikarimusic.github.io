@@ -159,41 +159,41 @@ Some random diseases
 ### Tic Disorder / チック症
 
 
-## Neurocognitive Disorder
+## Neurocognitive Disorder / 神経認知障害
 
-### Delirium
+### Delirium / せん妄
 
-### Major Neurocognitive Disorder
+### Major Neurocognitive Disorder / 主要神経認知障害
 
-### Minor Neurocognitive Disorder
-
-
-## Personality Disorder
-
-### Borderline Personality Disorder
-
-### Antisocial Personality Disorder
-
-### Narcissistic Personality Disorder
-
-### Avoidant Personality Disorder
-
-### Dependent Personality Disorder
-
-### Obsessive-Compulsive Personality Disorder
-
-### Paranoid Personality Disorder
-
-### Schizotypal Personality Disorder
-
-### Histrionic Personality Disorder
+### Minor Neurocognitive Disorder / 軽度神経認知障害
 
 
-## Sleep-Wake Disorder
+## Personality Disorder / パーソナリティ障害
 
-### Insomnia Disorder
+### Borderline Personality Disorder / 境界性パーソナリティ障害
 
-### Narcolepsy
+### Antisocial Personality Disorder / 反社会性パーソナリティ障害
+
+### Narcissistic Personality Disorder / 自己愛性パーソナリティ障害
+
+### Avoidant Personality Disorder / 回避性パーソナリティ障害
+
+### Dependent Personality Disorder / 依存性パーソナリティ障害
+
+### Obsessive-Compulsive Personality Disorder / 強迫性パーソナリティ障害
+
+### Paranoid Personality Disorder / 妄想性パーソナリティ障害
+
+### Schizotypal Personality Disorder / 統合失調型パーソナリティ障害
+
+### Histrionic Personality Disorder / 演技性パーソナリティ障害
+
+
+## Sleep-Wake Disorder / 睡眠・覚醒障害
+
+### Insomnia Disorder / 不眠障害
+
+### Narcolepsy / ナルコレプシー
 
 
 # Ophthalmology / 眼科
@@ -204,6 +204,7 @@ Some random diseases
 
 
 # Orthopedic Surgery / 整形外科
+
 
 ## Fracture / 骨折
 
