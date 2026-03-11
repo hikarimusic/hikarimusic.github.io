@@ -159,39 +159,39 @@ Some random diseases
 ### Tic Disorder / チック症
 
 
-## Neurocognitive Disorder / 神経認知障害
+## Neurocognitive Disorder / 神経認知症
 
 ### Delirium / せん妄
 
-### Major Neurocognitive Disorder / 主要神経認知障害
+### Major Neurocognitive Disorder / 主要神経認知症
 
-### Minor Neurocognitive Disorder / 軽度神経認知障害
+### Minor Neurocognitive Disorder / 軽度神経認知症
 
 
-## Personality Disorder / パーソナリティ障害
+## Personality Disorder / パーソナリティ症
 
-### Borderline Personality Disorder / 境界性パーソナリティ障害
+### Borderline Personality Disorder / 境界性パーソナリティ症
 
-### Antisocial Personality Disorder / 反社会性パーソナリティ障害
+### Antisocial Personality Disorder / 反社会性パーソナリティ症
 
-### Narcissistic Personality Disorder / 自己愛性パーソナリティ障害
+### Narcissistic Personality Disorder / 自己愛性パーソナリティ症
 
-### Avoidant Personality Disorder / 回避性パーソナリティ障害
+### Avoidant Personality Disorder / 回避性パーソナリティ症
 
-### Dependent Personality Disorder / 依存性パーソナリティ障害
+### Dependent Personality Disorder / 依存性パーソナリティ症
 
-### Obsessive-Compulsive Personality Disorder / 強迫性パーソナリティ障害
+### Obsessive-Compulsive Personality Disorder / 強迫性パーソナリティ症
 
-### Paranoid Personality Disorder / 妄想性パーソナリティ障害
+### Paranoid Personality Disorder / 妄想性パーソナリティ症
 
-### Schizotypal Personality Disorder / 統合失調型パーソナリティ障害
+### Schizotypal Personality Disorder / 統合失調型パーソナリティ症
 
-### Histrionic Personality Disorder / 演技性パーソナリティ障害
+### Histrionic Personality Disorder / 演技性パーソナリティ症
 
 
 ## Sleep-Wake Disorder / 睡眠・覚醒障害
 
-### Insomnia Disorder / 不眠障害
+### Insomnia Disorder / 不眠症
 
 ### Narcolepsy / ナルコレプシー
 
