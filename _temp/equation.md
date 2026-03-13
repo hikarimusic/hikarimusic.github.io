@@ -234,8 +234,8 @@ $$
 
 $$
 \begin{aligned}
-& \hat{a} = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} + \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \quad \hat{a}^\dagger = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} - \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \\
-& \hat{a}|n\rangle = \sqrt{n}|n-1\rangle \quad \hat{a}^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle \\
+& \hat{a} = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} + \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} && \hat{a}^\dagger = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} - \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \\
+& \hat{a}|n\rangle = \sqrt{n}|n-1\rangle && \hat{a}^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle \\
 & \hat{H}|n\rangle = \hbar\omega\left( n + \frac{1}{2} \right)|n\rangle
 \end{aligned}
 $$
