@@ -13,24 +13,53 @@ Some random diseases
 
 # Cardiology / 循環器科
 
+
+
 # Pulmonology/ 呼吸器科
+
+
 
 # Gastroenterology / 消化器科
 
+
+
 # Endocrinology / 内分泌科
+
+
 
 # Nephrology / 腎臓科
 
+
+
 # Hematology / 血液科
+
+
 
 # Rheumatology / リウマチ科
 
+
+
 # Infectious Diseases / 感染症科
+
+
 
 # Neurology / 神経科
 
-# Psychiatry / 精神科
+## Epilepsy / てんかん
 
+### Temporal Lobe Epilepsy / 側頭葉てんかん
+
+### Frontal Lobe Epilepsy / 前頭葉てんかん
+
+### Parietal Lobe Epilepsy / 頭頂葉てんかん
+
+### Occipital Lobe Epilepsy / 後頭葉てんかん
+
+### Status Epilepticus / てんかん重積
+
+
+
+# Psychiatry / 精神科
 
 ## Psychotic Disorder / 精神症
 
@@ -196,15 +225,20 @@ Some random diseases
 ### Narcolepsy / ナルコレプシー
 
 
+
 # Ophthalmology / 眼科
 
+
+
 # Otolaryngology / 耳鼻咽喉科
+
+
 
 # Dermatology / 皮膚科
 
 
-# Orthopedic Surgery / 整形外科
 
+# Orthopedic Surgery / 整形外科
 
 ## Fracture / 骨折
 
@@ -466,10 +500,17 @@ Some random diseases
 ### Undifferentiated Pleomorphic Sarcoma / 未分化多形性肉腫
 
 
+
 # Urology / 泌尿器科
+
+
 
 # Gynecology / 婦人科
 
+
+
 # Obstetrics / 産科
+
+
 
 # Pediatrics / 小児科
