@@ -45,6 +45,40 @@ Some random diseases
 
 # Neurology / 神経科
 
+## Autoimmune Disease / 自己免疫疾患
+
+### Multiple Sclerosis / 多発性硬化症
+
+### Neuromyelitis Optica Spectrum Disorder / 視神経脊髄炎スペクトラム障害
+
+### MOG Antibody-Associated Disease / MOG抗体関連疾患
+
+### Acute Disseminated Encephalomyelitis / 急性散在性脳脊髄炎
+
+### Anti-NMDA Receptor Encephalitis / 抗NMDA受容体脳炎
+
+
+## Infectious Disease / 感染性疾患
+
+### Bacterial Meningitis / 細菌性髄膜炎
+
+### Viral Meningitis / ウイルス性髄膜炎
+
+### Tuberculous Meningitis / 結核性髄膜炎
+
+### Fungal Meningitis / 真菌性髄膜炎
+
+### Viral Encephalitis / ウイルス性脳炎
+
+### Brain Abscess / 脳膿瘍
+
+### Subacute Sclerosing Panencephalitis / 亜急性硬化性全脳炎
+
+### Progressive Multifocal Leukoencephalopathy / 進行性多巣性白質脳症
+
+### Creutzfeldt-Jakob Disease / Creutzfeldt-Jakob病
+
+
 ## Epilepsy / てんかん
 
 ### Temporal Lobe Epilepsy / 側頭葉てんかん
