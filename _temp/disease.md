@@ -45,6 +45,42 @@ Some random diseases
 
 # Neurology / 神経科
 
+## Cerebrovascular Disease / 脳血管疾患
+
+### Atherothrombotic Stroke / アテローム血栓性脳梗塞
+
+### Cardioembolic Stroke / 心原性脳塞栓症
+
+### Lacunar Stroke / ラクナ梗塞
+
+### Transient Ischemic Attack / 一過性脳虚血発作
+
+### Intracerebral Hemorrhage / 脳内出血
+
+### Subarachnoid Hemorrhage / くも膜下出血
+
+### Carotid Artery Stenosis / 頸動脈狭窄症
+
+### Cerebral Artery Dissection / 脳動脈解離
+
+### Cerebral Aneurysm / 脳動脈瘤
+
+### Cerebral Arteriovenous Malformation / 脳動静脈奇形
+
+### Moyamoya Disease / もやもや病
+
+
+## Intracranial Pressure Disease / 頭蓋内圧疾患
+
+### Normal Pressure Hydrocephalus / 正常圧水頭症
+
+### Obstructive Hydrocephalus / 閉塞性水頭症
+
+### Cerebral Venous Sinus Thrombosis / 脳静脈洞血栓症
+
+### Carotid-Cavernous Fistula / 頸動脈海綿静脈洞瘻
+
+
 ## Autoimmune Disease / 自己免疫疾患
 
 ### Multiple Sclerosis / 多発性硬化症
