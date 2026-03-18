@@ -128,6 +128,17 @@ Some random diseases
 ### Status Epilepticus / てんかん重積
 
 
+## Headache / 頭痛
+
+### Tension Headache / 緊張型頭痛
+
+### Migraine / 片頭痛
+
+### Cluster Headache / 群発頭痛
+
+### Trigeminal Neuralgia / 三叉神経痛
+
+
 
 # Psychiatry / 精神科
 
