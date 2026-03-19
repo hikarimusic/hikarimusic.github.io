@@ -412,8 +412,6 @@ Some random diseases
 
 ### Medial Epicondylitis / 内側上顆炎
 
-### Cubital Tunnel Syndrome / 肘部管症候群
-
 
 ## Hand Disease / 手疾患
 
@@ -424,8 +422,6 @@ Some random diseases
 ### Thumb CMC Arthritis / 母指CM関節症
 
 ### Dupuytren Contracture / Dupuytren拘縮
-
-### Carpal Tunnel Syndrome / 手根管症候群
 
 
 ## Hip Disease / 股関節疾患
@@ -482,6 +478,25 @@ Some random diseases
 ### Ossification of Posterior Longitudinal Ligament / 後縦靱帯骨化症
 
 ### Ossification of Ligamentum Flavum / 黄色靱帯骨化症
+
+
+## Peripheral Nerve Disease / 末梢神経疾患
+
+### Brachial Plexus Injury / 腕神経叢損傷
+
+### Thoracic Outlet Syndrome / 胸郭出口症候群
+
+### Radial Nerve Palsy / 橈骨神経麻痺
+
+### Cubital Tunnel Syndrome / 肘部管症候群
+
+### Carpal Tunnel Syndrome / 手根管症候群
+
+### Piriformis Syndrome / 梨状筋症候群
+
+### Common Peroneal Nerve Palsy / 総腓骨神経麻痺
+
+### Tarsal Tunnel Syndrome / 足根管症候群
 
 
 ## Pediatric Orthopedics / 小児整形外科
