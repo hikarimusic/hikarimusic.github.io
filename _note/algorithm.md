@@ -97,16 +97,6 @@ void solve() {
 
 ### Knapsack DP / ナップサックDP
 ```cpp
-vector<int> dp(N);
-
-void solve(int n) {
-    "<base case>";
-    for (int i=1; i<=n; ++i) {
-        dp[i] = "<combination of dp[<=i] >";
-    }
-}
-```
-```cpp
 vector<vector<int>> dp(N, vector<int>(M));
 
 void solve(int n, int m) {
