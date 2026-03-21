@@ -81,6 +81,72 @@ Some random diseases
 ### Carotid-Cavernous Fistula / 頸動脈海綿静脈洞瘻
 
 
+## Dementia / 認知症
+
+### Alzheimer Disease / Alzheimer病
+
+### Vascular Dementia / 血管性認知症
+
+### Dementia with Lewy Bodies / Lewy小体型認知症
+
+### Frontotemporal Dementia / 前頭側頭型認知症
+
+
+## Movement Disorder / 運動障害
+
+### Parkinson Disease / Parkinson病
+
+### Progressive Supranuclear Palsy / 進行性核上性麻痺
+
+### Corticobasal Degeneration / 皮質基底核変性症
+
+### Huntington Disease / Huntington病
+
+### Multiple System Atrophy - Parkinsonian Type / 多系統萎縮症 - パーキンソン型
+
+### Multiple System Atrophy - Cerebellar Type / 多系統萎縮症 - 小脳型
+
+### Spinocerebellar Ataxia / 脊髄小脳変性症
+
+
+## Motor Neuron Disease / 運動ニューロン疾患
+
+### Amyotrophic Lateral Sclerosis / 筋萎縮性側索硬化症
+
+### Kennedy Disease / 球脊髄性筋萎縮症
+
+
+## Peripheral Neuropathy / 末梢神経障害
+
+### Guillain-Barré Syndrome / Guillain-Barré症候群
+
+### Chronic Inflammatory Demyelinating Polyneuropathy / 慢性炎症性脱髄性多発神経炎
+
+### Diabetic Neuropathy / 糖尿病性ニューロパチー
+
+### Charcot-Marie-Tooth Disease / Charcot-Marie-Tooth病
+
+### Familial Amyloid Polyneuropathy / 家族性アミロイドポリニューロパチー
+
+
+## Neuromuscular Junction Disease / 神経筋接合部疾患
+
+### Myasthenia Gravis / 重症筋無力症
+
+### Lambert-Eaton Myasthenic Syndrome / Lambert-Eaton筋無力症候群
+
+
+## Myopathy / 筋疾患
+
+### Myotonic Dystrophy / 筋強直性ジストロフィー
+
+### Limb-Girdle Muscular Dystrophy / 肢帯型筋ジストロフィー
+
+### Facioscapulohumeral Muscular Dystrophy / 顔面肩甲上腕型筋ジストロフィー
+
+### Hypokalemic Periodic Paralysis / 低カリウム性周期性四肢麻痺
+
+
 ## Autoimmune Disease / 自己免疫疾患
 
 ### Multiple Sclerosis / 多発性硬化症
