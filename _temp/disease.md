@@ -181,6 +181,33 @@ Some random diseases
 ### Creutzfeldt-Jakob Disease / Creutzfeldt-Jakob病
 
 
+## Brain Tumor / 脳腫瘍
+
+### Glioblastoma / 膠芽腫
+
+### Astrocytoma / 星細胞腫
+
+### Oligodendroglioma / 乏突起膠腫
+
+### Medulloblastoma / 髄芽腫
+
+### Ependymoma / 上衣腫
+
+### Germ Cell Tumor / 胚細胞腫瘍
+
+### Meningioma / 髄膜腫
+
+### Vestibular Schwannoma / 前庭神経鞘腫
+
+### Pituitary Adenoma / 下垂体腺腫
+
+### Craniopharyngioma / 頭蓋咽頭腫
+
+### Primary CNS Lymphoma / 原発性中枢神経系リンパ腫
+
+### Metastatic Brain Tumor / 転移性脳腫瘍
+
+
 ## Epilepsy / てんかん
 
 ### Temporal Lobe Epilepsy / 側頭葉てんかん
