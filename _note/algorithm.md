@@ -17,7 +17,7 @@ Templates of Algorithm
 
 ### Bit Exhaustive Search / ビット全探索
 ```cpp
-vector<int> arr(N);
+int arr[N];
 
 void search(int n) {
     for (int s=0; s<(1<<n); ++s) {
@@ -31,19 +31,20 @@ void search(int n) {
 
 ### Permutation Exhaustive Search / 順列全探索
 ```cpp
-vector<int> arr(N);
+int arr[N];
 
 void search(int n) {
+    sort(arr, arr + n);
     do {
         for (int i=0; i<n; ++i)
             "<arr[i]...>";
-    } while (next_permutation(arr.begin(), arr.begin()+n));
+    } while (next_permutation(arr, arr+n));
 }
 ```
 
 ### DFS Exhaustive Search / DFS全探索
 ```cpp
-vector<int> arr(N);
+int arr[N];
 
 void search(int p, int n) {
     if (p==n) {
@@ -61,7 +62,7 @@ void search(int p, int n) {
 }
 ```
 ```cpp
-vector<int> arr(N);
+int arr[N];
 
 bool search(int p, int n) {
     if (p==n) {
@@ -97,13 +98,14 @@ void solve() {
 
 ### Knapsack DP / ナップサックDP
 ```cpp
-vector<vector<int>> dp(N, vector<int>(M));
+int arr[N];
+int dp[N][M];
 
 void solve(int n, int m) {
-    "<base case>";
+    "<base dp[i][0] >";
     for (int i=1; i<=n; ++i) {
         for (int j=1; j<=m; ++j) {
-            dp[i][j] = "<combination of dp[<=i][<=j] >";
+            "<update dp[i][j] with dp[i-1][f(arr[i-1])] >";
         }
     }
 }
@@ -111,15 +113,16 @@ void solve(int n, int m) {
 
 ### Digit Dp / 桁DP
 ```cpp
+int arr[N];
 int dp[N][M][2];
 
 void solve(int n, int m) {
-    "<base case>";
+    "<base dp[0][0][1] >";
     for (int i=0; i<n; ++i) {
-        for (int j=0; j<m; ++j) {
-            "<transfer dp[i][j][0] to dp[i+1][target (0~9) ][0] >";
-            "<transfer dp[i][j][1] to dp[i+1][target (0~di)][0] >";
-            "<transfer dp[i][j][1] to dp[i+1][target (di)  ][1] >";
+        for (int j=0; j<=m; ++j) {
+            "<transfer dp[i][j][0] to dp[i+1][f(0~9)       ][0] >";
+            "<transfer dp[i][j][1] to dp[i+1][f(0~arr[i]-1)][0] >";
+            "<transfer dp[i][j][1] to dp[i+1][f(arr[i])    ][1] >";
         }
     }
 }
