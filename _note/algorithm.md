@@ -130,15 +130,16 @@ void solve(int n, int m) {
 
 ### Interval DP / 区間DP
 ```cpp
-vector<vector<int>> dp(N, vector<int>(N, -1));
+int arr[N];
+int dp[N][N]; // fill -1
 
 int rec(int l, int r) {
+    if (" l==r, l>r >")
+        return "<base>";
     if (dp[l][r]!=-1)
         return dp[l][r];
-    if ("<base case>")
-        return dp[l][r] = "<value>";
-    int a = "<combination of rec(l+1, r-1), rec(l, i), rec(i+1, r), ...)>";
-    return dp[l][r] = a;
+    "<update dp[i][j] with rec(l, i), rec(i+1, r), rec(l+1, r-1) >";
+    return dp[l][r];
 }
 ```
 
