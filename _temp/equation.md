@@ -44,6 +44,8 @@ $$
 $$
 {: .notice--info}
 
+
+
 # Quantum Mechanics / 量子力学
 
 $$
@@ -55,6 +57,7 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
 
 ## Formalism / 形式論
 
@@ -101,6 +104,7 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
 
 ## Wave Mechanics / 波動力学
 
@@ -168,6 +172,7 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
 
 ## 1D System / １次元系
 
@@ -241,6 +246,7 @@ $$
 $$
 {: .notice--info}
 
+
 ## Symmetry / 対称性
 
 ### Spatial Translational Invariance / 空間並進不変性
@@ -275,6 +281,7 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
 
 ## Angular Momentum / 角運動量
 
@@ -328,6 +335,7 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
 
 ## 3D System / 3次元系
 
@@ -390,14 +398,65 @@ $$
 $$
 {: .notice--info}
 
+
 ## Approximation Method / 近似法
+
 
 ## Perturbation Theory / 摂動論
 
+
 ## Scattering Theory / 散乱理論
+
 
 ## Path Integral / 経路積分
 
+
+## Path Integral / 経路積分
+
+### Configuration Space / 座標空間
+
+$$
+\begin{aligned}
+& U(x_f, t_f; x_i, t_i) = \int \mathcal{D}[x] e^{\frac{i}{\hbar}S[x]} \\
+& \int \mathcal{D}[x] = \lim_{N \to \infty} \left( \frac{m}{2\pi i \hbar \Delta t} \right)^{\frac{N}{2}} \prod_{j=1}^{N-1} dx_j \\
+& S[x] = \sum_{j=1}^{N} \left[ \frac{m}{2} \left( \frac{x_j - x_{j-1}}{\Delta t} \right)^2 - V(x_j) \right] \Delta t
+\end{aligned}
+$$
+{: .notice--info}
+
+### Phase Space / 位相空間
+
+$$
+\begin{aligned}
+& U(x_f, t_f; x_i, t_i) = \int \mathcal{D}[x]\mathcal{D}[p] e^{\frac{i}{\hbar}S[x,p]} \\
+& \int \mathcal{D}[x]\mathcal{D}[p] = \lim_{N \to \infty} \left( \frac{1}{2\pi \hbar} \right)^N \prod_{j=1}^{N-1} dx_j \prod_{k=1}^N dp_k \\
+& S[x,p] = \sum_{j=1}^{N} \left[ p_j \left( \frac{x_j - x_{j-1}}{\Delta t} \right) - H(x_j, p_j) \right] \Delta t
+\end{aligned}
+$$
+{: .notice--info}
+
+### Free Particle / 自由粒子
+
+$$
+\begin{aligned}
+& S_{cl} = \frac{m(x_f - x_i)^2}{2T} \\
+& U(x_f, T; x_i, 0) = \sqrt{\frac{m}{2\pi i \hbar T}} \exp\left( \frac{i m (x_f - x_i)^2}{2 \hbar T} \right)
+\end{aligned}
+$$
+{: .notice--info}
+
+### Harmonic Oscillator / 調和振動子
+
+$$
+\begin{aligned}
+& S_{cl} = \frac{m\omega}{2\sin(\omega T)} \left[ (x_i^2 + x_f^2)\cos(\omega T) - 2x_i x_f \right] \\
+& U(x_f, T; x_i, 0) = \sqrt{\frac{m\omega}{2\pi i \hbar \sin(\omega T)}} \exp\left( \frac{i m \omega}{2\hbar \sin(\omega T)} \left[ (x_i^2 + x_f^2)\cos(\omega T) - 2x_i x_f \right] \right)
+\end{aligned}
+$$
+{: .notice--info}
+
+
 ## Identical Particle / 同種粒子
+
 
 ## Dirac Equation / Dirac方程式
