@@ -753,3 +753,65 @@ Some random diseases
 
 
 # Pediatrics / 小児科
+
+## Neurology / 神経学
+
+### Febrile Seizure / 熱性けいれん
+
+### West Syndrome / West症候群
+
+### Dravet Syndrome / Dravet症候群
+
+### Lennox-Gastaut Syndrome / Lennox-Gastaut症候群
+
+### Panayiotopoulos Syndrome / Panayiotopoulos症候群
+
+### Rolandic Epilepsy / ローランドてんかん
+
+### Childhood Absence Epilepsy / 小児欠神てんかん
+
+### Juvenile Myoclonic Epilepsy / 若年性ミオクロニーてんかん
+
+### Cerebral Palsy / 脳性麻痺
+
+### Friedreich Ataxia / Friedreich失調症
+
+### Adrenoleukodystrophy / 副腎白質ジストロフィー
+
+### Metachromatic Leukodystrophy / 異染性白質ジストロフィー
+
+### Spinal Muscular Atrophy / 脊髄性筋萎縮症
+
+### Duchenne Muscular Dystrophy / Duchenne型筋ジストロフィー
+
+### Becker Muscular Dystrophy / Becker型筋ジストロフィー
+
+### MELAS Syndrome / MELAS症候群
+
+### Leigh Syndrome / Leigh症候群
+
+### Tuberous Sclerosis Complex / 結節性硬化症
+
+### Neurofibromatosis Type 1 / 神経線維腫症1型
+
+### Neurofibromatosis Type 2 / 神経線維腫症2型
+
+### Von Hippel-Lindau Disease / Von Hippel-Lindau病
+
+### Sturge-Weber Syndrome / Sturge-Weber症候群
+
+### Incontinentia Pigmenti / 色素失調症
+
+### Encephalocele / 脳瘤
+
+### Myelomeningocele / 脊髄髄膜瘤
+
+### Spina Bifida Occulta / 潜在性二分脊椎
+
+### Chiari Malformation Type I / Chiari奇形I型
+
+### Chiari Malformation Type II / Chiari奇形II型
+
+### Dandy-Walker Syndrome / Dandy-Walker症候群
+
+### Craniosynostosis / 頭蓋骨縫合早期癒合症
