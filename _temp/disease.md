@@ -85,11 +85,11 @@ Some random diseases
 
 ### Alzheimer Disease / Alzheimer病
 
-### Vascular Dementia / 血管性認知症
-
 ### Dementia with Lewy Bodies / Lewy小体型認知症
 
 ### Frontotemporal Dementia / 前頭側頭型認知症
+
+### Vascular Dementia / 血管性認知症
 
 
 ## Movement Disorder / 運動障害
@@ -116,7 +116,22 @@ Some random diseases
 ### Kennedy Disease / 球脊髄性筋萎縮症
 
 
-## Peripheral Neuropathy / 末梢神経障害
+## Spinal Cord Disease / 脊髄疾患
+
+### Spinal Cord Infarction / 脊髄梗塞
+
+### Spinal Arteriovenous Malformation / 脊髄動静脈奇形
+
+### Spinal Cord Tumor / 脊髄腫瘍
+
+### Spinal Cord Injury / 脊髄損傷
+
+### Syringomyelia / 脊髄空洞症
+
+### Tethered Cord Syndrome / 脊髄係留症候群
+
+
+## Peripheral Nerve Disease / 末梢神経疾患
 
 ### Guillain-Barré Syndrome / Guillain-Barré症候群
 
@@ -136,7 +151,7 @@ Some random diseases
 ### Lambert-Eaton Myasthenic Syndrome / Lambert-Eaton筋無力症候群
 
 
-## Myopathy / 筋疾患
+## Muscular Disease / 筋疾患
 
 ### Myotonic Dystrophy / 筋強直性ジストロフィー
 
@@ -145,6 +160,15 @@ Some random diseases
 ### Facioscapulohumeral Muscular Dystrophy / 顔面肩甲上腕型筋ジストロフィー
 
 ### Hypokalemic Periodic Paralysis / 低カリウム性周期性四肢麻痺
+
+
+## Metabolic Disease / 代謝性疾患
+
+### Wernicke's Encephalopathy / Wernicke脳症
+
+### Korsakoff Syndrome / Korsakoff症候群
+
+### Subacute Combined Degeneration of Spinal Cord / 亜急性連合性脊髄変性症
 
 
 ## Autoimmune Disease / 自己免疫疾患
@@ -217,6 +241,17 @@ Some random diseases
 ### Malignant Peripheral Nerve Sheath Tumor / 悪性末梢神経鞘腫瘍
 
 
+## Headache / 頭痛
+
+### Tension Headache / 緊張型頭痛
+
+### Migraine / 片頭痛
+
+### Cluster Headache / 群発頭痛
+
+### Trigeminal Neuralgia / 三叉神経痛
+
+
 ## Epilepsy / てんかん
 
 ### Temporal Lobe Epilepsy / 側頭葉てんかん
@@ -230,15 +265,21 @@ Some random diseases
 ### Status Epilepticus / てんかん重積
 
 
-## Headache / 頭痛
+## Trauma / 外傷
 
-### Tension Headache / 緊張型頭痛
+### Acute Epidural Hematoma / 急性硬膜外血腫
 
-### Migraine / 片頭痛
+### Acute Subdural Hematoma / 急性硬膜下血腫
 
-### Cluster Headache / 群発頭痛
+### Chronic Subdural Hematoma / 慢性硬膜下血腫
 
-### Trigeminal Neuralgia / 三叉神経痛
+### Brain Concussion / 脳震盪
+
+### Cerebral Contusion / 脳挫傷
+
+### Diffuse Axonal Injury / びまん性軸索損傷
+
+### Skull Fracture / 頭蓋骨骨折
 
 
 
