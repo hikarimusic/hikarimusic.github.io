@@ -456,6 +456,54 @@ Some random diseases
 
 # Otolaryngology / 耳鼻咽喉科
 
+## External Ear Disease / 外耳疾患
+
+### Otitis Externa / 外耳炎
+
+### Microtia & Anotia / 小耳症・無耳症
+
+### Myringitis / 鼓膜炎
+
+### Tympanic Membrane Perforation / 鼓膜穿孔
+
+
+## Middle Ear Disease / 中耳疾患
+
+### Acute Otitis Media / 急性中耳炎
+
+### Otitis Media with Effusion / 滲出性中耳炎
+
+### Chronic Otitis Media / 慢性中耳炎
+
+### Cholesteatoma / 真珠腫性中耳炎
+
+### Acute Mastoiditis / 急性乳様突起炎
+
+### Otosclerosis / 耳硬化症
+
+### Ossicular Chain Discontinuity / 耳小骨連鎖離断
+
+### Patulous Eustachian Tube / 耳管開放症
+
+
+## Inner Ear Disease / 内耳疾患
+
+### Sudden Sensorineural Hearing Loss / 突発性難聴
+
+### Congenital Hearing Loss / 先天性難聴
+
+### Age-Related Hearing Loss / 加齢性難聴
+
+### Noise-Induced Hearing Loss / 騒音性難聴
+
+### Benign Paroxysmal Positional Vertigo / 良性発作性頭位めまい症
+
+### Ménière's Disease / メニエール病
+
+### Vestibular Neuritis / 前庭神経炎
+
+### Labyrinthitis / 内耳炎
+
 
 
 # Dermatology / 皮膚科
@@ -754,7 +802,7 @@ Some random diseases
 
 # Pediatrics / 小児科
 
-## Neurology / 神経学
+## Neurology / 神経科
 
 ### Febrile Seizure / 熱性けいれん
 
