@@ -149,7 +149,7 @@ int arr[N];
 int dp[1<<N][N]; // fill -1
 
 int rec(int s, int v) {
-    if ("base (s=1 & v=0)")
+    if ("base (s==1 & v==0)")
         return "value";
     if (dp[s][v]!=-1)
         return dp[s][v];
