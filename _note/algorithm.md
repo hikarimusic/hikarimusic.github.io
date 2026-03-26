@@ -23,7 +23,7 @@ void search(int n) {
     for (int s=0; s<(1<<n); ++s) {
         for (int i=0; i<n; ++i) {
             if (s&(1<<i))
-                "<arr[i]...>";
+                "arr[i]...";
         }
     }
 }
@@ -37,7 +37,7 @@ void search(int n) {
     sort(arr, arr + n);
     do {
         for (int i=0; i<n; ++i)
-            "<arr[i]...>";
+            "arr[i]...";
     } while (next_permutation(arr, arr+n));
 }
 ```
@@ -49,11 +49,11 @@ int arr[N];
 void search(int p, int n) {
     if (p==n) {
         for (int i=0; i<n; ++i)
-            "<arr[i]...>";
+            "arr[i]...";
         return;
     }
-    for ("<next value i>") {
-        if ("<pruning>")
+    for ("next value i") {
+        if ("pruning")
             continue;
         arr[p] = i;
         search(p+1, n);
@@ -66,12 +66,12 @@ int arr[N];
 
 bool search(int p, int n) {
     if (p==n) {
-        if ("<satisfied>")
+        if ("satisfied")
             return true;
         return false;
     }
-    for ("<next value i>") {
-        if ("<pruning>")
+    for ("next value i") {
+        if ("pruning")
             continue;
         arr[p] = i;
         if (search(p+1, n))
@@ -87,9 +87,9 @@ bool search(int p, int n) {
 ### Greedy Algorithm / 貪欲法
 ```cpp
 void solve() {
-    "<preprocess>";
+    "preprocess";
     for (int i=0; i<N; ++i) {
-        "<optimize>";
+        "optimize";
     }
 }
 ```
@@ -102,10 +102,10 @@ int arr[N];
 int dp[N][M];
 
 void solve(int n, int m) {
-    "<base dp[i][0] >";
+    "base (dp[i][0])";
     for (int i=1; i<=n; ++i) {
         for (int j=1; j<=m; ++j) {
-            "<update dp[i][j] with dp[i-1][f(arr[i-1])] >";
+            "update dp[i][j] with dp[i-1][f(arr[i-1])]";
         }
     }
 }
@@ -117,12 +117,12 @@ int arr[N];
 int dp[N][M][2];
 
 void solve(int n, int m) {
-    "<base dp[0][0][1] >";
+    "base (dp[0][0][1])";
     for (int i=0; i<n; ++i) {
         for (int j=0; j<=m; ++j) {
-            "<transfer dp[i][j][0] to dp[i+1][f(0~9)       ][0] >";
-            "<transfer dp[i][j][1] to dp[i+1][f(0~arr[i]-1)][0] >";
-            "<transfer dp[i][j][1] to dp[i+1][f(arr[i])    ][1] >";
+            "transfer dp[i][j][0] to dp[i+1][f(0~9)       ][0]";
+            "transfer dp[i][j][1] to dp[i+1][f(0~arr[i]-1)][0]";
+            "transfer dp[i][j][1] to dp[i+1][f(arr[i])    ][1]";
         }
     }
 }
@@ -134,26 +134,27 @@ int arr[N];
 int dp[N][N]; // fill -1
 
 int rec(int l, int r) {
-    if (" l==r, l>r >")
-        return "<base>";
+    if ("base (l==r, l>r)")
+        return "value";
     if (dp[l][r]!=-1)
         return dp[l][r];
-    "<update dp[i][j] with rec(l, i), rec(i+1, r), rec(l+1, r-1) >";
+    "update dp[l][r] with rec(l, i), rec(i+1, r), rec(l+1, r-1)";
     return dp[l][r];
 }
 ```
 
 ### Bit DP / ビットDP
 ```cpp
-vector<vector<int>> dp((1<<N), vector<int>(N, -1));
+int arr[N];
+int dp[1<<N][N]; // fill -1
 
-int rec(int S, int v, int n) {
+int rec(int S, int v) {
+    if ("base (S=1 & v=0)")
+        return "value";
     if (dp[S][v]!=-1)
         return dp[S][v];
-    if ("<base case>")
-        return dp[S][v] = "<value>";
-    int a = "<combination of rec(S^(1<<v), i, n), ...>";
-    return dp[S][v] = a;
+    "update dp[S][v] with rec(S^(1<<v), i)";
+    return dp[S][v];
 }
 ```
 
