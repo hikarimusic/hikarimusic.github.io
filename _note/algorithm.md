@@ -133,9 +133,9 @@ void solve(int n, int m) {
 int arr[N];
 int dp[N][N]; // fill -1
 
+"base (dp[i][i])";
+
 int rec(int l, int r) {
-    if ("base (l==r, l>r)")
-        return "value";
     if (dp[l][r]!=-1)
         return dp[l][r];
     "update dp[l][r] with rec(l, i), rec(i+1, r), rec(l+1, r-1)";
@@ -148,9 +148,9 @@ int rec(int l, int r) {
 int arr[N];
 int dp[1<<N][N]; // fill -1
 
+"base (dp[1<<i][i])";
+
 int rec(int s, int v) {
-    if ("base (s==1 & v==0)")
-        return "value";
     if (dp[s][v]!=-1)
         return dp[s][v];
     "update dp[s][v] with rec(s^(1<<v), i)";
