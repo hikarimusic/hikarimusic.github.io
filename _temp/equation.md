@@ -115,8 +115,7 @@ $$
 & \langle x | \psi \rangle = \psi(x) \\
 & \langle \phi | \psi \rangle = \int_{-\infty}^{\infty} \phi^*(x) \psi(x) dx \\
 & \langle x | \hat{x} | \psi \rangle = x \psi(x) \\
-& \langle x | \hat{p} | \psi \rangle = -i\hbar \frac{\partial}{\partial x} \psi(x) \\
-& [\hat{x}, \hat{p}] = i\hbar
+& \langle x | \hat{p} | \psi \rangle = -i\hbar \frac{\partial}{\partial x} \psi(x)
 \end{aligned}
 $$
 {: .notice--info}
@@ -168,8 +167,7 @@ $$
 $$
 \begin{aligned}
 & \Delta A \Delta B \geq \frac{1}{2} |\langle [A, B] \rangle| \\
-& \Delta x \Delta p \geq \frac{\hbar}{2} \\
-& \Delta E \Delta t \geq \frac{\hbar}{2}
+& [\hat{x}, \hat{p}] = i\hbar \quad \Delta x \Delta p \geq \frac{\hbar}{2}
 \end{aligned}
 $$
 {: .notice--info}
