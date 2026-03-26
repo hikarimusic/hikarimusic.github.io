@@ -108,29 +108,20 @@ $$
 
 ## Wave Mechanics / 波動力学
 
-### Wave function / 波動関数
+### Wave Function / 波動関数
 
 $$
 \begin{aligned}
 & \langle x | \psi \rangle = \psi(x) \\
 & \langle \phi | \psi \rangle = \int_{-\infty}^{\infty} \phi^*(x) \psi(x) dx \\
 & \langle x | \hat{x} | \psi \rangle = x \psi(x) \\
-& \langle x | \hat{p} | \psi \rangle = -i\hbar \frac{\partial}{\partial x} \psi(x)
+& \langle x | \hat{p} | \psi \rangle = -i\hbar \frac{\partial}{\partial x} \psi(x) \\
+& [\hat{x}, \hat{p}] = i\hbar
 \end{aligned}
 $$
 {: .notice--info}
 
-### Schrödinger equation / Schrödinger方程式
-
-$$
-\begin{aligned}
-& -\frac{\hbar^2}{2m} \frac{\partial^2\Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t} \\
-& -\frac{\hbar^2}{2m} \frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
-\end{aligned}
-$$
-{: .notice--info}
-
-### Change of basis / 基底変換
+### Change of Basis / 基底変換
 
 $$
 \begin{aligned}
@@ -141,18 +132,17 @@ $$
 $$
 {: .notice--info}
 
-### Uncertainty principle / 不確定性原理
+### Schrödinger Equation / Schrödinger方程式
 
 $$
 \begin{aligned}
-& [\hat{x}, \hat{p}] = i\hbar \\
-& \Delta x \Delta p \geq \frac{\hbar}{2}
-\end{aligned} \\
-\psi(x) = \frac{1}{(2\pi\sigma^2)^{1/4}} \exp\left[-\frac{(x-x_0)^2}{4\sigma^2}\right] \exp\left[\frac{i}{\hbar}p_0(x-x_0)\right]
+& -\frac{\hbar^2}{2m} \frac{\partial^2\Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t} \\
+& -\frac{\hbar^2}{2m} \frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
+\end{aligned}
 $$
 {: .notice--info}
 
-### Probability current / 確率流
+### Probability Current / 確率流
 
 $$
 \begin{aligned}
@@ -162,13 +152,24 @@ $$
 $$
 {: .notice--info}
 
-### Ehrenfest's theorem / Ehrenfestの定理
+### Ehrenfest's Theorem / Ehrenfestの定理
 
 $$
 \begin{aligned}
 & \frac{d}{dt} \langle \hat{A} \rangle = -\frac{i}{\hbar} \langle [\hat{A}, \hat{H}] \rangle \\
 & \frac{d}{dt} \langle \hat{x} \rangle = \left\langle \frac{\partial \hat{H}}{\partial \hat{p}} \right\rangle \\
 & \frac{d}{dt} \langle \hat{p} \rangle = \left\langle -\frac{\partial \hat{H}}{\partial \hat{x}} \right\rangle
+\end{aligned}
+$$
+{: .notice--info}
+
+### Uncertainty Principle / 不確定性原理
+
+$$
+\begin{aligned}
+& \Delta A \Delta B \geq \frac{1}{2} |\langle [A, B] \rangle| \\
+& \Delta x \Delta p \geq \frac{\hbar}{2} \\
+& \Delta E \Delta t \geq \frac{\hbar}{2}
 \end{aligned}
 $$
 {: .notice--info}
