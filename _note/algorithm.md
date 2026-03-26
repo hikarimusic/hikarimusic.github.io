@@ -148,13 +148,13 @@ int rec(int l, int r) {
 int arr[N];
 int dp[1<<N][N]; // fill -1
 
-int rec(int S, int v) {
-    if ("base (S=1 & v=0)")
+int rec(int s, int v) {
+    if ("base (s=1 & v=0)")
         return "value";
-    if (dp[S][v]!=-1)
-        return dp[S][v];
-    "update dp[S][v] with rec(S^(1<<v), i)";
-    return dp[S][v];
+    if (dp[s][v]!=-1)
+        return dp[s][v];
+    "update dp[s][v] with rec(s^(1<<v), i)";
+    return dp[s][v];
 }
 ```
 
