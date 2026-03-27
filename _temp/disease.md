@@ -507,6 +507,38 @@ Some random diseases
 ### Labyrinthitis / 内耳炎
 
 
+## Nasal Cavity Disease / 鼻腔疾患
+
+### Cold Syndrome / かぜ症候群
+
+### Allergic Rhinitis / アレルギー性鼻炎
+
+### Nasal Polyp / 鼻茸
+
+### Papilloma / 乳頭腫
+
+### Deviated Nasal Septum / 鼻中隔弯曲症
+
+### Nasal Fracture / 鼻骨骨折
+
+### Hereditary Hemorrhagic Telangiectasia / 遺伝性出血性毛細血管拡張症
+
+
+## Paranasal Sinus Disease / 副鼻腔疾患
+
+### Acute Sinusitis / 急性副鼻腔炎
+
+### Chronic Sinusitis / 慢性副鼻腔炎
+
+### Eosinophilic Sinusitis / 好酸球性副鼻腔炎
+
+### Fungal Sinusitis / 真菌性副鼻腔炎
+
+### Odontogenic Sinusitis / 歯性上顎洞炎
+
+### Maxillary Sinus Carcinoma / 上顎洞癌
+
+
 
 # Dermatology / 皮膚科
 
