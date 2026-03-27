@@ -475,7 +475,9 @@ Some random diseases
 
 ### Chronic Otitis Media / 慢性中耳炎
 
-### Cholesteatoma / 真珠腫性中耳炎
+### Eosinophilic Otitis Media / 好酸球性中耳炎
+
+### Cholesteatomatous Otitis Media / 真珠腫性中耳炎
 
 ### Acute Mastoiditis / 急性乳様突起炎
 
