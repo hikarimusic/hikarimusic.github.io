@@ -133,7 +133,7 @@ void solve(int n, int m) {
 int arr[N];
 int dp[N][N]; // fill -1
 
-"base (dp[i][i])";
+"base (dp[i][i], dp[i][i+1])";
 
 int rec(int l, int r) {
     if (dp[l][r]!=-1)
