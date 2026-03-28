@@ -194,11 +194,25 @@ int search(int n) {
 }
 ```
 ```cpp
-vector<int> v(N);
+int a[N];
+vector<int> v; // deque
+set<int> s; // map
+
+void search(int n, int t) {
+    sort(a, a+n);
+    int lb = lower_bound(a, a+n, t) - a; // first >= t
+    int ub = upper_bound(a, a+n, t) - a; // first > t
+}
 
 void search(int t) {
-    int lb = lower_bound(v.begin(), v.end(), x) - v.begin(); // first >= t
-    int ub = upper_bound(v.begin(), v.end(), x) - v.begin(); // first > t
+    sort(v.begin(), v.end());
+    int lb = lower_bound(v.begin(), v.end(), t) - v.begin(); // first >= t
+    int ub = upper_bound(v.begin(), v.end(), t) - v.begin(); // first > t
+}
+
+void search(int t) {
+    auto li = s.lower_bound(t); // first >= t
+    auto ui = s.upper_bound(t); // first > t
 }
 ```
 
@@ -297,36 +311,6 @@ void build(int nx, int ny) {
 
 int query(int lx, int rx, int ly, int ry) {
     return sum[rx+1][ry+1] - sum[lx][ry+1] - sum[rx+1][ly] + sum[lx][ly];
-}
-```
-
-### Graph / グラフ
-```cpp
-vector<vector<pii>> adj(N);
-
-void graph() {
-    for ("<edge between u & v with weight w>") {
-        adj[u].push_back({v, w});
-        adj[v].push_back({u, w});
-    }
-    for (pii e : adj[v]) {
-        "e.first: neighbor of v";
-    }
-}
-```
-```cpp
-vector<vector<int>> (N, vector<int>(N, INF));
-
-void graph() {
-    for ("<edge between u & v with weight w>") {
-        adj[u][v] = w;
-        adj[v][u] = w;
-    }
-    for (int i=0; i<N; ++i) {
-        if (adj[v][i]<INF) {
-            "<i: neighbor of v>";
-        }
-    }
 }
 ```
 
