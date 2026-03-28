@@ -539,6 +539,59 @@ Some random diseases
 ### Maxillary Sinus Carcinoma / 上顎洞癌
 
 
+## Oral Cavity Disease / 口腔疾患
+
+### Aphthous Ulcer / アフタ性潰瘍
+
+### Oral Candidiasis / 口腔カンジダ症
+
+### Ranula & Mucocele / ガマ腫・粘液嚢胞
+
+### Leukoplakia / 白板症
+
+### Oral Cancer / 口腔癌
+
+### Cleft Lip & Palate / 口唇裂・口蓋裂
+
+
+## Salivary Gland Disease / 唾液腺疾患
+
+### Sialolithiasis / 唾石症
+
+### Acute Sialadenitis / 急性唾液腺炎
+
+### Chronic Sialadenitis / 慢性唾液腺炎
+
+### Pleomorphic Adenoma / 多形腺腫
+
+### Warthin's Tumor / Warthin腫瘍
+
+### Mucoepidermoid Carcinoma / 粘表皮癌
+
+### Adenoid Cystic Carcinoma / 腺様嚢胞癌
+
+### Acinic Cell Carcinoma / 腺房細胞癌
+
+
+## Pharynx Disease / 咽頭疾患
+
+### Acute Tonsillitis / 急性扁桃炎
+
+### Peritonsillar Abscess / 扁桃周囲膿瘍
+
+### Chronic Tonsillitis / 慢性扁桃炎
+
+### Adenoid Hypertrophy / アデノイド増殖症
+
+### Juvenile Nasopharyngeal Angiofibroma / 若年性鼻咽腔血管線維腫
+
+### Nasopharyngeal Cancer / 上咽頭癌
+
+### Oropharyngeal Cancer / 中咽頭癌
+
+### Hypopharyngeal Cancer / 下咽頭癌
+
+
 
 # Dermatology / 皮膚科
 
