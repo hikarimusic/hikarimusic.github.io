@@ -148,7 +148,7 @@ int rec(int l, int r) {
 int arr[N];
 int dp[1<<N][N]; // fill -1
 
-"base (dp[1<<i][i])";
+"base (dp[1<<i][i], dp[s][0])";
 
 int rec(int s, int v) {
     if (dp[s][v]!=-1)
