@@ -575,7 +575,7 @@ Some random diseases
 
 ## Pharynx Disease / 咽頭疾患
 
-### Acute Tonsilliti & Pharyngitis / 急性扁桃炎・咽頭炎
+### Acute Tonsillitis & Pharyngitis / 急性扁桃炎・咽頭炎
 
 ### Peritonsillar Abscess / 扁桃周囲膿瘍
 
