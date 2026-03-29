@@ -162,35 +162,19 @@ int rec(int s, int v) {
 
 ### Binary Search / 二分探索
 ```cpp
-vector<int> arr(N);
+int arr[M];
+bool fun(int x);
 
 int search(int n, int t) {
     int l=-1, r=n;
     while (r-l>1) {
-        int m = (l+r)/2;
-        if (t<arr[m])
+        int m = l + (r-l)/2;
+        if (t<arr[m]) // if (fun(m))
             r = m;
         else
             l = m;
     }
-    return l;
-}
-```
-```cpp
-bool check(int x) {
-    "<return true or false>";
-}
-
-int search(int n) {
-    int l=-1, r=n;
-    while (r-l>1) {
-        int m = (l+r)/2;
-        if (check(m))
-            r = m;
-        else
-            l = m;
-    }
-    return l;
+    return r; // first > t, first true
 }
 ```
 ```cpp
@@ -218,9 +202,10 @@ void search(int t) {
 
 ### Ternary Search / 三分探索
 ```cpp
-vector<int> arr(N);
+int arr[N];
 
-int search(int l, int r) {
+int search(int n) {
+    int l=-1, r=n;
     while (r-l>2) {
         int m1 = l + (r-l)/3;
         int m2 = r - (r-l)/3;
@@ -229,11 +214,7 @@ int search(int l, int r) {
         else
             r = m2;
     }
-    for (int i=l+1; i<=r; ++i) {
-        if (arr[i]>arr[l])
-            l = i;
-    }
-    return l;
+    return l+1; // peak
 }
 ```
 
