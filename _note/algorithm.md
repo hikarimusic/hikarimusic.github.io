@@ -174,7 +174,7 @@ int search(int n, int t) {
         else
             l = m;
     }
-    return r; // first > t, first true
+    return r; // arr[l] <= t < arr[r]
 }
 ```
 ```cpp
