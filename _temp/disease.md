@@ -521,8 +521,6 @@ Some random diseases
 
 ### Hereditary Hemorrhagic Telangiectasia / 遺伝性出血性毛細血管拡張症
 
-### Nasal Fracture / 鼻骨骨折
-
 
 ## Paranasal Sinus Disease / 副鼻腔疾患
 
