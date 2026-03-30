@@ -283,170 +283,77 @@ Some random diseases
 
 
 
-# Psychiatry / 精神科
+# Gynecology / 婦人科
 
-## Psychotic Disorder / 精神症
 
-### Schizophrenia / 統合失調症
 
-### Schizoaffective Disorder / 統合失調感情症
+# Obstetrics / 産科
 
-### Brief Psychotic Disorder / 短期精神症
 
-### Delusional Disorder / 妄想症
 
+# Pediatrics / 小児科
 
-## Mood Disorder (Bipolar) / 気分症（双極性）
+## Neurology / 神経科
 
-### Bipolar I Disorder / 双極症Ⅰ型
+### Febrile Seizure / 熱性けいれん
 
-### Bipolar II Disorder / 双極症Ⅱ型
+### West Syndrome / West症候群
 
-### Cyclothymic Disorder / 気分循環症
+### Dravet Syndrome / Dravet症候群
 
+### Lennox-Gastaut Syndrome / Lennox-Gastaut症候群
 
-## Mood Disorder (Depressive) / 気分症（抑うつ性）
+### Panayiotopoulos Syndrome / Panayiotopoulos症候群
 
-### Major Depressive Disorder / うつ病
+### Rolandic Epilepsy / ローランドてんかん
 
-### Persistent Depressive Disorder / 持続性抑うつ症
+### Childhood Absence Epilepsy / 小児欠神てんかん
 
+### Juvenile Myoclonic Epilepsy / 若年性ミオクロニーてんかん
 
-## Anxiety Disorder / 不安症
+### Cerebral Palsy / 脳性麻痺
 
-### Panic Disorder / パニック症
+### Friedreich Ataxia / Friedreich失調症
 
-### Agoraphobia / 広場恐怖症
+### Adrenoleukodystrophy / 副腎白質ジストロフィー
 
-### Specific Phobia / 限局性恐怖症
+### Metachromatic Leukodystrophy / 異染性白質ジストロフィー
 
-### Generalized Anxiety Disorder / 全般不安症
+### Spinal Muscular Atrophy / 脊髄性筋萎縮症
 
-### Social Anxiety Disorder / 社交不安症
+### Duchenne Muscular Dystrophy / Duchenne型筋ジストロフィー
 
-### Separation Anxiety Disorder / 分離不安症
+### Becker Muscular Dystrophy / Becker型筋ジストロフィー
 
+### MELAS Syndrome / MELAS症候群
 
-## Obsessive-Compulsive Disorder / 強迫症
+### Leigh Syndrome / Leigh症候群
 
-### Obsessive-Compulsive Disorder / 強迫症
+### Tuberous Sclerosis Complex / 結節性硬化症
 
-### Body Dysmorphic Disorder / 身体醜形症
+### Neurofibromatosis Type 1 / 神経線維腫症1型
 
-### Hoarding Disorder / ため込み症
+### Neurofibromatosis Type 2 / 神経線維腫症2型
 
-### Trichotillomania / 抜毛症
+### Von Hippel-Lindau Disease / Von Hippel-Lindau病
 
-### Excoriation Disorder / 皮膚むしり症
+### Sturge-Weber Syndrome / Sturge-Weber症候群
 
+### Incontinentia Pigmenti / 色素失調症
 
-## Stressor-Related Disorder / ストレス因関連症
+### Encephalocele / 脳瘤
 
-### Posttraumatic Stress Disorder / 心的外傷後ストレス症
+### Myelomeningocele / 脊髄髄膜瘤
 
-### Acute Stress Disorder / 急性ストレス症
+### Spina Bifida Occulta / 潜在性二分脊椎
 
-### Adjustment Disorder / 適応反応症
+### Chiari Malformation Type I / Chiari奇形I型
 
-### Prolonged Grief Disorder / 遷延性悲嘆症
+### Chiari Malformation Type II / Chiari奇形II型
 
+### Dandy-Walker Syndrome / Dandy-Walker症候群
 
-## Dissociative Disorder / 解離症
-
-### Dissociative Identity Disorder / 解離性同一症
-
-### Dissociative Amnesia / 解離性健忘
-
-### Depersonalization/Derealization Disorder / 離人感・現実感消失症
-
-
-## Somatic Symptom Disorder / 身体症状症
-
-### Somatic Symptom Disorder / 身体症状症
-
-### Illness Anxiety Disorder / 病気不安症
-
-### Conversion Disorder / 変換症
-
-### Factitious Disorder / 作為症
-
-
-## Eating Disorder / 摂食症
-
-### Anorexia Nervosa / 神経性やせ症
-
-### Bulimia Nervosa / 神経性過食症
-
-### Binge-Eating Disorder / むちゃ食い症
-
-### Avoidant/Restrictive Food Intake Disorder / 回避・制限性食物摂取症
-
-
-## Substance Use Disorder / 物質使用症
-
-### Opioid Use Disorder / オピオイド使用症
-
-### Stimulant Use Disorder / 刺激薬使用症
-
-### Cannabis Use Disorder / 大麻使用症
-
-### Alcohol Use Disorder / アルコール使用症
-
-### Tobacco Use Disorder / タバコ使用症
-
-### Sedative/Hypnotic/Anxiolytic Use Disorder / 鎮静薬・睡眠薬・抗不安薬使用症
-
-### Gambling Disorder / ギャンブル行動症
-
-
-## Neurodevelopmental Disorder / 神経発達症
-
-### Attention Deficit Hyperactivity Disorder / 注意欠如多動症
-
-### Autism Spectrum Disorder / 自閉スペクトラム症
-
-### Intellectual Developmental Disorder / 知的発達症
-
-### Specific Learning Disorder / 限局性学習症
-
-### Tic Disorder / チック症
-
-
-## Neurocognitive Disorder / 神経認知症
-
-### Delirium / せん妄
-
-### Major Neurocognitive Disorder / 主要神経認知症
-
-### Minor Neurocognitive Disorder / 軽度神経認知症
-
-
-## Personality Disorder / パーソナリティ症
-
-### Borderline Personality Disorder / 境界性パーソナリティ症
-
-### Antisocial Personality Disorder / 反社会性パーソナリティ症
-
-### Narcissistic Personality Disorder / 自己愛性パーソナリティ症
-
-### Avoidant Personality Disorder / 回避性パーソナリティ症
-
-### Dependent Personality Disorder / 依存性パーソナリティ症
-
-### Obsessive-Compulsive Personality Disorder / 強迫性パーソナリティ症
-
-### Paranoid Personality Disorder / 妄想性パーソナリティ症
-
-### Schizotypal Personality Disorder / 統合失調型パーソナリティ症
-
-### Histrionic Personality Disorder / 演技性パーソナリティ症
-
-
-## Sleep-Wake Disorder / 睡眠・覚醒障害
-
-### Insomnia Disorder / 不眠症
-
-### Narcolepsy / ナルコレプシー
+### Craniosynostosis / 頭蓋骨縫合早期癒合症
 
 
 
@@ -924,74 +831,167 @@ Some random diseases
 
 
 
-# Gynecology / 婦人科
+# Psychiatry / 精神科
+
+## Psychotic Disorder / 精神症
+
+### Schizophrenia / 統合失調症
+
+### Schizoaffective Disorder / 統合失調感情症
+
+### Brief Psychotic Disorder / 短期精神症
+
+### Delusional Disorder / 妄想症
 
 
+## Mood Disorder (Bipolar) / 気分症（双極性）
 
-# Obstetrics / 産科
+### Bipolar I Disorder / 双極症Ⅰ型
+
+### Bipolar II Disorder / 双極症Ⅱ型
+
+### Cyclothymic Disorder / 気分循環症
 
 
+## Mood Disorder (Depressive) / 気分症（抑うつ性）
 
-# Pediatrics / 小児科
+### Major Depressive Disorder / うつ病
 
-## Neurology / 神経科
+### Persistent Depressive Disorder / 持続性抑うつ症
 
-### Febrile Seizure / 熱性けいれん
 
-### West Syndrome / West症候群
+## Anxiety Disorder / 不安症
 
-### Dravet Syndrome / Dravet症候群
+### Panic Disorder / パニック症
 
-### Lennox-Gastaut Syndrome / Lennox-Gastaut症候群
+### Agoraphobia / 広場恐怖症
 
-### Panayiotopoulos Syndrome / Panayiotopoulos症候群
+### Specific Phobia / 限局性恐怖症
 
-### Rolandic Epilepsy / ローランドてんかん
+### Generalized Anxiety Disorder / 全般不安症
 
-### Childhood Absence Epilepsy / 小児欠神てんかん
+### Social Anxiety Disorder / 社交不安症
 
-### Juvenile Myoclonic Epilepsy / 若年性ミオクロニーてんかん
+### Separation Anxiety Disorder / 分離不安症
 
-### Cerebral Palsy / 脳性麻痺
 
-### Friedreich Ataxia / Friedreich失調症
+## Obsessive-Compulsive Disorder / 強迫症
 
-### Adrenoleukodystrophy / 副腎白質ジストロフィー
+### Obsessive-Compulsive Disorder / 強迫症
 
-### Metachromatic Leukodystrophy / 異染性白質ジストロフィー
+### Body Dysmorphic Disorder / 身体醜形症
 
-### Spinal Muscular Atrophy / 脊髄性筋萎縮症
+### Hoarding Disorder / ため込み症
 
-### Duchenne Muscular Dystrophy / Duchenne型筋ジストロフィー
+### Trichotillomania / 抜毛症
 
-### Becker Muscular Dystrophy / Becker型筋ジストロフィー
+### Excoriation Disorder / 皮膚むしり症
 
-### MELAS Syndrome / MELAS症候群
 
-### Leigh Syndrome / Leigh症候群
+## Stressor-Related Disorder / ストレス因関連症
 
-### Tuberous Sclerosis Complex / 結節性硬化症
+### Posttraumatic Stress Disorder / 心的外傷後ストレス症
 
-### Neurofibromatosis Type 1 / 神経線維腫症1型
+### Acute Stress Disorder / 急性ストレス症
 
-### Neurofibromatosis Type 2 / 神経線維腫症2型
+### Adjustment Disorder / 適応反応症
 
-### Von Hippel-Lindau Disease / Von Hippel-Lindau病
+### Prolonged Grief Disorder / 遷延性悲嘆症
 
-### Sturge-Weber Syndrome / Sturge-Weber症候群
 
-### Incontinentia Pigmenti / 色素失調症
+## Dissociative Disorder / 解離症
 
-### Encephalocele / 脳瘤
+### Dissociative Identity Disorder / 解離性同一症
 
-### Myelomeningocele / 脊髄髄膜瘤
+### Dissociative Amnesia / 解離性健忘
 
-### Spina Bifida Occulta / 潜在性二分脊椎
+### Depersonalization/Derealization Disorder / 離人感・現実感消失症
 
-### Chiari Malformation Type I / Chiari奇形I型
 
-### Chiari Malformation Type II / Chiari奇形II型
+## Somatic Symptom Disorder / 身体症状症
 
-### Dandy-Walker Syndrome / Dandy-Walker症候群
+### Somatic Symptom Disorder / 身体症状症
 
-### Craniosynostosis / 頭蓋骨縫合早期癒合症
+### Illness Anxiety Disorder / 病気不安症
+
+### Conversion Disorder / 変換症
+
+### Factitious Disorder / 作為症
+
+
+## Eating Disorder / 摂食症
+
+### Anorexia Nervosa / 神経性やせ症
+
+### Bulimia Nervosa / 神経性過食症
+
+### Binge-Eating Disorder / むちゃ食い症
+
+### Avoidant/Restrictive Food Intake Disorder / 回避・制限性食物摂取症
+
+
+## Substance Use Disorder / 物質使用症
+
+### Opioid Use Disorder / オピオイド使用症
+
+### Stimulant Use Disorder / 刺激薬使用症
+
+### Cannabis Use Disorder / 大麻使用症
+
+### Alcohol Use Disorder / アルコール使用症
+
+### Tobacco Use Disorder / タバコ使用症
+
+### Sedative/Hypnotic/Anxiolytic Use Disorder / 鎮静薬・睡眠薬・抗不安薬使用症
+
+### Gambling Disorder / ギャンブル行動症
+
+
+## Neurodevelopmental Disorder / 神経発達症
+
+### Attention Deficit Hyperactivity Disorder / 注意欠如多動症
+
+### Autism Spectrum Disorder / 自閉スペクトラム症
+
+### Intellectual Developmental Disorder / 知的発達症
+
+### Specific Learning Disorder / 限局性学習症
+
+### Tic Disorder / チック症
+
+
+## Neurocognitive Disorder / 神経認知症
+
+### Delirium / せん妄
+
+### Major Neurocognitive Disorder / 主要神経認知症
+
+### Minor Neurocognitive Disorder / 軽度神経認知症
+
+
+## Personality Disorder / パーソナリティ症
+
+### Borderline Personality Disorder / 境界性パーソナリティ症
+
+### Antisocial Personality Disorder / 反社会性パーソナリティ症
+
+### Narcissistic Personality Disorder / 自己愛性パーソナリティ症
+
+### Avoidant Personality Disorder / 回避性パーソナリティ症
+
+### Dependent Personality Disorder / 依存性パーソナリティ症
+
+### Obsessive-Compulsive Personality Disorder / 強迫性パーソナリティ症
+
+### Paranoid Personality Disorder / 妄想性パーソナリティ症
+
+### Schizotypal Personality Disorder / 統合失調型パーソナリティ症
+
+### Histrionic Personality Disorder / 演技性パーソナリティ症
+
+
+## Sleep-Wake Disorder / 睡眠・覚醒障害
+
+### Insomnia Disorder / 不眠症
+
+### Narcolepsy / ナルコレプシー
