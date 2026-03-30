@@ -360,6 +360,17 @@ $$
 $$
 {: .notice--info}
 
+### Isotropic Harmonic Oscillator / 等方性調和振動子
+
+$$
+\begin{aligned}
+& V(r) = \frac{1}{2} m \omega^2 r^2 \\
+& E_n = \hbar \omega \left( n + \frac{3}{2} \right), \quad n = 0, 1, 2, \dots \\
+& d(n) = \frac{1}{2}(n+1)(n+2)
+\end{aligned}
+$$
+{: .notice--info}
+
 ### Hydrogen Atom / 水素原子
 
 $$
