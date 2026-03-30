@@ -590,6 +590,53 @@ Some random diseases
 ### Hypopharyngeal Cancer / 下咽頭癌
 
 
+## Larynx Disease / 喉頭疾患
+
+### Croup / クループ
+
+### Acute Epiglottitis / 急性喉頭蓋炎
+
+### Vocal Fold Polyp / 声帯ポリープ
+
+### Vocal Fold Nodule / 声帯結節
+
+### Reinke's Edema / Reinke浮腫
+
+### Laryngeal Papillomatosis / 喉頭乳頭腫症
+
+### Laryngeal Cancer / 喉頭癌
+
+### Vocal Cord Paralysis / 声帯麻痺
+
+### Laryngomalacia / 喉頭軟化症
+
+
+## Neck Disease / 頸部疾患
+
+### Deep Neck Infection / 深頸部感染症
+
+### Tuberculous Lymphadenitis / 結核性リンパ節炎
+
+### Airway Foreign Body / 気道異物
+
+### Thyroglossal Duct Cyst / 正中頸囊胞
+
+### Branchial Cleft Cyst / 側頸囊胞
+
+### Cervical Lymphangioma / 頸部リンパ管腫
+
+
+## Face Disease / 顔面疾患
+
+### Temporomandibular Disorder / 顎関節症
+
+### Bell Palsy / Bell麻痺
+
+### Ramsay Hunt Syndrome / Ramsay Hunt症候群
+
+### Facial Fracture / 顔面骨折
+
+
 
 # Dermatology / 皮膚科
 
