@@ -108,12 +108,7 @@ Some random diseases
 
 ### Spinocerebellar Ataxia / 脊髄小脳変性症
 
-
-## Motor Neuron Disease / 運動ニューロン疾患
-
 ### Amyotrophic Lateral Sclerosis / 筋萎縮性側索硬化症
-
-### Kennedy Disease / 球脊髄性筋萎縮症
 
 
 ## Spinal Cord Disease / 脊髄疾患
@@ -144,20 +139,11 @@ Some random diseases
 ### Familial Amyloid Polyneuropathy / 家族性アミロイドポリニューロパチー
 
 
-## Neuromuscular Junction Disease / 神経筋接合部疾患
+## Muscular Disease / 筋疾患
 
 ### Myasthenia Gravis / 重症筋無力症
 
 ### Lambert-Eaton Myasthenic Syndrome / Lambert-Eaton筋無力症候群
-
-
-## Muscular Disease / 筋疾患
-
-### Myotonic Dystrophy / 筋強直性ジストロフィー
-
-### Limb-Girdle Muscular Dystrophy / 肢帯型筋ジストロフィー
-
-### Facioscapulohumeral Muscular Dystrophy / 顔面肩甲上腕型筋ジストロフィー
 
 ### Hypokalemic Periodic Paralysis / 低カリウム性周期性四肢麻痺
 
@@ -293,7 +279,36 @@ Some random diseases
 
 # Pediatrics / 小児科
 
-## Neurology / 神経科
+## Immune Disease / 免疫疾患
+
+### Severe Combined Immunodeficiency / 重症複合免疫不全症
+
+### Wiskott-Aldrich Syndrome / Wiskott-Aldrich症候群
+
+### Ataxia-Telangiectasia / 毛細血管拡張性運動失調症
+
+### DiGeorge Syndrome / DiGeorge症候群
+
+### X-linked Agammaglobulinemia / X連鎖無γ-グロブリン血症
+
+### Hyper-IgM Syndrome / 高IgM症候群
+
+### Selective IgA Deficiency / 選択的IgA欠乏症
+
+### Common Variable Immunodeficiency / 分類不能型免疫不全症
+
+### Chédiak-Higashi Syndrome / Chédiak-Higashi症候群
+
+### Chronic Granulomatous Disease / 慢性肉芽腫症
+
+### Complement Deficiency / 補体欠乏症
+
+### Hereditary Angioedema / 遺伝性血管浮腫
+
+### Familial Mediterranean Fever / 家族性地中海熱
+
+
+## Neurologic Disease / 神経疾患
 
 ### Febrile Seizure / 熱性けいれん
 
@@ -313,17 +328,39 @@ Some random diseases
 
 ### Cerebral Palsy / 脳性麻痺
 
-### Friedreich Ataxia / Friedreich失調症
+### Encephalocele / 脳瘤
+
+### Myelomeningocele / 脊髄髄膜瘤
+
+### Spina Bifida Occulta / 潜在性二分脊椎
+
+### Chiari Malformation Type I / Chiari奇形I型
+
+### Chiari Malformation Type II / Chiari奇形II型
+
+### Dandy-Walker Syndrome / Dandy-Walker症候群
+
+### Craniosynostosis / 頭蓋骨縫合早期癒合症
 
 ### Adrenoleukodystrophy / 副腎白質ジストロフィー
 
 ### Metachromatic Leukodystrophy / 異染性白質ジストロフィー
 
+### Friedreich Ataxia / Friedreich失調症
+
 ### Spinal Muscular Atrophy / 脊髄性筋萎縮症
+
+### Spinal-Bulbar Muscular Atrophy / 球脊髄性筋萎縮症
 
 ### Duchenne Muscular Dystrophy / Duchenne型筋ジストロフィー
 
 ### Becker Muscular Dystrophy / Becker型筋ジストロフィー
+
+### Myotonic Dystrophy / 筋強直性ジストロフィー
+
+### Limb-Girdle Muscular Dystrophy / 肢帯型筋ジストロフィー
+
+### Facioscapulohumeral Muscular Dystrophy / 顔面肩甲上腕型筋ジストロフィー
 
 ### MELAS Syndrome / MELAS症候群
 
@@ -340,20 +377,6 @@ Some random diseases
 ### Sturge-Weber Syndrome / Sturge-Weber症候群
 
 ### Incontinentia Pigmenti / 色素失調症
-
-### Encephalocele / 脳瘤
-
-### Myelomeningocele / 脊髄髄膜瘤
-
-### Spina Bifida Occulta / 潜在性二分脊椎
-
-### Chiari Malformation Type I / Chiari奇形I型
-
-### Chiari Malformation Type II / Chiari奇形II型
-
-### Dandy-Walker Syndrome / Dandy-Walker症候群
-
-### Craniosynostosis / 頭蓋骨縫合早期癒合症
 
 
 
