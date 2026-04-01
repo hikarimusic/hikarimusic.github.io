@@ -163,13 +163,13 @@ int rec(int s, int v) {
 ### Binary Search / 二分探索
 ```cpp
 int arr[M];
-bool fun(int x);
+bool check(int x);
 
 int search(int n, int t) {
     int l=-1, r=n;
     while (r-l>1) {
         int m = l + (r-l)/2;
-        if (t<arr[m]) // if (fun(m))
+        if (t<arr[m]) // if (check(m))
             r = m;
         else
             l = m;
