@@ -225,43 +225,39 @@ int search(int n) {
 void binary_heap() {
     priority_queue<int> q;
     // priority_queue<int, vector<int>, greater<int>> q;
-    q.push("<value>");
+    q.push("value");
     q.pop();
-    int "<value>" = q.top();
+    int "value" = q.top();
 }
 ```
 ```cpp
 void binary_search_tree() {
     set<int> s;
-    s.insert("<value>");
-    s.erase("<value>");
-    set<int>::iterator "<iterator>" = s.find("<value>");
+    s.insert("value");
+    s.erase("value");
+    auto "iterator" = s.find("value");
 }
 
-void binary_search_tree2() {
+void binary_search_tree() {
     map<int, int> m;
-    m.insert({"<key>", "<value>"});
-    m.erase("<key>");
-    map<int, int>::iterator "<iterator>" = m.find("<key>");
-    m["<key>"] = "<value>";
-    int "<value>" = map["<key>"];
+    m["key"] = "value";
+    int "value" = map["key"];
+    auto "iterator" = m.find("key");
 }
 ```
 ```cpp
 void hash_table() {
     unordered_set<int> s;
-    s.insert("<value>");
-    s.erase("<value>");
-    unordered_set<int>::iterator "<iterator>" = s.find("<value>");
+    s.insert("value");
+    s.erase("value");
+    auto "iterator" = s.find("value");
 }
 
-void hash_table2() {
+void hash_table() {
     unordered_map<int, int> m;
-    m.insert({"<key>", "<value>"});
-    m.erase("<key>");
-    unordered_map<int, int>::iterator "<iterator>" = m.find("<key>");
-    m["<key>"] = "<value>";
-    int "<value>" = m["<key"];
+    m["key"] = "value";
+    int "value" = m["key"];
+    auto "iterator" = m.find("key");
 }
 ```
 
