@@ -420,9 +420,6 @@ $$
 
 ## Path Integral / 経路積分
 
-
-## Path Integral / 経路積分
-
 ### Configuration Space / 座標空間
 
 $$
