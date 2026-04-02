@@ -468,5 +468,54 @@ $$
 
 ## Identical Particle / 同種粒子
 
+### Exchange Operator / 交換演算子
+
+$$
+\begin{aligned}
+& \hat{P}_{ij} (\dots |w_i\rangle \dots |w_j\rangle \dots) = (\dots |w_j\rangle \dots |w_i\rangle \dots) \\
+& \begin{aligned}
+  & \text{Boson:} && \hat{P}_{ij} |\psi\rangle = |\psi\rangle \\
+  & \text{Fermion:} && \hat{P}_{ij} |\psi\rangle = -|\psi\rangle \\
+  & && w_i = w_j \rightarrow |\psi\rangle = 0
+  \end{aligned}
+\end{aligned}
+$$
+{: .notice--info}
+
+### First Quantization / 第一量子化
+
+$$
+\begin{aligned}
+& \text{Boson:}   && |w_1 \le w_2 \le \dots \le w_N\rangle = \frac{1}{\sqrt{N! \prod_\alpha n_\alpha!}} \sum_{\sigma \in S_N} |w_{\sigma(1)}\rangle |w_{\sigma(2)}\rangle \dots |w_{\sigma(N)}\rangle \\
+& \text{Fermion:} && |w_1 < w_2 < \dots < w_N\rangle = \frac{1}{\sqrt{N!}} \sum_{\sigma \in S_N} \text{sgn}(\sigma) |w_{\sigma(1)}\rangle |w_{\sigma(2)}\rangle \dots |w_{\sigma(N)}\rangle
+\end{aligned}
+$$
+{: .notice--info}
+
+### Creation & Annihilation Operator / 生成・消滅演算子
+
+$$
+\begin{aligned}
+& \text{Boson:}   && a_\alpha^\dagger |\dots, n_\alpha, \dots\rangle = \sqrt{n_\alpha + 1} |\dots, n_\alpha + 1, \dots\rangle \\
+&                 && a_\alpha |\dots, n_\alpha, \dots\rangle = \sqrt{n_\alpha} |\dots, n_\alpha - 1, \dots\rangle \\
+&                 && [a_\alpha, a_\beta^\dagger] = \delta_{\alpha\beta} \quad [a_\alpha^\dagger, a_\beta^\dagger] = 0 \\
+& \text{Fermion:} && a_\alpha^\dagger |\dots, n_\alpha, \dots\rangle = (-1)^{\sum_{\beta < \alpha} n_\beta} (1 - n_\alpha) |\dots, 1, \dots\rangle \\
+&                 && a_\alpha |\dots, n_\alpha, \dots\rangle = (-1)^{\sum_{\beta < \alpha} n_\beta} n_\alpha |\dots, 0, \dots\rangle \\
+&                 && \{a_\alpha, a_\beta^\dagger\} = \delta_{\alpha\beta} \quad \{a_\alpha^\dagger, a_\beta^\dagger\} = 0 \\
+&                 && (a_\alpha^\dagger)^2 = 0
+\end{aligned}
+$$
+{: .notice--info}
+
+### Second Quantization / 第二量子化
+
+$$
+\begin{aligned}
+& \text{Boson:}   && |n_1, n_2, \dots, n_N\rangle = \prod_\alpha \frac{1}{\sqrt{n_\alpha!}} (a_1^\dagger)^{n_1} (a_2^\dagger)^{n_2} \dots (a_N^\dagger)^{n_N} |0\rangle \\
+& \text{Fermion:} && |n_1, n_2, \dots, n_N\rangle = (a_1^\dagger)^{n_1} (a_2^\dagger)^{n_2} \dots (a_N^\dagger)^{n_N} |0\rangle
+\end{aligned}
+$$
+{: .notice--info}
+
 
 ## Dirac Equation / Dirac方程式
