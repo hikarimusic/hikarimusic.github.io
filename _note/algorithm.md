@@ -292,32 +292,55 @@ void union_set(int a, int b) {
 
 ### Prefix Sum / 累積和
 ```cpp
-int arr[N], sum[N];
+int arr[N], sum[N], cnt[N];
 
-void build(int n) {
-    for (int i=0; i<n; ++i)
-        sum[i+1] = sum[i] + arr[i];
+void psum(int n) {
+    for (int i=1; i<=n; ++i)
+        sum[i] = sum[i-1] + arr[i-1];
 }
+// l~r: sum[r+1]-sum[l]
 
-int query(int l, int r) {
-    return sum[r+1] - sum[l];
+void imos(int n) {
+    for ("l~r : k") {
+        cnt[l] += k;
+        cnt[r+1] -= k;
+    }
+    for (int i=1; i<n; ++i)
+        cnt[i] += cnt[i-1];
 }
+// p: cnt[p]
 ```
 ```cpp
-int arr[N][N];
-int sum[N][N];
+int arr[H][W], sum[H][W], cnt[H][W];
 
-void build(int nx, int ny) {
-    for (int i=0; i<nx; ++i) {
-        for (int j=0; j<ny; ++j) {
-            sum[i+1][j+1] = sum[i][j+1] + sum[i+1][j] - sum[i][j] + arr[i][j];
+void psum(int h, int w) {
+    for (int i=1; i<=h; ++i) {
+        for (int j=1; j<=w; ++j) {
+            sum[i][j] = sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1] + arr[i-1][j-1];
         }
     }
 }
+// x1~x2, y1~y2: sum[x2+1][y2+1]-sum[x1][y2+1]-sum[x2+1][y1]+sum[x1][y1]
 
-int query(int lx, int rx, int ly, int ry) {
-    return sum[rx+1][ry+1] - sum[lx][ry+1] - sum[rx+1][ly] + sum[lx][ly];
+void imos(int h, int w) {
+    for ("x1~x2, y1~y2: k") {
+        cnt[x1][y1] += k;
+        cnt[x2+1][y1] -= k;
+        cnt[x1][y2+1] -= k;
+        cnt[x2+1][y2+1] += k;
+    }
+    for (int i=0; i<h; ++i) {
+        for (int j=1; j<w; ++j) {
+            cnt[i][j] += cnt[i][j-1];
+        }
+    }
+    for (int i=1; i<h; ++i) {
+        for (int j=0; j<w; ++j) {
+            cnt[i][j] += cnt[i-1][j];
+        }
+    }
 }
+// x, y: cnt[x][y]
 ```
 
 ### Binary Indexed Tree　/ フェニック木
