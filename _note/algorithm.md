@@ -292,15 +292,36 @@ void union_set(int a, int b) {
 
 ### Prefix Sum / 累積和
 ```cpp
-int arr[N], sum[N], cnt[N];
+int arr[N], sum[N];
 
-void psum(int n) {
+void build(int n) {
     for (int i=1; i<=n; ++i)
         sum[i] = sum[i-1] + arr[i-1];
 }
-// l~r: sum[r+1]-sum[l]
 
-void imos(int n) {
+int query(int l, int r) {
+    return sum[r+1]-sum[l];
+}
+```
+```cpp
+int arr[H][W], sum[H][W];
+
+void build(int h, int w) {
+    for (int i=1; i<=h; ++i) {
+        for (int j=1; j<=w; ++j) {
+            sum[i][j] = sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1] + arr[i-1][j-1];
+        }
+    }
+}
+
+int query(int x1, int x2, int y1, int y2) {
+    return sum[x2+1][y2+1]-sum[x1][y2+1]-sum[x2+1][y1]+sum[x1][y1];
+}
+```
+```cpp
+int cnt[N]
+
+void build(int n) {
     for ("l~r: k") {
         cnt[l] += k;
         cnt[r+1] -= k;
@@ -308,21 +329,11 @@ void imos(int n) {
     for (int i=1; i<n; ++i)
         cnt[i] += cnt[i-1];
 }
-// p: cnt[p]
 ```
 ```cpp
-int arr[H][W], sum[H][W], cnt[H][W];
+int cnt[H][W];
 
-void psum(int h, int w) {
-    for (int i=1; i<=h; ++i) {
-        for (int j=1; j<=w; ++j) {
-            sum[i][j] = sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1] + arr[i-1][j-1];
-        }
-    }
-}
-// x1~x2, y1~y2: sum[x2+1][y2+1]-sum[x1][y2+1]-sum[x2+1][y1]+sum[x1][y1]
-
-void imos(int h, int w) {
+void build(int h, int w) {
     for ("x1~x2, y1~y2: k") {
         cnt[x1][y1] += k;
         cnt[x2+1][y1] -= k;
@@ -340,7 +351,6 @@ void imos(int h, int w) {
         }
     }
 }
-// x, y: cnt[x][y]
 ```
 
 ### Binary Indexed Tree　/ フェニック木
