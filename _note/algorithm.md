@@ -295,79 +295,72 @@ void union_set(int a, int b) {
 int arr[N], sum[N];
 
 void build(int n) {
-    for (int i=1; i<=n; ++i)
-        sum[i] = sum[i-1] + arr[i-1];
+    // for (l~r: k) {
+    //     sum[l] += k;
+    //     sum[r+1] -= k;
+    // }
+    for (int i=1; i<=n; ++i) {
+        sum[i] = sum[i-1] + arr[i];
+        // sum[i] += sum[i-1];
+    }
 }
 
 int query(int l, int r) {
-    return sum[r+1]-sum[l];
+    return sum[r]-sum[l-1];
+    // return sum[p];
 }
 ```
 ```cpp
 int arr[H][W], sum[H][W];
 
 void build(int h, int w) {
+    // for ("x1~x2, y1~y2: k") {
+    //     sum[x1][y1] += k;
+    //     sum[x2+1][y1] -= k;
+    //     sum[x1][y2+1] -= k;
+    //     sum[x2+1][y2+1] += k;
+    // }
     for (int i=1; i<=h; ++i) {
         for (int j=1; j<=w; ++j) {
-            sum[i][j] = sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1] + arr[i-1][j-1];
+            sum[i][j] = sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1] + arr[i][j];
+            // sum[i][j] += sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1];
         }
     }
 }
 
 int query(int x1, int y1, int x2, int y2) {
-    return sum[x2+1][y2+1]-sum[x1][y2+1]-sum[x2+1][y1]+sum[x1][y1];
-}
-```
-```cpp
-int cnt[H][W];
-
-void build(int h, int w) {
-    for ("x1~x2, y1~y2: k") {
-        cnt[x1][y1] += k;
-        cnt[x2+1][y1] -= k;
-        cnt[x1][y2+1] -= k;
-        cnt[x2+1][y2+1] += k;
-    }
-    for (int i=0; i<h; ++i) {
-        for (int j=1; j<w; ++j) {
-            cnt[i][j] += cnt[i][j-1];
-        }
-    }
-    for (int i=1; i<h; ++i) {
-        for (int j=0; j<w; ++j) {
-            cnt[i][j] += cnt[i-1][j];
-        }
-    }
+    return sum[x2][y2]-sum[x1-1][y2]-sum[x2][y1-1]+sum[x1-1][y1-1];
+    // return sum[x][y];
 }
 ```
 
-### Binary Indexed Tree　/ フェニック木
+### Fenwick Tree　/ フェニック木
 ```cpp
-vector<int> arr(N), tree(N);
+int arr[N], tree[N];
 
 void build(int n) {
-    for (int i=0; i<n; ++i) {
-        tree[i] = "<merge tree[i] and arr[i]>";
-        int r = i|(i+1);
-        if (r<n)
-            tree[r] = "<merge tree[r] and tree[i]>";
+    for (int i = 1; i <= n; ++i) {
+        tree[i] += arr[i];
+        int r = i + (i&-i);
+        if (r <= n)
+            tree[r] += tree[i];
+    }
+}
+
+void update(int p, int x, int n) {
+    while (p <= n) {
+        tree[p] += x;
+        p += (p&-p);
     }
 }
 
 int query(int r) {
     int s = 0;
-    while (r>=0) {
-        s = "<merge s and tree[r]>";
-        r = (r&(r+1))-1;
+    while (r > 0) {
+        s += tree[r];
+        r -= (r&-r);
     }
     return s;
-}
-
-void update(int p, int x, int n) {
-    while (p<n) {
-        tree[p] = "<merge tree[p] and x>";
-        p = p|(p+1);
-    }
 }
 ```
 
