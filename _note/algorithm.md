@@ -261,6 +261,35 @@ void hash_table() {
 }
 ```
 
+### Disjoint Set Union / Union-Find木
+```cpp
+int par[N], siz[N];
+
+void make_set(int n) {
+    for (int i=0; i<n; ++i) {
+        par[i] = i;
+        siz[i] = 1;
+    }
+}
+
+int find_set(int v) {
+    if (par[v] == v)
+        return v;
+    return par[v] = find_set(par[v]);
+}
+
+void union_set(int a, int b) {
+    a = find_set(a);
+    b = find_set(b);
+    if (a != b) {
+        if (siz[a] < siz[b])
+            swap(a, b);
+        par[b] = a;
+        siz[a] += siz[b];
+    }
+}
+```
+
 ### Prefix Sum / 累積和
 ```cpp
 vector<int> arr(N), sum(N);
@@ -288,33 +317,6 @@ void build(int nx, int ny) {
 
 int query(int lx, int rx, int ly, int ry) {
     return sum[rx+1][ry+1] - sum[lx][ry+1] - sum[rx+1][ly] + sum[lx][ly];
-}
-```
-
-### Disjoint Set Union / Union-Find木
-```cpp
-vector<int> par(N), siz(N);
-
-void make_set(int v) {
-    par[v] = v;
-    siz[v] = 1;
-}
-
-int find_set(int v) {
-    if (par[v] == v)
-        return v;
-    return par[v] = find_set(par[v]);
-}
-
-void union_set(int a, int b) {
-    a = find_set(a);
-    b = find_set(b);
-    if (a != b) {
-        if (siz[a] < siz[b])
-            swap(a, b);
-        par[b] = a;
-        siz[a] += siz[b];
-    }
 }
 ```
 
