@@ -292,7 +292,7 @@ void union_set(int a, int b) {
 
 ### Prefix Sum / 累積和
 ```cpp
-vector<int> arr(N), sum(N);
+int arr[N], sum[N];
 
 void build(int n) {
     for (int i=0; i<n; ++i)
@@ -304,8 +304,8 @@ int query(int l, int r) {
 }
 ```
 ```cpp
-vector<vector<int>> arr(N, vector<int>(N));
-vector<vector<int>> sum(N, vector<int>(N));
+int arr[N][N];
+int sum[N][N];
 
 void build(int nx, int ny) {
     for (int i=0; i<nx; ++i) {
