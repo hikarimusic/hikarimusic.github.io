@@ -301,7 +301,7 @@ void psum(int n) {
 // l~r: sum[r+1]-sum[l]
 
 void imos(int n) {
-    for ("l~r : k") {
+    for ("l~r: k") {
         cnt[l] += k;
         cnt[r+1] -= k;
     }
@@ -2281,28 +2281,5 @@ int query(int l, int r, int n) {
     for (int i=br*s; i<=r; ++i)
         q = "<merge q and arr[i]>";
     return q;
-}
-```
-
-### Imos Algorithm / いもす法
-```cpp
-vector<vector<int>> G(W, vector<int>(H));
-
-void solve(int n, int w, int h) {
-    for (int i=0; i<n; ++i) {
-        "< Rectangle: (lx~rx, ly~ry) >";
-        G[lx][ly] += 1;
-        G[lx][ry] -= 1;
-        G[rx][ly] -= 1;
-        G[rx][ry] += 1;
-    }
-    for (int i=0; i<=w; ++i) {
-        for (int j=1; j<=h; ++j)
-            G[i][j] += G[i][j-1];
-    }
-    for (int j=0; j<=h; ++j) {
-        for (int i=1; i<=w; ++i)
-            G[i][j] += G[i-1][j];
-    }
 }
 ```
