@@ -314,20 +314,8 @@ void build(int h, int w) {
     }
 }
 
-int query(int x1, int x2, int y1, int y2) {
+int query(int x1, int y1, int x2, int y2) {
     return sum[x2+1][y2+1]-sum[x1][y2+1]-sum[x2+1][y1]+sum[x1][y1];
-}
-```
-```cpp
-int cnt[N]
-
-void build(int n) {
-    for ("l~r: k") {
-        cnt[l] += k;
-        cnt[r+1] -= k;
-    }
-    for (int i=1; i<n; ++i)
-        cnt[i] += cnt[i-1];
 }
 ```
 ```cpp
