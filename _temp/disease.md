@@ -37,6 +37,90 @@ Some random diseases
 
 # Rheumatology / リウマチ科
 
+## Connective Tissue Disease / 膠原病
+
+### Systemic Lupus Erythematosus / 全身性エリテマトーデス
+
+### Antiphospholipid Syndrome / 抗リン脂質抗体症候群
+
+### Systemic Sclerosis / 全身性硬化症
+
+### Dermatomyositis / 皮膚筋炎
+
+### Polymyositis / 多発性筋炎
+
+### Inclusion Body Myositis / 封入体筋炎
+
+### Mixed Connective Tissue Disease / 混合性結合組織病
+
+### Sjögren Syndrome / Sjögren症候群
+
+### Behçet Disease / Behçet病
+
+### IgG4-Related Disease / IgG4関連疾患
+
+
+## Arthritis / 関節炎
+
+### Rheumatoid Arthritis / 関節リウマチ
+
+### Juvenile Idiopathic Arthritis / 若年性特発性関節炎
+
+### Adult-Onset Still Disease / 成人発症Still病
+
+### Ankylosing Spondylitis / 強直性脊椎炎
+
+### Psoriatic Arthritis / 乾癬性関節炎
+
+### Reactive Arthritis / 反応性関節炎
+
+### Rheumatic Fever / リウマチ熱
+
+
+## Vasculitis / 血管炎
+
+### Giant Cell Arteritis / 巨細胞性動脈炎
+
+### Takayasu Arteritis / 高安動脈炎
+
+### Polyarteritis Nodosa / 結節性多発動脈炎
+
+### Kawasaki Disease / 川崎病
+
+### Microscopic Polyangiitis / 顕微鏡的多発血管炎
+
+### Eosinophilic Granulomatosis With Polyangiitis / 好酸球性多発血管炎性肉芽腫症
+
+### Granulomatosis With Polyangiitis / 多発血管炎性肉芽腫症
+
+### IgA Vasculitis / IgA血管炎
+
+### Cryoglobulinemic Vasculitis / クリオグロブリン血症性血管炎
+
+### Anti-GBM Disease / 抗糸球体基底膜病
+
+
+## Miscellaneous Systemic Disease / その他の全身性疾患
+
+### Sarcoidosis / サルコイドーシス
+
+### Amyloidosis / アミロイドーシス
+
+### Hemochromatosis / ヘモクロマトーシス
+
+### Graft-Versus-Host Disease / 移植片対宿主病
+
+### Fibromyalgia / 線維筋痛症
+
+
+## Allergy / アレルギー
+
+### Drug Allergy / 薬物アレルギー
+
+### Food Allergy / 食物アレルギー
+
+### Anaphylaxis / アナフィラキシー
+
 
 
 # Infectious Diseases / 感染症科
