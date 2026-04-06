@@ -354,11 +354,16 @@ void update(int p, int x, int n) {
     }
 }
 
-int query(int r) {
+int query(int l, int r) {
     int s = 0;
     while (r > 0) {
         s += tree[r];
         r -= (r&-r);
+    }
+    l -= 1;
+    while (l > 0) {
+        s -= tree[l];
+        l -= (l&-l);
     }
     return s;
 }
