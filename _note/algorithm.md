@@ -371,10 +371,10 @@ int query(int l, int r) {
 
 ### Segment Tree / セグメント木
 ```cpp
-vector<int> arr(N), tree(4*N);
+int arr[N], tree[4*N];
 
 int merge(int a, int b) {
-    return "<merge a and b>";
+    return "merge a and b";
 }
 
 void build(int v, int tl, int tr) {
@@ -390,7 +390,7 @@ void build(int v, int tl, int tr) {
 
 void update(int v, int tl, int tr, int p, int x) {
     if (tl==tr) {
-        tree[v] = x;
+        tree[v] += x; // = for set
         return;
     }
     int tm = (tl+tr)/2;
@@ -415,18 +415,20 @@ int query(int v, int tl, int tr, int l, int r) {
 }
 ```
 ```cpp
-vector<int> arr(N), tree(4*N), lazy(4*N);
+int arr[N], tree[4*N], lazy[4*N];
 
 int merge(int a, int b) {
-    return "<merge a and b>";
+    return "merge a and b";
 }
 
 void push(int v, int tl, int tr) {
-    tree[v*2+1] = "<update with lazy[v]>";
-    tree[v*2+2] = "<update with lazy[v]>";
-    lazy[v*2+1] += lazy[v];
-    lazy[v*2+2] += lazy[v];
-    lazy[v] = 0;
+    // if (lazy[v]==INF) return; for set
+    int tm = (tl+tr)/2;
+    tree[v*2+1] += "lazy[v] or lazy[v]*(tm-tl+1)"; // = for set
+    tree[v*2+2] += "lazy[v] or lazy[v]*(tr-tm)  "; // = for set
+    lazy[v*2+1] += lazy[v]; // = for set
+    lazy[v*2+2] += lazy[v]; // = for set
+    lazy[v] = 0; // INF for set;
 }
 
 void build(int v, int tl, int tr) {
@@ -442,8 +444,8 @@ void build(int v, int tl, int tr) {
 
 void update(int v, int tl, int tr, int l, int r, int x) {
     if (tl==l && tr==r) {
-        tree[v] = "<update with x>";
-        lazy[v] += x;
+        tree[v] += "x or x*(tr-tl+1)"; // = for set
+        lazy[v] += x; // = for set
         return;
     }
     push(v, tl, tr);
