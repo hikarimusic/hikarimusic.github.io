@@ -482,34 +482,35 @@ int query(int v, int tl, int tr, int l, int r) {
 
 ### Depth First Search / 深さ優先探索
 ```cpp
-vector<vector<int>> adj(N);
-vector<int> vis(N), dis(N, INF), par(N, -1);
+vector<int> adj[N];
+int vis[N], dis[N], par[N];
+// fill dis INF, fill par -1
 
 void dfs(int v, int d, int p) {
     vis[v] = 1;
     dis[v] = d;
     par[v] = p;
     for (int u : adj[v]) {
+        // if (u!=p && vis[u]): cycle (undirected)
         if (!vis[u]) { // tree: if (u!=p)
             dfs(u, d+1, v);
         }
-        // if (u!=p && vis[u]): cycle (undirected)
     }
 }
 ```
 ```cpp
-vector<vector<int>> adj(N);
-vector<int> col(N), tmi(N), tmo(N);
+vector<int> adj[N];
+int col[N], tmi[N], tmo[N];
 int tmr;
 
 void dfs(int v) {
     col[v] = 1;
     tmi[v] = tmr++;
     for (int u : adj[v]) {
+        // if (col[u]==1): cycle (directed)
         if (col[u]==0) {
             dfs(u);
         }
-        // if (col[u]==1): cycle (directed)
     }
     col[v] = 2;
     tmo[v] = tmr++;
@@ -518,8 +519,9 @@ void dfs(int v) {
 
 ### Breadth First Search / 幅優先探索
 ```cpp
-vector<vector<int>> adj(N);
-vector<int> vis(N), dis(N, INF), par(N, -1);
+vector<int> adj[N];
+int vis[N], dis[N], par[N];
+// fill dis INF, fill par -1
 
 void bfs(int v) {
     queue<int> q;
@@ -542,12 +544,14 @@ void bfs(int v) {
 }
 ```
 ```cpp
-vector<vector<pii>> adj(N);
-vector<int> dis(N, INF), par(N, -1);
+vector<pii> adj[N];
+int dis[N], par[N];
+// fill dis INF, fill par -1
 
 void bfs(int v) {
     deque<int> q;
     dis[v] = 0;
+    par[v] = -1;
     q.push_front(v);
     while (!q.empty()) {
         int v = q.front();
@@ -565,52 +569,6 @@ void bfs(int v) {
             }
         }
     }
-}
-```
-
-### Topological Sort / トポロジカルソート
-```cpp
-vector<vector<int>> adj(N);
-vector<int> vis(N), ans;
-
-void dfs(int v) {
-    vis[v] = 1;
-    for (int u : adj[v]) {
-        if (!vis[u])
-            dfs(u);
-    }
-    ans.push_back(v);
-}
-
-void topological_sort(int n) {
-    for (int i=0; i<n; ++i) {
-        if (!vis[i])
-            dfs(i);
-    }
-    reverse(ans.begin(), ans.end());
-}
-```
-```cpp
-vector<vector<int>> adj(N);
-vector<int> idg(N), ans;
-
-void topological_sort(int n) {
-    queue<int> q;
-    for (int i=0; i<n; ++i) {
-        if (idg[i]==0)
-            q.push(i);
-    }
-    while (!q.empty()) {
-        int v = q.front();
-        q.pop();
-        ans.push_back(v);
-        for (int u : adj[v]) {
-            idg[u] -= 1;
-            if (idg[u]==0)
-                q.push(u);
-        }
-    }
-    // if (ans.size()<n): cycle
 }
 ```
 
@@ -949,6 +907,52 @@ void dfs(int v, int p) {
     if (p==-1 && cld>1) {
         "<articulation point: v >";
     }
+}
+```
+
+### Topological Sort / トポロジカルソート
+```cpp
+vector<vector<int>> adj(N);
+vector<int> vis(N), ans;
+
+void dfs(int v) {
+    vis[v] = 1;
+    for (int u : adj[v]) {
+        if (!vis[u])
+            dfs(u);
+    }
+    ans.push_back(v);
+}
+
+void topological_sort(int n) {
+    for (int i=0; i<n; ++i) {
+        if (!vis[i])
+            dfs(i);
+    }
+    reverse(ans.begin(), ans.end());
+}
+```
+```cpp
+vector<vector<int>> adj(N);
+vector<int> idg(N), ans;
+
+void topological_sort(int n) {
+    queue<int> q;
+    for (int i=0; i<n; ++i) {
+        if (idg[i]==0)
+            q.push(i);
+    }
+    while (!q.empty()) {
+        int v = q.front();
+        q.pop();
+        ans.push_back(v);
+        for (int u : adj[v]) {
+            idg[u] -= 1;
+            if (idg[u]==0)
+                q.push(u);
+        }
+    }
+    // if (ans.size()<n): cycle
 }
 ```
 
