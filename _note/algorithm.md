@@ -491,7 +491,8 @@ void dfs(int v, int d, int p) {
     dis[v] = d;
     par[v] = p;
     for (int u : adj[v]) {
-        // if (u!=p && vis[u]): cycle (undirected)
+        // if (u!=p && vis[u]): 
+        //     "cycle from u (undirected)";
         if (!vis[u]) { // tree: if (u!=p)
             dfs(u, d+1, v);
         }
@@ -507,7 +508,8 @@ void dfs(int v) {
     col[v] = 1;
     tmi[v] = tmr++;
     for (int u : adj[v]) {
-        // if (col[u]==1): cycle (directed)
+        // if (col[u]==1): 
+        //     "cycle from u (directed)";
         if (col[u]==0) {
             dfs(u);
         }
@@ -576,12 +578,14 @@ void bfs(int v) {
 
 ### Dijkstra's Algorithm / ダイクストラ法
 ```cpp
-vector<vector<pii>> adj(N);
-vector<int> dis(N, INF), par(N, -1);
+vector<pii> adj[N];
+int dis[N], par[N];
+// fill dis INF, fill par -1
 
 void dijkstra(int s) {
     priority_queue<pii, vector<pii>, greater<pii>> q;
     dis[s] = 0;
+    par[s] = -1;
     q.push({0, s});
     while (!q.empty()) {
         int v = q.top().second;
@@ -602,11 +606,13 @@ void dijkstra(int s) {
 }
 ```
 ```cpp
-vector<vector<int>> adj(N, vector<int>(N, INF));
-vector<int> vis(N), dis(N, INF), par(N, -1);
+int adj[N][N];
+int vis[N], dis[N]. par[N];
+// fill dis INF, fill par -1
 
 void dijkstra(int s, int n) {
     dis[s] = 0;
+    par[s] = -1;
     for (int i=0; i<n; ++i) {
         int v = -1;
         for (int j=0; j<n; ++j) {
@@ -634,35 +640,41 @@ struct edge{
 };
 
 vector<edge> edges;
-vector<int> dis(N, INF), par(N, -1);
+int dis[N], par[N];
+// fill dis INF, fill par -1
 
 void bellman_ford(int s, int n) {
     dis[s] = 0;
-    int cnt = 0;
+    par[s] = -1;
+    int x = -1;
     for (int i=0; i<n; ++i) {
-        bool any = 0;
+        x = -1;
         for (edge e : edges) {
             if (dis[e.a]!=INF && dis[e.a]+e.w<dis[e.b]) {
                 dis[e.b] = dis[e.a] + e.w;
                 par[e.b] = e.a;
-                any = 1;
+                x = e.b;
             }
         }
-        if (!any)
+        if (x==-1)
             break;
-        cnt += 1;
     }
-    "<negative cycle: cnt==n>";
+    // if (x!=-1) {
+    //     for (int i=0; i<n; ++i)
+    //         x = par[x];
+    //     "negative cycle from x";
+    // }
 }
 ```
 
 ### Floyd–Warshall Algorithm / ワーシャル–フロイド法
 ```cpp
-vector<vector<int>> dis(N, vector<int>(N, INF)), par(N, vector<int>(N, -1));
+int dis[N][N], par[N][N];
+// fill dis INF, fill par -1
 
 void floyd_warshall(int n) {
-    "<each edge: dis[v][u]=w, par[v][u]=v >";
-    "<each vert: dis[v][v]=0, par[v][v]=v >";
+    "for edge: dis[v][u]=w, par[v][u]=v";
+    "for vert: dis[v][v]=0, par[v][v]=v";
     for (int k=0; k<n; ++k) {
         for (int i=0; i<n; ++i) {
             for (int j=0; j<n; ++j) {
@@ -673,7 +685,9 @@ void floyd_warshall(int n) {
             }
         }
     }
-    "<negative cycle: dis[i][i]<0 >";
+    // for (int i=0; i<n; ++i)
+    //     if (dis[i][i]<0) 
+    //         "negative cycle from i";
 }
 ```
 
