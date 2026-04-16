@@ -626,9 +626,8 @@ void dijkstra(int s, int n) {
             break;
         vis[v] = 1;
         for (int u=0; u<n; ++u) {
-            int w = adj[v][u];
-            if (w<INF && dis[v]+w<dis[u]) {
-                dis[u] = dis[v]+w;
+            if (adj[v][u]<INF && dis[v]+adj[v][u]<dis[u]) {
+                dis[u] = dis[v]+adj[v][u];
                 par[u] = v;
             }
         }
@@ -653,7 +652,7 @@ void bellman_ford(int s, int n) {
     for (int i=0; i<n; ++i) {
         x = -1;
         for (edge e : edges) {
-            if (dis[e.a]!=INF && dis[e.a]+e.w<dis[e.b]) {
+            if (dis[e.a]<INF && dis[e.a]+e.w<dis[e.b]) {
                 dis[e.b] = dis[e.a] + e.w;
                 par[e.b] = e.a;
                 x = e.b;
