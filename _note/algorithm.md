@@ -759,6 +759,14 @@ int prim(int s, int n) {
 
 ### Kruskal's Algorithm / クラスカル法
 ```cpp
+struct edge {
+    int a, b, w;
+    bool operator<(edge const& other) const {
+        return w < other.w;
+    }
+};
+
+vector<edge> edges, mst;
 int par[N], siz[N];
 
 void make_set(int n) {
@@ -784,15 +792,6 @@ void union_set(int a, int b) {
         siz[a] += siz[b];
     }
 }
-
-struct edge {
-    int a, b, w;
-    bool operator<(edge const& other) const {
-        return w < other.w;
-    }
-};
-
-vector<edge> edges, mst;
 
 int kruskal(int n) {
     int wt = 0;
