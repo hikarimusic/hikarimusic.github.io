@@ -702,7 +702,6 @@ vector<pii> adj[N];
 int vis[N], dis[N], par[N];
 // fill dis INF, fill par -1
 
-
 int prim(int s) {
     int wt = 0;
     priority_queue<pii, vector<pii>, greater<pii>> q;
