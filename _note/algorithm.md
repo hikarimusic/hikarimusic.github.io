@@ -525,12 +525,12 @@ vector<int> adj[N];
 int vis[N], dis[N], par[N];
 // fill dis INF, fill par -1
 
-void bfs(int v) {
+void bfs(int s) {
     queue<int> q;
-    vis[v] = 1;
-    dis[v] = 0;
-    par[v] = -1;
-    q.push(v);
+    vis[s] = 1;
+    dis[s] = 0;
+    par[s] = -1;
+    q.push(s);
     while (!q.empty()) {
         int v = q.front();
         q.pop();
@@ -547,17 +547,20 @@ void bfs(int v) {
 ```
 ```cpp
 vector<pii> adj[N];
-int dis[N], par[N];
+int vis[N], dis[N], par[N];
 // fill dis INF, fill par -1
 
-void bfs(int v) {
+void bfs(int s) {
     deque<int> q;
-    dis[v] = 0;
-    par[v] = -1;
-    q.push_front(v);
+    dis[s] = 0;
+    par[s] = -1;
+    q.push_front(s);
     while (!q.empty()) {
         int v = q.front();
         q.pop_front();
+        if (vis[v])
+            continue;
+        vis[v] = 1;
         for (pii e : adj[v]) {
             int u = e.first;
             int w = e.second;
@@ -579,7 +582,7 @@ void bfs(int v) {
 ### Dijkstra's Algorithm / ダイクストラ法
 ```cpp
 vector<pii> adj[N];
-int dis[N], par[N];
+int vis[N], dis[N], par[N];
 // fill dis INF, fill par -1
 
 void dijkstra(int s) {
@@ -589,17 +592,17 @@ void dijkstra(int s) {
     q.push({0, s});
     while (!q.empty()) {
         int v = q.top().second;
-        int d = q.top().first;
         q.pop();
-        if (d==dis[v]) {
-            for (pii e : adj[v]) {
-                int u = e.first;
-                int w = e.second;
-                if (d+w<dis[u]) {
-                    dis[u] = d+w;
-                    par[u] = v;
-                    q.push({d+w, u});
-                }
+        if (vis[v])
+            continue;
+        vis[v] = 1;
+        for (pii e : adj[v]) {
+            int u = e.first;
+            int w = e.second;
+            if (dis[v]+w<dis[u]) {
+                dis[u] = dis[v]+w;
+                par[u] = v;
+                q.push({dis[v]+w, u});
             }
         }
     }
@@ -607,7 +610,7 @@ void dijkstra(int s) {
 ```
 ```cpp
 int adj[N][N];
-int vis[N], dis[N]. par[N];
+int vis[N], dis[N], par[N];
 // fill dis INF, fill par -1
 
 void dijkstra(int s, int n) {
@@ -619,14 +622,14 @@ void dijkstra(int s, int n) {
             if (!vis[j] && (v==-1 || dis[j]<dis[v]))
                 v = j;
         }
-        if (dis[v]<INF) {
-            vis[v] = 1;
-            for (int u=0; u<n; ++u) {
-                int w = adj[v][u];
-                if (w<INF && dis[v]+w<dis[u]) {
-                    dis[u] = dis[v]+w;
-                    par[u] = v;
-                }
+        if (dis[v]==INF)
+            break;
+        vis[v] = 1;
+        for (int u=0; u<n; ++u) {
+            int w = adj[v][u];
+            if (w<INF && dis[v]+w<dis[u]) {
+                dis[u] = dis[v]+w;
+                par[u] = v;
             }
         }
     }
@@ -695,40 +698,16 @@ void floyd_warshall(int n) {
 
 ### Prim's Algorithm / プリム法
 ```cpp
-vector<vector<int>> adj(N, vector<int>(N, INF));
-vector<int> vis(N), dis(N, INF), par(N, -1);
+vector<pii> adj[N];
+int vis[N], dis[N], par[N];
+// fill dis INF, fill par -1
 
-int prim(int s, int n) {
-    int wt = 0;
-    dis[s] = 0;
-    for (int i=0; i<n; ++i) {
-        int k = -1;
-        for (int j=0; j<n; ++j) {
-            if (!vis[j] && (k==-1 || dis[j]<dis[k]))
-                k = j;
-        }
-        if (dis[k]==INF)
-            return INF;
-        vis[k] = 1;
-        wt += dis[k];
-        for (int j=0; j<n; ++j) {
-            if (!vis[j] && adj[k][j]<dis[j]) {
-                dis[j] = adj[k][j];
-                par[j] = k;
-            }
-        }
-    }
-    return wt;
-}
-```
-```cpp
-vector<vector<pii>> adj(N);
-vector<int> vis(N), dis(N, INF), par(N, -1);
 
 int prim(int s) {
     int wt = 0;
     priority_queue<pii, vector<pii>, greater<pii>> q;
     dis[s] = 0;
+    par[s] = -1;
     q.push({0, s});
     while (!q.empty()) {
         int v = q.top().second;
@@ -750,14 +729,45 @@ int prim(int s) {
     return wt;
 }
 ```
+```cpp
+int adj[N][N];
+int vis[N], dis[N], par[N];
+// fill dis INF, fill par -1
+
+int prim(int s, int n) {
+    int wt = 0;
+    dis[s] = 0;
+    par[s] = -1;
+    for (int i=0; i<n; ++i) {
+        int v = -1;
+        for (int j=0; j<n; ++j) {
+            if (!vis[j] && (v==-1 || dis[j]<dis[v]))
+                v = j;
+        }
+        if (dis[v]==INF)
+            return INF;
+        vis[v] = 1;
+        wt += dis[v];
+        for (int j=0; j<n; ++j) {
+            if (!vis[j] && adj[v][j]<dis[j]) {
+                dis[j] = adj[v][j];
+                par[j] = v;
+            }
+        }
+    }
+    return wt;
+}
+```
 
 ### Kruskal's Algorithm / クラスカル法
 ```cpp
-vector<int> par(N), siz(N);
+int par[N], siz[N];
 
-void make_set(int v) {
-    par[v] = v;
-    siz[v] = 1;
+void make_set(int n) {
+    for (int i=0; i<n; ++i) {
+        par[i] = i;
+        siz[i] = 1;
+    }
 }
 
 int find_set(int v) {
@@ -770,7 +780,7 @@ void union_set(int a, int b) {
     a = find_set(a);
     b = find_set(b);
     if (a != b) {
-        if (a < b)
+        if (siz[a] < siz[b])
             swap(a, b);
         par[b] = a;
         siz[a] += siz[b];
@@ -779,15 +789,16 @@ void union_set(int a, int b) {
 
 struct edge {
     int a, b, w;
-    bool operator<(edge const& other) {
+    bool operator<(edge const& other) const {
         return w < other.w;
     }
 };
 
 vector<edge> edges, mst;
 
-int kruskal() {
+int kruskal(int n) {
     int wt = 0;
+    make_set(n);
     sort(edges.begin(), edges.end());
     for (edge e : edges) {
         if (find_set(e.a) != find_set(e.b)) {
