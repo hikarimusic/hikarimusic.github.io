@@ -701,8 +701,9 @@ vector<pll> adj[N];
 ll vis[N], dis[N], par[N];
 // fill dis INF, fill par -1
 
-ll prim(ll s) {
+ll prim(ll s, ll n) {
     ll wt = 0;
+    ll cnt = 0;
     priority_queue<pll, vector<pll>, greater<pll>> q;
     dis[s] = 0;
     par[s] = -1;
@@ -713,6 +714,7 @@ ll prim(ll s) {
         if (vis[v])
             continue;
         vis[v] = 1;
+        cnt += 1;
         wt += dis[v];
         for (pll e : adj[v]) {
             ll u = e.first;
@@ -724,6 +726,8 @@ ll prim(ll s) {
             }
         }
     }
+    if (cnt<n)
+        return INF;
     return wt;
 }
 ```
@@ -766,7 +770,7 @@ struct edge {
     }
 };
 
-vector<edge> edges, mst;
+vector<edge> edges;
 ll par[N], siz[N];
 
 void make_set(ll n) {
@@ -795,15 +799,18 @@ void union_set(ll a, ll b) {
 
 ll kruskal(ll n) {
     ll wt = 0;
+    ll cnt = 0;
     make_set(n);
     sort(edges.begin(), edges.end());
     for (edge e : edges) {
         if (find_set(e.a) != find_set(e.b)) {
             wt += e.w;
-            mst.push_back(e);
+            cnt += 1;
             union_set(e.a, e.b);
         }
     }
+    if (cnt<n-1)
+        return INF;
     return wt;
 }
 ```
