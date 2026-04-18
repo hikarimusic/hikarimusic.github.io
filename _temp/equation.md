@@ -414,6 +414,42 @@ $$
 
 ## Perturbation Theory / 摂動論
 
+## Perturbation Theory / 摂動論
+
+### Non-Degenerate Perturbation Theory / 非縮退定常摂動論
+
+$$
+\begin{aligned}
+& E_n^{(1)} = \langle \psi_n^{(0)} | \hat{V} | \psi_n^{(0)} \rangle \\
+& |\psi_n^{(1)}\rangle = \sum_{m \neq n} \frac{|\psi_m^{(0)}\rangle \langle \psi_m^{(0)} | \hat{V} | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \\
+& E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | \hat{V} | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Degenerate Perturbation Theory / 縮退定常摂動論
+
+$$
+\begin{aligned}
+& E_{n,\alpha}^{(1)} : \sum_j \langle \psi_{n,i}^{(0)} | \hat{V} | \psi_{n,j}^{(0)} \rangle C_{n,\alpha}^j = E_{n,\alpha}^{(1)} C_{n,\alpha}^i \\
+& |\psi_{n,\alpha}^{(1)}\rangle = \sum_{m \neq n, \beta} \frac{|\psi_{m,\beta}^{(0)}\rangle \langle \psi_{m,\beta}^{(0)} | \hat{V} | \psi_{n,\alpha}^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \\
+& E_{n,\alpha}^{(2)} = \sum_{m \neq n, \beta} \frac{|\langle \psi_{m,\beta}^{(0)} | \hat{V} | \psi_{n,\alpha}^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Time-Dependent Perturbation Theory / 時間依存摂動論
+
+$$
+\begin{aligned}
+& i\hbar \frac{\partial C_n(t)}{\partial t} = \sum_m \langle \psi_n^{(0)} | \hat{V}(t) | \psi_m^{(0)} \rangle e^{\frac{i}{\hbar}(E_n - E_m)t} C_m(t) \\
+& C_n^{(1)}(t) = -\frac{i}{\hbar} \int_0^t \langle \psi_n^{(0)} | \hat{V}(t') | \psi_i^{(0)} \rangle e^{\frac{i}{\hbar}(E_n - E_i)t'} \, dt' \\
+& \hat{V}(t) = \hat{V} e^{\eta t}, \; \eta \to 0 : \quad C_n^{(1)}(0) = \frac{\langle \psi_n^{(0)} | \hat{V} | \psi_i^{(0)} \rangle}{E_i - E_n} \\
+& \hat{V}(t) = \hat{V} e^{-i\omega t}, \; t \ge 0 : \quad C_n^{(1)}(t) = \frac{\langle \psi_n^{(0)} | \hat{V} | \psi_i^{(0)} \rangle}{E_n - E_i - \hbar\omega} \left[ 1 - e^{\frac{i}{\hbar}(E_n - E_i - \hbar\omega)t} \right]
+\end{aligned}
+$$
+{: .notice--info}
+
 
 ## Scattering Theory / 散乱理論
 
