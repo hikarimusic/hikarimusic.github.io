@@ -414,8 +414,6 @@ $$
 
 ## Perturbation Theory / 摂動論
 
-## Perturbation Theory / 摂動論
-
 ### Non-Degenerate Perturbation Theory / 非縮退定常摂動論
 
 $$
