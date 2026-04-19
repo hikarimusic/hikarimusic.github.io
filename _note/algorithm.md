@@ -577,6 +577,182 @@ void bfs(ll s) {
 }
 ```
 
+### Topological Sort / トポロジカルソート
+```cpp
+vector<ll> adj[N];
+vector<ll> vis(N), arr;
+
+void dfs(ll v) {
+    vis[v] = 1;
+    for (ll u : adj[v]) {
+        if (!vis[u])
+            dfs(u);
+    }
+    arr.push_back(v);
+}
+
+void topological_sort(ll n) {
+    for (ll i=0; i<n; ++i) {
+        if (!vis[i])
+            dfs(i);
+    }
+    reverse(arr.begin(), arr.end());
+}
+```
+```cpp
+vector<ll> adj[N];
+vector<ll> idg(N), arr;
+
+void topological_sort(ll n) {
+    for (ll i=0; i<n; ++i) {
+        for (ll j : adj[i])
+            idg[j] += 1;
+    }
+    queue<ll> q;
+    for (ll i=0; i<n; ++i) {
+        if (idg[i]==0)
+            q.push(i);
+    }
+    while (!q.empty()) {
+        ll v = q.front();
+        q.pop();
+        arr.push_back(v);
+        for (ll u : adj[v]) {
+            idg[u] -= 1;
+            if (idg[u]==0)
+                q.push(u);
+        }
+    }
+    if (arr.size()<n)
+        "cycle (directed)";
+}
+```
+
+## Connectivity / 連結性
+
+### Connected Component / 連結成分
+```cpp
+vector<vector<ll>> adj(N);
+vector<ll> vis(N), cmp(N);
+
+void dfs(ll v, ll c) {
+    vis[v] = 1;
+    cmp[v] = c;
+    for (ll u : adj[v]) {
+        if (!vis[u])
+            dfs(u, c);
+    }
+}
+
+ll cc(ll n) {
+    ll cnt = 0;
+    for (ll i=0; i<n; ++i) {
+        if (!vis[i]) {
+            dfs(i, i);
+            cnt += 1;
+        }
+    }
+    return cnt;
+}
+```
+
+### Strongly Connected Component / 強連結成分
+```cpp
+vector<vector<ll>> adj(N), adj_r(N);
+vector<ll> q, vis(N), cmp(N);
+
+void dfs1(ll v) {
+    vis[v] = 1;
+    for (ll u : adj[v]) {
+        if (!vis[u])
+            dfs1(u);
+    }
+    q.push_back(v);
+}
+
+void dfs2(ll v, ll c) {
+    vis[v] = 1;
+    cmp[v] = c;
+    for (ll u : adj_r[v]) {
+        if (!vis[u])
+            dfs2(u, c);
+    }
+}
+
+ll scc(ll n) {
+    ll cnt = 0;
+    for (ll i=0; i<n; ++i) {
+        if (!vis[i])
+            dfs1(i);
+    }
+    reverse(q.begin(), q.end());
+    vis.assign(n, 0);
+    for (ll i : q) {
+        if (!vis[i]) {
+            dfs2(i, i);
+            cnt += 1;
+        }
+    }
+    return cnt;
+}
+```
+
+### Bridge / 橋
+```cpp
+vector<vector<ll>> adj(N);
+vector<ll> vis(N), tin(N), low(N);
+ll timer = 0;
+
+void dfs(ll v, ll p) {
+    vis[v] = 1;
+    tin[v] = low[v] = timer++;
+    for (ll u : adj[v]) {
+        if (u==p)
+            continue;
+        if (vis[u])
+            low[v] = min(low[v], tin[u]);
+        else {
+            dfs(u, v);
+            low[v] = min(low[v], low[u]);
+            if (low[u]>tin[v]) {
+                "<bridge: v-u >";
+            }
+        }
+    }
+}
+```
+
+### Articulation Poll / 関節点
+```cpp
+vector<vector<ll>> adj(N);
+vector<ll> vis(N), tin(N), low(N);
+ll timer = 0;
+
+void dfs(ll v, ll p) {
+    vis[v] = 1;
+    tin[v] = low[v] = timer++;
+    ll cld = 0;
+    for (ll u : adj[v]) {
+        if (u==p)
+            continue;
+        if (vis[u])
+            low[v] = min(low[v], tin[u]);
+        else {
+            dfs(u, v);
+            low[v] = min(low[v], low[u]);
+            if (p!=-1 && low[u]>=tin[v]) {
+                "<articulation poll: v >";
+            }
+            cld += 1;
+        }
+    }
+    if (p==-1 && cld>1) {
+        "<articulation poll: v >";
+    }
+}
+```
+
+
 ## Shortest Path / 最短経路
 
 ### Dijkstra's Algorithm / ダイクストラ法
@@ -815,175 +991,6 @@ ll kruskal(ll n) {
 }
 ```
 
-## Connectivity / 連結性
-
-### Connected Component / 連結成分
-```cpp
-vector<vector<ll>> adj(N);
-vector<ll> vis(N), cmp(N);
-
-void dfs(ll v, ll c) {
-    vis[v] = 1;
-    cmp[v] = c;
-    for (ll u : adj[v]) {
-        if (!vis[u])
-            dfs(u, c);
-    }
-}
-
-ll cc(ll n) {
-    ll cnt = 0;
-    for (ll i=0; i<n; ++i) {
-        if (!vis[i]) {
-            dfs(i, i);
-            cnt += 1;
-        }
-    }
-    return cnt;
-}
-```
-
-### Strongly Connected Component / 強連結成分
-```cpp
-vector<vector<ll>> adj(N), adj_r(N);
-vector<ll> q, vis(N), cmp(N);
-
-void dfs1(ll v) {
-    vis[v] = 1;
-    for (ll u : adj[v]) {
-        if (!vis[u])
-            dfs1(u);
-    }
-    q.push_back(v);
-}
-
-void dfs2(ll v, ll c) {
-    vis[v] = 1;
-    cmp[v] = c;
-    for (ll u : adj_r[v]) {
-        if (!vis[u])
-            dfs2(u, c);
-    }
-}
-
-ll scc(ll n) {
-    ll cnt = 0;
-    for (ll i=0; i<n; ++i) {
-        if (!vis[i])
-            dfs1(i);
-    }
-    reverse(q.begin(), q.end());
-    vis.assign(n, 0);
-    for (ll i : q) {
-        if (!vis[i]) {
-            dfs2(i, i);
-            cnt += 1;
-        }
-    }
-    return cnt;
-}
-```
-
-### Bridge / 橋
-```cpp
-vector<vector<ll>> adj(N);
-vector<ll> vis(N), tin(N), low(N);
-ll timer = 0;
-
-void dfs(ll v, ll p) {
-    vis[v] = 1;
-    tin[v] = low[v] = timer++;
-    for (ll u : adj[v]) {
-        if (u==p)
-            continue;
-        if (vis[u])
-            low[v] = min(low[v], tin[u]);
-        else {
-            dfs(u, v);
-            low[v] = min(low[v], low[u]);
-            if (low[u]>tin[v]) {
-                "<bridge: v-u >";
-            }
-        }
-    }
-}
-```
-
-### Articulation Poll / 関節点
-```cpp
-vector<vector<ll>> adj(N);
-vector<ll> vis(N), tin(N), low(N);
-ll timer = 0;
-
-void dfs(ll v, ll p) {
-    vis[v] = 1;
-    tin[v] = low[v] = timer++;
-    ll cld = 0;
-    for (ll u : adj[v]) {
-        if (u==p)
-            continue;
-        if (vis[u])
-            low[v] = min(low[v], tin[u]);
-        else {
-            dfs(u, v);
-            low[v] = min(low[v], low[u]);
-            if (p!=-1 && low[u]>=tin[v]) {
-                "<articulation poll: v >";
-            }
-            cld += 1;
-        }
-    }
-    if (p==-1 && cld>1) {
-        "<articulation poll: v >";
-    }
-}
-```
-
-### Topological Sort / トポロジカルソート
-```cpp
-vector<vector<ll>> adj(N);
-vector<ll> vis(N), ans;
-
-void dfs(ll v) {
-    vis[v] = 1;
-    for (ll u : adj[v]) {
-        if (!vis[u])
-            dfs(u);
-    }
-    ans.push_back(v);
-}
-
-void topological_sort(ll n) {
-    for (ll i=0; i<n; ++i) {
-        if (!vis[i])
-            dfs(i);
-    }
-    reverse(ans.begin(), ans.end());
-}
-```
-```cpp
-vector<vector<ll>> adj(N);
-vector<ll> idg(N), ans;
-
-void topological_sort(ll n) {
-    queue<ll> q;
-    for (ll i=0; i<n; ++i) {
-        if (idg[i]==0)
-            q.push(i);
-    }
-    while (!q.empty()) {
-        ll v = q.front();
-        q.pop();
-        ans.push_back(v);
-        for (ll u : adj[v]) {
-            idg[u] -= 1;
-            if (idg[u]==0)
-                q.push(u);
-        }
-    }
-    // if (ans.size()<n): cycle
-}
-```
 
 ## Network Flow / ネットワークフロー
 
