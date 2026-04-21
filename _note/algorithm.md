@@ -632,8 +632,8 @@ void topological_sort(ll n) {
 
 ### Connected Component / 連結成分
 ```cpp
-vector<vector<ll>> adj(N);
-vector<ll> vis(N), cmp(N);
+vector<ll> adj[N];
+ll vis[N], cmp[N];
 
 void dfs(ll v, ll c) {
     vis[v] = 1;
@@ -644,22 +644,18 @@ void dfs(ll v, ll c) {
     }
 }
 
-ll cc(ll n) {
-    ll cnt = 0;
+void solve(ll n) {
     for (ll i=0; i<n; ++i) {
-        if (!vis[i]) {
+        if (!vis[i])
             dfs(i, i);
-            cnt += 1;
-        }
     }
-    return cnt;
 }
 ```
 
 ### Strongly Connected Component / 強連結成分
 ```cpp
-vector<vector<ll>> adj(N), adj_r(N);
-vector<ll> q, vis(N), cmp(N);
+vector<ll> adj[N], adj_r[N];
+vector<ll> arr, vis(N), cmp(N);
 
 void dfs1(ll v) {
     vis[v] = 1;
@@ -667,7 +663,7 @@ void dfs1(ll v) {
         if (!vis[u])
             dfs1(u);
     }
-    q.push_back(v);
+    arr.push_back(v);
 }
 
 void dfs2(ll v, ll c) {
@@ -679,21 +675,18 @@ void dfs2(ll v, ll c) {
     }
 }
 
-ll scc(ll n) {
-    ll cnt = 0;
+void solve(ll n) {
     for (ll i=0; i<n; ++i) {
         if (!vis[i])
             dfs1(i);
     }
-    reverse(q.begin(), q.end());
-    vis.assign(n, 0);
-    for (ll i : q) {
+    reverse(arr.begin(), arr.end());
+    fill(vis.begin(), vis.end(), 0);
+    for (ll i : arr) {
         if (!vis[i]) {
             dfs2(i, i);
-            cnt += 1;
         }
     }
-    return cnt;
 }
 ```
 
