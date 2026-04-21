@@ -682,9 +682,9 @@ void solve(ll n) {
     }
     reverse(arr.begin(), arr.end());
     fill(vis.begin(), vis.end(), 0);
-    for (ll i : arr) {
-        if (!vis[i]) {
-            dfs2(i, i);
+    for (ll v : arr) {
+        if (!vis[v]) {
+            dfs2(v, v);
         }
     }
 }
