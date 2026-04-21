@@ -385,13 +385,13 @@ $$
 $$
 {: .notice--info}
 
-### Electromagnetic Field / 電磁場
+### Electromagnetic Potential / 電磁ポテンシャル
 
 $$
 \begin{aligned}
 & \hat{H} = \frac{1}{2m}(\hat{\mathbf{p}} - q\mathbf{A})^2 + q\phi \\
-& \mathbf{A}' = \mathbf{A} + \nabla\chi, \quad \phi' = \phi - \frac{\partial\chi}{\partial t}, \quad \psi' = e^{\frac{i}{\hbar}q\chi}\psi \\
-& \hat{H}\psi = i\hbar\frac{\partial\psi}{\partial t} \to \hat{H}'\psi' = i\hbar\frac{\partial\psi'}{\partial t}
+& \mathbf{A}' = \mathbf{A} + \nabla\chi, \quad \phi' = \phi - \frac{\partial\chi}{\partial t} \\
+& \hat{H}'\psi' = i\hbar\frac{\partial\psi'}{\partial t}, \quad \psi' = e^{\frac{i}{\hbar}q\chi}\psi 
 \end{aligned}
 $$
 {: .notice--info}
@@ -400,10 +400,8 @@ $$
 
 $$
 \begin{aligned}
-& E_{n,k_z} = \hbar\omega_c\left(n+\frac{1}{2}\right) + \frac{\hbar^2 k_z^2}{2m}, \quad n=0,1,2,\dots \\
-& \omega_c = \frac{|q|B}{m} \\
-& \psi = \psi_0 \exp\left(\frac{i}{\hbar}q\int_C \mathbf{A}\cdot d\mathbf{l}\right) \\
-& \Delta\varphi = \frac{q}{\hbar}\oint_S \mathbf{B}\cdot d\mathbf{S}
+& E_{n,k_z} = \hbar\frac{|q|B}{m}\left(n+\frac{1}{2}\right) + \frac{\hbar^2 k_z^2}{2m}, \quad n=0,1,2,\dots \\
+& \psi = \psi_0 \exp\left(\frac{i}{\hbar}q\int_C \mathbf{A}\cdot d\mathbf{l}\right),\quad \Delta\varphi = \frac{q}{\hbar}\oint_S \mathbf{B}\cdot d\mathbf{S}
 \end{aligned}
 $$
 {: .notice--info}
