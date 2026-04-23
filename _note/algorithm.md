@@ -633,11 +633,11 @@ void topological_sort(ll n) {
 ### Connected Component / 連結成分
 ```cpp
 vector<ll> adj[N];
-ll vis[N], cmp[N];
+ll vis[N], com[N];
 
 void dfs(ll v, ll c) {
     vis[v] = 1;
-    cmp[v] = c;
+    com[v] = c;
     for (ll u : adj[v]) {
         if (!vis[u])
             dfs(u, c);
@@ -655,7 +655,7 @@ void solve(ll n) {
 ### Strongly Connected Component / 強連結成分
 ```cpp
 vector<ll> adj[N], adj_r[N];
-vector<ll> arr, vis(N), cmp(N);
+vector<ll> arr, vis(N), com(N);
 
 void dfs1(ll v) {
     vis[v] = 1;
@@ -668,7 +668,7 @@ void dfs1(ll v) {
 
 void dfs2(ll v, ll c) {
     vis[v] = 1;
-    cmp[v] = c;
+    com[v] = c;
     for (ll u : adj_r[v]) {
         if (!vis[u])
             dfs2(u, c);
@@ -692,13 +692,13 @@ void solve(ll n) {
 
 ### Bridge / 橋
 ```cpp
-vector<vector<ll>> adj(N);
-vector<ll> vis(N), tin(N), low(N);
-ll timer = 0;
+vector<ll> adj[N];
+ll vis[N], tin[N], low[N];
+ll tmr;
 
 void dfs(ll v, ll p) {
     vis[v] = 1;
-    tin[v] = low[v] = timer++;
+    tin[v] = low[v] = tmr++;
     for (ll u : adj[v]) {
         if (u==p)
             continue;
@@ -708,23 +708,23 @@ void dfs(ll v, ll p) {
             dfs(u, v);
             low[v] = min(low[v], low[u]);
             if (low[u]>tin[v]) {
-                "<bridge: v-u >";
+                "bridge: v-u ";
             }
         }
     }
 }
 ```
 
-### Articulation Poll / 関節点
+### Articulation Point / 関節点
 ```cpp
-vector<vector<ll>> adj(N);
-vector<ll> vis(N), tin(N), low(N);
-ll timer = 0;
+vector<ll> adj[N];
+ll vis[N], tin[N], low[N];
+ll tmr;
 
 void dfs(ll v, ll p) {
     vis[v] = 1;
-    tin[v] = low[v] = timer++;
-    ll cld = 0;
+    tin[v] = low[v] = tmr++;
+    ll chd = 0;
     for (ll u : adj[v]) {
         if (u==p)
             continue;
@@ -734,17 +734,16 @@ void dfs(ll v, ll p) {
             dfs(u, v);
             low[v] = min(low[v], low[u]);
             if (p!=-1 && low[u]>=tin[v]) {
-                "<articulation poll: v >";
+                "articulation point: v";
             }
-            cld += 1;
+            chd += 1;
         }
     }
-    if (p==-1 && cld>1) {
-        "<articulation poll: v >";
+    if (p==-1 && chd>1) {
+        "articulation point: v";
     }
 }
 ```
-
 
 ## Shortest Path / 最短経路
 
