@@ -988,48 +988,68 @@ ll kruskal(ll n) {
 
 ### Maximum Flow / 最大流
 ```cpp
-vector<vector<ll>> adj(N), cap(N, vector<ll>(N));
-vector<ll> vis(N, 0), par(N, -1);
+struct edge{
+    ll v, u, c;
+};
 
-ll bfs(ll s, ll t) {
-    fill(vis.begin(), vis.end(), 0);
-    fill(par.begin(), par.end(), -1);
-    queue<pll> q;
-    q.push({s, INF});
-    vis[s] = 1;
+vector<ll> adj[N];
+vector<edge> edges;
+vector<ll> lev(N), ptr(N);
+
+bool bfs(ll s, ll t) {
+    fill(lev.begin(), lev.end(), -1);
+    lev[s] = 0;
+    queue<ll> q;
+    q.push(s);
     while (!q.empty()) {
-        ll v = q.front().first;
-        ll f_v = q.front().second;
+        ll v = q.front();
         q.pop();
-        for (ll u : adj[v]) {
-            if (!vis[u] && cap[v][u]>0) {
-                ll f_u = min(f_v, cap[v][u]);
-                q.push({u, f_u});
-                vis[u] = 1;
-                par[u] = v;
-                if (u==t)
-                    return f_u;
+        for (ll id : adj[v]) {
+            edge e = edges[id];
+            if (e.c>0 && lev[e.u]==-1) {
+                lev[e.u] = lev[e.v] + 1;
+                q.push(e.u);
+            }
+        }
+    }
+    return lev[t]!=-1;
+}
+
+ll dfs(ll v, ll t, ll p) {
+    if (v==t)
+        return p;
+    for (ll& cid=ptr[v]; cid<(ll)adj[v].size(); ++cid) {
+        ll id = adj[v][cid];
+        edge e = edges[id];
+        if (e.c>0 && lev[e.u]==lev[e.v]+1) {
+            ll tr = dfs(e.u, t, min(p, e.c));
+            if (tr>0) {
+                edges[id].c -= tr;
+                edges[id^1].c += tr;
+                return tr;
             }
         }
     }
     return 0;
 }
 
-ll max_flow(ll s, ll t) {
-    "<each edge: adj[v].pb(u) adj[u].pb(v) >";
-    "<each edge: cap[v][u]=c cap[u][v]=0 >";
-    ll flow=0, f=0;
-    while (f=bfs(s, t)) {
-        flow += f;
-        ll cur = t;
-        while (cur!=s) {
-            ll pre = par[cur];
-            cap[pre][cur] -= f;
-            cap[cur][pre] += f;
-            cur = pre;
+ll dinic(ll s, ll t) {
+    // ll m = 0;
+    // for (edge: v u c) {
+    //     edges.emplace_back(v, u, c);
+    //     edges.emplace_back(u, v, 0);
+    //     adj[v].push_back(m);
+    //     adj[u].push_back(m+1);
+    //     m += 2;
+    // }
+    ll f = 0;
+    while (bfs(s, t)) {
+        fill(ptr.begin(), ptr.end(), 0);
+        while (ll p = dfs(s, t, INF)) {
+            f += p;
         }
     }
-    return flow;
+    return f;
 }
 ```
 
