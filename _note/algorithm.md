@@ -996,6 +996,14 @@ vector<ll> adj[N];
 vector<edge> edges;
 vector<ll> lev(N), ptr(N);
 
+void add_edge(ll v, ll u, ll c) {
+    ll m = edges.size();
+    adj[v].push_back(m);
+    adj[u].push_back(m+1);
+    edges.push_back({v, u, c});
+    edges.push_back({u, v, 0}); // undirected: {u, v, c}
+}
+
 bool bfs(ll s, ll t) {
     fill(lev.begin(), lev.end(), -1);
     lev[s] = 0;
@@ -1034,14 +1042,6 @@ ll dfs(ll v, ll t, ll p) {
 }
 
 ll dinic(ll s, ll t) {
-    // ll m = 0;
-    // for (edge: v u c) {
-    //     edges.emplace_back(v, u, c);
-    //     edges.emplace_back(u, v, 0);
-    //     adj[v].push_back(m);
-    //     adj[u].push_back(m+1);
-    //     m += 2;
-    // }
     ll f = 0;
     while (bfs(s, t)) {
         fill(ptr.begin(), ptr.end(), 0);
