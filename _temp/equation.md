@@ -409,6 +409,41 @@ $$
 
 ## Approximation Method / 近似法
 
+### Variational Method / 変分法
+
+$$
+\begin{aligned}
+& E_0 \leq \frac{\langle \psi | \hat{H} | \psi \rangle}{\langle \psi | \psi \rangle}
+\end{aligned}
+$$
+{: .notice--info}
+
+### WKB Approximation / WKB近似
+
+$$
+\begin{aligned}
+& \psi(x) \simeq \frac{1}{\sqrt{p(x)}} \left(
+C_1 e^{\frac{i}{\hbar}\int^x p(x')\,dx'}
++ C_2 e^{-\frac{i}{\hbar}\int^x p(x')\,dx'}
+\right) \\
+& \psi(x) \simeq \frac{1}{\sqrt{\kappa(x)}} \left(
+C_1 e^{\frac{1}{\hbar}\int^x \kappa(x')\,dx'}
++ C_2 e^{-\frac{1}{\hbar}\int^x \kappa(x')\,dx'}
+\right)
+\end{aligned}
+$$
+{: .notice--info}
+
+### Bound State and Tunneling / 束縛状態とトンネル効果
+
+$$
+\begin{aligned}
+& \int_{x_1}^{x_2} p(x)\,dx = \left(n+\frac{1}{2}\right)\pi\hbar \\
+& T = \exp\left(-\frac{2}{\hbar}\int_{x_1}^{x_2} \kappa(x)\,dx\right)
+\end{aligned}
+$$
+{: .notice--info}
+
 
 ## Perturbation Theory / 摂動論
 
