@@ -422,11 +422,11 @@ $$
 
 $$
 \begin{aligned}
-& \psi(x) \simeq \frac{1}{\sqrt{p(x)}} \left(
+& \psi(x) \approx \frac{1}{\sqrt{p(x)}} \left(
 C_1 e^{\frac{i}{\hbar}\int^x p(x')\,dx'}
 + C_2 e^{-\frac{i}{\hbar}\int^x p(x')\,dx'}
 \right) \\
-& \psi(x) \simeq \frac{1}{\sqrt{\kappa(x)}} \left(
+& \psi(x) \approx \frac{1}{\sqrt{\kappa(x)}} \left(
 C_1 e^{\frac{1}{\hbar}\int^x \kappa(x')\,dx'}
 + C_2 e^{-\frac{1}{\hbar}\int^x \kappa(x')\,dx'}
 \right)
