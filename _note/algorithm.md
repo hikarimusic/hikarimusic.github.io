@@ -1049,7 +1049,7 @@ ll dinic(ll s, ll t) {
             f += p;
         }
     }
-    return f;
+    return f; // also minimum cut
 }
 ```
 
