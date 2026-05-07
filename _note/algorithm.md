@@ -1055,93 +1055,72 @@ ll dinic(ll s, ll t) {
 
 ### Minimum-Cost Flow / 最小費用流
 ```cpp
-vector<vector<pll>> adj(N);
-vector<ll> dis(N), par(N), pot(N);
-vector<vector<ll>> cap(N, vector<ll>(N));
+struct edge {
+    ll v, u, c, w;
+};
 
-ll dijkstra(ll s, ll t, ll n) {
+vector<ll> adj[N];
+vector<edge> edges;
+vector<ll> dis(N), par_e(N), inq(N);
+
+void add_edge(ll v, ll u, ll c, ll w) {
+    ll m = edges.size();
+    adj[v].push_back(m);
+    adj[u].push_back(m+1);
+    edges.push_back({v, u, c, w});
+    edges.push_back({u, v, 0, -w});
+}
+
+bool spfa(ll s, ll t) {
     fill(dis.begin(), dis.end(), INF);
-    fill(par.begin(), par.end(), -1);
-    priority_queue<pll, vector<pll>, greater<pll>> q;
-    q.push({0, s});
+    fill(inq.begin(), inq.end(), 0);
+    queue<ll> q;
     dis[s] = 0;
+    q.push(s);
+    inq[s] = 1;
     while (!q.empty()) {
-        ll v = q.top().second;
-        ll d_v = q.top().first;
+        ll v = q.front();
         q.pop();
-        if (d_v!=dis[v])
-            continue;
-        for (pll e : adj[v]) {
-            ll to = e.first;
-            ll len = e.second;
-            if (dis[v]+len+pot[v]-pot[to]<dis[to] && cap[v][to]>0) {
-                dis[to] = dis[v]+len+pot[v]-pot[to];
-                par[to] = v;
-                q.push({dis[to], to});
+        inq[v] = 0;
+        for (ll id : adj[v]) {
+            edge e = edges[id];
+            if (e.c>0 && dis[e.v]<INF && dis[e.v]+e.w<dis[e.u]) {
+                dis[e.u] = dis[e.v] + e.w;
+                par_e[e.u] = id;
+                if (!inq[e.u]) {
+                    q.push(e.u);
+                    inq[e.u] = 1;
+                }
             }
         }
     }
-    for (ll i=0; i<n; ++i)
-        pot[i] += dis[i];
-    return pot[t];
+    return dis[t]<INF;
 }
 
-// vector<vector<ll>> adj(N, vector<ll>(N, INF));
-// vector<ll> vis(N), dis(N), par(N), pot(N);
-// vector<vector<ll>> cap(N, vector<ll>(N));
-
-// ll dijkstra(ll s, ll t, ll n) {
-//     fill(vis.begin(), vis.end(), 0);
-//     fill(dis.begin(), dis.end(), INF);
-//     fill(par.begin(), par.end(), -1);
-//     dis[s] = 0;
-//     for (ll i=0; i<n; ++i) {
-//         ll k = -1;
-//         for (ll j=0; j<n; ++j) {
-//             if (!vis[j] && (k==-1 || dis[j]<dis[k]))
-//                 k = j;
-//         }
-//         if (dis[k]==INF)
-//             return INF;
-//         vis[k] = 1;
-//         for (ll j=0; j<n; ++j) {
-//             if (dis[k]+adj[k][j]+pot[k]-pot[j]<dis[j] && cap[k][j]>0) {
-//                 dis[j] = dis[k]+adj[k][j]+pot[k]-pot[j];
-//                 par[j] = k;
-//             }
-//         }
-//     }
-//     for (ll i=0; i<n; ++i)
-//         pot[i] += dis[i];
-//     return pot[t];
-// }
-
-ll min_cost_flow(ll s, ll t, ll k, ll n) {
-    "<each edge: adj[v].pb(u,w) adj[u].pb(v,-w) >";
-    "<each edge: cap[v][u]=c cap[u][v]=0 >";
-    ll cost=0, flow=0;
-    while (flow<k) {
-        ll m_c = dijkstra(s, t, n);
-        ll m_f = k - flow;
-        if (m_c==INF)
-            return -1;
-        ll cur=t, pre=-1;
+pll solve(ll s, ll t, ll k) {
+    ll f = 0;
+    ll w = 0;
+    while (f<k) {
+        if (!spfa(s, t))
+            break;
+        ll p = k-f;
+        ll cur = t;
         while (cur!=s) {
-            pre = par[cur];
-            m_f = min(m_f, cap[pre][cur]);
-            cur = pre;
+            ll id = par_e[cur];
+            p = min(p, edges[id].c);
+            cur = edges[id].v;
         }
-        cost += m_c * m_f;
-        flow += m_f;
         cur = t;
         while (cur!=s) {
-            pre = par[cur];
-            cap[pre][cur] -= m_f;
-            cap[cur][pre] += m_f;
-            cur = pre;
+            ll id = par_e[cur];
+            edges[id].c -= p;
+            edges[id^1].c += p;
+            w += p * edges[id].w;
+            cur = edges[id].v;
         }
+        f += p;
     }
-    return cost;
+    return {f, w}; // max_flow f (<=k), min_cost w
 }
 ```
 
