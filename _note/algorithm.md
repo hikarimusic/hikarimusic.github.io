@@ -1120,7 +1120,7 @@ pll solve(ll s, ll t, ll k) {
         }
         f += p;
     }
-    return {f, w}; // max_flow f (<=k), min_cost w
+    return {f, w}; // max_flow <=k, then min_cost
 }
 ```
 
