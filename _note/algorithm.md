@@ -1126,14 +1126,16 @@ pll solve(ll s, ll t, ll k) {
 
 ### Bipartite Matching / 二部マッチング
 ```cpp
-vector<vector<ll>> adj(N1);
-vector<ll> vis(N1), mat(N2, -1);
+vector<ll> adj[N];
+vector<ll> vis(N), mat(M);
 
 bool dfs(ll v) {
+    if (vis[v])
+        return false;
     vis[v] = 1;
     for (ll u : adj[v]) {
         ll w = mat[u];
-        if (w==-1 || (!vis[w] && dfs(w))) {
+        if (w==-1 || dfs(w)) {
             mat[u] = v;
             return true;
         }
@@ -1141,14 +1143,15 @@ bool dfs(ll v) {
     return false;
 }
 
-ll bipartite(ll n) {
-    ll res = 0;
+ll solve(ll n) {
+    ll f = 0;
+    fill(mat.begin(), mat.end(), -1);
     for (ll i=0; i<n; ++i) {
         fill(vis.begin(), vis.end(), 0);
         if (dfs(i))
-            res += 1;
+            f += 1;
     }
-    return res;
+    return f;
 }
 ```
 
