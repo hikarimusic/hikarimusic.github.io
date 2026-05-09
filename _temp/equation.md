@@ -484,6 +484,79 @@ $$
 
 ## Scattering Theory / 散乱理論
 
+### Lippmann-Schwinger Equation / Lippmann-Schwinger方程式
+
+$$
+\begin{aligned}
+& |\psi^{(+)}\rangle
+= |\psi^{(0)}\rangle
++ \frac{1}{E-\hat{H}_0+i\epsilon}\hat{V}|\psi^{(+)}\rangle \\
+& \psi^{(+)}(\mathbf{r})
+= e^{i\mathbf{k}\cdot\mathbf{r}}
+-\frac{m}{2\pi\hbar^2}
+\int V(\mathbf{r}')
+\psi^{(+)}(\mathbf{r}')
+\frac{e^{ik|\mathbf{r}-\mathbf{r}'|}}
+{|\mathbf{r}-\mathbf{r}'|}
+\,d^3r'
+\end{aligned}
+$$
+{: .notice--info}
+
+### Scattering Amplitude / 散乱振幅
+
+$$
+\begin{aligned}
+& r\to\infty,\quad V(\mathbf{r})\to 0 \\
+& f(\mathbf{k}_f \leftarrow \mathbf{k}_i)
+= -\frac{m}{2\pi\hbar^2}
+\int V(\mathbf{r})
+\psi_{\mathbf{k}_i}^{(+)}(\mathbf{r})
+e^{-i\mathbf{k}_f\cdot\mathbf{r}}
+\,d^3r \\
+& \psi^{(+)}(\mathbf{r})
+= e^{i\mathbf{k}\cdot\mathbf{r}}
++ f(\theta,\phi)\frac{e^{ikr}}{r} \\
+& \frac{d\sigma}{d\Omega}
+= |f(\theta,\phi)|^2
+\end{aligned}
+$$
+{: .notice--info}
+
+### Born Approximation / Born近似
+
+$$
+\begin{aligned}
+& \psi_{\mathbf{k}_i}^{(+)}(\mathbf{r})
+\approx e^{i\mathbf{k}_i\cdot\mathbf{r}},
+\quad
+\mathbf{q}=\mathbf{k}_f-\mathbf{k}_i \\
+& f(\mathbf{q})
+= -\frac{m}{2\pi\hbar^2}
+\int V(\mathbf{r})
+e^{-i\mathbf{q}\cdot\mathbf{r}}
+\,d^3r
+\end{aligned}
+$$
+{: .notice--info}
+
+### Partial Wave / 部分波
+
+$$
+\begin{aligned}
+& V(\mathbf{r}) = V(r) \\
+& f(\theta)
+= \frac{1}{2ik}
+\sum_{\ell=0}^{\infty}
+(2\ell+1)
+\left(e^{2i\delta_\ell}-1\right)
+P_\ell(\cos\theta) \\
+& \sigma_{\mathrm{tot}}
+= \frac{4\pi}{k}\operatorname{Im} f(0)
+\end{aligned}
+$$
+{: .notice--info}
+
 
 ## Path Integral / 経路積分
 
