@@ -540,7 +540,7 @@ e^{-i\mathbf{q}\cdot\mathbf{r}}
 $$
 {: .notice--info}
 
-### Partial Wave / 部分波
+### Partial Wave Expansion / 部分波展開
 
 $$
 \begin{aligned}
