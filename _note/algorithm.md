@@ -1159,10 +1159,10 @@ ll solve(ll n) {
 
 ### Tree Diameter / 木の直径
 ```cpp
-vector<vector<ll>> adj(N);
-vector<ll> par(N);
+vector<ll> adj[N];
+vector<ll> par(N), arr;
 
-pair<ll, ll> dfs(ll v, ll d, ll p) {
+pll dfs(ll v, ll d, ll p) {
     par[v] = p;
     pair<ll, ll> res{d, v};
     for (ll u : adj[v]) {
@@ -1172,15 +1172,15 @@ pair<ll, ll> dfs(ll v, ll d, ll p) {
     return res;
 }
 
-vector<ll> tree_diameter() {
-    vector<ll> ans;
+ll solve() {
     ll s = dfs(0, 0, -1).second;
-    ll t = dfs(s, 0, -1).second;
-    while (t!=-1) {
-        ans.push_back(t);
-        t = par[t];
-    }
-    return ans;
+    ll d = dfs(s, 0, -1).first;
+    // ll t = dfs(s, 0, -1).second;
+    // while (t!=-1) {
+    //     arr.push_back(t);
+    //     t = par[t];
+    // }
+    return d;
 }
 ```
 
