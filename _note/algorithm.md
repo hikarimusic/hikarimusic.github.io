@@ -1186,53 +1186,20 @@ ll solve() {
 
 ### Tree DP / 木DP
 ```cpp
-vector<vector<ll>> adj(N);
-vector<vector<ll>> dp(N, vector<ll>(S));
+vector<ll> adj[N];
+ll dp[N][S];
 
 void dfs(ll v, ll p) {
+    "base (dp[v][s])";
     for (ll u : adj[v]) {
         if (u==p)
             continue;
         dfs(u, v);
-        dp[v][i] = "<combination of dp[u][j], ...>";
-    }
-}
-```
-
-### Tree Divide and Conquer / 木の分割統治法
-```cpp
-vector<vector<ll>> adj(N);
-vector<ll> siz(N), cen(N);
-
-void calsize(ll v, ll p) {
-    siz[v] = 1;
-    for (ll u : adj[v]) {
-        if (u==p || cen[u])
-            continue;
-        calsize(u, v);
-        siz[v] += siz[u];
-    }
-}
-
-ll centroid(ll v, ll p, ll t) {
-    for (ll u : adj[v]) {
-        if (u==p || cen[u])
-            continue;
-        if (siz[u]>t/2)
-            return centroid(u, v, t);
-    }
-    return v;
-}
-
-void rec(ll v) {
-    calsize(v, -1);
-    ll c = centroid(v, -1, siz[v]);
-    cen[c] = 1;
-    for (ll u : adj[c]) {
-        if (cen[u])
-            continue;
-        rec(u);
-        "<combine>";
+        vector<ll> tp(S);
+        for ("loop s or loop i/j")
+            tp[s] = "merge dp[v][i] and dp[u][j]";
+        for ("loop s")
+            dp[v][s] = tp[s];
     }
 }
 ```
@@ -1335,6 +1302,44 @@ ll lca(ll a, ll b) {
     if (l>r)
         swap(l, r);
     return query(0, 0, arr.size()-1, l, r);
+}
+```
+
+### Centroid Decomposition / 重心分解
+```cpp
+vector<vector<ll>> adj(N);
+vector<ll> siz(N), cen(N);
+
+void calsize(ll v, ll p) {
+    siz[v] = 1;
+    for (ll u : adj[v]) {
+        if (u==p || cen[u])
+            continue;
+        calsize(u, v);
+        siz[v] += siz[u];
+    }
+}
+
+ll centroid(ll v, ll p, ll t) {
+    for (ll u : adj[v]) {
+        if (u==p || cen[u])
+            continue;
+        if (siz[u]>t/2)
+            return centroid(u, v, t);
+    }
+    return v;
+}
+
+void rec(ll v) {
+    calsize(v, -1);
+    ll c = centroid(v, -1, siz[v]);
+    cen[c] = 1;
+    for (ll u : adj[c]) {
+        if (cen[u])
+            continue;
+        rec(u);
+        "<combine>";
+    }
 }
 ```
 
