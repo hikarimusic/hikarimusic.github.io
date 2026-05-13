@@ -1160,7 +1160,7 @@ ll solve(ll n) {
 ### Tree Diameter / 木の直径
 ```cpp
 vector<ll> adj[N];
-vector<ll> par(N), arr;
+vector<ll> par(N);
 
 pll dfs(ll v, ll d, ll p) {
     par[v] = p;
@@ -1175,11 +1175,6 @@ pll dfs(ll v, ll d, ll p) {
 ll solve() {
     ll s = dfs(0, 0, -1).second;
     ll d = dfs(s, 0, -1).first;
-    // ll t = dfs(s, 0, -1).second;
-    // while (t!=-1) {
-    //     arr.push_back(t);
-    //     t = par[t];
-    // }
     return d;
 }
 ```
@@ -1196,9 +1191,12 @@ void dfs(ll v, ll p) {
             continue;
         dfs(u, v);
         vector<ll> tp(S);
-        for ("loop s or loop i/j")
-            tp[s] = "merge dp[v][i] and dp[u][j]";
-        for ("loop s")
+        for (ll i=0; i<S; ++i) { // or siz[v]
+            for (ll j=0; j<S; ++j) { // or siz[u]
+                "update tp[s] with dp[v][i] & dp[u][j]";
+            }
+        }
+        for (ll s=0; s<S; ++s)
             dp[v][s] = tp[s];
     }
 }
