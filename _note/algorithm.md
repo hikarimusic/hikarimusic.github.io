@@ -1157,28 +1157,6 @@ ll solve(ll n) {
 
 ## Tree Algorithm / 木アルゴリズム
 
-### Tree Diameter / 木の直径
-```cpp
-vector<ll> adj[N];
-vector<ll> par(N);
-
-pll dfs(ll v, ll d, ll p) {
-    par[v] = p;
-    pair<ll, ll> res{d, v};
-    for (ll u : adj[v]) {
-        if (u!=p)
-            res = max(res, dfs(u, d+1, v));
-    }
-    return res;
-}
-
-ll solve() {
-    ll s = dfs(1, 0, -1).second;
-    ll d = dfs(s, 0, -1).first;
-    return d;
-}
-```
-
 ### Tree DP / 木DP
 ```cpp
 vector<ll> adj[N];
@@ -1200,6 +1178,46 @@ void dfs(ll v, ll p) {
             dp[v][s] = tp[s];
     }
 }
+```
+
+### Euler Tour / オイラーツアー
+
+```cpp
+vector<ll> arr;
+ll tmi[N], tmo[N], tmr;
+
+void dfs(ll v, ll p) {
+    tmi[v] = tmr++;
+    arr.push_back(v);
+    for (ll u : adj[v]) {
+        if (u!=p) {
+            dfs(u, v);
+        }
+    }
+    tmo[v] = tmr;
+}
+
+// subtree of v: arr[tmi[v]] ~ arr[tmo[v]-1]
+// v is ancestor of u: tmi[v]<=tmi[u] && tmo[u]<=tmo[v]
+```
+```cpp
+vector<ll> arr;
+ll occ[N], dep[N];
+
+void dfs(ll v, ll p, ll d) {
+    occ[v] = (ll)arr.size();
+    dep[v] = d;
+    arr.push_back(v);
+    for (ll u : adj[v]) {
+        if (u!=p) {
+            dfs(u, v, d+1);
+            arr.push_back(v);
+        }
+    }
+}
+
+// complex path from v to u: arr[occ[v]] ~ arr[occ[u]]
+// LCA of v and u: arr[occ[v]] ~ arr[occ[u]] with min depth
 ```
 
 ### Lowest Common Ancestor / 最近共通祖先
@@ -1338,6 +1356,28 @@ void rec(ll v) {
         rec(u);
         "<combine>";
     }
+}
+```
+
+### Tree Diameter / 木の直径
+```cpp
+vector<ll> adj[N];
+vector<ll> par(N);
+
+pll dfs(ll v, ll d, ll p) {
+    par[v] = p;
+    pair<ll, ll> res{d, v};
+    for (ll u : adj[v]) {
+        if (u!=p)
+            res = max(res, dfs(u, d+1, v));
+    }
+    return res;
+}
+
+ll solve() {
+    ll s = dfs(1, 0, -1).second;
+    ll d = dfs(s, 0, -1).first;
+    return d;
 }
 ```
 
