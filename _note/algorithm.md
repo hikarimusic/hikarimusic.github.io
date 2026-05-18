@@ -1359,7 +1359,7 @@ void rec(ll v) {
 }
 ```
 
-### Tree Diameter / 木の直径
+### Diameter / 直径
 ```cpp
 vector<ll> adj[N];
 vector<ll> par(N);
@@ -1377,6 +1377,11 @@ pll dfs(ll v, ll d, ll p) {
 ll solve() {
     ll s = dfs(1, 0, -1).second;
     ll d = dfs(s, 0, -1).first;
+    // ll t = dfs(s, 0, -1).second;
+    // while (t!=-1) {
+    //     arr.push_back(t);
+    //     t = par[t];
+    // }
     return d;
 }
 ```
