@@ -1277,57 +1277,61 @@ ll lca(ll a, ll b, ll l_n) {
 }
 ```
 ```cpp
-vector<vector<ll>> adj(N);
-vector<ll> arr, dep(N), occ(N, -1), seg(8*N);
+vector<ll> adj[N];
+vector<ll> arr, tree;
+ll occ[N], dep[N];
 
-void dfs(ll v, ll p, ll h) {
-    dep[v] = h;
+void dfs(ll v, ll d, ll p) {
     occ[v] = arr.size();
+    dep[v] = d;
     arr.push_back(v);
     for (ll u : adj[v]) {
-        if (u!=p)
-            dfs(u, v, h+1);
+        if (u!=p) {
+            dfs(u, d+1, v);
             arr.push_back(v);
+        }
     }
 }
 
 void build(ll v, ll tl, ll tr) {
     if (tl==tr) {
-        seg[v] = arr[tl];
+        tree[v] = arr[tl];
         return;
     }
     ll tm = (tl+tr)/2;
     build(v*2+1, tl, tm);
     build(v*2+2, tm+1, tr);
-    ll t1=seg[v*2+1], t2=seg[v*2+2];
-    seg[v] = (dep[t1]<dep[t2])?t1:t2;
+    ll t1=tree[v*2+1];
+    ll t2=tree[v*2+2];
+    tree[v] = (dep[t1]<dep[t2])?t1:t2;
 }
 
 ll query(ll v, ll tl, ll tr, ll l, ll r) {
-    if (l>tr || r<tl)
-        return -1;
-    if (l==tl && r==tr)
-        return seg[v];
+    if (tl==l && tr==r)
+        return tree[v];
     ll tm = (tl+tr)/2;
-    ll q1 = query(v*2+1, tl, tm, l, min(r, tm));
-    ll q2 = query(v*2+2, tm+1, tr, max(l, tm+1), r);
-    if (q1==-1)
-        return q2;
-    if (q2==-1)
-        return q1;
+    if (r<=tm)
+        return query(v*2+1, tl, tm, l, r);
+    if (l>tm)
+        return query(v*2+2, tm+1, tr, l, r);
+    ll q1 = query(v*2+1, tl, tm, l, tm);
+    ll q2 = query(v*2+2, tm+1, tr, tm+1, r);
     return (dep[q1]<dep[q2])?q1:q2;
 }
 
 void init(ll s) {
-    dfs(s, -1, 0);
-    build(0, 0, arr.size()-1);
+    dfs(s, 0, 0);
+    ll n = arr.size();
+    tree = vector<ll>(4*n);
+    build(0, 0, n-1);
 }
 
 ll lca(ll a, ll b) {
     ll l=occ[a], r=occ[b];
     if (l>r)
         swap(l, r);
-    return query(0, 0, arr.size()-1, l, r);
+    ll n = arr.size();
+    return query(0, 0, n-1, l, r);
 }
 ```
 
