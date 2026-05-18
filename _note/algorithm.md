@@ -592,7 +592,7 @@ void dfs(ll v) {
 }
 
 void topological_sort(ll n) {
-    for (ll i=0; i<n; ++i) {
+    for (ll i=1; i<=n; ++i) {
         if (!vis[i])
             dfs(i);
     }
@@ -604,12 +604,12 @@ vector<ll> adj[N];
 vector<ll> idg(N), arr;
 
 void topological_sort(ll n) {
-    for (ll i=0; i<n; ++i) {
+    for (ll i=1; i<=n; ++i) {
         for (ll j : adj[i])
             idg[j] += 1;
     }
     queue<ll> q;
-    for (ll i=0; i<n; ++i) {
+    for (ll i=1; i<=n; ++i) {
         if (idg[i]==0)
             q.push(i);
     }
@@ -645,7 +645,7 @@ void dfs(ll v, ll c) {
 }
 
 void solve(ll n) {
-    for (ll i=0; i<n; ++i) {
+    for (ll i=1; i<=n; ++i) {
         if (!vis[i])
             dfs(i, i);
     }
@@ -676,7 +676,7 @@ void dfs2(ll v, ll c) {
 }
 
 void solve(ll n) {
-    for (ll i=0; i<n; ++i) {
+    for (ll i=1; i<=n; ++i) {
         if (!vis[i])
             dfs1(i);
     }
@@ -786,14 +786,14 @@ void dijkstra(ll s, ll n) {
     par[s] = -1;
     for (ll i=0; i<n; ++i) {
         ll v = -1;
-        for (ll j=0; j<n; ++j) {
+        for (ll j=1; j<=n; ++j) {
             if (!vis[j] && (v==-1 || dis[j]<dis[v]))
                 v = j;
         }
         if (dis[v]==INF)
             break;
         vis[v] = 1;
-        for (ll u=0; u<n; ++u) {
+        for (ll u=1; u<=n; ++u) {
             if (adj[v][u]<INF && dis[v]+adj[v][u]<dis[u]) {
                 dis[u] = dis[v]+adj[v][u];
                 par[u] = v;
@@ -845,9 +845,9 @@ ll dis[N][N], par[N][N];
 void floyd_warshall(ll n) {
     "for edge: dis[v][u]=w, par[v][u]=v";
     "for vert: dis[v][v]=0, par[v][v]=v";
-    for (ll k=0; k<n; ++k) {
-        for (ll i=0; i<n; ++i) {
-            for (ll j=0; j<n; ++j) {
+    for (ll k=1; k<=n; ++k) {
+        for (ll i=1; i<=n; ++i) {
+            for (ll j=1; j<=n; ++j) {
                 if (dis[i][k]<INF && dis[k][j]<INF && dis[i][k]+dis[k][j]<dis[i][j]) {
                     dis[i][j] = dis[i][k] + dis[k][j];
                     par[i][j] = par[k][j];
@@ -910,7 +910,7 @@ ll prim(ll s, ll n) {
     par[s] = -1;
     for (ll i=0; i<n; ++i) {
         ll v = -1;
-        for (ll j=0; j<n; ++j) {
+        for (ll j=1; j<=n; ++j) {
             if (!vis[j] && (v==-1 || dis[j]<dis[v]))
                 v = j;
         }
@@ -918,7 +918,7 @@ ll prim(ll s, ll n) {
             return INF;
         vis[v] = 1;
         wt += dis[v];
-        for (ll j=0; j<n; ++j) {
+        for (ll j=1; j<=n; ++j) {
             if (!vis[j] && adj[v][j]<dis[j]) {
                 dis[j] = adj[v][j];
                 par[j] = v;
@@ -942,7 +942,7 @@ vector<edge> edges;
 ll par[N], siz[N];
 
 void make_set(ll n) {
-    for (ll i=0; i<n; ++i) {
+    for (ll i=1; i<=n; ++i) {
         par[i] = i;
         siz[i] = 1;
     }
@@ -1146,7 +1146,7 @@ bool dfs(ll v) {
 ll solve(ll n) {
     ll f = 0;
     fill(mat.begin(), mat.end(), -1);
-    for (ll i=0; i<n; ++i) {
+    for (ll i=1; i<=n; ++i) {
         fill(vis.begin(), vis.end(), 0);
         if (dfs(i))
             f += 1;
@@ -1173,7 +1173,7 @@ pll dfs(ll v, ll d, ll p) {
 }
 
 ll solve() {
-    ll s = dfs(0, 0, -1).second;
+    ll s = dfs(1, 0, -1).second;
     ll d = dfs(s, 0, -1).first;
     return d;
 }
