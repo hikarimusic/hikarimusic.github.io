@@ -1238,48 +1238,42 @@ void dfs(ll v, ll p, ll d) {
 
 ### Lowest Common Ancestor / 最近共通祖先
 ```cpp
-vector<vector<ll>> adj(N), par(LOG_N, vector<ll>(N, -1));
-vector<ll> dep(N);
+vector<ll> adj[N];
+ll dep[N], par[N][LogN];
 
-void dfs(ll v, ll p, ll d) {
-    par[0][v] = p;
+void dfs(ll v, ll d, ll p) {
     dep[v] = d;
+    par[v][0] = p;
     for (ll u : adj[v]) {
         if (u!=p)
-            dfs(u, v, d+1);
+            dfs(u, d+1, v);
     }
 }
 
-void init(ll n) {
-    dfs(0, -1, 0);
-    ll l_n = ll(log2(n))+1;
-    for (ll k=1; k<l_n; ++k) {
-        for (ll i=0; i<n; ++i) {
-            if (par[k-1][i]==-1)
-                par[k][i] = -1;
-            else
-                par[k][i] = par[k-1][par[k-1][i]];
-        }
+void init(ll n, ll l_n) {
+    dfs(1, 0, 0);
+    for (ll s=1; s<l_n; ++s) {
+        for (ll i=1; i<=n; ++i)
+            par[i][s] = par[par[i][s-1]][s-1];
     }
 }
 
-ll lca(ll a, ll b, ll n) {
+ll lca(ll a, ll b, ll l_n) {
     if (dep[a]<dep[b])
         swap(a, b);
-    ll l_n = ll(log2(double(n)))+1;
-    for (ll k=0; k<l_n; ++k) {
-        if (((dep[a]-dep[b])>>k) & 1)
-            a = par[k][a];
+    for (ll s=0; s<l_n; ++s) {
+        if ((dep[a]-dep[b])&(1<<s))
+            a = par[a][s];
     }
     if (a==b)
         return a;
     for (ll k=l_n-1; k>=0; --k) {
-        if (par[k][a]!=par[k][b]) {
-            a = par[k][a];
-            b = par[k][b];
+        if (par[a][k]!=par[b][k]) {
+            a = par[a][k];
+            b = par[b][k];
         }
     }
-    return par[0][a];
+    return par[a][0];
 }
 ```
 ```cpp
