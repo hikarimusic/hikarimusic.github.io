@@ -1168,13 +1168,29 @@ void dfs(ll v, ll p) {
         if (u==p)
             continue;
         dfs(u, v);
+        "update dp[v][i] with dp[u][j]";
+    }
+}
+```
+```cpp
+vector<ll> adj[N];
+ll siz[N], dp[N][S];
+
+void dfs(ll v, ll p) {
+    siz[v] = 1;
+    "base (dp[v][s])";
+    for (ll u : adj[v]) {
+        if (u==p)
+            continue;
+        dfs(u, v);
         vector<ll> tp(S);
-        for (ll i=0; i<S; ++i) { // or siz[v]
-            for (ll j=0; j<S; ++j) { // or siz[u]
+        for (ll i=0; i<siz[v]; ++i) {
+            for (ll j=0; j<siz[u]; ++j) {
                 "update tp[s] with dp[v][i] & dp[u][j]";
             }
         }
-        for (ll s=0; s<S; ++s)
+        siz[v] += siz[u];
+        for (ll s=0; s<siz[v]; ++s)
             dp[v][s] = tp[s];
     }
 }
@@ -1217,7 +1233,7 @@ void dfs(ll v, ll p, ll d) {
 }
 
 // complex path from v to u: arr[occ[v]] ~ arr[occ[u]]
-// LCA of v and u: arr[occ[v]] ~ arr[occ[u]] with min depth
+// LCA of v and u: arr[occ[v]] ~ arr[occ[u]] with min dep
 ```
 
 ### Lowest Common Ancestor / 最近共通祖先
