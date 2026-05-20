@@ -1337,8 +1337,8 @@ ll lca(ll a, ll b) {
 
 ### Centroid Decomposition / 重心分解
 ```cpp
-vector<vector<ll>> adj(N);
-vector<ll> siz(N), cen(N);
+vector<ll> adj[N];
+ll siz[N], cen[N];
 
 void calsize(ll v, ll p) {
     siz[v] = 1;
@@ -1360,15 +1360,14 @@ ll centroid(ll v, ll p, ll t) {
     return v;
 }
 
-void rec(ll v) {
+void build(ll v) {
     calsize(v, -1);
     ll c = centroid(v, -1, siz[v]);
     cen[c] = 1;
     for (ll u : adj[c]) {
         if (cen[u])
             continue;
-        rec(u);
-        "<combine>";
+        build(u);
     }
 }
 ```
