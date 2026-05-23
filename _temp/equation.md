@@ -656,3 +656,109 @@ $$
 
 
 ## Dirac Equation / Dirac方程式
+
+### Relativistic Wave Equation / 相対論的波動方程式
+
+$$
+\begin{aligned}
+& \hat{H}^2 = \hat{p}^{\,2}c^2 + m^2c^4 \\
+& \left(\frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2c^2}{\hbar^2}\right)\psi = 0 \\
+& \hat{H} = c\boldsymbol{\alpha}\cdot\hat{\mathbf{p}} + \beta mc^2 \\
+& \left(i\hbar\gamma^\mu\partial_\mu - mc\right)\psi = 0
+\end{aligned}
+$$
+{: .notice--info}
+
+### Dirac Representation / Dirac表示
+
+$$
+\begin{aligned}
+& \{\gamma^\mu,\gamma^\nu\} = 2g^{\mu\nu}\mathbb{I} \\
+& \gamma^0 =
+\begin{pmatrix}
+\mathbb{I} & 0 \\
+0 & -\mathbb{I}
+\end{pmatrix},
+\qquad
+\gamma^i =
+\begin{pmatrix}
+0 & \sigma^i \\
+-\sigma^i & 0
+\end{pmatrix} \\
+& \sigma_x =
+\begin{pmatrix}
+0 & 1 \\
+1 & 0
+\end{pmatrix},
+\qquad
+\sigma_y =
+\begin{pmatrix}
+0 & -i \\
+i & 0
+\end{pmatrix},
+\qquad
+\sigma_z =
+\begin{pmatrix}
+1 & 0 \\
+0 & -1
+\end{pmatrix}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Plane Wave Solution / 平面波解
+
+$$
+\begin{aligned}
+& \psi(x) = u(p)e^{-\frac{i}{\hbar}p_\mu x^\mu}
+\qquad
+\psi(x) = v(p)e^{\frac{i}{\hbar}p_\mu x^\mu} \\
+& u(p) =
+\begin{pmatrix}
+\chi^s \\
+\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\chi^s
+\end{pmatrix}
+\qquad
+v(p) =
+\begin{pmatrix}
+\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\eta^s \\
+\eta^s
+\end{pmatrix} \\
+& E = \sqrt{p^2c^2 + m^2c^4}
+\qquad
+-E = -\sqrt{p^2c^2 + m^2c^4}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Non-Relativistic Limit / 非相対論的極限
+
+$$
+\begin{aligned}
+& \psi = e^{-\frac{i}{\hbar}mc^2t}
+\begin{pmatrix}
+\varphi \\
+\chi
+\end{pmatrix} \\
+& \chi \approx
+\frac{\boldsymbol{\sigma}\cdot(\hat{\mathbf{p}}-q\mathbf{A})}{2mc}\varphi \\
+& i\hbar\frac{\partial\varphi}{\partial t}
+=
+\left[
+\frac{(\hat{\mathbf{p}}-q\mathbf{A})^2}{2m}
++ q\Phi
+-\frac{q\hbar}{2m}\boldsymbol{\sigma}\cdot\mathbf{B}
+\right]\varphi
+\end{aligned}
+$$
+{: .notice--info}
+
+### Conserved Current / 保存カレント
+
+$$
+\begin{aligned}
+& j^\mu = c\psi^\dagger\gamma^0\gamma^\mu\psi \\
+& \partial_\mu j^\mu = 0
+\end{aligned}
+$$
+{: .notice--info}
