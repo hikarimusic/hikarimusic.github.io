@@ -678,8 +678,8 @@ $$
 \begin{pmatrix}
 \mathbb{I} & 0 \\
 0 & -\mathbb{I}
-\end{pmatrix},
-\qquad
+\end{pmatrix}
+\quad
 \gamma^i =
 \begin{pmatrix}
 0 & \sigma^i \\
@@ -689,14 +689,14 @@ $$
 \begin{pmatrix}
 0 & 1 \\
 1 & 0
-\end{pmatrix},
-\qquad
+\end{pmatrix}
+\quad
 \sigma_y =
 \begin{pmatrix}
 0 & -i \\
 i & 0
-\end{pmatrix},
-\qquad
+\end{pmatrix}
+\quad
 \sigma_z =
 \begin{pmatrix}
 1 & 0 \\
@@ -711,22 +711,19 @@ $$
 $$
 \begin{aligned}
 & \psi(x) = u(p)e^{-\frac{i}{\hbar}p_\mu x^\mu}
-\qquad
-\psi(x) = v(p)e^{\frac{i}{\hbar}p_\mu x^\mu} \\
+&& \psi(x) = v(p)e^{\frac{i}{\hbar}p_\mu x^\mu} \\
 & u(p) =
 \begin{pmatrix}
 \chi^s \\
 \frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\chi^s
 \end{pmatrix}
-\qquad
-v(p) =
+&& v(p) =
 \begin{pmatrix}
 \frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\eta^s \\
 \eta^s
 \end{pmatrix} \\
 & E = \sqrt{p^2c^2 + m^2c^4}
-\qquad
--E = -\sqrt{p^2c^2 + m^2c^4}
+&& -E = -\sqrt{p^2c^2 + m^2c^4}
 \end{aligned}
 $$
 {: .notice--info}
