@@ -1401,6 +1401,7 @@ ll solve() {
 
 # Math / 数学
 
+### Mod Library / Modライブラリ
 ```cpp
 ll madd(ll a, ll b) {
     return (a % MOD + b % MOD) % MOD;
@@ -2258,7 +2259,7 @@ void build(ll x) {
 
 ## Technique / テクニック
 
-### Two Pollers / しゃくとり法
+### Two Pointers / しゃくとり法
 ```cpp
 vector<ll> arr(N);
 
