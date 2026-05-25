@@ -1401,6 +1401,39 @@ ll solve() {
 
 # Math / 数学
 
+```cpp
+ll madd(ll a, ll b) {
+    return (a % MOD + b % MOD) % MOD;
+}
+
+ll mmin(ll a, ll b) {
+    return ((a % MOD - b % MOD) + MOD) % MOD;
+}
+
+ll mmul(ll a, ll b) {
+    return ((a % MOD) * (b % MOD)) % MOD;
+}
+
+ll mpow(ll x, ll n) {
+    ll res = 1;
+    while (n>0) {
+        if (n&1)
+            res = res * x % MOD;
+        x = x * x % MOD;
+        n >>= 1;
+    }
+    return res;
+}
+
+ll minv(ll a) {
+    return mpow(a, MOD-2);
+}
+
+ll mdiv(ll a, ll b) {
+    return mmul(a%MOD, minv(b%MOD));
+}
+```
+
 ## Divisor / 約数
 
 ### Euclidean Algorithm / ユークリッドの互除法
@@ -1640,54 +1673,6 @@ ll mod_binom(ll n, ll k, ll m) {
 }
 ```
 
-### Mod Library / Modライブラリ
-```cpp
-long long madd(long long a, long long b) {
-    return (a % MOD + b % MOD) % MOD;
-}
-
-long long mmin(long long a, long long b) {
-    return ((a % MOD - b % MOD) + MOD) % MOD;
-}
-
-long long mmul(long long a, long long b) {
-    return ((a % MOD) * (b % MOD)) % MOD;
-}
-
-long long extgcd(long long a, long long b, long long& x, long long& y) {
-    if (b == 0) {
-        x = 1;
-        y = 0;
-        return a;
-    }
-    long long g, x1, y1;
-    g = extgcd(b, a % b, x1, y1);
-    x = y1;
-    y = x1 - y1 * (a / b);
-    return g;
-}
-
-long long minv(long long a) {
-    long long x, y;
-    extgcd(a%MOD, MOD, x, y);
-    return ((x % MOD) + MOD) % MOD;
-}
-
-long long mdiv(long long a, long long b) {
-    return mmul(a%MOD, minv(b%MOD));
-}
-
-long long mpow(long long x, long long n) {
-    long long res = 1;
-    while (n>0) {
-        if (n&1)
-            res = res * x % MOD;
-        x = x * x % MOD;
-        n >>= 1;
-    }
-    return res;
-}
-```
 
 ## Linear Algebra / 線型代数
 
