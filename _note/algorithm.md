@@ -2263,14 +2263,20 @@ void build(ll x) {
 ```cpp
 ll arr[N];
 
-void solve(ll n) {
+void solve(ll n, ll t) {
     ll s = 0;
     for (ll l=0, r=0; r<n; ++r) {
-        "increase s with arr[r]";
-        for (; "s>target"; ++l) {
-            "decrease s with arr[l]";
+        s += arr[r];
+        for (;l<=r && s>t; ++l) {
+            s -= arr[l];
         }
-        "[l, r] with s<=target";
+        for (;l<=r && s==t; ++l) {
+            "[l, r] with s=t";
+            s -= arr[l];
+        }
+        if (l<=r) {
+            "[l, r] with s<t";
+        }
     }
 }
 ```
