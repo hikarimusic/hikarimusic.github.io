@@ -2261,17 +2261,16 @@ void build(ll x) {
 
 ### Two Pointers / しゃくとり法
 ```cpp
-vector<ll> arr(N);
+ll arr[N];
 
 void solve(ll n) {
-    ll i="<>", j="<>";
-    while ("<>") {
-        while ("<>") {
-            "<modify i>";
-            "<update>":
+    ll s = 0;
+    for (ll l=0, r=0; r<n; ++r) {
+        "increase s with arr[r]";
+        for (; "s>target"; ++l) {
+            "decrease s with arr[l]";
         }
-        "<modify j>";
-        "<update>":
+        "[l, r] with s<=target";
     }
 }
 ```
