@@ -2263,21 +2263,17 @@ void build(ll x) {
 ```cpp
 ll arr[N];
 
-void solve(ll n, ll t) {
+ll solve(ll n, ll t) {
+    ll ans = 0;
     ll s = 0;
     for (ll l=0, r=0; r<n; ++r) {
         s += arr[r];
         for (;l<=r && s>t; ++l) {
             s -= arr[l];
         }
-        for (;l<=r && s==t; ++l) {
-            "[l, r] with s=t";
-            s -= arr[l];
-        }
-        if (l<=r) {
-            "[l, r] with s<t";
-        }
+        "[l, r] with s<=t";
     }
+    return ans;
 }
 ```
 
