@@ -1771,8 +1771,6 @@ vector<ll> multiply(vector<ll> a, vector<ll> b) {
 }
 ```
 
-# Others / その他の
-
 ## Geometry / 幾何
 
 ### Geometry Library / 幾何ライブラリ
@@ -2116,6 +2114,9 @@ void rec(ll l, ll r) {
 
 sort(ps.begin(), ps.end(), compare_x);
 ```
+
+
+# Others / その他の
 
 ## String / 文字列
 
