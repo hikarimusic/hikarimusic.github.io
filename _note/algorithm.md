@@ -1401,26 +1401,34 @@ ll solve() {
 
 # Math / 数学
 
+## Modular Arithmetic / 合同算術
+
 ### Mod Library / Modライブラリ
 ```cpp
 ll madd(ll a, ll b) {
-    return (a % MOD + b % MOD) % MOD;
+    a = (a % MOD + MOD) % MOD;
+    b = (b % MOD + MOD) % MOD;
+    return (a + b) % MOD;
 }
 
-ll mmin(ll a, ll b) {
-    return ((a % MOD - b % MOD) + MOD) % MOD;
+ll msub(ll a, ll b) {
+    a = (a % MOD + MOD) % MOD;
+    b = (b % MOD + MOD) % MOD;
+    return (a - b + MOD) % MOD;
 }
 
 ll mmul(ll a, ll b) {
-    return ((a % MOD) * (b % MOD)) % MOD;
+    a = (a % MOD + MOD) % MOD;
+    b = (b % MOD + MOD) % MOD;
+    return (a * b) % MOD;
 }
 
-ll mpow(ll x, ll n) {
+ll mpow(ll a, ll n) {
     ll res = 1;
     while (n>0) {
         if (n&1)
-            res = res * x % MOD;
-        x = x * x % MOD;
+            res = mmul(res, a);
+        a = mmul(a, a);
         n >>= 1;
     }
     return res;
@@ -1431,11 +1439,75 @@ ll minv(ll a) {
 }
 
 ll mdiv(ll a, ll b) {
-    return mmul(a%MOD, minv(b%MOD));
+    return mmul(a, minv(b));
 }
 ```
 
-## Divisor / 約数
+### Binary Exponentiation / 繰り返し二乗法
+```cpp
+ll binpow(ll x, ll n, ll m) {
+    ll res = 1;
+    while (n>0) {
+        if (n&1)
+            res = res * x % m;
+        x = x * x % m;
+        n >>= 1;
+    }
+    return res;
+}
+```
+
+### Modular Inverse / モジュラ逆数
+```cpp
+ll inv(ll a, ll m) { // m is prime
+    return binpow(a, m-2, m);
+}
+```
+```cpp
+ll inv(ll a, ll m) { // a m coprime
+    ll x, y;
+    extgcd(a, m, x, y);
+    return ((x % m) + m) % m;
+}
+```
+
+### Binomial Coefficient / 二項係数
+```cpp
+ll fac[N], inv[N], finv[N];
+
+void init(ll n, ll m) {
+    fac[0] = inv[0] = finv[0] = 1;
+    fac[1] = inv[1] = finv[1] = 1;
+    for (ll i=2; i<=n; ++i) {
+        fac[i] = fac[i-1] * i % m;
+        inv[i] = m - inv[m%i] * (m/i) % m;
+        finv[i] = finv[i-1] * inv[i] % m;
+    }
+}
+
+ll binom(ll n, ll k, ll m) {
+    if (k<0 || k>n)
+        return 0;
+    return fac[n] * (finv[n-k] * finv[k] % m) % m; 
+}
+```
+```cpp
+ll binom(ll n, ll k, ll m) {
+    if (k<0 || k>n)
+        return 0;
+    k = min(k, n-k);
+    ll a = 1;
+    ll b = 1;
+    for (ll i=1; i<=k; ++i) {
+        a = a * (n-i+1) % m;
+        b = b * i % m;
+    }
+    return a * binpow(b, m-2, m) % m;
+}
+```
+
+
+## Divisor & Prime / 約数と素数
 
 ### Euclidean Algorithm / ユークリッドの互除法
 ```cpp
@@ -1443,6 +1515,10 @@ ll gcd(ll a, ll b) {
     if (b==0) 
         return a;
     return gcd(b, a%b);
+}
+
+ll lcm(ll a, ll b) {
+    return a / gcd(a, b) * b;
 }
 ```
 ```cpp
@@ -1476,59 +1552,9 @@ vector<ll> divisor(ll n) {
 }
 ```
 ```cpp
-vector<vector<ll>> res(N);
-
-void divisors(ll n) {
-    for (ll i=1; i<=n; ++i) {
-        for (ll j=i; j<=n; j+=i) {
-            res[j].push_back(i);
-        }
-    }
-}
-```
-
-### Prime Factorization / 素因数分解
-```cpp
-vector<pll> factor(ll n) {
-    vector<pll> res;
-    for (ll i=2; i*i<=n; ++i) {
-        if (n%i!=0)
-            continue;
-        ll p = 0;
-        while (n%i==0) {
-            n /= i;
-            p += 1;
-        }
-        res.push_back({i, p});
-    }
-    if (n!=1)
-        res.push_back({n, 1});
-    return res;
-}
-```
-
-### Euler's Totient Function / オイラー関数
-```cpp
-ll euler_phi(ll n) {
-    ll res = n;
-    for (ll i=2; i*i<=n; ++i) {
-        if (n%i==0) {
-            res = res * (i-1) / i;
-            while (n%i==0)
-                n /= i;
-        }
-    }
-    if (n!=1)
-        res = res * (n-1) / n;
-    return res;
-}
-```
-
-## Prime / 素数
-
-### Primality Test / 素数判定
-```cpp
-bool isPrime(ll n) {
+bool prime(ll n) {
+    if (n<2)
+        return false;
     for (ll i=2; i*i<=n; ++i) {
         if (n%i==0)
             return false;
@@ -1537,51 +1563,61 @@ bool isPrime(ll n) {
 }
 ```
 
-### Sieve of Eratosthenes / エラトステネスの篩
+### Prime Factorization / 素因数分解
 ```cpp
-vector<bool> isPrime(N, 1);
-
-void sieve(ll n) {
+vector<pll> factor(ll n) {
+    vector<pll> res;
     for (ll i=2; i*i<=n; ++i) {
-        if (!isPrime[i])
-            continue;
-        for (ll j=i*i; j<=n; j+=i)
-            isPrime[j] = 0;
-    }
-}
-```
-
-### Segmented Sieve / 区分篩
-```cpp
-vector<bool> isPrime_1(N1, 1), isPrime_2(N2, 1);
-
-void segment_sieve(ll l, ll r) {
-    for (ll i=2; i*i<=r; ++i) {
-        if (isPrime_1[i]) {
-            for (ll j=i*i; j*j<=r; j+=i)
-                isPrime_1[j] = 0;
-            for (ll j=max(i*i, (l+i-1)/i*i); j<=r; j+=i)
-                isPrime_2[j-l] = 0;
+        if (n%i==0) {
+            ll p = 0;
+            while (n%i==0) {
+                n /= i;
+                p += 1;
+            }
+            res.push_back({i, p});
         }
     }
-}
-```
-
-## Exponentiation / べき乗
-
-### Fast Exponentiation / 高速累乗
-```cpp
-ll binpow(ll x, ll n, ll mod) {
-    ll res = 1;
-    while (n>0) {
-        if (n&1)
-            res = res * x % mod;
-        x = x * x % mod;
-        n >>= 1;
-    }
+    if (n!=1)
+        res.push_back({n, 1});
     return res;
 }
 ```
+```cpp
+ll phi(ll n) {
+    ll res = n;
+    for (ll i=2; i*i<=n; ++i) {
+        if (n%i==0) {
+            while (n%i==0)
+                n /= i;
+            res -= res / i;
+        }
+    }
+    if (n!=1)
+        res -= res / n;
+    return res;
+}
+```
+
+
+### Sieve of Eratosthenes / エラトステネスの篩
+```cpp
+bool prime[N];
+
+void sieve(ll n) {
+    prime[0] = prime[1] = false;
+    for (ll i=2; i<=n; ++i)
+        prime[i] = true;
+    for (ll i=2; i*i<=n; ++i) {
+        if (!prime[i])
+            continue;
+        for (ll j=i*i; j<=n; j+=i)
+            prime[j] = false;
+    }
+}
+```
+
+
+## Linear Algebra / 線型代数
 
 ### Matric Exponentiation / 行列累乗
 ```cpp
@@ -1612,70 +1648,6 @@ mat matpow(mat A, ll n, ll m) {
     return B;
 }
 ```
-
-## Mod / 剰余
-
-### Inverse / 逆元
-```cpp
-ll mod_inv(ll a, ll m) {
-    ll x, y;
-    extgcd(a, m, x, y);
-    return ((x % m) + m) % m;
-}
-```
-
-### Factorial / 階乗
-```cpp
-vector<ll> fac(M, 1);
-
-void init(ll m) {
-    for (ll i=1; i<m; ++i)
-        fac[i] = fac[i-1] * i % m;
-}
-
-ll mod_fac(ll n, ll m, ll& e) {
-    e = 0;
-    if (n==0)
-        return 1;
-    ll r = mod_fac(n/m, m, e);
-    e += n/m;
-    if (n/m%2==1)
-        return (m-fac[n%m]) * r % m;
-    else
-        return fac[n%m] * r % m;
-}
-```
-
-### Binary Coefficient / 二項係数
-```cpp
-ll mod_binom(ll n, ll k, ll m) {
-    if (n<0 || k<0 || n<k)
-        return 0;
-    ll e1, e2, e3;
-    ll a1=mod_fac(n, m, e1), a2=mod_fac(n-k, m, e2), a3=mod_fac(k, m, e3);
-    if (e1>e2+e3)
-        return 0;
-    return a1 * mod_inv(a2*a3%m, m) % m;
-}
-```
-```cpp
-vector<ll> fac(N, 1), inv(N, 1), finv(N, 1);
-
-void init(ll n, ll m) {
-    for (ll i=2; i<=n; ++i) {
-        fac[i] = fac[i-1] * i % m;
-        inv[i] = m - inv[m%i] * (m/i) % m;
-        finv[i] = finv[i-1] * inv[i] % m;
-    }
-}
-
-ll mod_binom(ll n, ll k, ll m) {
-    return fac[n] * (finv[n-k] * finv[k] % m) % m; 
-}
-```
-
-
-## Linear Algebra / 線型代数
 
 ### Linear Congruence Equation / 線形合同式
 ```cpp
