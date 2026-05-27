@@ -1771,7 +1771,7 @@ vector<ll> multiply(vector<ll> a, vector<ll> b) {
 }
 ```
 
-## Geometry / 幾何
+## Geometry / 幾何学
 
 ### Geometry Library / 幾何ライブラリ
 ```cpp
@@ -2118,6 +2118,114 @@ sort(ps.begin(), ps.end(), compare_x);
 
 # Others / その他の
 
+## Technique / テクニック
+
+### Two Pointers / しゃくとり法
+```cpp
+ll arr[N];
+
+ll solve(ll n, ll t) {
+    ll ans = 0;
+    ll s = 0;
+    for (ll l=0, r=0; r<n; ++r) {
+        s += arr[r];
+        for (;l<=r && s>t; ++l) {
+            s -= arr[l];
+        }
+        "[l, r] with s<=t";
+    }
+    return ans;
+}
+```
+
+### Meet in the Middle / 半分全列挙
+```cpp
+void solve(ll n) {
+    vector<ll> s;
+    for ("<1st half>")
+        s.push_back("<>");
+    sort(s.begin(), s.end());
+    for ("<2nd half>")
+        "<binary search>";
+}
+```
+
+### Coordinate Compression / 座標圧縮
+```cpp
+ll compress(ll n, vector<ll> &x1, vector<ll> &x2, ll w) {
+    vector<ll> xs;
+    for (ll i=0; i<n; ++i) {
+        for (ll d=-1; d<=1; ++d) {
+            ll t1=x1[i]+d, t2=x2[i]+d;
+            if (0<=t1 && t1<w)
+                xs.push_back(t1);
+            if (0<=t2 && t2<w)
+                xs.push_back(t2);
+        }
+    }
+    sort(xs.begin(), xs.end());
+    xs.erase(unique(xs.begin(), xs.end()), xs.end());
+    for (ll i=0; i<n; ++i) {
+        x1[i] = find(xs.begin(), xs.end(), x1[i]) - xs.begin();
+        x2[i] = find(xs.begin(), xs.end(), x2[i]) - xs.begin();
+    }
+    return xs.size();
+}
+```
+
+### Binary Lifting / ダブリング
+```cpp
+vector<vector<ll>> nex(LOG_K, vector<ll>(N));
+
+void build(ll n, ll k) {
+    for (ll i=0; i<n; ++i)
+        nex[0][i] = "<next position>";
+    for (ll i=1; i<ll(log2(k))+1; ++i) {
+        for (ll j=0; j<n; ++j)
+            nex[i][j] = nex[i-1][nex[i-1][j]];
+    }
+}
+
+ll query(ll p, ll d) {
+    for (ll i=0; d>0; ++i, d>>=1) {
+        if (d&1)
+            p = nex[i][p];
+    }
+    return p;
+}
+```
+
+### Sqrt Decomposition / 平方分割
+```cpp
+vector<ll> arr(N), buc(N);
+
+void build(ll n) {
+    ll s = (ll)ceil(sqrt(n));
+    for (ll i=0; i<s; ++i) {
+        for (ll j=i*s; j<(i+1)*s && j<n; ++j)
+            buc[i] = "<merge buc[i] and arr[j]>";
+    }
+}
+
+ll query(ll l, ll r, ll n) {
+    ll s = (ll)ceil(sqrt(n));
+    ll q=0, bl=l/s, br=r/s;
+    if (bl==br) {
+        for (ll i=l; i<=r; ++i)
+            q = "<merge q and arr[i]>";
+        return q;
+    }
+    for (ll i=l; i<(bl+1)*s; ++i)
+        q = "<merge q and arr[i]>";
+    for (ll i=bl+1; i<br; ++i)
+        q = "<merge q and buc[i]>";
+    for (ll i=br*s; i<=r; ++i)
+        q = "<merge q and arr[i]>";
+    return q;
+}
+```
+
+
 ## String / 文字列
 
 ### Rolling Hash / ローリングハッシュ
@@ -2227,112 +2335,5 @@ void build(ll x) {
             g += 1;
         gru[i] = g;
     }
-}
-```
-
-## Technique / テクニック
-
-### Two Pointers / しゃくとり法
-```cpp
-ll arr[N];
-
-ll solve(ll n, ll t) {
-    ll ans = 0;
-    ll s = 0;
-    for (ll l=0, r=0; r<n; ++r) {
-        s += arr[r];
-        for (;l<=r && s>t; ++l) {
-            s -= arr[l];
-        }
-        "[l, r] with s<=t";
-    }
-    return ans;
-}
-```
-
-### Meet in the Middle / 半分全列挙
-```cpp
-void solve(ll n) {
-    vector<ll> s;
-    for ("<1st half>")
-        s.push_back("<>");
-    sort(s.begin(), s.end());
-    for ("<2nd half>")
-        "<binary search>";
-}
-```
-
-### Coordinate Compression / 座標圧縮
-```cpp
-ll compress(ll n, vector<ll> &x1, vector<ll> &x2, ll w) {
-    vector<ll> xs;
-    for (ll i=0; i<n; ++i) {
-        for (ll d=-1; d<=1; ++d) {
-            ll t1=x1[i]+d, t2=x2[i]+d;
-            if (0<=t1 && t1<w)
-                xs.push_back(t1);
-            if (0<=t2 && t2<w)
-                xs.push_back(t2);
-        }
-    }
-    sort(xs.begin(), xs.end());
-    xs.erase(unique(xs.begin(), xs.end()), xs.end());
-    for (ll i=0; i<n; ++i) {
-        x1[i] = find(xs.begin(), xs.end(), x1[i]) - xs.begin();
-        x2[i] = find(xs.begin(), xs.end(), x2[i]) - xs.begin();
-    }
-    return xs.size();
-}
-```
-
-### Binary Lifting / ダブリング
-```cpp
-vector<vector<ll>> nex(LOG_K, vector<ll>(N));
-
-void build(ll n, ll k) {
-    for (ll i=0; i<n; ++i)
-        nex[0][i] = "<next position>";
-    for (ll i=1; i<ll(log2(k))+1; ++i) {
-        for (ll j=0; j<n; ++j)
-            nex[i][j] = nex[i-1][nex[i-1][j]];
-    }
-}
-
-ll query(ll p, ll d) {
-    for (ll i=0; d>0; ++i, d>>=1) {
-        if (d&1)
-            p = nex[i][p];
-    }
-    return p;
-}
-```
-
-### Sqrt Decomposition / 平方分割
-```cpp
-vector<ll> arr(N), buc(N);
-
-void build(ll n) {
-    ll s = (ll)ceil(sqrt(n));
-    for (ll i=0; i<s; ++i) {
-        for (ll j=i*s; j<(i+1)*s && j<n; ++j)
-            buc[i] = "<merge buc[i] and arr[j]>";
-    }
-}
-
-ll query(ll l, ll r, ll n) {
-    ll s = (ll)ceil(sqrt(n));
-    ll q=0, bl=l/s, br=r/s;
-    if (bl==br) {
-        for (ll i=l; i<=r; ++i)
-            q = "<merge q and arr[i]>";
-        return q;
-    }
-    for (ll i=l; i<(bl+1)*s; ++i)
-        q = "<merge q and arr[i]>";
-    for (ll i=bl+1; i<br; ++i)
-        q = "<merge q and buc[i]>";
-    for (ll i=br*s; i<=r; ++i)
-        q = "<merge q and arr[i]>";
-    return q;
 }
 ```
