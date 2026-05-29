@@ -1629,6 +1629,26 @@ void sieve(ll n) {
     }
 }
 ```
+```cpp
+vector<ll> lp(N), pr;
+
+void sieve(ll n) {
+    for (ll i=2; i<=n; ++i) {
+        if (lp[i]==0) {
+            lp[i] = i;
+            pr.push_back(i);
+        }
+        for (ll j=0; j<(ll)pr.size() && pr[j]*i<=n; ++j) {
+            lp[i*pr[j]] = pr[j];
+            if (pr[j]==lp[i])
+                break;
+        }
+    }
+}
+
+// is prime: lp[i]==i
+// factorize: while (x>1) x/=lp[x]
+```
 
 
 ## Linear Algebra / 線型代数
