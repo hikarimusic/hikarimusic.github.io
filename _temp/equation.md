@@ -288,8 +288,8 @@ $$
 
 $$
 \begin{aligned}
-& [\hat{J}_i, \hat{J}_j] = i\hbar \epsilon_{ijk} \hat{J}_k \quad [\hat{\mathbf{J}}^2, \hat{J}_i] = 0 \\
-& \hat{J}_+ = \hat{J}_x + i\hat{J}_y \quad \hat{J}_- = \hat{J}_x - i\hat{J}_y \\
+& [\hat{J}_i, \hat{J}_j] = i\hbar \epsilon_{ijk} \hat{J}_k, \quad [\hat{\mathbf{J}}^2, \hat{J}_i] = 0 \\
+& \hat{J}_+ = \hat{J}_x + i\hat{J}_y, \quad \hat{J}_- = \hat{J}_x - i\hat{J}_y \\
 & \hat{J}_{\pm}|j,m\rangle = \hbar\sqrt{j(j+1) - m(m \pm 1)} |j, m \pm 1\rangle \\
 & \hat{\mathbf{J}}^2|j,m\rangle = \hbar^2 j(j+1)|j,m\rangle, \quad j=0, \frac{1}{2}, 1, \dots \\
 & \hat{J}_z|j,m\rangle = \hbar m|j,m\rangle, \quad m=-j, -j+1, \dots, j
@@ -316,10 +316,10 @@ $$
 $$
 \begin{aligned}
 & \hat{\mathbf{S}} = \frac{\hbar}{2} \boldsymbol{\sigma} \to [\hat{S}_i, \hat{S}_j] = i\hbar \epsilon_{ijk} \hat{S}_k\\
-& \hat{S}_x = \frac{\hbar}{2} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \quad \hat{S}_y = \frac{\hbar}{2} \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix} \quad \hat{S}_z = \frac{\hbar}{2} \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \\
+& \hat{S}_x = \frac{\hbar}{2} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \hat{S}_y = \frac{\hbar}{2} \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad \hat{S}_z = \frac{\hbar}{2} \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \\
 & \hat{\mathbf{S}}^2|s,m\rangle = \hbar^2 s(s+1)|s,m\rangle, \quad s=\frac{1}{2} \\
 & \hat{S}_z|s,m\rangle = \hbar m|s,m\rangle, \quad m=-\frac{1}{2}, \frac{1}{2} \\
-& \hat{H} = -\gamma \hat{\mathbf{S}} \cdot \mathbf{B} \quad \omega_L = \gamma B
+& \hat{H} = -\gamma \hat{\mathbf{S}} \cdot \mathbf{B}, \quad \omega_L = \gamma B
 \end{aligned}
 $$
 {: .notice--info}
@@ -341,24 +341,30 @@ $$
 
 ## 3D System / 三次元系
 
-### Radial Equation / 動径方程式
+### Central Potential / 中心力ポテンシャル
 
 $$
 \begin{aligned}
-& \psi(r,\theta,\phi) = R(r)Y_l^m(\theta,\phi) \\
-& u(r) = rR(r) \\
-& -\frac{\hbar^2}{2m}\frac{d^2u}{dr^2} + \left[V(r) + \frac{\hbar^2 l(l+1)}{2mr^2}\right]u = Eu
+& -\frac{\hbar^2}{2m}\nabla^2\psi(\mathbf{r}) + V(\mathbf{r})\psi(\mathbf{r})
+= E\psi(\mathbf{r}) \\
+& V(\mathbf{r}) = V(r), \quad \psi(\mathbf{r}) = R(r)Y_l^m(\theta,\phi), \quad u(r) = rR(r) \\
+& -\frac{\hbar^2}{2m}\frac{d^2u(r)}{dr^2} + \left[V(r) + \frac{\hbar^2 l(l+1)}{2mr^2}\right]u(r) = Eu(r)
 \end{aligned}
 $$
 {: .notice--info}
 
-### Free Particle / 自由粒子
+### Infinite Spherical Well / 無限球形井戸
 
 $$
 \begin{aligned}
-& V(r) = 0 \\
-& \psi_{klm}(r, \theta, \phi) = \sqrt{\frac{2k^2}{\pi}} j_l(kr) Y_{l}^{m}(\theta, \phi) \\
-& E = \frac{\hbar^2 k^2}{2m}
+& V(r) =
+\begin{cases}
+0, & r < a \\
+\infty, & r \geq a
+\end{cases} \\
+& \psi_{nlm}(r,\theta,\phi) = \frac{\sqrt{2}}{a^{3/2}\left|j_{l+1}(\alpha_{nl})\right|} j_l(k_{nl}r)Y_l^m(\theta,\phi) \\
+& j_l(\alpha_{nl})=0, \quad k_{nl} = \frac{\alpha_{nl}}{a} \\
+& E_{nl} = \frac{\hbar^2 k_{nl}^2}{2m}, \quad n = 1,2,3,\dots, \quad l = 0,1,2,\dots \\
 \end{aligned}
 $$
 {: .notice--info}
@@ -367,9 +373,10 @@ $$
 
 $$
 \begin{aligned}
-& V(r) = \frac{1}{2} m \omega^2 r^2 \\
-& E_n = \hbar \omega \left( n + \frac{3}{2} \right), \quad n = 0, 1, 2, \dots \\
-& d(n) = \frac{1}{2}(n+1)(n+2)
+& V(r) = \frac{1}{2}m\omega^2 r^2 \\
+& \psi_{n_x n_y n_z}(x,y,z) = \psi_{n_x}(x)\psi_{n_y}(y)\psi_{n_z}(z) \\
+& N = n_x+n_y+n_z, \quad g_N = \frac{(N+1)(N+2)}{2} \\
+& E_N = \hbar\omega\left(N+\frac{3}{2}\right), \quad N = 0,1,2,\dots
 \end{aligned}
 $$
 {: .notice--info}
@@ -379,11 +386,9 @@ $$
 $$
 \begin{aligned}
 & V(r) = -\frac{e^2}{4\pi\epsilon_0 r} \\
-& a_0 = \frac{4\pi\epsilon_0\hbar^2}{me^2} \quad \rho = \frac{r}{na_0} \\
-& \psi_{nlm}(r,\theta,\phi) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n(n+l)!}} e^{-\rho} (2\rho)^l L_{n-l-1}^{2l+1}(2\rho) Y_l^m(\theta,\phi) \\
-& E_n = -\frac{me^4}{32\pi^2\epsilon_0^2\hbar^2}\frac{1}{n^2}, \quad n=1,2,3,\dots \\
-& L^2 = \hbar^2 l(l+1), \quad l=0,1,\dots,n-1 \\
-& L_z = \hbar m, \quad m=-l,-l+1,\dots,l
+& \psi_{nlm}(r,\theta,\phi) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n[(n+l)!]}} e^{-\rho} (2\rho)^l L_{n-l-1}^{2l+1}(2\rho) Y_l^m(\theta,\phi) \\
+& a_0 = \frac{4\pi\epsilon_0\hbar^2}{me^2}, \quad \rho = \frac{r}{na_0} \\
+& E_n = -\frac{me^4}{2(4\pi\varepsilon_0)^2\hbar^2}\frac{1}{n^2}, \quad n=1,2,3,\dots \\
 \end{aligned}
 $$
 {: .notice--info}
@@ -676,13 +681,12 @@ $$
 
 $$
 \begin{aligned}
-& \{\gamma^\mu,\gamma^\nu\} = 2g^{\mu\nu}\mathbb{I} \\
-& \gamma^0 =
+& \{\gamma^\mu,\gamma^\nu\} = 2g^{\mu\nu}\mathbb{I}, \quad \gamma^0 =
 \begin{pmatrix}
 \mathbb{I} & 0 \\
 0 & -\mathbb{I}
 \end{pmatrix}
-\quad
+,\quad
 \gamma^i =
 \begin{pmatrix}
 0 & \sigma^i \\
@@ -693,13 +697,13 @@ $$
 0 & 1 \\
 1 & 0
 \end{pmatrix}
-\quad
+,\quad
 \sigma_y =
 \begin{pmatrix}
 0 & -i \\
 i & 0
 \end{pmatrix}
-\quad
+,\quad
 \sigma_z =
 \begin{pmatrix}
 1 & 0 \\
@@ -713,19 +717,19 @@ $$
 
 $$
 \begin{aligned}
-& \psi(x) = u(p)e^{-\frac{i}{\hbar}p_\mu x^\mu}
+& \psi(x) = u(p)e^{-\frac{i}{\hbar}p_\mu x^\mu},
 && \psi(x) = v(p)e^{\frac{i}{\hbar}p_\mu x^\mu} \\
 & u(p) =
 \begin{pmatrix}
 \chi^s \\
 \frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\chi^s
-\end{pmatrix}
+\end{pmatrix},
 && v(p) =
 \begin{pmatrix}
 \frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\eta^s \\
 \eta^s
 \end{pmatrix} \\
-& E = \sqrt{p^2c^2 + m^2c^4}
+& E = \sqrt{p^2c^2 + m^2c^4},
 && -E = -\sqrt{p^2c^2 + m^2c^4}
 \end{aligned}
 $$
