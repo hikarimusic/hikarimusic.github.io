@@ -292,45 +292,45 @@ void union_set(ll a, ll b) {
 
 ### Prefix Sum / 累積和
 ```cpp
-ll arr[N], sum[N];
+ll arr[N], pre[N];
 
 void build(ll n) {
     // for (l~r: k) {
-    //     sum[l] += k;
-    //     sum[r+1] -= k;
+    //     pre[l] += k;
+    //     pre[r+1] -= k;
     // }
     for (ll i=1; i<=n; ++i) {
-        sum[i] = sum[i-1] + arr[i];
-        // sum[i] += sum[i-1];
+        pre[i] = pre[i-1] + arr[i];
+        // pre[i] += pre[i-1];
     }
 }
 
 ll query(ll l, ll r) {
-    return sum[r]-sum[l-1];
-    // return sum[p];
+    return pre[r]-pre[l-1];
+    // return pre[p];
 }
 ```
 ```cpp
-ll arr[H][W], sum[H][W];
+ll arr[H][W], pre[H][W];
 
 void build(ll h, ll w) {
     // for ("x1~x2, y1~y2: k") {
-    //     sum[x1][y1] += k;
-    //     sum[x2+1][y1] -= k;
-    //     sum[x1][y2+1] -= k;
-    //     sum[x2+1][y2+1] += k;
+    //     pre[x1][y1] += k;
+    //     pre[x2+1][y1] -= k;
+    //     pre[x1][y2+1] -= k;
+    //     pre[x2+1][y2+1] += k;
     // }
     for (ll i=1; i<=h; ++i) {
         for (ll j=1; j<=w; ++j) {
-            sum[i][j] = sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1] + arr[i][j];
-            // sum[i][j] += sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1];
+            pre[i][j] = pre[i-1][j] + pre[i][j-1] - pre[i-1][j-1] + arr[i][j];
+            // pre[i][j] += pre[i-1][j] + pre[i][j-1] - pre[i-1][j-1];
         }
     }
 }
 
 ll query(ll x1, ll y1, ll x2, ll y2) {
-    return sum[x2][y2]-sum[x1-1][y2]-sum[x2][y1-1]+sum[x1-1][y1-1];
-    // return sum[x][y];
+    return pre[x2][y2]-pre[x1-1][y2]-pre[x2][y1-1]+pre[x1-1][y1-1];
+    // return pre[x][y];
 }
 ```
 
