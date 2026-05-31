@@ -20,9 +20,9 @@ Templates of Algorithm
 ll arr[N];
 
 void search(ll n) {
-    for (ll s=0; s<(1<<n); ++s) {
+    for (ll s=0; s<(1LL<<n); ++s) {
         for (ll i=0; i<n; ++i) {
-            if (s&(1<<i))
+            if (s&(1LL<<i))
                 "arr[i]...";
         }
     }
@@ -146,14 +146,14 @@ ll rec(ll l, ll r) {
 ### Bit DP / ビットDP
 ```cpp
 ll arr[N];
-ll dp[1<<N][N]; // fill -1
+ll dp[2^N][N]; // fill -1
 
-"base (dp[1<<i][i], dp[s][0])";
+"base (dp[1LL<<i][i], dp[s][0])";
 
 ll rec(ll s, ll v) {
     if (dp[s][v]!=-1)
         return dp[s][v];
-    "update dp[s][v] with rec(s^(1<<v), i)";
+    "update dp[s][v] with rec(s^(1LL<<v), i)";
     return dp[s][v];
 }
 ```
@@ -1171,6 +1171,33 @@ ll solve(ll n) {
 
 ## Tree Algorithm / 木アルゴリズム
 
+### Tree Diameter / 木の直径
+```cpp
+vector<ll> adj[N];
+vector<ll> par(N);
+
+pll dfs(ll v, ll d, ll p) {
+    par[v] = p;
+    pair<ll, ll> res{d, v};
+    for (ll u : adj[v]) {
+        if (u!=p)
+            res = max(res, dfs(u, d+1, v));
+    }
+    return res;
+}
+
+ll solve() {
+    ll s = dfs(1, 0, -1).second;
+    ll d = dfs(s, 0, -1).first;
+    // ll t = dfs(s, 0, -1).second;
+    // while (t!=-1) {
+    //     arr.push_back(t);
+    //     t = par[t];
+    // }
+    return d;
+}
+```
+
 ### Tree DP / 木DP
 ```cpp
 vector<ll> adj[N];
@@ -1275,8 +1302,8 @@ void build(ll n, ll l_n) {
 ll lca(ll a, ll b, ll l_n) {
     if (dep[a]<dep[b])
         swap(a, b);
-    for (ll s=0; s<l_n; ++s) {
-        if ((dep[a]-dep[b])&(1<<s))
+    for (ll s=l_n-1; s>=0; --s) {
+        if ((dep[a]-dep[b])&(1LL<<s))
             a = par[a][s];
     }
     if (a==b)
@@ -1289,11 +1316,13 @@ ll lca(ll a, ll b, ll l_n) {
     }
     return par[a][0];
 }
+
+// dis(a, b): dep[a]+dep[b]-2*dep[lca(a, b)]
 ```
 ```cpp
-vector<ll> adj[N];
-vector<ll> arr, tree;
-ll occ[N], dep[N];
+vector<ll> adj[N], arr;
+ll dep[N], occ[N];
+ll lg[2*N], st[2*N][LogN+1];
 
 void dfs(ll v, ll d, ll p) {
     occ[v] = arr.size();
@@ -1307,46 +1336,34 @@ void dfs(ll v, ll d, ll p) {
     }
 }
 
-void build(ll v, ll tl, ll tr) {
-    if (tl==tr) {
-        tree[v] = arr[tl];
-        return;
-    }
-    ll tm = (tl+tr)/2;
-    build(v*2+1, tl, tm);
-    build(v*2+2, tm+1, tr);
-    ll t1=tree[v*2+1];
-    ll t2=tree[v*2+2];
-    tree[v] = (dep[t1]<dep[t2])?t1:t2;
-}
-
-ll query(ll v, ll tl, ll tr, ll l, ll r) {
-    if (tl==l && tr==r)
-        return tree[v];
-    ll tm = (tl+tr)/2;
-    if (r<=tm)
-        return query(v*2+1, tl, tm, l, r);
-    if (l>tm)
-        return query(v*2+2, tm+1, tr, l, r);
-    ll q1 = query(v*2+1, tl, tm, l, tm);
-    ll q2 = query(v*2+2, tm+1, tr, tm+1, r);
-    return (dep[q1]<dep[q2])?q1:q2;
-}
-
-void init(ll s) {
+void build(ll s) {
     dfs(s, 0, 0);
-    ll n = arr.size();
-    tree = vector<ll>(4*n);
-    build(0, 0, n-1);
+    ll m = arr.size();
+    lg[1] = 0;
+    for (ll i=2; i<=m; ++i)
+        lg[i] = lg[i/2]+1;
+    for (ll i=0; i<m; ++i)
+        st[i][0] = arr[i];
+    for (ll j=1; j<=lg[m]; ++j) {
+        for (ll i=0; i+(1LL<<j)<=m; ++i) {
+            ll v1 = st[i][j-1];
+            ll v2 = st[i+(1LL<<(j-1))][j-1];
+            st[i][j] = (dep[v1]<dep[v2])?v1:v2;
+        }
+    }
 }
 
 ll lca(ll a, ll b) {
     ll l=occ[a], r=occ[b];
     if (l>r)
         swap(l, r);
-    ll n = arr.size();
-    return query(0, 0, n-1, l, r);
+    ll k = lg[r-l+1];
+    ll v1 = st[l][k];
+    ll v2 = st[r-(1LL<<k)+1][k];
+    return (dep[v1]<dep[v2])?v1:v2;
 }
+
+// dis(a, b): dep[a]+dep[b]-2*dep[lca(a, b)]
 ```
 
 ### Centroid Decomposition / 重心分解
@@ -1386,32 +1403,6 @@ void build(ll v) {
 }
 ```
 
-### Diameter / 直径
-```cpp
-vector<ll> adj[N];
-vector<ll> par(N);
-
-pll dfs(ll v, ll d, ll p) {
-    par[v] = p;
-    pair<ll, ll> res{d, v};
-    for (ll u : adj[v]) {
-        if (u!=p)
-            res = max(res, dfs(u, d+1, v));
-    }
-    return res;
-}
-
-ll solve() {
-    ll s = dfs(1, 0, -1).second;
-    ll d = dfs(s, 0, -1).first;
-    // ll t = dfs(s, 0, -1).second;
-    // while (t!=-1) {
-    //     arr.push_back(t);
-    //     t = par[t];
-    // }
-    return d;
-}
-```
 
 # Math / 数学
 
@@ -2234,22 +2225,22 @@ ll query(ll p, ll d) {
 ll arr[N];
 ll lg[N], st[N][LogN];
 
-void build(ll n, ll l_n) {
+void build(ll n) {
     lg[1] = 0;
     for (ll i=2; i<=n; ++i)
         lg[i] = lg[i/2]+1;
     for (ll i=0; i<n; ++i)
         st[i][0] = arr[i];
-    for (ll j=1; j<l_n; ++j) {
-        for (ll i=0; i+(1<<j)<=n; ++i) {
-            st[i][j] = min(st[i][j-1], st[i+(1<<(j-1))][j-1]);
+    for (ll j=1; j<=lg[n]; ++j) {
+        for (ll i=0; i+(1LL<<j)<=n; ++i) {
+            st[i][j] = min(st[i][j-1], st[i+(1LL<<(j-1))][j-1]);
         }
     }
 }
 
 ll query(ll l, ll r) {
     ll k = lg[r-l+1];
-    return min(st[l][k], st[r-(1<<k)+1][k]);
+    return min(st[l][k], st[r-(1LL<<k)+1][k]);
 }
 ```
 
