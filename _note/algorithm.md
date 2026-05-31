@@ -2229,6 +2229,30 @@ ll query(ll p, ll d) {
 }
 ```
 
+### Sparse Table / スパーステーブル
+```cpp
+ll arr[N];
+ll lg[N], st[N][LogN];
+
+void build(ll n, ll l_n) {
+    lg[1] = 0;
+    for (ll i=2; i<=n; ++i)
+        lg[i] = lg[i/2]+1;
+    for (ll i=0; i<n; ++i)
+        st[i][0] = arr[i];
+    for (ll j=1; j<l_n; ++j) {
+        for (ll i=0; i+(1<<j)<=n; ++i) {
+            st[i][j] = min(st[i][j-1], st[i+(1<<(j-1))][j-1]);
+        }
+    }
+}
+
+ll query(ll l, ll r) {
+    ll k = lg[r-l+1];
+    return min(st[l][k], st[r-(1<<k)+1][k]);
+}
+```
+
 ### Sqrt Decomposition / 平方分割
 ```cpp
 vector<ll> arr(N), buc(N);
