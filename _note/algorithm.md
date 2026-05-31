@@ -1253,9 +1253,6 @@ void dfs(ll v, ll p) {
     }
     tmo[v] = tmr;
 }
-
-// subtree of v: arr[tmi[v]] ~ arr[tmo[v]-1]
-// v is ancestor of u: tmi[v]<=tmi[u] && tmo[u]<=tmo[v]
 ```
 ```cpp
 vector<ll> arr;
@@ -1272,9 +1269,6 @@ void dfs(ll v, ll p, ll d) {
         }
     }
 }
-
-// complex path from v to u: arr[occ[v]] ~ arr[occ[u]]
-// LCA of v and u: arr[occ[v]] ~ arr[occ[u]] with min dep
 ```
 
 ### Lowest Common Ancestor / 最近共通祖先
@@ -1316,8 +1310,6 @@ ll lca(ll a, ll b, ll l_n) {
     }
     return par[a][0];
 }
-
-// dis(a, b): dep[a]+dep[b]-2*dep[lca(a, b)]
 ```
 ```cpp
 vector<ll> adj[N], arr;
@@ -1362,8 +1354,6 @@ ll lca(ll a, ll b) {
     ll v2 = st[r-(1LL<<k)+1][k];
     return (dep[v1]<dep[v2])?v1:v2;
 }
-
-// dis(a, b): dep[a]+dep[b]-2*dep[lca(a, b)]
 ```
 
 ### Centroid Decomposition / 重心分解
