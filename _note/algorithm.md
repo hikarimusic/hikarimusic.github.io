@@ -1264,7 +1264,7 @@ void dfs(ll v, ll d, ll p) {
     }
 }
 
-void init(ll n, ll l_n) {
+void build(ll n, ll l_n) {
     dfs(1, 0, 0);
     for (ll s=1; s<l_n; ++s) {
         for (ll i=1; i<=n; ++i)
