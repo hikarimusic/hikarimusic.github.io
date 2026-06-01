@@ -2153,6 +2153,26 @@ ll solve(ll n, ll t) {
 }
 ```
 
+### Coordinate Compression / 座標圧縮
+```cpp
+vector<ll> xs;
+unordered_map<ll, ll> id;
+
+void solve() {
+    for ("segment [l, r)") {
+        xs.push_back(l);
+        xs.push_back(r);
+    }
+    sort(xs.begin(), xs.end());
+    xs.erase(unique(xs.begin(), xs.end()), xs.end());
+    for (ll i=0; i<(ll)xs.size(); ++i)
+        id[xs[i]] = i;
+    for (ll i=0; i+1<(ll)xs.size(); ++i) {
+        "compressed [xs[i], xs[i+1])";
+    }
+}
+```
+
 ### Meet in the Middle / 半分全列挙
 ```cpp
 void solve(ll n) {
@@ -2162,29 +2182,6 @@ void solve(ll n) {
     sort(s.begin(), s.end());
     for ("<2nd half>")
         "<binary search>";
-}
-```
-
-### Coordinate Compression / 座標圧縮
-```cpp
-ll compress(ll n, vector<ll> &x1, vector<ll> &x2, ll w) {
-    vector<ll> xs;
-    for (ll i=0; i<n; ++i) {
-        for (ll d=-1; d<=1; ++d) {
-            ll t1=x1[i]+d, t2=x2[i]+d;
-            if (0<=t1 && t1<w)
-                xs.push_back(t1);
-            if (0<=t2 && t2<w)
-                xs.push_back(t2);
-        }
-    }
-    sort(xs.begin(), xs.end());
-    xs.erase(unique(xs.begin(), xs.end()), xs.end());
-    for (ll i=0; i<n; ++i) {
-        x1[i] = find(xs.begin(), xs.end(), x1[i]) - xs.begin();
-        x2[i] = find(xs.begin(), xs.end(), x2[i]) - xs.begin();
-    }
-    return xs.size();
 }
 ```
 
