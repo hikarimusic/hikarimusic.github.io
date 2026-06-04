@@ -2022,6 +2022,46 @@ $$
 $$
 {: .notice--info}
 
+$$
+\begin{aligned}
+[\hat{J}^2,\hat{J}_z] &= [\hat{J}_x^2,\hat{J}_z]+[\hat{J}_y^2,\hat{J}_z]+[\hat{J}_z^2,\hat{J}_z] \\
+&= \hat{J}_x[\hat{J}_x,\hat{J}_z]+[\hat{J}_x,\hat{J}_z]\hat{J}_x+\hat{J}_y[\hat{J}_y,\hat{J}_z]+[\hat{J}_y,\hat{J}_z]\hat{J}_y \\
+&= \hat{J}_x(-i\hbar\hat{J}_y)+(-i\hbar\hat{J}_y)\hat{J}_x+\hat{J}_y(i\hbar\hat{J}_x)+(i\hbar\hat{J}_x)\hat{J}_y \\
+&= 0
+\end{aligned} \\
+\hat{J}^2|j,m\rangle = \hbar^2 j(j+1)|j,m\rangle,\quad \hat{J}_z|j,m\rangle = \hbar m|j,m\rangle \\
+\begin{aligned}
+[\hat{J}^2,\hat{J}_{\pm}] &= [\hat{J}^2,\hat{J}_x]\pm i[\hat{J}^2,\hat{J}_y] = 0
+\end{aligned} \\
+\begin{aligned}
+\hat{J}^2\hat{J}_{\pm}|j,m\rangle &= \hat{J}_{\pm}\hat{J}^2|j,m\rangle = \hbar^2 j(j+1)\hat{J}_{\pm}|j,m\rangle
+\end{aligned} \\
+\begin{aligned}
+[\hat{J}_z,\hat{J}_{\pm}] &= [\hat{J}_z,\hat{J}_x]\pm i[\hat{J}_z,\hat{J}_y] \\
+&= i\hbar\hat{J}_y \pm i(-i\hbar\hat{J}_x) \\
+&= \pm \hbar\hat{J}_{\pm}
+\end{aligned} \\
+\begin{aligned}
+\hat{J}_z\hat{J}_{\pm}|j,m\rangle &= \hat{J}_{\pm}\hat{J}_z|j,m\rangle \pm \hbar\hat{J}_{\pm}|j,m\rangle \\
+&= \hbar(m\pm 1)\hat{J}_{\pm}|j,m\rangle
+\end{aligned} \\
+\hat{J}_{\pm}|j,m\rangle = C_{\pm}|j,m\pm 1\rangle \\
+\begin{aligned}
+|C_{\pm}|^2 &= \langle j,m|\hat{J}_{\pm}^{\dagger}\hat{J}_{\pm}|j,m\rangle \\
+&= \langle j,m|\hat{J}_x^2+\hat{J}_y^2\pm i[\hat{J}_x,\hat{J}_y]|j,m\rangle \\
+&= \langle j,m|\hat{J}^2-\hat{J}_z^2\mp\hbar\hat{J}_z|j,m\rangle \\
+&= \hbar^2 j(j+1)-\hbar^2 m^2 \mp \hbar^2 m
+\end{aligned} \\
+C_{\pm} = \hbar\sqrt{j(j+1)-m(m\pm 1)} \\
+\langle j,m|\hat{J}^2-\hat{J}_z^2|j,m\rangle = \langle j,m|\hat{J}_x^2+\hat{J}_y^2|j,m\rangle \geq 0 \\
+\hbar^2[j(j+1)-m^2]\geq 0,\quad m_{\min}\leq m\leq m_{\max} \\
+\hat{J}_+|j,m_{\max}\rangle = 0,\quad j(j+1)-m_{\max}(m_{\max}+1)=0 \\
+\hat{J}_-|j,m_{\min}\rangle = 0,\quad j(j+1)-m_{\min}(m_{\min}-1)=0 \\
+m_{\max}=j,\quad m_{\min}=-j,\quad m=-j,-j+1,\ldots,j \\
+j-(-j)\in\mathbb{Z}_{\geq 0},\quad j=0,\frac{1}{2},1,\ldots
+$$
+{: .notice--primary}
+
 ### Orbital Angular Momentum / 軌道角運動量
 
 $$
@@ -2031,10 +2071,36 @@ $$
 & \hat{L}_z = -i\hbar\frac{\partial}{\partial\phi} \\
 & \hat{\mathbf{L}}^2|l,m\rangle = \hbar^2 l(l+1)|l,m\rangle, \quad l=0, 1, 2, \dots \\
 & \hat{L}_z|l,m\rangle = \hbar m|l,m\rangle, \quad m=-l, -l+1, \dots, l \\
-& Y_l^m = (-1)^m \sqrt{\frac{(2l+1)}{4\pi}\frac{(l-m)!}{(l+m)!}} P_l^m(\cos\theta) e^{im\phi}
+& Y_l^m(\theta, \phi) = (-1)^m \sqrt{\frac{(2l+1)}{4\pi}\frac{(l-m)!}{(l+m)!}} P_l^m(\cos\theta) e^{im\phi}
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}
+[\hat{L}_x,\hat{L}_y] &= -\hbar^2\left(y\frac{\partial}{\partial x}-x\frac{\partial}{\partial y}\right)=i\hbar\hat{L}_z \\
+[\hat{L}_y,\hat{L}_z] &= -\hbar^2\left(z\frac{\partial}{\partial y}-y\frac{\partial}{\partial z}\right)=i\hbar\hat{L}_x \\
+[\hat{L}_z,\hat{L}_x] &= -\hbar^2\left(x\frac{\partial}{\partial z}-z\frac{\partial}{\partial x}\right)=i\hbar\hat{L}_y 
+\end{aligned} \\
+\begin{aligned}
+\hat{L}^2 &= -\hbar^2\left(\mathbf{r}\times\nabla\right)^2 \\
+&= -\hbar^2\left[r^2\nabla^2-\left(\mathbf{r}\cdot\nabla\right)^2-\mathbf{r}\cdot\nabla\right] \\
+&= -\hbar^2\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right)+\frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] 
+\end{aligned} \\
+\hat{L}_z = -i\hbar\left(x\frac{\partial}{\partial y}-y\frac{\partial}{\partial x}\right)=-i\hbar\frac{\partial}{\partial\phi} \\
+\hat{L}_zY_l^m = -i\hbar\frac{\partial Y_l^m}{\partial\phi}=\hbar mY_l^m \rightarrow Y_l^m(\theta,\phi)=\Theta_l^m(\theta)e^{im\phi} \\
+Y_l^m(\theta,\phi+2\pi) = Y_l^m(\theta,\phi) \rightarrow 
+e^{i2\pi m}=1,\quad m\in\mathbb{Z} \\
+\begin{aligned}
+\hat{L}^2Y_l^m &= -\hbar^2\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial\Theta_l^m}{\partial\theta}\right)e^{im\phi}-\frac{m^2}{\sin^2\theta}\Theta_l^me^{im\phi}\right] \\
+&= \hbar^2l(l+1)\Theta_l^me^{im\phi}
+\end{aligned} \\
+\frac{1}{\sin\theta}\frac{d}{d\theta}\left(\sin\theta\frac{d\Theta_l^m}{d\theta}\right)+\left[l(l+1)-\frac{m^2}{\sin^2\theta}\right]\Theta_l^m = 0 \\
+x = \cos\theta,\quad \frac{d}{d\theta}=-\sin\theta\frac{d}{dx} \\
+(1-x^2)\frac{d^2\Theta_l^m}{dx^2}-2x\frac{d\Theta_l^m}{dx}+\left[l(l+1)-\frac{m^2}{1-x^2}\right]\Theta_l^m = 0 \\
+\Theta_l^m(x) = AP_l^m(x) \rightarrow Y_l^m(\theta,\phi)=AP_l^m(\cos\theta)e^{im\phi}
+$$
+{: .notice--primary}
 
 ### Spin Angular Momentum / スピン角運動量
 
@@ -2049,6 +2115,32 @@ $$
 $$
 {: .notice--info}
 
+$$
+\begin{aligned}
+[\hat{S}_x,\hat{S}_y] &= \frac{\hbar^2}{4}\left[\begin{pmatrix} i & 0 \\ 0 & -i \end{pmatrix}-\begin{pmatrix} -i & 0 \\ 0 & i \end{pmatrix}\right] = i\hbar\hat{S}_z \\
+[\hat{S}_y,\hat{S}_z] &= \frac{\hbar^2}{4}\left[\begin{pmatrix} 0 & i \\ i & 0 \end{pmatrix}-\begin{pmatrix} 0 & -i \\ -i & 0 \end{pmatrix}\right] = i\hbar\hat{S}_x \\
+[\hat{S}_z,\hat{S}_x] &= \frac{\hbar^2}{4}\left[\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}-\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}\right] = i\hbar\hat{S}_y
+\end{aligned} \\
+\begin{aligned}
+\hat{S}_z \begin{pmatrix} 1 \\ 0 \end{pmatrix} &= \frac{\hbar}{2}\begin{pmatrix} 1 \\ 0 \end{pmatrix}, \quad m=\frac{1}{2} \\
+\hat{S}_z \begin{pmatrix} 0 \\ 1 \end{pmatrix} &= -\frac{\hbar}{2}\begin{pmatrix} 0 \\ 1 \end{pmatrix}, \quad m=-\frac{1}{2} 
+\end{aligned} \\
+\hat{H}=-\gamma\hat{\mathbf{S}}\cdot\mathbf{B}, \quad
+\mathbf{B} = B\hat{\mathbf{z}} \rightarrow \hat{H}=-\gamma\hat{S}_zB \\
+\hat{H}\ket{\uparrow}=-\frac{\hbar\gamma B}{2}\ket{\uparrow}, \quad \hat{H}\ket{\downarrow}=\frac{\hbar\gamma B}{2}\ket{\downarrow} \\
+\begin{aligned}
+\ket{\psi(t)} &= e^{-\frac{i}{\hbar}\hat{H}t}\left(a\ket{\uparrow}+b\ket{\downarrow}\right) \\
+&= ae^{i\frac{\gamma B}{2}t}\ket{\uparrow}+be^{-i\frac{\gamma B}{2}t}\ket{\downarrow} \\
+&= e^{i\frac{\gamma B}{2}t}\left(a\ket{\uparrow}+be^{-i\gamma Bt}\ket{\downarrow}\right) \\
+\end{aligned} \\
+\begin{aligned}
+\langle S_x\rangle &= \bra{\psi(t)}\hat{S}_x\ket{\psi(t)} = \hbar |ab|\cos(\gamma Bt+\phi) \\
+\langle S_y\rangle &= \bra{\psi(t)}\hat{S}_y\ket{\psi(t)} = -\hbar |ab|\sin(\gamma Bt+\phi) \\
+\langle S_z\rangle &= \bra{\psi(t)}\hat{S}_z\ket{\psi(t)} = \frac{\hbar}{2}\left(|a|^2-|b|^2\right)
+\end{aligned}
+$$
+{: .notice--primary}
+
 ### Addition of Angular Momentum / 角運動量の合成
 
 $$
@@ -2062,6 +2154,34 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}
+[\hat{J}_i,\hat{J}_j]
+&=[\hat{J}_{1i},\hat{J}_{1j}]+[\hat{J}_{1i},\hat{J}_{2j}]+[\hat{J}_{2i},\hat{J}_{1j}]+[\hat{J}_{2i},\hat{J}_{2j}] \\
+&=i\hbar \hat{J}_{1k}+0+0+i\hbar \hat{J}_{2k} =i\hbar \hat{J}_k
+\end{aligned} \\
+\hat{J}^2|j,m\rangle=\hbar^2j(j+1)|j,m\rangle,\quad \hat{J}_z|j,m\rangle=\hbar m|j,m\rangle \\
+\hat{J}_z|j_1,m_1\rangle|j_2,m_2\rangle=\hbar(m_1+m_2)|j_1,m_1\rangle|j_2,m_2\rangle \\
+m_{\max}=m_{1\max}+m_{2\max}=j_1+j_2 \\
+\sum_{m_{\min}}^{m_{\max}}(2j+1)=(2j_1+1)(2j_2+1) \\
+m_{\min}=\sqrt{j_1^2+j_2^2-2j_1j_2}=|j_1-j_2| \\
+\begin{aligned}
+\hat{J}_z|j_1,j_2;j,m\rangle
+&=\hbar m|j_1,j_2;j,m\rangle \\
+&=\hbar m\sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}|j_1,m_1\rangle|j_2,m_2\rangle \\
+\hat{J}_z|j_1,j_2;j,m\rangle&=(\hat{J}_{1z}+\hat{J}_{2z})|j_1,j_2;j,m\rangle \\
+&=\sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}(\hbar m_1+\hbar m_2)|j_1,m_1\rangle|j_2,m_2\rangle
+\end{aligned} \\
+\sum_{m_1,m_2}\hbar(m-m_1-m_2)C^{jm}_{j_1m_1j_2m_2}|j_1,m_1\rangle|j_2,m_2\rangle=0 \\
+C^{jm}_{j_1m_1j_2m_2}\neq0\rightarrow m = m_1-m_2 \\
+\begin{aligned}
+\langle j_1,j_2;j,m|j_1,j_2;j',m'\rangle &=\sum_{m_1,m_2}\sum_{m_1',m_2'}C^{jm}_{j_1m_1j_2m_2}C^{j'm'}_{j_1m_1'j_2m_2'}\delta_{m_1,m_1'}\delta_{m_2,m_2'} \\
+&=\sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}C^{j'm'}_{j_1m_1j_2m_2}\quad (C\in\mathbb{R}) \\
+&=\delta_{jj'}\delta_{mm'}
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## 3D System / 三次元系
