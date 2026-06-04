@@ -27,7 +27,7 @@ $$
 
 $$
 \frac{d\mathbf{P}}{dt} = \mathbf{F} \\
-\begin{aligned}
+\begin{aligned}{}
 & \mathbf{P} = m\mathbf{v} && \mathbf{F} \\
 & \mathbf{P} = M\mathbf{V} && \mathbf{F} = \sum_{\alpha}\mathbf{F}_\alpha^{(e)}
 \end{aligned}
@@ -36,12 +36,12 @@ $$
 
 $$
 \frac{d\mathbf{P}}{dt} = \mathbf{F} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{P} &= \sum_\alpha m_\alpha\left(\mathbf{V} + \mathbf{v'}_\alpha\right) \\
 &= \sum_\alpha m_\alpha\mathbf{V} + \sum_\alpha m_\alpha\mathbf{v'}_\alpha \\
 &= M\mathbf{V}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{F} &= \sum_\alpha\left(\mathbf{F}_\alpha^{(e)} + \sum_{\beta\neq\alpha}\mathbf{F}_{\alpha\beta}\right) \\
 &= \sum_\alpha\mathbf{F}_{\alpha}^{(e)} + \sum_{\beta>\alpha}\left(\mathbf{F}_{\alpha\beta} + \mathbf{F}_{\beta\alpha}\right) \\
 &= \sum_\alpha\mathbf{F}_\alpha^{(e)}
@@ -53,7 +53,7 @@ $$
 
 $$
 \frac{d\mathbf{M}}{dt} = \mathbf{N} \\
-\begin{aligned}
+\begin{aligned}{}
 & \mathbf{M} = m\mathbf{r}\times\mathbf{v} && \mathbf{N} = \mathbf{r}\times\mathbf{F} \\
 & \mathbf{M} = M\mathbf{R}\times\mathbf{V} + \sum_\alpha m_\alpha\mathbf{r'}_\alpha\times\mathbf{v'}_\alpha && \mathbf{N} = \sum_\alpha\mathbf{r}_\alpha\times\mathbf{F}_\alpha^{(e)}
 \end{aligned}
@@ -62,13 +62,13 @@ $$
 
 $$
 \frac{d\mathbf{M}}{dt} = m\mathbf{v}\times\mathbf{v} + m\mathbf{r}\times\mathbf{a} = \mathbf{r}\times\mathbf{F} = \mathbf{N} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{M} &= \sum_\alpha m_\alpha\left(\mathbf{R}+\mathbf{r'}_\alpha\right)\times\left(\mathbf{V}+\mathbf{v'}_\alpha\right) \\
 &= \sum_\alpha m_\alpha\mathbf{R}\times\mathbf{V} + \mathbf{R}\times\left(\sum_\alpha m_\alpha\mathbf{v}'_\alpha\right) \\
 &+ \left(\sum_\alpha m_\alpha\mathbf{r'}_\alpha\right)\times\mathbf{V} + \sum_\alpha m_\alpha\mathbf{r'}_\alpha\times\mathbf{v'}_\alpha \\
 &= M\mathbf{R}\times\mathbf{V} + \sum_\alpha m_\alpha\mathbf{r'}_\alpha\times\mathbf{v'}_\alpha
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{N} &= \sum_\alpha \mathbf{r}_\alpha\times\left(\mathbf{F}_\alpha^{(e)} + \sum_{\beta\neq\alpha}\mathbf{F_{\alpha\beta}}\right) \\
 &= \sum_\alpha\mathbf{r}_\alpha\times\mathbf{F}_\alpha^{(e)} + \sum_{\beta>\alpha}\left(\mathbf{r}_\alpha\times\mathbf{F}_{\alpha\beta} + \mathbf{r}_\beta\times\mathbf{F}_{\beta\alpha}\right) \\
 &= \sum_\alpha\mathbf{r}_\alpha\times\mathbf{F}_\alpha^{(e)} + \sum_{\beta>\alpha}\left(\mathbf{r}_\alpha-\mathbf{r}_\beta\right)\times\mathbf{F}_{\alpha\beta} \\
@@ -81,7 +81,7 @@ $$
 
 $$
 \frac{dE}{dt} = 0 \\
-\begin{aligned}
+\begin{aligned}{}
 E &= \frac{1}{2} mv^2 + U \\
 E &= \frac{1}{2} MV^2 + \sum_\alpha \frac{1}{2} m_\alpha v_\alpha'^2 + U \\
 \end{aligned}
@@ -90,7 +90,7 @@ $$
 
 $$
 \frac{dE}{dt} = m\mathbf{v} \cdot \mathbf{a} + (\nabla U) \cdot \mathbf{v} + \frac{\partial U}{\partial t} = (\mathbf{F} + \nabla U) \cdot \mathbf{v} = 0 \\
-\begin{aligned}
+\begin{aligned}{}
 E &= \sum_\alpha \frac{1}{2} m_\alpha (\mathbf{V} + \mathbf{v}_\alpha') \cdot (\mathbf{V} + \mathbf{v}_\alpha') \\
 &= \sum_\alpha \frac{1}{2} m_\alpha V^2 + \left(\sum_\alpha m_\alpha \mathbf{v}_\alpha'\right) \cdot \mathbf{V} + \sum_\alpha \frac{1}{2} m_\alpha v_\alpha'^2 \\
 &= \frac{1}{2} MV^2 + \sum_\alpha \frac{1}{2} m_\alpha v_\alpha'^2
@@ -104,7 +104,7 @@ $$
 
 $$
 \delta S = \delta\int_{t_1}^{t_2} L dt = 0 \quad L = T - U\\
-\begin{aligned}
+\begin{aligned}{}
 & \frac{d}{dt} \frac{\partial{L}}{\partial{\dot{q}_i}} - \frac{\partial{L}}{\partial{q_i}} = 0 \\
 & \frac{d}{dt} \frac{\partial{L}}{\partial{\dot{q}_i}} - \frac{\partial{L}}{\partial{q_i}} + \sum_j \lambda_j \frac{\partial{f_j}}{\partial{q_i}} = 0
 \end{aligned}
@@ -112,7 +112,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \delta S &= \int_{t_1}^{t_2} \sum_i \left( \frac{\partial{L}}{\partial{q_i}} \delta q_i + \frac{\partial{L}}{\partial{\dot{q}_i}} \delta \dot{q}_i \right) dt \\
 &= \int_{t_1}^{t_2} \sum_i \frac{\partial{L}}{\partial{q_i}} \delta q_i dt + \left[ \sum_i \frac{\partial{L}}{\partial{\dot{q}_i}} \delta q_i \right]_{t_1}^{t_2} - \int_{t_1}^{t_2} \sum_i \frac{d}{dt} \left( \frac{\partial{L}}{\partial{\dot{q_i}}} \right) \delta q_i dt \\
 &= \int_{t_1}^{t_2} \sum_i \left( \frac{\partial{L}}{\partial{q_i}} - \frac{d}{dt} \frac{\partial{L}}{\partial{\dot{q}_i}} \right) \delta q_i dt \\
@@ -124,7 +124,7 @@ $$
 ### Conservation Law / 保存則
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 E &= \sum_i \dot{q}_i \frac{\partial{L}}{\partial{\dot{q}_i}} - L = const. \\
 \mathbf{P} &= \sum_\alpha \frac{\partial{L}}{\partial{\mathbf{v}_\alpha}} = const. \\
 \mathbf{M} &= \sum_\alpha \mathbf{r}_\alpha \times \frac{\partial{L}}{\partial{\mathbf{v}_\alpha}} = const.
@@ -133,7 +133,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \quad\; \frac{d}{dt} \left( \sum_i \dot{q}_i \frac{\partial{L}}{\partial{\dot{q}_i}} - L \right) \\
 &= \sum_i \left[ \ddot{q}_i \frac{\partial{L}}{\partial{\dot{q}_i}} + \dot{q}_i \frac{d}{dt} \frac{\partial{L}}{\partial{\dot{q}_i}} - \frac{\partial{L}}{\partial{q_i}} \dot{q}_i - \frac{\partial{L}}{\partial{\dot{q}_i}} \ddot{q}_i \right] \\
 &= 0 \\
@@ -151,7 +151,7 @@ $$
 ### Galilean Transformation / ガリレイ変換
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{r}' &= \mathbf{r} + \mathbf{V}t \\
 t' &= t
 \end{aligned}
@@ -159,7 +159,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 L' &= \frac{1}{2} m \left( \mathbf{v}' \right)^2 - U'(\mathbf{r}') \\
 &= \frac{1}{2} m \mathbf{v}^2 + m \mathbf{v} \cdot \mathbf{V} + \frac{1}{2} m \mathbf{V}^2 - U(\mathbf{r}) \\
 &= L + \frac{d}{dt} \left( m \mathbf{r} \cdot \mathbf{V} + \frac{1}{2} m \mathbf{V}^2 t \right) \\
@@ -183,11 +183,11 @@ $$
 l' = \alpha l \quad t' = \beta t \\
 \frac{T'}{T} = \alpha^2 \beta^{-2} = \frac{U'}{U} = \alpha^k \\
 \beta = \alpha^{1-\frac{k}{2}} \\
-\begin{aligned}
+\begin{aligned}{}
 2T &= \sum_\alpha\mathbf{P}_\alpha\cdot\mathbf{v}_\alpha \\
 &= \frac{d}{dt}\left(\sum_\alpha\mathbf{P}_\alpha\cdot\mathbf{r}_\alpha\right) - \sum_\alpha\mathbf{F}_\alpha\cdot\mathbf{r}_\alpha
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \langle 2T \rangle &= \lim_{\tau\to\infty}\frac{1}{\tau}\int_o^\infty\frac{d}{dt}\left(\sum_\alpha\mathbf{P}_\alpha\cdot\mathbf{r}_\alpha\right)dt - \langle\sum_\alpha\mathbf{F}_\alpha\cdot\mathbf{r}_\alpha\rangle \\
 &= \lim_{\tau\to\infty}\frac{1}{\tau}\left[\sum_\alpha\mathbf{P}_\alpha\cdot\mathbf{r}_\alpha\right]_0^\infty + \langle\sum_\alpha\frac{\partial U}{\partial\mathbf{r}_\alpha}\cdot\mathbf{r}_\alpha\rangle \\
 &= k\langle U \rangle
@@ -206,7 +206,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 dH &= \sum_i \left(\dot{q}_i dp_i + p_i d\dot{q}_i \right) - \sum_i \left(\frac{\partial{L}}{\partial{q_i}} dq_i + \frac{\partial{L}}{\partial{\dot{q}_i}}d\dot{q_i}\right) - \frac{\partial{L}}{\partial{t}}dt \\
 &= \sum_i \left(\dot{q}_i dp_i - \dot{p}_i dq_i\right) - \frac{\partial{L}}{\partial{t}} dt
 \end{aligned} \\
@@ -223,7 +223,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \frac{dF}{dt} &= \sum_i \left(\frac{\partial{F}}{\partial{q_i}}\dot{q}_i + \frac{\partial{F}}{\partial{p_i}}\dot{p}_i \right) + \frac{\partial{F}}{\partial{t}} \\
 &= \sum_i \left(\frac{\partial{F}}{\partial{q_i}} \frac{\partial{H}}{\partial{p_i}} - \frac{\partial{F}}{\partial{p_i}} \frac{\partial{H}}{\partial{q_i}}\right) + \frac{\partial{F}}{\partial{t}} \\
 &= \{F, H\} + \frac{\partial{F}}{\partial{t}}
@@ -234,7 +234,7 @@ $$
 ### Canonical Transformation / 正準変換
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & W(q,Q,t): && p = \frac{\partial{W}}{\partial{q}} && P = -\frac{\partial{W}}{\partial{Q}} && H' = H + \frac{\partial{W}}{\partial{t}} \\
 & W(q,P,t): && p = \frac{\partial{W}}{\partial{q}} && Q=\frac{\partial{W}}{\partial{P}} && H' = H + \frac{\partial{W}}{\partial{t}} \\
 & W(p,Q,t): && q = -\frac{\partial{W}}{\partial{p}} && P = -\frac{\partial{W}}{\partial{Q}} && H' = H + \frac{\partial{W}}{\partial{t}} \\
@@ -270,7 +270,7 @@ $$
 $$
 H' = H + \frac{\partial{W}}{\partial{t}} = 0 \\
 \dot{P}_i = -\frac{\partial{H'}}{\partial{Q_i}} = 0 \quad P_i = \alpha_i \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{dW}{dt} &= \sum_i \frac{\partial{W}}{\partial{q_i}} \dot{q}_i + \frac{\partial{W}}{\partial{t}} \\
 &= \sum_i p_i \dot{q}_i - H \\
 &= L
@@ -288,7 +288,7 @@ $$
 
 $$
 \prod_i dQ_i dP_i = \frac{\partial{(Q,P)}}{\partial{(q,p)}} \prod_i dq_i dp_i \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{\partial{(Q,P)}}{\partial{(q,p)}} &= \frac{\partial{(Q,P)}}{\partial{(q,P)}} \frac{\partial{(q,P)}}{\partial{(q,p)}} = \frac{\partial{(Q)}}{\partial{(q)}} \frac{\partial{(P)}}{\partial{(p)}} \\
 &= \frac{\frac{\partial{(Q)}}{\partial{(q)}}}{\frac{\partial{(p)}}{\partial{(P)}}} = \frac{\det\left(\frac{\partial^2 W}{\partial q_j \partial P_i}\right)}{\det\left(\frac{\partial^2 W}{\partial P_j \partial q_i}\right)} \\
 &= 1
@@ -319,7 +319,7 @@ $$
 
 $$
 \ddot{x} + 2 \beta \dot{x} + \omega_0^2 x = 0 \\
-\begin{aligned}
+\begin{aligned}{}
 x &= e^{-\beta t} \cdot \tilde{A} e^{i \sqrt{\omega_0^2 - \beta^2} t} \\
 x &= e^{-\beta t} (A + B t) \\
 x &= e^{-\beta t} \left( A_1 e^{\sqrt{\beta^2 - \omega_0^2} t} + A_2 e^{-\sqrt{\beta^2 - \omega_0^2} t} \right)
@@ -367,7 +367,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 L &= \frac{1}{2} \sum_{i,j} m_{ij} \dot{x}_i \dot{x}_j - \frac{1}{2} \sum_{i,j} k_{ij} x_i x_j \\
 &= \frac{1}{2} \dot{\mathbf{x}}^T M \dot{\mathbf{x}} - \frac{1}{2} \mathbf{x}^T K \mathbf{x} 
 \end{aligned} \\
@@ -377,7 +377,7 @@ M \ddot{\mathbf{x}} + K \mathbf{x} = 0 \quad \mathbf{x} = \mathbf{A} e^{i \omega
 \mathbf{A}_n^T (K \mathbf{A}_m) - (K \mathbf{A}_n)^T \mathbf{A}_m = (\omega_n^2 - \omega_m^2) \mathbf{A}_n^T M \mathbf{A}_m = 0 \\
 \mathbf{A}_n^T M \mathbf{A}_m = \delta_{nm} \quad \mathbf{A}_n^T K \mathbf{A}_m = \delta_{nm} \omega_m^2 \\
 \mathbf{x} = \sum_n q_n \mathbf{A}_n \\
-\begin{aligned}
+\begin{aligned}{}
 L &= \frac{1}{2} \sum_{n,m} \dot{q}_n (\mathbf{A}_n^T M \mathbf{A}_m) \dot{q}_m - \frac{1}{2} \sum_{n,m} q_n (\mathbf{A}_n^T K \mathbf{A}_m) q_m \\
 &= \frac{1}{2} \sum_n \dot{q}_n^2 - \frac{1}{2} \sum_n \omega_n^2 q_n^2
 \end{aligned} \\
@@ -397,7 +397,7 @@ $$
 
 $$
 L = \int \mathcal{L} \left( \phi, \frac{\partial \phi}{\partial t}, \frac{\partial \phi}{\partial x}, t \right) dx \\
-\begin{aligned}
+\begin{aligned}{}
 \delta S &= \int dt \int dx \left[ \frac{\delta L}{\delta \phi} \delta \phi + \frac{\delta L}{\delta (\partial_t \phi)} \delta (\partial_t \phi) + \frac{\delta L}{\delta (\partial_x \phi)} \delta (\partial_x \phi) \right] \\
 &= \int dt \int dx \left[ \frac{\delta L}{\delta \phi} - \frac{\partial}{\partial t} \left( \frac{\delta L}{\delta (\partial_t \phi)} \right) - \frac{\partial}{\partial x} \left( \frac{\delta L}{\delta (\partial_x \phi)} \right) \right] \delta \phi 
 \end{aligned} \\
@@ -414,7 +414,7 @@ $$
 $$
 \frac{\partial^2 \phi}{\partial t^2} - v^2 \frac{\partial^2 \phi}{\partial x^2} = 0 \\
 \phi = \sum_n \tilde{A}_n e^{i (\omega_n t - k_n x)} \\
-\begin{aligned}
+\begin{aligned}{}
 &\phi(0) = \phi(L) = 0: && k_n = \frac{n \pi}{L} \quad \tilde{A}_{-n} = -\tilde{A}_n \\
 &\frac{\partial \phi}{\partial x}(0) = \frac{\partial \phi}{\partial x}(L) = 0: && k_n = \frac{n \pi}{L} \quad \tilde{A}_{-n} = \tilde{A}_n \\
 &\phi(0) = \phi(L),\; \frac{\partial \phi}{\partial x}(0) = \frac{\partial \phi}{\partial x}(L): && k_n = \frac{2n \pi}{L}
@@ -427,12 +427,12 @@ $$
 \psi(x) = \tilde{A} e^{-ikx} \\
 \phi = \sum_n \tilde{A}_n e^{i(\omega_n t - k_n x)} \quad k_n = \pm \frac{\omega_n}{v} \\
 \phi(0) = \phi(L) = 0 \\
-\begin{aligned}
+\begin{aligned}{}
 &\tilde{A}_n e^{i \omega_n t} + \tilde{A}_{-n} e^{i \omega_n t} = 0 && \tilde{A}_{-n} = -\tilde{A}_n \\
 &\tilde{A}_n e^{i \omega_n t} \left( e^{-ik_n L} - e^{ik_n L} \right) = 0 && k_n L = n \pi
 \end{aligned} \\
 \frac{\partial \phi}{\partial x}(0) = \frac{\partial \phi}{\partial x}(L) = 0 \\
-\begin{aligned}
+\begin{aligned}{}
 & -\tilde{A}_n k_n e^{i \omega_n t} - \tilde{A}_{-n} (-k_n) e^{i \omega_n t} = 0 && \tilde{A}_{-n} = \tilde{A}_n \\
 & -\tilde{A}_n k_n e^{i \omega_n t} \left( e^{-ik_n L} - e^{ik_n L} \right) = 0 && k_n L = n \pi
 \end{aligned} \\
@@ -470,7 +470,7 @@ $$
 ### Reduced Mass / 換算質量
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mu &= \frac{m_1 m_2}{m_1 + m_2} \\
 M &= \mu r^2 \dot{\theta} \\
 E &= \frac{1}{2} \mu \dot{r}^2 + \frac{1}{2}\frac{M^2}{\mu r^2} + U(r)
@@ -479,12 +479,12 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 L &= \frac{1}{2} m_1 \left| \frac{m_2}{m_1 + m_2} \dot{\mathbf{r}} \right|^2 + \frac{1}{2} m_2 \left| \frac{m_1}{m_1 + m_2} \dot{\mathbf{r}} \right|^2 - U(r) \\
 &= \frac{1}{2} \frac{m_1 m_2}{m_1 + m_2} (\dot{r}^2 + r^2 \dot{\theta}^2) - U(r)
 \end{aligned} \\
 M = \frac{\partial L}{\partial\dot{\theta}} = \mu r^2 \dot{\theta} \\
-\begin{aligned}
+\begin{aligned}{}
 E &= \frac{1}{2} \mu \dot{r}^2 + \frac{1}{2} \mu r^2 \dot{\theta}^2 + U(r) \\
 &= \frac{1}{2} \mu \dot{r}^2 + \frac{1}{2}\frac{M^2}{\mu r^2} + U(r)
 \end{aligned}
@@ -504,7 +504,7 @@ $$
 E = \frac{1}{2} \mu \dot{r}^2 + U_{\text{eff}}(r) \\
 \frac{dr}{dt} = \sqrt{\frac{2}{\mu} (E - U_{\text{eff}}(r))} \\
 t = \int \frac{dr}{\sqrt{\frac{2}{\mu} (E - U_{\text{eff}}(r))}} \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{d\theta}{dr} &= \frac{d\theta}{dt} \frac{dt}{dr} \\
 &= \frac{M}{\mu r^2} \frac{1}{\sqrt{\frac{2}{\mu} (E - U_{\text{eff}}(r))}} 
 \end{aligned} \\
@@ -522,7 +522,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \theta &= \int \frac{\frac{M}{r^2} \, dr}{\sqrt{2\mu \left( E + \frac{\alpha}{r} - \frac{M^2}{2\mu r^2} \right)}} \\
 &= \int \frac{\frac{1}{r^2} \,dr}{\sqrt{ -\left( \frac{1}{r} - \frac{\mu \alpha}{M^2}\right)^2 + \frac{\mu^2 \alpha^2}{M^4}\left(1 + \frac{2EM^2}{\mu \alpha^2}\right)}} \\
 &= \int \frac{\frac{1}{r^2} \,dr}{\sqrt{ -\left( \frac{1}{r} - \frac{1}{p}\right)^2 + \frac{e^2}{p^2}}} \\
@@ -537,11 +537,11 @@ $$
 ### Collision / 衝突
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{v}_1 &= \frac{m_2 \mathbf{v}}{m_1 + m_2} + \frac{m_1 \mathbf{u}_1 + m_2 \mathbf{u}_2}{m_1 + m_2} \\
 \mathbf{v}_2 &= \frac{-m_1 \mathbf{v}}{m_1 + m_2} + \frac{m_1 \mathbf{u}_1 + m_2 \mathbf{u}_2}{m_1 + m_2}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \tan{\theta_1} &= \frac{\sin{\theta}}{\cos{\theta} + \frac{m_1}{m_2}} \\
 \tan{\theta_2} &= \frac{\sin{\theta}}{\cos{\theta} - 1}
 \end{aligned}
@@ -551,12 +551,12 @@ $$
 $$
 m_1 \mathbf{v}_1' + m_2 \mathbf{v}_2' = 0 \\
 \mathbf{v}_1' - \mathbf{v}_2' = \mathbf{v} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{v}_1 &= \mathbf{v}_1' + \mathbf{V} = \frac{m_2 \mathbf{v}}{m_1 + m_2} + \frac{m_1 \mathbf{u}_1 + m_2 \mathbf{u}_2}{m_1 + m_2} \\
 \mathbf{v}_2 &= \mathbf{v}_2' + \mathbf{V} = \frac{-m_1 \mathbf{v}}{m_1 + m_2} + \frac{m_1 \mathbf{u}_1 + m_2 \mathbf{u}_2}{m_1 + m_2}
 \end{aligned} \\
 u_2 = 0 \quad u_1 = v \\
-\begin{aligned}
+\begin{aligned}{}
 \tan{\theta_1} &= \frac{m_2 \mathbf{v} \sin{\theta}}{m_2 \mathbf{v} \cos{\theta} + m_1 \mathbf{v}} = \frac{\sin{\theta}}{\cos{\theta} + \frac{m_1}{m_2}} \\
 \tan{\theta_2} &= \frac{-m_1 \mathbf{v} \sin{\theta}}{-m_1 \mathbf{v} \cos{\theta} + m_1 \mathbf{v}} = \frac{\sin{\theta}}{\cos{\theta} - 1}
 \end{aligned}
@@ -566,7 +566,7 @@ $$
 ### Scattering / 散乱
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \frac{d\sigma}{d\Omega} &= \frac{R^2}{4} \\
 \frac{d\sigma}{d\Omega} &= \left(\frac{\alpha}{4T}\right)^2 \frac{1}{\sin^4\frac{\theta}{2}}
 \end{aligned}
@@ -575,7 +575,7 @@ $$
 
 $$
 b = R \sin{\varphi} = R \sin{\left(\frac{\pi}{2} - \frac{\theta}{2}\right)} = R \cos{\frac{\theta}{2}} \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{d\sigma}{d\Omega} &= \frac{b}{\sin{\theta}} \left| \frac{db}{d\theta} \right| \\
 &= \frac{R \cos{\frac{\theta}{2}}}{2 \sin{\frac{\theta}{2}} \cos{\frac{\theta}{2}}} \cdot \frac{R}{2} \sin{\frac{\theta}{2}} \\
 &= \frac{R^2}{4}
@@ -584,7 +584,7 @@ b = R \sin{\varphi} = R \sin{\left(\frac{\pi}{2} - \frac{\theta}{2}\right)} = R 
 e = \sqrt{1 + \frac{2EM^2}{m \alpha^2}} = \sqrt{1 + \frac{4T^2 b^2}{\alpha^2}} \\
 \tan{\varphi} = \sqrt{e^2 - 1} = \frac{2Tb}{\alpha} \\
 b = \frac{\alpha}{2T} \tan{\varphi} = \frac{\alpha}{2T} \tan{\left(\frac{\pi}{2} - \frac{\theta}{2}\right)} = \frac{\alpha}{2T} \cot{\frac{\theta}{2}} \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{d\sigma}{d\Omega} &= \frac{b}{\sin{\theta}} \left| \frac{db}{d\theta} \right| \\
 &= \frac{\frac{\alpha}{2T} \cot{\frac{\theta}{2}}}{2 \sin{\frac{\theta}{2}} \cos{\frac{\theta}{2}}} \cdot \frac{\alpha}{4T} \frac{1}{\sin^2{\frac{\theta}{2}}} \\
 &= \left(\frac{\alpha}{4T}\right)^2 \frac{1}{\sin^4{\frac{\theta}{2}}}
@@ -595,7 +595,7 @@ $$
 ### Gravity / 重力
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \Phi &= \frac{U}{m} = -\frac{GM}{r} \\
 \mathbf{g} &= -\nabla \Phi = -\frac{GM}{r^2} \hat{\mathbf{e}}_r \\
 \mathbf{F} &= m\mathbf{g} = -\frac{GMm}{r^2} \hat{\mathbf{e}}_r
@@ -608,7 +608,7 @@ $$
 ### Non-Inertial Frame / 非慣性系
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{r} &= \mathbf{R} + \mathbf{r}' \\
 \mathbf{v} &= \mathbf{V} + \mathbf{v}' + \boldsymbol{\Omega} \times \mathbf{r}' \\
 \mathbf{a} &= \mathbf{A} + \mathbf{a}' + \dot{\boldsymbol{\Omega}} \times \mathbf{r}' + \boldsymbol{\Omega} \times (\boldsymbol{\Omega} \times \mathbf{r}') + 2 \boldsymbol{\Omega} \times \mathbf{v}'
@@ -619,12 +619,12 @@ $$
 $$
 \frac{d\mathbf{Q}}{dt} = \frac{d'\mathbf{Q}}{dt} + \boldsymbol{\Omega} \times \mathbf{Q} \\
 \mathbf{r} = \mathbf{R} + \mathbf{r}' \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{d\mathbf{r}}{dt} &= \frac{d\mathbf{R}}{dt} + \frac{d\mathbf{r}'}{dt}  \\
 &= \frac{d\mathbf{R}}{dt} + \frac{d'\mathbf{r}'}{dt} + \boldsymbol{\Omega} \times \mathbf{r}'
 \end{aligned} \\
 \mathbf{v} = \mathbf{V} + \mathbf{v}' + \boldsymbol{\Omega} \times \mathbf{r}' \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{d\mathbf{v}}{dt} &= \frac{d\mathbf{V}}{dt} + \frac{d\mathbf{v}'}{dt} + \frac{d\boldsymbol{\Omega}}{dt} \times \mathbf{r}' + \boldsymbol{\Omega} \times \frac{d\mathbf{r}'}{dt} \\
 &= \frac{d\mathbf{V}}{dt} + \frac{d'\mathbf{v}'}{dt} + \boldsymbol{\Omega}\times\mathbf{v}' + \frac{d\boldsymbol{\Omega}}{dt}  \times \mathbf{r}' + \boldsymbol{\Omega} \times \left( \frac{d'\mathbf{r}'}{dt} + \boldsymbol{\Omega} \times \mathbf{r}' \right)
 \end{aligned} \\
@@ -635,7 +635,7 @@ $$
 ### Euler Angle / Euler角
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \Omega_1 &= \dot{\phi} \sin \theta \sin \psi + \dot{\theta} \cos \psi \\
 \Omega_2 &= \dot{\phi} \sin \theta \cos \psi - \dot{\theta} \sin \psi \\
 \Omega_3 &= \dot{\phi} \cos \theta + \dot{\psi}
@@ -646,7 +646,7 @@ $$
 ### Inertia Tensor / 慣性テンソル
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 I_{ij} &= \sum_{\alpha} m_{\alpha} (\delta_{ij} r_{\alpha}^2 - r_{\alpha ,i} r_{\alpha ,j}) \\
 T &= \sum_{i,j} \frac{1}{2} I_{ij} \Omega_i \Omega_j \\
 M_i &= \sum_j I_{ij} \Omega_j
@@ -655,12 +655,12 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 T &= \sum_{\alpha} \frac{1}{2} m_{\alpha} (\boldsymbol{\Omega} \times \mathbf{r}_{\alpha}) \cdot (\boldsymbol{\Omega} \times \mathbf{r}_{\alpha}) \\
 &= \sum_{\alpha} \frac{1}{2} m_{\alpha} [\Omega^2 r_{\alpha}^2 - (\boldsymbol{\Omega}\cdot\mathbf{r}_{\alpha})^2] \\
 &= \sum_{i,j}\sum_{\alpha} \frac{1}{2} m_{\alpha} (\delta_{ij} r_{\alpha}^2 - r_{\alpha ,i} r_{\alpha ,j}) \Omega_i \Omega_j \\
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{M} &= \sum_{\alpha} m_{\alpha} \mathbf{r}_{\alpha} \times (\mathbf{\Omega} \times \mathbf{r}_{\alpha}) \\
 &= \sum_{\alpha} m_{\alpha} [\mathbf{\Omega} (r_{\alpha}^2) - \mathbf{r}_{\alpha} (\mathbf{r}_{\alpha} \cdot \Omega)] \\
 M_i &= \sum_j \sum_{\alpha} m_{\alpha} (\delta_{ij} r_{\alpha}^2 - r_{\alpha ,i} r_{\alpha ,j}) \Omega_j
@@ -671,7 +671,7 @@ $$
 ### Euler's Equation / Eulerの運動方程式
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 I_1 \dot{\Omega}_1 + (I_3 - I_2) \Omega_2 \Omega_3 &= N_1 \\
 I_2 \dot{\Omega}_2 + (I_1 - I_3) \Omega_3 \Omega_1 &= N_2 \\
 I_3 \dot{\Omega}_3 + (I_2 - I_1) \Omega_1 \Omega_2 &= N_3
@@ -710,7 +710,7 @@ $$
 ### Symmetrical Top (Free) / 対称コマ（自由）
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \theta &= \text{const.} \\
 \dot{\phi} &= \frac{M_z}{I_1} \\
 \dot{\psi} &= M_z \cos \theta \left( \frac{1}{I_3} - \frac{1}{I_1} \right)
@@ -720,15 +720,15 @@ $$
 
 $$
 L = \frac{1}{2} I_1 (\dot{\phi}^2 \sin^2 \theta + \dot{\theta}^2) + \frac{1}{2} I_3 (\dot{\phi} \cos \theta + \dot{\psi})^2 \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{\partial L}{\partial \dot{\psi}} &= I_3 (\dot{\phi} \cos \theta + \dot{\psi}) = M_3 = M_z \cos \theta \\
 \frac{\partial L}{\partial \dot{\phi}} &= I_1 \dot{\phi} \sin^2 \theta + I_3 (\dot{\phi} \cos \theta + \dot{\psi}) \cos \theta = M_z
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \dot{\phi} &= \frac{M_z - M_z \cos^2 \theta}{I_1 \sin^2 \theta} = \frac{M_z}{I_1} \\
 \dot{\psi} &= \frac{M_z \cos \theta}{I_3} - \dot{\phi} \cos \theta = M_z \cos \theta \left( \frac{1}{I_3} - \frac{1}{I_1} \right)
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{\partial L}{\partial \theta} &= I_1 \dot{\phi}^2 \sin \theta \cos \theta - I_3 (\dot{\phi} \cos \theta + \dot{\psi}) \dot{\phi} \sin \theta \\
 &= \frac{M_z^2}{I_1} \sin \theta \cos \theta - \frac{M_z^2}{I_1} \sin \theta \cos \theta = 0 \\
 &= \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\theta}} \right) = \frac{d}{dt} (I_1 \dot{\theta}) \quad (\dot{\theta} = \text{const.})
@@ -741,7 +741,7 @@ $$
 ### Symmetrical Top (Gravity) / 対称コマ（重力）
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \theta_1 &\leq \theta \leq \theta_2 \\
 \dot{\phi}& = \frac{M_z - M_3 \cos \theta}{(I_1 + Ma^2) \sin^2 \theta} \\
 \dot{\psi} &= \frac{M_3}{I_3} - \frac{(M_z - M_3 \cos \theta) \cos \theta}{(I_1 + Ma^2) \sin^2 \theta}
@@ -751,11 +751,11 @@ $$
 
 $$
 L = \frac{1}{2} (I_1 + Ma^2) (\dot{\phi}^2 \sin^2 \theta + \dot{\theta}^2) + \frac{1}{2} I_3 (\dot{\phi} \cos \theta + \dot{\psi})^2 - Mga \cos \theta \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{\partial L}{\partial \dot{\psi}} &= I_3 (\dot{\phi} \cos \theta + \dot{\psi}) = M_3 \\
 \frac{\partial L}{\partial \dot{\phi}} &= (I_1 + Ma^2) \dot{\phi} \sin^2 \theta + I_3 (\dot{\phi} \cos \theta + \dot{\psi}) \cos \theta = M_z
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \dot{\phi} &= \frac{M_z - M_3 \cos \theta}{(I_1 + Ma^2) \sin^2 \theta} \\
 \dot{\psi} &= \frac{M_3}{I_3} - \frac{(M_z - M_3 \cos \theta) \cos \theta}{(I_1 + Ma^2) \sin^2 \theta}
 \end{aligned} \\
@@ -781,7 +781,7 @@ M^2 = M_1^2 + M_2^2 + M_3^2 \\
 E = \frac{M_1^2}{2I_1} + \frac{M_2^2}{2I_2} + \frac{M_3^2}{2I_3} \\
 \sqrt{2EI_1} \leq M \leq \sqrt{2EI_3} \\
 \delta \Omega_1 = a e^{\lambda t} \quad \delta \Omega_2 = b e^{\lambda t} \quad \delta \Omega_3 = c e^{\lambda t} \\
-\begin{aligned}
+\begin{aligned}{}
 \Omega_1 : \quad \lambda^2 &=  \frac{-\Omega_1^2(I_3 - I_1)(I_2 - I_1)}{I_2 I_3} < 0, &&\text{stable} \\
 \Omega_2 : \quad \lambda^2 &=  \frac{\Omega_2^2(I_3 - I_2)(I_2 - I_1)}{I_1 I_3} > 0,  &&\text{unstable} \\
 \Omega_3 : \quad \lambda^2 &=  \frac{-\Omega_3^2(I_3 - I_2)(I_3 - I_1)}{I_1 I_2} < 0,  &&\text{stable}
@@ -803,12 +803,12 @@ $$
 $$
 \frac{d}{dt} \int_V \rho \, dV = \int_V \frac{\partial \rho}{\partial t} \, dV = -\oint_{\partial V} \rho \mathbf{v} \cdot d\mathbf{S} = -\int_V \nabla \cdot (\rho \mathbf{v}) \, dV \\
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0 \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{d}{dt} \int_V \rho v_i \, dV &= \int_V \frac{\partial (\rho v_i)}{\partial t} \, dV \\
 &= - \oint_{\partial V} \rho v_i \mathbf{v} \cdot d\mathbf{S} + \int_V f_i \, dV + \oint_{\partial V} \boldsymbol{\sigma}_i \cdot d\mathbf{S} \\
 &= - \int_V \nabla \cdot (\rho v_i \mathbf{v}) \, dV + \int_V f_i \, dV + \int_V \nabla \cdot \boldsymbol{\sigma}_i \, dV
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{\partial (\rho v_i)}{\partial t} + \nabla \cdot (\rho v_i \mathbf{v}) &= \frac{\partial \rho}{\partial t} v_i + \rho \frac{\partial v_i}{\partial t} + (\nabla \cdot \rho \mathbf{v}) v_i + \rho (\mathbf{v} \cdot \nabla) v_i \\
 &= \rho \left( \frac{\partial v_i}{\partial t} + (\mathbf{v} \cdot \nabla) v_i \right) + \left( \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) \right) v_i \\
 &= f_i + \nabla \cdot \boldsymbol{\sigma}_i
@@ -827,7 +827,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \rho \frac{Dv_i}{Dt} &= f_i + \frac{\partial {\sigma}_{ij}}{\partial x_j} \\
 &= f_i + \lambda \frac{\partial}{\partial x_i} \left( \frac{\partial r_k}{\partial x_k} \right) + \mu \frac{\partial}{\partial x_j} \left( \frac{\partial r_j}{\partial x_i} + \frac{\partial r_i}{\partial x_j} \right) \\
 &= f_i + (\lambda + \mu) \frac{\partial}{\partial x_i} (\nabla \cdot \mathbf{r}) + \mu \nabla^2 r_i
@@ -845,7 +845,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \rho \frac{D v_i}{Dt} &= f_i + \frac{\partial {\sigma}_{ij}}{\partial x_j} \\
 &= f_i - \frac{\partial p}{\partial x_i} + \lambda \frac{\partial}{\partial x_i} \left( \frac{\partial v_k}{\partial x_k} \right) + \eta \frac{\partial}{\partial x_j} \left( \frac{\partial v_j}{\partial x_i} + \frac{\partial v_i}{\partial x_j} \right) \\
 &= f_i - \frac{\partial p}{\partial x_i} + (\lambda + \eta) \frac{\partial}{\partial x_i} (\nabla \cdot \mathbf{v}) + \eta {\nabla}^2 v_i
@@ -863,13 +863,13 @@ $$
 
 $$
 \lambda = \eta = 0 \quad \frac{\partial \rho}{\partial t} = \frac{\partial \mathbf{v}}{\partial t} = 0 \\
-\begin{aligned}
+\begin{aligned}{}
 \int_{V} \frac{\partial \rho}{\partial t} \, dV &= \int_{V} \nabla \cdot (\rho \mathbf{v}) \, dV \\
 &= \oint_{\partial V} \rho \mathbf{v} \cdot d\mathbf{S} \\
 &= \int_{S_1} \rho \mathbf{v} \cdot d\mathbf{S} - \int_{S_2} \rho \mathbf{v} \cdot d\mathbf{S} = 0
 \end{aligned} \\
 \rho \mathbf{v} \cdot \mathbf{s} = \text{const.} \\
-\begin{aligned}
+\begin{aligned}{}
 \rho \frac{D\mathbf{v}}{Dt} &= \rho \left( \mathbf{v} \cdot \nabla \right) \mathbf{v} \\
 &= \rho \nabla \left(\frac{v^2}{2}\right) - \rho \nabla \times \left( \nabla \times \mathbf{v} \right) \\
 &= -\nabla \left( \rho gz \right) - \nabla p
@@ -949,7 +949,7 @@ $$
 ### Consequence of Transformation / 変換の帰結
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \tau &= \frac{\tau_0}{\sqrt{1 - \frac{v^2}{c^2}}} \\
 \ell &= \ell_0 \sqrt{1 - \frac{v^2}{c^2}} \\
 v_x &= \frac{v_x' + v}{1 + \frac{v}{c^2} v_x'} \\
@@ -972,7 +972,7 @@ $$
 
 $$
 \delta S = \delta \int -mc \sqrt{c^2 dt^2 - dx^2 - dy^2 - dz^2} = 0 \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{p} &= \frac{m\mathbf{v}}{\sqrt{1 - \frac{v^2}{c^2}}} \\
 E &= \frac{mc^2}{\sqrt{1 - \frac{v^2}{c^2}}} = \sqrt{p^2 c^2 + m^2 c^4}
 \end{aligned}
@@ -980,13 +980,13 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 S &= \int -mc \sqrt{c^2 dt^2 - dx^2 - dy^2 - dz^2} \\
 &= \int -mc^2 \sqrt{1 - \frac{v^2}{c^2}} \, dt 
 \end{aligned} \\
 L = -mc^2 \sqrt{1 - \frac{v^2}{c^2}} \\
 \mathbf{p} = \frac{\partial L}{\partial \mathbf{v}} = \frac{m\mathbf{v}}{\sqrt{1 - \frac{v^2}{c^2}}} \\
-\begin{aligned}
+\begin{aligned}{}
 E &= \mathbf{p} \cdot \mathbf{v} - L \\
 &= \frac{m v^2}{\sqrt{1 - \frac{v^2}{c^2}}} + mc^2 \sqrt{1 - \frac{v^2}{c^2}} \\
 &= \frac{mc^2}{\sqrt{1 - \frac{v^2}{c^2}}}
@@ -999,7 +999,7 @@ $$
 
 $$
 \mathbf{A'} = L \mathbf{A} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{X} &= (ct, x, y, z) \\
 \mathbf{V} &= (\frac{c}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_x}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_y}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_z}{\sqrt{1 - \frac{v^2}{c^2}}}) \\
 \mathbf{P} &= (\frac{E}{c}, p_x, p_y, p_z)
@@ -1008,11 +1008,11 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 d\mathbf{X} &= (cdt, dx, dy, dz) \\
 d\tau &= \sqrt{dt^2 - \frac{dx^2 + dy^2 + dz^2}{c^2}} = dt \sqrt{1 - \frac{v^2}{c^2}} = \text{const.}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{V} &= \frac{d\mathbf{X}}{d\tau} = (\frac{c}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_x}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_y}{\sqrt{1 - \frac{v^2}{c^2}}}, \frac{v_z}{\sqrt{1 - \frac{v^2}{c^2}}}) \\
 \mathbf{P} &= m\mathbf{V} = (\frac{E}{c}, p_x, p_y, p_z)
 \end{aligned} 
@@ -1032,7 +1032,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \frac{d q}{d t} &= \frac{d}{d t} \int_V \rho \, d\tau = \int_V \left(\frac{\partial \rho}{\partial t}\right) d\tau \\
 &= -\oint_S \mathbf{J} \cdot d\mathbf{a} = \int_V (-\nabla \cdot \mathbf{J}) \, d\tau \\
 \end{aligned}
@@ -1042,7 +1042,7 @@ $$
 ### Electromagnetic Field / 電磁場
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \nabla \cdot \mathbf{E} = \frac{1}{\varepsilon_0} \rho \\
 & \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \\
 & \nabla \cdot \mathbf{B} = 0 \\
@@ -1055,11 +1055,11 @@ $$
 ### Electromagnetic Potential / 電磁ポテンシャル
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{E} &= -\nabla V - \frac{\partial \mathbf{A}}{\partial t} \\
 \mathbf{B} &= \nabla \times \mathbf{A}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \nabla^2 V - \mu_0 \varepsilon_0 \frac{\partial V}{\partial t} &= -\frac{1}{\varepsilon_0} \rho \\
 \nabla^2 \mathbf{A} - \mu_0 \varepsilon_0 \frac{\partial \mathbf{A}}{\partial t} &= -\mu_0 \mathbf{J}
 \end{aligned} \\
@@ -1082,11 +1082,11 @@ $$
 \nabla^2 \lambda - \mu_0 \varepsilon_0 \frac{\partial^2 \lambda}{\partial t^2} = -\nabla \cdot \mathbf{A} - \mu_0 \varepsilon_0 \frac{\partial V}{\partial t} \\
 \nabla \cdot (\mathbf{A} + \nabla \lambda) = -\mu_0 \varepsilon_0 \frac{\partial}{\partial t}\left(V - \frac{\partial \lambda}{\partial t}\right) \\
 \nabla \cdot \mathbf{A}' = -\mu_0 \varepsilon_0 \frac{\partial V'}{\partial t} \\
-\begin{aligned}
+\begin{aligned}{}
 \nabla^2 V - \mu_0 \varepsilon_0 \frac{\partial V}{\partial t} &= -\frac{1}{\varepsilon_0} \rho \\
 \nabla^2 \mathbf{A} - \mu_0 \varepsilon_0 \frac{\partial \mathbf{A}}{\partial t} &= -\mu_0 \mathbf{J}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{F} = \frac{d \mathbf{p}}{d t} &= q(\mathbf{E} + \mathbf{v} \times \mathbf{B}) \\
 &= q \left[-\nabla V - \frac{\partial \mathbf{A}}{\partial t} + \mathbf{v} \times (\nabla \times \mathbf{A})\right] \\
 &= q \left[-\frac{\partial \mathbf{A}}{\partial t} - (\mathbf{v} \cdot \nabla)\mathbf{A} - \nabla V + \nabla(\mathbf{v} \cdot \mathbf{A})\right] \\
@@ -1108,13 +1108,13 @@ $$
 $$
 \mathbf{F} \cdot d\mathbf{l} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B}) \cdot \mathbf{v} \,dt = \mathbf{E} \cdot (q\mathbf{v}) \,dt \\
 \frac{dE_{\text{mech}}}{dt} = \int_V \mathbf{E} \cdot \mathbf{J} \, d\tau \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{E} \cdot \mathbf{J} &= \frac{1}{\mu_0} \mathbf{E} \cdot (\nabla \times \mathbf{B}) - \varepsilon_0 \mathbf{E} \cdot \frac{\partial \mathbf{E}}{\partial t} \\
 &= \frac{1}{\mu_0} [\mathbf{B} \cdot (\nabla \times \mathbf{E}) - \nabla \cdot (\mathbf{E} \times \mathbf{B})] - \varepsilon_0 \mathbf{E} \cdot \frac{\partial \mathbf{E}}{\partial t} \\
 &= -\varepsilon_0 \mathbf{E} \cdot \frac{\partial \mathbf{E}}{\partial t} - \frac{1}{\mu_0} \mathbf{B} \cdot \frac{\partial \mathbf{B}}{\partial t} - \frac{1}{\mu_0} \nabla \cdot (\mathbf{E} \times \mathbf{B}) \\
 &= -\frac{\partial}{\partial t}\left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) - \frac{1}{\mu_0} \nabla \cdot (\mathbf{E} \times \mathbf{B}) \\
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{dE_{\text{mech}}}{dt} &= - \int_V \frac{\partial}{\partial t} \left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) d\tau - \int_V \frac{1}{\mu_0} \nabla \cdot (\mathbf{E} \times \mathbf{B}) d\tau \\
 &= -\frac{d}{d t} \int_V \left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) d\tau - \oint_S \frac{1}{\mu_0} (\mathbf{E} \times \mathbf{B}) \cdot d\mathbf{a} \\
 &= -\frac{dE_{\text{em}}}{dt} - \oint_S \mathbf{S} \cdot d\mathbf{a}
@@ -1134,7 +1134,7 @@ $$
 $$
 \mathbf{F} = q\mathbf{E} + q\mathbf{v} \times \mathbf{B} \\
 \frac{d\mathbf{P}_{\text{mech}}}{dt} = \int_V (\rho\mathbf{E} + \mathbf{J} \times \mathbf{B}) \, d\tau \\
-\begin{aligned}
+\begin{aligned}{}
 & \rho\mathbf{E} + \mathbf{J} \times \mathbf{B} \\
 =& \varepsilon_0(\nabla \cdot \mathbf{E})\mathbf{E} + \left(\frac{1}{\mu_0}\nabla \times \mathbf{B} - \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right) \times \mathbf{B} \\
 =& \varepsilon_0(\nabla \cdot \mathbf{E})\mathbf{E} - \frac{1}{\mu_0} \mathbf{B} \times (\nabla \times \mathbf{B}) - \varepsilon_0 \mathbf{E} \times (\nabla \times \mathbf{E}) - \varepsilon_0 \frac{\partial}{\partial t} (\mathbf{E} \times \mathbf{B}) \\
@@ -1144,7 +1144,7 @@ $$
 &- \nabla\left(\frac{\varepsilon_0}{2} E^2 + \frac{1}{2\mu_0} B^2\right) - \varepsilon_0 \frac{\partial}{\partial t} (\mathbf{E} \times \mathbf{B}) \\
 =& \nabla \cdot \overleftrightarrow{T} - \frac{\partial}{\partial t} (\varepsilon_0 \mathbf{E} \times \mathbf{B}) \\
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{d\mathbf{P}_{\text{mech}}}{dt} &= - \int_V \frac{\partial}{\partial t} (\varepsilon_0 \mathbf{E} \times \mathbf{B}) d\tau + \int_V \nabla \cdot \overleftrightarrow{T} d\tau \\
 &= -\frac{d}{d t} \int_V \varepsilon_0 \mathbf{E} \times \mathbf{B} d\tau + \oint_S \overleftrightarrow{T} \cdot d\mathbf{a} \\
 &= -\frac{d\mathbf{P}_{\text{em}}}{dt} + \oint_S \overleftrightarrow{T} \cdot d\mathbf{a}
@@ -1157,7 +1157,7 @@ $$
 ### Electric Field / 電場
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \nabla \cdot \mathbf{E} = \frac{1}{\varepsilon_0} \rho && \oint_S \mathbf{E} \cdot d\mathbf{a} = \frac{1}{\varepsilon_0} Q \\
 & \nabla \times \mathbf{E} = 0 && \oint_C \mathbf{E} \cdot d\mathbf{l} = 0 \\
 \end{aligned} \\
@@ -1166,12 +1166,12 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \nabla \cdot \mathbf{E}(\mathbf{r}) &= \frac{1}{4\pi\varepsilon_0} \int_V \nabla \cdot \left(\frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2}\right) \rho(\mathbf{r}') \, d\tau' \\
 &= \frac{1}{4\pi\varepsilon_0} \int_V 4\pi\delta^3(\mathbf{r}-\mathbf{r}') \rho(\mathbf{r}') \, d\tau' \\
 &= \frac{1}{\varepsilon_0} \rho(\mathbf{r})
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \nabla \times \mathbf{E}(\mathbf{r}) &= \frac{1}{4\pi\varepsilon_0} \int_V \nabla \times \left(\frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2}\right) \rho(\mathbf{r}') \, d\tau' \\
 &= 0
 \end{aligned}
@@ -1190,7 +1190,7 @@ $$
 $$
 \nabla \times \mathbf{E} = -\nabla \times \nabla V = 0 \\
 \nabla \cdot \mathbf{E} = -\nabla^2 V = \frac{1}{\varepsilon_0} \rho \\
-\begin{aligned}
+\begin{aligned}{}
 \nabla^2 V(\mathbf{r}) &= \frac{1}{4\pi\varepsilon_0} \int_V \nabla^2 \left(\frac{1}{\vec{r}}\right) \rho(\mathbf{r}') d\tau' \\
 &= \frac{1}{4\pi\varepsilon_0} \int_V -4\pi \delta^3(\mathbf{r}-\mathbf{r}') \rho(\mathbf{r}') d\tau' \\
 &= -\frac{1}{\varepsilon_0} \rho(\mathbf{r})
@@ -1201,7 +1201,7 @@ $$
 ### Electric Energy / 電気エネルギー
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \Delta W &= q \Delta V \\
 W &= \frac{1}{2} \int_V \rho V \, d\tau \\
 W &= \frac{\varepsilon_0}{2} \int_V E^2 \, d\tau
@@ -1211,7 +1211,7 @@ $$
 
 $$
 \Delta W = \int_a^b \mathbf{F} \cdot d\mathbf{l} = \int_a^b q\mathbf{E} \cdot d\mathbf{l} = q \Delta V \\
-\begin{aligned}
+\begin{aligned}{}
 W &= \sum_i \sum_{j<i} q_i V_{ij} \\
 &= \frac{1}{2} \sum_i \sum_{j \neq i} q_i V_{ij} \\
 &= \frac{1}{2} \sum_i q_i V_i \\
@@ -1235,18 +1235,18 @@ $$
 
 $$
 \frac{1}{\vec{r}} = \frac{1}{\sqrt{r^2 + (r')^2 - 2rr'\cos\alpha}} = \frac{1}{r} \sum_{n=0}^{\infty} \left(\frac{r'}{r}\right)^n P_n(\cos\alpha) \\
-\begin{aligned}
+\begin{aligned}{}
 V(\mathbf{r}) &= \frac{1}{4\pi\varepsilon_0} \int_V \frac{\rho(\mathbf{r}')}{\vec{r}} d\tau' \\
 &= \frac{1}{4\pi\varepsilon_0} \int_V \sum_{n=0}^{\infty} \frac{(r')^n}{r^{n+1}} P_n(\cos\alpha) \rho(\mathbf{r}') d\tau' \\
 &= \frac{1}{4\pi\varepsilon_0} \sum_{n=0}^{\infty} \frac{1}{r^{n+1}} \int_V (r')^n P_n(\cos\alpha) \rho(\mathbf{r}') d\tau'
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 V_{\text{dip}} &= \frac{1}{4\pi\varepsilon_0} \frac{1}{r^2} \int_V r' (\cos\alpha) \rho(\mathbf{r}') d\tau' \\
 &= \frac{1}{4\pi\varepsilon_0} \frac{1}{r^2} \int_V (\mathbf{r}' \cdot \hat{\mathbf{r}}) \rho(\mathbf{r}') d\tau' \\
 &= \frac{1}{4\pi\varepsilon_0} \frac{q \mathbf{d} \cdot \hat{\mathbf{r}}}{r^2} \\
 &= \frac{1}{4\pi\varepsilon_0} \frac{qd\cos\theta}{r^2}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{E}_{\text{dip}} &= -\nabla V_{\text{dip}} \\
 &= \frac{1}{4\pi\varepsilon_0} \frac{qd(2\cos\theta \,\hat{\mathbf{r}} + \sin\theta \,\hat{\boldsymbol{\theta}})}{r^3}
 \end{aligned}
@@ -1256,7 +1256,7 @@ $$
 ### Uniqueness Theorem / 一意性定理
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 &\rho_1^{\text{volume}} = \rho_2^{\text{volume}}, && V_1^{\text{boundary}} = V_2^{\text{boundary}} \rightarrow &&V_1^{\text{volume}} = V_2^{\text{volume}} \\
 & \rho_1^{\text{volume}} = \rho_2^{\text{volume}}, && Q_1^{\text{boundary}} = Q_2^{\text{boundary}} \rightarrow &&\mathbf{E}_1^{\text{volume}} = \mathbf{E}_2^{\text{volume}}
 \end{aligned}
@@ -1270,7 +1270,7 @@ V_3 = 0 \rightarrow V_1 = V_2 \\
 \nabla \cdot \mathbf{E}_3 = \nabla \cdot \mathbf{E}_1 - \nabla \cdot \mathbf{E}_2 = \frac{\rho_1}{\varepsilon_0} - \frac{\rho_2}{\varepsilon_0} = 0 \\
 \oint_S \mathbf{E}_3 \cdot d\mathbf{a} = \oint_S \mathbf{E}_1 \cdot d\mathbf{a} - \oint_S \mathbf{E}_2 \cdot d\mathbf{a} = \frac{Q_1}{\varepsilon_0} - \frac{Q_2}{\varepsilon_0} = 0 \\
 \nabla \cdot (V_3 \mathbf{E}_3) = (\nabla V_3) \cdot \mathbf{E}_3 + V_3 (\nabla \cdot \mathbf{E}_3) = -{E_3}^2 \\
-\begin{aligned}
+\begin{aligned}{}
 \int_V \nabla \cdot (V_3 \mathbf{E}_3) d\tau &= \oint_S (V_3 \mathbf{E}_3) \cdot d\mathbf{a} = \sum V_3 \oint_S \mathbf{E}_3 \cdot d\mathbf{a} \\
 &= 0 = -\int_V {E_3}^2 d\tau 
 \end{aligned}\\
@@ -1281,7 +1281,7 @@ $$
 ### Capacitor / コンデンサー
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 Q &= CV \\
 I &= C \frac{dV}{dt} \\
 W &= \frac{1}{2}CV^2 \\
@@ -1301,7 +1301,7 @@ $$
 ### Magnetic Field / 磁場
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \nabla \cdot \mathbf{B} = 0 && \oint_S \mathbf{B} \cdot d\mathbf{a} = 0 \\
 & \nabla \times \mathbf{B} = \mu_0 \mathbf{J} && \oint_C \mathbf{B} \cdot d\mathbf{l} = \mu_0 I
 \end{aligned} \\
@@ -1310,13 +1310,13 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \nabla \cdot \mathbf{B}(\mathbf{r}) 
 &= \frac{\mu_0}{4\pi} \int_V \nabla \cdot \left[ \mathbf{J}(\mathbf{r}') \times \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \right] \, d\tau' \\
 &= \frac{\mu_0}{4\pi} \int_V -\mathbf{J}(\mathbf{r}') \cdot \left( \nabla \times \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \right) \, d\tau' \\
 &= 0
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \nabla \times \mathbf{B}(\mathbf{r}) 
 &= \frac{\mu_0}{4\pi} \int_V \nabla \times \left[ \mathbf{J}(\mathbf{r}') \times \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \right] \, d\tau' \\
 &= \frac{\mu_0}{4\pi} \int_V \left[ \mathbf{J}(\mathbf{r}') (\nabla \cdot \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2}) - (\mathbf{J}(\mathbf{r}') \cdot \nabla) \frac{\hat{\mathbf{\vec{r}}}}{\vec{r}^2} \right] \, d\tau' \\
@@ -1347,7 +1347,7 @@ $$
 \nabla^2 \lambda = -\nabla \cdot \mathbf{A}_0 \\
 \nabla \cdot \mathbf{A} = \nabla \cdot \mathbf{A}_0 + \nabla^2 \lambda = 0 \\
 \nabla \times \mathbf{B} = -\nabla^2 \mathbf{A} = \mu_0 \mathbf{J} \\
-\begin{aligned}
+\begin{aligned}{}
 \nabla^2 \mathbf{A}(\mathbf{r}) 
 &= \frac{\mu_0}{4\pi} \int_V \nabla^2 \left( \frac{1}{\vec{r}} \right) \mathbf{J}(\mathbf{r}') \, d\tau' \\
 &= \frac{\mu_0}{4\pi} \int_V -4\pi \delta^3(\mathbf{r} - \mathbf{r}') \mathbf{J}(\mathbf{r}') \, d\tau' \\
@@ -1365,7 +1365,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \delta W &= - \delta q \oint_C \mathbf{E} \cdot d\mathbf{l} \\
 &= - \delta q \oint_S (\nabla \times \mathbf{E}) \cdot d\mathbf{a} \\
 &= I \delta t \oint_S \frac{\partial \mathbf{B}}{\partial t} \cdot d\mathbf{a} \\
@@ -1376,7 +1376,7 @@ $$
 &= \int_V \mathbf{J} \cdot \delta \mathbf{A} \, d\tau \\
 &= \int_V \frac{1}{2} \delta (\mathbf{J} \cdot \mathbf{A}) \, d\tau
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 W &= \frac{1}{2} \int_V \mathbf{J} \cdot \mathbf{A} \, d\tau \\
 &= \frac{1}{2\mu_0} \int_V (\nabla \times \mathbf{B}) \cdot \mathbf{A} \, d\tau \\
 &= \frac{1}{2\mu_0} \left[ \int_V \mathbf{B} \cdot (\nabla \times \mathbf{A}) \, d\tau - \int_V \nabla \cdot (\mathbf{A} \times \mathbf{B}) \, d\tau \right] \\
@@ -1398,18 +1398,18 @@ $$
 
 $$
 \frac{1}{\vec{r}} = \frac{1}{\sqrt{r^2 + (r')^2 - 2rr'\cos\alpha}} = \frac{1}{r} \sum_{n=0}^{\infty} \left(\frac{r'}{r}\right)^n P_n(\cos\alpha) \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{A}(\mathbf{r}) &= \frac{\mu_0}{4\pi} \int_V \frac{\mathbf{J}(\mathbf{r}')}{\vec{r}} \, d\tau' \\
 &= \frac{\mu_0}{4\pi} \int_V \sum_{n=0}^{\infty} \frac{(r')^n}{r^{n+1}} P_n(\cos\alpha) \mathbf{J}(\mathbf{r}') \, d\tau' \\
 &= \frac{\mu_0}{4\pi} \sum_{n=0}^{\infty} \frac{1}{r^{n+1}} \int_V (r')^n P_n(\cos\alpha) \mathbf{J}(\mathbf{r}') \, d\tau'
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{A}_{\text{dip}} &= \frac{\mu_0}{4\pi} \frac{1}{r^2} \oint_C r' (\cos\alpha)  I \,d\mathbf{l}' \\
 &= \frac{\mu_0}{4\pi} \frac{I}{r^2} \oint_C \mathbf{r}' \cdot \hat{\mathbf{r}} \,d\mathbf{l}' \\
 &= \frac{\mu_0}{4\pi} \frac{I\mathbf{a} \times \hat{\mathbf{r}}}{r^2} \\
 &= \frac{\mu_0}{4\pi} \frac{I a \sin\theta \, \hat{\boldsymbol{\phi}}}{r^2}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{B}_{\text{dip}} &= \nabla \times \mathbf{A}_{\text{dip}} \\
 &= \frac{\mu_0}{4\pi} \frac{I a ( 2\cos\theta \, \hat{\mathbf{r}} + \sin\theta \, \hat{\boldsymbol{\theta}} )}{r^3}
 \end{aligned}
@@ -1419,7 +1419,7 @@ $$
 ### Electromagnetic Induction / 電磁誘導
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \mathcal{E} = \int_C (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l} \\
 & \mathcal{E} = - \frac{d}{dt} \int_S \mathbf{B} \cdot d\mathbf{a}
 \end{aligned}
@@ -1427,7 +1427,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathcal{E} &= \frac{1}{q} \int_C q \, (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l} \\
 &= \int_C (\mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l} \\
 \mathcal{E} &= \frac{1}{q} \oint_C q\mathbf{E} \cdot d\mathbf{l} \\
@@ -1441,7 +1441,7 @@ $$
 ### Inductor / インダクタ
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \Phi = L I \\
 & V = L \frac{dI}{dt} \\
 & W = \frac{1}{2} L I^2
@@ -1450,7 +1450,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 V &= \frac{d\Phi}{dt} = L \frac{dI}{dt} \\
 dW &=I\,dt \cdot L \frac{dI}{dt} = L I \, dI \\
 W &= \frac{1}{2} L I^2
@@ -1463,7 +1463,7 @@ $$
 ### Polarization / 分極
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{N} &= \mathbf{p} \times \mathbf{E} \\
 \mathbf{F} &= \nabla (\mathbf{p} \cdot \mathbf{E})
 \end{aligned}
@@ -1471,11 +1471,11 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{N} &= \int_V \mathbf{r}' \times \left( \rho(\mathbf{r}') \, d\tau' \mathbf{E} \right) \\
 &= \left( \int_V \mathbf{r}' \rho(\mathbf{r}') \, d\tau' \right) \times \mathbf{E}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{F} &= \int_V \rho(\mathbf{r}') \, d\tau' \, \mathbf{E} \\
 &= \int_V \rho(\mathbf{r}') \, d\tau' \left[ \mathbf{E}_0 + \mathbf{r}' \cdot (\nabla \mathbf{E})_0 \right] \\
 &= \left( \int_V \rho(\mathbf{r}') \, d\tau' \right) \mathbf{E}_0 
@@ -1496,7 +1496,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 V &= \frac{1}{4\pi \varepsilon_0} \int_V \frac{\mathbf{P}(\mathbf{r}') \cdot \hat{\mathbf{\vec{r}}}}{\vec{r}^2} \, d\tau' \\
 &= \frac{1}{4\pi \varepsilon_0} \int_V \mathbf{P}(\mathbf{r}') \cdot \nabla' \left(\frac{1}{\vec{r}}\right) \, d\tau' \\
 &= \frac{1}{4\pi \varepsilon_0} \int_V \left[-\frac{1}{\vec{r}}\nabla' \cdot \mathbf{P}(\mathbf{r}') + \nabla' \cdot \left(\frac{\mathbf{P}(\mathbf{r}')}{\vec{r}}\right)\right] d\tau' \\
@@ -1513,7 +1513,7 @@ $$
 ### Magnetization / 磁化
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{N} &= \mathbf{m} \times \mathbf{B} \\
 \mathbf{F} &= \nabla (\mathbf{m} \cdot \mathbf{B})
 \end{aligned}
@@ -1521,13 +1521,13 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{N} 
 &= \oint_C \mathbf{r}' \times \left( I \, d\mathbf{l}' \times \mathbf{B} \right) \\
 &= I \oint_C d\mathbf{l}' \left( \mathbf{r}' \cdot \mathbf{B} \right) - I \oint_C \mathbf{B} \left( \mathbf{r}' \cdot d\mathbf{l}' \right) \\
 &= (I \, \mathbf{a}) \times \mathbf{B}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{F} 
 &= \oint_C I \, d\mathbf{l}' \times \mathbf{B} \\
 &= I \oint_C d\mathbf{l}' \times \left[ \mathbf{B}_0 + \mathbf{r}' \cdot (\nabla \mathbf{B})_0 \right] \\
@@ -1549,7 +1549,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{A}(\mathbf{r}) 
 &= \frac{\mu_0}{4\pi} \int_V \frac{\mathbf{M}(\mathbf{r}') \times \hat{\mathbf{\vec{r}}}}{\vec{r}^2} \, d\tau' \\
 &= \frac{\mu_0}{4\pi} \int_V \mathbf{M}(\mathbf{r}') \times \nabla' \left(\frac{1}{\vec{r}}\right) d\tau' \\
@@ -1567,7 +1567,7 @@ $$
 ### Maxwell's Equations in Matter / 物質中のMaxwell方程式
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \nabla \cdot \mathbf{D} = \rho_f \\
 & \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \\
 & \nabla \cdot \mathbf{B} = 0 \\
@@ -1577,11 +1577,11 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \rho &= \rho_f + \rho_b \\
 &= \rho_f - \nabla \cdot \mathbf{P}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \mathbf{J} &= \mathbf{J}_f + \mathbf{J}_b + \mathbf{J}_p \\
 &= \mathbf{J}_f + \nabla \times \mathbf{M} + \frac{\partial \mathbf{P}}{\partial t}
 \end{aligned} \\
@@ -1598,7 +1598,7 @@ $$
 ### Boundary Conditions / 境界条件
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \mathbf{D}_{1n} - \mathbf{D}_{2n} = \sigma_f \,\hat{\mathbf{n}} \\
 & \mathbf{E}_{1t} - \mathbf{E}_{2t} = 0 \\
 & \mathbf{B}_{1n} - \mathbf{B}_{2n} = 0 \\
@@ -1608,22 +1608,22 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \oint_S \mathbf{D} \cdot d\mathbf{a} 
 &= \mathbf{D}_{1n}\cdot \mathbf{a} - \mathbf{D}_{2n}\cdot \mathbf{a} \\
 &= \sigma_f \,\hat{\mathbf{n}}\cdot \mathbf{a}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \oint_C \mathbf{E} \cdot d\mathbf{l} 
 &= \mathbf{E}_{1t}\cdot \mathbf{l} - \mathbf{E}_{2t}\cdot \mathbf{l} \\
 &= 0
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \oint_S \mathbf{B} \cdot d\mathbf{a} 
 &= \mathbf{B}_{1n}\cdot \mathbf{a} - \mathbf{B}_{2n}\cdot \mathbf{a} \\
 &= 0
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \oint_C \mathbf{H} \cdot d\mathbf{l} 
 &= \mathbf{H}_{1t}\cdot \mathbf{l} - \mathbf{H}_{2t}\cdot \mathbf{l} \\
 &= \mathbf{K}_f \cdot (\hat{\mathbf{n}}\times \mathbf{l}) \\
@@ -1687,7 +1687,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \frac{\partial F^{0\nu}}{\partial x^\nu}
 &= \frac{1}{c} \frac{\partial E_x}{\partial x}
 + \frac{1}{c} \frac{\partial E_y}{\partial y}
@@ -1714,7 +1714,7 @@ $$
 + \nabla \times \mathbf{E} \right)_x
 = 0 \\
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \frac{F_x}{\sqrt{1 - \frac{v^2}{c^2}}} &= \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
 \left( q \mathbf{E} + q \mathbf{v} \times \mathbf{B} \right)_x \\
 &= q \left[
@@ -1738,11 +1738,11 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 F^{01} &= \frac{E_x}{c} = -\frac{1}{c} \left( \frac{\partial \mathbf{A}}{\partial t} + \nabla V \right)_x = -\frac{1}{c} \frac{\partial A_x}{\partial t} - \frac{1}{c} \frac{\partial V}{\partial x} \\
 F^{12} &= B_z = (\nabla \times \mathbf{A})_z = \frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \left( -\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2 \right) \frac{V}{c}
 &= -\mu_0 c \rho \\
 \left( -\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2 \right) \mathbf{A}
@@ -1774,7 +1774,7 @@ $$
 # Quantum Mechanics / 量子力学
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & |\psi\rangle \in \mathcal{H} \\
 & \hat{A} = \hat{A}^\dagger \\
 & P(a_n) = |\langle a_n | \psi \rangle|^2 \\
@@ -1789,7 +1789,7 @@ $$
 ### State / 状態
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \langle m | n \rangle = \delta_{mn} && \langle a | a' \rangle = \delta(a - a') \\
 & \sum_n |n\rangle\langle n| = \mathbb I && \int |a\rangle\langle a| \, da = \mathbb I \\
 & |\psi\rangle = \sum_n |n\rangle\langle n|\psi\rangle && |\psi\rangle = \int |a\rangle\langle a|\psi\rangle \, da
@@ -1800,7 +1800,7 @@ $$
 ### Observable / 物理量
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{A}|a\rangle = a|a\rangle && \langle a | a \rangle = \mathbb I \\
 & a = a^* && \langle a_n | a_m \rangle = \delta_{nm} \\
 & \hat{A} = \sum_a a |a\rangle\langle a| && \hat{A} = \int a |a\rangle\langle a| \, da
@@ -1811,7 +1811,7 @@ $$
 ### Measurement / 測定
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & p(a) = \langle \psi | \hat{P}_a | \psi \rangle \\
 & \langle \hat{A} \rangle = \langle \psi | \hat{A} | \psi \rangle \\
 & |\psi\rangle \to \frac{\hat{P}_a |\psi\rangle}{\sqrt{\langle \psi | \hat{P}_a | \psi \rangle}}
@@ -1822,7 +1822,7 @@ $$
 ### Evolution / 発展
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & |\psi(t)\rangle = \hat U(t)\,|\psi(0)\rangle \quad \hat U^\dagger(t)\,\hat U(t) = \mathbb I \\
 & \hat U(t) = \exp\left[-\frac{i}{\hbar}\hat H t\right] \\
 & \hat U(t) = \mathcal T \exp\left[-\frac{i}{\hbar}\int_{0}^{t}\hat H(t')\,dt'\right]
@@ -1836,7 +1836,7 @@ $$
 ### Wave Function / 波動関数
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \langle x | \psi \rangle = \psi(x) \\
 & \langle \phi | \psi \rangle = \int_{-\infty}^{\infty} \phi^*(x) \psi(x) dx \\
 & \langle x | \hat{x} | \psi \rangle = x \psi(x) \\
@@ -1848,7 +1848,7 @@ $$
 ### Change of Basis / 基底変換
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \langle x | x' \rangle = \delta(x - x') && \langle p | p' \rangle = \delta(p - p') \\
 & \langle x | p \rangle = \frac{1}{\sqrt{2\pi\hbar}} e^{\frac{i}{\hbar}px} && \langle p | x \rangle = \frac{1}{\sqrt{2\pi\hbar}} e^{-\frac{i}{\hbar}px} \\
 & \phi(p) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \psi(x) e^{-\frac{i}{\hbar}px} dx && \psi(x) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \phi(p) e^{\frac{i}{\hbar}px} dp
@@ -1859,7 +1859,7 @@ $$
 ### Schrödinger Equation / Schrödinger方程式
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & -\frac{\hbar^2}{2m} \frac{\partial^2\Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t} \\
 & -\frac{\hbar^2}{2m} \frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
 \end{aligned}
@@ -1869,7 +1869,7 @@ $$
 ### Probability Current / 確率流
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \frac{\partial |\Psi|^2}{\partial t} = -\nabla \cdot \mathbf{j} \\
 & \mathbf{j} = \frac{i\hbar}{2m} (\Psi \nabla \Psi^* - \Psi^* \nabla \Psi)
 \end{aligned}
@@ -1879,7 +1879,7 @@ $$
 ### Ehrenfest's Theorem / Ehrenfestの定理
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \frac{d}{dt} \langle \hat{A} \rangle = -\frac{i}{\hbar} \langle [\hat{A}, \hat{H}] \rangle \\
 & \frac{d}{dt} \langle \hat{x} \rangle = \left\langle \frac{\partial \hat{H}}{\partial \hat{p}} \right\rangle \\
 & \frac{d}{dt} \langle \hat{p} \rangle = \left\langle -\frac{\partial \hat{H}}{\partial \hat{x}} \right\rangle
@@ -1890,7 +1890,7 @@ $$
 ### Uncertainty Principle / 不確定性原理
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \Delta A \Delta B \geq \frac{1}{2} |\langle [A, B] \rangle| \\
 & [\hat{x}, \hat{p}] = i\hbar \quad \Delta x \Delta p \geq \frac{\hbar}{2}
 \end{aligned}
@@ -1903,7 +1903,7 @@ $$
 ### Free Particle / 自由粒子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & V(x) = 0 \\
 & \psi(x) = A e^{ikx} + B e^{-ikx} \\
 & k = \frac{\sqrt{2mE}}{\hbar}
@@ -1914,7 +1914,7 @@ $$
 ### Step Potential / 段差ポテンシャル
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & V(x) = \begin{cases} 0, & x < 0 \\ V_0, & x \geq 0 \end{cases} \\
 & \psi(x) = \begin{cases} A e^{ik_1 x} + B e^{-ik_1 x}, & x < 0 \\ C e^{ik_2 x}, & x \geq 0 \end{cases} \\
 & k_1 = \frac{\sqrt{2mE}}{\hbar}, \quad k_2 = \frac{\sqrt{2m(E-V_0)}}{\hbar} \\
@@ -1927,7 +1927,7 @@ $$
 ### Potential Barrier / ポテンシャル障壁
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & V(x) = \begin{cases} V_0, & |x| \leq \frac{a}{2} \\ 0, & |x| > \frac{a}{2} \end{cases} \\
 & \psi(x) = \begin{cases} A e^{ikx} + B e^{-ikx}, & x < -\frac{a}{2} \\ C e^{\kappa x} + D e^{-\kappa x}, & -\frac{a}{2} \leq x \leq \frac{a}{2} \\ F e^{ikx}, & x > \frac{a}{2} \end{cases} \\
 & k = \frac{\sqrt{2mE}}{\hbar}, \quad \kappa = \frac{\sqrt{2m(V_0-E)}}{\hbar} \\
@@ -1940,7 +1940,7 @@ $$
 ### Square Well / 井戸型ポテンシャル
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & V(x) = \begin{cases} 0, & |x| < \frac{L}{2} \\ \infty, & |x| \geq \frac{L}{2} \end{cases} \\
 & \psi_n(x) = \begin{cases} \sqrt{\frac{2}{L}} \cos\left(\frac{n\pi x}{L}\right), & n=1,3,5,\dots \\ \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right), & n=2,4,6,\dots \end{cases} \\
 & E_n = \frac{\hbar^2 \pi^2 n^2}{2mL^2}
@@ -1951,7 +1951,7 @@ $$
 ### Harmonic Oscillator / 調和振動子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & V(x) = \frac{1}{2} m \omega^2 x^2 \\
 & \psi_n(x) = \frac{1}{\sqrt{2^n n!}} \left( \frac{m\omega}{\pi\hbar} \right)^{1/4} H_n \left( \sqrt{\frac{m\omega}{\hbar}} x \right) \exp\left( -\frac{m\omega x^2}{2\hbar} \right) \\
 & E_n = \hbar \omega \left( n + \frac{1}{2} \right), \quad n = 0, 1, 2, \dots
@@ -1962,7 +1962,7 @@ $$
 ### Ladder Operator / 昇降演算子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{a} = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} + \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} && \hat{a}^\dagger = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} - \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \\
 & \hat{a}|n\rangle = \sqrt{n}|n-1\rangle && \hat{a}^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle \\
 & \hat{H}|n\rangle = \hbar\omega\left( n + \frac{1}{2} \right)|n\rangle
@@ -1976,7 +1976,7 @@ $$
 ### Spatial Translational Invariance / 空間並進不変性
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{\mathbf{p}} = -i\hbar\nabla \\
 & \hat{U}_\mathbf{a}|\mathbf{r}\rangle = |\mathbf{r}+\mathbf{a}\rangle \to \hat{U}_\mathbf{a} = e^{-\frac{i}{\hbar}\hat{\mathbf{p}}\cdot\mathbf{a}} \\
 & \langle\psi_\mathbf{a}|\hat{H}|\psi_\mathbf{a}\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{\mathbf{p}}\rangle = 0
@@ -1987,7 +1987,7 @@ $$
 ### Rotational Invariance / 回転不変性
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{\mathbf{L}} = -i\hbar \mathbf{r} \times \nabla \\
 & \hat{U}_\theta|\mathbf{r}\rangle = |R_\theta\mathbf{r}\rangle \to \hat{U}_\theta = e^{-\frac{i}{\hbar}\hat{\mathbf{L}}\cdot\boldsymbol{\theta}} \\
 & \langle\psi_{\boldsymbol{\theta}}|\hat{H}|\psi_{\boldsymbol{\theta}}\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{\mathbf{L}}\rangle = 0
@@ -1998,7 +1998,7 @@ $$
 ### Time Translational Invariance / 時間並進不変性
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r}, t) \\
 & \hat{U}_\tau|\psi(t)\rangle = |\psi(t+\tau)\rangle \rightarrow \hat{U}_\tau = e^{-\frac{i}{\hbar}\hat{H}\tau} \\
 & \langle\psi_{\tau}|\hat{H}|\psi_{\tau}\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{H}\rangle = 0
@@ -2012,7 +2012,7 @@ $$
 ### Angular Momentum Operator / 角運動量演算子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & [\hat{J}_i, \hat{J}_j] = i\hbar \epsilon_{ijk} \hat{J}_k, \quad [\hat{\mathbf{J}}^2, \hat{J}_i] = 0 \\
 & \hat{J}_+ = \hat{J}_x + i\hat{J}_y, \quad \hat{J}_- = \hat{J}_x - i\hat{J}_y \\
 & \hat{J}_{\pm}|j,m\rangle = \hbar\sqrt{j(j+1) - m(m \pm 1)} |j, m \pm 1\rangle \\
@@ -2023,30 +2023,30 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 [\hat{J}^2,\hat{J}_z] &= [\hat{J}_x^2,\hat{J}_z]+[\hat{J}_y^2,\hat{J}_z]+[\hat{J}_z^2,\hat{J}_z] \\
 &= \hat{J}_x[\hat{J}_x,\hat{J}_z]+[\hat{J}_x,\hat{J}_z]\hat{J}_x+\hat{J}_y[\hat{J}_y,\hat{J}_z]+[\hat{J}_y,\hat{J}_z]\hat{J}_y \\
 &= \hat{J}_x(-i\hbar\hat{J}_y)+(-i\hbar\hat{J}_y)\hat{J}_x+\hat{J}_y(i\hbar\hat{J}_x)+(i\hbar\hat{J}_x)\hat{J}_y \\
 &= 0
 \end{aligned} \\
 \hat{J}^2|j,m\rangle = \hbar^2 j(j+1)|j,m\rangle,\quad \hat{J}_z|j,m\rangle = \hbar m|j,m\rangle \\
-\begin{aligned}
+\begin{aligned}{}
 [\hat{J}^2,\hat{J}_{\pm}] &= [\hat{J}^2,\hat{J}_x]\pm i[\hat{J}^2,\hat{J}_y] = 0
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \hat{J}^2\hat{J}_{\pm}|j,m\rangle &= \hat{J}_{\pm}\hat{J}^2|j,m\rangle = \hbar^2 j(j+1)\hat{J}_{\pm}|j,m\rangle
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 [\hat{J}_z,\hat{J}_{\pm}] &= [\hat{J}_z,\hat{J}_x]\pm i[\hat{J}_z,\hat{J}_y] \\
 &= i\hbar\hat{J}_y \pm i(-i\hbar\hat{J}_x) \\
 &= \pm \hbar\hat{J}_{\pm}
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \hat{J}_z\hat{J}_{\pm}|j,m\rangle &= \hat{J}_{\pm}\hat{J}_z|j,m\rangle \pm \hbar\hat{J}_{\pm}|j,m\rangle \\
 &= \hbar(m\pm 1)\hat{J}_{\pm}|j,m\rangle
 \end{aligned} \\
 \hat{J}_{\pm}|j,m\rangle = C_{\pm}|j,m\pm 1\rangle \\
-\begin{aligned}
+\begin{aligned}{}
 |C_{\pm}|^2 &= \langle j,m|\hat{J}_{\pm}^{\dagger}\hat{J}_{\pm}|j,m\rangle \\
 &= \langle j,m|\hat{J}_x^2+\hat{J}_y^2\pm i[\hat{J}_x,\hat{J}_y]|j,m\rangle \\
 &= \langle j,m|\hat{J}^2-\hat{J}_z^2\mp\hbar\hat{J}_z|j,m\rangle \\
@@ -2065,7 +2065,7 @@ $$
 ### Orbital Angular Momentum / 軌道角運動量
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{\mathbf{L}} = -i\hbar \mathbf{r} \times \nabla \to [\hat{L}_i, \hat{L}_j] = i\hbar \epsilon_{ijk} \hat{L}_k\\
 & \hat{\mathbf{L}}^2 = -\hbar^2 \left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] \\
 & \hat{L}_z = -i\hbar\frac{\partial}{\partial\phi} \\
@@ -2077,12 +2077,12 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 [\hat{L}_x,\hat{L}_y] &= -\hbar^2\left(y\frac{\partial}{\partial x}-x\frac{\partial}{\partial y}\right)=i\hbar\hat{L}_z \\
 [\hat{L}_y,\hat{L}_z] &= -\hbar^2\left(z\frac{\partial}{\partial y}-y\frac{\partial}{\partial z}\right)=i\hbar\hat{L}_x \\
 [\hat{L}_z,\hat{L}_x] &= -\hbar^2\left(x\frac{\partial}{\partial z}-z\frac{\partial}{\partial x}\right)=i\hbar\hat{L}_y 
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \hat{L}^2 &= -\hbar^2\left(\mathbf{r}\times\nabla\right)^2 \\
 &= -\hbar^2\left[r^2\nabla^2-\left(\mathbf{r}\cdot\nabla\right)^2-\mathbf{r}\cdot\nabla\right] \\
 &= -\hbar^2\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right)+\frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] 
@@ -2091,7 +2091,7 @@ $$
 \hat{L}_zY_l^m = -i\hbar\frac{\partial Y_l^m}{\partial\phi}=\hbar mY_l^m \rightarrow Y_l^m(\theta,\phi)=\Theta_l^m(\theta)e^{im\phi} \\
 Y_l^m(\theta,\phi+2\pi) = Y_l^m(\theta,\phi) \rightarrow 
 e^{i2\pi m}=1,\quad m\in\mathbb{Z} \\
-\begin{aligned}
+\begin{aligned}{}
 \hat{L}^2Y_l^m &= -\hbar^2\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial\Theta_l^m}{\partial\theta}\right)e^{im\phi}-\frac{m^2}{\sin^2\theta}\Theta_l^me^{im\phi}\right] \\
 &= \hbar^2l(l+1)\Theta_l^me^{im\phi}
 \end{aligned} \\
@@ -2105,7 +2105,7 @@ $$
 ### Spin Angular Momentum / スピン角運動量
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{\mathbf{S}} = \frac{\hbar}{2} \boldsymbol{\sigma} \to [\hat{S}_i, \hat{S}_j] = i\hbar \epsilon_{ijk} \hat{S}_k\\
 & \hat{S}_x = \frac{\hbar}{2} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \hat{S}_y = \frac{\hbar}{2} \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad \hat{S}_z = \frac{\hbar}{2} \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \\
 & \hat{\mathbf{S}}^2|s,m\rangle = \hbar^2 s(s+1)|s,m\rangle, \quad s=\frac{1}{2} \\
@@ -2116,24 +2116,24 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 [\hat{S}_x,\hat{S}_y] &= \frac{\hbar^2}{4}\left[\begin{pmatrix} i & 0 \\ 0 & -i \end{pmatrix}-\begin{pmatrix} -i & 0 \\ 0 & i \end{pmatrix}\right] = i\hbar\hat{S}_z \\
 [\hat{S}_y,\hat{S}_z] &= \frac{\hbar^2}{4}\left[\begin{pmatrix} 0 & i \\ i & 0 \end{pmatrix}-\begin{pmatrix} 0 & -i \\ -i & 0 \end{pmatrix}\right] = i\hbar\hat{S}_x \\
 [\hat{S}_z,\hat{S}_x] &= \frac{\hbar^2}{4}\left[\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}-\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}\right] = i\hbar\hat{S}_y
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \hat{S}_z \begin{pmatrix} 1 \\ 0 \end{pmatrix} &= \frac{\hbar}{2}\begin{pmatrix} 1 \\ 0 \end{pmatrix}, \quad m=\frac{1}{2} \\
 \hat{S}_z \begin{pmatrix} 0 \\ 1 \end{pmatrix} &= -\frac{\hbar}{2}\begin{pmatrix} 0 \\ 1 \end{pmatrix}, \quad m=-\frac{1}{2}
 \end{aligned} \\
 \hat{H}=-\gamma\hat{\mathbf{S}}\cdot\mathbf{B}, \quad
 \mathbf{B} = B\hat{\mathbf{z}} \rightarrow \hat{H}=-\gamma\hat{S}_zB \\
 \hat{H}|\!\uparrow\rangle=-\frac{\hbar\gamma B}{2}|\!\uparrow\rangle, \quad \hat{H}|\!\downarrow\rangle=\frac{\hbar\gamma B}{2}|\!\downarrow\rangle \\
-\begin{aligned}
+\begin{aligned}{}
 |\psi(t)\rangle &= e^{-\frac{i}{\hbar}\hat{H}t}\left(a|\!\uparrow\rangle+b|\!\downarrow\rangle\right) \\
 &= ae^{i\frac{\gamma B}{2}t}|\!\uparrow\rangle+be^{-i\frac{\gamma B}{2}t}|\!\downarrow\rangle \\
 &= e^{i\frac{\gamma B}{2}t}\left(a|\!\uparrow\rangle+be^{-i\gamma Bt}|\!\downarrow\rangle\right) \\
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 \langle S_x\rangle &= \langle\psi(t)|\hat{S}_x|\psi(t)\rangle = \hbar |ab|\cos(\gamma Bt+\phi) \\
 \langle S_y\rangle &= \langle\psi(t)|\hat{S}_y|\psi(t)\rangle = -\hbar |ab|\sin(\gamma Bt+\phi) \\
 \langle S_z\rangle &= \langle\psi(t)|\hat{S}_z|\psi(t)\rangle = \frac{\hbar}{2}\left(|a|^2-|b|^2\right)
@@ -2144,7 +2144,7 @@ $$
 ### Addition of Angular Momentum / 角運動量の合成
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{\mathbf{J}} = \hat{\mathbf{J}}_1 + \hat{\mathbf{J}}_2 \to [\hat{J}_i, \hat{J}_j] = i\hbar \epsilon_{ijk} \hat{J}_k \\
 & \hat{\mathbf{J}}^2|j,m\rangle = \hbar^2 j(j+1)|j,m\rangle, \quad j=|j_1-j_2|, |j_1-j_2|+1, \dots, j_1+j_2 \\
 & \hat{J}_z|j,m\rangle = \hbar m|j,m\rangle, \quad m=-j, -j+1, \dots, j \\
@@ -2156,7 +2156,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 [\hat{J}_i,\hat{J}_j]
 &=[\hat{J}_{1i},\hat{J}_{1j}]+[\hat{J}_{1i},\hat{J}_{2j}]+[\hat{J}_{2i},\hat{J}_{1j}]+[\hat{J}_{2i},\hat{J}_{2j}] \\
 &=i\hbar \hat{J}_{1k}+0+0+i\hbar \hat{J}_{2k} =i\hbar \hat{J}_k
@@ -2166,7 +2166,7 @@ $$
 m_{\max}=m_{1\max}+m_{2\max}=j_1+j_2 \\
 \sum_{m_{\min}}^{m_{\max}}(2j+1)=(2j_1+1)(2j_2+1) \\
 m_{\min}=\sqrt{j_1^2+j_2^2-2j_1j_2}=|j_1-j_2| \\
-\begin{aligned}
+\begin{aligned}{}
 \hat{J}_z|j_1,j_2;j,m\rangle
 &=\hbar m|j_1,j_2;j,m\rangle \\
 &=\hbar m\sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}|j_1,m_1\rangle|j_2,m_2\rangle \\
@@ -2175,7 +2175,7 @@ m_{\min}=\sqrt{j_1^2+j_2^2-2j_1j_2}=|j_1-j_2| \\
 \end{aligned} \\
 \sum_{m_1,m_2}\hbar(m-m_1-m_2)C^{jm}_{j_1m_1j_2m_2}|j_1,m_1\rangle|j_2,m_2\rangle=0 \\
 C^{jm}_{j_1m_1j_2m_2}\neq0\rightarrow m = m_1-m_2 \\
-\begin{aligned}
+\begin{aligned}{}
 \langle j_1,j_2;j,m|j_1,j_2;j',m'\rangle &=\sum_{m_1,m_2}\sum_{m_1',m_2'}C^{jm}_{j_1m_1j_2m_2}C^{j'm'}_{j_1m_1'j_2m_2'}\delta_{m_1,m_1'}\delta_{m_2,m_2'} \\
 &=\sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}C^{j'm'}_{j_1m_1j_2m_2}\quad (C\in\mathbb{R}) \\
 &=\delta_{jj'}\delta_{mm'}
@@ -2189,7 +2189,7 @@ $$
 ### Central Potential / 中心力ポテンシャル
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & -\frac{\hbar^2}{2m}\nabla^2\psi(\mathbf{r}) + V(\mathbf{r})\psi(\mathbf{r}) = E\psi(\mathbf{r}) \\
 & V(\mathbf{r}) = V(r), \quad \psi(\mathbf{r}) = R(r)Y_l^m(\theta,\phi), \quad u(r) = rR(r) \\
 & -\frac{\hbar^2}{2m}\frac{d^2u(r)}{dr^2} + \left[V(r) + \frac{\hbar^2 l(l+1)}{2mr^2}\right]u(r) = Eu(r)
@@ -2198,19 +2198,19 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 \nabla^2 &= \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right) + \frac{1}{r^2}\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] \\
 &= \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right) - \frac{\hat{L}^2}{\hbar^2 r^2}
 \end{aligned} \\
 V(\mathbf{r})=V(r) \rightarrow [\hat{H}, \hat{L}^2]=0, \; [\hat{H}, \hat{L}_z]=0 \rightarrow \psi=R(r)Y_l^m(\theta, \phi) \\
-\begin{aligned}
+\begin{aligned}{}
 & -\frac{\hbar^2}{2m}\nabla^2\psi + V\psi \\
 = &-\frac{\hbar^2}{2m}\left[\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial\psi}{\partial r}\right) - \frac{\hat{L}^2}{\hbar^2 r^2}\psi\right] + V\psi \\
 = &-\frac{\hbar^2}{2m}\left[\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial R}{\partial r}\right)Y_l^m - \frac{R}{\hbar^2 r^2}\hat{L}^2Y_l^m\right] + VRY_l^m \\
 = &-\frac{\hbar^2}{2m}\left[\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial R}{\partial r}\right)Y_l^m - \frac{R}{\hbar^2 r^2}\hbar^2 l(l+1)Y_l^m\right] + VRY_l^m \\
 = &ERY_l^m
 \end{aligned} \\
-\begin{aligned}
+\begin{aligned}{}
 & -\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right) + \frac{\hbar^2 l(l+1)}{2mr^2}R + VR \\
 = & -\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{d}{dr}\left[r^2\frac{d}{dr}\left(\frac{u}{r}\right)\right] + \frac{\hbar^2 l(l+1)}{2mr^2}\frac{u}{r} + V\frac{u}{r} \\
 = & -\frac{\hbar^2}{2m}\frac{1}{r}\frac{d^2u}{dr^2} + \frac{\hbar^2 l(l+1)}{2mr^2}\frac{u}{r} + V\frac{u}{r} = E\frac{u}{r}
@@ -2221,7 +2221,7 @@ $$
 ### Infinite Spherical Well / 無限球形井戸
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & V(r) = \begin{cases} 0, & r < a \\ \infty, & r \geq a \end{cases} \\
 & \psi_{nlm}(r,\theta,\phi) = \frac{\sqrt{2}}{a^{3/2}\left|j_{l+1}(\alpha_{nl})\right|} j_l(k_{nl}r)Y_l^m(\theta,\phi) \\
 & j_l(\alpha_{nl})=0, \quad k_{nl} = \frac{\alpha_{nl}}{a} \\
@@ -2243,7 +2243,7 @@ $$
 ### Isotropic Harmonic Oscillator / 等方性調和振動子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & V(r) = \frac{1}{2}m\omega^2 r^2 \\
 & \psi_{n_x n_y n_z}(x,y,z) = \psi_{n_x}(x)\psi_{n_y}(y)\psi_{n_z}(z) \\
 & N = n_x+n_y+n_z, \quad g_N = \frac{(N+1)(N+2)}{2} \\
@@ -2258,7 +2258,7 @@ $$
 \frac{\hat{H}_xX}{X} + \frac{\hat{H}_yY}{Y} + \frac{\hat{H}_zZ}{Z} = E = E_x+E_y+E_z \\
 \hat{H}_x\psi_{n_x} = E_{n_x}\psi_{n_x}, \quad \hat{H}_y\psi_{n_y} = E_{n_y}\psi_{n_y}, \quad \hat{H}_z\psi_{n_z} = E_{n_z}\psi_{n_z} \\
 \psi_{n_x n_y n_z}(x, y, z) = \psi_{n_x}(x)\psi_{n_y}(y)\psi_{n_z}(z) \\
-\begin{aligned}
+\begin{aligned}{}
 E &= E_{n_x}+E_{n_y}+E_{n_z} \\
 &= \hbar\omega\left(n_x+\frac{1}{2}\right) + \hbar\omega\left(n_y+\frac{1}{2}\right) + \hbar\omega\left(n_z+\frac{1}{2}\right) \\
 &= \hbar\omega\left(N+\frac{3}{2}\right)
@@ -2270,7 +2270,7 @@ $$
 ### Hydrogen Atom / 水素原子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & V(r) = -\frac{e^2}{4\pi\epsilon_0 r} \\
 & \psi_{nlm}(r,\theta,\phi) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n[(n+l)!]}} e^{-\rho} (2\rho)^l L_{n-l-1}^{2l+1}(2\rho) Y_l^m(\theta,\phi) \\
 & a_0 = \frac{4\pi\epsilon_0\hbar^2}{me^2}, \quad \rho = \frac{r}{na_0} \\
@@ -2283,7 +2283,7 @@ $$
 -\frac{\hbar^2}{2m}\frac{d^2u}{dr^2} + \left[-\frac{e^2}{4\pi\varepsilon_0 r} + \frac{\hbar^2 l(l+1)}{2mr^2}\right]u = Eu \\
 a_0 = \frac{4\pi\varepsilon_0\hbar^2}{me^2}, \quad \kappa^2 = -\frac{2mE}{\hbar^2}, \quad \rho = \kappa r \\
 \frac{d^2u}{dr^2} + \left[\frac{2}{a_0r} - \frac{l(l+1)}{r^2} - \kappa^2\right]u = 0 \\
-\begin{aligned}
+\begin{aligned}{}
 & r \to 0: && \frac{d^2u}{dr^2} \simeq \frac{l(l+1)}{r^2}u, && u \sim r^{l+1} \\
 & r \to \infty: && \frac{d^2u}{dr^2} \simeq \kappa^2u, && u \sim e^{-\kappa r}
 \end{aligned} \\
@@ -2304,7 +2304,7 @@ $$
 ### Electromagnetic Potential / 電磁ポテンシャル
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{H}\psi = \left[\frac{1}{2m}(\hat{\mathbf{p}} - q\mathbf{A})^2 + q\Phi\right]\psi = i\hbar\frac{\partial\psi}{\partial t} \\
 & \mathbf{A}' = \mathbf{A} + \nabla\chi, \quad \Phi' = \Phi - \frac{\partial\chi}{\partial t}, \quad \psi' = e^{\frac{i}{\hbar}q\chi}\psi \\
 & \hat{H'}\psi' = \left[\frac{1}{2m}(\hat{\mathbf{p}} - q\mathbf{A'})^2 + q\Phi'\right]\psi' = i\hbar\frac{\partial\psi'}{\partial t} \\
@@ -2313,7 +2313,7 @@ $$
 {: .notice--info}
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 (\hat{\mathbf{p}}-q\mathbf{A}')\psi' &= \left( -i\hbar\nabla -q\mathbf{A} -q\nabla\chi \right) e^{\frac{i}{\hbar}q\chi}\psi \\
 &= e^{\frac{i}{\hbar}q\chi} \left( -i\hbar\nabla -q\mathbf{A} \right)\psi \\
 (\hat{\mathbf{p}}-q\mathbf{A}')^2\psi' &= e^{\frac{i}{\hbar}q\chi} \left( -i\hbar\nabla -q\mathbf{A} \right)^2\psi \\
@@ -2330,7 +2330,7 @@ $$
 ### Charged Particle / 荷電粒子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & E_{n,k_z} = \hbar\omega_c\left(n+\frac{1}{2}\right) + \frac{\hbar^2 k_z^2}{2m}, \quad \omega_c=\frac{|q|B}{m} \\
 & \psi = \psi_0 \exp\left(\frac{i}{\hbar}q\int_C \mathbf{A}\cdot d\mathbf{l}\right),\quad \Delta\varphi = \frac{q}{\hbar}\int_S \mathbf{B}\cdot d\mathbf{S}
 \end{aligned}
@@ -2341,7 +2341,7 @@ $$
 \mathbf{B}=B\hat{\mathbf{z}}, \quad \nabla\times\mathbf{A}=\mathbf{B} \to \mathbf{A}=Bx\hat{\mathbf{y}} \\
 \hat{H} = \frac{1}{2m} \left[ \hat{p}_x^2 + (\hat{p}_y-qBx)^2 + \hat{p}_z^2 \right] \\
 [\hat{H},\hat{p}_y]=0, \quad [\hat{H},\hat{p}_z]=0 \to \psi=e^{ik_y y}e^{ik_z z}X(x) \\
-\begin{aligned}
+\begin{aligned}{}
 \hat{H}\psi &= \frac{1}{2m} \left[ \hat{p}_x^2 + (\hbar k_y-qBx)^2 + (\hbar k_z)^2 \right]\psi \\
 &= \left[ \frac{\hat{p}_x^2}{2m} + \frac{q^2B^2}{2m} \left(x-\frac{\hbar k_y}{qB}\right)^2 + \frac{\hbar^2k_z^2}{2m} \right]\psi \\
 &= \left[ \frac{\hat{p}_x^2}{2m} + \frac{m\omega_c^2}{2}(x-x_0)^2 + \frac{\hbar^2k_z^2}{2m} \right]\psi
@@ -2350,7 +2350,7 @@ $$
 \omega_c = \frac{|q|B}{m}, \quad E = \hbar\omega_c\left(n+\frac{1}{2}\right) + \frac{\hbar^2k_z^2}{2m} \\
 \mathbf{A}_0 = \mathbf{A}+\nabla\chi=0 \to \mathbf{A}=-\nabla\chi, \quad \chi=-\int_{\mathbf{r}_0}^{\mathbf{r}}\mathbf{A}\cdot d\mathbf{l} \\
 \psi_0 = \psi e^{\frac{i}{\hbar}q\chi} \to \psi = \psi_0 e^{-\frac{i}{\hbar}q\chi} = \psi_0 \exp\left( \frac{i}{\hbar}q\int_C\mathbf{A}\cdot d\mathbf{l} \right) \\
-\begin{aligned}
+\begin{aligned}{}
 \Delta\varphi &= \frac{q}{\hbar}\int_{C_1}\mathbf{A}\cdot d\mathbf{l} - \frac{q}{\hbar}\int_{C_2}\mathbf{A}\cdot d\mathbf{l} \\
 &= \frac{q}{\hbar}\oint_C\mathbf{A}\cdot d\mathbf{l} = \frac{q}{\hbar}\int_S(\nabla\times\mathbf{A})\cdot d\mathbf{S} \\
 &= \frac{q}{\hbar}\int_S\mathbf{B}\cdot d\mathbf{S} = \frac{q\Phi_B}{\hbar}
@@ -2364,7 +2364,7 @@ $$
 ### Variational Method / 変分法
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & E_0 \leq \frac{\langle \psi | \hat{H} | \psi \rangle}{\langle \psi | \psi \rangle}
 \end{aligned}
 $$
@@ -2373,7 +2373,7 @@ $$
 ### WKB Approximation / WKB近似
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \psi(x) \approx \frac{1}{\sqrt{p(x)}} \left(
 C_1 e^{\frac{i}{\hbar}\int^x p(x')\,dx'}
 + C_2 e^{-\frac{i}{\hbar}\int^x p(x')\,dx'}
@@ -2389,7 +2389,7 @@ $$
 ### Bound State and Tunneling / 束縛状態とトンネル効果
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \int_{x_1}^{x_2} p(x)\,dx = \left(n+\frac{1}{2}\right)\pi\hbar \\
 & T = \exp\left(-\frac{2}{\hbar}\int_{x_1}^{x_2} \kappa(x)\,dx\right)
 \end{aligned}
@@ -2402,7 +2402,7 @@ $$
 ### Non-Degenerate Perturbation Theory / 非縮退定常摂動論
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & E_n^{(1)} = \langle \psi_n^{(0)} | \hat{V} | \psi_n^{(0)} \rangle \\
 & |\psi_n^{(1)}\rangle = \sum_{m \neq n} \frac{|\psi_m^{(0)}\rangle \langle \psi_m^{(0)} | \hat{V} | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \\
 & E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | \hat{V} | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
@@ -2413,7 +2413,7 @@ $$
 ### Degenerate Perturbation Theory / 縮退定常摂動論
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & E_{n,\alpha}^{(1)} : \sum_j \langle \psi_{n,i}^{(0)} | \hat{V} | \psi_{n,j}^{(0)} \rangle C_{n,\alpha}^j = E_{n,\alpha}^{(1)} C_{n,\alpha}^i \\
 & |\psi_{n,\alpha}^{(1)}\rangle = \sum_{m \neq n, \beta} \frac{|\psi_{m,\beta}^{(0)}\rangle \langle \psi_{m,\beta}^{(0)} | \hat{V} | \psi_{n,\alpha}^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \\
 & E_{n,\alpha}^{(2)} = \sum_{m \neq n, \beta} \frac{|\langle \psi_{m,\beta}^{(0)} | \hat{V} | \psi_{n,\alpha}^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
@@ -2424,7 +2424,7 @@ $$
 ### Time-Dependent Perturbation Theory / 時間依存摂動論
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & i\hbar \frac{\partial C_n(t)}{\partial t} = \sum_m \langle \psi_n^{(0)} | \hat{V}(t) | \psi_m^{(0)} \rangle e^{\frac{i}{\hbar}(E_n - E_m)t} C_m(t) \\
 & C_n^{(1)}(t) = -\frac{i}{\hbar} \int_0^t \langle \psi_n^{(0)} | \hat{V}(t') | \psi_i^{(0)} \rangle e^{\frac{i}{\hbar}(E_n - E_i)t'} \, dt' \\
 & \hat{V}(t) = \hat{V} e^{\eta t}, \; \eta \to 0 : \quad C_n^{(1)}(0) = \frac{\langle \psi_n^{(0)} | \hat{V} | \psi_i^{(0)} \rangle}{E_i - E_n} \\
@@ -2439,7 +2439,7 @@ $$
 ### Lippmann-Schwinger Equation / Lippmann-Schwinger方程式
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & |\psi^{(+)}\rangle
 = |\psi^{(0)}\rangle
 + \frac{1}{E-\hat{H}_0+i\epsilon}\hat{V}|\psi^{(+)}\rangle \\
@@ -2458,7 +2458,7 @@ $$
 ### Scattering Amplitude / 散乱振幅
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & r\to\infty,\quad V(\mathbf{r})\to 0 \\
 & f(\mathbf{k}_f \leftarrow \mathbf{k}_i)
 = -\frac{m}{2\pi\hbar^2}
@@ -2478,7 +2478,7 @@ $$
 ### Born Approximation / Born近似
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \psi_{\mathbf{k}_i}^{(+)}(\mathbf{r})
 \approx e^{i\mathbf{k}_i\cdot\mathbf{r}},
 \quad
@@ -2495,7 +2495,7 @@ $$
 ### Partial Wave Expansion / 部分波展開
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & V(\mathbf{r}) = V(r) \\
 & f(\theta)
 = \frac{1}{2ik}
@@ -2515,7 +2515,7 @@ $$
 ### Configuration Space / 座標空間
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & U(x_f, t_f; x_i, t_i) = \int \mathcal{D}[x] e^{\frac{i}{\hbar}S[x]} \\
 & \int \mathcal{D}[x] = \lim_{N \to \infty} \left( \frac{m}{2\pi i \hbar \Delta t} \right)^{\frac{N}{2}} \prod_{j=1}^{N-1} dx_j \\
 & S[x] = \sum_{j=1}^{N} \left[ \frac{m}{2} \left( \frac{x_j - x_{j-1}}{\Delta t} \right)^2 - V(x_j) \right] \Delta t
@@ -2526,7 +2526,7 @@ $$
 ### Phase Space / 位相空間
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & U(x_f, t_f; x_i, t_i) = \int \mathcal{D}[x]\mathcal{D}[p] e^{\frac{i}{\hbar}S[x,p]} \\
 & \int \mathcal{D}[x]\mathcal{D}[p] = \lim_{N \to \infty} \left( \frac{1}{2\pi \hbar} \right)^N \prod_{j=1}^{N-1} dx_j \prod_{k=1}^N dp_k \\
 & S[x,p] = \sum_{j=1}^{N} \left[ p_j \left( \frac{x_j - x_{j-1}}{\Delta t} \right) - H(x_j, p_j) \right] \Delta t
@@ -2537,7 +2537,7 @@ $$
 ### Free Particle / 自由粒子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & S_{cl} = \frac{m(x_f - x_i)^2}{2T} \\
 & U(x_f, T; x_i, 0) = \sqrt{\frac{m}{2\pi i \hbar T}} \exp\left( \frac{i m (x_f - x_i)^2}{2 \hbar T} \right)
 \end{aligned}
@@ -2547,7 +2547,7 @@ $$
 ### Harmonic Oscillator / 調和振動子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & S_{cl} = \frac{m\omega}{2\sin(\omega T)} \left[ (x_i^2 + x_f^2)\cos(\omega T) - 2x_i x_f \right] \\
 & U(x_f, T; x_i, 0) = \sqrt{\frac{m\omega}{2\pi i \hbar \sin(\omega T)}} \exp\left( \frac{i m \omega}{2\hbar \sin(\omega T)} \left[ (x_i^2 + x_f^2)\cos(\omega T) - 2x_i x_f \right] \right)
 \end{aligned}
@@ -2560,9 +2560,9 @@ $$
 ### Exchange Operator / 交換演算子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{P}_{ij} (\dots |w_i\rangle \dots |w_j\rangle \dots) = (\dots |w_j\rangle \dots |w_i\rangle \dots) \\
-& \begin{aligned}
+& \begin{aligned}{}
   & \text{Boson:} && \hat{P}_{ij} |\psi\rangle = |\psi\rangle \\
   & \text{Fermion:} && \hat{P}_{ij} |\psi\rangle = -|\psi\rangle \\
   & && w_i = w_j \rightarrow |\psi\rangle = 0
@@ -2574,7 +2574,7 @@ $$
 ### First Quantization / 第一量子化
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \text{Boson:}   && |w_1 \le w_2 \le \dots \le w_N\rangle = \frac{1}{\sqrt{N! \prod_\alpha n_\alpha!}} \sum_{\sigma \in S_N} |w_{\sigma(1)}\rangle |w_{\sigma(2)}\rangle \dots |w_{\sigma(N)}\rangle \\
 & \text{Fermion:} && |w_1 < w_2 < \dots < w_N\rangle = \frac{1}{\sqrt{N!}} \sum_{\sigma \in S_N} \text{sgn}(\sigma) |w_{\sigma(1)}\rangle |w_{\sigma(2)}\rangle \dots |w_{\sigma(N)}\rangle
 \end{aligned}
@@ -2584,7 +2584,7 @@ $$
 ### Creation & Annihilation Operator / 生成・消滅演算子
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \text{Boson:}   && a_\alpha^\dagger |\dots, n_\alpha, \dots\rangle = \sqrt{n_\alpha + 1} |\dots, n_\alpha + 1, \dots\rangle \\
 &                 && a_\alpha |\dots, n_\alpha, \dots\rangle = \sqrt{n_\alpha} |\dots, n_\alpha - 1, \dots\rangle \\
 &                 && [a_\alpha, a_\beta^\dagger] = \delta_{\alpha\beta} \quad [a_\alpha^\dagger, a_\beta^\dagger] = 0 \\
@@ -2599,7 +2599,7 @@ $$
 ### Second Quantization / 第二量子化
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \text{Boson:}   && |n_1, n_2, \dots, n_N\rangle = \prod_\alpha \frac{1}{\sqrt{n_\alpha!}} (a_1^\dagger)^{n_1} (a_2^\dagger)^{n_2} \dots (a_N^\dagger)^{n_N} |0\rangle \\
 & \text{Fermion:} && |n_1, n_2, \dots, n_N\rangle = (a_1^\dagger)^{n_1} (a_2^\dagger)^{n_2} \dots (a_N^\dagger)^{n_N} |0\rangle
 \end{aligned}
@@ -2612,7 +2612,7 @@ $$
 ### Relativistic Wave Equation / 相対論的波動方程式
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \hat{H}^2 = \hat{p}^{\,2}c^2 + m^2c^4 \\
 & \left(\frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2c^2}{\hbar^2}\right)\psi = 0 \\
 & \hat{H} = c\boldsymbol{\alpha}\cdot\hat{\mathbf{p}} + \beta mc^2 \\
@@ -2624,7 +2624,7 @@ $$
 ### Dirac Representation / Dirac表示
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \{\gamma^\mu,\gamma^\nu\} = 2g^{\mu\nu}\mathbb{I}, \quad \gamma^0 =
 \begin{pmatrix}
 \mathbb{I} & 0 \\
@@ -2660,7 +2660,7 @@ $$
 ### Plane Wave Solution / 平面波解
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \psi(x) = u(p)e^{-\frac{i}{\hbar}p_\mu x^\mu},
 && \psi(x) = v(p)e^{\frac{i}{\hbar}p_\mu x^\mu} \\
 & u(p) =
@@ -2682,7 +2682,7 @@ $$
 ### Non-Relativistic Limit / 非相対論的極限
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & \psi = e^{-\frac{i}{\hbar}mc^2t}
 \begin{pmatrix}
 \varphi \\
@@ -2704,7 +2704,7 @@ $$
 ### Conserved Current / 保存カレント
 
 $$
-\begin{aligned}
+\begin{aligned}{}
 & j^\mu = c\psi^\dagger\gamma^0\gamma^\mu\psi \\
 & \partial_\mu j^\mu = 0
 \end{aligned}
