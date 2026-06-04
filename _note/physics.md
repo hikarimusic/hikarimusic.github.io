@@ -2123,20 +2123,20 @@ $$
 \end{aligned} \\
 \begin{aligned}
 \hat{S}_z \begin{pmatrix} 1 \\ 0 \end{pmatrix} &= \frac{\hbar}{2}\begin{pmatrix} 1 \\ 0 \end{pmatrix}, \quad m=\frac{1}{2} \\
-\hat{S}_z \begin{pmatrix} 0 \\ 1 \end{pmatrix} &= -\frac{\hbar}{2}\begin{pmatrix} 0 \\ 1 \end{pmatrix}, \quad m=-\frac{1}{2} 
+\hat{S}_z \begin{pmatrix} 0 \\ 1 \end{pmatrix} &= -\frac{\hbar}{2}\begin{pmatrix} 0 \\ 1 \end{pmatrix}, \quad m=-\frac{1}{2}
 \end{aligned} \\
 \hat{H}=-\gamma\hat{\mathbf{S}}\cdot\mathbf{B}, \quad
 \mathbf{B} = B\hat{\mathbf{z}} \rightarrow \hat{H}=-\gamma\hat{S}_zB \\
-\hat{H}\ket{\uparrow}=-\frac{\hbar\gamma B}{2}\ket{\uparrow}, \quad \hat{H}\ket{\downarrow}=\frac{\hbar\gamma B}{2}\ket{\downarrow} \\
+\hat{H}|\!\uparrow\rangle=-\frac{\hbar\gamma B}{2}|\!\uparrow\rangle, \quad \hat{H}|\!\downarrow\rangle=\frac{\hbar\gamma B}{2}|\!\downarrow\rangle \\
 \begin{aligned}
-\ket{\psi(t)} &= e^{-\frac{i}{\hbar}\hat{H}t}\left(a\ket{\uparrow}+b\ket{\downarrow}\right) \\
-&= ae^{i\frac{\gamma B}{2}t}\ket{\uparrow}+be^{-i\frac{\gamma B}{2}t}\ket{\downarrow} \\
-&= e^{i\frac{\gamma B}{2}t}\left(a\ket{\uparrow}+be^{-i\gamma Bt}\ket{\downarrow}\right) \\
+|\psi(t)\rangle &= e^{-\frac{i}{\hbar}\hat{H}t}\left(a|\!\uparrow\rangle+b|\!\downarrow\rangle\right) \\
+&= ae^{i\frac{\gamma B}{2}t}|\!\uparrow\rangle+be^{-i\frac{\gamma B}{2}t}|\!\downarrow\rangle \\
+&= e^{i\frac{\gamma B}{2}t}\left(a|\!\uparrow\rangle+be^{-i\gamma Bt}|\!\downarrow\rangle\right) \\
 \end{aligned} \\
 \begin{aligned}
-\langle S_x\rangle &= \bra{\psi(t)}\hat{S}_x\ket{\psi(t)} = \hbar |ab|\cos(\gamma Bt+\phi) \\
-\langle S_y\rangle &= \bra{\psi(t)}\hat{S}_y\ket{\psi(t)} = -\hbar |ab|\sin(\gamma Bt+\phi) \\
-\langle S_z\rangle &= \bra{\psi(t)}\hat{S}_z\ket{\psi(t)} = \frac{\hbar}{2}\left(|a|^2-|b|^2\right)
+\langle S_x\rangle &= \langle\psi(t)|\hat{S}_x|\psi(t)\rangle = \hbar |ab|\cos(\gamma Bt+\phi) \\
+\langle S_y\rangle &= \langle\psi(t)|\hat{S}_y|\psi(t)\rangle = -\hbar |ab|\sin(\gamma Bt+\phi) \\
+\langle S_z\rangle &= \langle\psi(t)|\hat{S}_z|\psi(t)\rangle = \frac{\hbar}{2}\left(|a|^2-|b|^2\right)
 \end{aligned}
 $$
 {: .notice--primary}
