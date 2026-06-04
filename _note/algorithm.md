@@ -2173,6 +2173,29 @@ void solve() {
 }
 ```
 
+### Binary Lifting / ダブリング
+```cpp
+ll nxt[N][LogD];
+
+void build(ll n, ll l_d) {
+    for (ll i=0; i<n; ++i)
+        nxt[i][0] = "next position";
+    for (ll s=1; s<l_d; ++s) {
+        for (ll i=0; i<n; ++i) {
+            nxt[i][s] = nxt[nxt[i][s-1]][s-1];
+        }
+    }
+}
+
+ll query(ll p, ll d, ll l_d) {
+    for (ll s=0; s<l_d; ++s) {
+        if (d&(1LL<<s))
+            p = nxt[p][s];
+    }
+    return p;
+}
+```
+
 ### Meet in the Middle / 半分全列挙
 ```cpp
 void solve(ll n) {
@@ -2182,28 +2205,6 @@ void solve(ll n) {
     sort(s.begin(), s.end());
     for ("<2nd half>")
         "<binary search>";
-}
-```
-
-### Binary Lifting / ダブリング
-```cpp
-vector<vector<ll>> nex(LOG_K, vector<ll>(N));
-
-void build(ll n, ll k) {
-    for (ll i=0; i<n; ++i)
-        nex[0][i] = "<next position>";
-    for (ll i=1; i<ll(log2(k))+1; ++i) {
-        for (ll j=0; j<n; ++j)
-            nex[i][j] = nex[i-1][nex[i-1][j]];
-    }
-}
-
-ll query(ll p, ll d) {
-    for (ll i=0; d>0; ++i, d>>=1) {
-        if (d&1)
-            p = nex[i][p];
-    }
-    return p;
 }
 ```
 
