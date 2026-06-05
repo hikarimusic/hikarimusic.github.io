@@ -1973,38 +1973,92 @@ $$
 
 ## Symmetry / 対称性
 
-### Spatial Translational Invariance / 空間並進不変性
+### Spatial Translational Symmetry / 空間並進対称性
 
 $$
 \begin{aligned}{}
 & \hat{\mathbf{p}} = -i\hbar\nabla \\
-& \hat{U}_\mathbf{a}|\mathbf{r}\rangle = |\mathbf{r}+\mathbf{a}\rangle \to \hat{U}_\mathbf{a} = e^{-\frac{i}{\hbar}\hat{\mathbf{p}}\cdot\mathbf{a}} \\
-& \langle\psi_\mathbf{a}|\hat{H}|\psi_\mathbf{a}\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{\mathbf{p}}\rangle = 0
+& \hat{U}_{\mathbf{a}} = e^{-\frac{i}{\hbar}\mathbf{a}\cdot\hat{\mathbf{p}}} \to \hat{U}_{\mathbf{a}}\psi(\mathbf{r}) = \psi(\mathbf{r}-\mathbf{a}) \\
+& \langle \hat{U}_{\mathbf{a}}\psi|\hat{H}|\hat{U}_{\mathbf{a}}\psi\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{\mathbf{p}}\rangle = 0
 \end{aligned}
 $$
 {: .notice--info}
-
-### Rotational Invariance / 回転不変性
 
 $$
 \begin{aligned}{}
-& \hat{\mathbf{L}} = -i\hbar \mathbf{r} \times \nabla \\
-& \hat{U}_\theta|\mathbf{r}\rangle = |R_\theta\mathbf{r}\rangle \to \hat{U}_\theta = e^{-\frac{i}{\hbar}\hat{\mathbf{L}}\cdot\boldsymbol{\theta}} \\
-& \langle\psi_{\boldsymbol{\theta}}|\hat{H}|\psi_{\boldsymbol{\theta}}\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{\mathbf{L}}\rangle = 0
+& \hat{U}_{\mathbf{a}} = e^{-\frac{i}{\hbar}\mathbf{a}\cdot\hat{\mathbf{p}}} \approx \hat{I} - \frac{i}{\hbar}\mathbf{a}\cdot\hat{\mathbf{p}} \\
+& \hat{U}_{\mathbf{a}}\psi(\mathbf{r}) = \psi(\mathbf{r}) - \mathbf{a}\cdot\nabla\psi(\mathbf{r}) = \psi(\mathbf{r}-\mathbf{a}) \\
+& \hat{U}_{\mathbf{a}}^{\dagger}\hat{H}\hat{U}_{\mathbf{a}} = \hat{H} \to [\hat{U}_{\mathbf{a}},\hat{H}] = 0 \\
+& [\hat{U}_{\mathbf{a}},\hat{H}] = -\frac{i}{\hbar}\mathbf{a}\cdot[\hat{\mathbf{p}},\hat{H}] \to [\hat{\mathbf{p}},\hat{H}] = 0 \\
+& \frac{d}{dt}\langle\hat{\mathbf{p}}\rangle = -\frac{i}{\hbar}\langle[\hat{\mathbf{p}},\hat{H}]\rangle \to \frac{d}{dt}\langle\hat{\mathbf{p}}\rangle = 0
 \end{aligned}
 $$
-{: .notice--info}
+{: .notice--primary}
 
-### Time Translational Invariance / 時間並進不変性
+### Rotational Symmetry / 回転対称性
 
 $$
 \begin{aligned}{}
-& \hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r}, t) \\
-& \hat{U}_\tau|\psi(t)\rangle = |\psi(t+\tau)\rangle \rightarrow \hat{U}_\tau = e^{-\frac{i}{\hbar}\hat{H}\tau} \\
-& \langle\psi_{\tau}|\hat{H}|\psi_{\tau}\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{H}\rangle = 0
+& \hat{\mathbf{L}} = -i\hbar\mathbf{r}\times\nabla \\
+& \hat{U}_{\boldsymbol{\theta}} = e^{-\frac{i}{\hbar}\boldsymbol{\theta}\cdot\hat{\mathbf{L}}} \to \hat{U}_{\boldsymbol{\theta}}\psi(\mathbf{r}) = \psi(R_{\boldsymbol{\theta}}^{-1}\mathbf{r}) \\
+& \langle \hat{U}_{\boldsymbol{\theta}}\psi|\hat{H}|\hat{U}_{\boldsymbol{\theta}}\psi\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{\mathbf{L}}\rangle = 0
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \hat{U}_{\theta} = e^{-\frac{i}{\hbar}\theta\hat{L}_{z}} \approx \hat{I} - \frac{i}{\hbar}\theta\hat{L}_{z} \\
+& \hat{U}_{\theta}\psi(\phi) = \psi(\phi) - \theta\frac{\partial\psi(\phi)}{\partial\phi} = \psi(\phi-\theta) \\
+& \hat{U}_{\boldsymbol{\theta}}^{\dagger}\hat{H}\hat{U}_{\boldsymbol{\theta}} = \hat{H} \to [\hat{U}_{\boldsymbol{\theta}},\hat{H}] = 0 \\
+& [\hat{U}_{\boldsymbol{\theta}},\hat{H}] = -\frac{i}{\hbar}\boldsymbol{\theta}\cdot[\hat{\mathbf{L}},\hat{H}] \to [\hat{\mathbf{L}},\hat{H}] = 0 \\
+& \frac{d}{dt}\langle\hat{\mathbf{L}}\rangle = -\frac{i}{\hbar}\langle[\hat{\mathbf{L}},\hat{H}]\rangle \to \frac{d}{dt}\langle\hat{\mathbf{L}}\rangle = 0
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Time Translational Symmetry / 時間並進対称性
+
+$$
+\begin{aligned}{}
+& \hat{E} = i\hbar\frac{\partial}{\partial t} \\
+& \hat{U}_{\tau} = e^{-\frac{i}{\hbar}\tau\hat{E}} \to \hat{U}_{\tau}\psi(t) = \psi(t+\tau) \\
+& \langle \hat{U}_{\tau}\psi|\hat{H}|\hat{U}_{\tau}\psi\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{E}\rangle = 0
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}{}
+& \hat{U}_{\tau} = e^{-\frac{i}{\hbar}\tau\hat{E}} \approx \hat{I} - \frac{i}{\hbar}\tau\hat{E} \\
+& \hat{U}_{\tau}\psi(t) = \psi(t) + \tau\frac{\partial\psi(t)}{\partial t} = \psi(t+\tau) \\
+& \hat{U}_{\tau}^{\dagger}\hat{H}\hat{U}_{\tau} = \hat{H} \to [\hat{U}_{\tau},\hat{H}] = 0 \\
+& [\hat{U}_{\tau},\hat{H}] = -\frac{i}{\hbar}\tau[\hat{E},\hat{H}] \to [\hat{E},\hat{H}] = 0 \\
+& \frac{d}{dt}\langle\hat{E}\rangle = -\frac{i}{\hbar}\langle[\hat{E},\hat{H}]\rangle \to \frac{d}{dt}\langle\hat{E}\rangle = 0
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Parity Symmetry / パリティ対称性
+
+$$
+\begin{aligned}{}
+& \hat{\Pi}\psi(\mathbf{r}) = \psi(-\mathbf{r}), \quad \pi = \pm 1 \\
+& \langle \hat{\Pi}\psi|\hat{H}|\hat{\Pi}\psi\rangle = \langle\psi|\hat{H}|\psi\rangle \to \frac{d}{dt}\langle\hat{\Pi}\rangle = 0
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}{}
+& \hat{\Pi}\psi(\mathbf{r}) = \pi\psi(\mathbf{r}) = \psi(-\mathbf{r}) \\
+& \hat{\Pi}^{2}\psi(\mathbf{r}) = \pi^{2}\psi(\mathbf{r}) = \psi(\mathbf{r}) \\
+& \pi^{2} = 1, \quad \pi = \pm 1 \\
+& \hat{\Pi}^{\dagger}\hat{H}\hat{\Pi} = \hat{H} \to [\hat{\Pi},\hat{H}] = 0 \\
+& \frac{d}{dt}\langle\hat{\Pi}\rangle = -\frac{i}{\hbar}\langle[\hat{\Pi},\hat{H}]\rangle = 0
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## Angular Momentum / 角運動量
