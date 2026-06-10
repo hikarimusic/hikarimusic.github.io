@@ -2199,12 +2199,27 @@ ll query(ll p, ll d, ll l_d) {
 ### Meet in the Middle / 半分全列挙
 ```cpp
 void solve(ll n) {
-    vector<ll> s;
-    for ("<1st half>")
-        s.push_back("<>");
-    sort(s.begin(), s.end());
-    for ("<2nd half>")
-        "<binary search>";
+    ll n1 = n/2, n2 = n-n/2;
+    map<ll,ll> m1, m2; // set, vector
+    for (ll s=0; s<(1LL<<n1); ++s) {
+        for (ll i=0; i<n1; ++i) {
+            if (s&(1LL<<i))
+                "select i";
+        }
+        "insert to m1";
+    }
+    for (ll s=0; s<(1LL<<n2); ++s) {
+        for (ll i=0; i<n2; ++i) {
+            if (s&(1LL<<i))
+                "select n/2+i";
+        }
+        "insert to m2";
+    }
+    for ("iterate m1") {
+        if ("match m2") {
+            "update ans";
+        }
+    }
 }
 ```
 
