@@ -1900,6 +1900,29 @@ $$
 
 ## 1D System / 一次元系
 
+### Boundary Conditions / 境界条件
+
+$$
+\begin{aligned}{}
+& -\frac{\hbar^2}{2m} \frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x) \\
+& V(x_0) < \infty \rightarrow \psi(x_0^+) = \psi(x_0^-), \quad \psi'(x_0^+) = \psi'(x_0^-) \\
+& V(x_0) = \infty \rightarrow \psi(x_0^+) = \psi(x_0^-)
+\end{aligned}
+$$
+{: .notice--primary}
+
+$$
+\begin{aligned}{}
+& \int_{x_0-\varepsilon}^{x_0+\varepsilon}\left[-\frac{\hbar^2}{2m}\psi''(x)+V(x)\psi(x)\right]dx=\int_{x_0-\varepsilon}^{x_0+\varepsilon}E\psi(x)\,dx \\
+& \int_{x_0-\varepsilon}^{x_0+\varepsilon}-\frac{\hbar^2}{2m}\psi''(x)\,dx=-\frac{\hbar^2}{2m}\left[\psi'(x_0^+)-\psi'(x_0^-)\right] \\
+& \int_{x_0-\varepsilon}^{x_0+\varepsilon}\left[E-V(x)\right]\psi(x)\,dx=0 \quad \left(V(x_0)<\infty\right) \\
+& \psi'(x_0^+)=\psi'(x_0^-),\quad \psi(x_0^+)=\psi(x_0^-) \\
+& \int_{x_0-\varepsilon}^{x_0+\varepsilon}\left[E-V(x)\right]\psi(x)\,dx\neq 0 \quad \left(V(x_0)=\infty\right) \\
+& \psi'(x_0^+)\neq\psi'(x_0^-),\quad \psi(x_0^+)=\psi(x_0^-)
+\end{aligned}
+$$
+{: .notice--primary}
+
 ### Free Particle / 自由粒子
 
 $$
@@ -1911,42 +1934,130 @@ $$
 $$
 {: .notice--info}
 
-### Step Potential / 段差ポテンシャル
+$$
+\begin{aligned}{}
+& \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
+& \psi=e^{\pm ikx},\quad k=\frac{\sqrt{2mE}}{\hbar} \\
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Potential Step / ポテンシャル段差
 
 $$
 \begin{aligned}{}
 & V(x) = \begin{cases} 0, & x < 0 \\ V_0, & x \geq 0 \end{cases} \\
 & \psi(x) = \begin{cases} A e^{ik_1 x} + B e^{-ik_1 x}, & x < 0 \\ C e^{ik_2 x}, & x \geq 0 \end{cases} \\
-& k_1 = \frac{\sqrt{2mE}}{\hbar}, \quad k_2 = \frac{\sqrt{2m(E-V_0)}}{\hbar} \\
-& R = \left| \frac{B}{A} \right|^2 = \left( \frac{k_1 - k_2}{k_1 + k_2} \right)^2 \\
-& T = \frac{k_2}{k_1} \left| \frac{C}{A} \right|^2 = \frac{4k_1 k_2}{(k_1 + k_2)^2}
+& E > V_0: \quad k_1 = \frac{\sqrt{2mE}}{\hbar}, \quad k_2 = \frac{\sqrt{2m(E-V_0)}}{\hbar} \\
+& R = \left( \frac{k_1 - k_2}{k_1 + k_2} \right)^2, \quad T = \frac{4k_1 k_2}{(k_1 + k_2)^2}
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& V=0: && \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
+& && \psi=e^{\pm ik_1x},\quad k_1=\frac{\sqrt{2mE}}{\hbar} \\
+& V=V_0: && \psi''+\frac{2m(E-V_0)}{\hbar^2}\psi=0 \\
+& && \psi=e^{\pm ik_2x},\quad k_2=\frac{\sqrt{2m(E-V_0)}}{\hbar} \\
+& x=0: && A+B=C \\
+& && ik_1A-ik_1B=ik_2C \\
+& && A=\frac{k_1+k_2}{2k_1}C \\
+& && B=\frac{k_1-k_2}{2k_1}C \\
+& && R=\left|\frac{B}{A}\right|^2=\left(\frac{k_1-k_2}{k_1+k_2}\right)^2 \\
+& && T=\frac{k_2|C|^2}{k_1|A|^2}=\frac{4k_1k_2}{(k_1+k_2)^2}
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Potential Barrier / ポテンシャル障壁
 
 $$
 \begin{aligned}{}
-& V(x) = \begin{cases} V_0, & |x| \leq \frac{a}{2} \\ 0, & |x| > \frac{a}{2} \end{cases} \\
-& \psi(x) = \begin{cases} A e^{ikx} + B e^{-ikx}, & x < -\frac{a}{2} \\ C e^{\kappa x} + D e^{-\kappa x}, & -\frac{a}{2} \leq x \leq \frac{a}{2} \\ F e^{ikx}, & x > \frac{a}{2} \end{cases} \\
-& k = \frac{\sqrt{2mE}}{\hbar}, \quad \kappa = \frac{\sqrt{2m(V_0-E)}}{\hbar} \\
-& R = \left| \frac{B}{A} \right|^2 = \left[ 1 + \frac{4E(V_0-E)}{V_0^2 \sinh^2(\kappa a)} \right]^{-1} \\
-& T = \left| \frac{F}{A} \right|^2 = \left[ 1 + \frac{V_0^2 \sinh^2(\kappa a)}{4E(V_0-E)} \right]^{-1}
+& V(x) = 
+\begin{cases} 
+0, & x < 0 \\
+V_0, & 0 \leq x \leq a \\ 
+0, & x > a 
+\end{cases} \\
+& \psi(x) = 
+\begin{cases} 
+A e^{ikx} + B e^{-ikx}, & x < 0 \\ 
+C e^{\kappa x} + D e^{-\kappa x}, & 0 \leq x \leq a \\ 
+F e^{ikx}, & x > a 
+\end{cases} \\
+& E < V_0: \quad k = \frac{\sqrt{2mE}}{\hbar}, \quad \kappa = \frac{\sqrt{2m(V_0-E)}}{\hbar} \\
+& R = \left[ 1 + \frac{4E(V_0-E)}{V_0^2 \sinh^2(\kappa a)} \right]^{-1}, \quad T = \left[ 1 + \frac{V_0^2 \sinh^2(\kappa a)}{4E(V_0-E)} \right]^{-1}
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& V=0: && \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
+& && \psi=e^{\pm ikx},\quad k=\frac{\sqrt{2mE}}{\hbar} \\
+& V=V_0: && \psi''-\frac{2m(V_0-E)}{\hbar^2}\psi=0 \\
+& && \psi=e^{\pm\kappa x},\quad \kappa=\frac{\sqrt{2m(V_0-E)}}{\hbar} \\
+& x=a: && Ce^{\kappa a}+De^{-\kappa a}=Fe^{ika} \\
+& && \kappa Ce^{\kappa a}-\kappa De^{-\kappa a}=ikFe^{ika} \\
+& && C=\frac{\kappa+ik}{2\kappa}Fe^{ika-\kappa a} \\
+& && D=\frac{\kappa-ik}{2\kappa}Fe^{ika+\kappa a} \\
+& x=0: && A+B=C+D \\
+& && ikA-ikB=\kappa C-\kappa D \\
+& && A=\frac{ik+\kappa}{2ik}C+\frac{ik-\kappa}{2ik}D \\
+& && B=\frac{ik-\kappa}{2ik}C+\frac{ik+\kappa}{2ik}D \\
+\end{aligned} \\
+\begin{aligned}{}
+A &=Fe^{ika}\left[\cosh(\kappa a)+i\frac{\kappa^2-k^2}{2\kappa k}\sinh(\kappa a)\right] \\
+T &=\left|\frac{F}{A}\right|^2 \\
+& =\left[\cosh^2(\kappa a)+\frac{(\kappa^2-k^2)^2}{4\kappa^2k^2}\sinh^2(\kappa a)\right]^{-1} \\
+&=\left[1+\frac{(\kappa^2+k^2)^2}{4\kappa^2k^2}\sinh^2(\kappa a)\right]^{-1} \\
+&=\left[1+\frac{V_0^2\sinh^2(\kappa a)}{4E(V_0-E)}\right]^{-1} \\
+B&=Fe^{ika}\left[-i\frac{\kappa^2+k^2}{2\kappa k}\sinh(\kappa a)\right] \\
+R&=\left|\frac{B}{A}\right|^2 \\
+& =\left[\frac{4\kappa^2k^2}{(\kappa^2+k^2)^2}\cosh^2(\kappa a)+\frac{(\kappa^2-k^2)^2}{(\kappa^2+k^2)^2}\sinh^2(\kappa a)\right]^{-1} \\
+&=\left[1+\frac{4\kappa^2k^2}{(\kappa^2+k^2)^2\sinh^2(\kappa a)}\right]^{-1} \\
+&=\left[1+\frac{4E(V_0-E)}{V_0^2\sinh^2(\kappa a)}\right]^{-1}
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Square Well / 井戸型ポテンシャル
 
 $$
 \begin{aligned}{}
-& V(x) = \begin{cases} 0, & |x| < \frac{L}{2} \\ \infty, & |x| \geq \frac{L}{2} \end{cases} \\
-& \psi_n(x) = \begin{cases} \sqrt{\frac{2}{L}} \cos\left(\frac{n\pi x}{L}\right), & n=1,3,5,\dots \\ \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right), & n=2,4,6,\dots \end{cases} \\
-& E_n = \frac{\hbar^2 \pi^2 n^2}{2mL^2}
+& V(x) = 
+\begin{cases} 
+0, & 0 < x < L \\ 
+\infty, & x\leq 0,\; x\geq L
+\end{cases} \\
+& \psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right)\\
+& E_n = \frac{\hbar^2 \pi^2 n^2}{2mL^2}, \quad n=1,2,3,\dots
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
+& \psi=Ae^{ikx}+Be^{-ikx},\quad k=\frac{\sqrt{2mE}}{\hbar}
+\end{aligned} \\
+\begin{aligned}{}
+& x=0: && A+B=0 \\
+& && B=-A \\
+& x=L: && Ae^{ikL}-Ae^{-ikL}=0 \\
+& && A'\sin kL=0,\quad k=\frac{n\pi}{L}
+\end{aligned} \\
+\begin{aligned}{}
+\int_0^L |\psi_n|^2 dx &=|A'|^2\int_0^L \sin^2\left(\frac{n\pi x}{L}\right)dx \\
+&=|A'|^2\frac{L}{2}=1, \quad A'=\sqrt{\frac{2}{L}}
+\end{aligned} \\
+\begin{aligned}{}
+& \psi_n(x)=A'\sin\left(\frac{n\pi x}{L}\right)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right) \\
+& E_n=\frac{\hbar^2k^2}{2m}=\frac{\hbar^2\pi^2n^2}{2mL^2}
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Harmonic Oscillator / 調和振動子
 
@@ -1959,16 +2070,54 @@ $$
 $$
 {: .notice--info}
 
+$$
+\begin{aligned}{}
+& \frac{d^2\psi}{dx^2}-\frac{m^2\omega^2x^2}{\hbar^2}\psi=-\frac{2mE}{\hbar^2}\psi \\
+& \xi=\sqrt{\frac{m\omega}{\hbar}}x, \quad \frac{d^2}{dx^2}=\frac{m\omega}{\hbar}\frac{d^2}{d\xi^2} \\
+& \frac{d^2\psi}{d\xi^2}-\xi^2\psi=-\frac{2E}{\hbar\omega}\psi \\
+& \xi\to\infty:\quad \frac{d^2\psi}{d\xi^2}-\xi^2\psi\simeq0,\quad \psi\sim e^{-\frac{\xi^2}{2}} \\
+& \psi(\xi)=h(\xi)e^{-\frac{\xi^2}{2}}, \quad \psi''=\left[h''-2\xi h'+(\xi^2-1)h\right]e^{-\frac{\xi^2}{2}} \\
+& h''-2\xi h'+\left(\frac{2E}{\hbar\omega}-1\right)h=0 \\
+& \frac{2E}{\hbar\omega}-1=2n, \quad E=\hbar\omega\left(n+\frac{1}{2}\right) \\
+& h_n=A H_n(\xi), \quad \psi_n(\xi)=A H_n(\xi)e^{-\frac{\xi^2}{2}}
+\end{aligned}
+$$
+{: .notice--primary}
+
 ### Ladder Operator / 昇降演算子
 
 $$
 \begin{aligned}{}
-& \hat{a} = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} + \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} && \hat{a}^\dagger = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} - \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \\
-& \hat{a}|n\rangle = \sqrt{n}|n-1\rangle && \hat{a}^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle \\
+& \hat{a} = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} + \frac{i}{\sqrt{2m\hbar\omega}} \hat{p}, && \hat{a}^\dagger = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} - \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \\
+& \hat{a}|n\rangle = \sqrt{n}|n-1\rangle, && \hat{a}^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle \\
 & \hat{H}|n\rangle = \hbar\omega\left( n + \frac{1}{2} \right)|n\rangle
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \hat{a}\hat{a}^{\dagger} = \frac{m\omega}{2\hbar}\hat{x}^{2} + \frac{1}{2m\hbar\omega}\hat{p}^{2} + \frac{1}{2} \\
+& \hat{a}^{\dagger}\hat{a} = \frac{m\omega}{2\hbar}\hat{x}^{2} + \frac{1}{2m\hbar\omega}\hat{p}^{2} - \frac{1}{2} \\
+& \hat{H} = \hbar\omega\left(\hat{a}\hat{a}^{\dagger} - \frac{1}{2}\right) = \hbar\omega\left(\hat{a}^{\dagger}\hat{a} + \frac{1}{2}\right)
+\end{aligned} \\
+\begin{aligned}{}
+& [\hat{H},\hat{a}] = -\hbar\omega\hat{a}[\hat{a},\hat{a}^{\dagger}] = -\hbar\omega\hat{a} \\
+& \hat{H}\hat{a}|E\rangle = \hat{a}\hat{H}|E\rangle - \hbar\omega\hat{a}|E\rangle = (E-\hbar\omega)\hat{a}|E\rangle \\
+& \hat{a}|E\rangle \propto |E-\hbar\omega\rangle \\
+& [\hat{H},\hat{a}^{\dagger}] = \hbar\omega[\hat{a},\hat{a}^{\dagger}]\hat{a}^{\dagger} = \hbar\omega\hat{a}^{\dagger} \\
+& \hat{H}\hat{a}^{\dagger}|E\rangle = \hat{a}^{\dagger}\hat{H}|E\rangle + \hbar\omega\hat{a}^{\dagger}|E\rangle = (E+\hbar\omega)\hat{a}^{\dagger}|E\rangle \\
+& \hat{a}^{\dagger}|E\rangle \propto |E+\hbar\omega\rangle \\
+& \langle \hat{H} \rangle = \hbar\omega\left(\langle \hat{a}^{\dagger}\hat{a}\rangle + \frac{1}{2}\right) = \hbar\omega\left(\|\hat{a}|\psi\rangle\|^{2} + \frac{1}{2}\right) \geq 0 \\
+& \hat{a}|E_0\rangle = 0,\quad \hat{a}^{\dagger}\hat{a}|E_0\rangle = 0,\quad \hat{H}|E_0\rangle = \frac{\hbar\omega}{2}|E_0\rangle \\
+& |E_n\rangle \propto (\hat{a}^{\dagger})^n |E_0\rangle,\quad \hat{H}|E_n\rangle = \hbar\omega\left(n+\frac{1}{2}\right)|E_n\rangle \\
+& \hat{a}|n\rangle = C_-|n-1\rangle,\quad \langle n|\hat{a}^{\dagger}\hat{a}|n\rangle = |C_-|^2 \\
+& \langle n|\hat{a}^{\dagger}\hat{a}|n\rangle = \frac{\langle n|\hat{H}|n\rangle}{\hbar\omega} - \frac{1}{2} = n,\quad C_- = \sqrt{n} \\
+& \hat{a}^{\dagger}|n\rangle = C_+|n+1\rangle,\quad \langle n|\hat{a}\hat{a}^{\dagger}|n\rangle = |C_+|^2 \\
+& \langle n|\hat{a}\hat{a}^{\dagger}|n\rangle = \frac{\langle n|\hat{H}|n\rangle}{\hbar\omega} + \frac{1}{2} = n+1,\quad C_+ = \sqrt{n+1}
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## Symmetry / 対称性
