@@ -1909,7 +1909,7 @@ $$
 & V(x_0) = \infty \rightarrow \psi(x_0^+) = \psi(x_0^-)
 \end{aligned}
 $$
-{: .notice--primary}
+{: .notice--info}
 
 $$
 \begin{aligned}{}
