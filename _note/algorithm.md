@@ -2249,31 +2249,42 @@ ll query(ll l, ll r) {
 
 ### Sqrt Decomposition / 平方分割
 ```cpp
-vector<ll> arr(N), buc(N);
+struct query {
+    ll l, r, id;
+};
 
-void build(ll n) {
-    ll s = (ll)ceil(sqrt(n));
-    for (ll i=0; i<s; ++i) {
-        for (ll j=i*s; j<(i+1)*s && j<n; ++j)
-            buc[i] = "<merge buc[i] and arr[j]>";
-    }
-}
+ll arr[N], ans[Q];
+vector<query> qs;
 
-ll query(ll l, ll r, ll n) {
-    ll s = (ll)ceil(sqrt(n));
-    ll q=0, bl=l/s, br=r/s;
-    if (bl==br) {
-        for (ll i=l; i<=r; ++i)
-            q = "<merge q and arr[i]>";
-        return q;
+void solve(ll n) {
+    ll bs = sqrt(n)+1;
+    sort(qs.begin(), qs.end(), [&](query a, query b) {
+        if (a.l/bs != b.l/bs)
+            return a.l/bs < b.l/bs;
+        if ((a.l/bs) & 1)
+            return a.r > b.r;
+        return a.r < b.r;
+    });
+    ll l=0, r=-1, cur=0;
+    for (auto q : qs) {
+        while (r < q.r) {
+            r += 1;
+            "extend r";
+        }
+        while (r > q.r) {
+            "remove r";
+            r -= 1;
+        }
+        while (l < q.l) {
+            "remove l";
+            l += 1;
+        }
+        while (l > q.l) {
+            l -= 1;
+            "extend l";
+        }
+        ans[q.id] = cur;
     }
-    for (ll i=l; i<(bl+1)*s; ++i)
-        q = "<merge q and arr[i]>";
-    for (ll i=bl+1; i<br; ++i)
-        q = "<merge q and buc[i]>";
-    for (ll i=br*s; i<=r; ++i)
-        q = "<merge q and arr[i]>";
-    return q;
 }
 ```
 
