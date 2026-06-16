@@ -2271,6 +2271,10 @@ void solve(ll n) {
             r += 1;
             "extend r";
         }
+        while (l > q.l) {
+            l -= 1;
+            "extend l";
+        }
         while (r > q.r) {
             "remove r";
             r -= 1;
@@ -2278,10 +2282,6 @@ void solve(ll n) {
         while (l < q.l) {
             "remove l";
             l += 1;
-        }
-        while (l > q.l) {
-            l -= 1;
-            "extend l";
         }
         ans[q.id] = cur;
     }
