@@ -1837,65 +1837,282 @@ $$
 
 $$
 \begin{aligned}{}
-& \langle x | \psi \rangle = \psi(x) \\
-& \langle \phi | \psi \rangle = \int_{-\infty}^{\infty} \phi^*(x) \psi(x) dx \\
-& \langle x | \hat{x} | \psi \rangle = x \psi(x) \\
-& \langle x | \hat{p} | \psi \rangle = -i\hbar \frac{\partial}{\partial x} \psi(x)
+& \psi(\mathbf{r},t) = \langle \mathbf{r}|\psi(t)\rangle \\
+& \phi(\mathbf{p},t) = \langle \mathbf{p}|\psi(t)\rangle \\
+& \psi(\mathbf{r}) = \frac{1}{(2\pi\hbar)^{3/2}}\int \phi(\mathbf{p})e^{\frac{i}{\hbar}\mathbf{p}\cdot\mathbf{r}}\,d^{3}p \\
+& \phi(\mathbf{p}) = \frac{1}{(2\pi\hbar)^{3/2}}\int \psi(\mathbf{r})e^{-\frac{i}{\hbar}\mathbf{p}\cdot\mathbf{r}}\,d^{3}r
 \end{aligned}
 $$
 {: .notice--info}
-
-### Change of Basis / 基底変換
 
 $$
 \begin{aligned}{}
-& \langle x | x' \rangle = \delta(x - x') && \langle p | p' \rangle = \delta(p - p') \\
-& \langle x | p \rangle = \frac{1}{\sqrt{2\pi\hbar}} e^{\frac{i}{\hbar}px} && \langle p | x \rangle = \frac{1}{\sqrt{2\pi\hbar}} e^{-\frac{i}{\hbar}px} \\
-& \phi(p) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \psi(x) e^{-\frac{i}{\hbar}px} dx && \psi(x) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \phi(p) e^{\frac{i}{\hbar}px} dp
+& \langle \mathbf{r}|\mathbf{p}\rangle = \frac{1}{(2\pi\hbar)^{3/2}}e^{\frac{i}{\hbar}\mathbf{p}\cdot\mathbf{r}} \\
+& \psi(\mathbf{r}) = \int \langle \mathbf{r}|\mathbf{p}\rangle\langle \mathbf{p}|\psi\rangle\,d^{3}p \\
+& \hphantom{\psi(\mathbf{r})}
+= \int \frac{1}{(2\pi\hbar)^{3/2}}e^{\frac{i}{\hbar}\mathbf{p}\cdot\mathbf{r}}\phi(\mathbf{p})\,d^{3}p \\
+& \phi(\mathbf{p}) = \int \langle \mathbf{p}|\mathbf{r}\rangle\langle \mathbf{r}|\psi\rangle\,d^{3}r \\
+& \hphantom{\phi(\mathbf{p})}
+= \int \frac{1}{(2\pi\hbar)^{3/2}}e^{-\frac{i}{\hbar}\mathbf{p}\cdot\mathbf{r}}\psi(\mathbf{r})\,d^{3}r
 \end{aligned}
 $$
-{: .notice--info}
+{: .notice--primary}
 
-### Schrödinger Equation / Schrödinger方程式
+### Operator / 演算子
 
 $$
 \begin{aligned}{}
-& -\frac{\hbar^2}{2m} \frac{\partial^2\Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t} \\
-& -\frac{\hbar^2}{2m} \frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
+& \hat{\mathbf{r}}\psi(\mathbf{r}) = \mathbf{r}\psi(\mathbf{r}), \quad
+\hat{\mathbf{p}}\psi(\mathbf{r}) = -i\hbar\nabla\psi(\mathbf{r}) \\
+& \hat{\mathbf{p}}\phi(\mathbf{p}) = \mathbf{p}\phi(\mathbf{p}), \quad
+\hat{\mathbf{r}}\phi(\mathbf{p}) = i\hbar\nabla_{\mathbf{p}}\phi(\mathbf{p}) \\
+& [\hat{x}_i,\hat{p}_j] = i\hbar\delta_{ij}, \quad
+[\hat{x}_i,\hat{x}_j] = 0, \quad
+[\hat{p}_i,\hat{p}_j] = 0
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \langle \mathbf{r}|\mathbf{p}\rangle =
+\frac{1}{(2\pi\hbar)^{3/2}}e^{\frac{i}{\hbar}\mathbf{r}\cdot\mathbf{p}}, \quad
+-i\hbar\nabla\langle\mathbf{r}|\mathbf{p}\rangle =
+\mathbf{p}\langle\mathbf{r}|\mathbf{p}\rangle \\
+& \langle \mathbf{p}|\mathbf{r}\rangle =
+\frac{1}{(2\pi\hbar)^{3/2}}e^{-\frac{i}{\hbar}\mathbf{r}\cdot\mathbf{p}}, \quad
+i\hbar\nabla_{\mathbf{p}}\langle\mathbf{p}|\mathbf{r}\rangle =
+\mathbf{r}\langle\mathbf{p}|\mathbf{r}\rangle \\
+& \langle \mathbf{r}|\hat{\mathbf{r}}|\psi\rangle =
+\mathbf{r}\langle\mathbf{r}|\psi\rangle \\
+& \langle \mathbf{r}|\hat{\mathbf{p}}|\psi\rangle
+= \int \langle \mathbf{r}|\hat{\mathbf{p}}|\mathbf{p}\rangle
+\langle \mathbf{p}|\psi\rangle\,d^{3}p \\
+& \hphantom{\langle \mathbf{r}|\hat{\mathbf{p}}|\psi\rangle}
+= \int \mathbf{p}\langle \mathbf{r}|\mathbf{p}\rangle
+\langle \mathbf{p}|\psi\rangle\,d^{3}p \\
+& \hphantom{\langle \mathbf{r}|\hat{\mathbf{p}}|\psi\rangle}
+= \int -i\hbar\nabla\langle \mathbf{r}|\mathbf{p}\rangle
+\langle \mathbf{p}|\psi\rangle\,d^{3}p \\
+& \hphantom{\langle \mathbf{r}|\hat{\mathbf{p}}|\psi\rangle}
+= -i\hbar\nabla\langle \mathbf{r}|\psi\rangle \\
+& \langle \mathbf{p}|\hat{\mathbf{p}}|\psi\rangle =
+\mathbf{p}\langle\mathbf{p}|\psi\rangle \\
+& \langle \mathbf{p}|\hat{\mathbf{r}}|\psi\rangle
+= \int \langle \mathbf{p}|\hat{\mathbf{r}}|\mathbf{r}\rangle
+\langle \mathbf{r}|\psi\rangle\,d^{3}r \\
+& \hphantom{\langle \mathbf{p}|\hat{\mathbf{r}}|\psi\rangle}
+= \int \mathbf{r}\langle \mathbf{p}|\mathbf{r}\rangle
+\langle \mathbf{r}|\psi\rangle\,d^{3}r \\
+& \hphantom{\langle \mathbf{p}|\hat{\mathbf{r}}|\psi\rangle}
+= \int i\hbar\nabla_{\mathbf{p}}\langle \mathbf{p}|\mathbf{r}\rangle
+\langle \mathbf{r}|\psi\rangle\,d^{3}r \\
+& \hphantom{\langle \mathbf{p}|\hat{\mathbf{r}}|\psi\rangle}
+= i\hbar\nabla_{\mathbf{p}}\langle \mathbf{p}|\psi\rangle \\
+& [\hat{x}_i,\hat{p}_j]\psi
+= x_i\left(-i\hbar\frac{\partial\psi}{\partial x_j}\right)
+-\left[-i\hbar\frac{\partial}{\partial x_j}(x_i\psi)\right] \\
+& \hphantom{[\hat{x}_i,\hat{p}_j]\psi}
+= -i\hbar x_i\frac{\partial\psi}{\partial x_j}
++i\hbar\frac{\partial x_i}{\partial x_j}\psi
++i\hbar x_i\frac{\partial\psi}{\partial x_j} \\
+& \hphantom{[\hat{x}_i,\hat{p}_j]\psi}
+= i\hbar\delta_{ij}\psi \\
+& [\hat{x}_i,\hat{x}_j]\psi
+= x_ix_j\psi - x_jx_i\psi \\
+& \hphantom{[\hat{x}_i,\hat{x}_j]\psi}
+= 0 \\
+& [\hat{p}_i,\hat{p}_j]\psi
+= -i\hbar\frac{\partial}{\partial x_i}
+\left(-i\hbar\frac{\partial\psi}{\partial x_j}\right)
+-\left[-i\hbar\frac{\partial}{\partial x_j}
+\left(-i\hbar\frac{\partial\psi}{\partial x_i}\right)\right] \\
+& \hphantom{[\hat{p}_i,\hat{p}_j]\psi}
+= -\hbar^2\frac{\partial^2\psi}{\partial x_i\partial x_j}
++\hbar^2\frac{\partial^2\psi}{\partial x_j\partial x_i} \\
+& \hphantom{[\hat{p}_i,\hat{p}_j]\psi}
+= 0
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Expectation Value / 期待値
+
+$$
+\begin{aligned}{}
+& \langle \hat{A}\rangle = \int \psi^{*}(\mathbf{r})\hat{A}\psi(\mathbf{r})\,d^{3}r \\
+& \Delta A\Delta B \geq \frac{1}{2}\left|\langle[\hat{A},\hat{B}]\rangle\right| \\
+& \Delta x\Delta p \geq \frac{\hbar}{2}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}{}
+& \langle \hat{A}\rangle = \langle\psi|\hat{A}|\psi\rangle \\
+& \hphantom{\langle \hat{A}\rangle}
+= \int \langle\psi|\mathbf{r}\rangle\langle\mathbf{r}|\hat{A}|\psi\rangle\,d^{3}r \\
+& \hphantom{\langle \hat{A}\rangle}
+= \int \psi^{*}(\mathbf{r})\hat{A}\psi(\mathbf{r})\,d^{3}r \\
+& \Delta A = \sqrt{\langle(\hat{A}-\langle\hat{A}\rangle)^2\rangle}
+= \sqrt{\langle(\delta\hat{A})^2\rangle} \\
+& \Delta B = \sqrt{\langle(\hat{B}-\langle\hat{B}\rangle)^2\rangle}
+= \sqrt{\langle(\delta\hat{B})^2\rangle} \\
+& \langle[\hat{A},\hat{B}]\rangle = \langle\hat{A}\hat{B}\rangle - \langle\hat{B}\hat{A}\rangle \\
+& \hphantom{\langle[\hat{A},\hat{B}]\rangle}
+= \langle(\hat{A}-\langle\hat{A}\rangle)(\hat{B}-\langle\hat{B}\rangle)\rangle
+-\langle(\hat{B}-\langle\hat{B}\rangle)(\hat{A}-\langle\hat{A}\rangle)\rangle \\
+& \hphantom{\langle[\hat{A},\hat{B}]\rangle}
+= \langle\delta\hat{A}\delta\hat{B}\rangle
+-\langle\delta\hat{B}\delta\hat{A}\rangle \\
+& \hphantom{\langle[\hat{A},\hat{B}]\rangle}
+= \langle[\delta\hat{A},\delta\hat{B}]\rangle \\
+& (\Delta A)^2(\Delta B)^2
+= \langle\delta\hat{A}\psi|\delta\hat{A}\psi\rangle
+\langle\delta\hat{B}\psi|\delta\hat{B}\psi\rangle \\
+& \hphantom{(\Delta A)^2(\Delta B)^2}
+\geq \left|\langle\delta\hat{A}\psi|\delta\hat{B}\psi\rangle\right|^2 \\
+& \hphantom{(\Delta A)^2(\Delta B)^2}
+\geq \left|\operatorname{Im}\{\langle\delta\hat{A}\psi|\delta\hat{B}\psi\rangle\}\right|^2 \\
+& \hphantom{(\Delta A)^2(\Delta B)^2}
+= \left|\frac{\langle\delta\hat{A}\psi|\delta\hat{B}\psi\rangle
+-\langle\delta\hat{B}\psi|\delta\hat{A}\psi\rangle}{2}\right|^2 \\
+& \hphantom{(\Delta A)^2(\Delta B)^2}
+= \left|\frac{\langle\delta\hat{A}\delta\hat{B}\rangle
+-\langle\delta\hat{B}\delta\hat{A}\rangle}{2}\right|^2 \\
+& \hphantom{(\Delta A)^2(\Delta B)^2}
+= \left|\frac{\langle[\delta\hat{A},\delta\hat{B}]\rangle}{2}\right|^2 \\
+& \hphantom{(\Delta A)^2(\Delta B)^2}
+= \left|\frac{\langle[\hat{A},\hat{B}]\rangle}{2}\right|^2 \\
+& \Delta x\Delta p \geq \frac{1}{2}\left|\langle[\hat{x},\hat{p}]\rangle\right| \\
+& \hphantom{\Delta x\Delta p}
+= \frac{1}{2}\left|\langle i\hbar\rangle\right| \\
+& \hphantom{\Delta x\Delta p}
+= \frac{\hbar}{2}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Schrödinger Equation / シュレーディンガー方程式
+
+$$
+\begin{aligned}{}
+& \left[-\frac{\hbar^{2}}{2m}\nabla^{2}+V(\mathbf{r},t)\right]\psi(\mathbf{r},t)
+= i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t) \\
+& \left[-\frac{\hbar^{2}}{2m}\nabla^{2}+V(\mathbf{r})\right]u(\mathbf{r})
+= Eu(\mathbf{r}) \\
+& \psi(\mathbf{r},t)=\sum_{n}c_{n}u_{n}(\mathbf{r})e^{-\frac{i}{\hbar}E_{n}t}
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}{}
+& \hat{H} = \frac{\hat{\mathbf{p}}^{2}}{2m}+V(\mathbf{r},t) \\
+& \hphantom{\hat{H}}
+= -\frac{\hbar^{2}}{2m}\nabla^{2}+V(\mathbf{r},t) \\
+& \psi(\mathbf{r},t)=u(\mathbf{r})T(t) \\
+& \frac{1}{u(\mathbf{r})}\left[-\frac{\hbar^{2}}{2m}\nabla^{2}u(\mathbf{r})+V(\mathbf{r})u(\mathbf{r})\right]
+= i\hbar\frac{1}{T(t)}\frac{\partial T(t)}{\partial t}=E \\
+& -\frac{\hbar^{2}}{2m}\nabla^{2}u(\mathbf{r})+V(\mathbf{r})u(\mathbf{r})
+= Eu(\mathbf{r}) \\
+& T(t)=Ce^{-\frac{i}{\hbar}Et} \\
+& \psi_{n}(\mathbf{r},t)=u_{n}(\mathbf{r})e^{-\frac{i}{\hbar}E_{n}t} \\
+& \psi(\mathbf{r},t)=\sum_{n}c_{n}u_{n}(\mathbf{r})e^{-\frac{i}{\hbar}E_{n}t}
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Probability Current / 確率流
 
 $$
 \begin{aligned}{}
-& \frac{\partial |\Psi|^2}{\partial t} = -\nabla \cdot \mathbf{j} \\
-& \mathbf{j} = \frac{i\hbar}{2m} (\Psi \nabla \Psi^* - \Psi^* \nabla \Psi)
+& \rho(\mathbf{r},t)=|\psi(\mathbf{r},t)|^{2} \\
+& \mathbf{j}(\mathbf{r},t)=\frac{\hbar}{2mi}\left(\psi^{*}\nabla\psi-\psi\nabla\psi^{*}\right) \\
+& \frac{\partial\rho}{\partial t}+\nabla\cdot\mathbf{j}=0
 \end{aligned}
 $$
 {: .notice--info}
-
-### Ehrenfest's Theorem / Ehrenfestの定理
 
 $$
 \begin{aligned}{}
-& \frac{d}{dt} \langle \hat{A} \rangle = -\frac{i}{\hbar} \langle [\hat{A}, \hat{H}] \rangle \\
-& \frac{d}{dt} \langle \hat{x} \rangle = \left\langle \frac{\partial \hat{H}}{\partial \hat{p}} \right\rangle \\
-& \frac{d}{dt} \langle \hat{p} \rangle = \left\langle -\frac{\partial \hat{H}}{\partial \hat{x}} \right\rangle
+& \frac{\partial\rho}{\partial t}
+= \frac{\partial\psi}{\partial t}\psi^{*}
++\psi\frac{\partial\psi^{*}}{\partial t} \\
+& \hphantom{\frac{\partial\rho}{\partial t}}
+= \left(-\frac{\hbar}{2mi}\nabla^{2}\psi+\frac{V}{i\hbar}\psi\right)\psi^{*}
++\psi\left(\frac{\hbar}{2mi}\nabla^{2}\psi^{*}-\frac{V}{i\hbar}\psi^{*}\right) \\
+& \hphantom{\frac{\partial\rho}{\partial t}}
+= \frac{\hbar}{2mi}\left(\psi\nabla^{2}\psi^{*}-\psi^{*}\nabla^{2}\psi\right) \\
+& \nabla\cdot\mathbf{j}
+= \frac{\hbar}{2mi}\left(\nabla\psi^{*}\cdot\nabla\psi+\psi^{*}\nabla^{2}\psi-\nabla\psi\cdot\nabla\psi^{*}-\psi\nabla^{2}\psi^{*}\right) \\
+& \hphantom{\nabla\cdot\mathbf{j}}
+= \frac{\hbar}{2mi}\left(\psi^{*}\nabla^{2}\psi-\psi\nabla^{2}\psi^{*}\right) \\
+& \hphantom{\nabla\cdot\mathbf{j}}
+= -\frac{\partial\rho}{\partial t}
 \end{aligned}
 $$
-{: .notice--info}
+{: .notice--primary}
 
-### Uncertainty Principle / 不確定性原理
+### Ehrenfest Theorem / エーレンフェストの定理
 
 $$
 \begin{aligned}{}
-& \Delta A \Delta B \geq \frac{1}{2} |\langle [A, B] \rangle| \\
-& [\hat{x}, \hat{p}] = i\hbar \quad \Delta x \Delta p \geq \frac{\hbar}{2}
+& \frac{d}{dt}\langle\hat{A}\rangle
+= \frac{1}{i\hbar}\langle[\hat{A},\hat{H}]\rangle
++\left\langle\frac{\partial\hat{A}}{\partial t}\right\rangle \\
+& \frac{d}{dt}\langle\hat{\mathbf{r}}\rangle
+= \frac{\langle\hat{\mathbf{p}}\rangle}{m} \\
+& \frac{d}{dt}\langle\hat{\mathbf{p}}\rangle
+= -\langle\nabla V\rangle
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \frac{d}{dt}\langle\hat{A}\rangle
+= \left\langle\frac{\partial\psi}{\partial t}\middle|\hat{A}\middle|\psi\right\rangle
++\left\langle\psi\middle|\frac{\partial\hat{A}}{\partial t}\middle|\psi\right\rangle
++\left\langle\psi\middle|\hat{A}\middle|\frac{\partial\psi}{\partial t}\right\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{A}\rangle}
+= \left\langle\frac{\hat{H}}{i\hbar}\psi\middle|\hat{A}\middle|\psi\right\rangle
++\left\langle\psi\middle|\frac{\partial\hat{A}}{\partial t}\middle|\psi\right\rangle
++\left\langle\psi\middle|\hat{A}\middle|\frac{\hat{H}}{i\hbar}\psi\right\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{A}\rangle}
+= -\frac{1}{i\hbar}\langle\psi|\hat{H}\hat{A}|\psi\rangle
++\left\langle\frac{\partial\hat{A}}{\partial t}\right\rangle
++\frac{1}{i\hbar}\langle\psi|\hat{A}\hat{H}|\psi\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{A}\rangle}
+= \frac{1}{i\hbar}\langle[\hat{A},\hat{H}]\rangle
++\left\langle\frac{\partial\hat{A}}{\partial t}\right\rangle \\
+& \frac{d}{dt}\langle\hat{\mathbf{r}}\rangle
+= \frac{1}{i\hbar}\langle[\hat{\mathbf{r}},\hat{H}]\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{\mathbf{r}}\rangle}
+= \frac{1}{i\hbar}\left\langle\frac{1}{2m}[\hat{\mathbf{r}},\hat{\mathbf{p}}^{2}]
++[\hat{\mathbf{r}},V(\mathbf{r})]\right\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{\mathbf{r}}\rangle}
+= \frac{1}{2mi\hbar}\left\langle\sum_i
+\left([\hat{x}_i,\hat{p}_i]\hat{p}_i+\hat{p}_i[\hat{x}_i,\hat{p}_i]\right)\hat{\mathbf{e}}_i\right\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{\mathbf{r}}\rangle}
+= \frac{1}{2mi\hbar}\left\langle i\hbar\hat{\mathbf{p}}+\hat{\mathbf{p}}i\hbar\right\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{\mathbf{r}}\rangle}
+= \frac{\langle\hat{\mathbf{p}}\rangle}{m} \\
+& \frac{d}{dt}\langle\hat{\mathbf{p}}\rangle
+= \frac{1}{i\hbar}\langle[\hat{\mathbf{p}},\hat{H}]\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{\mathbf{p}}\rangle}
+= \frac{1}{i\hbar}\left\langle\frac{1}{2m}[\hat{\mathbf{p}},\hat{\mathbf{p}}^{2}]
++[\hat{\mathbf{p}},V(\mathbf{r})]\right\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{\mathbf{p}}\rangle}
+= \frac{1}{i\hbar}\left\langle\sum_i
+\left(-i\hbar\frac{\partial V}{\partial x_i}
+-i\hbar V\frac{\partial}{\partial x_i}
++i\hbar V\frac{\partial}{\partial x_i}\right)\hat{\mathbf{e}}_i\right\rangle \\
+& \hphantom{\frac{d}{dt}\langle\hat{\mathbf{p}}\rangle}
+= -\langle\nabla V\rangle
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## 1D System / 一次元系
