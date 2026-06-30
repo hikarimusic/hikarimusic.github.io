@@ -1778,7 +1778,7 @@ $$
 & |\psi\rangle \in \mathcal{H} \\
 & \hat{A} = \hat{A}^\dagger \\
 & P(a_n) = |\langle a_n | \psi \rangle|^2 \\
-& \hat{H}|\psi(t)\rangle = i\hbar \frac{\partial}{\partial t} |\psi(t)\rangle 
+& i\hbar \frac{d}{d t} |\psi(t)\rangle  = \hat{H}|\psi(t)\rangle 
 \end{aligned}
 $$
 {: .notice--info}
@@ -1993,7 +1993,7 @@ $$
 $$
 {: .notice--primary}
 
-### Schrödinger Equation / シュレーディンガー方程式
+### Schrödinger Equation / Schrödinger方程式
 
 $$
 \begin{aligned}{}
@@ -2054,7 +2054,7 @@ $$
 $$
 {: .notice--primary}
 
-### Ehrenfest Theorem / エーレンフェストの定理
+### Ehrenfest Theorem / Ehrenfestの定理
 
 $$
 \begin{aligned}{}
@@ -2154,7 +2154,7 @@ $$
 $$
 \begin{aligned}{}
 & \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
-& \psi=e^{\pm ikx},\quad k=\frac{\sqrt{2mE}}{\hbar} \\
+& \psi=e^{\pm ikx},\quad k=\frac{\sqrt{2mE}}{\hbar}
 \end{aligned}
 $$
 {: .notice--primary}
@@ -2173,16 +2173,16 @@ $$
 
 $$
 \begin{aligned}{}
-& V=0: && \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
-& && \psi=e^{\pm ik_1x},\quad k_1=\frac{\sqrt{2mE}}{\hbar} \\
-& V=V_0: && \psi''+\frac{2m(E-V_0)}{\hbar^2}\psi=0 \\
-& && \psi=e^{\pm ik_2x},\quad k_2=\frac{\sqrt{2m(E-V_0)}}{\hbar} \\
-& x=0: && A+B=C \\
-& && ik_1A-ik_1B=ik_2C \\
-& && A=\frac{k_1+k_2}{2k_1}C \\
-& && B=\frac{k_1-k_2}{2k_1}C \\
-& && R=\left|\frac{B}{A}\right|^2=\left(\frac{k_1-k_2}{k_1+k_2}\right)^2 \\
-& && T=\frac{k_2|C|^2}{k_1|A|^2}=\frac{4k_1k_2}{(k_1+k_2)^2}
+& V=0: \quad \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
+& \hphantom{V=0:} \quad \psi=e^{\pm ik_1x},\quad k_1=\frac{\sqrt{2mE}}{\hbar} \\
+& V=V_0: \quad \psi''+\frac{2m(E-V_0)}{\hbar^2}\psi=0 \\
+& \hphantom{V=V_0:} \quad \psi=e^{\pm ik_2x},\quad k_2=\frac{\sqrt{2m(E-V_0)}}{\hbar} \\
+& x=0: \quad A+B=C \\
+& \hphantom{x=0:} \quad ik_1A-ik_1B=ik_2C \\
+& \hphantom{x=0:} \quad A=\frac{k_1+k_2}{2k_1}C \\
+& \hphantom{x=0:} \quad B=\frac{k_1-k_2}{2k_1}C \\
+& \hphantom{x=0:} \quad R=\left|\frac{B}{A}\right|^2=\left(\frac{k_1-k_2}{k_1+k_2}\right)^2 \\
+& \hphantom{x=0:} \quad T=\frac{k_2|C|^2}{k_1|A|^2}=\frac{4k_1k_2}{(k_1+k_2)^2}
 \end{aligned}
 $$
 {: .notice--primary}
@@ -2211,30 +2211,28 @@ $$
 
 $$
 \begin{aligned}{}
-& V=0: && \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
-& && \psi=e^{\pm ikx},\quad k=\frac{\sqrt{2mE}}{\hbar} \\
-& V=V_0: && \psi''-\frac{2m(V_0-E)}{\hbar^2}\psi=0 \\
-& && \psi=e^{\pm\kappa x},\quad \kappa=\frac{\sqrt{2m(V_0-E)}}{\hbar} \\
-& x=a: && Ce^{\kappa a}+De^{-\kappa a}=Fe^{ika} \\
-& && \kappa Ce^{\kappa a}-\kappa De^{-\kappa a}=ikFe^{ika} \\
-& && C=\frac{\kappa+ik}{2\kappa}Fe^{ika-\kappa a} \\
-& && D=\frac{\kappa-ik}{2\kappa}Fe^{ika+\kappa a} \\
-& x=0: && A+B=C+D \\
-& && ikA-ikB=\kappa C-\kappa D \\
-& && A=\frac{ik+\kappa}{2ik}C+\frac{ik-\kappa}{2ik}D \\
-& && B=\frac{ik-\kappa}{2ik}C+\frac{ik+\kappa}{2ik}D \\
-\end{aligned} \\
-\begin{aligned}{}
-A &=Fe^{ika}\left[\cosh(\kappa a)+i\frac{\kappa^2-k^2}{2\kappa k}\sinh(\kappa a)\right] \\
-T &=\left|\frac{F}{A}\right|^2 \\
-& =\left[\cosh^2(\kappa a)+\frac{(\kappa^2-k^2)^2}{4\kappa^2k^2}\sinh^2(\kappa a)\right]^{-1} \\
-&=\left[1+\frac{(\kappa^2+k^2)^2}{4\kappa^2k^2}\sinh^2(\kappa a)\right]^{-1} \\
-&=\left[1+\frac{V_0^2\sinh^2(\kappa a)}{4E(V_0-E)}\right]^{-1} \\
-B&=Fe^{ika}\left[-i\frac{\kappa^2+k^2}{2\kappa k}\sinh(\kappa a)\right] \\
-R&=\left|\frac{B}{A}\right|^2 \\
-& =\left[\frac{4\kappa^2k^2}{(\kappa^2+k^2)^2}\cosh^2(\kappa a)+\frac{(\kappa^2-k^2)^2}{(\kappa^2+k^2)^2}\sinh^2(\kappa a)\right]^{-1} \\
-&=\left[1+\frac{4\kappa^2k^2}{(\kappa^2+k^2)^2\sinh^2(\kappa a)}\right]^{-1} \\
-&=\left[1+\frac{4E(V_0-E)}{V_0^2\sinh^2(\kappa a)}\right]^{-1}
+& V=0: \quad \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
+& \hphantom{V=0:} \quad \psi=e^{\pm ikx},\quad k=\frac{\sqrt{2mE}}{\hbar} \\
+& V=V_0: \quad \psi''-\frac{2m(V_0-E)}{\hbar^2}\psi=0 \\
+& \hphantom{V=V_0:} \quad \psi=e^{\pm\kappa x},\quad \kappa=\frac{\sqrt{2m(V_0-E)}}{\hbar} \\
+& x=a: \quad Ce^{\kappa a}+De^{-\kappa a}=Fe^{ika} \\
+& \hphantom{x=a:} \quad \kappa Ce^{\kappa a}-\kappa De^{-\kappa a}=ikFe^{ika} \\
+& \hphantom{x=a:} \quad C=\frac{\kappa+ik}{2\kappa}Fe^{ika-\kappa a} \\
+& \hphantom{x=a:} \quad D=\frac{\kappa-ik}{2\kappa}Fe^{ika+\kappa a} \\
+& x=0: \quad A+B=C+D \\
+& \hphantom{x=0:} \quad ikA-ikB=\kappa C-\kappa D \\
+& \hphantom{x=0:} \quad A=\frac{ik+\kappa}{2ik}C+\frac{ik-\kappa}{2ik}D \\
+& \hphantom{x=0:} \quad B=\frac{ik-\kappa}{2ik}C+\frac{ik+\kappa}{2ik}D \\
+& A=Fe^{ika}\left[\cosh(\kappa a)+i\frac{\kappa^2-k^2}{2\kappa k}\sinh(\kappa a)\right] \\
+& T=\left|\frac{F}{A}\right|^2 \\
+& \hphantom{T}=\left[\cosh^2(\kappa a)+\frac{(\kappa^2-k^2)^2}{4\kappa^2k^2}\sinh^2(\kappa a)\right]^{-1} \\
+& \hphantom{T}=\left[1+\frac{(\kappa^2+k^2)^2}{4\kappa^2k^2}\sinh^2(\kappa a)\right]^{-1} \\
+& \hphantom{T}=\left[1+\frac{V_0^2\sinh^2(\kappa a)}{4E(V_0-E)}\right]^{-1} \\
+& B=Fe^{ika}\left[-i\frac{\kappa^2+k^2}{2\kappa k}\sinh(\kappa a)\right] \\
+& R=\left|\frac{B}{A}\right|^2 \\
+& \hphantom{R}=\left[\frac{4\kappa^2k^2}{(\kappa^2+k^2)^2}\cosh^2(\kappa a)+\frac{(\kappa^2-k^2)^2}{(\kappa^2+k^2)^2}\sinh^2(\kappa a)\right]^{-1} \\
+& \hphantom{R}=\left[1+\frac{4\kappa^2k^2}{(\kappa^2+k^2)^2\sinh^2(\kappa a)}\right]^{-1} \\
+& \hphantom{R}=\left[1+\frac{4E(V_0-E)}{V_0^2\sinh^2(\kappa a)}\right]^{-1}
 \end{aligned}
 $$
 {: .notice--primary}
@@ -2257,19 +2255,13 @@ $$
 $$
 \begin{aligned}{}
 & \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
-& \psi=Ae^{ikx}+Be^{-ikx},\quad k=\frac{\sqrt{2mE}}{\hbar}
-\end{aligned} \\
-\begin{aligned}{}
-& x=0: && A+B=0 \\
-& && B=-A \\
-& x=L: && Ae^{ikL}-Ae^{-ikL}=0 \\
-& && A'\sin kL=0,\quad k=\frac{n\pi}{L}
-\end{aligned} \\
-\begin{aligned}{}
-\int_0^L |\psi_n|^2 dx &=|A'|^2\int_0^L \sin^2\left(\frac{n\pi x}{L}\right)dx \\
-&=|A'|^2\frac{L}{2}=1, \quad A'=\sqrt{\frac{2}{L}}
-\end{aligned} \\
-\begin{aligned}{}
+& \psi=Ae^{ikx}+Be^{-ikx},\quad k=\frac{\sqrt{2mE}}{\hbar} \\
+& x=0: \quad A+B=0 \\
+& \hphantom{x=0:} \quad B=-A \\
+& x=L: \quad Ae^{ikL}-Ae^{-ikL}=0 \\
+& \hphantom{x=L:} \quad A'\sin kL=0,\quad k=\frac{n\pi}{L} \\
+& \int_0^L |\psi_n|^2 dx=|A'|^2\int_0^L \sin^2\left(\frac{n\pi x}{L}\right)dx \\
+& \hphantom{\int_0^L |\psi_n|^2 dx}=|A'|^2\frac{L}{2}=1, \quad A'=\sqrt{\frac{2}{L}} \\
 & \psi_n(x)=A'\sin\left(\frac{n\pi x}{L}\right)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right) \\
 & E_n=\frac{\hbar^2k^2}{2m}=\frac{\hbar^2\pi^2n^2}{2mL^2}
 \end{aligned}
@@ -2305,8 +2297,8 @@ $$
 
 $$
 \begin{aligned}{}
-& \hat{a} = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} + \frac{i}{\sqrt{2m\hbar\omega}} \hat{p}, && \hat{a}^\dagger = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} - \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \\
-& \hat{a}|n\rangle = \sqrt{n}|n-1\rangle, && \hat{a}^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle \\
+& \hat{a} = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} + \frac{i}{\sqrt{2m\hbar\omega}} \hat{p}, \quad \hat{a}^\dagger = \sqrt{\frac{m\omega}{2\hbar}} \hat{x} - \frac{i}{\sqrt{2m\hbar\omega}} \hat{p} \\
+& \hat{a}|n\rangle = \sqrt{n}|n-1\rangle, \quad \hat{a}^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle \\
 & \hat{H}|n\rangle = \hbar\omega\left( n + \frac{1}{2} \right)|n\rangle
 \end{aligned}
 $$
@@ -2316,9 +2308,7 @@ $$
 \begin{aligned}{}
 & \hat{a}\hat{a}^{\dagger} = \frac{m\omega}{2\hbar}\hat{x}^{2} + \frac{1}{2m\hbar\omega}\hat{p}^{2} + \frac{1}{2} \\
 & \hat{a}^{\dagger}\hat{a} = \frac{m\omega}{2\hbar}\hat{x}^{2} + \frac{1}{2m\hbar\omega}\hat{p}^{2} - \frac{1}{2} \\
-& \hat{H} = \hbar\omega\left(\hat{a}\hat{a}^{\dagger} - \frac{1}{2}\right) = \hbar\omega\left(\hat{a}^{\dagger}\hat{a} + \frac{1}{2}\right)
-\end{aligned} \\
-\begin{aligned}{}
+& \hat{H} = \hbar\omega\left(\hat{a}\hat{a}^{\dagger} - \frac{1}{2}\right) = \hbar\omega\left(\hat{a}^{\dagger}\hat{a} + \frac{1}{2}\right) \\
 & [\hat{H},\hat{a}] = -\hbar\omega\hat{a}[\hat{a},\hat{a}^{\dagger}] = -\hbar\omega\hat{a} \\
 & \hat{H}\hat{a}|E\rangle = \hat{a}\hat{H}|E\rangle - \hbar\omega\hat{a}|E\rangle = (E-\hbar\omega)\hat{a}|E\rangle \\
 & \hat{a}|E\rangle \propto |E-\hbar\omega\rangle \\
@@ -2444,41 +2434,31 @@ $$
 
 $$
 \begin{aligned}{}
-[\hat{J}^2,\hat{J}_z] &= [\hat{J}_x^2,\hat{J}_z]+[\hat{J}_y^2,\hat{J}_z]+[\hat{J}_z^2,\hat{J}_z] \\
-&= \hat{J}_x[\hat{J}_x,\hat{J}_z]+[\hat{J}_x,\hat{J}_z]\hat{J}_x+\hat{J}_y[\hat{J}_y,\hat{J}_z]+[\hat{J}_y,\hat{J}_z]\hat{J}_y \\
-&= \hat{J}_x(-i\hbar\hat{J}_y)+(-i\hbar\hat{J}_y)\hat{J}_x+\hat{J}_y(i\hbar\hat{J}_x)+(i\hbar\hat{J}_x)\hat{J}_y \\
-&= 0
-\end{aligned} \\
-\hat{J}^2|j,m\rangle = \hbar^2 j(j+1)|j,m\rangle,\quad \hat{J}_z|j,m\rangle = \hbar m|j,m\rangle \\
-\begin{aligned}{}
-[\hat{J}^2,\hat{J}_{\pm}] &= [\hat{J}^2,\hat{J}_x]\pm i[\hat{J}^2,\hat{J}_y] = 0
-\end{aligned} \\
-\begin{aligned}{}
-\hat{J}^2\hat{J}_{\pm}|j,m\rangle &= \hat{J}_{\pm}\hat{J}^2|j,m\rangle = \hbar^2 j(j+1)\hat{J}_{\pm}|j,m\rangle
-\end{aligned} \\
-\begin{aligned}{}
-[\hat{J}_z,\hat{J}_{\pm}] &= [\hat{J}_z,\hat{J}_x]\pm i[\hat{J}_z,\hat{J}_y] \\
-&= i\hbar\hat{J}_y \pm i(-i\hbar\hat{J}_x) \\
-&= \pm \hbar\hat{J}_{\pm}
-\end{aligned} \\
-\begin{aligned}{}
-\hat{J}_z\hat{J}_{\pm}|j,m\rangle &= \hat{J}_{\pm}\hat{J}_z|j,m\rangle \pm \hbar\hat{J}_{\pm}|j,m\rangle \\
-&= \hbar(m\pm 1)\hat{J}_{\pm}|j,m\rangle
-\end{aligned} \\
-\hat{J}_{\pm}|j,m\rangle = C_{\pm}|j,m\pm 1\rangle \\
-\begin{aligned}{}
-|C_{\pm}|^2 &= \langle j,m|\hat{J}_{\pm}^{\dagger}\hat{J}_{\pm}|j,m\rangle \\
-&= \langle j,m|\hat{J}_x^2+\hat{J}_y^2\pm i[\hat{J}_x,\hat{J}_y]|j,m\rangle \\
-&= \langle j,m|\hat{J}^2-\hat{J}_z^2\mp\hbar\hat{J}_z|j,m\rangle \\
-&= \hbar^2 j(j+1)-\hbar^2 m^2 \mp \hbar^2 m
-\end{aligned} \\
-C_{\pm} = \hbar\sqrt{j(j+1)-m(m\pm 1)} \\
-\langle j,m|\hat{J}^2-\hat{J}_z^2|j,m\rangle = \langle j,m|\hat{J}_x^2+\hat{J}_y^2|j,m\rangle \geq 0 \\
-\hbar^2[j(j+1)-m^2]\geq 0,\quad m_{\min}\leq m\leq m_{\max} \\
-\hat{J}_+|j,m_{\max}\rangle = 0,\quad j(j+1)-m_{\max}(m_{\max}+1)=0 \\
-\hat{J}_-|j,m_{\min}\rangle = 0,\quad j(j+1)-m_{\min}(m_{\min}-1)=0 \\
-m_{\max}=j,\quad m_{\min}=-j,\quad m=-j,-j+1,\ldots,j \\
-j-(-j)\in\mathbb{Z}_{\geq 0},\quad j=0,\frac{1}{2},1,\ldots
+& [\hat{J}^2,\hat{J}_z] = [\hat{J}_x^2,\hat{J}_z]+[\hat{J}_y^2,\hat{J}_z]+[\hat{J}_z^2,\hat{J}_z] \\
+& \hphantom{[\hat{J}^2,\hat{J}_z]} = \hat{J}_x[\hat{J}_x,\hat{J}_z]+[\hat{J}_x,\hat{J}_z]\hat{J}_x+\hat{J}_y[\hat{J}_y,\hat{J}_z]+[\hat{J}_y,\hat{J}_z]\hat{J}_y \\
+& \hphantom{[\hat{J}^2,\hat{J}_z]} = \hat{J}_x(-i\hbar\hat{J}_y)+(-i\hbar\hat{J}_y)\hat{J}_x+\hat{J}_y(i\hbar\hat{J}_x)+(i\hbar\hat{J}_x)\hat{J}_y \\
+& \hphantom{[\hat{J}^2,\hat{J}_z]} = 0 \\
+& \hat{J}^2|j,m\rangle = \hbar^2 j(j+1)|j,m\rangle,\quad \hat{J}_z|j,m\rangle = \hbar m|j,m\rangle \\
+& [\hat{J}^2,\hat{J}_{\pm}] = [\hat{J}^2,\hat{J}_x]\pm i[\hat{J}^2,\hat{J}_y] = 0 \\
+& \hat{J}^2\hat{J}_{\pm}|j,m\rangle = \hat{J}_{\pm}\hat{J}^2|j,m\rangle = \hbar^2 j(j+1)\hat{J}_{\pm}|j,m\rangle \\
+& [\hat{J}_z,\hat{J}_{\pm}] = [\hat{J}_z,\hat{J}_x]\pm i[\hat{J}_z,\hat{J}_y] \\
+& \hphantom{[\hat{J}_z,\hat{J}_{\pm}]} = i\hbar\hat{J}_y \pm i(-i\hbar\hat{J}_x) \\
+& \hphantom{[\hat{J}_z,\hat{J}_{\pm}]} = \pm \hbar\hat{J}_{\pm} \\
+& \hat{J}_z\hat{J}_{\pm}|j,m\rangle = \hat{J}_{\pm}\hat{J}_z|j,m\rangle \pm \hbar\hat{J}_{\pm}|j,m\rangle \\
+& \hphantom{\hat{J}_z\hat{J}_{\pm}|j,m\rangle} = \hbar(m\pm 1)\hat{J}_{\pm}|j,m\rangle \\
+& \hat{J}_{\pm}|j,m\rangle = C_{\pm}|j,m\pm 1\rangle \\
+& |C_{\pm}|^2 = \langle j,m|\hat{J}_{\pm}^{\dagger}\hat{J}_{\pm}|j,m\rangle \\
+& \hphantom{|C_{\pm}|^2} = \langle j,m|\hat{J}_x^2+\hat{J}_y^2\pm i[\hat{J}_x,\hat{J}_y]|j,m\rangle \\
+& \hphantom{|C_{\pm}|^2} = \langle j,m|\hat{J}^2-\hat{J}_z^2\mp\hbar\hat{J}_z|j,m\rangle \\
+& \hphantom{|C_{\pm}|^2} = \hbar^2 j(j+1)-\hbar^2 m^2 \mp \hbar^2 m \\
+& C_{\pm} = \hbar\sqrt{j(j+1)-m(m\pm 1)} \\
+& \langle j,m|\hat{J}^2-\hat{J}_z^2|j,m\rangle = \langle j,m|\hat{J}_x^2+\hat{J}_y^2|j,m\rangle \geq 0 \\
+& \hbar^2[j(j+1)-m^2]\geq 0,\quad m_{\min}\leq m\leq m_{\max} \\
+& \hat{J}_+|j,m_{\max}\rangle = 0,\quad j(j+1)-m_{\max}(m_{\max}+1)=0 \\
+& \hat{J}_-|j,m_{\min}\rangle = 0,\quad j(j+1)-m_{\min}(m_{\min}-1)=0 \\
+& m_{\max}=j,\quad m_{\min}=-j,\quad m=-j,-j+1,\ldots,j \\
+& j-(-j)\in\mathbb{Z}_{\geq 0},\quad j=0,\frac{1}{2},1,\ldots
+\end{aligned}
 $$
 {: .notice--primary}
 
@@ -2498,27 +2478,23 @@ $$
 
 $$
 \begin{aligned}{}
-[\hat{L}_x,\hat{L}_y] &= -\hbar^2\left(y\frac{\partial}{\partial x}-x\frac{\partial}{\partial y}\right)=i\hbar\hat{L}_z \\
-[\hat{L}_y,\hat{L}_z] &= -\hbar^2\left(z\frac{\partial}{\partial y}-y\frac{\partial}{\partial z}\right)=i\hbar\hat{L}_x \\
-[\hat{L}_z,\hat{L}_x] &= -\hbar^2\left(x\frac{\partial}{\partial z}-z\frac{\partial}{\partial x}\right)=i\hbar\hat{L}_y 
-\end{aligned} \\
-\begin{aligned}{}
-\hat{L}^2 &= -\hbar^2\left(\mathbf{r}\times\nabla\right)^2 \\
-&= -\hbar^2\left[r^2\nabla^2-\left(\mathbf{r}\cdot\nabla\right)^2-\mathbf{r}\cdot\nabla\right] \\
-&= -\hbar^2\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right)+\frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] 
-\end{aligned} \\
-\hat{L}_z = -i\hbar\left(x\frac{\partial}{\partial y}-y\frac{\partial}{\partial x}\right)=-i\hbar\frac{\partial}{\partial\phi} \\
-\hat{L}_zY_l^m = -i\hbar\frac{\partial Y_l^m}{\partial\phi}=\hbar mY_l^m \rightarrow Y_l^m(\theta,\phi)=\Theta_l^m(\theta)e^{im\phi} \\
-Y_l^m(\theta,\phi+2\pi) = Y_l^m(\theta,\phi) \rightarrow 
+& [\hat{L}_x,\hat{L}_y] = -\hbar^2\left(y\frac{\partial}{\partial x}-x\frac{\partial}{\partial y}\right)=i\hbar\hat{L}_z \\
+& [\hat{L}_y,\hat{L}_z] = -\hbar^2\left(z\frac{\partial}{\partial y}-y\frac{\partial}{\partial z}\right)=i\hbar\hat{L}_x \\
+& [\hat{L}_z,\hat{L}_x] = -\hbar^2\left(x\frac{\partial}{\partial z}-z\frac{\partial}{\partial x}\right)=i\hbar\hat{L}_y \\
+& \hat{L}^2 = -\hbar^2\left(\mathbf{r}\times\nabla\right)^2 \\
+& \hphantom{\hat{L}^2} = -\hbar^2\left[r^2\nabla^2-\left(\mathbf{r}\cdot\nabla\right)^2-\mathbf{r}\cdot\nabla\right] \\
+& \hphantom{\hat{L}^2} = -\hbar^2\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right)+\frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] \\
+& \hat{L}_z = -i\hbar\left(x\frac{\partial}{\partial y}-y\frac{\partial}{\partial x}\right)=-i\hbar\frac{\partial}{\partial\phi} \\
+& \hat{L}_zY_l^m = -i\hbar\frac{\partial Y_l^m}{\partial\phi}=\hbar mY_l^m \rightarrow Y_l^m(\theta,\phi)=\Theta_l^m(\theta)e^{im\phi} \\
+& Y_l^m(\theta,\phi+2\pi) = Y_l^m(\theta,\phi) \rightarrow 
 e^{i2\pi m}=1,\quad m\in\mathbb{Z} \\
-\begin{aligned}{}
-\hat{L}^2Y_l^m &= -\hbar^2\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial\Theta_l^m}{\partial\theta}\right)e^{im\phi}-\frac{m^2}{\sin^2\theta}\Theta_l^me^{im\phi}\right] \\
-&= \hbar^2l(l+1)\Theta_l^me^{im\phi}
-\end{aligned} \\
-\frac{1}{\sin\theta}\frac{d}{d\theta}\left(\sin\theta\frac{d\Theta_l^m}{d\theta}\right)+\left[l(l+1)-\frac{m^2}{\sin^2\theta}\right]\Theta_l^m = 0 \\
-x = \cos\theta,\quad \frac{d}{d\theta}=-\sin\theta\frac{d}{dx} \\
-(1-x^2)\frac{d^2\Theta_l^m}{dx^2}-2x\frac{d\Theta_l^m}{dx}+\left[l(l+1)-\frac{m^2}{1-x^2}\right]\Theta_l^m = 0 \\
-\Theta_l^m(x) = AP_l^m(x) \rightarrow Y_l^m(\theta,\phi)=AP_l^m(\cos\theta)e^{im\phi}
+& \hat{L}^2Y_l^m = -\hbar^2\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial\Theta_l^m}{\partial\theta}\right)e^{im\phi}-\frac{m^2}{\sin^2\theta}\Theta_l^me^{im\phi}\right] \\
+& \hphantom{\hat{L}^2Y_l^m} = \hbar^2l(l+1)\Theta_l^me^{im\phi} \\
+& \frac{1}{\sin\theta}\frac{d}{d\theta}\left(\sin\theta\frac{d\Theta_l^m}{d\theta}\right)+\left[l(l+1)-\frac{m^2}{\sin^2\theta}\right]\Theta_l^m = 0 \\
+& x = \cos\theta,\quad \frac{d}{d\theta}=-\sin\theta\frac{d}{dx} \\
+& (1-x^2)\frac{d^2\Theta_l^m}{dx^2}-2x\frac{d\Theta_l^m}{dx}+\left[l(l+1)-\frac{m^2}{1-x^2}\right]\Theta_l^m = 0 \\
+& \Theta_l^m(x) = AP_l^m(x) \rightarrow Y_l^m(\theta,\phi)=AP_l^m(\cos\theta)e^{im\phi}
+\end{aligned}
 $$
 {: .notice--primary}
 
@@ -2537,26 +2513,20 @@ $$
 
 $$
 \begin{aligned}{}
-[\hat{S}_x,\hat{S}_y] &= \frac{\hbar^2}{4}\left[\begin{pmatrix} i & 0 \\ 0 & -i \end{pmatrix}-\begin{pmatrix} -i & 0 \\ 0 & i \end{pmatrix}\right] = i\hbar\hat{S}_z \\
-[\hat{S}_y,\hat{S}_z] &= \frac{\hbar^2}{4}\left[\begin{pmatrix} 0 & i \\ i & 0 \end{pmatrix}-\begin{pmatrix} 0 & -i \\ -i & 0 \end{pmatrix}\right] = i\hbar\hat{S}_x \\
-[\hat{S}_z,\hat{S}_x] &= \frac{\hbar^2}{4}\left[\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}-\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}\right] = i\hbar\hat{S}_y
-\end{aligned} \\
-\begin{aligned}{}
-\hat{S}_z \begin{pmatrix} 1 \\ 0 \end{pmatrix} &= \frac{\hbar}{2}\begin{pmatrix} 1 \\ 0 \end{pmatrix}, \quad m=\frac{1}{2} \\
-\hat{S}_z \begin{pmatrix} 0 \\ 1 \end{pmatrix} &= -\frac{\hbar}{2}\begin{pmatrix} 0 \\ 1 \end{pmatrix}, \quad m=-\frac{1}{2}
-\end{aligned} \\
-\hat{H}=-\gamma\hat{\mathbf{S}}\cdot\mathbf{B}, \quad
+& [\hat{S}_x,\hat{S}_y] = \frac{\hbar^2}{4}\left[\begin{pmatrix} i & 0 \\ 0 & -i \end{pmatrix}-\begin{pmatrix} -i & 0 \\ 0 & i \end{pmatrix}\right] = i\hbar\hat{S}_z \\
+& [\hat{S}_y,\hat{S}_z] = \frac{\hbar^2}{4}\left[\begin{pmatrix} 0 & i \\ i & 0 \end{pmatrix}-\begin{pmatrix} 0 & -i \\ -i & 0 \end{pmatrix}\right] = i\hbar\hat{S}_x \\
+& [\hat{S}_z,\hat{S}_x] = \frac{\hbar^2}{4}\left[\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}-\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}\right] = i\hbar\hat{S}_y \\
+& \hat{S}_z \begin{pmatrix} 1 \\ 0 \end{pmatrix} = \frac{\hbar}{2}\begin{pmatrix} 1 \\ 0 \end{pmatrix}, \quad m=\frac{1}{2} \\
+& \hat{S}_z \begin{pmatrix} 0 \\ 1 \end{pmatrix} = -\frac{\hbar}{2}\begin{pmatrix} 0 \\ 1 \end{pmatrix}, \quad m=-\frac{1}{2} \\
+& \hat{H}=-\gamma\hat{\mathbf{S}}\cdot\mathbf{B}, \quad
 \mathbf{B} = B\hat{\mathbf{z}} \rightarrow \hat{H}=-\gamma\hat{S}_zB \\
-\hat{H}|\!\uparrow\rangle=-\frac{\hbar\gamma B}{2}|\!\uparrow\rangle, \quad \hat{H}|\!\downarrow\rangle=\frac{\hbar\gamma B}{2}|\!\downarrow\rangle \\
-\begin{aligned}{}
-|\psi(t)\rangle &= e^{-\frac{i}{\hbar}\hat{H}t}\left(a|\!\uparrow\rangle+b|\!\downarrow\rangle\right) \\
-&= ae^{i\frac{\gamma B}{2}t}|\!\uparrow\rangle+be^{-i\frac{\gamma B}{2}t}|\!\downarrow\rangle \\
-&= e^{i\frac{\gamma B}{2}t}\left(a|\!\uparrow\rangle+be^{-i\gamma Bt}|\!\downarrow\rangle\right) \\
-\end{aligned} \\
-\begin{aligned}{}
-\langle S_x\rangle &= \langle\psi(t)|\hat{S}_x|\psi(t)\rangle = \hbar |ab|\cos(\gamma Bt+\phi) \\
-\langle S_y\rangle &= \langle\psi(t)|\hat{S}_y|\psi(t)\rangle = -\hbar |ab|\sin(\gamma Bt+\phi) \\
-\langle S_z\rangle &= \langle\psi(t)|\hat{S}_z|\psi(t)\rangle = \frac{\hbar}{2}\left(|a|^2-|b|^2\right)
+& \hat{H}|\!\uparrow\rangle=-\frac{\hbar\gamma B}{2}|\!\uparrow\rangle, \quad \hat{H}|\!\downarrow\rangle=\frac{\hbar\gamma B}{2}|\!\downarrow\rangle \\
+& |\psi(t)\rangle = e^{-\frac{i}{\hbar}\hat{H}t}\left(a|\!\uparrow\rangle+b|\!\downarrow\rangle\right) \\
+& \hphantom{|\psi(t)\rangle} = ae^{i\frac{\gamma B}{2}t}|\!\uparrow\rangle+be^{-i\frac{\gamma B}{2}t}|\!\downarrow\rangle \\
+& \hphantom{|\psi(t)\rangle} = e^{i\frac{\gamma B}{2}t}\left(a|\!\uparrow\rangle+be^{-i\gamma Bt}|\!\downarrow\rangle\right) \\
+& \langle S_x\rangle = \langle\psi(t)|\hat{S}_x|\psi(t)\rangle = \hbar |ab|\cos(\gamma Bt+\phi) \\
+& \langle S_y\rangle = \langle\psi(t)|\hat{S}_y|\psi(t)\rangle = -\hbar |ab|\sin(\gamma Bt+\phi) \\
+& \langle S_z\rangle = \langle\psi(t)|\hat{S}_z|\psi(t)\rangle = \frac{\hbar}{2}\left(|a|^2-|b|^2\right)
 \end{aligned}
 $$
 {: .notice--primary}
@@ -2577,28 +2547,28 @@ $$
 
 $$
 \begin{aligned}{}
-[\hat{J}_i,\hat{J}_j]
-&=[\hat{J}_{1i},\hat{J}_{1j}]+[\hat{J}_{1i},\hat{J}_{2j}]+[\hat{J}_{2i},\hat{J}_{1j}]+[\hat{J}_{2i},\hat{J}_{2j}] \\
-&=i\hbar \hat{J}_{1k}+0+0+i\hbar \hat{J}_{2k} =i\hbar \hat{J}_k
-\end{aligned} \\
-\hat{J}^2|j,m\rangle=\hbar^2j(j+1)|j,m\rangle,\quad \hat{J}_z|j,m\rangle=\hbar m|j,m\rangle \\
-\hat{J}_z|j_1,m_1\rangle|j_2,m_2\rangle=\hbar(m_1+m_2)|j_1,m_1\rangle|j_2,m_2\rangle \\
-m_{\max}=m_{1\max}+m_{2\max}=j_1+j_2 \\
-\sum_{m_{\min}}^{m_{\max}}(2j+1)=(2j_1+1)(2j_2+1) \\
-m_{\min}=\sqrt{j_1^2+j_2^2-2j_1j_2}=|j_1-j_2| \\
-\begin{aligned}{}
-\hat{J}_z|j_1,j_2;j,m\rangle
-&=\hbar m|j_1,j_2;j,m\rangle \\
-&=\hbar m\sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}|j_1,m_1\rangle|j_2,m_2\rangle \\
-\hat{J}_z|j_1,j_2;j,m\rangle&=(\hat{J}_{1z}+\hat{J}_{2z})|j_1,j_2;j,m\rangle \\
-&=\sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}(\hbar m_1+\hbar m_2)|j_1,m_1\rangle|j_2,m_2\rangle
-\end{aligned} \\
-\sum_{m_1,m_2}\hbar(m-m_1-m_2)C^{jm}_{j_1m_1j_2m_2}|j_1,m_1\rangle|j_2,m_2\rangle=0 \\
-C^{jm}_{j_1m_1j_2m_2}\neq0\rightarrow m = m_1-m_2 \\
-\begin{aligned}{}
-\langle j_1,j_2;j,m|j_1,j_2;j',m'\rangle &=\sum_{m_1,m_2}\sum_{m_1',m_2'}C^{jm}_{j_1m_1j_2m_2}C^{j'm'}_{j_1m_1'j_2m_2'}\delta_{m_1,m_1'}\delta_{m_2,m_2'} \\
-&=\sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}C^{j'm'}_{j_1m_1j_2m_2}\quad (C\in\mathbb{R}) \\
-&=\delta_{jj'}\delta_{mm'}
+& [\hat{J}_i,\hat{J}_j]
+= [\hat{J}_{1i},\hat{J}_{1j}]+[\hat{J}_{1i},\hat{J}_{2j}]+[\hat{J}_{2i},\hat{J}_{1j}]+[\hat{J}_{2i},\hat{J}_{2j}] \\
+& \hphantom{[\hat{J}_i,\hat{J}_j]}
+= i\hbar \hat{J}_{1k}+0+0+i\hbar \hat{J}_{2k} =i\hbar \hat{J}_k \\
+& \hat{J}^2|j,m\rangle=\hbar^2j(j+1)|j,m\rangle,\quad \hat{J}_z|j,m\rangle=\hbar m|j,m\rangle \\
+& \hat{J}_z|j_1,m_1\rangle|j_2,m_2\rangle=\hbar(m_1+m_2)|j_1,m_1\rangle|j_2,m_2\rangle \\
+& m_{\max}=m_{1\max}+m_{2\max}=j_1+j_2 \\
+& \sum_{m_{\min}}^{m_{\max}}(2j+1)=(2j_1+1)(2j_2+1) \\
+& m_{\min}=\sqrt{j_1^2+j_2^2-2j_1j_2}=|j_1-j_2| \\
+& \hat{J}_z|j_1,j_2;j,m\rangle
+= \hbar m|j_1,j_2;j,m\rangle \\
+& \hphantom{\hat{J}_z|j_1,j_2;j,m\rangle}
+= \hbar m\sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}|j_1,m_1\rangle|j_2,m_2\rangle \\
+& \hat{J}_z|j_1,j_2;j,m\rangle
+= (\hat{J}_{1z}+\hat{J}_{2z})|j_1,j_2;j,m\rangle \\
+& \hphantom{\hat{J}_z|j_1,j_2;j,m\rangle}
+= \sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}(\hbar m_1+\hbar m_2)|j_1,m_1\rangle|j_2,m_2\rangle \\
+& \sum_{m_1,m_2}\hbar(m-m_1-m_2)C^{jm}_{j_1m_1j_2m_2}|j_1,m_1\rangle|j_2,m_2\rangle=0 \\
+& C^{jm}_{j_1m_1j_2m_2}\neq0\rightarrow m = m_1-m_2 \\
+& \langle j_1,j_2;j,m|j_1,j_2;j',m'\rangle = \sum_{m_1,m_2}\sum_{m_1',m_2'}C^{jm}_{j_1m_1j_2m_2}C^{j'm'}_{j_1m_1'j_2m_2'}\delta_{m_1,m_1'}\delta_{m_2,m_2'} \\
+& \hphantom{\langle j_1,j_2;j,m|j_1,j_2;j',m'\rangle} = \sum_{m_1,m_2}C^{jm}_{j_1m_1j_2m_2}C^{j'm'}_{j_1m_1j_2m_2}\quad (C\in\mathbb{R}) \\
+& \hphantom{\langle j_1,j_2;j,m|j_1,j_2;j',m'\rangle} = \delta_{jj'}\delta_{mm'}
 \end{aligned}
 $$
 {: .notice--primary}
@@ -2619,21 +2589,17 @@ $$
 
 $$
 \begin{aligned}{}
-\nabla^2 &= \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right) + \frac{1}{r^2}\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] \\
-&= \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right) - \frac{\hat{L}^2}{\hbar^2 r^2}
-\end{aligned} \\
-V(\mathbf{r})=V(r) \rightarrow [\hat{H}, \hat{L}^2]=0, \; [\hat{H}, \hat{L}_z]=0 \rightarrow \psi=R(r)Y_l^m(\theta, \phi) \\
-\begin{aligned}{}
+& \nabla^2 = \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right) + \frac{1}{r^2}\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] \\
+& \hphantom{\nabla^2} = \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right) - \frac{\hat{L}^2}{\hbar^2 r^2} \\
+& V(\mathbf{r})=V(r) \rightarrow [\hat{H}, \hat{L}^2]=0, \; [\hat{H}, \hat{L}_z]=0 \rightarrow \psi=R(r)Y_l^m(\theta, \phi) \\
 & -\frac{\hbar^2}{2m}\nabla^2\psi + V\psi \\
-= &-\frac{\hbar^2}{2m}\left[\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial\psi}{\partial r}\right) - \frac{\hat{L}^2}{\hbar^2 r^2}\psi\right] + V\psi \\
-= &-\frac{\hbar^2}{2m}\left[\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial R}{\partial r}\right)Y_l^m - \frac{R}{\hbar^2 r^2}\hat{L}^2Y_l^m\right] + VRY_l^m \\
-= &-\frac{\hbar^2}{2m}\left[\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial R}{\partial r}\right)Y_l^m - \frac{R}{\hbar^2 r^2}\hbar^2 l(l+1)Y_l^m\right] + VRY_l^m \\
-= &ERY_l^m
-\end{aligned} \\
-\begin{aligned}{}
+& = -\frac{\hbar^2}{2m}\left[\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial\psi}{\partial r}\right) - \frac{\hat{L}^2}{\hbar^2 r^2}\psi\right] + V\psi \\
+& = -\frac{\hbar^2}{2m}\left[\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial R}{\partial r}\right)Y_l^m - \frac{R}{\hbar^2 r^2}\hat{L}^2Y_l^m\right] + VRY_l^m \\
+& = -\frac{\hbar^2}{2m}\left[\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial R}{\partial r}\right)Y_l^m - \frac{R}{\hbar^2 r^2}\hbar^2 l(l+1)Y_l^m\right] + VRY_l^m \\
+& = ERY_l^m \\
 & -\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right) + \frac{\hbar^2 l(l+1)}{2mr^2}R + VR \\
-= & -\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{d}{dr}\left[r^2\frac{d}{dr}\left(\frac{u}{r}\right)\right] + \frac{\hbar^2 l(l+1)}{2mr^2}\frac{u}{r} + V\frac{u}{r} \\
-= & -\frac{\hbar^2}{2m}\frac{1}{r}\frac{d^2u}{dr^2} + \frac{\hbar^2 l(l+1)}{2mr^2}\frac{u}{r} + V\frac{u}{r} = E\frac{u}{r}
+& = -\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{d}{dr}\left[r^2\frac{d}{dr}\left(\frac{u}{r}\right)\right] + \frac{\hbar^2 l(l+1)}{2mr^2}\frac{u}{r} + V\frac{u}{r} \\
+& = -\frac{\hbar^2}{2m}\frac{1}{r}\frac{d^2u}{dr^2} + \frac{\hbar^2 l(l+1)}{2mr^2}\frac{u}{r} + V\frac{u}{r} = E\frac{u}{r}
 \end{aligned}
 $$
 {: .notice--primary}
@@ -2651,12 +2617,14 @@ $$
 {: .notice--info}
 
 $$
--\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right) + \frac{\hbar^2 l(l+1)}{2mr^2}R = ER \\
-\frac{d^2R}{dr^2} + \frac{2}{r}\frac{dR}{dr} + \left[\frac{2mE}{\hbar^2} - \frac{l(l+1)}{r^2}\right]R = 0 \\
-k = \frac{\sqrt{2mE}}{\hbar}, \quad E = \frac{\hbar^2 k^2}{2m}, \quad x = kr \\
-x^2\frac{d^2R}{dx^2} + 2x\frac{dR}{dx} + \left[x^2 - l(l+1)\right]R = 0 \\
-R = A j_l(x) = A j_l(kr), \quad \psi = A j_l(kr)Y_l^m(\theta,\phi) \\
-\psi(a,\theta,\phi) = A j_l(ka)Y_l^m(\theta,\phi) = 0, \quad ka = \alpha_{nl}
+\begin{aligned}{}
+& -\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right) + \frac{\hbar^2 l(l+1)}{2mr^2}R = ER \\
+& \frac{d^2R}{dr^2} + \frac{2}{r}\frac{dR}{dr} + \left[\frac{2mE}{\hbar^2} - \frac{l(l+1)}{r^2}\right]R = 0 \\
+& k = \frac{\sqrt{2mE}}{\hbar}, \quad E = \frac{\hbar^2 k^2}{2m}, \quad x = kr \\
+& x^2\frac{d^2R}{dx^2} + 2x\frac{dR}{dx} + \left[x^2 - l(l+1)\right]R = 0 \\
+& R = A j_l(x) = A j_l(kr), \quad \psi = A j_l(kr)Y_l^m(\theta,\phi) \\
+& \psi(a,\theta,\phi) = A j_l(ka)Y_l^m(\theta,\phi) = 0, \quad ka = \alpha_{nl}
+\end{aligned}
 $$
 {: .notice--primary}
 
@@ -2673,17 +2641,17 @@ $$
 {: .notice--info}
 
 $$
--\frac{\hbar^2}{2m}\left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}\right)\psi + \frac{1}{2}m\omega^2(x^2+y^2+z^2)\psi = E\psi \\
-(\hat{H}_x+\hat{H}_y+\hat{H}_z)X(x)Y(y)Z(z) = EX(x)Y(y)Z(z) \\
-\frac{\hat{H}_xX}{X} + \frac{\hat{H}_yY}{Y} + \frac{\hat{H}_zZ}{Z} = E = E_x+E_y+E_z \\
-\hat{H}_x\psi_{n_x} = E_{n_x}\psi_{n_x}, \quad \hat{H}_y\psi_{n_y} = E_{n_y}\psi_{n_y}, \quad \hat{H}_z\psi_{n_z} = E_{n_z}\psi_{n_z} \\
-\psi_{n_x n_y n_z}(x, y, z) = \psi_{n_x}(x)\psi_{n_y}(y)\psi_{n_z}(z) \\
 \begin{aligned}{}
-E &= E_{n_x}+E_{n_y}+E_{n_z} \\
-&= \hbar\omega\left(n_x+\frac{1}{2}\right) + \hbar\omega\left(n_y+\frac{1}{2}\right) + \hbar\omega\left(n_z+\frac{1}{2}\right) \\
-&= \hbar\omega\left(N+\frac{3}{2}\right)
-\end{aligned} \\
-N = n_x+n_y+n_z, \quad g_N = \frac{(N+2)!}{N!\,2!} = \frac{(N+1)(N+2)}{2}
+& -\frac{\hbar^2}{2m}\left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}\right)\psi + \frac{1}{2}m\omega^2(x^2+y^2+z^2)\psi = E\psi \\
+& (\hat{H}_x+\hat{H}_y+\hat{H}_z)X(x)Y(y)Z(z) = EX(x)Y(y)Z(z) \\
+& \frac{\hat{H}_xX}{X} + \frac{\hat{H}_yY}{Y} + \frac{\hat{H}_zZ}{Z} = E = E_x+E_y+E_z \\
+& \hat{H}_x\psi_{n_x} = E_{n_x}\psi_{n_x}, \quad \hat{H}_y\psi_{n_y} = E_{n_y}\psi_{n_y}, \quad \hat{H}_z\psi_{n_z} = E_{n_z}\psi_{n_z} \\
+& \psi_{n_x n_y n_z}(x, y, z) = \psi_{n_x}(x)\psi_{n_y}(y)\psi_{n_z}(z) \\
+& E = E_{n_x}+E_{n_y}+E_{n_z} \\
+& \hphantom{E} = \hbar\omega\left(n_x+\frac{1}{2}\right) + \hbar\omega\left(n_y+\frac{1}{2}\right) + \hbar\omega\left(n_z+\frac{1}{2}\right) \\
+& \hphantom{E} = \hbar\omega\left(N+\frac{3}{2}\right) \\
+& N = n_x+n_y+n_z, \quad g_N = \frac{(N+2)!}{N!\,2!} = \frac{(N+1)(N+2)}{2}
+\end{aligned}
 $$
 {: .notice--primary}
 
@@ -2700,24 +2668,24 @@ $$
 {: .notice--info}
 
 $$
--\frac{\hbar^2}{2m}\frac{d^2u}{dr^2} + \left[-\frac{e^2}{4\pi\varepsilon_0 r} + \frac{\hbar^2 l(l+1)}{2mr^2}\right]u = Eu \\
-a_0 = \frac{4\pi\varepsilon_0\hbar^2}{me^2}, \quad \kappa^2 = -\frac{2mE}{\hbar^2}, \quad \rho = \kappa r \\
-\frac{d^2u}{dr^2} + \left[\frac{2}{a_0r} - \frac{l(l+1)}{r^2} - \kappa^2\right]u = 0 \\
 \begin{aligned}{}
-& r \to 0: && \frac{d^2u}{dr^2} \simeq \frac{l(l+1)}{r^2}u, && u \sim r^{l+1} \\
-& r \to \infty: && \frac{d^2u}{dr^2} \simeq \kappa^2u, && u \sim e^{-\kappa r}
-\end{aligned} \\
-R(r) = \frac{u(r)}{r} = e^{-\rho}\rho^l v(\rho) \\
--\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right) + \left[-\frac{e^2}{4\pi\varepsilon_0 r} + \frac{\hbar^2 l(l+1)}{2mr^2}\right]R = ER \\
-\frac{d^2R}{dr^2} + \frac{2}{r}\frac{dR}{dr} + \left[\frac{2}{a_0r} - \frac{l(l+1)}{r^2} - \kappa^2\right]R = 0 \\
-\rho\frac{d^2v}{d\rho^2} + (2l+2-2\rho)\frac{dv}{d\rho} + \left(\frac{2}{a_0\kappa} -2l-2\right)v = 0 \\
-x\frac{d^2v}{dx^2} + (2l+2-x)\frac{dv}{dx} + \left(\frac{1}{a_0\kappa} -l-1\right)v = 0 \\
-\frac{1}{a_0\kappa}=n, \quad n=1,2,3,\cdots \\
-n-l-1\geq 0, \quad l=0,1,\cdots,n-1 \\
-\kappa = \frac{1}{na_0}, \quad \rho=\frac{r}{na_0} \\
-v = L_{n-l-1}^{2l+1}(x) = L_{n-l-1}^{2l+1}(2\rho) \\
-\psi = Ae^{-\rho}\rho^l L_{n-l-1}^{2l+1}(2\rho) Y_l^m(\theta,\phi) \\
-E = -\frac{\hbar^2}{2ma_0^2}\frac{1}{n^2} = -\frac{me^4}{2(4\pi\varepsilon_0)^2\hbar^2}\frac{1}{n^2}
+& -\frac{\hbar^2}{2m}\frac{d^2u}{dr^2} + \left[-\frac{e^2}{4\pi\varepsilon_0 r} + \frac{\hbar^2 l(l+1)}{2mr^2}\right]u = Eu \\
+& a_0 = \frac{4\pi\varepsilon_0\hbar^2}{me^2}, \quad \kappa^2 = -\frac{2mE}{\hbar^2}, \quad \rho = \kappa r \\
+& \frac{d^2u}{dr^2} + \left[\frac{2}{a_0r} - \frac{l(l+1)}{r^2} - \kappa^2\right]u = 0 \\
+& r \to 0: \quad \frac{d^2u}{dr^2} \simeq \frac{l(l+1)}{r^2}u, \quad u \sim r^{l+1} \\
+& r \to \infty: \quad \frac{d^2u}{dr^2} \simeq \kappa^2u, \quad u \sim e^{-\kappa r} \\
+& R(r) = \frac{u(r)}{r} = e^{-\rho}\rho^l v(\rho) \\
+& -\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right) + \left[-\frac{e^2}{4\pi\varepsilon_0 r} + \frac{\hbar^2 l(l+1)}{2mr^2}\right]R = ER \\
+& \frac{d^2R}{dr^2} + \frac{2}{r}\frac{dR}{dr} + \left[\frac{2}{a_0r} - \frac{l(l+1)}{r^2} - \kappa^2\right]R = 0 \\
+& \rho\frac{d^2v}{d\rho^2} + (2l+2-2\rho)\frac{dv}{d\rho} + \left(\frac{2}{a_0\kappa} -2l-2\right)v = 0 \\
+& x\frac{d^2v}{dx^2} + (2l+2-x)\frac{dv}{dx} + \left(\frac{1}{a_0\kappa} -l-1\right)v = 0 \\
+& \frac{1}{a_0\kappa}=n, \quad n=1,2,3,\cdots \\
+& n-l-1\geq 0, \quad l=0,1,\cdots,n-1 \\
+& \kappa = \frac{1}{na_0}, \quad \rho=\frac{r}{na_0} \\
+& v = L_{n-l-1}^{2l+1}(x) = L_{n-l-1}^{2l+1}(2\rho) \\
+& \psi = Ae^{-\rho}\rho^l L_{n-l-1}^{2l+1}(2\rho) Y_l^m(\theta,\phi) \\
+& E = -\frac{\hbar^2}{2ma_0^2}\frac{1}{n^2} = -\frac{me^4}{2(4\pi\varepsilon_0)^2\hbar^2}\frac{1}{n^2}
+\end{aligned}
 $$
 {: .notice--primary}
 
@@ -2734,15 +2702,15 @@ $$
 
 $$
 \begin{aligned}{}
-(\hat{\mathbf{p}}-q\mathbf{A}')\psi' &= \left( -i\hbar\nabla -q\mathbf{A} -q\nabla\chi \right) e^{\frac{i}{\hbar}q\chi}\psi \\
-&= e^{\frac{i}{\hbar}q\chi} \left( -i\hbar\nabla -q\mathbf{A} \right)\psi \\
-(\hat{\mathbf{p}}-q\mathbf{A}')^2\psi' &= e^{\frac{i}{\hbar}q\chi} \left( -i\hbar\nabla -q\mathbf{A} \right)^2\psi \\
-\frac{(\hat{\mathbf{p}}-q\mathbf{A}')^2}{2m}\psi' &= e^{\frac{i}{\hbar}q\chi} \frac{(\hat{\mathbf{p}}-q\mathbf{A})^2}{2m}\psi \\
-q\Phi'\psi' &= q\left( \Phi-\frac{\partial\chi}{\partial t} \right) e^{\frac{i}{\hbar}q\chi}\psi \\
-&= e^{\frac{i}{\hbar}q\chi}q\Phi\psi - q\frac{\partial\chi}{\partial t} e^{\frac{i}{\hbar}q\chi}\psi \\
-i\hbar\frac{\partial\psi'}{\partial t} &= i\hbar\frac{\partial}{\partial t} \left( e^{\frac{i}{\hbar}q\chi}\psi \right) \\
-&= e^{\frac{i}{\hbar}q\chi} i\hbar\frac{\partial\psi}{\partial t} - q\frac{\partial\chi}{\partial t} e^{\frac{i}{\hbar}q\chi}\psi \\
-\hat{H}'\psi' - i\hbar\frac{\partial\psi'}{\partial t} &= e^{\frac{i}{\hbar}q\chi} \left( \hat{H}\psi - i\hbar\frac{\partial\psi}{\partial t} \right) =0
+& (\hat{\mathbf{p}}-q\mathbf{A}')\psi' = \left( -i\hbar\nabla -q\mathbf{A} -q\nabla\chi \right) e^{\frac{i}{\hbar}q\chi}\psi \\
+& \hphantom{(\hat{\mathbf{p}}-q\mathbf{A}')\psi'} = e^{\frac{i}{\hbar}q\chi} \left( -i\hbar\nabla -q\mathbf{A} \right)\psi \\
+& (\hat{\mathbf{p}}-q\mathbf{A}')^2\psi' = e^{\frac{i}{\hbar}q\chi} \left( -i\hbar\nabla -q\mathbf{A} \right)^2\psi \\
+& \frac{(\hat{\mathbf{p}}-q\mathbf{A}')^2}{2m}\psi' = e^{\frac{i}{\hbar}q\chi} \frac{(\hat{\mathbf{p}}-q\mathbf{A})^2}{2m}\psi \\
+& q\Phi'\psi' = q\left( \Phi-\frac{\partial\chi}{\partial t} \right) e^{\frac{i}{\hbar}q\chi}\psi \\
+& \hphantom{q\Phi'\psi'} = e^{\frac{i}{\hbar}q\chi}q\Phi\psi - q\frac{\partial\chi}{\partial t} e^{\frac{i}{\hbar}q\chi}\psi \\
+& i\hbar\frac{\partial\psi'}{\partial t} = i\hbar\frac{\partial}{\partial t} \left( e^{\frac{i}{\hbar}q\chi}\psi \right) \\
+& \hphantom{i\hbar\frac{\partial\psi'}{\partial t}} = e^{\frac{i}{\hbar}q\chi} i\hbar\frac{\partial\psi}{\partial t} - q\frac{\partial\chi}{\partial t} e^{\frac{i}{\hbar}q\chi}\psi \\
+& \hat{H}'\psi' - i\hbar\frac{\partial\psi'}{\partial t} = e^{\frac{i}{\hbar}q\chi} \left( \hat{H}\psi - i\hbar\frac{\partial\psi}{\partial t} \right) =0
 \end{aligned}
 $$
 {: .notice--primary}
@@ -2758,22 +2726,19 @@ $$
 {: .notice--info}
 
 $$
-\mathbf{B}=B\hat{\mathbf{z}}, \quad \nabla\times\mathbf{A}=\mathbf{B} \to \mathbf{A}=Bx\hat{\mathbf{y}} \\
-\hat{H} = \frac{1}{2m} \left[ \hat{p}_x^2 + (\hat{p}_y-qBx)^2 + \hat{p}_z^2 \right] \\
-[\hat{H},\hat{p}_y]=0, \quad [\hat{H},\hat{p}_z]=0 \to \psi=e^{ik_y y}e^{ik_z z}X(x) \\
 \begin{aligned}{}
-\hat{H}\psi &= \frac{1}{2m} \left[ \hat{p}_x^2 + (\hbar k_y-qBx)^2 + (\hbar k_z)^2 \right]\psi \\
-&= \left[ \frac{\hat{p}_x^2}{2m} + \frac{q^2B^2}{2m} \left(x-\frac{\hbar k_y}{qB}\right)^2 + \frac{\hbar^2k_z^2}{2m} \right]\psi \\
-&= \left[ \frac{\hat{p}_x^2}{2m} + \frac{m\omega_c^2}{2}(x-x_0)^2 + \frac{\hbar^2k_z^2}{2m} \right]\psi
-\end{aligned}
-\\
-\omega_c = \frac{|q|B}{m}, \quad E = \hbar\omega_c\left(n+\frac{1}{2}\right) + \frac{\hbar^2k_z^2}{2m} \\
-\mathbf{A}_0 = \mathbf{A}+\nabla\chi=0 \to \mathbf{A}=-\nabla\chi, \quad \chi=-\int_{\mathbf{r}_0}^{\mathbf{r}}\mathbf{A}\cdot d\mathbf{l} \\
-\psi_0 = \psi e^{\frac{i}{\hbar}q\chi} \to \psi = \psi_0 e^{-\frac{i}{\hbar}q\chi} = \psi_0 \exp\left( \frac{i}{\hbar}q\int_C\mathbf{A}\cdot d\mathbf{l} \right) \\
-\begin{aligned}{}
-\Delta\varphi &= \frac{q}{\hbar}\int_{C_1}\mathbf{A}\cdot d\mathbf{l} - \frac{q}{\hbar}\int_{C_2}\mathbf{A}\cdot d\mathbf{l} \\
-&= \frac{q}{\hbar}\oint_C\mathbf{A}\cdot d\mathbf{l} = \frac{q}{\hbar}\int_S(\nabla\times\mathbf{A})\cdot d\mathbf{S} \\
-&= \frac{q}{\hbar}\int_S\mathbf{B}\cdot d\mathbf{S} = \frac{q\Phi_B}{\hbar}
+& \mathbf{B}=B\hat{\mathbf{z}}, \quad \nabla\times\mathbf{A}=\mathbf{B} \to \mathbf{A}=Bx\hat{\mathbf{y}} \\
+& \hat{H} = \frac{1}{2m} \left[ \hat{p}_x^2 + (\hat{p}_y-qBx)^2 + \hat{p}_z^2 \right] \\
+& [\hat{H},\hat{p}_y]=0, \quad [\hat{H},\hat{p}_z]=0 \to \psi=e^{ik_y y}e^{ik_z z}X(x) \\
+& \hat{H}\psi = \frac{1}{2m} \left[ \hat{p}_x^2 + (\hbar k_y-qBx)^2 + (\hbar k_z)^2 \right]\psi \\
+& \hphantom{\hat{H}\psi} = \left[ \frac{\hat{p}_x^2}{2m} + \frac{q^2B^2}{2m} \left(x-\frac{\hbar k_y}{qB}\right)^2 + \frac{\hbar^2k_z^2}{2m} \right]\psi \\
+& \hphantom{\hat{H}\psi} = \left[ \frac{\hat{p}_x^2}{2m} + \frac{m\omega_c^2}{2}(x-x_0)^2 + \frac{\hbar^2k_z^2}{2m} \right]\psi \\
+& \omega_c = \frac{|q|B}{m}, \quad E = \hbar\omega_c\left(n+\frac{1}{2}\right) + \frac{\hbar^2k_z^2}{2m} \\
+& \mathbf{A}_0 = \mathbf{A}+\nabla\chi=0 \to \mathbf{A}=-\nabla\chi, \quad \chi=-\int_{\mathbf{r}_0}^{\mathbf{r}}\mathbf{A}\cdot d\mathbf{l} \\
+& \psi_0 = \psi e^{\frac{i}{\hbar}q\chi} \to \psi = \psi_0 e^{-\frac{i}{\hbar}q\chi} = \psi_0 \exp\left( \frac{i}{\hbar}q\int_C\mathbf{A}\cdot d\mathbf{l} \right) \\
+& \Delta\varphi = \frac{q}{\hbar}\int_{C_1}\mathbf{A}\cdot d\mathbf{l} - \frac{q}{\hbar}\int_{C_2}\mathbf{A}\cdot d\mathbf{l} \\
+& \hphantom{\Delta\varphi} = \frac{q}{\hbar}\oint_C\mathbf{A}\cdot d\mathbf{l} = \frac{q}{\hbar}\int_S(\nabla\times\mathbf{A})\cdot d\mathbf{S} \\
+& \hphantom{\Delta\varphi} = \frac{q}{\hbar}\int_S\mathbf{B}\cdot d\mathbf{S} = \frac{q\Phi_B}{\hbar}
 \end{aligned}
 $$
 {: .notice--primary}
