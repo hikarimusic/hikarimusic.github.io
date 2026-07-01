@@ -36,14 +36,13 @@ $$
 # Statistical Mechanics / 統計力学
 
 $$
-\begin{aligned}
-& S = - k_B \sum_i p_i \ln p_i \\
-& \delta S = 0 \\
-& dU = T\,dS - P\,dV + \mu\,dN
+\begin{aligned}{}
+& \Delta E = 0 \\
+& \Delta S \geq 0 \\
+& p_i = \frac{1}{\Omega}
 \end{aligned}
 $$
 {: .notice--info}
-
 
 
 # Quantum Mechanics / 量子力学
