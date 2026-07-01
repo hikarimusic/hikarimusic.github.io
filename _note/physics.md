@@ -1790,45 +1790,175 @@ $$
 
 $$
 \begin{aligned}{}
-& \langle m | n \rangle = \delta_{mn} && \langle a | a' \rangle = \delta(a - a') \\
-& \sum_n |n\rangle\langle n| = \mathbb I && \int |a\rangle\langle a| \, da = \mathbb I \\
-& |\psi\rangle = \sum_n |n\rangle\langle n|\psi\rangle && |\psi\rangle = \int |a\rangle\langle a|\psi\rangle \, da
+& \langle n|m\rangle = \delta_{mn}, \quad
+\langle x|x'\rangle = \delta(x-x') \\
+& \sum_{n}|n\rangle\langle n| = I, \quad
+\int |x\rangle\langle x|\,dx = I \\
+& |\psi\rangle = \sum_{n}|n\rangle\langle n|\psi\rangle, \quad
+|\psi\rangle = \int |x\rangle\langle x|\psi\rangle\,dx \\
+& \sum_{n}|\langle n|\psi\rangle|^{2}=1, \quad
+\int |\langle x|\psi\rangle|^{2}\,dx = 1
 \end{aligned}
 $$
 {: .notice--info}
-
-### Observable / 物理量
 
 $$
 \begin{aligned}{}
-& \hat{A}|a\rangle = a|a\rangle && \langle a | a \rangle = \mathbb I \\
-& a = a^* && \langle a_n | a_m \rangle = \delta_{nm} \\
-& \hat{A} = \sum_a a |a\rangle\langle a| && \hat{A} = \int a |a\rangle\langle a| \, da
+& |\psi\rangle = I|\psi\rangle \\
+& \hphantom{|\psi\rangle}
+= \sum_{n}|n\rangle\langle n|\psi\rangle \\
+& \hphantom{|\psi\rangle}
+= \int |x\rangle\langle x|\psi\rangle\,dx \\
+& \langle\psi|\psi\rangle = 1 \\
+& \hphantom{\langle\psi|\psi\rangle}
+= \sum_{m,n}\langle\psi|m\rangle\langle m|n\rangle\langle n|\psi\rangle \\
+& \hphantom{\langle\psi|\psi\rangle}
+= \sum_{n}\langle\psi|n\rangle\langle n|\psi\rangle \\
+& \hphantom{\langle\psi|\psi\rangle}
+= \int \langle\psi|x'\rangle\langle x'|x\rangle\langle x|\psi\rangle\,dx'\,dx \\
+& \hphantom{\langle\psi|\psi\rangle}
+= \int \langle\psi|x\rangle\langle x|\psi\rangle\,dx
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Observable / 観測量
+
+$$
+\begin{aligned}{}
+& \hat{A}|a_n\rangle = a_n|a_n\rangle \\
+& a_n = a_n^{*} \\
+& \langle a_n|a_m\rangle = \delta_{nm} \\
+& \hat{A} = \sum_{n}a_n|a_n\rangle\langle a_n|
+= \int a|a\rangle\langle a|\,da
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \langle a_n|\hat{A}|a_m\rangle
+= \langle a_n|\hat{A}a_m\rangle
+= a_m\langle a_n|a_m\rangle \\
+& \hphantom{\langle a_n|\hat{A}|a_m\rangle}
+= \langle\hat{A}a_n|a_m\rangle
+= a_n^{*}\langle a_n|a_m\rangle \\
+& n=m: \quad \langle a_n|a_n\rangle \neq 0
+\rightarrow a_n=a_n^{*} \\
+& n\neq m: \quad a_n\neq a_m
+\rightarrow \langle a_n|a_m\rangle=0 \\
+& \hat{A}=\hat{A}I \\
+& \hphantom{\hat{A}}
+= \sum_{n}\hat{A}|a_n\rangle\langle a_n|
+= \sum_{n}a_n|a_n\rangle\langle a_n| \\
+& \hphantom{\hat{A}}
+= \int\hat{A}|a\rangle\langle a|\,da
+= \int a|a\rangle\langle a|\,da
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Measurement / 測定
 
 $$
 \begin{aligned}{}
-& p(a) = \langle \psi | \hat{P}_a | \psi \rangle \\
-& \langle \hat{A} \rangle = \langle \psi | \hat{A} | \psi \rangle \\
-& |\psi\rangle \to \frac{\hat{P}_a |\psi\rangle}{\sqrt{\langle \psi | \hat{P}_a | \psi \rangle}}
+& \hat{P}_{a}=\sum_{\alpha}|a,\alpha\rangle\langle a,\alpha| \\
+& P(a)=\langle\psi|\hat{P}_{a}|\psi\rangle \\
+& |\psi\rangle \rightarrow
+\frac{\hat{P}_{a}|\psi\rangle}
+{\sqrt{\langle\psi|\hat{P}_{a}|\psi\rangle}} \\
+& \langle\hat{A}\rangle=\langle\psi|\hat{A}|\psi\rangle
 \end{aligned}
 $$
 {: .notice--info}
-
-### Evolution / 発展
 
 $$
 \begin{aligned}{}
-& |\psi(t)\rangle = \hat U(t)\,|\psi(0)\rangle \quad \hat U^\dagger(t)\,\hat U(t) = \mathbb I \\
-& \hat U(t) = \exp\left[-\frac{i}{\hbar}\hat H t\right] \\
-& \hat U(t) = \mathcal T \exp\left[-\frac{i}{\hbar}\int_{0}^{t}\hat H(t')\,dt'\right]
+& P(a)=\sum_{\alpha}\langle\psi|a,\alpha\rangle
+\langle a,\alpha|\psi\rangle \\
+& \hphantom{P(a)}
+= \left\langle\psi\middle|
+\sum_{\alpha}|a,\alpha\rangle\langle a,\alpha|
+\middle|\psi\right\rangle \\
+& \hphantom{P(a)}
+= \langle\psi|\hat{P}_{a}|\psi\rangle \\
+& \hat{P}_{a}^{2}
+= \sum_{\alpha,\beta}|a,\alpha\rangle
+\langle a,\alpha|a,\beta\rangle
+\langle a,\beta| \\
+& \hphantom{\hat{P}_{a}^{2}}
+= \sum_{\alpha,\beta}|a,\alpha\rangle
+\delta_{\alpha\beta}
+\langle a,\beta| \\
+& \hphantom{\hat{P}_{a}^{2}}
+= \sum_{\alpha}|a,\alpha\rangle\langle a,\alpha| \\
+& \hphantom{\hat{P}_{a}^{2}}
+= \hat{P}_{a} \\
+& \hat{P}_{a}\left(\hat{P}_{a}|\psi\rangle\right)
+= \hat{P}_{a}|\psi\rangle \\
+& \langle\hat{P}_{a}\psi|\hat{P}_{a}\psi\rangle
+= \langle\psi|\hat{P}_{a}|\psi\rangle \\
+& \langle\hat{A}\rangle=\sum_{a}aP(a) \\
+& \hphantom{\langle\hat{A}\rangle}
+= \sum_{a}a\langle\psi|\hat{P}_{a}|\psi\rangle \\
+& \hphantom{\langle\hat{A}\rangle}
+= \left\langle\psi\middle|
+\sum_{a}a\hat{P}_{a}
+\middle|\psi\right\rangle \\
+& \hphantom{\langle\hat{A}\rangle}
+= \langle\psi|\hat{A}|\psi\rangle
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Evolution / 時間発展
+
+$$
+\begin{aligned}{}
+& |\psi(t)\rangle = \hat{U}(t,t_0)|\psi(t_0)\rangle \\
+& \hat{U}^{\dagger}(t,t_0)\hat{U}(t,t_0)=I \\
+& \hat{U}(t,t_0)=\exp\left[-\frac{i}{\hbar}\hat{H}(t-t_0)\right] \\
+& \hat{U}(t,t_0)=\mathcal{T}\exp\left[-\frac{i}{\hbar}
+\int_{t_0}^{t}\hat{H}(t')\,dt'\right]
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \langle\psi(t)|\psi(t)\rangle
+= \langle\psi(t_0)|\hat{U}^{\dagger}(t,t_0)
+\hat{U}(t,t_0)|\psi(t_0)\rangle \\
+& \hphantom{\langle\psi(t)|\psi(t)\rangle}
+= \langle\psi(t_0)|I|\psi(t_0)\rangle \\
+& \hat{H}(t)|\psi(t)\rangle
+= \hat{H}(t)\hat{U}(t,t_0)|\psi(t_0)\rangle \\
+& i\hbar\frac{d|\psi(t)\rangle}{dt}
+= i\hbar\frac{d\hat{U}(t,t_0)}{dt}|\psi(t_0)\rangle \\
+& \frac{d\hat{U}(t,t_0)}{dt}
+= -\frac{i}{\hbar}\hat{H}(t)\hat{U}(t,t_0) \\
+& \hat{H}(t)=\hat{H}: \quad
+\hat{U}(t,t_0)=\exp\left[-\frac{i}{\hbar}\hat{H}(t-t_0)\right] \\
+& \hat{H}(t)\neq\hat{H}: \quad
+[\hat{H}(t_1),\hat{H}(t_2)]\neq0 \\
+& \hat{U}(t,t_0)
+= I-\frac{i}{\hbar}\int_{t_0}^{t}\hat{H}(t_1)\hat{U}(t_1,t_0)\,dt_1 \\
+& \hphantom{\hat{U}(t,t_0)}
+= I-\frac{i}{\hbar}\int_{t_0}^{t}\hat{H}(t_1)\,dt_1
++\left(-\frac{i}{\hbar}\right)^2
+\int_{t_0}^{t}dt_1\int_{t_0}^{t_1}dt_2\,
+\hat{H}(t_1)\hat{H}(t_2)\hat{U}(t_2,t_0) \\
+& \hphantom{\hat{U}(t,t_0)}
+= I+\sum_{n=1}^{\infty}\left(-\frac{i}{\hbar}\right)^n
+\int_{t_0}^{t}dt_1\int_{t_0}^{t_1}dt_2\cdots
+\int_{t_0}^{t_{n-1}}dt_n\,
+\hat{H}(t_1)\hat{H}(t_2)\cdots\hat{H}(t_n) \\
+& \hphantom{\hat{U}(t,t_0)}
+= \mathcal{T}\exp\left[-\frac{i}{\hbar}
+\int_{t_0}^{t}\hat{H}(t')\,dt'\right]
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## Wave Mechanics / 波動力学
