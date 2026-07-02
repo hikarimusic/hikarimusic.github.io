@@ -44,6 +44,24 @@ $$
 $$
 {: .notice--info}
 
+## Thermodynamics
+
+## General Principle
+
+## Ensemble Theory
+
+## Ideal Classical System
+
+## Quamtum Statistics
+
+## Ideal Quantum System
+
+## Interacting System
+
+## Phase Transition
+
+## Non-Equilibrium
+
 
 # Quantum Mechanics / 量子力学
 
@@ -63,21 +81,28 @@ $$
 ### State / 状態
 
 $$
-\begin{aligned}
-& \langle m | n \rangle = \delta_{mn} && \langle a | a' \rangle = \delta(a - a') \\
-& \sum_n |n\rangle\langle n| = \mathbb I && \int |a\rangle\langle a| \, da = \mathbb I \\
-& |\psi\rangle = \sum_n |n\rangle\langle n|\psi\rangle && |\psi\rangle = \int |a\rangle\langle a|\psi\rangle \, da
+\begin{aligned}{}
+& \langle n|m\rangle = \delta_{mn}, \quad
+\langle x|x'\rangle = \delta(x-x') \\
+& \sum_{n}|n\rangle\langle n| = I, \quad
+\int |x\rangle\langle x|\,dx = I \\
+& |\psi\rangle = \sum_{n}|n\rangle\langle n|\psi\rangle, \quad
+|\psi\rangle = \int |x\rangle\langle x|\psi\rangle\,dx \\
+& \sum_{n}|\langle n|\psi\rangle|^{2}=1, \quad
+\int |\langle x|\psi\rangle|^{2}\,dx = 1
 \end{aligned}
 $$
 {: .notice--info}
 
-### Observable / 物理量
+### Observable / 観測量
 
 $$
-\begin{aligned}
-& \hat{A}|a\rangle = a|a\rangle && \langle a | a \rangle = \mathbb I \\
-& a = a^* && \langle a_n | a_m \rangle = \delta_{nm} \\
-& \hat{A} = \sum_a a |a\rangle\langle a| && \hat{A} = \int a |a\rangle\langle a| \, da
+\begin{aligned}{}
+& \hat{A}|a_n\rangle = a_n|a_n\rangle \\
+& a_n = a_n^{*} \\
+& \langle a_n|a_m\rangle = \delta_{nm} \\
+& \hat{A} = \sum_{n}a_n|a_n\rangle\langle a_n|
+= \int a|a\rangle\langle a|\,da
 \end{aligned}
 $$
 {: .notice--info}
@@ -85,21 +110,26 @@ $$
 ### Measurement / 測定
 
 $$
-\begin{aligned}
-& p(a) = \langle \psi | \hat{P}_a | \psi \rangle \\
-& \langle \hat{A} \rangle = \langle \psi | \hat{A} | \psi \rangle \\
-& |\psi\rangle \to \frac{\hat{P}_a |\psi\rangle}{\sqrt{\langle \psi | \hat{P}_a | \psi \rangle}}
+\begin{aligned}{}
+& \hat{P}_{a}=\sum_{\alpha}|a,\alpha\rangle\langle a,\alpha| \\
+& P(a)=\langle\psi|\hat{P}_{a}|\psi\rangle \\
+& |\psi\rangle \rightarrow
+\frac{\hat{P}_{a}|\psi\rangle}
+{\sqrt{\langle\psi|\hat{P}_{a}|\psi\rangle}} \\
+& \langle\hat{A}\rangle=\langle\psi|\hat{A}|\psi\rangle
 \end{aligned}
 $$
 {: .notice--info}
 
-### Evolution / 発展
+### Evolution / 時間発展
 
 $$
-\begin{aligned}
-& |\psi(t)\rangle = \hat U(t)\,|\psi(0)\rangle \quad \hat U^\dagger(t)\,\hat U(t) = \mathbb I \\
-& \hat U(t) = \exp\left[-\frac{i}{\hbar}\hat H t\right] \\
-& \hat U(t) = \mathcal T \exp\left[-\frac{i}{\hbar}\int_{0}^{t}\hat H(t')\,dt'\right]
+\begin{aligned}{}
+& |\psi(t)\rangle = \hat{U}(t,t_0)|\psi(t_0)\rangle \\
+& \hat{U}^{\dagger}(t,t_0)\hat{U}(t,t_0)=I \\
+& \hat{U}(t,t_0)=\exp\left[-\frac{i}{\hbar}\hat{H}(t-t_0)\right] \\
+& \hat{U}(t,t_0)=\mathcal{T}\exp\left[-\frac{i}{\hbar}
+\int_{t_0}^{t}\hat{H}(t')\,dt'\right]
 \end{aligned}
 $$
 {: .notice--info}
