@@ -2294,16 +2294,16 @@ void solve(ll n) {
 ### KMP Algorithm / KMP法
 
 ```cpp
-ll lps[M];
+ll pi[M];
 
 void build(string t) {
     ll l = 0;
     for (ll i=1; i<t.size(); ++i) {
         while (l>0 && t[l]!=t[i])
-            l = lps[l-1];
+            l = pi[l-1];
         if (t[l]==t[i])
             l += 1;
-        lps[i] = l;
+        pi[i] = l;
     }
 }
 
@@ -2311,12 +2311,12 @@ void search(string s, string t) {
     ll j = 0;
     for (ll i=0; i<s.size(); ++i) {
         while (j>0 && s[i]!=t[j])
-            j = lps[j-1];
+            j = pi[j-1];
         if (s[i]==t[j])
             j += 1;
         if (j==t.size()) {
             "match from i+1-j";
-            j = lps[j-1];
+            j = pi[j-1];
         }
     }
 }
