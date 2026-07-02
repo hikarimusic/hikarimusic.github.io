@@ -637,8 +637,8 @@ void topological_sort(ll n) {
                 q.push(u);
         }
     }
-    if (arr.size()<n)
-        "cycle (directed)";
+    // if (arr.size()<n)
+    //     "cycle (directed)";
 }
 ```
 
