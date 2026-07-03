@@ -17,3 +17,4 @@ kill -9 [PID]
 ```
 
 Navigate MD file: `Ctrl + Shift + O`
+ 
