@@ -505,7 +505,7 @@ void dfs(ll v, ll d, ll p) {
     dis[v] = d;
     par[v] = p;
     for (ll u : adj[v]) {
-        // if (u!=p && vis[u]): 
+        // if (u!=p && vis[u])
         //     "cycle from u (undirected)";
         if (!vis[u]) { // tree: if (u!=p)
             dfs(u, d+1, v);
@@ -522,7 +522,7 @@ void dfs(ll v) {
     col[v] = 1;
     tmi[v] = tmr++;
     for (ll u : adj[v]) {
-        // if (col[u]==1): 
+        // if (col[u]==1)
         //     "cycle from u (directed)";
         if (col[u]==0) {
             dfs(u);
