@@ -46,13 +46,13 @@ $$
 
 ## Thermodynamics
 
-## General Principle
+## Statistical Foundation
 
 ## Ensemble Theory
 
 ## Ideal Classical System
 
-## Quamtum Statistics
+## Quantum Statistics
 
 ## Ideal Quantum System
 
