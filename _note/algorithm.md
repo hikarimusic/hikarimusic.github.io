@@ -1634,7 +1634,7 @@ void sieve(ll n) {
 
 ## Linear Algebra / 線型代数
 
-### Matric Exponentiation / 行列累乗
+### Matrix Exponentiation / 行列累乗
 ```cpp
 typedef vector<ll> vec;
 typedef vector<vec> mat;
@@ -1650,17 +1650,17 @@ mat matmul(mat &A, mat &B, ll m) {
     return C;
 }
 
-mat matpow(mat A, ll n, ll m) {
-    mat B(A.size(), vec(A.size()));
-    for (ll i=0; i<B.size(); ++i)
-        B[i][i] = 1;
+mat matpow(mat X, ll n, ll m) {
+    mat R(X.size(), vec(X.size()));
+    for (ll i=0; i<X.size(); ++i)
+        R[i][i] = 1;
     while (n>0) {
         if (n&1)
-            B = matmul(B, A, m);
-        A = matmul(A, A, m);
+            R = matmul(R, X, m);
+        X = matmul(X, X, m);
         n >>= 1;
     }
-    return B;
+    return R;
 }
 ```
 
