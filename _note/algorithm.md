@@ -2297,6 +2297,7 @@ void solve(ll n) {
 ll pi[M];
 
 void build(string t) {
+    pi[0] = 0;
     ll l = 0;
     for (ll i=1; i<t.size(); ++i) {
         while (l>0 && t[l]!=t[i])
