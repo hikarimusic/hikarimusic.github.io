@@ -2304,15 +2304,15 @@ $$
 $$
 \begin{aligned}{}
 & V=0: \quad \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
-& \hphantom{V=0:} \quad \psi=e^{\pm ik_1x},\quad k_1=\frac{\sqrt{2mE}}{\hbar} \\
+& \hphantom{V=0: {}} \quad \psi=e^{\pm ik_1x},\quad k_1=\frac{\sqrt{2mE}}{\hbar} \\
 & V=V_0: \quad \psi''+\frac{2m(E-V_0)}{\hbar^2}\psi=0 \\
-& \hphantom{V=V_0:} \quad \psi=e^{\pm ik_2x},\quad k_2=\frac{\sqrt{2m(E-V_0)}}{\hbar} \\
+& \hphantom{V=V_0: {}} \quad \psi=e^{\pm ik_2x},\quad k_2=\frac{\sqrt{2m(E-V_0)}}{\hbar} \\
 & x=0: \quad A+B=C \\
-& \hphantom{x=0:} \quad ik_1A-ik_1B=ik_2C \\
-& \hphantom{x=0:} \quad A=\frac{k_1+k_2}{2k_1}C \\
-& \hphantom{x=0:} \quad B=\frac{k_1-k_2}{2k_1}C \\
-& \hphantom{x=0:} \quad R=\left|\frac{B}{A}\right|^2=\left(\frac{k_1-k_2}{k_1+k_2}\right)^2 \\
-& \hphantom{x=0:} \quad T=\frac{k_2|C|^2}{k_1|A|^2}=\frac{4k_1k_2}{(k_1+k_2)^2}
+& \hphantom{x=0: {}} \quad ik_1A-ik_1B=ik_2C \\
+& \hphantom{x=0: {}} \quad A=\frac{k_1+k_2}{2k_1}C \\
+& \hphantom{x=0: {}} \quad B=\frac{k_1-k_2}{2k_1}C \\
+& \hphantom{x=0: {}} \quad R=\left|\frac{B}{A}\right|^2=\left(\frac{k_1-k_2}{k_1+k_2}\right)^2 \\
+& \hphantom{x=0: {}} \quad T=\frac{k_2|C|^2}{k_1|A|^2}=\frac{4k_1k_2}{(k_1+k_2)^2}
 \end{aligned}
 $$
 {: .notice--primary}
@@ -2342,17 +2342,17 @@ $$
 $$
 \begin{aligned}{}
 & V=0: \quad \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
-& \hphantom{V=0:} \quad \psi=e^{\pm ikx},\quad k=\frac{\sqrt{2mE}}{\hbar} \\
+& \hphantom{V=0: {}} \quad \psi=e^{\pm ikx},\quad k=\frac{\sqrt{2mE}}{\hbar} \\
 & V=V_0: \quad \psi''-\frac{2m(V_0-E)}{\hbar^2}\psi=0 \\
-& \hphantom{V=V_0:} \quad \psi=e^{\pm\kappa x},\quad \kappa=\frac{\sqrt{2m(V_0-E)}}{\hbar} \\
+& \hphantom{V=V_0: {}} \quad \psi=e^{\pm\kappa x},\quad \kappa=\frac{\sqrt{2m(V_0-E)}}{\hbar} \\
 & x=a: \quad Ce^{\kappa a}+De^{-\kappa a}=Fe^{ika} \\
-& \hphantom{x=a:} \quad \kappa Ce^{\kappa a}-\kappa De^{-\kappa a}=ikFe^{ika} \\
-& \hphantom{x=a:} \quad C=\frac{\kappa+ik}{2\kappa}Fe^{ika-\kappa a} \\
-& \hphantom{x=a:} \quad D=\frac{\kappa-ik}{2\kappa}Fe^{ika+\kappa a} \\
+& \hphantom{x=a: {}} \quad \kappa Ce^{\kappa a}-\kappa De^{-\kappa a}=ikFe^{ika} \\
+& \hphantom{x=a: {}} \quad C=\frac{\kappa+ik}{2\kappa}Fe^{ika-\kappa a} \\
+& \hphantom{x=a: {}} \quad D=\frac{\kappa-ik}{2\kappa}Fe^{ika+\kappa a} \\
 & x=0: \quad A+B=C+D \\
-& \hphantom{x=0:} \quad ikA-ikB=\kappa C-\kappa D \\
-& \hphantom{x=0:} \quad A=\frac{ik+\kappa}{2ik}C+\frac{ik-\kappa}{2ik}D \\
-& \hphantom{x=0:} \quad B=\frac{ik-\kappa}{2ik}C+\frac{ik+\kappa}{2ik}D \\
+& \hphantom{x=0: {}} \quad ikA-ikB=\kappa C-\kappa D \\
+& \hphantom{x=0: {}} \quad A=\frac{ik+\kappa}{2ik}C+\frac{ik-\kappa}{2ik}D \\
+& \hphantom{x=0: {}} \quad B=\frac{ik-\kappa}{2ik}C+\frac{ik+\kappa}{2ik}D \\
 & A=Fe^{ika}\left[\cosh(\kappa a)+i\frac{\kappa^2-k^2}{2\kappa k}\sinh(\kappa a)\right] \\
 & T=\left|\frac{F}{A}\right|^2 \\
 & \hphantom{T}=\left[\cosh^2(\kappa a)+\frac{(\kappa^2-k^2)^2}{4\kappa^2k^2}\sinh^2(\kappa a)\right]^{-1} \\
@@ -2387,9 +2387,9 @@ $$
 & \psi''+\frac{2mE}{\hbar^2}\psi=0 \\
 & \psi=Ae^{ikx}+Be^{-ikx},\quad k=\frac{\sqrt{2mE}}{\hbar} \\
 & x=0: \quad A+B=0 \\
-& \hphantom{x=0:} \quad B=-A \\
+& \hphantom{x=0: {}} \quad B=-A \\
 & x=L: \quad Ae^{ikL}-Ae^{-ikL}=0 \\
-& \hphantom{x=L:} \quad A'\sin kL=0,\quad k=\frac{n\pi}{L} \\
+& \hphantom{x=L: {}} \quad A'\sin kL=0,\quad k=\frac{n\pi}{L} \\
 & \int_0^L |\psi_n|^2 dx=|A'|^2\int_0^L \sin^2\left(\frac{n\pi x}{L}\right)dx \\
 & \hphantom{\int_0^L |\psi_n|^2 dx}=|A'|^2\frac{L}{2}=1, \quad A'=\sqrt{\frac{2}{L}} \\
 & \psi_n(x)=A'\sin\left(\frac{n\pi x}{L}\right)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right) \\
@@ -2880,36 +2880,126 @@ $$
 
 $$
 \begin{aligned}{}
-& E_0 \leq \frac{\langle \psi | \hat{H} | \psi \rangle}{\langle \psi | \psi \rangle}
+& E[\psi]=\frac{\langle\psi|\hat{H}|\psi\rangle}{\langle\psi|\psi\rangle}\geq E_{0} \\
+& \delta E[\psi]=0 \rightarrow \hat{H}|\psi\rangle=E|\psi\rangle
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \langle\psi|\psi\rangle=1 \\
+& |\psi\rangle=\sum_{n}c_{n}|n\rangle \\
+& E[\psi]=\langle\psi|\hat{H}|\psi\rangle \\
+& \hphantom{E[\psi]}
+= \sum_{n}|c_{n}|^{2}\langle n|\hat{H}|n\rangle \\
+& \hphantom{E[\psi]}
+= \sum_{n}|c_{n}|^{2}E_{n} \\
+& \hphantom{E[\psi]}
+\geq \sum_{n}|c_{n}|^{2}E_{0} \\
+& \hphantom{E[\psi]}
+= E_{0} \\
+& \mathcal{F}[\psi]=\langle\psi|\hat{H}|\psi\rangle-E(\langle\psi|\psi\rangle-1) \\
+& \delta\mathcal{F}
+= \langle\delta\psi|\hat{H}|\psi\rangle-E\langle\delta\psi|\psi\rangle \\
+& \hphantom{\delta\mathcal{F}}
+= \langle\delta\psi|(\hat{H}|\psi\rangle-E|\psi\rangle) \\
+& \delta E[\psi]=0 \rightarrow \delta\mathcal{F}=0 \rightarrow \hat{H}|\psi\rangle=E|\psi\rangle
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### WKB Approximation / WKB近似
 
 $$
 \begin{aligned}{}
-& \psi(x) \approx \frac{1}{\sqrt{p(x)}} \left(
-C_1 e^{\frac{i}{\hbar}\int^x p(x')\,dx'}
-+ C_2 e^{-\frac{i}{\hbar}\int^x p(x')\,dx'}
-\right) \\
-& \psi(x) \approx \frac{1}{\sqrt{\kappa(x)}} \left(
-C_1 e^{\frac{1}{\hbar}\int^x \kappa(x')\,dx'}
-+ C_2 e^{-\frac{1}{\hbar}\int^x \kappa(x')\,dx'}
-\right)
+& p(x)=\sqrt{2m[E-V(x)]} \\
+& E>V(x): \quad
+\psi(x)\approx \frac{C}{\sqrt{p(x)}}\exp\left(\pm\frac{i}{\hbar}\int^{x}p(x')\,dx'\right) \\
+& E<V(x): \quad
+\psi(x)\approx \frac{C}{\sqrt{|p(x)|}}\exp\left(\pm\frac{1}{\hbar}\int^{x}|p(x')|\,dx'\right)
 \end{aligned}
 $$
 {: .notice--info}
-
-### Bound State and Tunneling / 束縛状態とトンネル効果
 
 $$
 \begin{aligned}{}
-& \int_{x_1}^{x_2} p(x)\,dx = \left(n+\frac{1}{2}\right)\pi\hbar \\
-& T = \exp\left(-\frac{2}{\hbar}\int_{x_1}^{x_2} \kappa(x)\,dx\right)
+& -\frac{\hbar^{2}}{2m}\frac{d^{2}\psi}{dx^{2}}+V(x)\psi=E\psi \\
+& \frac{d^{2}\psi}{dx^{2}}+\frac{p^{2}(x)}{\hbar^{2}}\psi=0 \\
+& \psi(x)=e^{\frac{i}{\hbar}W(x)} \\
+& \psi'=\frac{i}{\hbar}W'\psi \\
+& \psi''=\left[\frac{i}{\hbar}W''-\frac{1}{\hbar^{2}}(W')^{2}\right]\psi \\
+& \left[\frac{i}{\hbar}W''-\frac{1}{\hbar^{2}}(W')^{2}+\frac{p^{2}}{\hbar^{2}}\right]\psi=0 \\
+& (W')^{2}-i\hbar W''=p^{2} \\
+& W(x)=W_{0}(x)+\frac{\hbar}{i}W_{1}(x)+\cdots \\
+& \hbar^{0}: \quad (W_{0}')^{2}=p^{2} \\
+& \hphantom{\hbar^{0}: \quad {}} W_{0}'=\pm p \\
+& \hphantom{\hbar^{0}: \quad {}} W_{0}(x)=\pm\int^{x}p(x')\,dx' \\
+& \hbar^{1}: \quad 2W_{0}'W_{1}'+W_{0}''=0 \\
+& \hphantom{\hbar^{1}: \quad {}} W_{1}'=-\frac{W_{0}''}{2W_{0}'}=-\frac{p'}{2p} \\
+& \hphantom{\hbar^{1}: \quad {}} W_{1}(x)=-\frac{1}{2}\ln p(x) \\
+& \psi(x)=C e^{\frac{i}{\hbar}W_{0}(x)}e^{W_{1}(x)} \\
+& \hphantom{\psi(x)}
+= \frac{C}{\sqrt{p(x)}}\exp\left[\pm\frac{i}{\hbar}\int^{x}p(x')\,dx'\right]
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Quantization and Tunneling / 量子化とトンネル効果
+
+$$
+\begin{aligned}{}
+& \int_{x_{1}}^{x_{2}}\sqrt{2m[E-V(x)]}\,dx
+= \left(n+\frac{1}{2}\right)\pi\hbar \\
+& T=\exp\left[-\frac{2}{\hbar}\int_{x_{1}}^{x_{2}}\sqrt{2m[V(x)-E]}\,dx\right]
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& V(a)=E \\
+& V(x)=V(a)+V'(a)(x-a) \\
+& \psi''(x)-\frac{2mV'(a)}{\hbar^{2}}(x-a)\psi(x)=0 \\
+& z=\left(\frac{2mV'(a)}{\hbar^{2}}\right)^{1/3}(x-a) \\
+& \frac{d^{2}\psi}{dz^{2}}-z\psi=0 \\
+& \psi(z)=C_{1}\operatorname{Ai}(z)+C_{2}\operatorname{Bi}(z)=C_{1}\operatorname{Ai}(z) \\
+& z>0:\quad
+\operatorname{Ai}(z)\sim\frac{1}{2\sqrt{\pi}z^{1/4}}
+\exp\left(-\frac{2}{3}z^{3/2}\right) \\
+& \hphantom{z>0:\quad {}}
+\psi(x)\sim\frac{C}{\sqrt{|p(x)|}}
+\exp\left[-\frac{1}{\hbar}\int_{a}^{x}|p(x')|\,dx'\right] \\
+& z<0:\quad
+\operatorname{Ai}(z)\sim\frac{1}{\sqrt{\pi}(-z)^{1/4}}
+\sin\left(\frac{2}{3}(-z)^{3/2}+\frac{\pi}{4}\right) \\
+& \hphantom{z<0:\quad {}}
+\psi(x)\sim\frac{C}{\sqrt{p(x)}}
+\sin\left[\frac{1}{\hbar}\int_{x}^{a}p(x')\,dx'+\frac{\pi}{4}\right] \\
+& \frac{1}{\sqrt{|p(x)|}}
+\exp\left[-\frac{1}{\hbar}\int_{a}^{x}|p(x')|\,dx'\right]
+\leftrightarrow
+\frac{2}{\sqrt{p(x)}}
+\sin\left[\frac{1}{\hbar}\int_{x}^{a}p(x')\,dx'+\frac{\pi}{4}\right] \\
+& E>V(x)\quad (x_{1}<x<x_{2}) \\
+& \hphantom{E=} \psi(x)\approx\frac{C}{\sqrt{p(x)}}
+\sin\left[\frac{1}{\hbar}\int_{x_{1}}^{x}p(x')\,dx'+\frac{\pi}{4}\right] \\
+& \hphantom{E=}\psi(x)\approx\frac{C}{\sqrt{p(x)}}
+\sin\left[\frac{1}{\hbar}\int_{x}^{x_{2}}p(x')\,dx'+\frac{\pi}{4}\right] \\
+& \hphantom{E=} \sin\phi_{1}=\sin\phi_{2}\rightarrow \phi_{1}+\phi_{2}=\pi+n\pi \\
+& \hphantom{E=} \frac{1}{\hbar}\int_{x_{1}}^{x_{2}}p(x')\,dx'+\frac{\pi}{2}=\pi+n\pi \\
+& \hphantom{E=}\int_{x_{1}}^{x_{2}}p(x)\,dx
+= \left(n+\frac{1}{2}\right)\pi\hbar \\
+& V(x)>E\quad (x_{1}<x<x_{2}) \\
+& \hphantom{E=} \psi(x)\approx\frac{C}{\sqrt{|p(x_{1})|}}
+\exp\left[-\frac{1}{\hbar}\int_{x_{1}}^{x}|p(x')|\,dx'\right] \\
+& \hphantom{E=} \psi(x_{2})\approx\psi(x_{1})
+\exp\left[-\frac{1}{\hbar}\int_{x_{1}}^{x_{2}}|p(x')|\,dx'\right] \\
+& \hphantom{E=} T\approx\left|\frac{\psi(x_{2})}{\psi(x_{1})}\right|^{2}
+= \exp\left[-\frac{2}{\hbar}\int_{x_{1}}^{x_{2}}|p(x')|\,dx'\right]
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## Perturbation Theory / 摂動論
