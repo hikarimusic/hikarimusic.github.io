@@ -3004,39 +3004,253 @@ $$
 
 ## Perturbation Theory / 摂動論
 
-### Non-Degenerate Perturbation Theory / 非縮退定常摂動論
+### Time-Independent Perturbation Theory / 時間非依存摂動論
 
 $$
 \begin{aligned}{}
-& E_n^{(1)} = \langle \psi_n^{(0)} | \hat{V} | \psi_n^{(0)} \rangle \\
-& |\psi_n^{(1)}\rangle = \sum_{m \neq n} \frac{|\psi_m^{(0)}\rangle \langle \psi_m^{(0)} | \hat{V} | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \\
-& E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | \hat{V} | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
+& \hat{H} = \hat{H}_0 + \hat{V} \\
+& E_n^{(1)} = \langle n^{(0)}|\hat{V}|n^{(0)}\rangle \\
+& |n^{(1)}\rangle =
+\sum_{m\neq n}
+\frac{\langle m^{(0)}|\hat{V}|n^{(0)}\rangle}
+{E_n^{(0)}-E_m^{(0)}}|m^{(0)}\rangle \\
+& E_n^{(2)} =
+\sum_{m\neq n}
+\frac{|\langle m^{(0)}|\hat{V}|n^{(0)}\rangle|^2}
+{E_n^{(0)}-E_m^{(0)}}
 \end{aligned}
 $$
 {: .notice--info}
 
-### Degenerate Perturbation Theory / 縮退定常摂動論
+$$
+\begin{aligned}{}
+& (\hat{H}_0+\lambda\hat{V})|n\rangle = E_n|n\rangle \\
+& E_n = E_n^{(0)}+\lambda E_n^{(1)}+\lambda^2 E_n^{(2)}+\cdots \\
+& |n\rangle = |n^{(0)}\rangle+\lambda|n^{(1)}\rangle+\lambda^2|n^{(2)}\rangle+\cdots \\
+& \lambda^0:\quad
+\hat{H}_0|n^{(0)}\rangle = E_n^{(0)}|n^{(0)}\rangle \\
+& \lambda^1:\quad
+\hat{H}_0|n^{(1)}\rangle+\hat{V}|n^{(0)}\rangle
+= E_n^{(0)}|n^{(1)}\rangle+E_n^{(1)}|n^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+(\hat{H}_0-E_n^{(0)})|n^{(1)}\rangle
+= (E_n^{(1)}-\hat{V})|n^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+\langle n^{(0)}|\hat{H}_0-E_n^{(0)}|n^{(1)}\rangle
+= \langle n^{(0)}|E_n^{(1)}-\hat{V}|n^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+(E_n^{(0)}-E_n^{(0)})\langle n^{(0)}|n^{(1)}\rangle
+= E_n^{(1)}-\langle n^{(0)}|\hat{V}|n^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+E_n^{(1)} = \langle n^{(0)}|\hat{V}|n^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+\langle m^{(0)}|\hat{H}_0-E_n^{(0)}|n^{(1)}\rangle
+= \langle m^{(0)}|E_n^{(1)}-\hat{V}|n^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+(E_m^{(0)}-E_n^{(0)})\langle m^{(0)}|n^{(1)}\rangle
+= -\langle m^{(0)}|\hat{V}|n^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+|n^{(1)}\rangle
+= \sum_{m\neq n}|m^{(0)}\rangle\langle m^{(0)}|n^{(1)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+= \sum_{m\neq n}
+\frac{\langle m^{(0)}|\hat{V}|n^{(0)}\rangle}
+{E_n^{(0)}-E_m^{(0)}}|m^{(0)}\rangle \\
+& \lambda^2:\quad
+\hat{H}_0|n^{(2)}\rangle+\hat{V}|n^{(1)}\rangle
+= E_n^{(0)}|n^{(2)}\rangle+E_n^{(1)}|n^{(1)}\rangle+E_n^{(2)}|n^{(0)}\rangle \\
+& \hphantom{\lambda^2:\quad{}}
+(\hat{H}_0-E_n^{(0)})|n^{(2)}\rangle
++(\hat{V}-E_n^{(1)})|n^{(1)}\rangle
+= E_n^{(2)}|n^{(0)}\rangle \\
+& \hphantom{\lambda^2:\quad{}}
+\langle n^{(0)}|\hat{H}_0-E_n^{(0)}|n^{(2)}\rangle
++\langle n^{(0)}|\hat{V}-E_n^{(1)}|n^{(1)}\rangle
+= \langle n^{(0)}|E_n^{(2)}|n^{(0)}\rangle \\
+& \hphantom{\lambda^2:\quad{}}
+\langle n^{(0)}|\hat{V}|n^{(1)}\rangle = E_n^{(2)} \\
+& \hphantom{\lambda^2:\quad{}}
+E_n^{(2)} =
+\sum_{m\neq n}
+\frac{\langle n^{(0)}|\hat{V}|m^{(0)}\rangle
+\langle m^{(0)}|\hat{V}|n^{(0)}\rangle}
+{E_n^{(0)}-E_m^{(0)}} \\
+& \hphantom{\lambda^2:\quad{}}
+= \sum_{m\neq n}
+\frac{|\langle m^{(0)}|\hat{V}|n^{(0)}\rangle|^2}
+{E_n^{(0)}-E_m^{(0)}}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Degenerate Perturbation / 縮退摂動
 
 $$
 \begin{aligned}{}
-& E_{n,\alpha}^{(1)} : \sum_j \langle \psi_{n,i}^{(0)} | \hat{V} | \psi_{n,j}^{(0)} \rangle C_{n,\alpha}^j = E_{n,\alpha}^{(1)} C_{n,\alpha}^i \\
-& |\psi_{n,\alpha}^{(1)}\rangle = \sum_{m \neq n, \beta} \frac{|\psi_{m,\beta}^{(0)}\rangle \langle \psi_{m,\beta}^{(0)} | \hat{V} | \psi_{n,\alpha}^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \\
-& E_{n,\alpha}^{(2)} = \sum_{m \neq n, \beta} \frac{|\langle \psi_{m,\beta}^{(0)} | \hat{V} | \psi_{n,\alpha}^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
+& V_{\alpha\beta} = \langle n,\alpha|\hat{V}|n,\beta\rangle \\
+& \sum_{\beta=1}^{g_n}V_{\alpha\beta}c_{\beta a}
+= E_{na}^{(1)}c_{\alpha a} \\
+& |n,a^{(0)}\rangle
+= \sum_{\alpha=1}^{g_n}c_{\alpha a}|n,\alpha\rangle
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& (\hat{H}_0+\lambda\hat{V})|n,a\rangle
+= E_{na}|n,a\rangle \\
+& E_{na}
+= E_n^{(0)}+\lambda E_{na}^{(1)}
++\lambda^2E_{na}^{(2)}+\cdots \\
+& |n,a\rangle
+= |n,a^{(0)}\rangle+\lambda|n,a^{(1)}\rangle
++\lambda^2|n,a^{(2)}\rangle+\cdots \\
+& \lambda^0:\quad
+\hat{H}_0|n,a^{(0)}\rangle
+= E_n^{(0)}|n,a^{(0)}\rangle \\
+& \lambda^1:\quad
+\hat{H}_0|n,a^{(1)}\rangle+\hat{V}|n,a^{(0)}\rangle
+= E_n^{(0)}|n,a^{(1)}\rangle+E_{na}^{(1)}|n,a^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+(\hat{H}_0-E_n^{(0)})|n,a^{(1)}\rangle
+= (E_{na}^{(1)}-\hat{V})|n,a^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+\langle n,\alpha|\hat{H}_0-E_n^{(0)}|n,a^{(1)}\rangle
+= \langle n,\alpha|E_{na}^{(1)}-\hat{V}|n,a^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+0 = E_{na}^{(1)}\langle n,\alpha|n,a^{(0)}\rangle
+-\langle n,\alpha|\hat{V}|n,a^{(0)}\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+|n,a^{(0)}\rangle
+= \sum_{\beta=1}^{g_n}c_{\beta a}|n,\beta\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+E_{na}^{(1)}\langle n,\alpha|n,a^{(0)}\rangle
+= E_{na}^{(1)}c_{\alpha a} \\
+& \hphantom{\lambda^1:\quad{}}
+\langle n,\alpha|\hat{V}|n,a^{(0)}\rangle
+= \sum_{\beta=1}^{g_n}c_{\beta a}
+\langle n,\alpha|\hat{V}|n,\beta\rangle \\
+& \hphantom{\lambda^1:\quad{}}
+\langle n,\alpha|\hat{V}|n,\beta\rangle
+= V_{\alpha\beta} \\
+& \hphantom{\lambda^1:\quad{}}
+\sum_{\beta=1}^{g_n}V_{\alpha\beta}c_{\beta a}
+= E_{na}^{(1)}c_{\alpha a}
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Time-Dependent Perturbation Theory / 時間依存摂動論
 
 $$
 \begin{aligned}{}
-& i\hbar \frac{\partial C_n(t)}{\partial t} = \sum_m \langle \psi_n^{(0)} | \hat{V}(t) | \psi_m^{(0)} \rangle e^{\frac{i}{\hbar}(E_n - E_m)t} C_m(t) \\
-& C_n^{(1)}(t) = -\frac{i}{\hbar} \int_0^t \langle \psi_n^{(0)} | \hat{V}(t') | \psi_i^{(0)} \rangle e^{\frac{i}{\hbar}(E_n - E_i)t'} \, dt' \\
-& \hat{V}(t) = \hat{V} e^{\eta t}, \; \eta \to 0 : \quad C_n^{(1)}(0) = \frac{\langle \psi_n^{(0)} | \hat{V} | \psi_i^{(0)} \rangle}{E_i - E_n} \\
-& \hat{V}(t) = \hat{V} e^{-i\omega t}, \; t \ge 0 : \quad C_n^{(1)}(t) = \frac{\langle \psi_n^{(0)} | \hat{V} | \psi_i^{(0)} \rangle}{E_n - E_i - \hbar\omega} \left[ 1 - e^{\frac{i}{\hbar}(E_n - E_i - \hbar\omega)t} \right]
+& \hat{H}(t) = \hat{H}_0+\hat{V}(t) \\
+& |\psi(t)\rangle
+= \sum_n c_n(t)e^{-\frac{i}{\hbar}E_nt}|n\rangle \\
+& i\hbar\frac{dc_n(t)}{dt}
+= \sum_m \langle n|\hat{V}(t)|m\rangle e^{i\omega_{nm}t}c_m(t)
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& |\psi(t)\rangle
+= \sum_m c_m(t)e^{-\frac{i}{\hbar}E_mt}|m\rangle \\
+& i\hbar\frac{d}{dt}|\psi(t)\rangle
+= \sum_m i\hbar\frac{dc_m(t)}{dt}e^{-\frac{i}{\hbar}E_mt}|m\rangle
++\sum_m E_m c_m(t)e^{-\frac{i}{\hbar}E_mt}|m\rangle \\
+& \left(\hat{H}_0+\hat{V}(t)\right)|\psi(t)\rangle
+= \sum_m E_m c_m(t)e^{-\frac{i}{\hbar}E_mt}|m\rangle
++\sum_m c_m(t)e^{-\frac{i}{\hbar}E_mt}\hat{V}(t)|m\rangle \\
+& \sum_m i\hbar\frac{dc_m(t)}{dt}e^{-\frac{i}{\hbar}E_mt}|m\rangle
+= \sum_m c_m(t)e^{-\frac{i}{\hbar}E_mt}\hat{V}(t)|m\rangle \\
+& i\hbar\frac{dc_n(t)}{dt}e^{-\frac{i}{\hbar}E_nt}
+= \sum_m c_m(t)e^{-\frac{i}{\hbar}E_mt}
+\langle n|\hat{V}(t)|m\rangle \\
+& i\hbar\frac{dc_n(t)}{dt}
+= \sum_m \langle n|\hat{V}(t)|m\rangle
+e^{i\omega_{nm}t}c_m(t), \quad \omega_{nm}=\frac{E_n-E_m}{\hbar}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### First-Order Transition / 一次遷移
+
+$$
+\begin{aligned}{}
+& c_f^{(1)}(t)
+= -\frac{i}{\hbar}\int_{t_0}^{t}
+\langle f|\hat{V}(t')|i\rangle e^{i\omega_{fi}t'}\,dt' \\
+& P_{i\to f}(t)
+= \frac{4|\langle f|\hat{V}|i\rangle|^2}{\hbar^2}
+\frac{\sin^2\left[(\omega_{fi}-\omega)t/2\right]}
+{(\omega_{fi}-\omega)^2} \\
+& \Gamma_{i\to \mathrm{all}}
+= \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f),
+\quad E_f=E_i+\hbar\omega
+\end{aligned}
+$$
+{: .notice--info}
+
+$$
+\begin{aligned}{}
+& \hat{H}(t) = \hat{H}_0+\lambda\hat{V}(t) \\
+& c_n(t)
+= c_n^{(0)}(t)+\lambda c_n^{(1)}(t)
++\lambda^2c_n^{(2)}(t)+\cdots \\
+& \lambda^0:\quad
+i\hbar\frac{dc_n^{(0)}}{dt}=0 \\
+& \hphantom{\lambda^0:\quad{}}
+c_n^{(0)}(t)=c_n(t_0)=\delta_{ni} \\
+& \lambda^1:\quad
+i\hbar\frac{dc_n^{(1)}}{dt}
+= \sum_m \langle n|\hat{V}(t)|m\rangle e^{i\omega_{nm}t}c_m^{(0)}(t) \\
+& \hphantom{\lambda^1:\quad{}} \hphantom{i\hbar\frac{dc_n^{(1)}}{dt}}
+= \langle n|\hat{V}(t)|i\rangle e^{i\omega_{ni}t} \\
+& \hphantom{\lambda^1:\quad{}}
+\frac{dc_f^{(1)}}{dt}
+= -\frac{i}{\hbar}\langle f|\hat{V}(t)|i\rangle e^{i\omega_{fi}t} \\
+& \hphantom{\lambda^1:\quad{}}
+c_f^{(1)}(t)
+= -\frac{i}{\hbar}\int_{t_0}^{t}
+\langle f|\hat{V}(t')|i\rangle e^{i\omega_{fi}t'}\,dt' \\
+& \hat{V}(t)=\hat{V}e^{-i\omega t} \\
+& c_f^{(1)}(t)
+= -\frac{i}{\hbar}\int_0^t
+\langle f|\hat{V}|i\rangle e^{i(\omega_{fi}-\omega)t'}\,dt' \\
+& \hphantom{c_f^{(1)}(t){}}
+= -\frac{i}{\hbar}\langle f|\hat{V}|i\rangle
+\frac{e^{i(\omega_{fi}-\omega)t}-1}{i(\omega_{fi}-\omega)} \\
+& \hphantom{c_f^{(1)}(t){}}
+= -\frac{2i}{\hbar}\langle f|\hat{V}|i\rangle
+e^{i(\omega_{fi}-\omega)t/2}
+\frac{\sin\left[(\omega_{fi}-\omega)t/2\right]}
+{\omega_{fi}-\omega} \\
+& P_{i\to f}(t)
+= |c_f^{(1)}(t)|^2 \\
+& \hphantom{P_{i\to f}(t){}}
+= \frac{4|\langle f|\hat{V}|i\rangle|^2}{\hbar^2}
+\frac{\sin^2\left[(\omega_{fi}-\omega)t/2\right]}
+{(\omega_{fi}-\omega)^2} \\
+& \Gamma_{i\to f}
+= \lim_{t\to\infty}\frac{P_{i\to f}(t)}{t} \\
+& \hphantom{\Gamma_{i\to f}{}}
+= \frac{2\pi}{\hbar^2}|\langle f|\hat{V}|i\rangle|^2
+\delta(\omega_{fi}-\omega) \\
+& \hphantom{\Gamma_{i\to f}{}}
+= \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2
+\delta(E_f-E_i-\hbar\omega) \\
+& \Gamma_{i\to \mathrm{all}}
+= \int \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2
+\delta(E_f-E_i-\hbar\omega)\rho(E_f)\,dE_f \\
+& \hphantom{\Gamma_{i\to \mathrm{all}}{}}
+= \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2
+\rho(E_i+\hbar\omega)
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## Scattering Theory / 散乱理論
