@@ -8,10 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am 董宇光, a medical student studying at National Taiwan University. As an amateur researcher, I enjoy writing papers. As an amateur engineer, I enjoy developing software. As an amateur composer, I enjoy creating music. As a professional student, I enjoy learning medicine, physics, and algorithms. If you have any hobbies in common, I would be happy to have some discussions with you.
+Welcome to HikariMusic Site, I am [董宇光]({% link _pages/cv.md %}) from Taiwan.
 
-* 2020: National Taiwan University School of Medicine
-* 2019: International Physics Olympiad Silver Medal
+* As an amateur researcher, I write papers under the name [Uko To](https://www.researchgate.net/profile/Yeu-Guang-Tung)
+* As an amateur composer, I create music under the name [HIKARINO](https://eggs.mu/artist/HikariMusic)
+* As an amateur engineer, I develop software under the name [HikariMusic](https://github.com/hikarimusic)
+* As a medicine enthusiast, 🍊⭐
+* As a physics enthusiast, I won a silver medal in [IPHO](https://ipho-unofficial.org/countries/TWN/individual#:~:text=Yeu-Guang%20Tung)
+* As an algorithm enthusiast, 🍊⭐
 
 ## News
 

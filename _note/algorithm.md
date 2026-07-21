@@ -1632,7 +1632,7 @@ void sieve(ll n) {
 ```
 
 
-## Linear Algebra / 線型代数
+## 🍊 Linear Algebra / 線型代数
 
 ### Matrix Exponentiation / 行列累乗
 ```cpp
@@ -1786,7 +1786,7 @@ vector<ll> multiply(vector<ll> a, vector<ll> b) {
 }
 ```
 
-## Geometry / 幾何学
+## 🍊 Geometry / 幾何学
 
 ### Geometry Library / 幾何ライブラリ
 ```cpp
@@ -2289,7 +2289,7 @@ void solve(ll n) {
 ```
 
 
-## String / 文字列
+## 🍊 String / 文字列
 
 ### KMP Algorithm / KMP法
 
@@ -2401,7 +2401,7 @@ ll search(string s, string t, vector<ll> sa) {
 }
 ```
 
-## Game / ゲーム
+## 🍊 Game / ゲーム
 
 ### Nim / Nim
 ```cpp
