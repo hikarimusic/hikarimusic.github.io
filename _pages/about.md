@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to HikariMusic Site, I am [董宇光]({% link _pages/cv.md %}) from Taiwan.
+Welcome to HikariMusic site, I am [董宇光]({% link _pages/cv.md %}) from Taiwan.
 
 * As an amateur researcher, I write papers under the name [Uko To](https://www.researchgate.net/profile/Yeu-Guang-Tung)
 * As an amateur composer, I create music under the name [HIKARINO](https://eggs.mu/artist/HikariMusic)

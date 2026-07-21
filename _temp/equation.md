@@ -62,7 +62,6 @@ $$
 
 ## Non-Equilibrium
 
-
 # Quantum Mechanics / 量子力学
 
 $$
@@ -74,7 +73,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ## Formalism / 形式論
 
@@ -134,7 +132,6 @@ $$
 $$
 {: .notice--info}
 
-
 ## Wave Mechanics / 波動力学
 
 ### Wave Function / 波動関数
@@ -164,7 +161,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Expectation Value / 期待値
 
 $$
@@ -175,7 +171,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ### Schrödinger Equation / Schrödinger方程式
 
@@ -190,7 +185,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Probability Current / 確率流
 
 $$
@@ -201,7 +195,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ### Ehrenfest Theorem / Ehrenfestの定理
 
@@ -218,7 +211,6 @@ $$
 $$
 {: .notice--info}
 
-
 ## 1D System / 一次元系
 
 ### Boundary Conditions / 境界条件
@@ -232,7 +224,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Free Particle / 自由粒子
 
 $$
@@ -243,7 +234,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ### Potential Step / ポテンシャル段差
 
@@ -256,7 +246,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ### Potential Barrier / ポテンシャル障壁
 
@@ -280,7 +269,6 @@ F e^{ikx}, & x > a
 $$
 {: .notice--info}
 
-
 ### Square Well / 井戸型ポテンシャル
 
 $$
@@ -296,7 +284,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Harmonic Oscillator / 調和振動子
 
 $$
@@ -308,7 +295,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Ladder Operator / 昇降演算子
 
 $$
@@ -319,7 +305,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ## Symmetry / 対称性
 
@@ -334,7 +319,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Rotational Symmetry / 回転対称性
 
 $$
@@ -345,7 +329,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ### Time Translational Symmetry / 時間並進対称性
 
@@ -358,7 +341,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Parity Symmetry / パリティ対称性
 
 $$
@@ -368,7 +350,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ## Angular Momentum / 角運動量
 
@@ -385,7 +366,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Orbital Angular Momentum / 軌道角運動量
 
 $$
@@ -400,7 +380,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Spin Angular Momentum / スピン角運動量
 
 $$
@@ -413,7 +392,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ### Addition of Angular Momentum / 角運動量の合成
 
@@ -429,7 +407,6 @@ $$
 $$
 {: .notice--info}
 
-
 ## 3D System / 三次元系
 
 ### Central Potential / 中心力ポテンシャル
@@ -443,7 +420,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Infinite Spherical Well / 無限球形井戸
 
 $$
@@ -455,7 +431,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ### Isotropic Harmonic Oscillator / 等方性調和振動子
 
@@ -469,7 +444,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Hydrogen Atom / 水素原子
 
 $$
@@ -482,7 +456,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Electromagnetic Potential / 電磁ポテンシャル
 
 $$
@@ -494,7 +467,6 @@ $$
 $$
 {: .notice--info}
 
-
 ### Charged Particle / 荷電粒子
 
 $$
@@ -505,14 +477,14 @@ $$
 $$
 {: .notice--info}
 
-
 ## Approximation Method / 近似法
 
 ### Variational Method / 変分法
 
 $$
 \begin{aligned}{}
-& E_0 \leq \frac{\langle \psi | \hat{H} | \psi \rangle}{\langle \psi | \psi \rangle}
+& E[\psi]=\frac{\langle\psi|\hat{H}|\psi\rangle}{\langle\psi|\psi\rangle}\geq E_{0} \\
+& \delta E[\psi]=0 \rightarrow \hat{H}|\psi\rangle=E|\psi\rangle
 \end{aligned}
 $$
 {: .notice--info}
@@ -521,49 +493,55 @@ $$
 
 $$
 \begin{aligned}{}
-& \psi(x) \approx \frac{1}{\sqrt{p(x)}} \left(
-C_1 e^{\frac{i}{\hbar}\int^x p(x')\,dx'}
-+ C_2 e^{-\frac{i}{\hbar}\int^x p(x')\,dx'}
-\right) \\
-& \psi(x) \approx \frac{1}{\sqrt{\kappa(x)}} \left(
-C_1 e^{\frac{1}{\hbar}\int^x \kappa(x')\,dx'}
-+ C_2 e^{-\frac{1}{\hbar}\int^x \kappa(x')\,dx'}
-\right)
+& p(x)=\sqrt{2m[E-V(x)]} \\
+& E>V(x): \quad
+\psi(x)\approx \frac{C}{\sqrt{p(x)}}\exp\left(\pm\frac{i}{\hbar}\int^{x}p(x')\,dx'\right) \\
+& E<V(x): \quad
+\psi(x)\approx \frac{C}{\sqrt{|p(x)|}}\exp\left(\pm\frac{1}{\hbar}\int^{x}|p(x')|\,dx'\right)
 \end{aligned}
 $$
 {: .notice--info}
 
-### Bound State and Tunneling / 束縛状態とトンネル効果
+### Quantization and Tunneling / 量子化とトンネル効果
 
 $$
 \begin{aligned}{}
-& \int_{x_1}^{x_2} p(x)\,dx = \left(n+\frac{1}{2}\right)\pi\hbar \\
-& T = \exp\left(-\frac{2}{\hbar}\int_{x_1}^{x_2} \kappa(x)\,dx\right)
+& \int_{x_{1}}^{x_{2}}\sqrt{2m[E-V(x)]}\,dx
+= \left(n+\frac{1}{2}\right)\pi\hbar \\
+& T=\exp\left[-\frac{2}{\hbar}\int_{x_{1}}^{x_{2}}\sqrt{2m[V(x)-E]}\,dx\right]
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ## Perturbation Theory / 摂動論
 
-### Non-Degenerate Perturbation Theory / 非縮退定常摂動論
+### Time-Independent Perturbation Theory / 時間非依存摂動論
 
 $$
 \begin{aligned}{}
-& E_n^{(1)} = \langle \psi_n^{(0)} | \hat{V} | \psi_n^{(0)} \rangle \\
-& |\psi_n^{(1)}\rangle = \sum_{m \neq n} \frac{|\psi_m^{(0)}\rangle \langle \psi_m^{(0)} | \hat{V} | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \\
-& E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | \hat{V} | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
+& \hat{H} = \hat{H}_0 + \hat{V} \\
+& E_n^{(1)} = \langle n^{(0)}|\hat{V}|n^{(0)}\rangle \\
+& |n^{(1)}\rangle =
+\sum_{m\neq n}
+\frac{\langle m^{(0)}|\hat{V}|n^{(0)}\rangle}
+{E_n^{(0)}-E_m^{(0)}}|m^{(0)}\rangle \\
+& E_n^{(2)} =
+\sum_{m\neq n}
+\frac{|\langle m^{(0)}|\hat{V}|n^{(0)}\rangle|^2}
+{E_n^{(0)}-E_m^{(0)}}
 \end{aligned}
 $$
 {: .notice--info}
 
-### Degenerate Perturbation Theory / 縮退定常摂動論
+### Degenerate Perturbation / 縮退摂動
 
 $$
 \begin{aligned}{}
-& E_{n,\alpha}^{(1)} : \sum_j \langle \psi_{n,i}^{(0)} | \hat{V} | \psi_{n,j}^{(0)} \rangle C_{n,\alpha}^j = E_{n,\alpha}^{(1)} C_{n,\alpha}^i \\
-& |\psi_{n,\alpha}^{(1)}\rangle = \sum_{m \neq n, \beta} \frac{|\psi_{m,\beta}^{(0)}\rangle \langle \psi_{m,\beta}^{(0)} | \hat{V} | \psi_{n,\alpha}^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \\
-& E_{n,\alpha}^{(2)} = \sum_{m \neq n, \beta} \frac{|\langle \psi_{m,\beta}^{(0)} | \hat{V} | \psi_{n,\alpha}^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
+& V_{\alpha\beta} = \langle n,\alpha|\hat{V}|n,\beta\rangle \\
+& \sum_{\beta=1}^{g_n}V_{\alpha\beta}c_{\beta a}
+= E_{na}^{(1)}c_{\alpha a} \\
+& |n,a^{(0)}\rangle
+= \sum_{\alpha=1}^{g_n}c_{\alpha a}|n,\alpha\rangle
 \end{aligned}
 $$
 {: .notice--info}
@@ -572,14 +550,32 @@ $$
 
 $$
 \begin{aligned}{}
-& i\hbar \frac{\partial C_n(t)}{\partial t} = \sum_m \langle \psi_n^{(0)} | \hat{V}(t) | \psi_m^{(0)} \rangle e^{\frac{i}{\hbar}(E_n - E_m)t} C_m(t) \\
-& C_n^{(1)}(t) = -\frac{i}{\hbar} \int_0^t \langle \psi_n^{(0)} | \hat{V}(t') | \psi_i^{(0)} \rangle e^{\frac{i}{\hbar}(E_n - E_i)t'} \, dt' \\
-& \hat{V}(t) = \hat{V} e^{\eta t}, \; \eta \to 0 : \quad C_n^{(1)}(0) = \frac{\langle \psi_n^{(0)} | \hat{V} | \psi_i^{(0)} \rangle}{E_i - E_n} \\
-& \hat{V}(t) = \hat{V} e^{-i\omega t}, \; t \ge 0 : \quad C_n^{(1)}(t) = \frac{\langle \psi_n^{(0)} | \hat{V} | \psi_i^{(0)} \rangle}{E_n - E_i - \hbar\omega} \left[ 1 - e^{\frac{i}{\hbar}(E_n - E_i - \hbar\omega)t} \right]
+& \hat{H}(t) = \hat{H}_0+\hat{V}(t) \\
+& |\psi(t)\rangle
+= \sum_n c_n(t)e^{-\frac{i}{\hbar}E_nt}|n\rangle \\
+& i\hbar\frac{dc_n(t)}{dt}
+= \sum_m \langle n|\hat{V}(t)|m\rangle e^{i\omega_{nm}t}c_m(t)
 \end{aligned}
 $$
 {: .notice--info}
 
+### First-Order Transition / 一次遷移
+
+$$
+\begin{aligned}{}
+& c_f^{(1)}(t)
+= -\frac{i}{\hbar}\int_{t_0}^{t}
+\langle f|\hat{V}(t')|i\rangle e^{i\omega_{fi}t'}\,dt' \\
+& P_{i\to f}(t)
+= \frac{4|\langle f|\hat{V}|i\rangle|^2}{\hbar^2}
+\frac{\sin^2\left[(\omega_{fi}-\omega)t/2\right]}
+{(\omega_{fi}-\omega)^2} \\
+& \Gamma_{i\to \mathrm{all}}
+= \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f),
+\quad E_f=E_i+\hbar\omega
+\end{aligned}
+$$
+{: .notice--info}
 
 ## Scattering Theory / 散乱理論
 
@@ -656,7 +652,6 @@ P_\ell(\cos\theta) \\
 $$
 {: .notice--info}
 
-
 ## Path Integral / 経路積分
 
 ### Configuration Space / 座標空間
@@ -700,7 +695,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ## Identical Particle / 同種粒子
 
@@ -752,7 +746,6 @@ $$
 \end{aligned}
 $$
 {: .notice--info}
-
 
 ## Dirac Equation / Dirac方程式
 
