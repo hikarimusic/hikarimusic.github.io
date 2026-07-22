@@ -3260,73 +3260,236 @@ $$
 $$
 \begin{aligned}{}
 & |\psi^{(+)}\rangle
-= |\psi^{(0)}\rangle
-+ \frac{1}{E-\hat{H}_0+i\epsilon}\hat{V}|\psi^{(+)}\rangle \\
-& \psi^{(+)}(\mathbf{r})
+= |\phi\rangle + \frac{1}{E-\hat{H}_{0}+i\varepsilon}\hat{V}|\psi^{(+)}\rangle \\
+& \psi_{k}^{(+)}(\mathbf{r})
 = e^{i\mathbf{k}\cdot\mathbf{r}}
--\frac{m}{2\pi\hbar^2}
-\int V(\mathbf{r}')
-\psi^{(+)}(\mathbf{r}')
-\frac{e^{ik|\mathbf{r}-\mathbf{r}'|}}
-{|\mathbf{r}-\mathbf{r}'|}
-\,d^3r'
+-\frac{m}{2\pi\hbar^{2}}
+\int V(\mathbf{r}')\psi_{k}^{(+)}(\mathbf{r}')
+\frac{e^{ik|\mathbf{r}-\mathbf{r}'|}}{|\mathbf{r}-\mathbf{r}'|}
+\,d^{3}r'
 \end{aligned}
 $$
 {: .notice--info}
-
-### Scattering Amplitude / 散乱振幅
 
 $$
 \begin{aligned}{}
-& r\to\infty,\quad V(\mathbf{r})\to 0 \\
-& f(\mathbf{k}_f \leftarrow \mathbf{k}_i)
-= -\frac{m}{2\pi\hbar^2}
-\int V(\mathbf{r})
-\psi_{\mathbf{k}_i}^{(+)}(\mathbf{r})
-e^{-i\mathbf{k}_f\cdot\mathbf{r}}
-\,d^3r \\
+& (\hat{H}_{0}+\hat{V})|\psi^{(+)}\rangle
+= E|\psi^{(+)}\rangle \\
+& (E-\hat{H}_{0})|\psi^{(+)}\rangle
+= \hat{V}|\psi^{(+)}\rangle \\
+& (E-\hat{H}_{0})|\phi\rangle = 0 \\
+& \hat{G}_{0}^{(+)}(E)
+= \frac{1}{E-\hat{H}_{0}+i\varepsilon} \\
+& |\psi^{(+)}\rangle
+= |\phi\rangle + \hat{G}_{0}^{(+)}(E)\hat{V}|\psi^{(+)}\rangle \\
 & \psi^{(+)}(\mathbf{r})
+= \phi(\mathbf{r})
++ \langle \mathbf{r}|\hat{G}_{0}^{(+)}\hat{V}|\psi^{(+)}\rangle \\
+& \hphantom{\psi^{(+)}(\mathbf{r})}
+= \phi(\mathbf{r})
++ \int \langle \mathbf{r}|\hat{G}_{0}^{(+)}|\mathbf{r}'\rangle
+\langle \mathbf{r}'|\hat{V}|\psi^{(+)}\rangle\,d^{3}r' \\
+& \hphantom{\psi^{(+)}(\mathbf{r})}
+= \phi(\mathbf{r})
++ \int G_{0}^{(+)}(\mathbf{r},\mathbf{r}';E)
+V(\mathbf{r}')\psi^{(+)}(\mathbf{r}')\,d^{3}r' \\
+& (E-\hat{H}_{0})G_{0}^{(+)}(\mathbf{r},\mathbf{r}';E)
+= \delta^{(3)}(\mathbf{r}-\mathbf{r}') \\
+& E=\frac{\hbar^{2}k^{2}}{2m}, \quad
+\hat{H}_{0}=-\frac{\hbar^{2}}{2m}\nabla^{2} \\
+& (\nabla^{2}+k^{2})G_{0}^{(+)}(\mathbf{r},\mathbf{r}';E)
+= \frac{2m}{\hbar^{2}}\delta^{(3)}(\mathbf{r}-\mathbf{r}') \\
+& G_{0}^{(+)}(\mathbf{r},\mathbf{r}';E)
+= -\frac{2m}{\hbar^{2}}
+\frac{e^{ik|\mathbf{r}-\mathbf{r}'|}}{4\pi|\mathbf{r}-\mathbf{r}'|} \\
+& \phi(\mathbf{r})=e^{i\mathbf{k}\cdot\mathbf{r}} \\
+& \psi_{k}^{(+)}(\mathbf{r})
 = e^{i\mathbf{k}\cdot\mathbf{r}}
+-\frac{2m}{\hbar^{2}}
+\int V(\mathbf{r}')\psi_{k}^{(+)}(\mathbf{r}')
+\frac{e^{ik|\mathbf{r}-\mathbf{r}'|}}{4\pi|\mathbf{r}-\mathbf{r}'|}
+\,d^{3}r'
+\end{aligned}
+$$
+{: .notice--primary}
+
+Sure, here it is with \approx instead of \simeq:
+
+### Scattering Amplitude / 散乱振幅
+$$
+\begin{aligned}{}
+& \psi_{k}^{(+)}(\mathbf{r})
+\approx e^{i\mathbf{k}\cdot\mathbf{r}}
 + f(\theta,\phi)\frac{e^{ikr}}{r} \\
-& \frac{d\sigma}{d\Omega}
-= |f(\theta,\phi)|^2
+& f(\theta,\phi)
+= -\frac{m}{2\pi\hbar^{2}}
+\int V(\mathbf{r}')\psi_{k}^{(+)}(\mathbf{r}')
+e^{-i\mathbf{k}'\cdot\mathbf{r}'}\,d^{3}r' \\
+& \frac{d\sigma}{d\Omega}=|f(\theta,\phi)|^{2}
 \end{aligned}
 $$
 {: .notice--info}
+$$
+\begin{aligned}{}
+& r \gg r', \quad \mathbf{k}'=k\hat{\mathbf{r}} \\
+& ik|\mathbf{r}-\mathbf{r}'|
+\approx ik(r-\hat{\mathbf{r}}\cdot\mathbf{r}')
+= ikr-i\mathbf{k}'\cdot\mathbf{r}' \\
+& \frac{1}{|\mathbf{r}-\mathbf{r}'|}\approx \frac{1}{r} \\
+& \frac{e^{ik|\mathbf{r}-\mathbf{r}'|}}{|\mathbf{r}-\mathbf{r}'|}
+\approx \frac{e^{ikr}}{r}e^{-i\mathbf{k}'\cdot\mathbf{r}'} \\
+& \psi_{k}^{(+)}(\mathbf{r})
+\approx e^{i\mathbf{k}\cdot\mathbf{r}}
+-\left[
+\frac{m}{2\pi\hbar^{2}}
+\int V(\mathbf{r}')\psi_{k}^{(+)}(\mathbf{r}')
+e^{-i\mathbf{k}'\cdot\mathbf{r}'}\,d^{3}r'
+\right]\frac{e^{ikr}}{r} \\
+& \hphantom{\psi_{k}^{(+)}(\mathbf{r})}
+= e^{i\mathbf{k}\cdot\mathbf{r}}
++ f(\theta,\phi)\frac{e^{ikr}}{r} \\
+& \psi_{\mathrm{in}}=e^{i\mathbf{k}\cdot\mathbf{r}} \\
+& \nabla\psi_{\mathrm{in}}
+= i\mathbf{k}e^{i\mathbf{k}\cdot\mathbf{r}} \\
+& \mathbf{j}_{\mathrm{in}}
+= \frac{\hbar}{2mi}
+\left(\psi_{\mathrm{in}}^{*}\nabla\psi_{\mathrm{in}}
+-\psi_{\mathrm{in}}\nabla\psi_{\mathrm{in}}^{*}\right) \\
+& \hphantom{\mathbf{j}_{\mathrm{in}}}
+= \frac{\hbar k}{m} \\
+& \psi_{\mathrm{sc}}
+= f(\theta,\phi)\frac{e^{ikr}}{r} \\
+& \frac{\partial\psi_{\mathrm{sc}}}{\partial r}
+\approx ikf(\theta,\phi)\frac{e^{ikr}}{r} \\
+& j_{\mathrm{sc},r}
+= \frac{\hbar}{2mi}
+\left(
+\psi_{\mathrm{sc}}^{*}\frac{\partial\psi_{\mathrm{sc}}}{\partial r}
+-\psi_{\mathrm{sc}}\frac{\partial\psi_{\mathrm{sc}}^{*}}{\partial r}
+\right) \\
+& \hphantom{j_{\mathrm{sc},r}}
+= \frac{\hbar k}{m}\frac{|f(\theta,\phi)|^{2}}{r^{2}} \\
+& d\Phi_{\mathrm{sc}}
+= j_{\mathrm{sc},r}r^{2}d\Omega
+= \frac{\hbar k}{m}|f(\theta,\phi)|^{2}d\Omega \\
+& d\sigma
+= \frac{d\Phi_{\mathrm{sc}}}{j_{\mathrm{in}}}
+= |f(\theta,\phi)|^{2}d\Omega
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Born Approximation / Born近似
 
 $$
 \begin{aligned}{}
-& \psi_{\mathbf{k}_i}^{(+)}(\mathbf{r})
-\approx e^{i\mathbf{k}_i\cdot\mathbf{r}},
-\quad
-\mathbf{q}=\mathbf{k}_f-\mathbf{k}_i \\
-& f(\mathbf{q})
-= -\frac{m}{2\pi\hbar^2}
-\int V(\mathbf{r})
-e^{-i\mathbf{q}\cdot\mathbf{r}}
-\,d^3r
+& \psi_{k}^{(+)}(\mathbf{r}) \approx e^{i\mathbf{k}\cdot\mathbf{r}} \\
+& f(\theta,\phi) \approx
+-\frac{m}{2\pi\hbar^{2}}
+\int V(\mathbf{r}')e^{-i\mathbf{q}\cdot\mathbf{r}'}\,d^{3}r' \\
+& \mathbf{q}=\mathbf{k}'-\mathbf{k}, \quad
+q=2k\sin\frac{\theta}{2}
 \end{aligned}
 $$
 {: .notice--info}
-
-### Partial Wave Expansion / 部分波展開
 
 $$
 \begin{aligned}{}
-& V(\mathbf{r}) = V(r) \\
+& \psi_{k}^{(+)}(\mathbf{r})
+\approx e^{i\mathbf{k}\cdot\mathbf{r}} \\
+& f(\theta,\phi)
+\approx -\frac{m}{2\pi\hbar^{2}}
+\int V(\mathbf{r}')e^{i\mathbf{k}\cdot\mathbf{r}'}
+e^{-i\mathbf{k}'\cdot\mathbf{r}'}\,d^{3}r' \\
+& \hphantom{f(\theta,\phi)}
+= -\frac{m}{2\pi\hbar^{2}}
+\int V(\mathbf{r}')e^{-i\mathbf{q}\cdot\mathbf{r}'}\,d^{3}r' \\
+& k'=k, \quad \mathbf{k}'\cdot\mathbf{k}=k^{2}\cos\theta \\
+& q^{2}=k'^{2}+k^{2}-2\mathbf{k}'\cdot\mathbf{k} \\
+& \hphantom{q^{2}}
+=2k^{2}(1-\cos\theta) \\
+& \hphantom{q^{2}}
+=4k^{2}\sin^{2}\frac{\theta}{2} \\
+& q=2k\sin\frac{\theta}{2}
+\end{aligned}
+$$
+{: .notice--primary}
+
+### Partial Wave / 部分波
+
+$$
+\begin{aligned}{}
 & f(\theta)
-= \frac{1}{2ik}
-\sum_{\ell=0}^{\infty}
-(2\ell+1)
-\left(e^{2i\delta_\ell}-1\right)
-P_\ell(\cos\theta) \\
+= \frac{1}{k}\sum_{\ell=0}^{\infty}
+(2\ell+1)e^{i\delta_{\ell}}\sin\delta_{\ell}
+P_{\ell}(\cos\theta) \\
 & \sigma_{\mathrm{tot}}
-= \frac{4\pi}{k}\operatorname{Im} f(0)
+= \frac{4\pi}{k^{2}}\sum_{\ell=0}^{\infty}
+(2\ell+1)\sin^{2}\delta_{\ell}
+= \frac{4\pi}{k}\operatorname{Im}f(0)
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& V(\mathbf{r})=V(r), \quad r\to\infty \\
+& x_{\ell}=kr-\frac{\ell\pi}{2}, \quad
+e^{ix_{\ell}}=e^{ikr}(-i)^{\ell} \\
+& e^{i\mathbf{k}\cdot\mathbf{r}}
+= \sum_{\ell=0}^{\infty}
+i^{\ell}(2\ell+1)j_{\ell}(kr)P_{\ell}(\cos\theta) \\
+& \hphantom{e^{i\mathbf{k}\cdot\mathbf{r}}}
+\approx \sum_{\ell=0}^{\infty}
+i^{\ell}(2\ell+1)\frac{1}{kr}
+\sin x_{\ell}P_{\ell}(\cos\theta) \\
+& \hphantom{e^{i\mathbf{k}\cdot\mathbf{r}}}
+= \sum_{\ell=0}^{\infty}
+i^{\ell}(2\ell+1)\frac{1}{2ikr}
+\left(e^{ix_{\ell}}-e^{-ix_{\ell}}\right)
+P_{\ell}(\cos\theta) \\
+& \psi_{k}^{(+)}
+\approx \sum_{\ell=0}^{\infty}
+i^{\ell}(2\ell+1)\frac{e^{i\delta_{\ell}}}{kr}
+\sin(x_{\ell}+\delta_{\ell})P_{\ell}(\cos\theta) \\
+& \hphantom{\psi_{k}^{(+)}}
+= \sum_{\ell=0}^{\infty}
+i^{\ell}(2\ell+1)\frac{1}{2ikr}
+\left(e^{2i\delta_{\ell}}e^{ix_{\ell}}-e^{-ix_{\ell}}\right)
+P_{\ell}(\cos\theta) \\
+& \psi_{\mathrm{sc}}
+= \psi_{k}^{(+)}-e^{i\mathbf{k}\cdot\mathbf{r}} \\
+& \hphantom{\psi_{\mathrm{sc}}}
+= \sum_{\ell=0}^{\infty}
+i^{\ell}(2\ell+1)\frac{1}{2ikr}
+e^{ix_{\ell}}\left(e^{2i\delta_{\ell}}-1\right)
+P_{\ell}(\cos\theta) \\
+& \hphantom{\psi_{\mathrm{sc}}}
+= \sum_{\ell=0}^{\infty}
+(2\ell+1)\frac{e^{ikr}}{kr}
+e^{i\delta_{\ell}}\sin\delta_{\ell}
+P_{\ell}(\cos\theta) \\
+& f(\theta)
+= \frac{1}{k}\sum_{\ell=0}^{\infty}
+(2\ell+1)e^{i\delta_{\ell}}\sin\delta_{\ell}
+P_{\ell}(\cos\theta) \\
+& \operatorname{Im}f(0)
+= \frac{1}{k}\sum_{\ell=0}^{\infty}
+(2\ell+1)\sin^{2}\delta_{\ell} \\
+& \sigma_{\mathrm{tot}}
+= \int |f(\theta)|^{2}\,d\Omega \\
+& \hphantom{\sigma_{\mathrm{tot}}}
+= \frac{1}{k^{2}}\sum_{\ell=0}^{\infty}
+(2\ell+1)^{2}\sin^{2}\delta_{\ell}
+\frac{4\pi}{2\ell+1} \\
+& \hphantom{\sigma_{\mathrm{tot}}}
+= \frac{4\pi}{k^{2}}\sum_{\ell=0}^{\infty}
+(2\ell+1)\sin^{2}\delta_{\ell} \\
+& \hphantom{\sigma_{\mathrm{tot}}}
+= \frac{4\pi}{k}\operatorname{Im}f(0)
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## Path Integral / 経路積分
