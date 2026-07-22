@@ -3313,9 +3313,8 @@ V(\mathbf{r}')\psi^{(+)}(\mathbf{r}')\,d^{3}r' \\
 $$
 {: .notice--primary}
 
-Sure, here it is with \approx instead of \simeq:
-
 ### Scattering Amplitude / 散乱振幅
+
 $$
 \begin{aligned}{}
 & \psi_{k}^{(+)}(\mathbf{r})
@@ -3329,6 +3328,7 @@ e^{-i\mathbf{k}'\cdot\mathbf{r}'}\,d^{3}r' \\
 \end{aligned}
 $$
 {: .notice--info}
+
 $$
 \begin{aligned}{}
 & r \gg r', \quad \mathbf{k}'=k\hat{\mathbf{r}} \\
