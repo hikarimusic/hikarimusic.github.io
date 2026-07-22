@@ -442,7 +442,7 @@ void push(ll v, ll tl, ll tr) {
     tree[v*2+2] += "lazy[v] or lazy[v]*(tr-tm)  "; // = for set
     lazy[v*2+1] += lazy[v]; // = for set
     lazy[v*2+2] += lazy[v]; // = for set
-    lazy[v] = 0; // INF for set;
+    lazy[v] = 0; // INF for set
 }
 
 void build(ll v, ll tl, ll tr) {
