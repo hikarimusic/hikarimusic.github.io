@@ -18,11 +18,11 @@ author_profile: true
 
 **National Taiwan University**, School of Medicine, 2020 – 2026
 
-**Taipei Municipal Jianguo High School**, Class of Science, 2017 – 2020
+**Taipei Municipal Chien Kuo High School**, Class of Science, 2017 – 2020
 
 ## Awards
 
-Overall School Rank 1, Taipei Municipal Jianguo High School
+Overall School Rank 1, Taipei Municipal Chien Kuo High School
 
 Silver Medal, 50th International Physics Olympiad
 
