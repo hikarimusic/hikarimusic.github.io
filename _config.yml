@@ -193,6 +193,9 @@ collections:
   temp:
     output: true
     permalink: /:collection/:path/
+  work:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -257,6 +260,16 @@ defaults:
   - scope:
       path: ""
       type: temp
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+      related: true
+  # _work
+  - scope:
+      path: ""
+      type: work
     values:
       layout: single
       author_profile: true

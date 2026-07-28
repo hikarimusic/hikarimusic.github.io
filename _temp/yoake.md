@@ -1,5 +1,5 @@
 ---
-title: '【オリジナル曲】夜明け・星になった君へ'
+title: '夜明け・星になった君へ'
 date: 2021-01-26
 permalink: /original/2021_01_26_yoake
 tags:
