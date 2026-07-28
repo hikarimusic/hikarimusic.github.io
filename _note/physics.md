@@ -3492,49 +3492,265 @@ $$
 {: .notice--primary}
 
 
-## Path Integral / 経路積分
-
-### Configuration Space / 座標空間
+### Configuration Space / 配置空間
 
 $$
 \begin{aligned}{}
-& U(x_f, t_f; x_i, t_i) = \int \mathcal{D}[x] e^{\frac{i}{\hbar}S[x]} \\
-& \int \mathcal{D}[x] = \lim_{N \to \infty} \left( \frac{m}{2\pi i \hbar \Delta t} \right)^{\frac{N}{2}} \prod_{j=1}^{N-1} dx_j \\
-& S[x] = \sum_{j=1}^{N} \left[ \frac{m}{2} \left( \frac{x_j - x_{j-1}}{\Delta t} \right)^2 - V(x_j) \right] \Delta t
+& K(x_f,t_f;x_i,t_i)=\int \mathcal{D}[x]\,
+e^{\frac{i}{\hbar}S[x]} \\
+& \mathcal{D}[x]
+= \lim_{N\to\infty}
+\left(\frac{m}{2\pi i\hbar\Delta t}\right)^{N/2}
+\prod_{j=1}^{N-1}dx_j \\
+& S[x]
+= \sum_{j=1}^{N}
+\left[
+\frac{m}{2}
+\left(\frac{x_j-x_{j-1}}{\Delta t}\right)^2
+- V(x_j)
+\right]\Delta t
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+&\hphantom{={}} K(x_f,t_f;x_i,t_i) \\
+&= \left\langle x_f\middle|
+e^{-\frac{i}{\hbar}\hat{H}(t_f-t_i)}
+\middle|x_i\right\rangle \\
+&= \int \prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}
+\left\langle x_j\middle|
+e^{-\frac{i}{\hbar}\hat{H}\Delta t}
+\middle|x_{j-1}\right\rangle \\
+&= \int \prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}
+\left\langle x_j\middle|
+e^{-\frac{i}{\hbar}\frac{\hat{p}^{2}}{2m}\Delta t}
+\middle|x_{j-1}\right\rangle
+e^{-\frac{i}{\hbar}V(x_j)\Delta t} \\
+&= \int \prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}
+\left(\frac{m}{2\pi i\hbar\Delta t}\right)^{1/2}
+\exp\left\{
+\frac{i}{\hbar}
+\left[
+\frac{m}{2}
+\left(\frac{x_j-x_{j-1}}{\Delta t}\right)^2
+- V(x_j)
+\right]\Delta t
+\right\} \\
+&= \int
+\left(\frac{m}{2\pi i\hbar\Delta t}\right)^{N/2}
+\prod_{j=1}^{N-1}dx_j
+\exp\left\{
+\frac{i}{\hbar}
+\sum_{j=1}^{N}
+\left[
+\frac{m}{2}
+\left(\frac{x_j-x_{j-1}}{\Delta t}\right)^2
+- V(x_j)
+\right]\Delta t
+\right\} \\
+&= \int \mathcal{D}[x]\,
+\exp\left\{\frac{i}{\hbar}S[x]\right\}
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Phase Space / 位相空間
 
 $$
 \begin{aligned}{}
-& U(x_f, t_f; x_i, t_i) = \int \mathcal{D}[x]\mathcal{D}[p] e^{\frac{i}{\hbar}S[x,p]} \\
-& \int \mathcal{D}[x]\mathcal{D}[p] = \lim_{N \to \infty} \left( \frac{1}{2\pi \hbar} \right)^N \prod_{j=1}^{N-1} dx_j \prod_{k=1}^N dp_k \\
-& S[x,p] = \sum_{j=1}^{N} \left[ p_j \left( \frac{x_j - x_{j-1}}{\Delta t} \right) - H(x_j, p_j) \right] \Delta t
+& K(x_f,t_f;x_i,t_i)
+= \int \mathcal{D}[x]\mathcal{D}[p]\,
+e^{\frac{i}{\hbar}S[x,p]} \\
+& \mathcal{D}[x]\mathcal{D}[p]
+= \lim_{N\to\infty}
+\left(\frac{1}{2\pi\hbar}\right)^N
+\prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}dp_j \\
+& S[x,p]
+= \sum_{j=1}^{N}
+\left[
+p_j\left(\frac{x_j-x_{j-1}}{\Delta t}\right)
+- H(x_j,p_j)
+\right]\Delta t
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+&\hphantom{={}} K(x_f,t_f;x_i,t_i) \\
+&= \left\langle x_f\middle|
+e^{-\frac{i}{\hbar}\hat{H}(t_f-t_i)}
+\middle|x_i\right\rangle \\
+&= \int \prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}
+\left\langle x_j\middle|
+e^{-\frac{i}{\hbar}\hat{H}\Delta t}
+\middle|x_{j-1}\right\rangle \\
+&= \int \prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}
+\int \frac{dp_j}{2\pi\hbar}
+\left\langle x_j\middle|p_j\right\rangle
+\left\langle p_j\middle|
+e^{-\frac{i}{\hbar}\hat{H}\Delta t}
+\middle|x_{j-1}\right\rangle \\
+&= \int \prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}
+\int \frac{dp_j}{2\pi\hbar}
+\left\langle x_j\middle|p_j\right\rangle
+e^{-\frac{i}{\hbar}H(x_j,p_j)\Delta t}
+\left\langle p_j\middle|x_{j-1}\right\rangle \\
+&= \int \prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}
+\int \frac{dp_j}{2\pi\hbar}
+\exp\left\{
+\frac{i}{\hbar}
+\left[
+p_j(x_j-x_{j-1})
+- H(x_j,p_j)\Delta t
+\right]
+\right\} \\
+&= \int
+\left(\frac{1}{2\pi\hbar}\right)^N
+\prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}dp_j
+\exp\left\{
+\frac{i}{\hbar}
+\sum_{j=1}^{N}
+\left[
+p_j\left(\frac{x_j-x_{j-1}}{\Delta t}\right)
+- H(x_j,p_j)
+\right]\Delta t
+\right\} \\
+&= \int \mathcal{D}[x]\mathcal{D}[p]\,
+\exp\left\{\frac{i}{\hbar}S[x,p]\right\}
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Free Particle / 自由粒子
 
 $$
 \begin{aligned}{}
-& S_{cl} = \frac{m(x_f - x_i)^2}{2T} \\
-& U(x_f, T; x_i, 0) = \sqrt{\frac{m}{2\pi i \hbar T}} \exp\left( \frac{i m (x_f - x_i)^2}{2 \hbar T} \right)
+& S[x_{\mathrm{cl}}]
+= \frac{m(x_f-x_i)^2}{2T} \\
+& K(x_f,T;x_i,0)
+= \sqrt{\frac{m}{2\pi i\hbar T}}\,
+\exp\left[
+\frac{i}{\hbar}
+\frac{m(x_f-x_i)^2}{2T}
+\right]
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& x_{\mathrm{cl}}(t)=A+Bt \\
+& x_{\mathrm{cl}}(0)=x_i,\quad A=x_i \\
+& x_{\mathrm{cl}}(T)=x_f,\quad B=\frac{x_f-x_i}{T} \\
+& x_{\mathrm{cl}}
+= \frac{x_i(T-t)+x_ft}{T} \\
+& \dot{x}_{\mathrm{cl}}
+= \frac{x_f-x_i}{T} \\
+& S[x_{\mathrm{cl}}]
+= \int_{0}^{T}\frac{m}{2}\dot{x}_{\mathrm{cl}}^{2}\,dt \\
+& \hphantom{S[x_{\mathrm{cl}}]}
+= \frac{m(x_f-x_i)^2}{2T} \\
+& S[x_{\mathrm{cl}}+\eta]
+= S[x_{\mathrm{cl}}]+\delta S[x_{\mathrm{cl}};\eta]+S[\eta] \\
+& \hphantom{S[x_{\mathrm{cl}}+\eta]}
+= S[x_{\mathrm{cl}}]+S[\eta] \\
+& K(x_f,T;x_i,0) = e^{\frac{i}{\hbar}S[x_{\mathrm{cl}}]}
+\int \mathcal{D}[\eta]\,
+e^{\frac{i}{\hbar}S[\eta]} \\
+& \hphantom{K(x_f,T;x_i,0)} = A(T)\exp\left[
+\frac{i}{\hbar}
+\frac{m(x_f-x_i)^2}{2T}
+\right]
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Harmonic Oscillator / 調和振動子
 
 $$
 \begin{aligned}{}
-& S_{cl} = \frac{m\omega}{2\sin(\omega T)} \left[ (x_i^2 + x_f^2)\cos(\omega T) - 2x_i x_f \right] \\
-& U(x_f, T; x_i, 0) = \sqrt{\frac{m\omega}{2\pi i \hbar \sin(\omega T)}} \exp\left( \frac{i m \omega}{2\hbar \sin(\omega T)} \left[ (x_i^2 + x_f^2)\cos(\omega T) - 2x_i x_f \right] \right)
+& S[x_{\mathrm{cl}}]
+= \frac{m\omega}{2\sin\omega T}
+\left[
+(x_f^2+x_i^2)\cos\omega T - 2x_ix_f
+\right] \\
+& K(x_f,T;x_i,0)
+= \sqrt{\frac{m\omega}{2\pi i\hbar\sin\omega T}}\,
+\exp\left\{
+\frac{i}{\hbar}
+\frac{m\omega}{2\sin\omega T}
+\left[
+(x_f^2+x_i^2)\cos\omega T - 2x_ix_f
+\right]
+\right\}
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& x_{\mathrm{cl}}(t)
+= A\cos\omega t+B\sin\omega t \\
+& x_{\mathrm{cl}}(0)=x_i,\quad A=x_i \\
+& x_{\mathrm{cl}}(T)=x_f,\quad
+B=\frac{x_f-x_i\cos\omega T}{\sin\omega T} \\
+& x_{\mathrm{cl}}
+= \frac{x_i\sin\omega(T-t)+x_f\sin\omega t}{\sin\omega T} \\
+& \dot{x}_{\mathrm{cl}}
+= \frac{-\omega x_i\cos\omega(T-t)+\omega x_f\cos\omega t}{\sin\omega T} \\
+& S[x_{\mathrm{cl}}]
+= \int_{0}^{T}
+\left[
+\frac{m}{2}\dot{x}_{\mathrm{cl}}^{2}
+-\frac{m\omega^{2}}{2}x_{\mathrm{cl}}^{2}
+\right]dt \\
+& \hphantom{S[x_{\mathrm{cl}}]}
+= \frac{m}{2}\int_{0}^{T}
+\left[
+\dot{x}_{\mathrm{cl}}^{2}
++x_{\mathrm{cl}}\ddot{x}_{\mathrm{cl}}
+\right]dt \\
+& \hphantom{S[x_{\mathrm{cl}}]}
+= \frac{m}{2}
+\left[
+x_f\dot{x}_{\mathrm{cl}}(T)
+-x_i\dot{x}_{\mathrm{cl}}(0)
+\right] \\
+& \hphantom{S[x_{\mathrm{cl}}]}
+= \frac{m\omega}{2\sin\omega T}
+\left[
+(x_f^2+x_i^2)\cos\omega T - 2x_ix_f
+\right] \\
+& S[x_{\mathrm{cl}}+\eta]
+= S[x_{\mathrm{cl}}]+\delta S[x_{\mathrm{cl}};\eta]+S[\eta] \\
+& \hphantom{S[x_{\mathrm{cl}}+\eta]}
+= S[x_{\mathrm{cl}}]+S[\eta] \\
+& K(x_f,T;x_i,0) = e^{\frac{i}{\hbar}S[x_{\mathrm{cl}}]}
+\int \mathcal{D}[\eta]\,
+e^{\frac{i}{\hbar}S[\eta]} \\
+& \hphantom{K(x_f,T;x_i,0)} = A(T)
+\exp\left\{
+\frac{i}{\hbar}
+\frac{m\omega}{2\sin\omega T}
+\left[
+(x_f^2+x_i^2)\cos\omega T - 2x_ix_f
+\right]
+\right\}
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## Identical Particle / 同種粒子
