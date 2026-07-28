@@ -1,5 +1,5 @@
 ---
-title: 'Physics 🍊⭐'
+title: 'Physics'
 date: 2023-01-02
 permalink: /note/physics
 tags:
@@ -11,7 +11,7 @@ Equations of Physics
 
 {% include toc %}
 
-# Classical Mechanics / 古典力学
+# 🍊 Classical Mechanics / 古典力学
 
 ## Newtonian Mechanics / Newton力学
 
@@ -1019,7 +1019,7 @@ d\tau &= \sqrt{dt^2 - \frac{dx^2 + dy^2 + dz^2}{c^2}} = dt \sqrt{1 - \frac{v^2}{
 $$
 {: .notice--primary}
 
-# Electromagnetism / 電磁気学
+# 🍊 Electromagnetism / 電磁気学
 
 ## Maxwell's Equation / Maxwell方程式
 
@@ -1751,7 +1751,7 @@ F^{12} &= B_z = (\nabla \times \mathbf{A})_z = \frac{\partial A_y}{\partial x} -
 $$
 {: .notice--primary}
 
-# Thermodynamics / 熱力学
+# 🍊 Thermodynamics / 熱力学
 
 ## First Law of Thermodynamics / 熱力学第一法則
 
@@ -2457,7 +2457,7 @@ $$
 {: .notice--primary}
 
 
-## Symmetry / 対称性
+## 🍊 Symmetry / 対称性
 
 ### Spatial Translational Symmetry / 空間並進対称性
 
@@ -2547,7 +2547,7 @@ $$
 {: .notice--primary}
 
 
-## Angular Momentum / 角運動量
+## 🍊 Angular Momentum / 角運動量
 
 ### Angular Momentum Operator / 角運動量演算子
 
@@ -2704,7 +2704,7 @@ $$
 {: .notice--primary}
 
 
-## 3D System / 三次元系
+## 🍊 3D System / 三次元系
 
 ### Central Potential / 中心力ポテンシャル
 
@@ -3492,7 +3492,7 @@ $$
 {: .notice--primary}
 
 
-## Path Integral / 経路積分
+## 🍊 Path Integral / 経路積分
 
 ### Configuration Space / 配置空間
 
@@ -3755,7 +3755,7 @@ $$
 {: .notice--primary}
 
 
-## Identical Particle / 同種粒子
+## 🍊 Identical Particle / 同種粒子
 
 ### Exchange Operator / 交換演算子
 
@@ -3807,7 +3807,7 @@ $$
 {: .notice--info}
 
 
-## Dirac Equation / Dirac方程式
+## 🍊 Dirac Equation / Dirac方程式
 
 ### Relativistic Wave Equation / 相対論的波動方程式
 

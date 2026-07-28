@@ -1,5 +1,5 @@
 ---
-title: 'Medicine 🍊⭐'
+title: 'Medicine'
 date: 2023-01-03
 permalink: /note/medicine
 tags:
@@ -11,7 +11,7 @@ Essences of Medicine
 
 {% include toc %}
 
-# Cardiology / 循環器科
+# 🍊 Cardiology / 循環器科
 
 ## Ischemic Heart Disease and Heart Failure / 虚血性心疾患・心不全
 
@@ -1415,7 +1415,7 @@ Essences of Medicine
 ### Malignant Hypertension / 悪性高血圧症
 ### Hypotension / 低血圧 -->
 
-# Pulmonology/ 呼吸器科
+# 🍊 Pulmonology/ 呼吸器科
 
 ## Infectious Disorder / 感染性疾患
 
@@ -2674,7 +2674,7 @@ Essences of Medicine
 ### Neurogenic Tumor / 神経原性腫瘍
 ### Germ Cell Tumor / 胚細胞腫瘍 -->
 
-# Gastroenterology / 消化器科
+# 🍊 Gastroenterology / 消化器科
 
 ## Esophagus Disorder / 食道疾患
 
@@ -4185,7 +4185,7 @@ Essences of Medicine
 ### Serous Cystic Neoplasm / 漿液性嚢胞腫瘍
 ### Pancreatic Neuroendocrine Neoplasm / 膵神経内分泌腫瘍 -->
 
-# Endocrinology / 内分泌科
+# 🍊 Endocrinology / 内分泌科
 
 ## Pituitary Gland Disorder / 下垂体疾患
 
@@ -5980,7 +5980,7 @@ Essences of Medicine
 ### Porphyria Cutanea Tarda / 晩発性皮膚ポルフィリン症
 ### Amyloidosis / アミロイドーシス -->
 
-# Nephrology / 腎臓科
+# 🍊 Nephrology / 腎臓科
 
 ## Electrolyte Disorder / 電解質の異常
 
@@ -6354,7 +6354,7 @@ Essences of Medicine
 ### Dialysis Amyloidosis / 透析アミロイドーシス
 ### Renal Anemia / 腎性貧血 -->
 
-# Hematology / 血液科
+# 🍊 Hematology / 血液科
 
 ## Hemostasis Disorder (Primary) / 止血の異常（一次）
 
@@ -6593,7 +6593,7 @@ Essences of Medicine
 ### Disseminated Intravascular Coagulation / 播種性血管内凝固
 ### Vitamin K Deficiency / ビタミンK欠乏症 -->
 
-# Rheumatology / リウマチ科
+# 🍊 Rheumatology / リウマチ科
 
 ## Immunodeficiency / 免疫不全
 
@@ -6778,7 +6778,7 @@ of urate
 ### Eosinophilic Granulomatosis with Polyangiitis / 好酸球性多発血管炎性肉芽腫症
 ### IgA Vasculitis / IgA血管炎 -->
 
-# Infectious Diseases / 感染症科
+# 🍊 Infectious Diseases / 感染症科
 
 ## Gram-Positive Bacteria Infection / グラム陽性菌感染症
 
@@ -7163,7 +7163,7 @@ of urate
 
 -->
 
-# Neurology / 神経科
+# 🍊 Neurology / 神経科
 
 ## Cerebrovascular Disorder / 脳血管障害
 
@@ -9736,7 +9736,7 @@ More common in middle age women (autoimmune)
 ### Spinal Cord Injury / 脊髄損傷
 ### Normal Pressure Hydrocephalus / 正常圧水頭症 -->
 
-# Psychiatry / 精神科
+# 🍊 Psychiatry / 精神科
 
 ## Schizophrenia / 統合失調症
 
@@ -9781,7 +9781,7 @@ More common in middle age women (autoimmune)
 
 ## Substance Related Disorder / 物質関連障害
 
-# Ophthalmology / 眼科
+# 🍊 Ophthalmology / 眼科
 
 ## Functional Disorder / 機能障害
 
@@ -10566,7 +10566,7 @@ More common in middle age women (autoimmune)
   * [CT] Optic nerve compression
 {: .notice--info}
 
-# Otolaryngology / 耳鼻咽喉科
+# 🍊 Otolaryngology / 耳鼻咽喉科
 
 ## External and Middle Ear Disorder / 外耳・中耳疾患
 
@@ -10599,7 +10599,7 @@ More common in middle age women (autoimmune)
   * **Nerve**: External laryngeal nerve (CN X, cricothyroideus), internal laryngeal nerve (CN X, sensation above vocal fold), recurrent laryngeal nerve (CN X, other muscle, left loop aoric arch, right loop subclavian artery)
 {: .notice--info} -->
 
-# Dermatology / 皮膚科
+# 🍊 Dermatology / 皮膚科
 
 ## Pigmentation Disorder / 色素疾患
 
@@ -11759,7 +11759,7 @@ More common in middle age women (autoimmune)
 ### Ingrown Nail / 陥入爪
 -->
 
-# Orthopedic Surgery / 整形外科
+# 🍊 Orthopedic Surgery / 整形外科
 
 ## Upper Limb Disorder / 上肢疾患
 
@@ -11779,7 +11779,7 @@ More common in middle age women (autoimmune)
 
 ## Bone Tumor / 骨腫瘍
 
-# Urology / 泌尿器科
+# 🍊 Urology / 泌尿器科
 
 ## Urinary Tract Infection and Stone / 尿路感染症・結石
 
@@ -11858,7 +11858,7 @@ More common in middle age women (autoimmune)
 ### Priapism / 持続勃起症
 ### Male Infertility / 男性不妊症 -->
 
-# Gynecology / 婦人科
+# 🍊 Gynecology / 婦人科
 
 ## Vulva Disorder / 外陰疾患
 
@@ -12650,7 +12650,7 @@ More common in middle age women (autoimmune)
 {: .notice--info}
 
 
-# Obstetrics / 産科
+# 🍊 Obstetrics / 産科
 
 ## Abnormal Early Pregnancy / 妊娠初期の異常
 
@@ -13163,7 +13163,7 @@ More common in middle age women (autoimmune)
   * Chemotherapy (etoposide, methotrexate, dactinomycin, cyclophosphamide, vincristine): Good respond
 {: .notice--info}
 
-# Pediatrics / 小児科
+# 🍊 Pediatrics / 小児科
 
 ## Neonate Disorder / 新生児疾患
 
