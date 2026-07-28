@@ -3492,6 +3492,8 @@ $$
 {: .notice--primary}
 
 
+## Path Integral / 経路積分
+
 ### Configuration Space / 配置空間
 
 $$
