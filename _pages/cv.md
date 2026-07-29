@@ -22,7 +22,6 @@ author_profile: true
 
 ## Awards
 
-Overall School Rank 1, Taipei Municipal Chien Kuo High School
+School Rank 1, Taipei Municipal Chien Kuo High School (Overall Grade)
 
 Silver Medal, 50th International Physics Olympiad
-
