@@ -3974,42 +3974,62 @@ $$
 
 $$
 \begin{aligned}{}
-& \hat{H}^2 = \hat{p}^{\,2}c^2 + m^2c^4 \\
-& \left(\frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2c^2}{\hbar^2}\right)\psi = 0 \\
-& \hat{H} = c\boldsymbol{\alpha}\cdot\hat{\mathbf{p}} + \beta mc^2 \\
-& \left(i\hbar\gamma^\mu\partial_\mu - mc\right)\psi = 0
+& \hat{H}^{2} = \hat{\mathbf{p}}^{2}c^{2}+m^{2}c^{4} \\
+& \left(\partial_{\mu}\partial^{\mu}+\frac{m^{2}c^{2}}{\hbar^{2}}\right)\psi=0 \\
+& \hat{H}=c\boldsymbol{\alpha}\cdot\hat{\mathbf{p}}+\beta mc^{2} \\
+& \left(i\hbar\gamma^{\mu}\partial_{\mu}-mc\right)\psi=0
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \hat{H}=i\hbar\frac{\partial}{\partial t}, \quad
+\hat{\mathbf{p}}=-i\hbar\nabla \\
+& \hat{H}^{2}\psi=\hat{\mathbf{p}}^{2}c^{2}\psi+m^{2}c^{4}\psi \\
+& \left(i\hbar\frac{\partial}{\partial t}\right)^{2}\psi
+= c^{2}\left(-i\hbar\nabla\right)^{2}\psi+m^{2}c^{4}\psi \\
+& \frac{1}{c^{2}}\frac{\partial^{2}\psi}{\partial t^{2}}
+-\nabla^{2}\psi+\frac{m^{2}c^{2}}{\hbar^{2}}\psi=0 \\
+& \left(\partial_{\mu}\partial^{\mu}+\frac{m^{2}c^{2}}{\hbar^{2}}\right)\psi=0 \\
+& \hat{H}\psi=c\boldsymbol{\alpha}\cdot\hat{\mathbf{p}}\psi+\beta mc^{2}\psi \\
+& i\hbar\frac{\partial\psi}{\partial t}
+=-i\hbar c\boldsymbol{\alpha}\cdot\nabla\psi+\beta mc^{2}\psi \\
+& i\hbar\beta\frac{1}{c}\frac{\partial\psi}{\partial t}
++i\hbar\beta\boldsymbol{\alpha}\cdot\nabla\psi-\beta^{2}mc\psi=0 \\
+& \gamma^{0}=\beta,\quad \gamma^{i}=\beta\alpha^{i},\quad \beta^{2}=I \\
+& \left(i\hbar\gamma^{\mu}\partial_{\mu}-mc\right)\psi=0
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Dirac Representation / Dirac表示
 
 $$
 \begin{aligned}{}
-& \{\gamma^\mu,\gamma^\nu\} = 2g^{\mu\nu}\mathbb{I}, \quad \gamma^0 =
+& \{\gamma^{\mu},\gamma^{\nu}\}=2g^{\mu\nu}I, \quad
+g^{\mu\nu}=\operatorname{diag}(1,-1,-1,-1) \\
+& \gamma^{0}=
 \begin{pmatrix}
-\mathbb{I} & 0 \\
-0 & -\mathbb{I}
-\end{pmatrix}
-,\quad
-\gamma^i =
+I & 0 \\
+0 & -I
+\end{pmatrix}, \quad
+\gamma^{i}=
 \begin{pmatrix}
-0 & \sigma^i \\
--\sigma^i & 0
+0 & \sigma^{i} \\
+-\sigma^{i} & 0
 \end{pmatrix} \\
-& \sigma_x =
+& \sigma_{x}=
 \begin{pmatrix}
 0 & 1 \\
 1 & 0
-\end{pmatrix}
-,\quad
-\sigma_y =
+\end{pmatrix}, \quad
+\sigma_{y}=
 \begin{pmatrix}
 0 & -i \\
 i & 0
-\end{pmatrix}
-,\quad
-\sigma_z =
+\end{pmatrix}, \quad
+\sigma_{z}=
 \begin{pmatrix}
 1 & 0 \\
 0 & -1
@@ -4018,59 +4038,289 @@ i & 0
 $$
 {: .notice--info}
 
+$$
+\begin{aligned}{}
+& \hat{H}=c\alpha^{i}\hat{p}_{i}+\beta mc^{2} \\
+& \hat{H}^{2}
+= c^{2}\alpha^{i}\alpha^{j}\hat{p}_{i}\hat{p}_{j}
++mc^{3}(\alpha^{i}\beta+\beta\alpha^{i})\hat{p}_{i}
++\beta^{2}m^{2}c^{4} \\
+& \hphantom{\hat{H}^{2}}
+= \hat{\mathbf{p}}^{2}c^{2}+m^{2}c^{4} \\
+& \alpha^{i}\alpha^{j}+\alpha^{j}\alpha^{i}=2\delta^{ij}I \\
+& \alpha^{i}\beta+\beta\alpha^{i}=0 \\
+& \beta^{2}=I \\
+& \gamma^{0}\gamma^{0}+\gamma^{0}\gamma^{0}
+=\beta^{2}+\beta^{2} \\
+& \hphantom{\gamma^{0}\gamma^{0}+\gamma^{0}\gamma^{0}}
+=2I \\
+& \gamma^{0}\gamma^{i}+\gamma^{i}\gamma^{0}
+=\beta(\beta\alpha^{i})+(\beta\alpha^{i})\beta \\
+& \hphantom{\gamma^{0}\gamma^{i}+\gamma^{i}\gamma^{0}}
+=\beta^{2}\alpha^{i}-\beta^{2}\alpha^{i} \\
+& \hphantom{\gamma^{0}\gamma^{i}+\gamma^{i}\gamma^{0}}
+=0 \\
+& \gamma^{i}\gamma^{j}+\gamma^{j}\gamma^{i}
+=(\beta\alpha^{i})(\beta\alpha^{j})+(\beta\alpha^{j})(\beta\alpha^{i}) \\
+& \hphantom{\gamma^{i}\gamma^{j}+\gamma^{j}\gamma^{i}}
+=-\beta^{2}\alpha^{i}\alpha^{j}-\beta^{2}\alpha^{j}\alpha^{i} \\
+& \hphantom{\gamma^{i}\gamma^{j}+\gamma^{j}\gamma^{i}}
+=-2\delta^{ij}I \\
+& \{\sigma_{i},\sigma_{j}\}=2\delta_{ij}I_{2} \\
+& \alpha^{i}=
+\begin{pmatrix}
+0 & \sigma^{i} \\
+\sigma^{i} & 0
+\end{pmatrix}, \quad
+\beta=
+\begin{pmatrix}
+I_{2} & 0 \\
+0 & -I_{2}
+\end{pmatrix} \\
+& \gamma^{0}=
+\begin{pmatrix}
+I_{2} & 0 \\
+0 & -I_{2}
+\end{pmatrix}, \quad
+\gamma^{i}=
+\begin{pmatrix}
+0 & \sigma^{i} \\
+-\sigma^{i} & 0
+\end{pmatrix} \\
+& \gamma^{0}\gamma^{0}
+=
+\begin{pmatrix}
+I_{2} & 0 \\
+0 & -I_{2}
+\end{pmatrix}
+\begin{pmatrix}
+I_{2} & 0 \\
+0 & -I_{2}
+\end{pmatrix}
+=I_{4} \\
+& \gamma^{0}\gamma^{i}
+=
+\begin{pmatrix}
+I_{2} & 0 \\
+0 & -I_{2}
+\end{pmatrix}
+\begin{pmatrix}
+0 & \sigma^{i} \\
+-\sigma^{i} & 0
+\end{pmatrix}
+=
+\begin{pmatrix}
+0 & \sigma^{i} \\
+\sigma^{i} & 0
+\end{pmatrix} \\
+& \gamma^{i}\gamma^{0}
+=
+\begin{pmatrix}
+0 & \sigma^{i} \\
+-\sigma^{i} & 0
+\end{pmatrix}
+\begin{pmatrix}
+I_{2} & 0 \\
+0 & -I_{2}
+\end{pmatrix}
+=
+\begin{pmatrix}
+0 & -\sigma^{i} \\
+-\sigma^{i} & 0
+\end{pmatrix} \\
+& \gamma^{i}\gamma^{j}
+=
+\begin{pmatrix}
+0 & \sigma^{i} \\
+-\sigma^{i} & 0
+\end{pmatrix}
+\begin{pmatrix}
+0 & \sigma^{j} \\
+-\sigma^{j} & 0
+\end{pmatrix}
+=
+\begin{pmatrix}
+-\sigma^{i}\sigma^{j} & 0 \\
+0 & -\sigma^{i}\sigma^{j}
+\end{pmatrix} \\
+& \{\gamma^{0},\gamma^{0}\}=2I_{4} \\
+& \{\gamma^{0},\gamma^{i}\}=0 \\
+& \{\gamma^{i},\gamma^{j}\}
+=
+\begin{pmatrix}
+-\{\sigma_{i},\sigma_{j}\} & 0 \\
+0 & -\{\sigma_{i},\sigma_{j}\}
+\end{pmatrix} \\
+& \hphantom{\{\gamma^{i},\gamma^{j}\}}
+=-2\delta_{ij}I_{4}
+\end{aligned}
+$$
+{: .notice--primary}
+
 ### Plane Wave Solution / 平面波解
 
 $$
 \begin{aligned}{}
-& \psi(x) = u(p)e^{-\frac{i}{\hbar}p_\mu x^\mu},
-&& \psi(x) = v(p)e^{\frac{i}{\hbar}p_\mu x^\mu} \\
-& u(p) =
+& \psi_{+}(x)=u(p)e^{-\frac{i}{\hbar}p_{\mu}x^{\mu}}, &&
+\psi_{-}(x)=v(p)e^{-\frac{i}{\hbar}p_{\mu}x^{\mu}} \\
+& u(p)=
 \begin{pmatrix}
-\chi^s \\
-\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\chi^s
-\end{pmatrix},
-&& v(p) =
+\chi^{s} \\
+\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{|E|+mc^{2}}\chi^{s}
+\end{pmatrix}, &&
+v(p)=
 \begin{pmatrix}
-\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\eta^s \\
-\eta^s
+-\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{|E|+mc^{2}}\eta^{s} \\
+\eta^{s}
 \end{pmatrix} \\
-& E = \sqrt{p^2c^2 + m^2c^4},
-&& -E = -\sqrt{p^2c^2 + m^2c^4}
+& E_{+}=\sqrt{|\mathbf{p}|^{2}c^{2}+m^{2}c^{4}}, &&
+E_{-}=-\sqrt{|\mathbf{p}|^{2}c^{2}+m^{2}c^{4}}
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& p^{\mu}=\left(\frac{E}{c},\mathbf{p}\right), \quad
+p_{\mu}=\left(\frac{E}{c},-\mathbf{p}\right) \\
+& \psi(x)=w(p)e^{-\frac{i}{\hbar}p_{\mu}x^{\mu}}, \quad
+w(p)=
+\begin{pmatrix}
+\phi \\
+\zeta
+\end{pmatrix} \\
+& \left(c\boldsymbol{\alpha}\cdot\hat{\mathbf{p}}+\beta mc^{2}\right)\psi
+= i\hbar\frac{\partial\psi}{\partial t} \\
+& \left(c\boldsymbol{\alpha}\cdot\mathbf{p}+\beta mc^{2}\right)w
+= Ew \\
+& 
+\begin{pmatrix}
+mc^{2} & c\boldsymbol{\sigma}\cdot\mathbf{p} \\
+c\boldsymbol{\sigma}\cdot\mathbf{p} & -mc^{2}
+\end{pmatrix}
+\begin{pmatrix}
+\phi \\
+\zeta
+\end{pmatrix}
+=
+E
+\begin{pmatrix}
+\phi \\
+\zeta
+\end{pmatrix} \\
+& c(\boldsymbol{\sigma}\cdot\mathbf{p})\zeta=(E-mc^{2})\phi \\
+& c(\boldsymbol{\sigma}\cdot\mathbf{p})\phi=(E+mc^{2})\zeta \\
+& c(\boldsymbol{\sigma}\cdot\mathbf{p})c(\boldsymbol{\sigma}\cdot\mathbf{p})\phi
+=(E+mc^{2})(E-mc^{2})\phi \\
+& c^{2}|\mathbf{p}|^{2}\phi=(E^{2}-m^{2}c^{4})\phi \\
+& E^{2}=|\mathbf{p}|^{2}c^{2}+m^{2}c^{4} \\
+& E_{+}=\sqrt{|\mathbf{p}|^{2}c^{2}+m^{2}c^{4}} \\
+& \phi=\chi^{s} \\
+& \zeta=\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{|E|+mc^{2}}\chi^{s} \\
+& E_{-}=-\sqrt{|\mathbf{p}|^{2}c^{2}+m^{2}c^{4}} \\
+& \zeta=\eta^{s} \\
+& \phi=-\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{|E|+mc^{2}}\eta^{s}
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Non-Relativistic Limit / 非相対論的極限
 
 $$
 \begin{aligned}{}
-& \psi = e^{-\frac{i}{\hbar}mc^2t}
+& \psi(x)=e^{-\frac{i}{\hbar}mc^{2}t}
 \begin{pmatrix}
-\varphi \\
-\chi
+\varphi(x) \\
+\eta(x)
 \end{pmatrix} \\
-& \chi \approx
-\frac{\boldsymbol{\sigma}\cdot(\hat{\mathbf{p}}-q\mathbf{A})}{2mc}\varphi \\
+& \eta \approx \frac{\boldsymbol{\sigma}\cdot(\hat{\mathbf{p}}-q\mathbf{A})}{2mc}\varphi \\
 & i\hbar\frac{\partial\varphi}{\partial t}
 =
 \left[
-\frac{(\hat{\mathbf{p}}-q\mathbf{A})^2}{2m}
-+ q\Phi
+\frac{(\hat{\mathbf{p}}-q\mathbf{A})^{2}}{2m}
++q\Phi
 -\frac{q\hbar}{2m}\boldsymbol{\sigma}\cdot\mathbf{B}
 \right]\varphi
 \end{aligned}
 $$
 {: .notice--info}
 
-### Conserved Current / 保存カレント
-
 $$
 \begin{aligned}{}
-& j^\mu = c\psi^\dagger\gamma^0\gamma^\mu\psi \\
-& \partial_\mu j^\mu = 0
+& \boldsymbol{\pi}=\hat{\mathbf{p}}-q\mathbf{A} \\
+& i\hbar\frac{\partial\psi}{\partial t}
+=
+\left[
+c\boldsymbol{\alpha}\cdot\boldsymbol{\pi}
++\beta mc^{2}
++q\Phi
+\right]\psi \\
+& \psi(x)=e^{-\frac{i}{\hbar}mc^{2}t}
+\begin{pmatrix}
+\varphi(x) \\
+\eta(x)
+\end{pmatrix} \\
+& i\hbar\frac{\partial\psi}{\partial t}
+=
+e^{-\frac{i}{\hbar}mc^{2}t}
+\left[
+mc^{2}
+\begin{pmatrix}
+\varphi \\
+\eta
+\end{pmatrix}
++i\hbar\frac{\partial}{\partial t}
+\begin{pmatrix}
+\varphi \\
+\eta
+\end{pmatrix}
+\right] \\
+& \hphantom{i\hbar\frac{\partial\psi}{\partial t}}
+=
+e^{-\frac{i}{\hbar}mc^{2}t}
+\begin{pmatrix}
+mc^{2}+q\Phi & c\boldsymbol{\sigma}\cdot\boldsymbol{\pi} \\
+c\boldsymbol{\sigma}\cdot\boldsymbol{\pi} & -mc^{2}+q\Phi
+\end{pmatrix}
+\begin{pmatrix}
+\varphi \\
+\eta
+\end{pmatrix} \\
+& mc^{2}\eta+i\hbar\frac{\partial\eta}{\partial t}
+=
+c\boldsymbol{\sigma}\cdot\boldsymbol{\pi}\varphi
+-mc^{2}\eta+q\Phi\eta \\
+& \left(2mc^{2}-q\Phi+i\hbar\frac{\partial}{\partial t}\right)\eta
+=
+c\boldsymbol{\sigma}\cdot\boldsymbol{\pi}\varphi \\
+& \eta \approx \frac{\boldsymbol{\sigma}\cdot\boldsymbol{\pi}}{2mc}\varphi \\
+& mc^{2}\varphi+i\hbar\frac{\partial\varphi}{\partial t}
+=
+mc^{2}\varphi+q\Phi\varphi+c\boldsymbol{\sigma}\cdot\boldsymbol{\pi}\eta \\
+& i\hbar\frac{\partial\varphi}{\partial t}
+=
+c(\boldsymbol{\sigma}\cdot\boldsymbol{\pi})\eta+q\Phi\varphi \\
+& \hphantom{i\hbar\frac{\partial\varphi}{\partial t}}
+\approx
+\left[
+\frac{(\boldsymbol{\sigma}\cdot\boldsymbol{\pi})^{2}}{2m}
++q\Phi
+\right]\varphi \\
+& \left[\boldsymbol{\sigma}\cdot(\hat{\mathbf{p}}-q\mathbf{A})\right]^{2}
+=
+(\hat{\mathbf{p}}-q\mathbf{A})^{2}
+-q\hbar\boldsymbol{\sigma}\cdot\mathbf{B} \\
+& i\hbar\frac{\partial\varphi}{\partial t}
+=
+\left[
+\frac{(\hat{\mathbf{p}}-q\mathbf{A})^{2}}{2m}
+-\frac{q\hbar}{2m}\boldsymbol{\sigma}\cdot\mathbf{B}
++q\Phi
+\right]\varphi
 \end{aligned}
 $$
-{: .notice--info}
+{: .notice--primary}
+
 
 <!-- # Physical Mathematics / 物理数学
 
