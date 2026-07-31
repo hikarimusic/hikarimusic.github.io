@@ -19,8 +19,8 @@ tags:
 ## About
 
 * ボーカル：AIきりたん
-* 作曲・作詞・編曲：Hikari
-* イラスト・動画：Hikari
+* 作曲・作詞・編曲：HiKARi
+* イラスト・動画：HiKARi
 
 ## 歌詞
 

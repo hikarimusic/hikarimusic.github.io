@@ -2547,7 +2547,7 @@ $$
 {: .notice--primary}
 
 
-## 🍊 Angular Momentum / 角運動量
+## Angular Momentum / 角運動量
 
 ### Angular Momentum Operator / 角運動量演算子
 

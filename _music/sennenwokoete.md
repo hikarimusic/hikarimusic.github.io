@@ -16,10 +16,9 @@ tags:
 
 ## About
 
-* 歌：No.7
+* 歌：No.7（NEUTRINO）
 * 作曲：HiKARi
 * 作詞：HiKARi
-* イラスト：DALL-E
 
 ## 歌詞
 
