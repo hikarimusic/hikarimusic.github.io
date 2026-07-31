@@ -2457,7 +2457,7 @@ $$
 {: .notice--primary}
 
 
-## 🍊 Symmetry / 対称性
+## Symmetry / 対称性
 
 ### Spatial Translational Symmetry / 空間並進対称性
 
@@ -3492,7 +3492,7 @@ $$
 {: .notice--primary}
 
 
-## 🍊 Path Integral / 経路積分
+## Path Integral / 経路積分
 
 ### Configuration Space / 配置空間
 
@@ -3761,50 +3761,211 @@ $$
 
 $$
 \begin{aligned}{}
-& \hat{P}_{ij} (\dots |w_i\rangle \dots |w_j\rangle \dots) = (\dots |w_j\rangle \dots |w_i\rangle \dots) \\
+& \hat{P}_{ij}(\cdots |w_i\rangle \cdots |w_j\rangle \cdots)
+= (\cdots |w_j\rangle \cdots |w_i\rangle \cdots) \\
 & \begin{aligned}{}
-  & \text{Boson:} && \hat{P}_{ij} |\psi\rangle = |\psi\rangle \\
-  & \text{Fermion:} && \hat{P}_{ij} |\psi\rangle = -|\psi\rangle \\
-  & && w_i = w_j \rightarrow |\psi\rangle = 0
+    & \text{Boson:}  && \hat{P}_{ij}|\psi\rangle = |\psi\rangle \\
+    & \text{Fermion:} && \hat{P}_{ij}|\psi\rangle = -|\psi\rangle \\
+    & \hphantom{\text{Fermion:}{}} && w_i=w_j \rightarrow |\psi\rangle = 0
   \end{aligned}
 \end{aligned}
 $$
 {: .notice--info}
 
+$$
+\begin{aligned}{}
+& \hat{P}_{ij}|\psi\rangle = \lambda|\psi\rangle,
+\quad \hat{P}_{ij}^{2}|\psi\rangle = \lambda^{2}|\psi\rangle \\
+& \hat{P}_{ij}^{2}=I,\quad \lambda^{2}=1,\quad \lambda=\pm1 \\
+& \begin{aligned}{}
+    & \text{Boson:}  && \lambda=1,\quad \hat{P}_{ij}|\psi\rangle = |\psi\rangle \\
+    & \text{Fermion:} && \lambda=-1,\quad \hat{P}_{ij}|\psi\rangle = -|\psi\rangle \\
+    & \hphantom{\text{Fermion:}{}} && w_i=w_j,\quad \hat{P}_{ij}|\psi\rangle = |\psi\rangle = -|\psi\rangle,
+\quad |\psi\rangle = 0
+  \end{aligned}
+\end{aligned}
+$$
+{: .notice--primary}
+
 ### First Quantization / 第一量子化
 
 $$
 \begin{aligned}{}
-& \text{Boson:}   && |w_1 \le w_2 \le \dots \le w_N\rangle = \frac{1}{\sqrt{N! \prod_\alpha n_\alpha!}} \sum_{\sigma \in S_N} |w_{\sigma(1)}\rangle |w_{\sigma(2)}\rangle \dots |w_{\sigma(N)}\rangle \\
-& \text{Fermion:} && |w_1 < w_2 < \dots < w_N\rangle = \frac{1}{\sqrt{N!}} \sum_{\sigma \in S_N} \text{sgn}(\sigma) |w_{\sigma(1)}\rangle |w_{\sigma(2)}\rangle \dots |w_{\sigma(N)}\rangle
+& \text{Boson:} && |w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{\sqrt{N!\prod_{\alpha}n_{\alpha}!}}
+\sum_{\sigma\in S_N}
+|w_{\sigma(1)}\rangle|w_{\sigma(2)}\rangle\cdots|w_{\sigma(N)}\rangle \\
+& \text{Fermion:} && |w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{\sqrt{N!}}
+\sum_{\sigma\in S_N}\operatorname{sgn}(\sigma)
+|w_{\sigma(1)}\rangle|w_{\sigma(2)}\rangle\cdots|w_{\sigma(N)}\rangle
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \hat{P}_{\sigma}|w_1\rangle|w_2\rangle\cdots|w_N\rangle
+= |w_{\sigma(1)}\rangle|w_{\sigma(2)}\rangle\cdots|w_{\sigma(N)}\rangle \\
+& \text{Boson:} \\
+& |w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{\sqrt{N!\prod_{\alpha}n_{\alpha}!}}
+\sum_{\sigma\in S_N}\hat{P}_{\sigma}
+|w_1\rangle|w_2\rangle\cdots|w_N\rangle \\
+& \hat{P}_{\tau}|w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{\sqrt{N!\prod_{\alpha}n_{\alpha}!}}
+\sum_{\sigma\in S_N}\hat{P}_{\tau}\hat{P}_{\sigma}
+|w_1\rangle|w_2\rangle\cdots|w_N\rangle \\
+& \hphantom{\hat{P}_{\tau}|w_1,w_2,\ldots,w_N\rangle {}}
+= \frac{1}{\sqrt{N!\prod_{\alpha}n_{\alpha}!}}
+\sum_{\rho\in S_N}\hat{P}_{\rho}
+|w_1\rangle|w_2\rangle\cdots|w_N\rangle \\
+& \hphantom{\hat{P}_{\tau}|w_1,w_2,\ldots,w_N\rangle {}}
+= |w_1,w_2,\ldots,w_N\rangle \\
+& \langle w_1,w_2,\ldots,w_N|w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{N!\prod_{\alpha}n_{\alpha}!}
+N!\prod_{\alpha}n_{\alpha}! \\
+& \hphantom{\langle w_1,w_2,\ldots,w_N|w_1,w_2,\ldots,w_N\rangle {}}
+= 1 \\
+& \text{Fermion:} \\
+& |w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{\sqrt{N!}}\sum_{\sigma\in S_N}
+\operatorname{sgn}(\sigma)\hat{P}_{\sigma}
+|w_1\rangle|w_2\rangle\cdots|w_N\rangle \\
+& \hat{P}_{\tau}|w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{\sqrt{N!}}\sum_{\sigma\in S_N}
+\operatorname{sgn}(\sigma)\hat{P}_{\tau}\hat{P}_{\sigma}
+|w_1\rangle|w_2\rangle\cdots|w_N\rangle \\
+& \hphantom{\hat{P}_{\tau}|w_1,w_2,\ldots,w_N\rangle {}}
+= \frac{1}{\sqrt{N!}}\sum_{\rho\in S_N}
+\operatorname{sgn}(\tau^{-1}\rho)
+\hat{P}_{\rho}|w_1\rangle|w_2\rangle\cdots|w_N\rangle \\
+& \hphantom{\hat{P}_{\tau}|w_1,w_2,\ldots,w_N\rangle {}}
+= \operatorname{sgn}(\tau)\frac{1}{\sqrt{N!}}\sum_{\rho\in S_N}
+\operatorname{sgn}(\rho)\hat{P}_{\rho}
+|w_1\rangle|w_2\rangle\cdots|w_N\rangle \\
+& \hphantom{\hat{P}_{\tau}|w_1,w_2,\ldots,w_N\rangle {}}
+= \operatorname{sgn}(\tau)|w_1,w_2,\ldots,w_N\rangle \\
+& \langle w_1,w_2,\ldots,w_N|w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{N!}N! \\
+& \hphantom{\langle w_1,w_2,\ldots,w_N|w_1,w_2,\ldots,w_N\rangle {}}
+= 1
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Creation & Annihilation Operator / 生成・消滅演算子
 
 $$
 \begin{aligned}{}
-& \text{Boson:}   && a_\alpha^\dagger |\dots, n_\alpha, \dots\rangle = \sqrt{n_\alpha + 1} |\dots, n_\alpha + 1, \dots\rangle \\
-&                 && a_\alpha |\dots, n_\alpha, \dots\rangle = \sqrt{n_\alpha} |\dots, n_\alpha - 1, \dots\rangle \\
-&                 && [a_\alpha, a_\beta^\dagger] = \delta_{\alpha\beta} \quad [a_\alpha^\dagger, a_\beta^\dagger] = 0 \\
-& \text{Fermion:} && a_\alpha^\dagger |\dots, n_\alpha, \dots\rangle = (-1)^{\sum_{\beta < \alpha} n_\beta} (1 - n_\alpha) |\dots, 1, \dots\rangle \\
-&                 && a_\alpha |\dots, n_\alpha, \dots\rangle = (-1)^{\sum_{\beta < \alpha} n_\beta} n_\alpha |\dots, 0, \dots\rangle \\
-&                 && \{a_\alpha, a_\beta^\dagger\} = \delta_{\alpha\beta} \quad \{a_\alpha^\dagger, a_\beta^\dagger\} = 0 \\
-&                 && (a_\alpha^\dagger)^2 = 0
+& \text{Boson:} && a_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots\rangle
+= \sqrt{n_{\alpha}+1}\,|\ldots,n_{\alpha}+1,\ldots\rangle \\
+& && a_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
+= \sqrt{n_{\alpha}}\,|\ldots,n_{\alpha}-1,\ldots\rangle \\
+& && [a_{\alpha},a_{\beta}^{\dagger}]
+= \delta_{\alpha\beta},\quad
+[a_{\alpha}^{\dagger},a_{\beta}^{\dagger}]=0 \\
+& \text{Fermion:} && c_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots\rangle
+= (-1)^{\sum_{\beta<\alpha}n_{\beta}}(1-n_{\alpha})
+|\ldots,1,\ldots\rangle \\
+& && c_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
+= (-1)^{\sum_{\beta<\alpha}n_{\beta}}n_{\alpha}
+|\ldots,0,\ldots\rangle \\
+& && \{c_{\alpha},c_{\beta}^{\dagger}\}
+= \delta_{\alpha\beta},\quad
+\{c_{\alpha}^{\dagger},c_{\beta}^{\dagger}\}=0,\quad
+(c_{\alpha}^{\dagger})^{2}=0
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \text{Boson:} \\
+& a_{\alpha}a_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots\rangle
+= (n_{\alpha}+1)|\ldots,n_{\alpha},\ldots\rangle \\
+& a_{\alpha}^{\dagger}a_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
+= n_{\alpha}|\ldots,n_{\alpha},\ldots\rangle \\
+& a_{\alpha}a_{\beta}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= \sqrt{n_{\alpha}}\sqrt{n_{\beta}+1}
+|\ldots,n_{\alpha}-1,\ldots,n_{\beta}+1,\ldots\rangle \\
+& a_{\beta}^{\dagger}a_{\alpha}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= \sqrt{n_{\beta}+1}\sqrt{n_{\alpha}}
+|\ldots,n_{\alpha}-1,\ldots,n_{\beta}+1,\ldots\rangle \\
+& [a_{\alpha},a_{\beta}^{\dagger}]|\ldots\rangle
+= \delta_{\alpha\beta}|\ldots\rangle \\
+& a_{\alpha}^{\dagger}a_{\beta}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= \sqrt{n_{\alpha}+1}\sqrt{n_{\beta}+1}
+|\ldots,n_{\alpha}+1,\ldots,n_{\beta}+1,\ldots\rangle \\
+& a_{\beta}^{\dagger}a_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= \sqrt{n_{\beta}+1}\sqrt{n_{\alpha}+1}
+|\ldots,n_{\alpha}+1,\ldots,n_{\beta}+1,\ldots\rangle \\
+& [a_{\alpha}^{\dagger},a_{\beta}^{\dagger}]|\ldots\rangle
+= 0 \\
+& \text{Fermion:} \\
+& c_{\alpha}c_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots\rangle
+= (1-n_{\alpha})|\ldots,n_{\alpha},\ldots\rangle \\
+& c_{\alpha}^{\dagger}c_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
+= n_{\alpha}|\ldots,n_{\alpha},\ldots\rangle \\
+& c_{\alpha}c_{\beta}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= (-1)^{s}n_{\alpha}(1-n_{\beta})
+|\ldots,0,\ldots,1,\ldots\rangle \\
+& c_{\beta}^{\dagger}c_{\alpha}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= (-1)^{s+1}(1-n_{\beta})n_{\alpha}
+|\ldots,0,\ldots,1,\ldots\rangle \\
+& \{c_{\alpha},c_{\beta}^{\dagger}\}|\ldots\rangle
+= \delta_{\alpha\beta}|\ldots\rangle \\
+& c_{\alpha}^{\dagger}c_{\beta}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= (-1)^{t}(1-n_{\alpha})(1-n_{\beta})
+|\ldots,1,\ldots,1,\ldots\rangle \\
+& c_{\beta}^{\dagger}c_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= (-1)^{t+1}(1-n_{\beta})(1-n_{\alpha})
+|\ldots,1,\ldots,1,\ldots\rangle \\
+& \{c_{\alpha}^{\dagger},c_{\beta}^{\dagger}\}|\ldots\rangle
+= 0 \\
+& (c_{\alpha}^{\dagger})^{2}|\ldots\rangle
+= \frac{1}{2}\{c_{\alpha}^{\dagger},c_{\alpha}^{\dagger}\}|\ldots\rangle
+= 0
+\end{aligned}
+$$
+{: .notice--primary}
 
 ### Second Quantization / 第二量子化
 
 $$
 \begin{aligned}{}
-& \text{Boson:}   && |n_1, n_2, \dots, n_N\rangle = \prod_\alpha \frac{1}{\sqrt{n_\alpha!}} (a_1^\dagger)^{n_1} (a_2^\dagger)^{n_2} \dots (a_N^\dagger)^{n_N} |0\rangle \\
-& \text{Fermion:} && |n_1, n_2, \dots, n_N\rangle = (a_1^\dagger)^{n_1} (a_2^\dagger)^{n_2} \dots (a_N^\dagger)^{n_N} |0\rangle
+& \text{Boson:} && |n_1,n_2,\ldots,n_N\rangle
+= \prod_{\alpha}\frac{1}{\sqrt{n_{\alpha}!}}
+(a_1^{\dagger})^{n_1}(a_2^{\dagger})^{n_2}
+\cdots(a_N^{\dagger})^{n_N}|0\rangle \\
+& \text{Fermion:} && |n_1,n_2,\ldots,n_N\rangle
+= (c_1^{\dagger})^{n_1}(c_2^{\dagger})^{n_2}
+\cdots(c_N^{\dagger})^{n_N}|0\rangle
 \end{aligned}
 $$
 {: .notice--info}
+
+$$
+\begin{aligned}{}
+& \text{Boson:} \\
+& (a_{\alpha}^{\dagger})^{n_{\alpha}}|\ldots,0,\ldots\rangle
+= \sqrt{n_{\alpha}!}\,|\ldots,n_{\alpha},\ldots\rangle \\
+& (a_1^{\dagger})^{n_1}\cdots(a_N^{\dagger})^{n_N}|0\rangle
+= \prod_{\alpha}\sqrt{n_{\alpha}!}\,|n_1,\ldots,n_N\rangle \\
+& \text{Fermion:} \\
+& (c_{\alpha}^{\dagger})^{n_{\alpha}}|\{0\},0,\ldots\rangle
+= |\{0\},n_{\alpha},\ldots\rangle \\
+& (c_1^{\dagger})^{n_1}\cdots(c_N^{\dagger})^{n_N}|0\rangle
+= (c_1^{\dagger})^{n_1}\cdots(c_{N-1}^{\dagger})^{n_{N-1}}
+|\{0\},n_N\rangle \\
+& \hphantom{(c_1^{\dagger})^{n_1}\cdots(c_N^{\dagger})^{n_N}|0\rangle {}}
+= (c_1^{\dagger})^{n_1}\cdots(c_{N-2}^{\dagger})^{n_{N-2}}
+|\{0\},n_{N-1},n_N\rangle \\
+& \hphantom{(c_1^{\dagger})^{n_1}\cdots(c_N^{\dagger})^{n_N}|0\rangle {}}
+= |n_1,\ldots,n_N\rangle
+\end{aligned}
+$$
+{: .notice--primary}
 
 
 ## 🍊 Dirac Equation / Dirac方程式
