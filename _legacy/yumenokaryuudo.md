@@ -1,7 +1,7 @@
 ---
 title: '夢の狩人'
 date: 2021-11-13
-permalink: /others/2021_11_13_yumenokaryuudo
+permalink: /legacy/2021_11_13_yumenokaryuudo
 tags:
   - novels
 ---

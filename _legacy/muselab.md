@@ -1,7 +1,7 @@
 ---
 title: 'MuseLab: Compose Music by Coding'
 date: 2023-02-15
-permalink: /temp/2023_02_15_MuseLab
+permalink: /legacy/muselab
 tags:
   - software
 ---

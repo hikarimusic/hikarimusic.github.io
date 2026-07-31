@@ -1,7 +1,7 @@
 ---
 title: '氷と炎のうた'
 date: 2021-02-20
-permalink: /other/2021_02_20_kooritohonoonouta
+permalink: /legacy/kooritohonoonouta
 tags:
   - オリジナル
   - 曲

@@ -184,13 +184,10 @@ collections:
   software:
     output: true
     permalink: /:collection/:path/
-  others:
-    output: true
-    permalink: /:collection/:path/
   note:
     output: true
     permalink: /:collection/:path/
-  temp:
+  legacy:
     output: true
     permalink: /:collection/:path/
   work:
@@ -236,16 +233,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _others
-  - scope:
-      path: ""
-      type: others
-    values:
-      layout: single
-      author_profile: true
-      comments: true
-      share: true
-      related: true
   # _note
   - scope:
       path: ""
@@ -256,10 +243,10 @@ defaults:
       comments: true
       share: true
       related: true
-  # _temp
+  # _legacy
   - scope:
       path: ""
-      type: temp
+      type: legacy
     values:
       layout: single
       author_profile: true
