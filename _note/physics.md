@@ -2704,7 +2704,7 @@ $$
 {: .notice--primary}
 
 
-## 🍊 3D System / 三次元系
+## 3D System / 三次元系
 
 ### Central Potential / 中心力ポテンシャル
 
@@ -3755,7 +3755,7 @@ $$
 {: .notice--primary}
 
 
-## 🍊 Identical Particle / 同種粒子
+## Identical Particle / 同種粒子
 
 ### Exchange Operator / 交換演算子
 
@@ -3968,7 +3968,7 @@ $$
 {: .notice--primary}
 
 
-## 🍊 Dirac Equation / Dirac方程式
+## Dirac Equation / Dirac方程式
 
 ### Relativistic Wave Equation / 相対論的波動方程式
 
