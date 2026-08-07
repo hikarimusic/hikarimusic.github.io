@@ -2045,21 +2045,21 @@ bool cmp(const pt &a, const pt &b) {
     return a.real()!=b.real() ? a.real()<b.real() : a.imag()<b.imag();
 }
 
-vector<pt> convexHull(vector<pt> pts) {
+vector<pt> solve(vector<pt> pts) {
     sort(pts.begin(), pts.end(), cmp);
     ll n=pts.size(), p=0;
     vector<pt> res(2*n);
     for (ll i=0; i<n; ++i) {
         while (p>1 && det(res[p-1]-res[p-2], pts[i]-res[p-1])<EPS)
-            p--; // <-EPS: keep collinear, >-EPS: upper hull
+            p--; // <EPS: lower hull, >-EPS: upper hull
         res[p++] = pts[i];
     }
     for (ll i=n-2, t=p; i>=0; --i) {
         while (p>t && det(res[p-1]-res[p-2], pts[i]-res[p-1])<EPS)
-            p--;
+            p--; // <EPS: upper hull, >-EPS: lower hull
         res[p++] = pts[i];
     }
-    res.resize(p-1);
+    res.resize(p-1); // first hull only: resize(p)
     return res;
 }
 ```
