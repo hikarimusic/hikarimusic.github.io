@@ -2037,45 +2037,29 @@ double area(vector<Poll> g) {
 
 ### Convex Hull / 凸包
 ```cpp
-vector<Poll> convex_hull(vector<Poll> ps) {
-    sort(ps.begin(), ps.end(), compare);
-    ll n=ps.size(), k=0;
-    vector<Poll> qs(2*n);
-    for (ll i=0; i<n; ++i) {
-        while (k>1 && det(qs[k-1]-qs[k-2], ps[i]-qs[k-1])<EPS)
-            k--;
-        qs[k++] = ps[i];
-    }
-    for (ll i=n-2, t=k; i>=0; --i) {
-        while (k>t && det(qs[k-1]-qs[k-2], ps[i]-qs[k-1])<EPS)
-            k--;
-        qs[k++] = ps[i];
-    }
-    qs.resize(k-1);
-    return qs;
+ld det(const pt &a, const pt &b) {
+    return a.real()*b.imag() - a.imag()*b.real();
 }
-```
-```cpp
-double max_distance(vector<Poll> ps) {
-    vector<Poll> qs = convex_hull(ps);
-    if (qs.size()==2)
-        return abs(qs[1]-qs[0]);
-    ll i=0, j=0, n=qs.size();
-    for (ll k=0; k<n; ++k) {
-        if (compare(qs[k], qs[i]))
-            i = k;
-        if (!compare(qs[k], qs[j]))
-            j = k;
+
+bool cmp(const pt &a, const pt &b) {
+    return a.real()!=b.real() ? a.real()<b.real() : a.imag()<b.imag();
+}
+
+vector<pt> convexHull(vector<pt> pts) {
+    sort(pts.begin(), pts.end(), cmp);
+    ll n=pts.size(), p=0;
+    vector<pt> res(2*n);
+    for (ll i=0; i<n; ++i) {
+        while (p>1 && det(res[p-1]-res[p-2], pts[i]-res[p-1])<EPS)
+            p--; // <-EPS: keep collinear, >-EPS: upper hull
+        res[p++] = pts[i];
     }
-    double res = 0;
-    ll si=i, sj=j;
-    while (i!=sj || j!=si) {
-        res = max(res, abs(qs[j]-qs[i]));
-        if (det(qs[(i+1)%n]-qs[i], qs[(j+1)%n]-qs[j])<-EPS)
-            i = (i+1)%n;
-        else
-            j = (j+1)%n;
+    for (ll i=n-2, t=p; i>=0; --i) {
+        while (p>t && det(res[p-1]-res[p-2], pts[i]-res[p-1])<EPS)
+            p--;
+        res[p++] = pts[i];
     }
+    res.resize(p-1);
     return res;
 }
 ```
