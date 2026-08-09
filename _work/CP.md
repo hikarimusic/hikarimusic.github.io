@@ -17,7 +17,7 @@ using ld = long double;
 using pll = array<ll,2>;
 using vll = vector<ll>;
 using pt = complex<ld>;
-const ll INF = 1000000009;
+const ll INF = 1000000000000000009;
 const ll MOD = 998244353;
 const ld EPS = 0.000000000001;
 #define all(x) (x).begin(), (x).end()
