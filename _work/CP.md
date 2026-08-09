@@ -7,7 +7,9 @@ tags:
 toc: true
 ---
 
-CP template
+CP
+
+### Template
 
 ```cpp
 #include <bits/stdc++.h>
@@ -40,4 +42,16 @@ int main() {
     }
     return 0;
 }
+```
+
+### Environment
+
+```sh
+# pre-compile bits/stdc++.h
+sudo g++ -std=gnu++17 -O2 -pipe -x c++-header /usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h
+```
+
+```sh
+# paste input, ctrl-D 
+g++ -std=gnu++17 -O2 -pipe main.cpp -o main && { x=$(cat); echo ========; echo "$x" | ./main; }
 ```
