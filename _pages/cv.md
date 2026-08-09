@@ -13,7 +13,6 @@ author_profile: true
 
 **Researcher**, NTU Graduate Institute of Genomics and Proteomics, Aug 2025 – Jun 2026
 
-
 ## Education
 
 **National Taiwan University**, School of Medicine, 2020 – 2026
@@ -21,6 +20,8 @@ author_profile: true
 **Taipei Municipal Chien Kuo High School**, Class of Science, 2017 – 2020
 
 ## Awards
+
+Nation Rank 1, Taiwan Medical Licensing Examination (Step 2)
 
 School Rank 1, Taipei Municipal Chien Kuo High School (Overall Grade)
 

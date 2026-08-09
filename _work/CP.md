@@ -47,11 +47,16 @@ int main() {
 ### Environment
 
 ```sh
-# pre-compile bits/stdc++.h
+# new computer
 sudo g++ -std=gnu++17 -O2 -pipe -x c++-header /usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h
 ```
 
 ```sh
+# new terminal
+r(){ f="${1%.cpp}"; g++ -std=gnu++17 -O2 -pipe -fmax-errors=1 "$f.cpp" -o "$f" && { x=$(cat); echo ========; echo "$x" | "./$f"; }; }
+```
+
+```sh
 # paste input, ctrl-D 
-g++ -std=gnu++17 -O2 -pipe main.cpp -o main && { x=$(cat); echo ========; echo "$x" | ./main; }
+r a
 ```

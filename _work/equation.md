@@ -584,16 +584,13 @@ $$
 $$
 \begin{aligned}{}
 & |\psi^{(+)}\rangle
-= |\psi^{(0)}\rangle
-+ \frac{1}{E-\hat{H}_0+i\epsilon}\hat{V}|\psi^{(+)}\rangle \\
-& \psi^{(+)}(\mathbf{r})
+= |\phi\rangle + \frac{1}{E-\hat{H}_{0}+i\varepsilon}\hat{V}|\psi^{(+)}\rangle \\
+& \psi_{k}^{(+)}(\mathbf{r})
 = e^{i\mathbf{k}\cdot\mathbf{r}}
--\frac{m}{2\pi\hbar^2}
-\int V(\mathbf{r}')
-\psi^{(+)}(\mathbf{r}')
-\frac{e^{ik|\mathbf{r}-\mathbf{r}'|}}
-{|\mathbf{r}-\mathbf{r}'|}
-\,d^3r'
+-\frac{m}{2\pi\hbar^{2}}
+\int V(\mathbf{r}')\psi_{k}^{(+)}(\mathbf{r}')
+\frac{e^{ik|\mathbf{r}-\mathbf{r}'|}}{|\mathbf{r}-\mathbf{r}'|}
+\,d^{3}r'
 \end{aligned}
 $$
 {: .notice--info}
@@ -602,18 +599,14 @@ $$
 
 $$
 \begin{aligned}{}
-& r\to\infty,\quad V(\mathbf{r})\to 0 \\
-& f(\mathbf{k}_f \leftarrow \mathbf{k}_i)
-= -\frac{m}{2\pi\hbar^2}
-\int V(\mathbf{r})
-\psi_{\mathbf{k}_i}^{(+)}(\mathbf{r})
-e^{-i\mathbf{k}_f\cdot\mathbf{r}}
-\,d^3r \\
-& \psi^{(+)}(\mathbf{r})
-= e^{i\mathbf{k}\cdot\mathbf{r}}
+& \psi_{k}^{(+)}(\mathbf{r})
+\approx e^{i\mathbf{k}\cdot\mathbf{r}}
 + f(\theta,\phi)\frac{e^{ikr}}{r} \\
-& \frac{d\sigma}{d\Omega}
-= |f(\theta,\phi)|^2
+& f(\theta,\phi)
+= -\frac{m}{2\pi\hbar^{2}}
+\int V(\mathbf{r}')\psi_{k}^{(+)}(\mathbf{r}')
+e^{-i\mathbf{k}'\cdot\mathbf{r}'}\,d^{3}r' \\
+& \frac{d\sigma}{d\Omega}=|f(\theta,\phi)|^{2}
 \end{aligned}
 $$
 {: .notice--info}
@@ -622,45 +615,51 @@ $$
 
 $$
 \begin{aligned}{}
-& \psi_{\mathbf{k}_i}^{(+)}(\mathbf{r})
-\approx e^{i\mathbf{k}_i\cdot\mathbf{r}},
-\quad
-\mathbf{q}=\mathbf{k}_f-\mathbf{k}_i \\
-& f(\mathbf{q})
-= -\frac{m}{2\pi\hbar^2}
-\int V(\mathbf{r})
-e^{-i\mathbf{q}\cdot\mathbf{r}}
-\,d^3r
+& \psi_{k}^{(+)}(\mathbf{r}) \approx e^{i\mathbf{k}\cdot\mathbf{r}} \\
+& f(\theta,\phi) \approx
+-\frac{m}{2\pi\hbar^{2}}
+\int V(\mathbf{r}')e^{-i\mathbf{q}\cdot\mathbf{r}'}\,d^{3}r' \\
+& \mathbf{q}=\mathbf{k}'-\mathbf{k}, \quad
+q=2k\sin\frac{\theta}{2}
 \end{aligned}
 $$
 {: .notice--info}
 
-### Partial Wave Expansion / 部分波展開
+### Partial Wave / 部分波
 
 $$
 \begin{aligned}{}
-& V(\mathbf{r}) = V(r) \\
 & f(\theta)
-= \frac{1}{2ik}
-\sum_{\ell=0}^{\infty}
-(2\ell+1)
-\left(e^{2i\delta_\ell}-1\right)
-P_\ell(\cos\theta) \\
+= \frac{1}{k}\sum_{\ell=0}^{\infty}
+(2\ell+1)e^{i\delta_{\ell}}\sin\delta_{\ell}
+P_{\ell}(\cos\theta) \\
 & \sigma_{\mathrm{tot}}
-= \frac{4\pi}{k}\operatorname{Im} f(0)
+= \frac{4\pi}{k^{2}}\sum_{\ell=0}^{\infty}
+(2\ell+1)\sin^{2}\delta_{\ell}
+= \frac{4\pi}{k}\operatorname{Im}f(0)
 \end{aligned}
 $$
 {: .notice--info}
 
 ## Path Integral / 経路積分
 
-### Configuration Space / 座標空間
+### Configuration Space / 配置空間
 
 $$
 \begin{aligned}{}
-& U(x_f, t_f; x_i, t_i) = \int \mathcal{D}[x] e^{\frac{i}{\hbar}S[x]} \\
-& \int \mathcal{D}[x] = \lim_{N \to \infty} \left( \frac{m}{2\pi i \hbar \Delta t} \right)^{\frac{N}{2}} \prod_{j=1}^{N-1} dx_j \\
-& S[x] = \sum_{j=1}^{N} \left[ \frac{m}{2} \left( \frac{x_j - x_{j-1}}{\Delta t} \right)^2 - V(x_j) \right] \Delta t
+& K(x_f,t_f;x_i,t_i)=\int \mathcal{D}[x]\,
+e^{\frac{i}{\hbar}S[x]} \\
+& \mathcal{D}[x]
+= \lim_{N\to\infty}
+\left(\frac{m}{2\pi i\hbar\Delta t}\right)^{N/2}
+\prod_{j=1}^{N-1}dx_j \\
+& S[x]
+= \sum_{j=1}^{N}
+\left[
+\frac{m}{2}
+\left(\frac{x_j-x_{j-1}}{\Delta t}\right)^2
+- V(x_j)
+\right]\Delta t
 \end{aligned}
 $$
 {: .notice--info}
@@ -669,9 +668,20 @@ $$
 
 $$
 \begin{aligned}{}
-& U(x_f, t_f; x_i, t_i) = \int \mathcal{D}[x]\mathcal{D}[p] e^{\frac{i}{\hbar}S[x,p]} \\
-& \int \mathcal{D}[x]\mathcal{D}[p] = \lim_{N \to \infty} \left( \frac{1}{2\pi \hbar} \right)^N \prod_{j=1}^{N-1} dx_j \prod_{k=1}^N dp_k \\
-& S[x,p] = \sum_{j=1}^{N} \left[ p_j \left( \frac{x_j - x_{j-1}}{\Delta t} \right) - H(x_j, p_j) \right] \Delta t
+& K(x_f,t_f;x_i,t_i)
+= \int \mathcal{D}[x]\mathcal{D}[p]\,
+e^{\frac{i}{\hbar}S[x,p]} \\
+& \mathcal{D}[x]\mathcal{D}[p]
+= \lim_{N\to\infty}
+\left(\frac{1}{2\pi\hbar}\right)^N
+\prod_{j=1}^{N-1}dx_j
+\prod_{j=1}^{N}dp_j \\
+& S[x,p]
+= \sum_{j=1}^{N}
+\left[
+p_j\left(\frac{x_j-x_{j-1}}{\Delta t}\right)
+- H(x_j,p_j)
+\right]\Delta t
 \end{aligned}
 $$
 {: .notice--info}
@@ -680,8 +690,14 @@ $$
 
 $$
 \begin{aligned}{}
-& S_{cl} = \frac{m(x_f - x_i)^2}{2T} \\
-& U(x_f, T; x_i, 0) = \sqrt{\frac{m}{2\pi i \hbar T}} \exp\left( \frac{i m (x_f - x_i)^2}{2 \hbar T} \right)
+& S[x_{\mathrm{cl}}]
+= \frac{m(x_f-x_i)^2}{2T} \\
+& K(x_f,T;x_i,0)
+= \sqrt{\frac{m}{2\pi i\hbar T}}\,
+\exp\left[
+\frac{i}{\hbar}
+\frac{m(x_f-x_i)^2}{2T}
+\right]
 \end{aligned}
 $$
 {: .notice--info}
@@ -690,8 +706,20 @@ $$
 
 $$
 \begin{aligned}{}
-& S_{cl} = \frac{m\omega}{2\sin(\omega T)} \left[ (x_i^2 + x_f^2)\cos(\omega T) - 2x_i x_f \right] \\
-& U(x_f, T; x_i, 0) = \sqrt{\frac{m\omega}{2\pi i \hbar \sin(\omega T)}} \exp\left( \frac{i m \omega}{2\hbar \sin(\omega T)} \left[ (x_i^2 + x_f^2)\cos(\omega T) - 2x_i x_f \right] \right)
+& S[x_{\mathrm{cl}}]
+= \frac{m\omega}{2\sin\omega T}
+\left[
+(x_f^2+x_i^2)\cos\omega T - 2x_ix_f
+\right] \\
+& K(x_f,T;x_i,0)
+= \sqrt{\frac{m\omega}{2\pi i\hbar\sin\omega T}}\,
+\exp\left\{
+\frac{i}{\hbar}
+\frac{m\omega}{2\sin\omega T}
+\left[
+(x_f^2+x_i^2)\cos\omega T - 2x_ix_f
+\right]
+\right\}
 \end{aligned}
 $$
 {: .notice--info}
@@ -702,11 +730,12 @@ $$
 
 $$
 \begin{aligned}{}
-& \hat{P}_{ij} (\dots |w_i\rangle \dots |w_j\rangle \dots) = (\dots |w_j\rangle \dots |w_i\rangle \dots) \\
+& \hat{P}_{ij}(\cdots |w_i\rangle \cdots |w_j\rangle \cdots)
+= (\cdots |w_j\rangle \cdots |w_i\rangle \cdots) \\
 & \begin{aligned}{}
-  & \text{Boson:} && \hat{P}_{ij} |\psi\rangle = |\psi\rangle \\
-  & \text{Fermion:} && \hat{P}_{ij} |\psi\rangle = -|\psi\rangle \\
-  & && w_i = w_j \rightarrow |\psi\rangle = 0
+    & \text{Boson:}  && \hat{P}_{ij}|\psi\rangle = |\psi\rangle \\
+    & \text{Fermion:} && \hat{P}_{ij}|\psi\rangle = -|\psi\rangle \\
+    & \hphantom{\text{Fermion:}{}} && w_i=w_j \rightarrow |\psi\rangle = 0
   \end{aligned}
 \end{aligned}
 $$
@@ -716,8 +745,14 @@ $$
 
 $$
 \begin{aligned}{}
-& \text{Boson:}   && |w_1 \le w_2 \le \dots \le w_N\rangle = \frac{1}{\sqrt{N! \prod_\alpha n_\alpha!}} \sum_{\sigma \in S_N} |w_{\sigma(1)}\rangle |w_{\sigma(2)}\rangle \dots |w_{\sigma(N)}\rangle \\
-& \text{Fermion:} && |w_1 < w_2 < \dots < w_N\rangle = \frac{1}{\sqrt{N!}} \sum_{\sigma \in S_N} \text{sgn}(\sigma) |w_{\sigma(1)}\rangle |w_{\sigma(2)}\rangle \dots |w_{\sigma(N)}\rangle
+& \text{Boson:} && |w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{\sqrt{N!\prod_{\alpha}n_{\alpha}!}}
+\sum_{\sigma\in S_N}
+|w_{\sigma(1)}\rangle|w_{\sigma(2)}\rangle\cdots|w_{\sigma(N)}\rangle \\
+& \text{Fermion:} && |w_1,w_2,\ldots,w_N\rangle
+= \frac{1}{\sqrt{N!}}
+\sum_{\sigma\in S_N}\operatorname{sgn}(\sigma)
+|w_{\sigma(1)}\rangle|w_{\sigma(2)}\rangle\cdots|w_{\sigma(N)}\rangle
 \end{aligned}
 $$
 {: .notice--info}
@@ -726,13 +761,23 @@ $$
 
 $$
 \begin{aligned}{}
-& \text{Boson:}   && a_\alpha^\dagger |\dots, n_\alpha, \dots\rangle = \sqrt{n_\alpha + 1} |\dots, n_\alpha + 1, \dots\rangle \\
-&                 && a_\alpha |\dots, n_\alpha, \dots\rangle = \sqrt{n_\alpha} |\dots, n_\alpha - 1, \dots\rangle \\
-&                 && [a_\alpha, a_\beta^\dagger] = \delta_{\alpha\beta} \quad [a_\alpha^\dagger, a_\beta^\dagger] = 0 \\
-& \text{Fermion:} && a_\alpha^\dagger |\dots, n_\alpha, \dots\rangle = (-1)^{\sum_{\beta < \alpha} n_\beta} (1 - n_\alpha) |\dots, 1, \dots\rangle \\
-&                 && a_\alpha |\dots, n_\alpha, \dots\rangle = (-1)^{\sum_{\beta < \alpha} n_\beta} n_\alpha |\dots, 0, \dots\rangle \\
-&                 && \{a_\alpha, a_\beta^\dagger\} = \delta_{\alpha\beta} \quad \{a_\alpha^\dagger, a_\beta^\dagger\} = 0 \\
-&                 && (a_\alpha^\dagger)^2 = 0
+& \text{Boson:} && a_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots\rangle
+= \sqrt{n_{\alpha}+1}\,|\ldots,n_{\alpha}+1,\ldots\rangle \\
+& && a_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
+= \sqrt{n_{\alpha}}\,|\ldots,n_{\alpha}-1,\ldots\rangle \\
+& && [a_{\alpha},a_{\beta}^{\dagger}]
+= \delta_{\alpha\beta},\quad
+[a_{\alpha}^{\dagger},a_{\beta}^{\dagger}]=0 \\
+& \text{Fermion:} && c_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots\rangle
+= (-1)^{\sum_{\beta<\alpha}n_{\beta}}(1-n_{\alpha})
+|\ldots,1,\ldots\rangle \\
+& && c_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
+= (-1)^{\sum_{\beta<\alpha}n_{\beta}}n_{\alpha}
+|\ldots,0,\ldots\rangle \\
+& && \{c_{\alpha},c_{\beta}^{\dagger}\}
+= \delta_{\alpha\beta},\quad
+\{c_{\alpha}^{\dagger},c_{\beta}^{\dagger}\}=0,\quad
+(c_{\alpha}^{\dagger})^{2}=0
 \end{aligned}
 $$
 {: .notice--info}
@@ -741,8 +786,13 @@ $$
 
 $$
 \begin{aligned}{}
-& \text{Boson:}   && |n_1, n_2, \dots, n_N\rangle = \prod_\alpha \frac{1}{\sqrt{n_\alpha!}} (a_1^\dagger)^{n_1} (a_2^\dagger)^{n_2} \dots (a_N^\dagger)^{n_N} |0\rangle \\
-& \text{Fermion:} && |n_1, n_2, \dots, n_N\rangle = (a_1^\dagger)^{n_1} (a_2^\dagger)^{n_2} \dots (a_N^\dagger)^{n_N} |0\rangle
+& \text{Boson:} && |n_1,n_2,\ldots,n_N\rangle
+= \prod_{\alpha}\frac{1}{\sqrt{n_{\alpha}!}}
+(a_1^{\dagger})^{n_1}(a_2^{\dagger})^{n_2}
+\cdots(a_N^{\dagger})^{n_N}|0\rangle \\
+& \text{Fermion:} && |n_1,n_2,\ldots,n_N\rangle
+= (c_1^{\dagger})^{n_1}(c_2^{\dagger})^{n_2}
+\cdots(c_N^{\dagger})^{n_N}|0\rangle
 \end{aligned}
 $$
 {: .notice--info}
@@ -753,10 +803,10 @@ $$
 
 $$
 \begin{aligned}{}
-& \hat{H}^2 = \hat{p}^{\,2}c^2 + m^2c^4 \\
-& \left(\frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2c^2}{\hbar^2}\right)\psi = 0 \\
-& \hat{H} = c\boldsymbol{\alpha}\cdot\hat{\mathbf{p}} + \beta mc^2 \\
-& \left(i\hbar\gamma^\mu\partial_\mu - mc\right)\psi = 0
+& \hat{H}^{2} = \hat{\mathbf{p}}^{2}c^{2}+m^{2}c^{4} \\
+& \left(\partial_{\mu}\partial^{\mu}+\frac{m^{2}c^{2}}{\hbar^{2}}\right)\psi=0 \\
+& \hat{H}=c\boldsymbol{\alpha}\cdot\hat{\mathbf{p}}+\beta mc^{2} \\
+& \left(i\hbar\gamma^{\mu}\partial_{\mu}-mc\right)\psi=0
 \end{aligned}
 $$
 {: .notice--info}
@@ -765,30 +815,29 @@ $$
 
 $$
 \begin{aligned}{}
-& \{\gamma^\mu,\gamma^\nu\} = 2g^{\mu\nu}\mathbb{I}, \quad \gamma^0 =
+& \{\gamma^{\mu},\gamma^{\nu}\}=2g^{\mu\nu}I, \quad
+g^{\mu\nu}=\operatorname{diag}(1,-1,-1,-1) \\
+& \gamma^{0}=
 \begin{pmatrix}
-\mathbb{I} & 0 \\
-0 & -\mathbb{I}
-\end{pmatrix}
-,\quad
-\gamma^i =
+I & 0 \\
+0 & -I
+\end{pmatrix}, \quad
+\gamma^{i}=
 \begin{pmatrix}
-0 & \sigma^i \\
--\sigma^i & 0
+0 & \sigma^{i} \\
+-\sigma^{i} & 0
 \end{pmatrix} \\
-& \sigma_x =
+& \sigma_{x}=
 \begin{pmatrix}
 0 & 1 \\
 1 & 0
-\end{pmatrix}
-,\quad
-\sigma_y =
+\end{pmatrix}, \quad
+\sigma_{y}=
 \begin{pmatrix}
 0 & -i \\
 i & 0
-\end{pmatrix}
-,\quad
-\sigma_z =
+\end{pmatrix}, \quad
+\sigma_{z}=
 \begin{pmatrix}
 1 & 0 \\
 0 & -1
@@ -801,20 +850,20 @@ $$
 
 $$
 \begin{aligned}{}
-& \psi(x) = u(p)e^{-\frac{i}{\hbar}p_\mu x^\mu},
-&& \psi(x) = v(p)e^{\frac{i}{\hbar}p_\mu x^\mu} \\
-& u(p) =
+& \psi_{+}(x)=u(p)e^{-\frac{i}{\hbar}p_{\mu}x^{\mu}}, &&
+\psi_{-}(x)=v(p)e^{-\frac{i}{\hbar}p_{\mu}x^{\mu}} \\
+& u(p)=
 \begin{pmatrix}
-\chi^s \\
-\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\chi^s
-\end{pmatrix},
-&& v(p) =
+\chi^{s} \\
+\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{|E|+mc^{2}}\chi^{s}
+\end{pmatrix}, &&
+v(p)=
 \begin{pmatrix}
-\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{E+mc^2}\eta^s \\
-\eta^s
+-\frac{c\boldsymbol{\sigma}\cdot\mathbf{p}}{|E|+mc^{2}}\eta^{s} \\
+\eta^{s}
 \end{pmatrix} \\
-& E = \sqrt{p^2c^2 + m^2c^4},
-&& -E = -\sqrt{p^2c^2 + m^2c^4}
+& E_{+}=\sqrt{|\mathbf{p}|^{2}c^{2}+m^{2}c^{4}}, &&
+E_{-}=-\sqrt{|\mathbf{p}|^{2}c^{2}+m^{2}c^{4}}
 \end{aligned}
 $$
 {: .notice--info}
@@ -823,30 +872,19 @@ $$
 
 $$
 \begin{aligned}{}
-& \psi = e^{-\frac{i}{\hbar}mc^2t}
+& \psi(x)=e^{-\frac{i}{\hbar}mc^{2}t}
 \begin{pmatrix}
-\varphi \\
-\chi
+\varphi(x) \\
+\eta(x)
 \end{pmatrix} \\
-& \chi \approx
-\frac{\boldsymbol{\sigma}\cdot(\hat{\mathbf{p}}-q\mathbf{A})}{2mc}\varphi \\
+& \eta \approx \frac{\boldsymbol{\sigma}\cdot(\hat{\mathbf{p}}-q\mathbf{A})}{2mc}\varphi \\
 & i\hbar\frac{\partial\varphi}{\partial t}
 =
 \left[
-\frac{(\hat{\mathbf{p}}-q\mathbf{A})^2}{2m}
-+ q\Phi
+\frac{(\hat{\mathbf{p}}-q\mathbf{A})^{2}}{2m}
++q\Phi
 -\frac{q\hbar}{2m}\boldsymbol{\sigma}\cdot\mathbf{B}
 \right]\varphi
-\end{aligned}
-$$
-{: .notice--info}
-
-### Conserved Current / 保存カレント
-
-$$
-\begin{aligned}{}
-& j^\mu = c\psi^\dagger\gamma^0\gamma^\mu\psi \\
-& \partial_\mu j^\mu = 0
 \end{aligned}
 $$
 {: .notice--info}
