@@ -2385,6 +2385,8 @@ ll search(string s, string t, vector<ll> sa) {
 }
 ```
 
+### Aho-Corasick Automaton / エイホ–コラシック法
+
 ## 🍊 Game / ゲーム
 
 ### Nim / Nim
