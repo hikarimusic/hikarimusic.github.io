@@ -2280,7 +2280,7 @@ void solve(ll n) {
 ```cpp
 ll pi[M];
 
-void build(string t) {
+void build(string& t) {
     pi[0] = 0;
     ll l = 0;
     for (ll i=1; i<t.size(); ++i) {
@@ -2292,7 +2292,7 @@ void build(string t) {
     }
 }
 
-void search(string s, string t) {
+void search(string& s, string& t) {
     ll j = 0;
     for (ll i=0; i<s.size(); ++i) {
         while (j>0 && s[i]!=t[j])
@@ -2307,10 +2307,11 @@ void search(string s, string t) {
 }
 ```
 
-### Rolling Hash / ローリングハッシュ
+### String Hashing / 文字列ハッシュ化
+
 ```cpp
-ll hashing(string s) {
-    ll p = 257, m = 1e9+9;
+ll hashing(string& s) {
+    ll p=257, m=1000000009;
     ll h = 0;
     for (char c : s)
         h = (h*p + c) % m;
@@ -2318,21 +2319,21 @@ ll hashing(string s) {
 }
 ```
 ```cpp
-ll search(string s, string t) {
-    ll sl=s.size(), tl=t.size();
-    ll p = 257, m = 1e9+9, pp=1, sh=0, th=0;
-    for (ll i=0; i<tl; ++i) {
-        pp = (pp*p) % m;
-        sh = (sh*p + s[i]) % m;
-        th = (th*p + t[i]) % m;
+ll preh[N], ppow[N];
+
+void build(string& s) {
+    ll p=257, m=1000000009;
+    ppow[0] = 1;
+    for (ll i=0; i<(ll)s.size(); ++i) {
+        preh[i+1] = (preh[i]*p + s[i]) % m;
+        ppow[i+1] = (ppow[i] * p) % m;
     }
-    for (ll i=0; i+tl<=sl; ++i) {
-        if (sh==th)
-            return i;
-        if (i+tl<sl)
-            sh = (sh*p + s[i+tl] - s[i]*pp + m) % m;
-    }
-    return -1;
+}
+
+ll query(ll l, ll r) {
+    ll m = 1000000009;
+    ll res = preh[r+1] - preh[l]*ppow[r-l+1];
+    return (res%m + m) % m;
 }
 ```
 
