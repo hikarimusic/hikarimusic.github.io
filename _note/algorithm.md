@@ -2307,14 +2307,14 @@ void search(string& s, string& t) {
 }
 ```
 
-### String Hashing / 文字列ハッシュ化
+### ⭐ String Hashing / 文字列ハッシュ化
 
 ```cpp
 ll hashing(string& s) {
-    ll p=257, m=1000000009;
+    ll p = 257;
     ll h = 0;
     for (char c : s)
-        h = (h*p + c) % m;
+        h = (h*p + c) % MOD;
     return h;
 }
 ```
@@ -2322,18 +2322,18 @@ ll hashing(string& s) {
 ll preh[N], ppow[N];
 
 void build(string& s) {
-    ll p=257, m=1000000009;
+    ll p = 257;
     ppow[0] = 1;
     for (ll i=0; i<(ll)s.size(); ++i) {
-        preh[i+1] = (preh[i]*p + s[i]) % m;
-        ppow[i+1] = (ppow[i] * p) % m;
+        preh[i+1] = (preh[i]*p + s[i]) % MOD;
+        ppow[i+1] = (ppow[i] * p) % MOD;
     }
 }
 
 ll query(ll l, ll r) {
-    ll m = 1000000009;
     ll res = preh[r+1] - preh[l]*ppow[r-l+1];
-    return (res%m + m) % m;
+    res = (res % MOD + MOD) % MOD;
+    return res;
 }
 ```
 
