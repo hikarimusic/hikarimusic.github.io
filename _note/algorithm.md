@@ -339,16 +339,16 @@ ll query(ll x1, ll y1, ll x2, ll y2) {
 ll arr[N], tree[N];
 
 void build(ll n) {
-    for (ll i = 1; i <= n; ++i) {
+    for (ll i=1; i<=n; ++i) {
         tree[i] += arr[i];
         ll r = i + (i&-i);
-        if (r <= n)
+        if (r<=n)
             tree[r] += tree[i];
     }
 }
 
 void update(ll p, ll x, ll n) {
-    while (p <= n) {
+    while (p<=n) {
         tree[p] += x;
         p += (p&-p);
     }
@@ -356,12 +356,12 @@ void update(ll p, ll x, ll n) {
 
 ll query(ll l, ll r) {
     ll s = 0;
-    while (r > 0) {
+    while (r>0) {
         s += tree[r];
         r -= (r&-r);
     }
     l -= 1;
-    while (l > 0) {
+    while (l>0) {
         s -= tree[l];
         l -= (l&-l);
     }
