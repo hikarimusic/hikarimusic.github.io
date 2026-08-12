@@ -371,7 +371,7 @@ ll query(ll l, ll r) {
 ll bound(ll t, ll n) {
     ll p = 0;
     ll s = 1;
-    while (s<<1 <= n)
+    while ((s<<1)<=n)
         s <<= 1;
     for (; s>0; s>>=1) {
         if (p+s<=n && tree[p+s]<t) { // or <=t
