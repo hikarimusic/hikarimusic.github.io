@@ -2275,7 +2275,7 @@ void solve(ll n) {
 
 ## 🍊 String / 文字列
 
-### KMP Algorithm / KMP法
+### ⭐ KMP Algorithm / KMP法
 
 ```cpp
 ll pi[M];
@@ -2300,7 +2300,7 @@ void search(string s, string t) {
         if (s[i]==t[j])
             j += 1;
         if (j==t.size()) {
-            "match from i+1-j";
+            "match from i-j+1";
             j = pi[j-1];
         }
     }
