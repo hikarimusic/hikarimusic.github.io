@@ -2275,6 +2275,36 @@ void solve(ll n) {
 
 ## 🍊 String / 文字列
 
+### ⭐ String Hashing / 文字列ハッシュ化
+
+```cpp
+ll hashing(string& s) {
+    ll p = 257;
+    ll h = 0;
+    for (char c : s)
+        h = (h*p + c) % MOD;
+    return h;
+}
+```
+```cpp
+ll preh[N], ppow[N];
+
+void build(string& s) {
+    ll p = 257;
+    ppow[0] = 1;
+    for (ll i=0; i<(ll)s.size(); ++i) {
+        preh[i+1] = (preh[i]*p + s[i]) % MOD;
+        ppow[i+1] = (ppow[i] * p) % MOD;
+    }
+}
+
+ll query(ll l, ll r) {
+    ll res = preh[r+1] - preh[l]*ppow[r-l+1];
+    res = (res % MOD + MOD) % MOD;
+    return res;
+}
+```
+
 ### ⭐ KMP Algorithm / KMP法
 
 ```cpp
@@ -2307,47 +2337,20 @@ void search(string& s, string& t) {
 }
 ```
 
-### ⭐ String Hashing / 文字列ハッシュ化
-
-```cpp
-ll hashing(string& s) {
-    ll p = 257;
-    ll h = 0;
-    for (char c : s)
-        h = (h*p + c) % MOD;
-    return h;
-}
-```
-```cpp
-ll preh[N], ppow[N];
-
-void build(string& s) {
-    ll p = 257;
-    ppow[0] = 1;
-    for (ll i=0; i<(ll)s.size(); ++i) {
-        preh[i+1] = (preh[i]*p + s[i]) % MOD;
-        ppow[i+1] = (ppow[i] * p) % MOD;
-    }
-}
-
-ll query(ll l, ll r) {
-    ll res = preh[r+1] - preh[l]*ppow[r-l+1];
-    res = (res % MOD + MOD) % MOD;
-    return res;
-}
-```
-
 ### Suffix Array / 接尾辞配列
+
 ```cpp
-vector<ll> suffix_array(string s) {
+vector<ll> sa;
+
+void build(string s) {
     s += '$';
     ll n=s.size(), cls=256;
-    vector<ll> p(n), c(n), cnt(max(256, n)), pn(n), cn(n);
+    vector<ll> p(n), c(n), pn(n), cn(n), cnt(max(cls, n));
     for (ll i=0; i<n; ++i) {
         p[i] = i;
         c[i] = s[i];
     }
-    for (ll h=1; h<=n; h*=2) {
+    for (ll h=1; h/2<n; h*=2) {
         for (ll i=0; i<n; ++i)
             p[i] = (p[i]+n-h/2)%n;
         fill(cnt.begin(), cnt.begin()+cls, 0);
@@ -2368,12 +2371,13 @@ vector<ll> suffix_array(string s) {
         }
         p.swap(pn);
         c.swap(cn);
+        if (cls==n)
+            break;
     }
-    return p;
+    sa = p;
 }
-```
-```cpp
-ll search(string s, string t, vector<ll> sa) {
+
+void search(string& s, string& t) {
     ll l=-1, r=sa.size();
     while (r-l>1) {
         ll m = (l+r)/2;
@@ -2382,7 +2386,8 @@ ll search(string s, string t, vector<ll> sa) {
         else
             l = m;
     }
-    return s.compare(sa[l], t.size(), t)==0 ? sa[l] : -1;
+    for (; l>=0 && s.compare(sa[l], t.size(), t)==0; --l)
+        "match from sa[l]";
 }
 ```
 
