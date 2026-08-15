@@ -2337,10 +2337,11 @@ void search(string& s, string& t) {
 }
 ```
 
-### Suffix Array / 接尾辞配列
+### ⭐ Suffix Array / 接尾辞配列
 
 ```cpp
 vector<ll> sa;
+vector<ll> lcp;
 
 void build(string s) {
     s += '$';
@@ -2374,20 +2375,47 @@ void build(string s) {
         if (cls==n)
             break;
     }
-    sa = p;
+    for (ll i=1; i<n; ++i)
+        sa.push_back(p[i]);
+    n = sa.size();
+    vector<ll> rk(n);
+    for (ll i=0; i<n; ++i)
+        rk[sa[i]] = i;
+    lcp = vector<ll>(n-1);
+    ll k = 0;
+    for (ll i=0; i<n; ++i) {
+        if (rk[i]==n-1) {
+            k = 0;
+            continue;
+        }
+        ll j = sa[rk[i]+1];
+        while (i+k<n && j+k<n && s[i+k]==s[j+k])
+            k += 1;
+        lcp[rk[i]] = k;
+        if (k>0)
+            k -= 1;
+    }
 }
 
 void search(string& s, string& t) {
-    ll l=-1, r=sa.size();
-    while (r-l>1) {
-        ll m = (l+r)/2;
-        if (s.compare(sa[m], t.size(), t)>0)
-            r = m;
+    ll l1=-1, r1=sa.size();
+    while (r1-l1>1) {
+        ll m1 = (l1+r1)/2;
+        if (s.compare(sa[m1], t.size(), t)>=0)
+            r1 = m1;
         else
-            l = m;
+            l1 = m1;
     }
-    for (; l>=0 && s.compare(sa[l], t.size(), t)==0; --l)
-        "match from sa[l]";
+    ll l2 = -1, r2=sa.size();
+    while (r2-l2>1) {
+        ll m2 = (l2+r2)/2;
+        if (s.compare(sa[m2], t.size(), t)>0)
+            r2 = m2;
+        else
+            l2 = m2;
+    }
+    for (ll i=r1; i<r2; ++i)
+        "match from sa[i]";
 }
 ```
 
