@@ -2419,7 +2419,70 @@ void search(string& s, string& t) {
 }
 ```
 
-### Aho-Corasick Automaton / エイホ–コラシック法
+### AC Automaton / ACオートマトン
+
+```cpp
+ll nxt[M][S];
+ll fail[M];
+vector<ll> out[M];
+ll link[M];
+ll cnt = 1;
+
+void insert(string& t, ll id) {
+    ll v = 0;
+    for (char ch : t) {
+        ll c = ch-'a';
+        if (nxt[v][c]==0)
+            nxt[v][c] = cnt++;
+        v = nxt[v][c];
+    }
+    out[v].push_back(id);
+}
+
+void build() {
+    queue<ll> q;
+    for (ll c=0; c<S; ++c) {
+        ll v = nxt[0][c];
+        if (v!=0) {
+            fail[v] = 0;
+            link[v] = 0;
+            q.push(v);
+        }
+    }
+    while (!q.empty()) {
+        ll v = q.front();
+        q.pop();
+        for (ll c=0; c<S; ++c) {
+            ll u = nxt[v][c];
+            if (u!=0) {
+                fail[u] = nxt[fail[v]][c];
+                if (!out[fail[u]].empty())
+                    link[u] = fail[u];
+                else
+                    link[u] = link[fail[u]];
+                q.push(u);
+            }
+            else {
+                nxt[v][c] = nxt[fail[v]][c];
+            }
+        }
+    }
+}
+
+void search(string& s) {
+    ll v = 0;
+    for (ll i=0; i<(ll)s.size(); ++i) {
+        ll c = s[i]-'a';
+        v = nxt[v][c];
+        for (ll id : out[v])
+            "pattern id match ending at i";
+        for (ll u=link[v]; u!=0; u=link[u]) {
+            for (ll id : out[u])
+                "pattern id match ending at i";
+        }
+    }
+}
+```
 
 ## 🍊 Game / ゲーム
 
