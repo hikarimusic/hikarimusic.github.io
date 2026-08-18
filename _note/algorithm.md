@@ -2273,9 +2273,9 @@ void solve(ll n) {
 ```
 
 
-## 🍊 String / 文字列
+## String / 文字列
 
-### ⭐ String Hashing / 文字列ハッシュ化
+### String Hashing / 文字列ハッシュ化
 
 ```cpp
 ll hashing(string& s) {
@@ -2305,7 +2305,7 @@ ll query(ll l, ll r) {
 }
 ```
 
-### ⭐ KMP Algorithm / KMP法
+### KMP Algorithm / KMP法
 
 ```cpp
 ll pi[M];
@@ -2337,7 +2337,7 @@ void search(string& s, string& t) {
 }
 ```
 
-### ⭐ Suffix Array / 接尾辞配列
+### Suffix Array / 接尾辞配列
 
 ```cpp
 vector<ll> sa;
@@ -2422,18 +2422,16 @@ void search(string& s, string& t) {
 ### AC Automaton / ACオートマトン
 
 ```cpp
-ll nxt[M][S];
-ll fail[M];
+ll nod=1, alp=26;
+ll nxt[M][S], fil[M], lnk[M];
 vector<ll> out[M];
-ll link[M];
-ll cnt = 1;
 
 void insert(string& t, ll id) {
     ll v = 0;
     for (char ch : t) {
         ll c = ch-'a';
         if (nxt[v][c]==0)
-            nxt[v][c] = cnt++;
+            nxt[v][c] = nod++;
         v = nxt[v][c];
     }
     out[v].push_back(id);
@@ -2441,29 +2439,29 @@ void insert(string& t, ll id) {
 
 void build() {
     queue<ll> q;
-    for (ll c=0; c<S; ++c) {
+    for (ll c=0; c<alp; ++c) {
         ll v = nxt[0][c];
         if (v!=0) {
-            fail[v] = 0;
-            link[v] = 0;
+            fil[v] = 0;
+            lnk[v] = 0;
             q.push(v);
         }
     }
     while (!q.empty()) {
         ll v = q.front();
         q.pop();
-        for (ll c=0; c<S; ++c) {
+        for (ll c=0; c<alp; ++c) {
             ll u = nxt[v][c];
             if (u!=0) {
-                fail[u] = nxt[fail[v]][c];
-                if (!out[fail[u]].empty())
-                    link[u] = fail[u];
+                fil[u] = nxt[fil[v]][c];
+                if (!out[fil[u]].empty())
+                    lnk[u] = fil[u];
                 else
-                    link[u] = link[fail[u]];
+                    lnk[u] = lnk[fil[u]];
                 q.push(u);
             }
             else {
-                nxt[v][c] = nxt[fail[v]][c];
+                nxt[v][c] = nxt[fil[v]][c];
             }
         }
     }
@@ -2476,7 +2474,7 @@ void search(string& s) {
         v = nxt[v][c];
         for (ll id : out[v])
             "pattern id match ending at i";
-        for (ll u=link[v]; u!=0; u=link[u]) {
+        for (ll u=lnk[v]; u!=0; u=lnk[u]) {
             for (ll id : out[u])
                 "pattern id match ending at i";
         }
