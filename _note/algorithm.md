@@ -86,10 +86,14 @@ bool search(ll p, ll n) {
 
 ### Greedy Algorithm / 貪欲法
 ```cpp
-void solve() {
-    "preprocess";
-    for (ll i=0; i<N; ++i) {
-        "optimize";
+vector<ll> V;
+
+void solve(ll n) {
+    sort(V.begin(), V.end(), [](ll a, ll b) {
+        return "condition of a precede b";
+    });
+    for (ll i=0; i<n; ++i) {
+        "construct with V[i]";
     }
 }
 ```
