@@ -14,8 +14,8 @@ CP
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
-using ld = long double;
+using ll = long long; // __int128
+using ld = long double; // __float128
 using pll = array<ll,2>;
 using vll = vector<ll>;
 using pt = complex<ld>;
@@ -25,6 +25,7 @@ const ld EPS = 0.000000000001;
 #define all(x) (x).begin(), (x).end()
 #define sz(x) (ll)(x).size()
 #define debug(x) cerr << #x << " = " << x << '\n'
+
 
 
 void solve() {
