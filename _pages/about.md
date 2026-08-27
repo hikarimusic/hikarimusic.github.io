@@ -14,7 +14,7 @@ Welcome to HikariMusic site, I am [董宇光]({% link _pages/cv.md %}) from Taiw
 * As an amateur composer, I create music under the name [HIKARINO](https://eggs.mu/artist/HikariMusic)
 * As an amateur engineer, I develop software under the name [HikariMusic](https://github.com/hikarimusic)
 * As a medicine enthusiast, 🍊⭐
-* As a physics enthusiast, I won a silver medal in [IPHO](https://ipho-unofficial.org/countries/TWN/individual#:~:text=Yeu-Guang%20Tung)
+* As a physics enthusiast, I won a silver medal in [IPHO](https://ipho-unofficial.org/timeline/2019/individual#:~:text=Yeu-Guang%20Tung)
 * As an algorithm enthusiast, 🍊⭐
 
 ## News

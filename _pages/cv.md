@@ -25,4 +25,4 @@ Nation Rank 1, Taiwan Medical Licensing Examination (Step 2)
 
 School Rank 1, Taipei Municipal Chien Kuo High School (Overall Grade)
 
-Silver Medal, 50th International Physics Olympiad
+Silver Medal, International Physics Olympiad (IPHO 2019)
