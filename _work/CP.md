@@ -7,7 +7,7 @@ tags:
 toc: true
 ---
 
-CP
+Competitive programming
 
 ### Template
 
