@@ -1770,6 +1770,14 @@ void fft(vector<pt>& a, bool inv) {
 }
 
 vector<ll> conv(vector<ll>& a, vector<ll>& b) {
+    if (min(a.size(), b.size())<=60) {
+        vector<ll> res(a.size()+b.size()-1);
+        for (ll i=0; i<(ll)a.size(); ++i) {
+            for (ll j=0; j<(ll)b.size(); ++j)
+                res[i+j] += a[i]*b[j];
+        }
+        return res;
+    }
     vector<pt> fa(a.begin(), a.end());
     vector<pt> fb(b.begin(), b.end());
     ll s = a.size()+b.size()-1;
@@ -1835,6 +1843,14 @@ void ntt(vector<ll>& a, bool inv, ll m, ll r) {
 
 // m=998244353, r=3
 vector<ll> conv(vector<ll>& a, vector<ll>& b, ll m, ll r) {
+    if (min(a.size(), b.size())<=60) {
+        vector<ll> res(a.size()+b.size()-1);
+        for (ll i=0; i<(ll)a.size(); ++i) {
+            for (ll j=0; j<(ll)b.size(); ++j)
+                res[i+j] = (res[i+j]+a[i]*b[j]) % m;
+        }
+        return res;
+    }
     vector<ll> fa(a.begin(), a.end());
     vector<ll> fb(b.begin(), b.end());
     ll s = a.size()+b.size()-1;
