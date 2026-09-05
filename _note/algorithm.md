@@ -1739,10 +1739,7 @@ ll gauss(ll n, ll m) {
 
 ### Fast Fourier Transform / 高速フーリエ変換
 ```cpp
-using cd = complex<double>;
-const double PI = acos(-1);
-
-void fft(vector<cd>& a, bool inv=0) {
+void fft(vector<pt>& a, bool inv) {
     ll n = a.size();
     for (ll i=1, j=0; i<n; ++i) {
         ll b = n>>1;
@@ -1753,12 +1750,13 @@ void fft(vector<cd>& a, bool inv=0) {
             swap(a[i], a[j]);
     }
     for (ll l=2; l<=n; l*=2) {
-        double ag = 2*PI / l * (inv?-1:1);
-        cd wl(cos(ag), sin(ag));
+        ld ag = 2*PI / l * (inv?-1:1);
+        pt wl(cos(ag), sin(ag));
         for (ll i=0; i<n; i+=l) {
-            cd w(1);
+            pt w(1);
             for (ll j=0; j<l/2; ++j) {
-                cd u=a[i+j], v=a[i+j+l/2]*w;
+                pt u = a[i+j];
+                pt v = a[i+j+l/2]*w;
                 a[i+j] = u+v;
                 a[i+j+l/2] = u-v;
                 w *= wl;
@@ -1771,22 +1769,87 @@ void fft(vector<cd>& a, bool inv=0) {
     }
 }
 
-vector<ll> multiply(vector<ll> a, vector<ll> b) {
-    vector<cd> fa(a.begin(), a.end()), fb(b.begin(), b.end());
+vector<ll> conv(vector<ll>& a, vector<ll>& b) {
+    vector<pt> fa(a.begin(), a.end());
+    vector<pt> fb(b.begin(), b.end());
+    ll s = a.size()+b.size()-1;
     ll n = 1;
-    while (n<a.size()+b.size())
+    while (n<s)
         n *= 2;
     fa.resize(n);
     fb.resize(n);
-    fft(fa);
-    fft(fb);
+    fft(fa, 0);
+    fft(fb, 0);
     for (ll i=0; i<n; ++i) 
         fa[i] *= fb[i];
     fft(fa, 1);
-    vector<ll> res(n);
-    for (ll i=0; i<n; ++i)
+    vector<ll> res(s);
+    for (ll i=0; i<s; ++i)
         res[i] = round(fa[i].real());
     return res;
+}
+```
+```cpp
+ll binpow(ll x, ll n, ll m) {
+    ll res = 1;
+    while (n>0) {
+        if (n&1)
+            res = res * x % m;
+        x = x * x % m;
+        n >>= 1;
+    }
+    return res;
+}
+
+void ntt(vector<ll>& a, bool inv, ll m, ll r) { 
+    ll n = a.size();
+    for (ll i=1, j=0; i<n; ++i) {
+        ll b = n>>1;
+        for (; j&b; b>>=1)
+            j ^= b;
+        j ^= b;
+        if (i<j)
+            swap(a[i], a[j]);
+    }
+    for (ll l=2; l<=n; l*=2) {
+        ll wl = binpow(r, (m-1)/l, m);
+        if (inv)
+            wl = binpow(wl, m-2, m);
+        for (ll i=0; i<n; i+=l) {
+            ll w = 1;
+            for (ll j=0; j<l/2; ++j) {
+                ll u = a[i+j];
+                ll v = a[i+j+l/2] * w % m;
+                a[i+j] = (u+v) % m;
+                a[i+j+l/2] = (u-v+m) % m;
+                w = w * wl % m;
+            }
+        }
+    }
+    if (inv) {
+        ll ninv = binpow(n, m-2, m);
+        for (ll i=0; i<n; ++i)
+            a[i] = a[i] * ninv % m;
+    }
+}
+
+// m=998244353, r=3
+vector<ll> conv(vector<ll>& a, vector<ll>& b, ll m, ll r) {
+    vector<ll> fa(a.begin(), a.end());
+    vector<ll> fb(b.begin(), b.end());
+    ll s = a.size()+b.size()-1;
+    ll n = 1;
+    while (n<s)
+        n *= 2;
+    fa.resize(n);
+    fb.resize(n);
+    ntt(fa, 0, m, r);
+    ntt(fb, 0, m, r);
+    for (ll i=0; i<n; ++i)
+        fa[i] = fa[i] * fb[i] % m;
+    ntt(fa, 1, m, r);
+    fa.resize(s);
+    return fa;
 }
 ```
 

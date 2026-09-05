@@ -22,6 +22,7 @@ using pt = complex<ld>;
 const ll INF = 1000000000000000009;
 const ll MOD = 998244353;
 const ld EPS = 0.000000000001;
+const ld PI = acos(-1);
 #define all(x) (x).begin(), (x).end()
 #define sz(x) (ll)(x).size()
 #define debug(x) cerr << #x << " = " << x << '\n'
