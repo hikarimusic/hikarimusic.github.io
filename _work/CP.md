@@ -18,6 +18,7 @@ using ll = long long; // __int128
 using ld = long double; // __float128
 using pll = array<ll,2>;
 using vll = vector<ll>;
+using mll = vector<vll>;
 using pt = complex<ld>;
 const ll INF = 1000000000000000009;
 const ll MOD = 998244353;

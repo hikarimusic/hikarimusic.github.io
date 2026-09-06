@@ -580,8 +580,8 @@ void bfs(ll s) {
             continue;
         vis[v] = 1;
         for (pll e : adj[v]) {
-            ll u = e.first;
-            ll w = e.second;
+            ll u = e[0];
+            ll w = e[1];
             if (dis[v]+w<dis[u]) {
                 dis[u] = dis[v] + w;
                 par[u] = v;
@@ -777,14 +777,14 @@ void dijkstra(ll s) {
     par[s] = -1;
     q.push({0, s});
     while (!q.empty()) {
-        ll v = q.top().second;
+        ll v = q.top()[1];
         q.pop();
         if (vis[v])
             continue;
         vis[v] = 1;
         for (pll e : adj[v]) {
-            ll u = e.first;
-            ll w = e.second;
+            ll u = e[0];
+            ll w = e[1];
             if (dis[v]+w<dis[u]) {
                 dis[u] = dis[v]+w;
                 par[u] = v;
@@ -895,7 +895,7 @@ ll prim(ll s, ll n) {
     par[s] = -1;
     q.push({0, s});
     while (!q.empty()) {
-        ll v = q.top().second;
+        ll v = q.top()[1];
         q.pop();
         if (vis[v])
             continue;
@@ -903,8 +903,8 @@ ll prim(ll s, ll n) {
         cnt += 1;
         wt += dis[v];
         for (pll e : adj[v]) {
-            ll u = e.first;
-            ll w = e.second;
+            ll u = e[0];
+            ll w = e[1];
             if (!vis[u] && w<dis[u]) {
                 dis[u] = w;
                 par[u] = v;
@@ -1191,9 +1191,9 @@ pll dfs(ll v, ll d, ll p) {
 }
 
 ll solve() {
-    ll s = dfs(1, 0, -1).second;
-    ll d = dfs(s, 0, -1).first;
-    // ll t = dfs(s, 0, -1).second;
+    ll s = dfs(1, 0, -1)[1];
+    ll d = dfs(s, 0, -1)[0];
+    // ll t = dfs(s, 0, -1)[1];
     // while (t!=-1) {
     //     arr.push_back(t);
     //     t = par[t];
@@ -1444,12 +1444,12 @@ ll mdiv(ll a, ll b) {
 
 ### Binary Exponentiation / 繰り返し二乗法
 ```cpp
-ll binpow(ll x, ll n, ll m) {
+ll binpow(ll a, ll n, ll m) {
     ll res = 1;
     while (n>0) {
         if (n&1)
-            res = res * x % m;
-        x = x * x % m;
+            res = res * a % m;
+        a = a * a % m;
         n >>= 1;
     }
     return res;
@@ -1458,12 +1458,12 @@ ll binpow(ll x, ll n, ll m) {
 
 ### Modular Inverse / モジュラ逆数
 ```cpp
-ll inv(ll a, ll m) { // m is prime
+ll modinv(ll a, ll m) { // m is prime
     return binpow(a, m-2, m);
 }
 ```
 ```cpp
-ll inv(ll a, ll m) { // a m coprime
+ll modinv(ll a, ll m) { // a m coprime
     ll x, y;
     extgcd(a, m, x, y);
     return ((x % m) + m) % m;
@@ -1537,7 +1537,7 @@ ll extgcd(ll a, ll b, ll& x, ll& y) {
 
 ### Divisor Enumeration / 約数列挙
 ```cpp
-vector<ll> divisor(ll n) {
+vll divisor(ll n) {
     vector<ll> res;
     for (ll i=1; i*i<=n; ++i) {
         if (n%i==0) {
@@ -1640,11 +1640,8 @@ void sieve(ll n) {
 
 ### Matrix Exponentiation / 行列累乗
 ```cpp
-typedef vector<ll> vec;
-typedef vector<vec> mat;
-
-mat matmul(mat &A, mat &B, ll m) {
-    mat C(A.size(), vec(B[0].size()));
+mll matmul(mll& A, mll& B, ll m) {
+    mll C(A.size(), vll(B[0].size()));
     for (ll i=0; i<A.size(); ++i) {
         for (ll j=0; j<B[0].size(); ++j) {
             for (ll k=0; k<A[0].size(); ++k)
@@ -1654,8 +1651,8 @@ mat matmul(mat &A, mat &B, ll m) {
     return C;
 }
 
-mat matpow(mat X, ll n, ll m) {
-    mat R(X.size(), vec(X.size()));
+mll matpow(mll X, ll n, ll m) {
+    mll R(X.size(), vll(X.size()));
     for (ll i=0; i<X.size(); ++i)
         R[i][i] = 1;
     while (n>0) {
@@ -1668,21 +1665,38 @@ mat matpow(mat X, ll n, ll m) {
 }
 ```
 
-### Linear Congruence Equation / 線形合同式
+### Chinese Remainder Theorem / 中国剰余定理
 ```cpp
-vector<ll> A(N), B(N), M(N);
+ll extgcd(ll a, ll b, ll& x, ll& y) {
+    if (b==0) {
+        x = 1;
+        y = 0;
+        return a;
+    }
+    ll g, x1, y1;
+    g = extgcd(b, a%b, x1, y1);
+    x = y1;
+    y = x1 - y1*(a/b);
+    return g;
+}
 
-pair<ll, ll> linear_congruence(ll n) {
+ll modinv(ll a, ll m) {
+    ll x, y;
+    extgcd(a, m, x, y);
+    return ((x % m) + m) % m;
+}
+
+pll CRT(vll& A, vll& B, vll& M) {
     ll x=0, m=1;
-    for (ll i=0; i<n; ++i) {
+    for (ll i=0; i<A.size(); ++i) {
         ll a=A[i]*m, b=B[i]-A[i]*x, d=gcd(a, M[i]);
         if (b%d!=0)
             return {0, -1};
-        ll y = (b/d) * mod_inv(a/d, M[i]/d) % (M[i]/d);
+        ll y = (b/d) * modinv(a/d, M[i]/d) % (M[i]/d);
         x += m*y;
         m *= M[i]/d;
     }
-    return {(x%m+m)%m, m};
+    return {(x%m+m)%m, m}; // {a, b}: x ≡ a (mod b)
 }
 ```
 
@@ -1769,7 +1783,7 @@ void fft(vector<pt>& a, bool inv) {
     }
 }
 
-vector<ll> conv(vector<ll>& a, vector<ll>& b) {
+vll conv(vll& a, vll& b) {
     if (min(a.size(), b.size())<=60) {
         vector<ll> res(a.size()+b.size()-1);
         for (ll i=0; i<(ll)a.size(); ++i) {
@@ -1798,12 +1812,12 @@ vector<ll> conv(vector<ll>& a, vector<ll>& b) {
 }
 ```
 ```cpp
-ll binpow(ll x, ll n, ll m) {
+ll binpow(ll a, ll n, ll m) {
     ll res = 1;
     while (n>0) {
         if (n&1)
-            res = res * x % m;
-        x = x * x % m;
+            res = res * a % m;
+        a = a * a % m;
         n >>= 1;
     }
     return res;
@@ -1842,7 +1856,7 @@ void ntt(vector<ll>& a, bool inv, ll m, ll r) {
 }
 
 // m=998244353, r=3
-vector<ll> conv(vector<ll>& a, vector<ll>& b, ll m, ll r) {
+vll conv(vll& a, vll& b, ll m, ll r) {
     if (min(a.size(), b.size())<=60) {
         vector<ll> res(a.size()+b.size()-1);
         for (ll i=0; i<(ll)a.size(); ++i) {
