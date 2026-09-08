@@ -1636,7 +1636,7 @@ void sieve(ll n) {
 ```
 
 
-## 🍊 Linear Algebra / 線型代数
+## Linear Algebra / 線型代数
 
 ### Matrix Exponentiation / 行列累乗
 ```cpp
@@ -1702,52 +1702,72 @@ pll CRT(vll& A, vll& B, vll& M) {
 
 ### Gaussian Elimination / ガウスの消去法
 ```cpp
-vector<vector<double>> A(N, vector<double>(M));
-vector<double> B(N), sol(M);
-
-ll gauss(ll n, ll m) {
-    vector<vector<double>> mat(n, vector<double>(m+1, 0));
+vector<ld> gauss(mll A, vll& B) { // ll gauss(vll A, ll B)
+    ll n = A.size();
+    ll m = A[0].size(); // ll m = max_bit
+    vector<vector<ld>> M(n, vector<ld>(m+1)); // vector<ll> M(n);
     for (ll i=0; i<n; ++i) {
-        for (ll j=0; j<m; ++j)
-            mat[i][j] = A[i][j];
-        mat[i][m] = B[i];
+        for (ll j=0; j<m; ++j) // M[i] = A[i] | (((B>>i)&1)<<m);
+            M[i][j] = A[i][j]; //
+        M[i][m] = B[i];        //
     }
     vector<ll> piv(m, -1);
-    for (ll c=0, r=0; c<m && r<n; ++c) {
+    ll r = 0;
+    for (ll c=0; c<m; ++c) {
         ll p = r;
         for (ll i=r; i<n; ++i) {
-            if (abs(mat[i][c])>abs(mat[p][c]))
+            if (abs(M[i][c])>abs(M[p][c])) // if ((M[i]>>c)&1)
                 p = i;
         }
-        if (abs(mat[p][c])<EPS)
+        if (abs(M[p][c])<EPS) // if (!((M[p]>>c)&1))
             continue;
-        swap(mat[r], mat[p]);
+        swap(M[r], M[p]);
         piv[c] = r;
         for (ll i=0; i<n; ++i) {
             if (i==r)
                 continue;
-            double cf = mat[i][c] / mat[r][c];
-            for (ll j=c; j<=m; ++j)
-                mat[i][j] -= mat[r][j] * cf;
+            ld f = M[i][c] / M[r][c];   // if ((M[i]>>c)&1)
+            for (ll j=c; j<=m; ++j)     //     M[i] ^= M[r];
+                M[i][j] -= M[r][j] * f; //
         }
         r += 1;
+        if (r>=n)
+            break;
     }
+    for (ll i=r; i<n; ++i) {
+        if (abs(M[i][m])>EPS) // if ((M[i]>>m)&1)
+            return {}; // return -1;
+    }
+    vector<ld> res(m); // ll res=0;
     for (ll j=0; j<m; ++j) {
         if (piv[j]!=-1)
-            sol[j] = mat[piv[j]][m] / mat[piv[j]][j];
+            res[j] = M[piv[j]][m] / M[piv[j]][j]; 
+            // res |= (((M[piv[j]]>>m)&1)<<j);
+        else
+            res[j] = INF; // return INF;
     }
-    for (ll i=0; i<n; ++i) {
-        double sum = 0;
-        for (ll j=0; j<m; ++j)
-            sum += mat[i][j] * sol[j];
-        if (abs(sum-mat[i][m])>EPS)
-            return 0;
+    return res;
+}
+```
+```cpp
+vector<ld> bas[M]; // ll bas[M];
+
+bool insert(vector<ld> x) { // bool insert(ll x)
+    ll m = x.size(); // ll m = max_bit;
+    for (ll j=m-1; j>=0; --j) {
+        if (abs(x[j])<EPS) // if((x&(1LL<<j))==0)
+            continue;
+        if (bas[j].size()>0) { // if (bas[j]!=0)
+            ld c = x[j] / bas[j][j];   // x ^= bas[j];
+            for (ll k=j; k>=0; --k)    //
+                x[k] -= bas[j][k] * c; //
+        }
+        else {
+            bas[j] = x;
+            return 1;
+        }
     }
-    for (ll j=0; j<m; ++j) {
-        if (piv[j]==-1)
-            return INF;
-    }
-    return 1;
+    return 0;
 }
 ```
 
