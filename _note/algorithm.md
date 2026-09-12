@@ -1903,252 +1903,41 @@ vll conv(vll& a, vll& b, ll m, ll r) {
 }
 ```
 
-## 🍊 Geometry / 幾何学
+## 🍊 Geometry / 幾何
 
 ### Geometry Library / 幾何ライブラリ
 ```cpp
-using Poll = complex<double>;
-
-double dot(const Poll &a, const Poll &b) {
-    return a.real()*b.real() + a.imag()*b.imag();
-}
-
-double det(const Poll &a, const Poll &b) {
-    return a.real()*b.imag() - a.imag()*b.real();
-}
-
-bool compare(const Poll &a, const Poll &b) {
-    return a.real()!=b.real() ? a.real()<b.real() : a.imag()<b.imag();
-}
-
-struct Line {
-    Poll a, b;
-    Line() = default;
-    Line(Poll a, Poll b) : a(a), b(b) {}
-};
-
-struct Segment : Line {
-    Segment() = default;
-    Segment(Poll a, Poll b) : Line(a, b) {}
-};
-
-struct Circle {
-    Poll p;
-    double r;
-    Circle() = default;
-    Circle(Poll p, double r) : p(p), r(r) {}
-};
-```
-```cpp
-ll ccw(Poll a, Poll b, Poll c) {
-    b -= a, c -= a;
-    if (det(b, c)>EPS)
-        return +1;
-    if (det(b, c)<-EPS)
-        return -1;
-    if (dot(b, c)<-EPS)
-        return +2;
-    if (norm(b)<norm(c)-EPS)
-        return -2;
-    return 0;
-}
-
-bool llersect(Segment s, Poll p) {
-    return ccw(s.a, s.b, p) == 0;
-}
-
-bool llersect(Segment s, Segment t) {
-    return ccw(s.a, s.b, t.a)*ccw(s.a, s.b, t.b)<=0 && ccw(t.a, t.b, s.a)*ccw(t.a, t.b, s.b)<=0;
-}
-
-bool llersect(Line l, Poll p) {
-    return abs(ccw(l.a, l.b, p))!=1;
-}
-
-bool llersect(Line l, Segment s) {
-    return det(l.b-l.a, s.a-l.a)*det(l.b-l.a, s.b-l.a)<EPS;
-}
-
-ll llersect(Line l, Line m) {
-    if (llersect(l, m.a) && llersect(l, m.b))
-        return 2;
-    if (abs(det(l.b-l.a, m.b-m.a))>EPS)
-        return 1;
-    return 0;
-}
-
-Poll projection(Line l, Poll p) {
-    double t = dot(p-l.a, l.b-l.a)/norm(l.b-l.a);
-    return l.a + (l.b-l.a)*t;
-}
-
-Poll reflection(Line l, Poll p) {
-    return p + (projection(l, p)-p)*2.0;
-}
-
-Poll crosspoll(Line l, Line m) {
-    double A = det(l.b-l.a, m.b-m.a);
-    double B = det(l.b-l.a, l.b-m.a);
-    if (A==0)
-        return Poll(1/EPS, 1/EPS);
-    return m.a + (m.b-m.a)*B/A;
-}
-
-double distance(Poll a, Poll b) {
+ld dist(pt a, pt b) {
     return abs(b-a);
 }
 
-double distance(Segment s, Poll p) {
-    Line l(s.a, s.b);
-    Poll h = projection(l, p);
-    if (llersect(s, h))
-        return abs(p-h);
-    return min(abs(s.a-p), abs(s.b-p));
+ld dot(pt a, pt b) {
+    return a.real()*b.real() + a.imag()*b.imag();
 }
 
-double distance(Segment s, Segment t) {
-    if (llersect(s, t))
-        return 0;
-    return min({distance(s, t.a), distance(s, t.b), distance(t, s.a), distance(t, s.b)});
+ld det(pt a, pt b) {
+    return a.real()*b.imag() - a.imag()*b.real();
 }
 
-double distance(Line l, Poll p) {
-    return abs(det(p-l.a, l.b-l.a))/abs(l.b-l.a);
+ld ang(pt a, pt b) {
+    return atan2(det(a, b), dot(a, b));
 }
 
-double distance(Line l, Segment s) {
-    if (llersect(l, s))
-        return 0;
-    return min(distance(l, s.a), distance(l, s.b));
+pt rot(pt a, ld ang) {
+    return a * pt{cos(ang), sin(ang)};
 }
 
-double distance(Line l, Line m) {
-    if (llersect(l, m))
-        return 0;
-    return distance(l, m.a);
-}
-```
-```cpp
-ll llersect(Circle c, Line l) {
-    Poll h = l.a + (l.b-l.a) * dot(c.p-l.a, l.b-l.a)/norm(l.b-l.a);
-    double d = abs(c.p-h);
-    if (c.r<d-EPS)
-        return 0;
-    if (abs(c.r-d)<EPS)
-        return 1;
-    return 2;
+pt proj(pt a, pt b, pt c) { // a-b, c
+    ld t = dot(c-a, b-a) / norm(b-a);
+    return a + (b-a)*t;
 }
 
-ll llersect(Circle c1, Circle c2) {
-    double d = abs(c1.p-c2.p);
-    if (c1.r+c2.r<d-EPS)
-        return 4;
-    if (abs(c1.r+c2.r-d)<EPS)
-        return 3;
-    if (abs(abs(c1.r-c2.r)-d)<EPS)
-        return 1;
-    if (abs(c1.r-c2.r)>d+EPS)
-        return 0;
-    return 2;
-}
-
-vector<Poll> crosspoll(Circle c, Line l) {
-    vector<Poll> res;
-    Poll h = l.a + (l.b-l.a) * dot(c.p-l.a, l.b-l.a)/norm(l.b-l.a);
-    ll mode = llersect(c, l);
-    if (mode==1) {
-        res.push_back(h);
-    }
-    if (mode==2) {
-        double b = sqrt(c.r*c.r-norm(h-c.p));
-        Poll e = (l.b-l.a)/abs(l.b-l.a);
-        res.push_back(h-e*b);
-        res.push_back(h+e*b);
-    }
-    return res;
-}
-
-vector<Poll> crosspoll(Circle c1, Circle c2) {
-    vector<Poll> res;
-    double d = abs(c2.p-c1.p);
-    ll mode = llersect(c1, c2);
-    if (mode==3) {
-        res.push_back(c1.p + (c2.p-c1.p)*c1.r/(c1.r+c2.r));
-    }
-    if (mode==1) {
-        if (c2.r<c1.r-EPS)
-            res.push_back(c1.p + (c2.p-c1.p)*c1.r/d);
-        else 
-            res.push_back(c2.p + (c1.p-c2.p)*c2.r/d);
-    }
-    if (mode==2) {
-        double a = (c1.r*c1.r+d*d-c2.r*c2.r) / (2*d);
-        double b = sqrt(c1.r*c1.r-a*a);
-        Poll e = (c2.p-c1.p)/abs(c2.p-c1.p);
-        res.push_back(c1.p + e*a - e*Poll(0, 1)*b);
-        res.push_back(c1.p + e*a + e*Poll(0, 1)*b);
-    }
-    return res;
-}
-
-vector<Line> tangent(Circle c, Poll p) {
-    vector<Line> res;
-    double d = abs(p-c.p);
-    if (abs(d-c.r)<EPS) {
-        res.push_back(Line(p, p+(p-c.p)*Poll(0, 1)));
-    }
-    if (d>c.r+EPS) {
-        vector<Poll> cp = crosspoll(c, Circle(p, sqrt(d*d-c.r*c.r)));
-        res.push_back(Line(cp[0], p));
-        res.push_back(Line(cp[1], p));
-    }
-    return res;
-}
-
-vector<Line> tangent(Circle c1, Circle c2) {
-    vector<Line> res;
-    double d = abs(c2.p-c1.p);
-    Poll u = (c2.p-c1.p)/abs(c2.p-c1.p);
-    Poll v = u*Poll(0, 1);
-    for (ll s : {-1, 1}) {
-        if (abs(d)<EPS)
-            break;
-        double cs = (c1.r+c2.r*s)/d;
-        if (abs(cs*cs-1)<EPS) {
-            Poll U = (cs>0 ? u : -u);
-            res.push_back(Line(c1.p+U*c1.r, c1.p+U*c1.r+v));
-        }
-        else if (1-cs*cs>EPS) {
-            Poll U = u*cs, V=v*sqrt(1-cs*cs);
-            res.push_back(Line(c1.p+(U+V)*c1.r, c2.p-(U+V)*(c2.r*s)));
-            res.push_back(Line(c1.p+(U-V)*c1.r, c2.p-(U-V)*(c2.r*s)));
-        }
-    }
-    return res;
-}
-```
-```cpp
-ll contain(vector<Poll> g, Poll p) {
-    bool in = false;
-    ll n = g.size();
-    for (ll i=0; i<n; ++i) {
-        Poll a=g[i]-p, b=g[(i+1)%n]-p;
-        if (a.imag()>b.imag())
-            swap(a, b);
-        if (a.imag()<EPS && b.imag()>EPS && det(a, b)>EPS)
-            in = !in;
-        if (abs(det(a, b))<EPS && dot(a, b)<EPS)
-            return 1;
-    }
-    return (in ? 2 : 0);
-}
-
-double area(vector<Poll> g) {
-    double a = 0;
-    ll n = g.size();
-    for (ll i=0; i<n; ++i)
-        a += det(g[i], g[(i+1)%n]);
-    return a*0.5;
+pt inter(pt a, pt b, pt c, pt d) { // a-b, c-d
+    ld s = det(b-a, d-c);
+    ld t = det(c-a, d-c);
+    if (abs(s)<EPS)
+        return {1/EPS, 1/EPS};
+    return a + (b-a)*t/s;
 }
 ```
 
