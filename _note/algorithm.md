@@ -1983,30 +1983,31 @@ ll contain(vector<pt>& ps, pt a) {
 
 ### Convex Hull / 凸包
 ```cpp
-ld det(const pt &a, const pt &b) {
+ld det(pt a, pt b) {
     return a.real()*b.imag() - a.imag()*b.real();
 }
 
-bool cmp(const pt &a, const pt &b) {
-    return a.real()!=b.real() ? a.real()<b.real() : a.imag()<b.imag();
-}
-
-vector<pt> solve(vector<pt> pts) {
-    sort(pts.begin(), pts.end(), cmp);
-    ll n=pts.size(), p=0;
+vector<pt> hull(vector<pt> ps) {
+    sort(ps.begin(), ps.end(), [](pt a, pt b) {
+        if (a.real()!=b.real())
+            return a.real()<b.real();
+        return a.imag()<b.imag();
+    });
+    ll n = ps.size();
+    ll p = 0;
     vector<pt> res(2*n);
     for (ll i=0; i<n; ++i) {
-        while (p>1 && det(res[p-1]-res[p-2], pts[i]-res[p-1])<EPS)
-            p--; // <EPS: lower hull, >-EPS: upper hull
-        res[p++] = pts[i];
+        while (p>1 && det(res[p-1]-res[p-2], ps[i]-res[p-1])<EPS)
+            p--; // <-EPS include boundary
+        res[p++] = ps[i];
     }
     for (ll i=n-2, t=p; i>=0; --i) {
-        while (p>t && det(res[p-1]-res[p-2], pts[i]-res[p-1])<EPS)
-            p--; // <EPS: upper hull, >-EPS: lower hull
-        res[p++] = pts[i];
+        while (p>t && det(res[p-1]-res[p-2], ps[i]-res[p-1])<EPS)
+            p--; // <-EPS include boundary
+        res[p++] = ps[i];
     }
-    res.resize(p-1); // first hull only: resize(p)
-    return res;
+    res.resize(p-1);
+    return res; // ccw
 }
 ```
 
