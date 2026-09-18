@@ -1940,6 +1940,46 @@ pt inter(pt a, pt b, pt c, pt d) { // a-b, c-d
     return a + (b-a)*t/s;
 }
 ```
+### Polygon / 多角形
+```cpp
+ld det(pt a, pt b) {
+    return a.real()*b.imag() - a.imag()*b.real();
+}
+
+ld area(vector<pt>& ps) {
+    ll n = ps.size();
+    ld res = 0;
+    for (ll i=0; i<n; ++i) {
+        res += det(ps[i], ps[(i+1)%n]);
+    }
+    return res/2; // >0 ccw, <0 cw
+}
+```
+```cpp
+ld dot(pt a, pt b) {
+    return a.real()*b.real() + a.imag()*b.imag();
+}
+
+ld det(pt a, pt b) {
+    return a.real()*b.imag() - a.imag()*b.real();
+}
+
+ll contain(vector<pt>& ps, pt a) {
+    ll n = ps.size();
+    ll res = -1;
+    for (ll i=0; i<n; ++i) {
+        pt v = ps[i]-a;
+        pt u = ps[(i+1)%n]-a;
+        if (v.imag()>u.imag())
+            swap(v, u);
+        if (abs(det(v, u))<EPS && dot(v, u)<EPS)
+            return 0;
+        if (v.imag()<EPS && u.imag()>EPS && det(v, u)>EPS)
+            res *= -1;
+    }
+    return res; // 1 in, 0 on, -1 out
+}
+```
 
 ### Convex Hull / 凸包
 ```cpp
