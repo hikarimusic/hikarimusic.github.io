@@ -2049,7 +2049,7 @@ void solve() {
 ```
 
 
-# Others / その他の
+# Others / その他
 
 ## Technique / テクニック
 
