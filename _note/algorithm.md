@@ -1903,7 +1903,7 @@ vll conv(vll& a, vll& b, ll m, ll r) {
 }
 ```
 
-## 🍊 Geometry / 幾何
+## Geometry / 幾何
 
 ### Geometry Library / 幾何ライブラリ
 ```cpp
@@ -1940,6 +1940,7 @@ pt inter(pt a, pt b, pt c, pt d) { // a-b, c-d
     return a + (b-a)*t/s;
 }
 ```
+
 ### Polygon / 多角形
 ```cpp
 ld det(pt a, pt b) {
@@ -2013,52 +2014,38 @@ vector<pt> hull(vector<pt> ps) {
 
 ### Sweep Line / 平面走査
 ```cpp
-void solve(ll n) {
-    vector<pair<double, ll>> v;
-    for (ll i=0; i<n; ++i) {
-        v.push_back({"<x_left[i]>", i});
-        v.push_back({"<x_right[i]>", i+n});
+struct event {
+    ll x, tp;
+    ll y1, y2, id;
+};
+
+void solve() {
+    ll add=0, rmv=1, qry=2; // custom order
+    vector<event> ve;
+    for ("object [x1, x2, y1, y2, id]") {
+        ve.push_back({x1, add, y1, y2, id});
+        ve.push_back({x2, rmv, y1, y2, id});
     }
-    sort(v.begin(), v.end());
-    set<pair<double, ll>> s;
-    for (auto p : v) {
-        ll i = p.second%n;
-        if (p.second<n) {
-            set<pair<double, ll>>::iterator it = "<binary search y[i]>";
-            "<construct solution>":
-            s.insert({"<y[i]>", i});
+    for ("query [x, y1, y2, id]") {
+        ve.push_back({x, qry, y1, y2, id});
+    }
+    sort(ve.begin(), ve.end(), [](auto a, auto b) {
+        if (a.x!=b.x)
+            return a.x<b.x;
+        return a.tp<b.tp;
+    });
+    for (auto e : ve) {
+        if (e.tp==add) {
+            "add point/range/object";
         }
-        else
-            s.erase({"<y[i]>", i});
+        else if (e.tp==rmv) {
+            "remove point/range/object"
+        }
+        else if (e.tp==qry) {
+            "query point/range"
+        }
     }
 }
-```
-
-### Plane Divide and Conquer / 平面の分割統治法
-```cpp
-using Poll = complex<double>;
-
-bool compare_x(const Poll &a, const Poll &b) {
-    return a.real()<b.real();
-}
-
-bool compare_y(const Poll &a, const Poll &b) {
-    return a.imag()<b.imag();
-}
-
-vector<Poll> ps;
-
-void rec(ll l, ll r) {
-    if (l==r)
-        "<base case>";
-    ll m = (l+r)/2;
-    rec(l, m);
-    rec(m+1, r);
-    inplace_merge(ps.begin()+l, ps.begin()+m+1, ps.begin()+r+1, compare_y);
-    "<combine>";
-}
-
-sort(ps.begin(), ps.end(), compare_x);
 ```
 
 
