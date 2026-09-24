@@ -3862,19 +3862,19 @@ $$
 = \sqrt{n_{\alpha}+1}\,|\ldots,n_{\alpha}+1,\ldots\rangle \\
 & && a_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
 = \sqrt{n_{\alpha}}\,|\ldots,n_{\alpha}-1,\ldots\rangle \\
-& && [a_{\alpha},a_{\beta}^{\dagger}]
-= \delta_{\alpha\beta},\quad
-[a_{\alpha}^{\dagger},a_{\beta}^{\dagger}]=0 \\
+& && [a_{\alpha}^{\dagger},a_{\beta}^{\dagger}]=0,\quad
+[a_{\alpha},a_{\beta}^{\dagger}]
+= \delta_{\alpha\beta} \\
 & \text{Fermion:} && c_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots\rangle
 = (-1)^{\sum_{\beta<\alpha}n_{\beta}}(1-n_{\alpha})
 |\ldots,1,\ldots\rangle \\
 & && c_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
 = (-1)^{\sum_{\beta<\alpha}n_{\beta}}n_{\alpha}
 |\ldots,0,\ldots\rangle \\
-& && \{c_{\alpha},c_{\beta}^{\dagger}\}
-= \delta_{\alpha\beta},\quad
-\{c_{\alpha}^{\dagger},c_{\beta}^{\dagger}\}=0,\quad
-(c_{\alpha}^{\dagger})^{2}=0
+& && \{c_{\alpha}^{\dagger},c_{\beta}^{\dagger}\}=0,\quad
+(c_{\alpha}^{\dagger})^{2}=0,\quad
+\{c_{\alpha},c_{\beta}^{\dagger}\}
+= \delta_{\alpha\beta}
 \end{aligned}
 $$
 {: .notice--info}
@@ -3882,6 +3882,14 @@ $$
 $$
 \begin{aligned}{}
 & \text{Boson:} \\
+& a_{\alpha}^{\dagger}a_{\beta}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= \sqrt{n_{\alpha}+1}\sqrt{n_{\beta}+1}
+|\ldots,n_{\alpha}+1,\ldots,n_{\beta}+1,\ldots\rangle \\
+& a_{\beta}^{\dagger}a_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= \sqrt{n_{\beta}+1}\sqrt{n_{\alpha}+1}
+|\ldots,n_{\alpha}+1,\ldots,n_{\beta}+1,\ldots\rangle \\
+& [a_{\alpha}^{\dagger},a_{\beta}^{\dagger}]|\ldots\rangle
+= 0 \\
 & a_{\alpha}a_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots\rangle
 = (n_{\alpha}+1)|\ldots,n_{\alpha},\ldots\rangle \\
 & a_{\alpha}^{\dagger}a_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
@@ -3894,15 +3902,18 @@ $$
 |\ldots,n_{\alpha}-1,\ldots,n_{\beta}+1,\ldots\rangle \\
 & [a_{\alpha},a_{\beta}^{\dagger}]|\ldots\rangle
 = \delta_{\alpha\beta}|\ldots\rangle \\
-& a_{\alpha}^{\dagger}a_{\beta}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
-= \sqrt{n_{\alpha}+1}\sqrt{n_{\beta}+1}
-|\ldots,n_{\alpha}+1,\ldots,n_{\beta}+1,\ldots\rangle \\
-& a_{\beta}^{\dagger}a_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
-= \sqrt{n_{\beta}+1}\sqrt{n_{\alpha}+1}
-|\ldots,n_{\alpha}+1,\ldots,n_{\beta}+1,\ldots\rangle \\
-& [a_{\alpha}^{\dagger},a_{\beta}^{\dagger}]|\ldots\rangle
-= 0 \\
 & \text{Fermion:} \\
+& c_{\alpha}^{\dagger}c_{\beta}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= (-1)^{t}(1-n_{\alpha})(1-n_{\beta})
+|\ldots,1,\ldots,1,\ldots\rangle \\
+& c_{\beta}^{\dagger}c_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
+= (-1)^{t+1}(1-n_{\beta})(1-n_{\alpha})
+|\ldots,1,\ldots,1,\ldots\rangle \\
+& \{c_{\alpha}^{\dagger},c_{\beta}^{\dagger}\}|\ldots\rangle
+= 0 \\
+& (c_{\alpha}^{\dagger})^{2}|\ldots\rangle
+= \frac{1}{2}\{c_{\alpha}^{\dagger},c_{\alpha}^{\dagger}\}|\ldots\rangle
+= 0 \\
 & c_{\alpha}c_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots\rangle
 = (1-n_{\alpha})|\ldots,n_{\alpha},\ldots\rangle \\
 & c_{\alpha}^{\dagger}c_{\alpha}|\ldots,n_{\alpha},\ldots\rangle
@@ -3914,18 +3925,7 @@ $$
 = (-1)^{s+1}(1-n_{\beta})n_{\alpha}
 |\ldots,0,\ldots,1,\ldots\rangle \\
 & \{c_{\alpha},c_{\beta}^{\dagger}\}|\ldots\rangle
-= \delta_{\alpha\beta}|\ldots\rangle \\
-& c_{\alpha}^{\dagger}c_{\beta}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
-= (-1)^{t}(1-n_{\alpha})(1-n_{\beta})
-|\ldots,1,\ldots,1,\ldots\rangle \\
-& c_{\beta}^{\dagger}c_{\alpha}^{\dagger}|\ldots,n_{\alpha},\ldots,n_{\beta},\ldots\rangle
-= (-1)^{t+1}(1-n_{\beta})(1-n_{\alpha})
-|\ldots,1,\ldots,1,\ldots\rangle \\
-& \{c_{\alpha}^{\dagger},c_{\beta}^{\dagger}\}|\ldots\rangle
-= 0 \\
-& (c_{\alpha}^{\dagger})^{2}|\ldots\rangle
-= \frac{1}{2}\{c_{\alpha}^{\dagger},c_{\alpha}^{\dagger}\}|\ldots\rangle
-= 0
+= \delta_{\alpha\beta}|\ldots\rangle
 \end{aligned}
 $$
 {: .notice--primary}
