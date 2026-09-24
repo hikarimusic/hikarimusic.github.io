@@ -2418,6 +2418,21 @@ void search(string& s) {
 
 ## 🍊 Game / ゲーム
 
+### Game DP / ゲームDP
+```cpp
+ll dp[N]; // fill -1
+
+ll rec(ll v) {
+    if (dp[v]!=-1)
+        return dp[v];
+    for ("next state u") {
+        if (rec(u)==0)
+            return dp[v]=1;
+    }
+    return dp[v]=0;
+}
+```
+
 ### Nim / Nim
 ```cpp
 vector<ll> arr(N);
