@@ -2435,13 +2435,13 @@ ll rec(ll v) {
 
 ### Nim / Nim
 ```cpp
-vector<ll> arr(N);
+ll arr[N];
 
-bool nim(ll n) {
+bool solve(ll n) {
     ll x = 0;
     for (ll i=0; i<n; ++i)
         x ^= arr[i];
-    return x > 0;
+    return x>0;
 }
 ```
 
