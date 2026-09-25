@@ -2416,11 +2416,11 @@ void search(string& s) {
 }
 ```
 
-## 🍊 Game / ゲーム
+## Game / ゲーム
 
 ### Game DP / ゲームDP
 ```cpp
-ll dp[N]; // fill -1
+ll dp[S]; // fill -1
 
 ll rec(ll v) {
     if (dp[v]!=-1)
@@ -2447,18 +2447,25 @@ bool solve(ll n) {
 
 ### Grundy Number / Grundy数
 ```cpp
-vector<ll> gru(X);
+ll gru[S]; // fill -1
+ll arr[N];
 
-void build(ll x) {
-    for (ll i=1; i<=x; ++i) {
-        set<ll> s;
-        for ("<next state>") {
-            s.insert(gru["<next state>"]);
-        }
-        ll g = 0;
-        while (s.count(g)>0)
-            g += 1;
-        gru[i] = g;
-    }
+ll rec(ll v) {
+    if (gru[v]!=-1)
+        return gru[v];
+    unordered_set<ll> st;
+    for ("next state u")
+        st.insert(rec(u));
+    ll g = 0;
+    while (st.find(g)!=st.end())
+        g += 1;
+    return gru[v]=g;
+}
+
+bool solve(ll n) {
+    ll x = 0;
+    for (ll i=0; i<n; ++i)
+        x ^= rec(arr[i]);
+    return x>0;
 }
 ```
