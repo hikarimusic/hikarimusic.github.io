@@ -1778,7 +1778,7 @@ $$
 & |\psi\rangle \in \mathcal{H} \\
 & \hat{A} = \hat{A}^\dagger \\
 & P(a_n) = |\langle a_n | \psi \rangle|^2 \\
-& i\hbar \frac{d}{d t} |\psi(t)\rangle  = \hat{H}|\psi(t)\rangle 
+& i\hbar \frac{d}{d t} |\psi\rangle  = \hat{H}|\psi\rangle 
 \end{aligned}
 $$
 {: .notice--info}
