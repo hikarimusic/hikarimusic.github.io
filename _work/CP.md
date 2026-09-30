@@ -26,7 +26,8 @@ const ld EPS = 0.000000000001;
 const ld PI = acos(-1);
 #define all(x) (x).begin(), (x).end()
 #define sz(x) (ll)(x).size()
-#define debug(x) cerr << #x << " = " << x << '\n'
+#define debug(x) cerr << #x << " = " << x << '\n';
+#define deworm(x) cerr << #x << " = "; for (auto e : (x)) cerr << e << ' '; cerr << '\n';
 
 ll N;
 
