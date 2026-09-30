@@ -1182,7 +1182,7 @@ vector<ll> par(N);
 
 pll dfs(ll v, ll d, ll p) {
     par[v] = p;
-    pair<ll, ll> res{d, v};
+    pll res{d, v};
     for (ll u : adj[v]) {
         if (u!=p)
             res = max(res, dfs(u, d+1, v));
@@ -2298,8 +2298,8 @@ void build(string s) {
         cn[pn[0]] = 0;
         cls = 1;
         for (ll i=1; i<n; ++i) {
-            pair<ll,ll> cur = {c[pn[i]], c[(pn[i]+h/2)%n]};
-            pair<ll,ll> pre = {c[pn[i-1]], c[(pn[i-1]+h/2)%n]};
+            pll cur = {c[pn[i]], c[(pn[i]+h/2)%n]};
+            pll pre = {c[pn[i-1]], c[(pn[i-1]+h/2)%n]};
             if (cur!=pre)
                 cls += 1;
             cn[pn[i]] = cls-1;
