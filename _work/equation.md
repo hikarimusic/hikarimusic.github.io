@@ -48,7 +48,68 @@ $$
 
 ## Statistical Foundation
 
-## Ensemble Theory
+## Ensemble Theory / 集団理論
+
+### Microcanonical Ensemble / 微正準集団
+
+$$
+\begin{aligned}{}
+& \Omega(E,V,N)=\sum_i \delta_{E,E_i} \\
+& p_i=\frac{1}{\Omega} \\
+& S=k\ln\Omega \\
+& T^{-1}=k\left(\frac{\partial\ln\Omega}{\partial E}\right)_{V,N} \\
+& P=kT\left(\frac{\partial\ln\Omega}{\partial V}\right)_{E,N} \\
+& \mu=-kT\left(\frac{\partial\ln\Omega}{\partial N}\right)_{E,V}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Canonical Ensemble / 正準集団
+
+$$
+\begin{aligned}{}
+& Z(T,V,N)=\sum_i e^{-E_i/kT} \\
+& p_i=\frac{e^{-E_i/kT}}{Z} \\
+& S=k\ln Z+kT\left(\frac{\partial\ln Z}{\partial T}\right)_{V,N} \\
+& \langle E\rangle=kT^2\left(\frac{\partial\ln Z}{\partial T}\right)_{V,N} \\
+& P=kT\left(\frac{\partial\ln Z}{\partial V}\right)_{T,N} \\
+& \mu=-kT\left(\frac{\partial\ln Z}{\partial N}\right)_{T,V}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Grand Canonical Ensemble / 大正準集団
+
+$$
+\begin{aligned}{}
+& \Xi(T,V,\mu)=\sum_i e^{-(E_i-\mu N_i)/kT} \\
+& p_i=\frac{e^{-(E_i-\mu N_i)/kT}}{\Xi} \\
+& S=k\ln\Xi+kT\left(\frac{\partial\ln\Xi}{\partial T}\right)_{V,\mu} \\
+& \langle E\rangle
+=kT^2\left(\frac{\partial\ln\Xi}{\partial T}\right)_{V,\mu}
++kT\mu\left(\frac{\partial\ln\Xi}{\partial\mu}\right)_{T,V} \\
+& P=kT\left(\frac{\partial\ln\Xi}{\partial V}\right)_{T,\mu} \\
+& \langle N\rangle=kT\left(\frac{\partial\ln\Xi}{\partial\mu}\right)_{T,V}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Fluctuation / ゆらぎ
+
+$$
+\begin{aligned}{}
+& \left\langle(\Delta E)^2\right\rangle
+=\left(\frac{\partial^2\ln Z}{\partial\beta^2}\right)_{V,N},
+&& \frac{\sqrt{\left\langle(\Delta E)^2\right\rangle}}{\langle E\rangle}
+\propto\frac{1}{\sqrt{N}} \\
+& \left\langle(\Delta N)^2\right\rangle
+=\frac{1}{\beta^2}
+\left(\frac{\partial^2\ln\Xi}{\partial\mu^2}\right)_{T,V},
+&& \frac{\sqrt{\left\langle(\Delta N)^2\right\rangle}}{\langle N\rangle}
+\propto\frac{1}{\sqrt{\langle N\rangle}}
+\end{aligned}
+$$
+{: .notice--info}
 
 ## Ideal Classical System
 
