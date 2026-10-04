@@ -161,5 +161,11 @@ Treatment goal:
 
 **Discharge**
 ```text
+#. Pregnancy for []+[] weeks, with {previous Cesarean section / fetal malpresentation / placenta previa / previous myomectomy history}, for scheduled Cesarean section
+```
+```text
+#. Pregnancy for []+[] weeks, with {previous Cesarean section / fetal malpresentation / placenta previa / previous myomectomy history}, status post Cesarean section on []
+```
+```text
 After admission, cardiotocography was kept. Cesarean section was performed on []. A live premature male baby was delivered by vertex extraction at [] with birth weight [] gram and Apgar score [] to []. The postpartum course was uneventful without complication. She was discharged on [] and will receive OPD follow-up.
 ```
