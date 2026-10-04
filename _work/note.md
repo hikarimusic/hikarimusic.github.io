@@ -9,6 +9,8 @@ toc: true
 
 Ward note
 
+{% include toc %}
+
 <style>
 pre {
   white-space: pre-wrap;
@@ -159,10 +161,5 @@ Treatment goal:
 
 **Discharge**
 ```text
-After admission, cardiotocography was kept. Cesarean section was
-performed on []. A live premature male baby was delivered
-by vertex extraction at [] with birth weight [] gram and Apgar
-score [] to []. The postpartum course was uneventful without
-complication. She was discharged on [] and will receive OPD
-follow-up.
+After admission, cardiotocography was kept. Cesarean section was performed on []. A live premature male baby was delivered by vertex extraction at [] with birth weight [] gram and Apgar score [] to []. The postpartum course was uneventful without complication. She was discharged on [] and will receive OPD follow-up.
 ```
