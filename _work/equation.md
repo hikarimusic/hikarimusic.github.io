@@ -111,11 +111,103 @@ $$
 $$
 {: .notice--info}
 
-## Ideal Classical System
+## Classical System / 古典系
+
+### Equipartition Theorem / エネルギー等分配則
+
+$$
+\begin{aligned}{}
+& H=\sum_{\alpha}a_{\alpha}x_{\alpha}^{2} \\
+& \left\langle a_{\alpha}x_{\alpha}^{2}\right\rangle=\frac{1}{2}kT \\
+& \langle E\rangle=\frac{f}{2}NkT
+\end{aligned}
+$$
+{: .notice--info}
+
+### Maxwell–Boltzmann Distribution / Maxwell–Boltzmann分布
+
+$$
+\begin{aligned}{}
+& f(v)=4\pi\left(\frac{m}{2\pi kT}\right)^{3/2}
+v^{2}\exp\left(-\frac{mv^{2}}{2kT}\right) \\
+& \sqrt{\left\langle v^{2}\right\rangle}
+=\sqrt{\frac{3kT}{m}} \\
+& \langle E\rangle=\frac{3}{2}kT
+\end{aligned}
+$$
+{: .notice--info}
+
+### Classical Ideal Gas / 古典理想気体
+
+$$
+\begin{aligned}{}
+& Z=\frac{V^{N}(2\pi mkT)^{3N/2}}{N!\,h^{3N}} \\
+& S=Nk\left[
+\ln\left(
+\frac{V(2\pi mkT)^{3/2}}{Nh^{3}}
+\right)+\frac{5}{2}
+\right] \\
+& \langle E\rangle=\frac{3}{2}NkT \\
+& P=\frac{NkT}{V} \\
+& \mu=-kT\ln\left(
+\frac{V(2\pi mkT)^{3/2}}{Nh^{3}}
+\right)
+\end{aligned}
+$$
+{: .notice--info}
+
+### Classical Harmonic Oscillator / 古典調和振動子
+
+$$
+\begin{aligned}{}
+& Z=\left(\frac{kT}{\hbar\omega}\right)^N \\
+& S=Nk\left[\ln\left(\frac{kT}{\hbar\omega}\right)+1\right] \\
+& \langle E\rangle=NkT \\
+& P=0 \\
+& \mu=-kT\ln\left(\frac{kT}{\hbar\omega}\right)
+\end{aligned}
+$$
+{: .notice--info}
+
+### Classical Paramagnetism / 古典常磁性
+
+$$
+\begin{aligned}{}
+& Z=\left[
+\frac{4\pi kT}{\mu B}
+\sinh\left(\frac{\mu B}{kT}\right)
+\right]^N \\
+& S=Nk\left[
+\ln\left(
+\frac{4\pi kT}{\mu B}
+\sinh\left(\frac{\mu B}{kT}\right)
+\right)
+-\frac{\mu B}{kT}
+\left(
+\coth\left(\frac{\mu B}{kT}\right)
+-\frac{kT}{\mu B}
+\right)
+\right] \\
+& \langle E\rangle
+=-N\mu B\left[
+\coth\left(\frac{\mu B}{kT}\right)
+-\frac{kT}{\mu B}
+\right] \\
+& M=N\mu\left[
+\coth\left(\frac{\mu B}{kT}\right)
+-\frac{kT}{\mu B}
+\right] \\
+& \frac{\mu B}{kT}\ll 1 \to
+M=\frac{N\mu^2}{3kT}B, \quad
+\frac{\mu B}{kT}\gg 1 \to
+M=N\mu
+\end{aligned}
+$$
+{: .notice--info}
 
 ## Quantum Statistics
 
-## Ideal Quantum System
+## Quantum System
 
 ## Interacting System
 
