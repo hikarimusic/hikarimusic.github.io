@@ -9,17 +9,24 @@ toc: true
 
 Ward note
 
+<style>
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+</style>
+
 ## OBGYN
 
 ### CS
 
-<div class="notice--info" markdown="1">
-
-**Chief Complaint**
+**Admission**
+```text
 Informant: patient and past medical records
 Pregnancy for []+[] weeks, with {previous Cesarean section / fetal malpresentation / placenta previa / previous myomectomy history}, for scheduled Cesarean section
-
-**Patient History**
+```
+```text
 【Present Illness】
 This []-year-old, gravida-[] para-[] woman is pregnant for []+[] weeks. She received regular prenatal examination at Dr.[]'s outpatient clinic. {First trimester Down screening / Second trimester NIPT} revealed low risk for Down syndrome. Amniocentesis {was not performed / was performed and showed normal karyotype}. Level II sonography did not show major anomaly of the fetus. 
 
@@ -56,8 +63,8 @@ Sonography examination at our clinic revealed {singleton / twin} pregnancy with 
    SMA genetic testing: not performed
    Fragile X genetic testing: not performed
 11. Vaccination during pregnancy: denied
-
-**Review of Systems**
+```
+```text
 1. Systemic: weight loss(-), anorexia(-), night sweats(-), fever(-), dizziness(-), easy-fatigue(-)
 2. HEENT: headache(-), neck mass(-), epistaxis(-), oral ulcer(-)
 3. Cardiovascular: exertional dyspnea(-), orthopnea(-), syncope(-), palpitation(-), intermittent claudication(-)
@@ -70,8 +77,8 @@ Sonography examination at our clinic revealed {singleton / twin} pregnancy with 
 10. Skin: rash(-), pruritus(-), dryness(-), jaundice(-), color changes(-)
 
 Others: lower abdominal tightness(-), vaginal bleeding(-), vaginal watery discharge(-)
-
-**Physical Examination**
+```
+```text
 Neurological Examination: 
 . Consciousness: clear
 . Muscle power: full 
@@ -97,8 +104,8 @@ Neurological Examination:
 8. Extremities: mild pitting edema, free range of motion.
 
 Pelvic Examination: Not performed
-
-**SOAP**
+```
+```text
 #. Pregnancy for []+[] weeks, with {previous Cesarean section / fetal malpresentation / placenta previa / previous myomectomy history}, for scheduled Cesarean section
 
 【S】
@@ -119,24 +126,22 @@ Pelvic Examination: Not performed
 Treatment goal:
 . Monitor fetal condition via cardiotocography and deliver healthy neonate.
 . Post delivery day 5 discharge.
+```
 
-</div>
-
-<div class="notice--info" markdown="1">
-
-**S**
+**Progress**
+```text
 {CS today / POD[]}
 . Tolerable wound and contraction pain
 . No nausea or vomiting
 . Flatus(-), stool passage(-)
-
-**O**
+```
+```text
 . T: [] °C, P: [] bpm, R: [] /min
 . BP: []/[] mmHg
 . Pain: []/10
 . Hb: [] g/dL, WBC [] K/μL
-
-**A**
+```
+```text
 . Special discomfort: uterine contraction pain.
 . General Appearance: fair.
 . Uterus contraction: hard.
@@ -144,22 +149,20 @@ Treatment goal:
 . Operation wound: no discharge.
 . Pain special management: bain iv.
 . Current medication:
-
-**P**
+```
+```text
 . Keep post-partum care
 . Encourage early ambulation and breast feeding
 . Post-OP wound management on POD1
 . May be discharged on POD5
+```
 
-</div>
-
-<div class="notice--info" markdown="1">
-
+**Discharge**
+```text
 After admission, cardiotocography was kept. Cesarean section was
 performed on []. A live premature male baby was delivered
 by vertex extraction at [] with birth weight [] gram and Apgar
 score [] to []. The postpartum course was uneventful without
 complication. She was discharged on [] and will receive OPD
 follow-up.
-
-</div>
+```
