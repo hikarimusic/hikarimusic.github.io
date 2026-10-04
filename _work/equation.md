@@ -76,13 +76,13 @@ $$
 $$
 \begin{aligned}{}
 & U = U,
-&& dU &= T\,dS-P\,dV+\mu\,dN \\
+&& dU = T\,dS-P\,dV+\mu\,dN \\
 & H = U+PV,
-&& dH &= T\,dS+V\,dP+\mu\,dN \\
+&& dH = T\,dS+V\,dP+\mu\,dN \\
 & F = U-TS,
-&& dF &= -S\,dT-P\,dV+\mu\,dN \\
+&& dF = -S\,dT-P\,dV+\mu\,dN \\
 & G = U-TS+PV,
-&& dG &= -S\,dT+V\,dP+\mu\,dN
+&& dG = -S\,dT+V\,dP+\mu\,dN
 \end{aligned}
 $$
 {: .notice--info}
