@@ -149,7 +149,7 @@ Treatment goal:
 . Uterus contraction: hard.
 . Lochia: little.
 . Operation wound: no discharge.
-. Pain special management: bain iv.
+. Pain special management: PCA.
 . Current medication:
 ```
 ```text
