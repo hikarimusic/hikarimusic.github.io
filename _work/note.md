@@ -30,9 +30,9 @@ Pregnancy for []+[] weeks, with {previous Cesarean section / fetal malpresentati
 ```
 ```text
 【Present Illness】
-This []-year-old, gravida-[] para-[] woman is pregnant for []+[] weeks. She received regular prenatal examination at Dr.[]'s outpatient clinic. {First trimester Down screening / Second trimester NIPT} revealed low risk for Down syndrome. Amniocentesis {was not performed / was performed and showed normal karyotype}. Level II sonography did not show major anomaly of the fetus. 
+This []-year-old, gravida-[] para-[] woman is pregnant for []+[] weeks. She received regular prenatal examination at Dr.[]'s outpatient clinic. {First / Second} trimester {Down screening / NIPT} revealed low risk for Down syndrome. Amniocentesis was {not performed / performed and showed normal karyotype}. Level II sonography did not show major anomaly of the fetus. 
 
-Her blood pressure remained in the normal range during this gestation. OGTT test showed {negative / positive} for gestation diabetes. 
+Her blood pressure remained in the normal range during this gestation. OGTT test showed {negative / positive} for gestation diabetes. Group B streptotoccus screening was {negative / positive}.
 
 Reviewing her history, her {first / second} pregnancy was complicated with {prolonged labor / cephalopelvic disproportion / fetal malpresentation / placenta previa}, and Cesarean section delivery was performed on []. Due to previous Cesarean section, she is admitted on [] for scheduled Cesarean section.
 
@@ -144,12 +144,12 @@ Treatment goal:
 . Hb: [] g/dL, WBC [] K/μL
 ```
 ```text
-. Special discomfort: uterine contraction pain.
-. General Appearance: fair.
-. Uterus contraction: hard.
-. Lochia: little.
-. Operation wound: no discharge.
-. Pain special management: PCA.
+. Special discomfort: uterine contraction pain
+. General Appearance: fair
+. Uterus contraction: hard
+. Lochia: little
+. Operation wound: no discharge
+. Pain special management: PCA
 . Current medication:
 ```
 ```text
