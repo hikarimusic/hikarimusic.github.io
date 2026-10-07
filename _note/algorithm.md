@@ -1600,19 +1600,23 @@ ll phi(ll n) {
 
 ### Sieve of Eratosthenes / エラトステネスの篩
 ```cpp
-bool prime[N];
+vector<ll> lp(N), pr;
 
 void sieve(ll n) {
-    prime[0] = prime[1] = false;
-    for (ll i=2; i<=n; ++i)
-        prime[i] = true;
-    for (ll i=2; i*i<=n; ++i) {
-        if (!prime[i])
+    for (ll i=2; i<=n; ++i) {
+        if (lp[i]!=0)
             continue;
-        for (ll j=i*i; j<=n; j+=i)
-            prime[j] = false;
+        lp[i] = i;
+        pr.push_back(i);
+        for (ll j=i*i; j<=n; j+=i) {
+            if (lp[j]==0)
+                lp[j] = i;
+        }   
     }
 }
+
+// is prime: lp[i]==i
+// factorize: while (x>1) x/=lp[x]
 ```
 ```cpp
 vector<ll> lp(N), pr;
