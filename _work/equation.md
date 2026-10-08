@@ -1,7 +1,7 @@
 ---
 title: 'Equation'
 date: 2000/01/01
-permalink: /temp/equation
+permalink: /work/equation
 tags:
   - note
 toc: true

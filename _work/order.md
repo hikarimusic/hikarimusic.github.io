@@ -40,14 +40,12 @@ pre {
 
 ### Intrapartum
 
-* Ringer-solution 1000ml ONCE IF
-* Cefazolin 1000mg ONCE IF
+* Cefazolin 1000mg ONCE IV
 * Oxytocin 20U PRN IF (ringer 500ml, 120min)
 * Carbetocin 100mcg PRN IV
 * Misoprostol 200mcg PRN SL
 * Methylergonovine 0.2mg PRN IM
 * Tranexamic-acid 1000mg PRN IF (NS 100ml, 30min)
-* Patient control analgesia
 
 ### Postpartum
 
@@ -63,6 +61,7 @@ pre {
 * MgO 500mg TID PO
 * Bisacodyl 20mg Q4HPRN R
 * Wound management
+* Patient control analgesia
 
 ### Tocolysis
 
@@ -70,7 +69,6 @@ pre {
 * Nifedipine 10mg Q4H PO
 * Ritodrine 100mg BID IF (ringer 500ml, 20ml/hr)
 * Atosiban 75mg BID IF (NS 100ml, 9ml/hr)
-* Azithromycin 1000mg ONCE PO
 * Cefmetazole 1000mg Q8H IV
 
 ### Preeclampsia

@@ -1,7 +1,7 @@
 ---
 title: 'Disease'
 date: 2000/01/01
-permalink: /temp/disease
+permalink: /work/disease
 tags:
   - note
 toc: true
