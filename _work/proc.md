@@ -1,5 +1,5 @@
 ---
-title: 'Order'
+title: 'Procedure'
 date: 2023-01-01
 permalink: /work/proc
 tags:
