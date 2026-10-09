@@ -57,20 +57,6 @@ $$
 $$
 {: .notice--info}
 
-### Thermodynamic Equilibrium / 熱力学平衡
-
-$$
-\begin{aligned}{}
-& T = \left(\frac{\partial U}{\partial S}\right)_{V,N},
-&& T_{\alpha}=T_{\beta} \\
-& P = -\left(\frac{\partial U}{\partial V}\right)_{S,N},
-&& P_{\alpha}=P_{\beta} \\
-& \mu = \left(\frac{\partial U}{\partial N}\right)_{S,V},
-&& \mu_{\alpha}=\mu_{\beta}
-\end{aligned}
-$$
-{: .notice--info}
-
 ### Thermodynamic Potential / 熱力学ポテンシャル
 
 $$
@@ -121,16 +107,14 @@ $$
 
 $$
 \begin{aligned}{}
-& C_V=T\left(\frac{\partial S}{\partial T}\right)_{V,N} \\
-& C_P=T\left(\frac{\partial S}{\partial T}\right)_{P,N} \\
-& dU=C_V\,dT+
+& C_V=T\left(\frac{\partial S}{\partial T}\right)_{V,N}, && dU=C_V\,dT+
 \left[
 T\left(\frac{\partial P}{\partial T}\right)_{V,N}-P
 \right]dV \\
-& dH=C_P\,dT+
+& C_P=T\left(\frac{\partial S}{\partial T}\right)_{P,N}, && dH=C_P\,dT+
 \left[
 V-T\left(\frac{\partial V}{\partial T}\right)_{P,N}
-\right]dP
+\right]dP \\
 \end{aligned}
 $$
 {: .notice--info}
