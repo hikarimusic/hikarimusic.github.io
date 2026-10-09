@@ -1614,9 +1614,6 @@ void sieve(ll n) {
         }   
     }
 }
-
-// is prime: lp[i]==i
-// factorize: while (x>1) x/=lp[x]
 ```
 ```cpp
 vector<ll> lp(N), pr;
@@ -1634,9 +1631,6 @@ void sieve(ll n) {
         }
     }
 }
-
-// is prime: lp[i]==i
-// factorize: while (x>1) x/=lp[x]
 ```
 
 
