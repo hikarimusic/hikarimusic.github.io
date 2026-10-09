@@ -119,7 +119,42 @@ V-T\left(\frac{\partial V}{\partial T}\right)_{P,N}
 $$
 {: .notice--info}
 
-## Statistical Foundation
+## Foundation / 基礎
+
+### Extensive Property / 示量状態量
+
+$$
+\begin{aligned}{}
+& E = H(\mathbf{q},\mathbf{p}) \\
+& S = -k\sum_i p_i\ln p_i \\
+& \Omega = \frac{1}{N!h^{3N}}\int d^{3N}q\,d^{3N}p
+\end{aligned}
+$$
+{: .notice--info}
+
+### Intensive Property / 示強状態量
+
+$$
+\begin{aligned}{}
+ \frac{1}{T}
+&= \left(\frac{\partial S}{\partial E}\right)_{N,V} \\
+ \frac{P}{T}
+&= \left(\frac{\partial S}{\partial V}\right)_{E,N} \\
+ -\frac{\mu}{T}
+&= \left(\frac{\partial S}{\partial N}\right)_{E,V}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Liouville Theorem / Liouvilleの定理
+
+$$
+\frac{d\rho}{dt}
+= \frac{\partial\rho}{\partial t}
++\{\rho,H\}
+= 0
+$$
+{: .notice--info}
 
 ## Ensemble Theory / 集団理論
 
