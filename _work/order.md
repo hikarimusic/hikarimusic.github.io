@@ -326,6 +326,7 @@ pre {
 * Stool OB
 * RBC 2U transfusion (if Hb < 7)
 * Diphenhydramine 30 mg STAT IF (in NS 100 mL, run 15 min, before transfusion)
+* Fe(III) 100mg QD PO
 
 ###  Thrombocytopenia
 

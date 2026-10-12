@@ -169,3 +169,8 @@ Treatment goal:
 ```text
 After admission, cardiotocography was kept. Cesarean section was performed on []. A live premature male baby was delivered by vertex extraction at [] with birth weight [] gram and Apgar score [] to []. The postpartum course was uneventful without complication. She was discharged on [] and will receive OPD follow-up.
 ```
+```text
+妊娠 [] 週，合併[]，剖腹產後
+
+病人因上述疾病，於 [] 年 [] 月 [] 日在本院住院，醫學上建議行剖腹產，於 [] 年 [] 月 [] 日行剖腹生產手術產下一名{男/女}嬰，於 [] 年 [] 月 [] 日出院，宜於門診持續追蹤治療。
+```
