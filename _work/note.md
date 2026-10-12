@@ -167,7 +167,7 @@ Treatment goal:
 #. Pregnancy for []+[] weeks, with {previous Cesarean section / fetal malpresentation / placenta previa / previous myomectomy history}, status post Cesarean section on []
 ```
 ```text
-After admission, cardiotocography was kept. Cesarean section was performed on []. A live premature male baby was delivered by vertex extraction at [] with birth weight [] gram and Apgar score [] to []. The postpartum course was uneventful without complication. She was discharged on [] and will receive OPD follow-up.
+After admission, cardiotocography was kept. Cesarean section was performed on []. A live premature {male/female} baby was delivered by vertex extraction at [] with birth weight [] gram and Apgar score [] to []. The postpartum course was uneventful without complication. She was discharged on [] and will receive OPD follow-up.
 ```
 ```text
 妊娠 [] 週，合併[]，剖腹產後
