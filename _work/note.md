@@ -174,3 +174,111 @@ After admission, cardiotocography was kept. Cesarean section was performed on []
 
 病人因上述疾病，於[]年[]月[]日在本院住院，醫學上建議行剖腹產，於[]年[]月[]日行剖腹生產手術產下一名{男/女}嬰，於[]年[]月[]日出院，宜於門診持續追蹤治療。
 ```
+
+### NSD
+
+**Admission**
+```text
+Pregnancy for [] weeks, {with regular lower abdominal pain / with a gush of watery vagina discharge / without labor signs for induction}
+```
+```text
+This []-year-old, gravida-[] para-[] woman is pregnant for []+[] weeks. She received regular prenatal examination at Dr.[]'s outpatient clinic. {First / Second} trimester {Down screening / NIPT} revealed low risk for Down syndrome. Amniocentesis was {not performed / performed and showed normal karyotype}. Level II sonography did not show major anomaly of the fetus. 
+
+Her blood pressure remained in the normal range during this gestation. OGTT test showed {negative / positive} for gestation diabetes. Group B streptotoccus screening was {negative / positive}. The pregnancy course was uneventful throughout the gestation. Neither major anomaly of the fetus nor medical complications of the mother was found in the serial follow-ups at our clinic. 
+
+{Regular lower abdominal pain / a gush of watery vaginal discharge} was noted since [], and she went to our obstetric Emergency Department for evaluation. On arrival, pelvic exam showed cervical dilation [], station [], effacement []. NST showed regular uterine contractions every [] mins and category I FHB with normal baseline and moderate variability. 
+
+Due to {labor signs / rupture of membranes / no labor signs}, she was admitted for {vaginal delivery / induction of labor}.
+
+【Past History】
+1. Major systemic diseases: denied
+2. Current medication: [], herb(-), supplement(-)
+3. Social history: smoking(-), alcohol(-), betel nut(-)
+4. Allergy: no known allergy, denied adverse drug reactions
+5. Operation history: denied
+6. Family history: diabetes(-), hypertension(-), preterm birth(-), major congenital malformation(-)
+7. TOCC history: travel(-), cluster(-), contact(-)
+8. OBGYN history:
+   G P SA AA E, previous pregnancy []
+   Menarche:  years old
+   Menstrual cycle interval/duration: []/[] days 
+   Last menstrual period: []
+   Estimated date of confinement: []
+9. Prenatal examination: 
+   Hypertension(-)
+   Proteinuria(-)
+   Gestational diabetes mellitus(-)
+   Hepatitis B screening(-)
+   Group B streptotoccus(-)
+10. Other prenatal exam finding: 
+   Level II sonography: no major anomaly
+   Amniocentesis: not performed
+   aCGH: not performed
+   SMA genetic testing: not performed
+   Fragile X genetic testing: not performed
+11. Vaccination during pregnancy: denied
+```
+```text
+1. Systemic: weight loss(-), anorexia(-), night sweats(-), fever(-), dizziness(-), easy-fatigue(-)
+2. HEENT: headache(-), neck mass(-), epistaxis(-), oral ulcer(-)
+3. Cardiovascular: exertional dyspnea(-), orthopnea(-), syncope(-), palpitation(-), intermittent claudication(-)
+4. Respiratory: cough(-), hemoptysis(-)
+5. Gastrointestinal: epigastralgia (-), diarrhea (-), abdominal pain(-), abdominal distension(-), constipation(-)
+6. Urogenital: urinary frequency(-), urgency(-), dysuria(-), voiding difficulty(-), dysmenorrhea(-), menorrhagia(-)
+7. Musculoskeletal: bone pain(-), arthralgia(-)
+8. Metabolic: heat intolerance(-), cold intolerance(-), thirsty(-)
+9. Nervous: numbness(-), paresis/plegia(-)
+10. Skin: rash(-), pruritus(-), dryness(-), jaundice(-), color changes(-)
+
+Others: lower abdominal tightness / vaginal bleeding / vaginal watery discharge: -/-/-
+```
+```text
+Neurological Examination: 
+. Consciousness: clear
+. Muscle power: full 
+. Gait: steady
+
+1. Consciousness: clear and oriented.
+2. Vital signs: as above.
+3. Head, ear, eye, nose and throat: 
+(1) Eye: conjunctiva: not pale; sclera: not icteric; light reflex: +/+.
+(2) Neck: supple, no lymphadenopathy, no jugular vein engorgement.
+4. Neurological exam: 
+(1) E4M6V5; cranial nerve examinations: CNII-XII grossly intact. 
+(2) Motor systems: muscle power 5/5 throughout, tone within normal limits. 
+(3) Sensation: intact to sharp and dull throughout.
+(4)  Gait: steady.
+5. Chest: symmetric expansion and no deformity, breath sounds: clear.
+6. Heart: regular heartbeats, no obvious murmur.
+7. Abdomen:
+(1) Ovoid, tenderness(-), no rebound tenderness, no shifting dullness.
+(2) Bowel sound: normoactive.
+(3) Liver and spleen: not palpable.
+(4) Previous OP scar: nil.
+8. Extremities: mild pitting edema, free range of motion.
+
+[Pelvic Examination]
+os: close, station: high, effacement: poor
+```
+```text
+#. Pregnancy for []+[] weeks, {with labor signs / with rupture of membranes / without labor signs}, for {vaginal delivery / induction}
+
+【S】
+. Lower abdominal pain(-)
+. Watery discharge(-), bloody show(-)
+. Fetal movement: as usual, not decreased
+【O】
+. Vital sign: stable, afebrile, no hypertension
+. U/A: proteinuria(-)
+. Uterine contraction: 1/[] mins, FHB: category I
+【A】
+. As above
+【P】
+. Admission routine and preoperative preparation. 
+. Arrange fetal assessment.
+. Perform cardiotocography.
+
+Treatment goal:
+. Monitor fetal condition via cardiotocography and deliver healthy neonate
+. Post delivery day 3 discharge
+```
