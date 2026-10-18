@@ -63,7 +63,7 @@ pre {
 * Troponin-T (repeat Q3H)
 * EKG
 * Chest X-ray
-* Chest CT (without contrast)
+* Chest CT (CTA)
 * Nitroglycerin 0.6mg PRN SL
 
 ### Heart Failure
@@ -135,18 +135,32 @@ pre {
 ### Dyspnea
 
 * ABG/VBG
-* CBC, DC
-* NT-proBNP
 * Troponin-T
+* NT-proBNP
 * D-dimer
-* 12-lead EKG
-* X-ray chest (standing)
-* CT chest (without contrast)
-* CT pulmonary angiography
-* Ipratropium/salbutamol 0.5/2.5 mg Q6H IH
-* Furosemide 20 mg Q6H IV
+* EKG
+* Chest X-ray
+* Chest CT (CTPA)
+* Furosemide 20mg Q6H IV
+* Ipratropium/salbutamol 0.5/2.5mg Q6H IH
 * O2 cannula/mask
-* Thoracentesis
+
+### Cough
+
+* CBC, DC
+* Sputum culture
+* Chest X-ray
+* Dextromethorphan 15mg TID PO
+* Acetylcysteine 600mg BID PO
+
+### Asthma AE
+
+* ABG/VBG
+* Chest X-ray
+* Salbutamol 0.4mg STAT IH (q20min for 3 doses)
+* Ipratropium 0.5mg STAT IH (q20min for 3 doses)
+* Methylprednisolone 125 mg STAT IV
+* O2 cannula/mask
 
 ### Respiratory failure
 
@@ -158,24 +172,6 @@ pre {
 * High flow O2 cannula
 * BiPAP
 * Mechanical ventilator
-
-### Cough
-
-* CBC, DC
-* Sputum culture
-* X-ray chest (standing)
-* Dextromethorphan 15 mg TID PO
-* Acetylcysteine 600 mg BID PO
-* Ipratropium/salbutamol 0.5/2.5 mg Q6H IH
-
-### Asthma AE
-
-* ABG/VBG
-* X-ray chest (standing)
-* Salbutamol 0.4 mg STAT IH (q20min for 3 doses)
-* Ipratropium 0.5 mg STAT IH (q20min for 3 doses)
-* Methylprednisolone 125 mg STAT IV
-* O2 cannula/mask
 
 
 ## Gastrointestinal
@@ -546,6 +542,10 @@ pre {
 
 
 ## Dermatology
+
+### Contact Dermatitis
+
+* Betamethasone 1XX BID D
 
 ### Urticaria
 
