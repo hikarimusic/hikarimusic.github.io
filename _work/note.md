@@ -287,5 +287,5 @@ Treatment goal:
 
 **Dicharge**
 ```text
-After admission, pre-operative preparation was completed. [] was performed on []. Operative findings revealed []. The postoperative course was uneventful without complication. She was discharged on [] and will receive OPD follow-up.
+After admission, pre-operative preparation was completed. [] was performed on []. Operative findings revealed []. The postoperative course was uneventful without complication. She was discharged on [] and will receive OPD follow-up for the pathology report.
 ```
