@@ -103,21 +103,18 @@ $$
 $$
 {: .notice--info}
 
-### Heat Capacity / 熱容量
+### Response Function / 応答関数
 
 $$
-\begin{aligned}{}
-& C_V=T\left(\frac{\partial S}{\partial T}\right)_{V,N}, && dU=C_V\,dT+
-\left[
-T\left(\frac{\partial P}{\partial T}\right)_{V,N}-P
-\right]dV \\
-& C_P=T\left(\frac{\partial S}{\partial T}\right)_{P,N}, && dH=C_P\,dT+
-\left[
-V-T\left(\frac{\partial V}{\partial T}\right)_{P,N}
-\right]dP \\
+\begin{aligned}
+& C_V=\left(\frac{\partial U}{\partial T}\right)_{V,N} \\
+& C_P=\left(\frac{\partial H}{\partial T}\right)_{P,N} \\
+& C_P-C_V=\frac{TV\alpha_P^2}{\kappa_T} \\
+& \frac{C_P}{C_V}=\frac{\kappa_T}{\kappa_S}
 \end{aligned}
 $$
 {: .notice--info}
+
 
 ## Foundation / 基礎
 
