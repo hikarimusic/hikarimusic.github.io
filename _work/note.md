@@ -282,3 +282,10 @@ Treatment goal:
 . Monitor fetal condition via cardiotocography and deliver healthy neonate
 . Post delivery day 3 discharge
 ```
+
+### GYN
+
+**Dicharge**
+```text
+After admission, pre-operative preparation was completed. [] was performed on []. Operative findings revealed []. The postoperative course was uneventful without complication. She was discharged on [] and will receive OPD follow-up.
+```
