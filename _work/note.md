@@ -47,7 +47,7 @@ Sonography examination at our clinic revealed {singleton / twin} pregnancy with 
 6. Family history: diabetes(-), hypertension(-), preterm birth(-), major congenital malformation(-)
 7. TOCC history: travel(-), cluster(-), contact(-)
 8. OBGYN history:
-   G P SA AA E
+   G P AA SA E (NSD* , C/S* )
    Menarche:  years old
    Menstrual cycle interval/duration: []/[] days 
    Last menstrual period: []
@@ -199,7 +199,7 @@ Due to {labor signs / rupture of membranes / no labor signs}, she was admitted f
 6. Family history: diabetes(-), hypertension(-), preterm birth(-), major congenital malformation(-)
 7. TOCC history: travel(-), cluster(-), contact(-)
 8. OBGYN history:
-   G P SA AA E, previous pregnancy []
+   G P AA SA E (NSD* , C/S* )
    Menarche:  years old
    Menstrual cycle interval/duration: []/[] days 
    Last menstrual period: []
@@ -284,6 +284,125 @@ Treatment goal:
 ```
 
 ### GYN
+
+**Admission**
+```text
+【Present Illness】 
+This is a []-year-old woman, G[]P[]AA[]SA[]E[], with the past history of:
+
+#.
+#.
+
+This time, due to [], she was admitted for surgical intervention.
+
+【Past history】
+1. Major systemic diseases: diabetes mellitus(-), hypertension(-), others: denied. 
+2. Current medication:
+   . 
+3. Social history: smoking/alcohol/betel nut: denied/denied/denied.
+4. Allergy: no known allergy.
+   Adverse drug reactions: denied.
+5. Operation history:
+   . 
+6. Family history: diabetes mellitus(-), hypertention(-), uterine myoma(-), breast cancer(-), colon cancer(-), endometrial cancer(-), ovarian cancer(-), others: denied.
+7. TOCC history: denied recent traveling, denied cluster or contact history.
+
+【History of Obstetrics and Gynecology】
+1. G P AA SA E (NSD* , C/S* ), sexual experience: [], marital status: [].
+2. Menarche: [] years old, menopause: nil, hormone therapy: nil, 
+   Menstrual cycle: interval/duration: []/[] days,
+   Amount: moderate, dysmenorrhea[], last menstrual period: []
+3. Last Pap smear and result: [] within normal limits.
+```
+```text
+系統性回顧(Review of Systems)
+1. Systemic: weight loss(-), anorexia(-), night sweats(-), fever(-), dizziness(-), easy-fatigue(-)
+2. HEENT: headache(-), neck mass(-), epistaxis(-), oral ulcer(-)
+3. Cardiovascular: exertional dyspnea(-), orthopnea(-), syncope(-), palpitation(-), intermittent claudication(-)
+4. Respiratory: cough(-), hemoptysis(-)
+5. Gastrointestinal: epigastralgia (-), diarrhea (-), abdominal pain(-), abdominal distension(-), constipation(-)
+6. Urogenital: urinary frequency(-), urgency(-), dysuria(-), voiding difficulty(-), dysmenorrhea(-), menorrhagia(-)
+7. Musculoskeletal: bone pain(-), arthralgia(-)
+8. Metabolic: heat intolerance(-), cold intolerance(-), thirsty(-)
+9. Nervous: numbness(-), paresis/plegia(-)
+10. Skin: rash(-), pruritus(-), dryness(-), jaundice(-), color changes(-)
+```
+```text
+Neurological Examination: 
+. Consciousness: clear
+. Muscle power: full 
+. Gait: steady
+
+1. Consciousness: clear and oriented.
+2. Vital signs: as above.
+3. Head, ear, eye, nose and throat: 
+(1) Eye: conjunctiva: not pale; sclera: not icteric; light reflex: +/+.
+(2) Neck: supple, no lymphadenopathy, no jugular vein engorgement.
+4. Neurological exam: 
+(1) E4M6V5; cranial nerve examinations: CNII-XII grossly intact. 
+(2) Motor systems: muscle power 5/5 throughout, tone within normal limits. 
+(3) Sensation: intact to sharp and dull throughout.
+(4)  Gait: steady.
+5. Chest: symmetric expansion and no deformity, breath sounds: clear.
+6. Heart: regular heartbeats, no obvious murmur.
+7. Abdomen:
+(1) Soft and flat, tenderness(-), no rebound tenderness, no shifting dullness.
+(2) Bowel sounds: normoactive.
+(3) Liver and spleen: not palpable.
+(4) Previous OP scar: ***nil/horizontal C/S scar.
+8. Back: no costovertebral angle knocking tenderness. 
+9. Extremities: free range of motion, no peripheral edema.
+
+【Pelvic Examination】
+(1) Vulva: grossly normal.
+(2) Discharge: scanty, whitish.
+(3) Vagina: grossly normal.
+(4) Cervix: no obvious erosion.
+(5) Uterus: Avfl / Rvfl, with normal size / enlarged.
+(6) Adnexa: free / indurated.
+```
+```text
+#.
+
+【S】
+. Lower abdominal pain(-)
+. Vaginal discharge(-)
+【O】
+. Vital sign: stable, afebrile, no hypertension
+【A】
+. As above
+【P】
+. Arrange operation tomorrow
+
+Treatment goal:
+1. Post operative day [] discharge.
+2. Prevent post-operative wound infection.
+```
+
+**Progress**
+```text
+{OP today / POD[]}
+. Tolerable wound pain
+. Flatus(-), urination(-)
+```
+```text
+. T: [] °C, P: [] bpm, R: [] /min
+. BP: []/[] mmHg
+. Pain: []/10
+. Hb: [] g/dL, WBC [] K/μL
+```
+```text
+. General Appearance: fair
+. Operation Wound: clean
+. Vaginal discharge: no
+. Current medication:
+```
+```text
+. Post-OP wound management on POD2
+. Encourage ambulation for GI peristalsis
+. Try diet after bowel movement
+. May be discharged on POD2
+```
 
 **Dicharge**
 ```text
