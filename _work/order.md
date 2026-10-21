@@ -574,6 +574,7 @@ pre {
 
 ### Urinary retention
 
+* Bethanechol 25mg TID PO
 * On Foley catheter
 
 
