@@ -401,7 +401,7 @@ Treatment goal:
 . Post-OP wound management on POD2
 . Encourage ambulation for GI peristalsis
 . Try diet after bowel movement
-. May be discharged on POD2
+. May be discharged on POD[]
 ```
 
 **Dicharge**
