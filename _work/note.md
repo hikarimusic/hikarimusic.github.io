@@ -408,3 +408,6 @@ Treatment goal:
 ```text
 After admission, pre-operative preparation was completed. [] was performed on []. Operative findings revealed []. The postoperative course was uneventful without complication. She was discharged on [] and will receive OPD follow-up for the pathology report.
 ```
+```text
+病人因上述疾病，於[]年[]月[]日在本院住院，於[]年[]月[]日接受[]手術，於[]年[]月[]日出院，宜於門診持續追蹤治療。
+```
