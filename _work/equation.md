@@ -68,7 +68,9 @@ $$
 & F = U-TS,
 && dF = -S\,dT-P\,dV+\mu\,dN \\
 & G = U-TS+PV,
-&& dG = -S\,dT+V\,dP+\mu\,dN
+&& dG = -S\,dT+V\,dP+\mu\,dN \\
+& \Phi = U-TS-\mu N,
+&& d\Phi = -S\,dT-P\,dV-N\,d\mu
 \end{aligned}
 $$
 {: .notice--info}
@@ -82,12 +84,14 @@ $$
 & T,V,N=\mathrm{const.}
 \quad\rightarrow\quad dF\leq 0 \\
 & T,P,N=\mathrm{const.}
-\quad\rightarrow\quad dG\leq 0
+\quad\rightarrow\quad dG\leq 0 \\
+& T,V,\mu=\mathrm{const.}
+\quad\rightarrow\quad d\Phi\leq 0
 \end{aligned}
 $$
 {: .notice--info}
 
-### Maxwell Relations / Maxwellの関係式
+### Maxwell Relation / Maxwellの関係式
 
 $$
 \begin{aligned}{}
