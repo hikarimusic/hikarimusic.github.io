@@ -75,18 +75,14 @@ $$
 $$
 {: .notice--info}
 
-### Equilibrium Criteria / 平衡条件
+### Response Function / 応答関数
 
 $$
-\begin{aligned}{}
-& U,V,N=\mathrm{const.}
-\quad\rightarrow\quad dS\geq 0 \\
-& T,V,N=\mathrm{const.}
-\quad\rightarrow\quad dF\leq 0 \\
-& T,P,N=\mathrm{const.}
-\quad\rightarrow\quad dG\leq 0 \\
-& T,V,\mu=\mathrm{const.}
-\quad\rightarrow\quad d\Phi\leq 0
+\begin{aligned}
+& C_V=\left(\frac{\partial U}{\partial T}\right)_{V,N} \\
+& C_P=\left(\frac{\partial H}{\partial T}\right)_{P,N} \\
+& C_P-C_V=\frac{TV\alpha_P^2}{\kappa_T} \\
+& \frac{C_P}{C_V}=\frac{\kappa_T}{\kappa_S}
 \end{aligned}
 $$
 {: .notice--info}
@@ -107,14 +103,30 @@ $$
 $$
 {: .notice--info}
 
-### Response Function / 応答関数
+### Spontaneous Process / 自発過程
+
+$$
+\begin{aligned}{}
+& U,V,N=\mathrm{const.}
+\quad\rightarrow\quad dS\geq 0 \\
+& T,V,N=\mathrm{const.}
+\quad\rightarrow\quad dF\leq 0 \\
+& T,P,N=\mathrm{const.}
+\quad\rightarrow\quad dG\leq 0 \\
+& T,V,\mu=\mathrm{const.}
+\quad\rightarrow\quad d\Phi\leq 0
+\end{aligned}
+$$
+{: .notice--info}
+
+### Phase Equilibrium / 相平衡
 
 $$
 \begin{aligned}
-& C_V=\left(\frac{\partial U}{\partial T}\right)_{V,N} \\
-& C_P=\left(\frac{\partial H}{\partial T}\right)_{P,N} \\
-& C_P-C_V=\frac{TV\alpha_P^2}{\kappa_T} \\
-& \frac{C_P}{C_V}=\frac{\kappa_T}{\kappa_S}
+& T^{(\alpha)} = T^{(\beta)} \\
+& P^{(\alpha)} = P^{(\beta)} \\
+& \mu_i^{(\alpha)} = \mu_i^{(\beta)} \\
+& f = c-p+2
 \end{aligned}
 $$
 {: .notice--info}
