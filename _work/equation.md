@@ -163,12 +163,11 @@ $$
 
 $$
 \begin{aligned}
-& \int \rho(p,q,t)\,dp\,dq=1 \\
-& \dot{q}_i=\frac{\partial H}{\partial p_i}, \quad
-\dot{p}_i=-\frac{\partial H}{\partial q_i}
-&& \rightarrow\quad \frac{D\rho}{Dt}=0 \\
-& \rho=\rho(H), \quad \frac{\partial H}{\partial t}=0
-&& \rightarrow\quad \frac{\partial\rho}{\partial t}=0
+& \int \rho(p,q,t)\,dp\,dq = 1 \\
+& \begin{aligned}
+  & H(p,q): &&  \frac{D\rho}{Dt} = 0 \\
+  & \rho(H): && \frac{\partial\rho}{\partial t} = 0
+  \end{aligned}
 \end{aligned}
 $$
 {: .notice--info}
