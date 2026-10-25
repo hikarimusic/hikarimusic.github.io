@@ -75,18 +75,6 @@ $$
 $$
 {: .notice--info}
 
-### Response Function / 応答関数
-
-$$
-\begin{aligned}
-& C_V=\left(\frac{\partial U}{\partial T}\right)_{V,N} \\
-& C_P=\left(\frac{\partial H}{\partial T}\right)_{P,N} \\
-& C_P-C_V=\frac{TV\alpha_P^2}{\kappa_T} \\
-& \frac{C_P}{C_V}=\frac{\kappa_T}{\kappa_S}
-\end{aligned}
-$$
-{: .notice--info}
-
 ### Maxwell Relation / Maxwellの関係式
 
 $$
@@ -99,6 +87,18 @@ $$
 = \left(\frac{\partial P}{\partial T}\right)_{V,N} \\
 & \left(\frac{\partial S}{\partial P}\right)_{T,N}
 = -\left(\frac{\partial V}{\partial T}\right)_{P,N}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Response Function / 応答関数
+
+$$
+\begin{aligned}
+& C_V=\left(\frac{\partial U}{\partial T}\right)_{V,N} \\
+& C_P=\left(\frac{\partial H}{\partial T}\right)_{P,N} \\
+& C_P-C_V=\frac{TV\alpha_P^2}{\kappa_T} \\
+& \frac{C_P}{C_V}=\frac{\kappa_T}{\kappa_S}
 \end{aligned}
 $$
 {: .notice--info}
@@ -150,7 +150,7 @@ $$
 $$
 \begin{aligned}{}
  \frac{1}{T}
-&= \left(\frac{\partial S}{\partial E}\right)_{N,V} \\
+&= \left(\frac{\partial S}{\partial E}\right)_{V,N} \\
  \frac{P}{T}
 &= \left(\frac{\partial S}{\partial V}\right)_{E,N} \\
  -\frac{\mu}{T}
@@ -163,9 +163,9 @@ $$
 
 $$
 \begin{aligned}
-& \int \rho(p,q,t)\,dp\,dq = 1 \\
+& \int \rho(\mathbf{p},\mathbf{q},t)\,d\mathbf{p}\,d\mathbf{q} = 1 \\
 & \begin{aligned}
-  & H(p,q): &&  \frac{D\rho}{Dt} = 0 \\
+  & H(\mathbf{p},\mathbf{q}): &&  \frac{D\rho}{Dt} = 0 \\
   & \rho(H): && \frac{\partial\rho}{\partial t} = 0
   \end{aligned}
 \end{aligned}
@@ -195,6 +195,7 @@ $$
 \begin{aligned}{}
 & Z(T,V,N)=\sum_i e^{-E_i/kT} \\
 & p_i=\frac{e^{-E_i/kT}}{Z} \\
+& F=-kT\ln Z \\
 & S=k\ln Z+kT\left(\frac{\partial\ln Z}{\partial T}\right)_{V,N} \\
 & \langle E\rangle=kT^2\left(\frac{\partial\ln Z}{\partial T}\right)_{V,N} \\
 & P=kT\left(\frac{\partial\ln Z}{\partial V}\right)_{T,N} \\
@@ -209,6 +210,7 @@ $$
 \begin{aligned}{}
 & \Xi(T,V,\mu)=\sum_i e^{-(E_i-\mu N_i)/kT} \\
 & p_i=\frac{e^{-(E_i-\mu N_i)/kT}}{\Xi} \\
+& \Phi=-kT\ln\Xi \\
 & S=k\ln\Xi+kT\left(\frac{\partial\ln\Xi}{\partial T}\right)_{V,\mu} \\
 & \langle E\rangle
 =kT^2\left(\frac{\partial\ln\Xi}{\partial T}\right)_{V,\mu}
