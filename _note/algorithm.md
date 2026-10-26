@@ -2455,7 +2455,7 @@ ll rec(ll v) {
     for ("next state u")
         st.insert(rec(u));
     ll g = 0;
-    while (st.find(g)!=st.end())
+    while (st.count(g)>0)
         g += 1;
     return gru[v]=g;
 }
