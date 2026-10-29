@@ -48,13 +48,28 @@ pre {
 * NPO
 * Prepare RBC 2U
 
-### Fluid
+### Fluid & Nutrition
 
-* NS 1000mL QD IF (run 60ml/hr)
-* D5W 1000ml QD IF (run 60ml/hr)
-* Taita.5 800mL QD IF (run 60ml/hr)
-* Bfluid 1000 mL QD IF (run 60ml/hr)
+* Normal saline 1000mL QD IF (run 480min)
+* Lactated Ringer 1000mL QD IF (run 480min)
+* Dextrose 5% 1000mL QD IF (run 480min)
+* Taita No.5 800mL QD IF (run 480min)
+* Bfluid 1000 mL QD IF (run 480min)
+* Nutriflex 1000mL QD IF (run 1440min)
+* Fat emulsion 250mL QD IF (run 480min)
+{: .notice--info}
 
+### Pain
+
+* Acetaminophen 500mg QID PO
+* Naproxen 250mg BID PO
+* Celecoxib 200mg QD PO
+* Tramadol/Acetaminophen 37.5mg/325mg QID PO
+* Acetaminophen 1000mg Q6H IV
+* Tramadol 100mg Q6H IF (NS 100mL, run 60min)
+* Nalbuphine 5mg Q4H IV
+* Morphine 3mg Q4H IV
+{: .notice--info}
 
 ## Cardiovascular
 

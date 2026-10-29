@@ -1551,14 +1551,14 @@ vll divisor(ll n) {
 }
 ```
 ```cpp
-bool prime(ll n) {
-    if (n<2)
-        return false;
-    for (ll i=2; i*i<=n; ++i) {
-        if (n%i==0)
-            return false;
+vector<ll> dvs[N];
+
+void solve(ll n) {
+    for (ll i=1; i<=n; ++i) {
+        for (ll j=i; j<=n; j+=i) {
+            dvs[j].push_back(i);
+        }
     }
-    return true;
 }
 ```
 

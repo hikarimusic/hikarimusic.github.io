@@ -40,6 +40,8 @@ pre {
 - Finish：反抽+flush 各頭、卡 clamp 、針線固定
 {: .notice--info}
 
+### Wet Dressing
+
 ### ACLS
 
 - Call patient
