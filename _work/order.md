@@ -24,19 +24,23 @@ pre {
 ### ER
 
 * CBC, DC
-* GPT, Cre
+* ALT, CRE
 * Na, K
 * Glucose
 * On IV catheter
+{: .notice--info}
 
 ### Ward
 
-* Record TPR, BP, SpO2
-* Record IO
-* Diet (regular, soft, NPO) 
+* CBC, DC
+* AST, ALT
+* ALP, T-BIL
+* CRE, BUN
+* Na, K, Ca
+* Chest X-ray
 * On IV catheter
-* On Foley catheter
-* On NG tube
+* Record TPR, BP
+{: .notice--info}
 
 ### Pre-OP
 
@@ -44,19 +48,31 @@ pre {
 * PT, aPTT
 * EKG
 * Chest X-ray
-* Cefazolin 1000g Q8H IV
-* NPO
+* Cefazolin 1000g ONCE IV
+* NPO since midnight
 * Prepare RBC 2U
+{: .notice--info}
+
+### Post-OP
+
+* CBC, DC
+* Cefazolin 1000mg Q8H IV
+* Acetaminophen 500mg QID PO
+* Bisacodyl 20mg Q4HPRN R
+* NPO until flatus
+* Change dressing
+* Record drainage
+{: .notice--info}
 
 ### Fluid & Nutrition
 
-* Normal saline 1000mL QD IF (run 480min)
-* Lactated Ringer 1000mL QD IF (run 480min)
-* Dextrose 5% 1000mL QD IF (run 480min)
-* Taita No.5 800mL QD IF (run 480min)
+* Normal-saline 1000mL QD IF (run 480min)
+* Lactated-Ringer 1000mL QD IF (run 480min)
+* Dextrose-5% 1000mL QD IF (run 480min)
+* Taita-No.5 800mL QD IF (run 480min)
 * Bfluid 1000 mL QD IF (run 480min)
 * Nutriflex 1000mL QD IF (run 1440min)
-* Fat emulsion 250mL QD IF (run 480min)
+* Fat-emulsion 250mL QD IF (run 480min)
 {: .notice--info}
 
 ### Pain
@@ -65,10 +81,10 @@ pre {
 * Naproxen 250mg BID PO
 * Celecoxib 200mg QD PO
 * Tramadol/Acetaminophen 37.5mg/325mg QID PO
-* Acetaminophen 1000mg Q6H IV
-* Tramadol 100mg Q6H IF (NS 100mL, run 60min)
-* Nalbuphine 5mg Q4H IV
-* Morphine 3mg Q4H IV
+* Acetaminophen 1000mg Q6HPRN IV
+* Tramadol 100mg Q6HPRN IF (NS 100mL, run 60min)
+* Nalbuphine 5mg Q4HPRN IV
+* Morphine 3mg Q4HPRN IM
 {: .notice--info}
 
 ## Cardiovascular
@@ -213,6 +229,7 @@ pre {
 * Na, K, Ca, Mg
 * Metoclopramide 10mg STAT IV
 * Metoclopramide 3.84mg TID PO
+* Prochloperazine 5mg Q4HPRN IM
 * Prochlorperazine 5mg TID PO
 * NS 500mL STAT IF (120min)
 
@@ -409,6 +426,9 @@ pre {
 
 * Levoceterizine 5mg HS PO
 
+### Anaphylaxis
+
+* Epinephrine 0.5mg STAT SC
 
 ## Neurological
 
@@ -466,65 +486,23 @@ pre {
 
 ## OBGYN
 
-### Prepartum
-
-* CBC, DC
-* PT, aPTT
-* AST, ALT
-* BUN, Cre
-* Urine analysis
-* EKG
-* Fetal heart monitor, tocometer
-* Fetal ultrasound
-* Ringer-solution 500ml QD IF
-* Dinoprostone 1.5mg STAT V
-* Oxytocin 5U QD IF (ringer 500ml, 8ml/hr titrate)
-* Cefazolin 1000mg Q8H IV
-* Prepare blood
-* NPO
-
-### Intrapartum
-
-* Cefazolin 1000mg ONCE IV
-* Oxytocin 20U PRN IF (ringer 500ml, 120min)
-* Carbetocin 100mcg PRN IV
-* Misoprostol 200mcg PRN SL
-* Methylergonovine 0.2mg PRN IM
-* Tranexamic-acid 1000mg PRN IF (NS 100ml, 30min)
-
-### Postpartum
-
-* CBC, DC
-* Ringer-solution 500ml QD IF
-* Normal-saline 1000ml QD IF
-* Dextrose-5% 1000ml QD IF
-* Ergonovine 0.2mg TID PO
-* Cefalexin 250mg TID PO
-* Acetominophen 500mg TID PO
-* Naproxen 250mg BID PO
-* Tenoxicam 20mg PRN IV
-* MgO 500mg TID PO
-* Bisacodyl 20mg Q4HPRN R
-* Wound management
-* Patient control analgesia
-
 ### Tocolysis
 
 * Nifedipine 10mg Q4H PO
-* Ritodrine 50mg BID IF (NS 250ml, 20ml/hr)
-* Atosiban 75mg BID IF (NS 100ml, 9ml/hr)
+* Ritodrine 50mg BID IF (NS 250ml, run 750min)
+* Atosiban 75mg BID cIF (NS 100ml, titrate 8mL/hr)
 * Betamethasone 12mg QD IM
 * Cefmetazole 1000mg Q8H IV
+{: .notice--info}
 
 ### Preeclampsia
 
 * Nifedipine 30mg QD PO
 * Labetalol 200mg BID PO
-* Hydralazine 10mg Q6H PO
-* Nicardipine 20mg QD IF (NS 100ml, 5ml/hr titrate)
+* Nicardipine 20mg QD cIF (NS 100mL, titrate 5mL/hr)
 * Aspirin 150mg QD PO
-* MgSO4 160meq QD cIF (200ml, 10ml/hr)
-
+* MgSO4 160mEq QD cIF (in 200ml, run 10mL/hr)
+{: .notice--info}
 
 ## Ophthalmology
 

@@ -42,6 +42,12 @@ pre {
 
 ### Wet Dressing
 
+- Remove：移除紗布、檢查傷口
+- Clean：BI消毒傷口外、NS清理傷口內
+- Dressing：無菌開紗布、泡NS、帶無菌手套、塞紗布進傷口
+- Cover：蓋紗布、黏膠帶
+{: .notice--info}
+
 ### ACLS
 
 - Call patient
