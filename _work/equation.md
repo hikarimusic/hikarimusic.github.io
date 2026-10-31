@@ -97,8 +97,8 @@ $$
 \begin{aligned}
 & C_V=\left(\frac{\partial U}{\partial T}\right)_{V,N} \\
 & C_P=\left(\frac{\partial H}{\partial T}\right)_{P,N} \\
-& C_P-C_V=\frac{TV\alpha_P^2}{\kappa_T} \\
-& \frac{C_P}{C_V}=\frac{\kappa_T}{\kappa_S}
+& \frac{C_P}{C_V}=\frac{\kappa_T}{\kappa_S} \\
+& C_P-C_V=\frac{TV\alpha_P^2}{\kappa_T}
 \end{aligned}
 $$
 {: .notice--info}
@@ -125,8 +125,7 @@ $$
 \begin{aligned}
 & T^{(\alpha)} = T^{(\beta)} \\
 & P^{(\alpha)} = P^{(\beta)} \\
-& \mu_i^{(\alpha)} = \mu_i^{(\beta)} \\
-& f = c-p+2
+& \mu_i^{(\alpha)} = \mu_i^{(\beta)}
 \end{aligned}
 $$
 {: .notice--info}
@@ -324,15 +323,85 @@ $$
 \coth\left(\frac{\mu B}{kT}\right)
 -\frac{kT}{\mu B}
 \right] \\
-& \frac{\mu B}{kT}\ll 1 \to
-M=\frac{N\mu^2}{3kT}B, \quad
-\frac{\mu B}{kT}\gg 1 \to
-M=N\mu
+& \begin{aligned}
+& \frac{\mu B}{kT}\ll 1 && \to && M=\frac{N\mu^2}{3kT}B \\
+& \frac{\mu B}{kT}\gg 1 && \to && M=N\mu
+\end{aligned}
 \end{aligned}
 $$
 {: .notice--info}
 
 ## Quantum Statistics
+
+### Density Operator / 密度演算子
+
+$$
+\begin{aligned}{}
+& \hat{\rho} = \sum_i p_i|\psi_i\rangle\langle\psi_i| \\
+& \langle\hat{A}\rangle = \operatorname{Tr}(\hat{\rho}\hat{A}) \\
+& S = -k\operatorname{Tr}(\hat{\rho}\ln\hat{\rho}) \\
+& \begin{aligned}{}
+& \hat{\rho}_{\mathrm{mc}} = \frac{\hat{P}_E}{\Omega}, 
+&& \Omega = \operatorname{Tr}\hat{P}_E \\
+& \hat{\rho}_{\mathrm{c}} = \frac{e^{-\hat{H}/kT}}{Z},
+&& Z = \operatorname{Tr}e^{-\hat{H}/kT} \\
+& \hat{\rho}_{\mathrm{gc}} = \frac{e^{-(\hat{H}-\mu\hat{N})/kT}}{\Xi},
+&& \Xi = \operatorname{Tr}e^{-(\hat{H}-\mu\hat{N})/kT}
+\end{aligned}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Fermi–Dirac Distribution / Fermi–Dirac分布
+
+$$
+\begin{aligned}{}
+& \Xi = \prod_{\alpha}\left(1+e^{-(\varepsilon_{\alpha}-\mu)/kT}\right) \\
+& \Phi = -kT\sum_{\alpha}\ln\left(1+e^{-(\varepsilon_{\alpha}-\mu)/kT}\right) \\
+& \bar{n}_{\alpha} = \frac{1}{e^{(\varepsilon_{\alpha}-\mu)/kT}+1} \\
+& \langle N\rangle = \sum_{\alpha}\bar{n}_{\alpha} \\
+& \langle E\rangle = \sum_{\alpha}\varepsilon_{\alpha}\bar{n}_{\alpha} \\
+& S = -k\sum_{\alpha}\left[
+\bar{n}_{\alpha}\ln\bar{n}_{\alpha}
++(1-\bar{n}_{\alpha})\ln(1-\bar{n}_{\alpha})
+\right]
+\end{aligned}
+$$
+{: .notice--info}
+
+### Bose–Einstein Distribution / Bose–Einstein分布
+
+$$
+\begin{aligned}{}
+& \Xi = \prod_{\alpha}\frac{1}{1-e^{-(\varepsilon_{\alpha}-\mu)/kT}} \\
+& \Phi = kT\sum_{\alpha}\ln\left(1-e^{-(\varepsilon_{\alpha}-\mu)/kT}\right) \\
+& \bar{n}_{\alpha} = \frac{1}{e^{(\varepsilon_{\alpha}-\mu)/kT}-1} \\
+& \langle N\rangle = \sum_{\alpha}\bar{n}_{\alpha} \\
+& \langle E\rangle = \sum_{\alpha}\varepsilon_{\alpha}\bar{n}_{\alpha} \\
+& S = -k\sum_{\alpha}\left[
+\bar{n}_{\alpha}\ln\bar{n}_{\alpha}
+-(1+\bar{n}_{\alpha})\ln(1+\bar{n}_{\alpha})
+\right]
+\end{aligned}
+$$
+{: .notice--info}
+
+### Classical Limit / 古典極限
+
+$$
+\begin{aligned}{}
+& \Xi = \prod_{\alpha}\exp\left(e^{-(\varepsilon_{\alpha}-\mu)/kT}\right) \\
+& \Phi = -kT\sum_{\alpha}e^{-(\varepsilon_{\alpha}-\mu)/kT} \\
+& \bar{n}_{\alpha} = e^{-(\varepsilon_{\alpha}-\mu)/kT} \\
+& \langle N\rangle = \sum_{\alpha}\bar{n}_{\alpha} \\
+& \langle E\rangle = \sum_{\alpha}\varepsilon_{\alpha}\bar{n}_{\alpha} \\
+& S = -k\sum_{\alpha}\left[
+\bar{n}_{\alpha}\ln\bar{n}_{\alpha}-\bar{n}_{\alpha}
+\right]
+\end{aligned}
+$$
+{: .notice--info}
+
 
 ## Quantum System
 

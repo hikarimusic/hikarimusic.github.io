@@ -576,6 +576,7 @@ pre {
 ### Insomnia
 
 * Zolpidem 10mg HS PO
+* Brotizolam 0.25mg HS PO
 
 ### Agitation
 
