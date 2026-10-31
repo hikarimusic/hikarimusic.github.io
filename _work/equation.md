@@ -331,7 +331,7 @@ $$
 $$
 {: .notice--info}
 
-## Quantum Statistics
+## Quantum Statistics / 量子統計
 
 ### Density Operator / 密度演算子
 
@@ -403,7 +403,7 @@ $$
 {: .notice--info}
 
 
-## Quantum System
+## Quantum System / 量子系
 
 ## Interacting System
 
