@@ -139,7 +139,7 @@ $$
 \begin{aligned}{}
 & E = H(\mathbf{q},\mathbf{p}) \\
 & S = -k\sum_i p_i\ln p_i \\
-& \Omega = \frac{1}{N!h^{3N}}\int d^{3N}q\,d^{3N}p
+& \Omega_i = \frac{1}{h}\int dq_i\,dp_i
 \end{aligned}
 $$
 {: .notice--info}
@@ -195,10 +195,10 @@ $$
 & Z(T,V,N)=\sum_i e^{-E_i/kT} \\
 & p_i=\frac{e^{-E_i/kT}}{Z} \\
 & F=-kT\ln Z \\
-& S=k\ln Z+kT\left(\frac{\partial\ln Z}{\partial T}\right)_{V,N} \\
 & \langle E\rangle=kT^2\left(\frac{\partial\ln Z}{\partial T}\right)_{V,N} \\
 & P=kT\left(\frac{\partial\ln Z}{\partial V}\right)_{T,N} \\
-& \mu=-kT\left(\frac{\partial\ln Z}{\partial N}\right)_{T,V}
+& \mu=-kT\left(\frac{\partial\ln Z}{\partial N}\right)_{T,V} \\
+& S=k\ln Z+kT\left(\frac{\partial\ln Z}{\partial T}\right)_{V,N}
 \end{aligned}
 $$
 {: .notice--info}
@@ -210,12 +210,12 @@ $$
 & \Xi(T,V,\mu)=\sum_i e^{-(E_i-\mu N_i)/kT} \\
 & p_i=\frac{e^{-(E_i-\mu N_i)/kT}}{\Xi} \\
 & \Phi=-kT\ln\Xi \\
-& S=k\ln\Xi+kT\left(\frac{\partial\ln\Xi}{\partial T}\right)_{V,\mu} \\
 & \langle E\rangle
 =kT^2\left(\frac{\partial\ln\Xi}{\partial T}\right)_{V,\mu}
 +kT\mu\left(\frac{\partial\ln\Xi}{\partial\mu}\right)_{T,V} \\
 & P=kT\left(\frac{\partial\ln\Xi}{\partial V}\right)_{T,\mu} \\
-& \langle N\rangle=kT\left(\frac{\partial\ln\Xi}{\partial\mu}\right)_{T,V}
+& \langle N\rangle=kT\left(\frac{\partial\ln\Xi}{\partial\mu}\right)_{T,V} \\
+& S=k\ln\Xi+kT\left(\frac{\partial\ln\Xi}{\partial T}\right)_{V,\mu}
 \end{aligned}
 $$
 {: .notice--info}
@@ -338,8 +338,6 @@ $$
 $$
 \begin{aligned}{}
 & \hat{\rho} = \sum_i p_i|\psi_i\rangle\langle\psi_i| \\
-& \langle\hat{A}\rangle = \operatorname{Tr}(\hat{\rho}\hat{A}) \\
-& S = -k\operatorname{Tr}(\hat{\rho}\ln\hat{\rho}) \\
 & \begin{aligned}{}
 & \hat{\rho}_{\mathrm{mc}} = \frac{\hat{P}_E}{\Omega}, 
 && \Omega = \operatorname{Tr}\hat{P}_E \\
@@ -347,7 +345,9 @@ $$
 && Z = \operatorname{Tr}e^{-\hat{H}/kT} \\
 & \hat{\rho}_{\mathrm{gc}} = \frac{e^{-(\hat{H}-\mu\hat{N})/kT}}{\Xi},
 && \Xi = \operatorname{Tr}e^{-(\hat{H}-\mu\hat{N})/kT}
-\end{aligned}
+\end{aligned} \\
+& \langle\hat{A}\rangle = \operatorname{Tr}(\hat{\rho}\hat{A}) \\
+& S = -k\operatorname{Tr}(\hat{\rho}\ln\hat{\rho})
 \end{aligned}
 $$
 {: .notice--info}
