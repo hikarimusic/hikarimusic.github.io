@@ -178,8 +178,8 @@ $$
 
 $$
 \begin{aligned}{}
-& \Omega(E,V,N)=\sum_i \delta_{E,E_i} \\
-& p_i=\frac{1}{\Omega} \\
+& p_i=\frac{1}{\Omega(E,V,N)} \\
+& \Omega=\sum_i \delta_{E,E_i} \\
 & S=k\ln\Omega \\
 & T^{-1}=k\left(\frac{\partial\ln\Omega}{\partial E}\right)_{V,N} \\
 & P=kT\left(\frac{\partial\ln\Omega}{\partial V}\right)_{E,N} \\
@@ -192,8 +192,8 @@ $$
 
 $$
 \begin{aligned}{}
-& Z(T,V,N)=\sum_i e^{-E_i/kT} \\
-& p_i=\frac{e^{-E_i/kT}}{Z} \\
+& p_i=\frac{e^{-E_i/kT}}{Z(T,V,N)} \\
+& Z=\sum_i e^{-E_i/kT} \\
 & F=-kT\ln Z \\
 & \langle E\rangle=kT^2\left(\frac{\partial\ln Z}{\partial T}\right)_{V,N} \\
 & P=kT\left(\frac{\partial\ln Z}{\partial V}\right)_{T,N} \\
@@ -207,8 +207,8 @@ $$
 
 $$
 \begin{aligned}{}
-& \Xi(T,V,\mu)=\sum_i e^{-(E_i-\mu N_i)/kT} \\
-& p_i=\frac{e^{-(E_i-\mu N_i)/kT}}{\Xi} \\
+& p_i=\frac{e^{-(E_i-\mu N_i)/kT}}{\Xi(T,V,\mu)} \\
+& \Xi=\sum_i e^{-(E_i-\mu N_i)/kT} \\
 & \Phi=-kT\ln\Xi \\
 & \langle E\rangle
 =kT^2\left(\frac{\partial\ln\Xi}{\partial T}\right)_{V,\mu}
@@ -237,6 +237,7 @@ $$
 $$
 {: .notice--info}
 
+
 ## Classical System / 古典系
 
 ### Equipartition Theorem / エネルギー等分配則
@@ -245,91 +246,67 @@ $$
 \begin{aligned}{}
 & H=\sum_{\alpha}a_{\alpha}x_{\alpha}^{2} \\
 & \left\langle a_{\alpha}x_{\alpha}^{2}\right\rangle=\frac{1}{2}kT \\
-& \langle E\rangle=\frac{f}{2}NkT
+& \langle E\rangle=\frac{f}{2}kT
 \end{aligned}
 $$
 {: .notice--info}
 
-### Maxwell–Boltzmann Distribution / Maxwell–Boltzmann分布
+### Ideal Gas / 理想気体
 
 $$
 \begin{aligned}{}
-& f(v)=4\pi\left(\frac{m}{2\pi kT}\right)^{3/2}
-v^{2}\exp\left(-\frac{mv^{2}}{2kT}\right) \\
-& \sqrt{\left\langle v^{2}\right\rangle}
-=\sqrt{\frac{3kT}{m}} \\
-& \langle E\rangle=\frac{3}{2}kT
+& \lambda_T = \frac{h}{\sqrt{2\pi m kT}} \\
+& \langle E\rangle = \frac{3}{2}NkT \\
+& P = \frac{NkT}{V} \\
+& \mu = kT\ln\left(\frac{N\lambda_T^3}{V}\right) \\
+& S = Nk\left[\ln\left(\frac{V}{N\lambda_T^3}\right)+\frac{5}{2}\right]
 \end{aligned}
 $$
 {: .notice--info}
 
-### Classical Ideal Gas / 古典理想気体
+### Harmonic Oscillator / 調和振動子
 
 $$
 \begin{aligned}{}
-& Z=\frac{V^{N}(2\pi mkT)^{3N/2}}{N!\,h^{3N}} \\
-& S=Nk\left[
-\ln\left(
-\frac{V(2\pi mkT)^{3/2}}{Nh^{3}}
-\right)+\frac{5}{2}
-\right] \\
-& \langle E\rangle=\frac{3}{2}NkT \\
-& P=\frac{NkT}{V} \\
-& \mu=-kT\ln\left(
-\frac{V(2\pi mkT)^{3/2}}{Nh^{3}}
-\right)
+& \langle E\rangle = NkT \\
+& S = Nk\left[\ln\left(\frac{kT}{\hbar\omega}\right)+1\right] \\
+& C_V = Nk
 \end{aligned}
 $$
 {: .notice--info}
 
-### Classical Harmonic Oscillator / 古典調和振動子
+### Quantum Harmonic Oscillator / 量子調和振動子
 
 $$
 \begin{aligned}{}
-& Z=\left(\frac{kT}{\hbar\omega}\right)^N \\
-& S=Nk\left[\ln\left(\frac{kT}{\hbar\omega}\right)+1\right] \\
-& \langle E\rangle=NkT \\
-& P=0 \\
-& \mu=-kT\ln\left(\frac{kT}{\hbar\omega}\right)
+& x = \frac{\hbar\omega}{kT} \\
+& \langle E\rangle = N\hbar\omega\left(\frac{1}{2}+\frac{1}{e^x-1}\right) \\
+& S = Nk\left[\frac{x}{e^x-1}-\ln\left(1-e^{-x}\right)\right] \\
+& C_V = Nkx^2\frac{e^x}{(e^x-1)^2} \\
+& \begin{aligned}{}
+& kT \ll \hbar\omega: && C_V \simeq Nkx^2e^{-x} \\
+& kT \gg \hbar\omega: && C_V \simeq Nk
+\end{aligned}
 \end{aligned}
 $$
 {: .notice--info}
 
-### Classical Paramagnetism / 古典常磁性
+### Paramagnetism / 常磁性
 
 $$
 \begin{aligned}{}
-& Z=\left[
-\frac{4\pi kT}{\mu B}
-\sinh\left(\frac{\mu B}{kT}\right)
-\right]^N \\
-& S=Nk\left[
-\ln\left(
-\frac{4\pi kT}{\mu B}
-\sinh\left(\frac{\mu B}{kT}\right)
-\right)
--\frac{\mu B}{kT}
-\left(
-\coth\left(\frac{\mu B}{kT}\right)
--\frac{kT}{\mu B}
-\right)
-\right] \\
-& \langle E\rangle
-=-N\mu B\left[
-\coth\left(\frac{\mu B}{kT}\right)
--\frac{kT}{\mu B}
-\right] \\
-& M=N\mu\left[
-\coth\left(\frac{\mu B}{kT}\right)
--\frac{kT}{\mu B}
-\right] \\
-& \begin{aligned}
-& \frac{\mu B}{kT}\ll 1 && \to && M=\frac{N\mu^2}{3kT}B \\
-& \frac{\mu B}{kT}\gg 1 && \to && M=N\mu
+& x = \frac{\mu B}{kT} \\
+& E = -N\mu B\left(\coth x-\frac{1}{x}\right) \\
+& S = Nk\left[\ln\left(4\pi\frac{\sinh x}{x}\right)-x\coth x+1\right] \\
+& M = N\mu\left(\coth x-\frac{1}{x}\right) \\
+& \begin{aligned}{}
+& kT \ll \mu B: && M \simeq N\mu \\
+& kT \gg \mu B: && M \simeq \frac{N\mu^2B}{3kT}
 \end{aligned}
 \end{aligned}
 $$
 {: .notice--info}
+
 
 ## Quantum Statistics / 量子統計
 
@@ -404,6 +381,79 @@ $$
 
 
 ## Quantum System / 量子系
+
+### Ideal Fermi Gas / 理想Fermi気体
+
+$$
+\begin{aligned}{}
+& f_\nu(z) = \frac{1}{\Gamma(\nu)}
+\int_0^\infty \frac{x^{\nu-1}}{z^{-1}e^x+1}\,dx \\
+& \langle N\rangle = \frac{gV}{\lambda_T^3}f_{3/2}(z) \\
+& \langle E\rangle = \frac{3}{2}\frac{gVkT}{\lambda_T^3}f_{5/2}(z) \\
+& P = \frac{gkT}{\lambda_T^3}f_{5/2}(z) \\
+& S = \frac{gVk}{\lambda_T^3}
+\left[\frac{5}{2}f_{5/2}(z)-f_{3/2}(z)\ln z\right] \\
+& \varepsilon_F = \frac{\hbar^2}{2m}
+\left(\frac{6\pi^2N}{gV}\right)^{2/3} \\
+& E_0 = \frac{3}{5}N\varepsilon_F, \quad
+P_0 = \frac{2}{5}\frac{N}{V}\varepsilon_F
+\end{aligned}
+$$
+{: .notice--info}
+
+### Ideal Bose Gas / 理想Bose気体
+
+$$
+\begin{aligned}{}
+& g_\nu(z) = \frac{1}{\Gamma(\nu)}
+\int_0^\infty \frac{x^{\nu-1}}{z^{-1}e^x-1}\,dx \\
+& \langle N\rangle = N_0+\frac{gV}{\lambda_T^3}g_{3/2}(z) \\
+& \langle E\rangle = \frac{3}{2}\frac{gVkT}{\lambda_T^3}g_{5/2}(z) \\
+& P = \frac{gkT}{\lambda_T^3}g_{5/2}(z) \\
+& S = \frac{gVk}{\lambda_T^3}
+\left[\frac{5}{2}g_{5/2}(z)-g_{3/2}(z)\ln z\right] \\
+& T_c = \frac{2\pi\hbar^2}{mk}
+\left[\frac{N}{gV\zeta(3/2)}\right]^{2/3} \\
+& \frac{N_0}{N} = 1-\left(\frac{T}{T_c}\right)^{3/2}
+\end{aligned}
+$$
+{: .notice--info}
+
+### Photon Gas / 光子気体
+
+$$
+\begin{aligned}{}
+& u(\omega) = \frac{\hbar\omega^3}{\pi^2c^3}
+\frac{1}{e^{\hbar\omega/kT}-1} \\
+& \langle E\rangle = \frac{\pi^2k^4}{15\hbar^3c^3}VT^4 \\
+& P = \frac{\pi^2k^4}{45\hbar^3c^3}T^4 \\
+& S = \frac{4\pi^2k^4}{45\hbar^3c^3}VT^3 \\
+& j = \frac{\pi^2k^4}{60\hbar^3c^2}T^4
+\end{aligned}
+$$
+{: .notice--info}
+
+### Phonon Gas / 音子気体
+
+$$
+\begin{aligned}{}
+& \int_0^{k\Theta_D/\hbar}
+\frac{V\omega^2}{2\pi^2}
+\left(\frac{1}{v_L^3}+\frac{2}{v_T^3}\right)\,d\omega
+= 3N \\
+& \langle E\rangle = E_0+9NkT\left(\frac{T}{\Theta_D}\right)^3
+\int_0^{\Theta_D/T}\frac{x^3}{e^x-1}\,dx \\
+& C_V = 9Nk\left(\frac{T}{\Theta_D}\right)^3
+\int_0^{\Theta_D/T}\frac{x^4e^x}{(e^x-1)^2}\,dx \\
+& \begin{aligned}{}
+& T \ll \Theta_D: &&
+C_V \simeq \frac{12\pi^4}{5}Nk\left(\frac{T}{\Theta_D}\right)^3 \\
+& T \gg \Theta_D: && C_V \simeq 3Nk
+\end{aligned}
+\end{aligned}
+$$
+{: .notice--info}
+
 
 ## Interacting System
 
