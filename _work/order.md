@@ -111,7 +111,7 @@ pre {
 * Na, K, Ca, Mg
 * TSH
 * EKG
-* Propranolol 10mg TID PO
+* Bisoprolol 2.5mg BID PO
 * Diltiazem 12.5mg STAT IF (NS 100mL, run 100min)
 * Amiodarone 150mg QD IF (D5W 100mL, run 30min)
 * Amiodarone 900mg QD cIF (D5W 500mL, run 1440min)
@@ -237,8 +237,9 @@ pre {
 
 * Na, K, Ca, Mg
 * Stool WBC, stool culture
-* Loperamide 2mg PRN PO
+. C. difficile test
 * Smecta 3g TID PO
+* Loperamide 2mg PRN PO
 * NS 500mL STAT IF (120min)
 
 ### Constipation
@@ -335,7 +336,7 @@ pre {
 
 ### Hyperglycemia
 
-* Insulin regular 6~10 U STAT SC
+* Insulin regular 2~10 U STAT SC
 
 ### Hypoglycemia
 
@@ -377,15 +378,15 @@ pre {
 * Blood culture, blood culture
 * Urinalysis, urine culture
 * Sputum stain + culture
-* Influenza rapid test
-* COVID rapid test
-* X-ray chest (standing)
+* Influenza + COVID rapid test
+* Chest X-ray
 * Acetaminophen 500 mg Q6HPRN PO (if BT > 38)
 * Cefuroxime 1500 mg Q8H IV
 * Ceftriaxone 1000 mg Q12H IV
 * Piperacillin/tazobactam 3000 mg Q6H IF (in NS 100 mL, run 30 min)
 * Cefepime 2000 mg Q12H IF (in NS 100 mL, run 30 min)
 * Meropenem 1000 mg Q8H IF (in NS 100 mL, run 30 min)
+* Anidulafungin 100mg QD IF (NS 130mL, run run 90min)
 
 ### Pneumonia
 
@@ -575,7 +576,9 @@ pre {
 
 ### Insomnia
 
+* Diphenhydramine 30mg HS IV
 * Zolpidem 10mg HS PO
+* Estazolam 2mg HS PO
 * Brotizolam 0.25mg HS PO
 
 ### Agitation
