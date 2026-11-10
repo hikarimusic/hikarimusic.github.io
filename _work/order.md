@@ -81,7 +81,7 @@ pre {
 * Naproxen 250mg BID PO
 * Celecoxib 200mg QD PO
 * Tramadol/Acetaminophen 37.5mg/325mg QID PO
-* Acetaminophen 1000mg Q6HPRN IV
+* Acetaminophen 1000mg Q6HPRN IF (100mL, run 15min)
 * Tramadol 100mg Q6HPRN IF (NS 100mL, run 60min)
 * Nalbuphine 5mg Q4HPRN IV
 * Morphine 3mg Q4HPRN IM
@@ -183,6 +183,7 @@ pre {
 * Chest X-ray
 * Dextromethorphan 15mg TID PO
 * Acetylcysteine 600mg BID PO
+* Mesna 200mg Q6H IH
 
 ### Asthma AE
 
@@ -302,8 +303,7 @@ pre {
 
 * 12-lead EKG
 * Potassium gluconate 40 mEq STAT PO
-* Potassium chloride 20 mEq STAT IF (in NS 500 mL, run 120 min)
-* Magnesium sulfate 16 mEq STAT IF (in NS 100 mL, run 60 min)
+* Potassium chloride 40 mEq STAT IF (in NS 500 mL, run 360 min)
 
 ### Hypernatremia
 
@@ -319,6 +319,10 @@ pre {
 
 * Normal saline 1000 mL STAT IF (run 120 min)
 * Furosemide 20 mg STAT IV
+
+### Hypomagnesemia
+
+* Magnesium sulfate 16 mEq STAT IF (in NS 100 mL, run 60 min)
 
 ### Acute Kidney Injury
 

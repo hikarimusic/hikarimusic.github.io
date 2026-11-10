@@ -296,7 +296,7 @@ $$
 $$
 \begin{aligned}{}
 & x = \frac{\mu B}{kT} \\
-& E = -N\mu B\left(\coth x-\frac{1}{x}\right) \\
+& \langle E\rangle = -N\mu B\left(\coth x-\frac{1}{x}\right) \\
 & S = Nk\left[\ln\left(4\pi\frac{\sinh x}{x}\right)-x\coth x+1\right] \\
 & M = N\mu\left(\coth x-\frac{1}{x}\right) \\
 & \begin{aligned}{}
@@ -437,10 +437,7 @@ $$
 
 $$
 \begin{aligned}{}
-& \int_0^{k\Theta_D/\hbar}
-\frac{V\omega^2}{2\pi^2}
-\left(\frac{1}{v_L^3}+\frac{2}{v_T^3}\right)\,d\omega
-= 3N \\
+& \Theta_D = \frac{\hbar v}{k}\left(\frac{6\pi^2N}{V}\right)^{1/3} \\
 & \langle E\rangle = E_0+9NkT\left(\frac{T}{\Theta_D}\right)^3
 \int_0^{\Theta_D/T}\frac{x^3}{e^x-1}\,dx \\
 & C_V = 9Nk\left(\frac{T}{\Theta_D}\right)^3

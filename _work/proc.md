@@ -40,6 +40,16 @@ pre {
 - Finish：反抽+flush 各頭、卡 clamp 、針線固定
 {: .notice--info}
 
+### Paracentesis
+
+- Localization: 超音波確認、指甲標記
+- Sterilization: 酒精+消毒液三消、帶無菌手套、鋪洞巾
+- Anesthetizing: 抽local、重複(進針反抽打藥)直到抽到水、退針
+- Insertion：維持負壓進硬針、抽到水後推軟針、退硬針
+- Tapping：接IV line、關lock、接真空瓶、開lock、放水
+- Finish：退cath、貼紗布止血
+{: .notice--info}
+
 ### Wet Dressing
 
 - Remove：移除紗布、檢查傷口
