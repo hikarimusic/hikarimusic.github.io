@@ -23,8 +23,8 @@ author_profile: true
 
 ## Others
 
-Nation Rank 1, Taiwan Medical Licensing Examination (Step 2) [↗](https://drive.google.com/file/d/1tbICLmvQhBCNG73DYudIp-HcF07xl55N/view?usp=sharing)
+Nation Rank 1, Taiwan Medical Licensing Examination (Step 2) [&#x2197;&#xFE0E;](https://drive.google.com/file/d/1tbICLmvQhBCNG73DYudIp-HcF07xl55N/view?usp=sharing)
 
-School Rank 1, Taipei Municipal Chien Kuo High School (Overall Grade) [↗](https://drive.google.com/file/d/1PPE4y7rIzVBL6dTXiR0QsizCm1RoFFV7/view?usp=sharing)
+School Rank 1, Taipei Municipal Chien Kuo High School (Overall Grade) [&#x2197;&#xFE0E;](https://drive.google.com/file/d/1PPE4y7rIzVBL6dTXiR0QsizCm1RoFFV7/view?usp=sharing)
 
-Silver Medal, International Physics Olympiad (IPHO 2019) [↗](https://drive.google.com/file/d/1Qc9FN-_p-giMN789yRnHnTmzjnlBtJZn/view?usp=sharing)
+Silver Medal, International Physics Olympiad (IPHO 2019) [&#x2197;&#xFE0E;](https://drive.google.com/file/d/1Qc9FN-_p-giMN789yRnHnTmzjnlBtJZn/view?usp=sharing)
