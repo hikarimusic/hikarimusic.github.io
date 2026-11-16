@@ -21,6 +21,11 @@ pre {
 
 ## Oncology
 
+**Admission**
+```text
+
+```
+
 **Progress**
 ```text
 #.
@@ -32,6 +37,9 @@ pre {
 > Order
 > Blood
 > Diet
+```
+```text
+I was called to see the patient due to absence of the vital signs. On examination, the patient's pupils were fully dilated and had no light reflex in both eyes. There were no spontaneous breathing, no palpable pulses, and no heart beats audible. Patient had no response to pain stimulation. He was pronounced expired peacefully at [] on []/[]/[].
 ```
 
 **Discharge**

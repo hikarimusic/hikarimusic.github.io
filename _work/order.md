@@ -24,22 +24,21 @@ pre {
 ### ER
 
 * CBC, DC
-* ALT, CRE
-* Na, K
-* Glucose
+* ALT, Cre
+* Na, K, Glu
 * On IV catheter
 {: .notice--info}
 
 ### Ward
 
 * CBC, DC
-* AST, ALT
-* ALP, T-BIL
-* CRE, BUN
+* AST, ALT, ALP, T-Bil
+* BUN, Cre
 * Na, K, Ca
+* One-touch
 * Chest X-ray
 * On IV catheter
-* Record TPR, BP
+* Record TPR, BP, O2
 {: .notice--info}
 
 ### Pre-OP
@@ -57,8 +56,8 @@ pre {
 
 * CBC, DC
 * Cefazolin 1000mg Q8H IV
-* Acetaminophen 500mg QID PO
-* Bisacodyl 20mg Q4HPRN R
+* Acetaminophen 500mg Q6HPRN PO
+* Bisacodyl 10mg Q6HPRN R
 * NPO until flatus
 * Change dressing
 * Record drainage
@@ -70,8 +69,8 @@ pre {
 * Lactated-Ringer 1000mL QD IF (run 480min)
 * Dextrose-5% 1000mL QD IF (run 480min)
 * Taita-No.5 800mL QD IF (run 480min)
-* Bfluid 1000 mL QD IF (run 480min)
-* Nutriflex 1000mL QD IF (run 1440min)
+* Bfluid 1000mL QD IF (run 480min)
+* Nutriflex 1000mL QD IF (run 960min)
 * Fat-emulsion 250mL QD IF (run 480min)
 {: .notice--info}
 
@@ -84,7 +83,8 @@ pre {
 * Acetaminophen 1000mg Q6HPRN IF (100mL, run 15min)
 * Tramadol 100mg Q6HPRN IF (NS 100mL, run 60min)
 * Nalbuphine 5mg Q4HPRN IV
-* Morphine 3mg Q4HPRN IM
+* Morphine-soln 10mg Q4HPRN PO
+* Morphine 5mg Q4HPRN IV
 {: .notice--info}
 
 ## Cardiovascular
@@ -139,11 +139,10 @@ pre {
 * EKG
 * Chest X-ray
 * Ultrasound (FAST)
-* NS 1000mL STAT IF (run 60min)
-* Norepinephrine 8mg QD cIF (D5W 250 mL, run 5 mL/hr)
+* Midodrine 2.5mg BID PO
+* Lactated-Ringer 500mL STAT IF (run 120min)
+* Norepinephrine 16mg QD cIF (D5W 250 mL, run 5 mL/hr)
 * Vasopressin 60U QD cIF (NS 100 mL, run 4 mL/hr)
-* Piperacillin 4000mg Q6H IF (NS 100 mL, run 30min)
-* Transfuse RBC 2U
 
 ### Acute coronary syndrome
 
@@ -173,7 +172,8 @@ pre {
 * Chest X-ray
 * Chest CT (CTPA)
 * Furosemide 20mg Q6H IV
-* Ipratropium/salbutamol 0.5/2.5mg Q6H IH
+* Mesna 200mg Q6H IH
+* Ipratropium/salbutamol 0.5mg/2.5mg Q6H IH
 * O2 cannula/mask
 
 ### Cough
@@ -373,30 +373,39 @@ pre {
 * Fibrinogen / D-dimer
 * FFP 2U transfusion (if active bleeding)
 
+### Bleeding
+
+* Tranexamic-acid 250mg TID PO
+* Tranexamic-acid 500 mg Q8H IF (in D5W 100 mL, run 20 min)
 
 ## Infectious
 
 ### Fever
 
 * CBC, DC
+* CRP, lactate
 * Blood culture, blood culture
 * Urinalysis, urine culture
-* Sputum stain + culture
-* Influenza + COVID rapid test
+* Sputum stain, sputum culture
+* Influenza antigen, COVID antigen
 * Chest X-ray
-* Acetaminophen 500 mg Q6HPRN PO (if BT > 38)
-* Cefuroxime 1500 mg Q8H IV
-* Ceftriaxone 1000 mg Q12H IV
-* Piperacillin/tazobactam 3000 mg Q6H IF (in NS 100 mL, run 30 min)
-* Cefepime 2000 mg Q12H IF (in NS 100 mL, run 30 min)
-* Meropenem 1000 mg Q8H IF (in NS 100 mL, run 30 min)
-* Anidulafungin 100mg QD IF (NS 130mL, run run 90min)
+* Acetaminophen 500mg Q6HPRN PO
+* Cefuroxime 1500mg Q8H IV
+* Ceftriaxone 1000mg Q12H IV
+* Ceftazidime 2000mg Q8H IV
+* Cefoperazone 2000mg Q12H IV
+* Piperacillin 4000mg Q6H IF (NS 100 mL, run 60min)
+* Cefepime 2000mg Q8H IF (NS 100 mL, run 60min)
+* Eertapenem 1000mg QD IF (NS 100 mL, run 60min)
+* Meropenem 1000mg Q8H IF (NS 100 mL, run 60min)
+* Anidulafungin 100mg QD IF (NS 130mL, run 90min)
+{: .notice--info}
 
 ### Pneumonia
 
 * CBC, DC
 * Sputum stain + culture
-* X-ray chest (standing)
+* Chest X-ray
 * Amoxicillin/clavulanate 1000 mg Q12H PO
 * Doxycycline 100 mg Q12H PO
 * Ceftriaxone 1000 mg Q12H IV
@@ -421,7 +430,7 @@ pre {
 * Cefalexin 500 mg QID PO
 * Doxycycline 100 mg Q12H PO
 * Cefazolin 1000 mg Q8H IV
-* Teicoplanin 6 mg/kg QD IF (in NS 100 mL, run 30 min)
+* Teicoplanin 600mg QD IF (in NS 100 mL, run 30 min)
 * Incision & drainage
 
 
@@ -573,6 +582,7 @@ pre {
 ### Urinary retention
 
 * Bethanechol 25mg TID PO
+* Tamsulosin 0.2mg QD LZ
 * On Foley catheter
 
 
@@ -584,6 +594,7 @@ pre {
 * Zolpidem 10mg HS PO
 * Estazolam 2mg HS PO
 * Brotizolam 0.25mg HS PO
+* Quetiapine 25mg HS PO
 
 ### Agitation
 
