@@ -19,24 +19,142 @@ pre {
 }
 </style>
 
-## Oncology
+## Internal Medicine
+
+### Oncology
 
 **Admission**
 ```text
+This is a []-year-old {man/woman} with medical history of:
 
+#. {Cancer}, {pathology}, {staging}
+- status post {surgery} (on [])
+- status post {chemotherapy} (C1D1=[], CxD1=[])
+- status post {radiotherapy} ([] to [])
+- with {invasion/metastasis} ({CT/MRI} on [])
+#. {Undrelying disease}, under []
+
+{initial presentation}
+
+{further treatment}
+
+Under the diagnosis of [], the patient was admitted for [].
+
+[Past history]
+1. Past medical history: as above
+2. Surgical history:
+    - 
+3. Hospitalization history:
+    - 
+4. Allergy history:
+    - Drug: denied
+    - Food: denied
+5. Current medication
+    - NTUH:
+    - Others: nil
+    - 中藥: nil
+    - 保健食品: nil
+6. Lifestyle:
+    - Cigarette:
+    - Alcohol:
+    - Betel nut:
+7. Family history:
+    - 
+8. TOCC history:
+    - Travel: nil
+    - Occupation: []
+    - Contact/Cluster: nil
+```
+```text
+(■:positive, □:negative) 
+. Systemic        
+□fever, □chills, 
+□night sweats, □fatigue, □somnolence, □insomnia 
+□weight change, □decreased appetite,  
+□consciousness disturbance, □diffuse arthralgias/myalgias, 
+□heat/cold intolerance, □thirsty, □general edema
+ 
+. Head/Eyes
+□headache, □dizziness, □vertigo, □photophobia, 
+□diplopia, □visual field defect, □blurred vision
+
+. Ears/Nose
+□hearing impairment, □tinnitus, □otalgia, □otorrhea,  
+□nasal congestion, □rhinorrhea, □epistaxis, □anosmia
+
+. Mouth/Throat
+□oral ulcer, □gum bleeding, □dry mouth, □dental problems 
+□sore throat, □dysphagia, □odynophagia, □hoarseness
+
+. Cardiovascular/Respiratory
+□cough, □sputum, □hemoptysis, □wheezes  
+□dyspnea, □chest tightness/pain, 
+□orthopnea, □paroxysmal nocturnal dyspnea,  
+□syncope, □palpitation, □intermittent claudication
+
+. Gastrointestinal
+□anorexia, □nausea, □vomiting:bilious/feculent, □hematemesis   
+□heartburn/acid regurgitation,□hiccup 
+□abdominal pain, □abdominal distention
+□diarrhea, □constipation, □tarry stool, □clay-colored stool 
+□change of bowel habit, □ tenesmus, □flatulence
+
+. Genito-urinary
+□urinary frequency, □urgency, □dysuria,  
+□incontinence, □nocturia, □polyuria, □oliguria
+
+. Skin/Hemagological
+□rash, □pruritus, □dryness, □jaundice
+```
+```text
+Vital Sign:
+BH: [] cm,  BW: [] kg,
+T: [] °C,  P: [] bpm,  R: [] /min,
+BP: [] / [] mmHg,
+Pain score: 0
+
+Neurological Examination: 
+. Consciousness: clear
+. Muscle power: full 
+. Gait: steady
+
+Physical Examination
+. Eyes: 
+  . Conjunctivae: pink; Sclerae: anicteric
+  . Extraocular movement: full and free
+. Mouth:
+  . Intact oral mucosa
+. Neck: 
+  . Supple;  
+  . Jugular vein engorgement (-)
+. Chest:
+  . Thoracic cage contour: symmetric; 
+  . Bilateral clear breathing sounds; 
+  . Crackle(-); Wheeze(-); Rhonchi(-); Stridor(-)
+. Heart:
+  . Heart beats: regular
+  . No remarkable murmurs
+. Abdomen: 
+  . Flat and smooth;
+  . Bowel sounds: normoactive; Percussion: tympanic
+  . Tenderness(-); Rebound tenderness(-); Muscle guarding (-) 
+. Extremities: 
+  . Freely movable; Warm extremities
+  . Capillary refilling time: <2s
+  . Pitting edema(-); Cyanosis (-)
 ```
 
 **Progress**
 ```text
-#.
+#. {diagnosis}
 - Vital: TPR, BP, O2 
 - Lab: CBC, BCM, culture
 - Image: CXR, CT, MRI
 - Line: CVC, foley, NG
-> Medication
-> Order
-> Blood
-> Diet
+> Medication: ward, OPD
+> Order: lab, image
+> Blood: prepare, transfusion
+> Diet: feeding, PPN, TPN
 ```
 ```text
 I was called to see the patient due to absence of the vital signs. On examination, the patient's pupils were fully dilated and had no light reflex in both eyes. There were no spontaneous breathing, no palpable pulses, and no heart beats audible. Patient had no response to pain stimulation. He was pronounced expired peacefully at [] on []/[]/[].
