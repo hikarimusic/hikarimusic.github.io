@@ -27,4 +27,4 @@ Nation Rank 1, Taiwan Medical Licensing Examination (Step 2) [<i class="fas fa-e
 
 School Rank 1, Taipei Municipal Chien Kuo High School (Overall Grade) [<i class="fas fa-external-link-alt"></i>](https://drive.google.com/file/d/1PPE4y7rIzVBL6dTXiR0QsizCm1RoFFV7/view?usp=sharing)
 
-Silver Medal, International Physics Olympiad (IPHO 2019) [<i class="fas fa-external-link-alt"></i>](https://drive.google.com/file/d/1Qc9FN-_p-giMN789yRnHnTmzjnlBtJZn/view?usp=sharing)
+Silver Medal, International Physics Olympiad (IPHO 2019) [<i class="fas fa-external-link-alt"></i>](https://ipho-unofficial.org/timeline/2019/individual#:~:text=Yeu-Guang%20Tung)
