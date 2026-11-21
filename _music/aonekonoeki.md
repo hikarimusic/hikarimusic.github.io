@@ -12,13 +12,12 @@ tags:
 
 ## 青猫の駅
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lK9PFIAO_B4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://eggs.mu/player/embed/eJwFwTsKgDAQBcC7vNqFjfmZ9IKNh9jEFYJo4acS7-7Mi-usyFCrLN4JcYwruWCVSrGBdPVSimetEtHhkF3HAxlT2-Rs83O1ig7LjWxi8oZ7dmlI7vsBZSkY9A?layout=vlong&base=f2f2f2&text=000000&button=000000&size=w360" width="100%" height="461" scrolling="no" framebordercrolling="no" frameborder="0" class="eggsplayer eggs-w360" style="height: 461px; width: 100px; min-width:100%"></iframe>
 
 
 ## About
 
-* ボーカル：AIきりたん
+* ボーカル：東北きりたん
 * 作曲・作詞・編曲：HiKARi
 * イラスト・動画：HiKARi
 
