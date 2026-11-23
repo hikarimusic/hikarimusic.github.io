@@ -165,7 +165,7 @@ I was called to see the patient due to absence of the vital signs. On examinatio
 After admission, laboratory data and physical examination findings were within normal limits. The patient received the cycle [] of chemotherapy with [] starting on []. No acute adverse effects were noted during treatment. The patient was discharged in stable condition on [], with OPD follow-up arranged.
 ```
 ```text
-病人因上述疾病，於西元[]年[]月[]日至本院腫瘤科病房住院，於西元[]年[]月[]日接受自費靜脈注射{標靶/化療}藥物[]及健保給付靜脈注射化學藥物，於西元[]年[]月[]日出院，宜持續於門診追蹤治療
+病人因上述疾病，於西元[]年[]月[]日至本院腫瘤科病房住院，於西元[]年[]月[]日接受自費靜脈注射{標靶/化療}藥物[]及健保給付靜脈注射化學藥物，於西元[]年[]月[]日出院，宜持續於門診追蹤治療。
 ```
 
 ## OBGYN

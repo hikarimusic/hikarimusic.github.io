@@ -423,6 +423,12 @@ pre {
 * Ceftriaxone 1000 mg Q12H IV
 * Piperacillin/tazobactam 3000 mg Q6H IF (in NS 100 mL, run 30 min)
 
+### Intra-abdominal infection
+
+* Flumarin 1000mg Q8H IV
+* Piperacillin 4000mg Q6H IF (NS 100 mL, run 60min)
+* Metronidazole 500mg Q8H IF (100mL, run 60min)
+
 ### Soft tissue infection
 
 * CBC, DC
@@ -438,11 +444,16 @@ pre {
 
 ### Allergy
 
-* Levoceterizine 5mg HS PO
+* Diphenhydramine 30mg STAT IV
+* Hydrocortisone 100mg STAT IV
 
 ### Anaphylaxis
 
 * Epinephrine 0.5mg STAT SC
+
+### Allergic rhinitis
+
+* Levoceterizine 5mg HS PO
 
 ## Neurological
 
